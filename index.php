@@ -198,7 +198,7 @@ echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" sty
 ?>
 <small>
 <br><br>
-<img src="../new.gif"><a href="http://sourceforge.net/apps/phpbb/mathassistant">
+<img src="new.gif"><a href="http://sourceforge.net/apps/phpbb/mathassistant">
 <?php  echo __("Support from MAW forum");?></a>
 </a>
 <br>
