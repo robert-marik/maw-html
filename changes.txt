@@ -12,7 +12,7 @@ future plans:
 * integral: if function can be splitted into sum and is in x variable,
    we can investigate terms separately. Allow this feature also for
    general variable (by converting into x variable first)
-
+* put all po files into one directory
 
 changes from January 2008
 -------------------------
