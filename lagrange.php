@@ -1,0 +1,29 @@
+
+<span class="nadpis">
+   <?php echo __("Lagrange polynomial");?>
+
+</span>
+<form 
+<?php echo $onsubmit;?>
+method="get" action="<?php echo($server);?>/lagrange/lagrange.php">
+<fieldset class="main">
+<?php polejazyka($lang); ?>
+<?php echo __('Data file'); ?>:
+ <input size="100" name="body" value="1, 2 ; 2,3; 3,1 ">  
+
+<br>
+<br>
+<?php echo $submitbutton;?>
+<br>
+</fieldset>
+
+</form>
+
+<?php history("lagrange",$server); 
+
+
+echo __("MAW-lagr");
+
+
+?>
+

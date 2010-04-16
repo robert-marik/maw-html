@@ -1,0 +1,36 @@
+form {font-size:110%; background-color: #E0FFFF; }
+div#kalkulator {margin-left: 5px; margin-top: 1px; padding: 10px; text-align:left;background-color: #9ce6f3;}
+
+
+div#odkaz_hlavicka a {line-height: 220%;text-decoration:
+none; background-color: #eofff; margin: 8px; padding: 4px;
+border-color: #555; border-left: 2px solid  #555; color:#555; font-weight : bold;
+}
+
+div#odkaz_hlavicka{text-align: left;}
+
+div#submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
+
+div#submenu .aktivni a{border-bottom: 1px solid #555; color:#000;}
+div#odkaz_hlavicka .aktivni a { border-bottom: 2px solid #555; color:#000;}
+
+div#submenu a:hover   {color: red;}
+div#odkaz_hlavicka a:hover   {color: red;}
+
+div#dvojint td   {text-align: center;}
+
+body {background-color: #E0FFFF; font-size:14px; font-family: Arial, ARIAL CE, Helvetica, sans-serif;}
+
+.nadpis{font-size:150%; }
+.podnadpis{font-size: 110%; }
+
+.mainmenu{background-color: #9ce6f3;}
+
+td {font-size:14px; }
+
+.main{border-width: 0px;}
+
+.tlacitko{background-color: lightgray; }
+
+.vnitrni {border: 3px solid #9ce6f3; }
+.fieldsetmin {border-width: 0px; margin:10px; margin-left:60px;}

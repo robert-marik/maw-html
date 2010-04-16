@@ -1,0 +1,15 @@
+echo "Updating Catalan .mo file"
+cd ~/html/maw/locale/ca_ES/LC_MESSAGES/
+msgfmt messages.po
+
+echo "Updating Czech .mo file"
+cd ~/html/maw/locale/cs_CZ/LC_MESSAGES/
+msgfmt messages.po
+
+echo "Updating Polish .mo file"
+cd ~/html/maw/locale/pl_PL/LC_MESSAGES/
+msgfmt messages.po
+
+echo "Updating English .mo file"
+cd ~/html/maw/locale/en_US/LC_MESSAGES/
+msgfmt messages.po

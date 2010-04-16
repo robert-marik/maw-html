@@ -1,0 +1,6 @@
+xgettext    --keyword=__ --from-code=utf-8 *.php 
+msgmerge -U locale/en_US/LC_MESSAGES/messages.po messages.po
+msgmerge -U locale/cs_CZ/LC_MESSAGES/messages.po messages.po
+msgmerge -U locale/pl_PL/LC_MESSAGES/messages.po messages.po
+msgmerge -U locale/ca_ES/LC_MESSAGES/messages.po messages.po
+

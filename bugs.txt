@@ -1,0 +1,24 @@
+Description: The calculator for function investigation cannot find
+stationary points for the function like y=x+acot(x). This is related to
+the fact that maxima 5.13 returns error for acot(0.0)
+http://user.mendelu.cz/marik/maw/index.php?form=prubeh
+
+Solution: Use newer maxima. However, newer maxima is slower and it will
+not be installed on our primary server.
+
+--------------------------------------------
+Description: Derivative of
+asin(sin(x*log(3*x**5-3*x**(-5)))-3*log(sin(x*log(3*x**5-3*x**(-5))))) 
+fails (more preciselly: is too long and refused after 10 sec)
+
+http://wood.mendelu.cz/math/maw/derivace/derivace.php?lang=cs&ip=78.98.56.92&referer=&funkce=arcsin%28sin%28x*ln%283*x%5E5-3*x%5E%28-5%29%29%29-3*ln%28sin%28x*ln%283*x%5E5-3*x%5E%28-5%29%29%29%29%29&akce=0
+
+Solution: Use your own server and increase time limit.
+
+--------------------------------------------
+radcan simplifies derivative of asin((x+1)/(x-1)) in and incorrect way
+( sqrt(x^2-2*x+1) is simplified into x-1, not abs(x-1) )
+
+Solution: Do not trust everything computed by CAS or install MAW on your
+server and remove radcan from the chain called when simplifying
+derivative

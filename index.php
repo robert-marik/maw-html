@@ -1,0 +1,438 @@
+<?php 
+
+/*
+Mathematical Assistant on Web - web interface for mathematical
+coputations including step by step solutions
+Copyright 2007-2008 Robert Marik, Miroslava Tihlarikova           
+
+This file is part of Mathematical Assistant on Web.
+
+Mathematical Assistant on Web is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software
+Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Mathematical Assistant on Web is distributed in the hope that it
+will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Mathematical Assistant o Web.  If not, see 
+<http://www.gnu.org/licenses/>.
+
+*/
+
+$server="http://localhost/maw";
+$lang = "en"; $locale_file = "en_US";
+
+if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
+
+require_once("lib/streams.php");
+require_once("lib/gettext.php");
+
+$reqlang=$_REQUEST["lang"];
+
+if (($reqlang == "")||($reqlang == "cs")||($reqlang == "cz")) { $lang = "cs"; $locale_file = "cs_CZ"; }
+
+if ($reqlang == "pl") { $lang = "pl"; $locale_file = "pl_PL"; }
+
+if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
+
+$locale_file_reader = new FileReader("locale/$locale_file/LC_MESSAGES/messages.mo");
+$locale_reader = new gettext_reader($locale_file_reader);
+
+function __($text){
+	global $locale_reader;
+	return $locale_reader->translate($text);
+}
+
+
+$form=$_REQUEST["form"];
+
+if (ereg("[^32a-z]",$form))
+{
+  header('Location:http://user.mendelu.cz/marik/maw');
+  die();
+}
+
+
+if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2"))
+{
+  $form="main";
+}
+
+
+
+if ($form=="main") {$submenu=1;}
+if ($form=="map") {$submenu=7;}
+
+if (($form=="graf")||($form=="df")||($form=="df3d")||($form=="lagrange")||($form=="mnc")) {$submenu=2;}
+if (($form=="derivace")||($form=="prubeh")||($form=="taylor")||($form=="minmax3d")) {$submenu=3;}
+if (($form=="integral")||($form=="integral2")||($form=="geom")||($form=="trap")) {$submenu=4;}
+if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
+if (($form=="banach")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
+
+function hint_preview(){
+ echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");}
+
+function history($adresar,$server)
+{
+  echo ("<a style=\"font-weight: bold;\" href=\"$server/common/tail.php?dir=$adresar\">");
+  echo __("History");
+  echo ("</a><br>");
+}
+
+function polejazyka($ret)
+{
+echo '<input type="hidden" name="lang" value="'.$ret.'">';
+echo '<input type="hidden" name="ip" value="'.$_SERVER['REMOTE_ADDR'].'">';
+$ref=$_SERVER['HTTP_REFERER'];
+echo '<input type="hidden" name="referer" value="'.$ref.'">';
+}
+
+$referer=$_SERVER['HTTP_REFERER'];
+if ((strpos($referer, 'user.mendelu.cz/~marik/maw') == false)&&(strpos($referer, 'user.mendelu.cz/marik/maw') == false)&&($referer!=""))
+  {
+    $fp = fopen('log/log-ref.dat', 'a');
+    fwrite($fp, date("d.M.Y, H:i:s, ")."server: ".$_SERVER['REMOTE_ADDR'].'  ref: '.$referer."\n");
+    fclose($fp);
+  }
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <link rel="shortcut icon" href="ikona1.png" >
+  <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" />
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <link rel="stylesheet" type="text/css" href="styl.css" />
+  <link rel="stylesheet" type="text/css" href="navigace.css" />
+  <title>Mathematical Assistant on Web (<?php echo $form ?>) </title>
+
+  <script language="JavaScript">
+var thedata;
+var newwin;
+var thenumber;
+function edit(textarea)
+{
+thenumber = textarea;
+thedata = document.forms['exampleform'].elements[textarea].value
+newwin =
+window.open("MaximaPopup.html","","width=565,height=385,resizable")
+}
+
+function preview(textarea)
+{
+<?php
+    echo 'server="',$server,'";';
+?>
+  if (document.forms['exampleform'].elements['formconv'].value=="on")
+    {
+thenumber = textarea;
+thedata = document.forms['exampleform'].elements[textarea].value
+newwin =
+window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
+	}
+  else
+    {
+thenumber = textarea;
+thedata = document.forms['exampleform'].elements[textarea].value
+newwin =
+window.open(server+"/common/maxima.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
+    }
+}
+
+function previewb(textarea)
+{
+<?php
+    echo 'server="',$server,'";';
+?>
+thenumber = textarea;
+thedata = document.forms['exampleform'].elements[textarea].value;
+newwin =
+window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable");
+}
+
+function previewb_int2(textarea)
+{
+<?php
+    echo 'server="',$server,'";';
+?>
+  thedata = server+"/common/formconv.php?expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
+newwin =
+window.open(thedata,"","width=565,height=150,resizable");
+}
+
+  </script>
+
+<script type="text/javascript" src="overlibmws/overlibmws.js">
+</script> 
+</head>
+<body><div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
+
+<noscript> <b style="color: rgb(255, 0, 0)";>
+<?php 
+echo __("You should turn JavaScript on to see popup informations.");
+?>
+</b>  </noscript> 
+
+<div style="height: 0px; position: absolute; top: 0px; leftt: 5px;">
+<p align="left"><small>
+<?php echo '<a href="index.php?lang=cz&form='.$form.'">
+<img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
+echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>';
+?>
+</small></p></div>
+
+<div style="height: 0px; position: absolute; top: 0px; right: 5px;">
+<p align="right"><small>
+<?php echo '<a href="index.php?lang=cz&form='.$form.'">
+<img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
+echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>';
+?>
+<small>
+<br><br>
+<img src="../new.gif"><a href="http://sourceforge.net/apps/phpbb/mathassistant">
+<?php  echo __("Support from MAW forum");?></a>
+</a>
+<br>
+<a href="changes.txt">
+<?php  echo __("changelog");?></a>
+<br>
+<a href="bugs.txt">
+<?php  echo __("known bugs");?></a>
+</small></small></p>
+</div>
+
+<?php 
+
+function  cz_en($cz,$en) {global $lang; if ($lang=="en") {return $en;} else {return $cz;}}
+
+/* echo '<center><span style="font-weight:bold;color:red">This is new version of MAW. If something does not */
+/* work, you can use old version <a           */
+/* href="http://user.mendelu.cz/marik/maw-old">here</a>.<br></span>'.cz_en("Pokud něco nefunguje v nové verzi, ale funguje ve verzi staré, dejte prosím o tomto problému vědět výojářům.<br>Nahlašte prosím i případné texty, které zůstaly nepřeloženy do češtiny.","If something does not work but works well in the old version, report this problem to the developers, please.").'</center>'; */
+
+//echo '&nbsp;&nbsp;&nbsp;&nbsp';
+//echo '&nbsp;&nbsp;&nbsp;&nbsp';
+//echo '&nbsp;&nbsp;&nbsp;&nbsp';
+// echo '<img src="../construction.jpg" width=100px/> ';
+//echo '<img src="../construction.jpg" width=150px/> ';
+//echo '<img src="../construction.jpg" width=150px/> ';
+//echo '<img src="../construction.jpg" width=150px/> ';
+//echo '<img src="../construction.jpg" width=150px/>';
+//echo '<br>';
+//echo '<big><b style=\'color: rgb(255, 0, 0)\';>';
+//echo 'Under construction';
+//echo '</b></b></big>';
+//echo '<img src="../construction.jpg" width=150px/> ';
+
+//echo '<center><span style="color:red"><b>CZECH - Delali jsme velke zmeny tykajici se internationalizace. Nahlaste nam proto prosim pripadne chyby nebo nesmyslne preklady.<br>ENGLISH - We did many changes related to internationalization. Report possible bugs, errors, misspelled or senseless formulations, please. Many many thanks<br>email: marik@mendelu.cz</b></span></center>';
+
+//echo '<center><a href="http://frcatel.fri.uniza.sk/OSS09" target="_blank"> 
+//<img alt="OSS09" height="44" width="220" src="http://frcatel.fri.uniza.sk/img/oss09.png"/> </a></center>'; 
+
+
+echo '<h2 style="text-align: center;">';
+echo __('Mathematical Assistant on Web');
+echo '&nbsp;&nbsp;<small><small>('; 
+echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
+echo ')<br><center>('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.html">','</a>','<a href="translators.html">','</a>').')</center></small></small> </h2>';
+
+
+
+?>
+
+<div id="odkaz_hlavicka">
+
+<div class="mainmenu">
+ 
+<?php 
+
+
+$onsubmitA=<<<STR
+onsubmit="aa=document.getElementById('myButton');
+aa.disabled=true;
+aa.value='%s';
+bb='%s';
+setTimeout('aa.disabled=false;aa.value=bb', 5000);"
+STR;
+
+$onsubmitA=<<<STR
+onsubmit="aa=document.getElementById('myButton');
+aa.disabled=true;
+aa.value='%s';
+bb='%s';"
+STR;
+
+if ($form == "integral")
+{
+$onsubmit=sprintf($onsubmitA,__('Submitting, please wait ...'),__('Submit'));
+}
+else
+{
+$onsubmit=' ';
+}
+
+$submitbuttont=<<<SUB
+<input value="%s" name="tlacitko" type="submit" class="tlacitko" id="myButton">
+<small>(%s)</small>
+SUB;
+
+$submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));
+
+
+  function aktivni_konec($cislo){echo '</span>';}
+  function aktivni($cislo){
+    global $submenu;
+    if ($submenu==$cislo) echo '<span class="aktivni">';
+  }
+
+  function aktivni_form($identifikace){
+    global $form;
+    $t="<span>";
+    if ($identifikace==$form) {$t="<span class=\"aktivni\">";}
+    return($t);
+  }
+
+
+aktivni(1);
+printf( '<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\');" onmouseout="return nd();" >',__("Introduction, general remarks"));
+echo __('Introduction'); 
+echo '</a>';
+aktivni_konec(1);
+aktivni(2);
+printf('<a href="index.php?lang='.$lang.'&form=graf" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Graphs of basic elementary functions"),__("Natural domains of function in one or two variables"),__("Lagrange polynomial"),__("Fitting data file using least squares method"));
+echo __("Precalculus"); echo '</a>';
+aktivni_konec(2);
+aktivni(3);
+printf('<a href="index.php?lang='.$lang.'&form=derivace" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Investigating function"),__("Derivative in one variable"),__("Partial derivative in two variables"),__("Taylor polynomial"),__("Local maxima and minima for functions in two variables"));
+echo __("Calculus");
+echo '</a>';	  
+  aktivni_konec(3);
+  aktivni(4);
+printf('<a href="index.php?lang='.$lang.'&form=integral" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Indefinite integral (anitiderivative)"),__("Geometrical applications of definite integral"),__("Double integral"),__("Approximation of definite integral by trapezoidal rule"));
+echo __("Integral calculus");
+echo '</a>';
+  aktivni_konec(4);
+  aktivni(5);
+printf('<a href="index.php?lang='.$lang.'&form=ode" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("First order differerential equations"),__("Second order differential equations (linear, using variantion of constant and using guess of particular solution)"),__("Stationary points of autonomous system"));
+echo __("Differential equations");
+echo '</a>';
+  aktivni_konec(5);
+  aktivni(6);
+printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Nonlinear equations using bisection"),__("Nonlinear equations using method of iterations"),__("System of inequalities in one or two variables"));
+echo __("Equations and inequalities");
+echo '</a>';
+aktivni_konec(6);
+echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+  aktivni(7);
+printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(\'<li>%s<li>%s\');" onmouseout="return nd();"">',__("Site map (what you can find on this site and where)."),__("Support"));
+echo __("Site map, support");
+echo '</a>';
+  aktivni_konec(7);
+echo '<div id="submenu">';
+
+if ($submenu=="2")
+  {
+    echo aktivni_form("graf"),'<a href="index.php?lang='.$lang.'&form=graf">';
+    echo __("Graphs of elementary functions");
+    echo '</a></span>',aktivni_form("df"),'<a href="index.php?lang='.$lang.'&form=df">';
+    echo __('Domain of functions (one variable)');
+    echo '</a></span>',aktivni_form("df3d"),'<a href="index.php?lang='.$lang.'&form=df3d">';
+    echo __('Domain of functions (two variables)');
+    echo '</a></span>',aktivni_form("lagrange"),'<a href="index.php?lang='.$lang.'&form=lagrange">';
+    echo __('Lagrange polynomial');
+    echo '</a></span>',aktivni_form("mnc"),'<a href="index.php?lang='.$lang.'&form=mnc">';
+    echo __('Least squares method');
+    echo '</a></span>';
+  }
+elseif ($submenu=="3")
+{
+  echo aktivni_form("derivace"),'      <a href="index.php?lang='.$lang.'&form=derivace">';
+  echo __('Derivative and partial derivative');
+  echo '</a></span>',aktivni_form("prubeh"),'
+      <a href="index.php?lang='.$lang.'&form=prubeh">';
+  echo __('Investigating functions');
+  echo '</a></span>',aktivni_form("taylor"),'
+      <a href="index.php?lang='.$lang.'&form=taylor">';
+  echo __('Taylor polynomial');
+  echo '</a></span>',aktivni_form("minmax3d"),'
+      <a href="index.php?lang='.$lang.'&form=minmax3d">';
+  echo __('Local maxima and minima in two variables');
+  echo '</a></span>';
+}
+elseif ($submenu=="4")
+{
+  echo aktivni_form("integral"),'      <a href="index.php?lang='.$lang.'&form=integral">';
+  echo __('Antiderivative');
+  echo '</a></span>',aktivni_form("geom"),'
+  <a href="index.php?lang='.$lang.'&form=geom">';
+  echo __('Geometrical applications of definite integral');
+  echo '</a></span>',aktivni_form("trap"),'
+      <a href="index.php?lang='.$lang.'&form=trap">';
+  echo __('Trapezoidal rule');
+  echo '</a></span>',aktivni_form("integral2"),'
+  <a href="index.php?lang='.$lang.'&form=integral2">';
+  echo __('Double integral');
+  echo '</a></span>';
+}
+elseif ($submenu=="5")
+{
+  echo aktivni_form("ode"),'      <a href="index.php?lang='.$lang.'&form=ode">';
+  echo __('First order ODE');
+  echo '</a></span>',aktivni_form("lde2"),'
+      <a href="index.php?lang='.$lang.'&form=lde2">';
+  echo __('Second order LDE');
+  echo '</a></span>',aktivni_form("autsyst"),'
+      <a href="index.php?lang='.$lang.'&form=autsyst">';
+  echo __('Autonomous system');
+  echo '</a></span>';
+}
+elseif ($submenu=="6")
+{
+  echo aktivni_form("bisection"),'<a href="index.php?lang='.$lang.'&form=bisection">';
+  echo __('Bisection');
+  echo '</a></span>',aktivni_form("banach"),'<a href="index.php?lang='.$lang.'&form=banach">';
+  echo __('Method of iterations');
+  echo '</a></span>',aktivni_form("ineq2d"),' <a href="index.php?lang='.$lang.'&form=ineq2d">';
+  echo __('System of inequalities (in one or two variables)');
+  echo '</a></span>';
+}
+
+
+echo '</div></div><br>';
+
+echo '<script type="text/javascript">
+var browser=navigator.appName;
+if (browser=="Microsoft Internet Explorer")
+{
+document.write("<br><b><span style=\"color:#ff0000\">'.__('Tested on Firefox, Opera and Konqueror.').' <br>'.__('Some features do not work on Internet Explorer.').'" );
+document.write("</span></b><br><br>");
+}
+</script>';
+
+if (($submenu!="7")&&($submenu!="1")) {echo __("Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
+}
+else
+  {echo __("Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");}
+
+echo '</div>';
+
+
+?>
+<br>
+
+<br>
+
+<div id="kalkulator">
+
+<?php
+include($form.".php");
+include("tail.php"); 
+?>

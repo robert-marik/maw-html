@@ -1,0 +1,91 @@
+<html>
+<head>
+
+<title>MAW Maxima Popup</title>
+
+<script language="Javascript">
+
+var exp = opener.document.forms['exampleform'].elements[opener.thenumber].value
+document.write('<applet name="DragMath" codebase="classes" code="Display.MainApplet.class" archive="Project.jar,AbsoluteLayout.jar,swing-layout-1.0.jar,jdom.jar,jep.jar" width=540 height=322>',
+                   '<param name=language value="cz"/>',
+                   '<param name=outputFormat value="Maxima">',
+	     '<param name=openWithExpression value="' + exp + '">',
+	     'To use this page you need a Java-enabled browser. Download the latest Java plug-in from <a href="http://www.java.com">Java.com</a>',
+	     '</applet>');
+
+var whichone;
+function writedata()
+{
+    whichone = opener.thenumber
+ 
+}
+
+function updateit()
+{
+    var applet = document.DragMath;
+    var ans = document.DragMath.getMathExpression();  
+    
+    opener.document.forms['exampleform'].elements[whichone].value = ans       
+    window.close()
+}
+</script>
+
+
+<body onload="writedata()">
+
+
+<form name="checkit">
+<input type="hidden" cols="20" id="data" />
+<br />
+<input type="button" value="Ulozit a zavrit editor" onclick="updateit()">
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3308553; 
+var sc_invisible=0; 
+var sc_partition=36; 
+var sc_security="d038c23d"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div 
+class="statcounter"><a class="statcounter"
+href="http://www.statcounter.com/"><img class="statcounter"
+src="http://c37.statcounter.com/3308553/0/d038c23d/0/" alt="blog stats"
+/></a></div></noscript>
+<!-- End of StatCounter Code --><br><a
+href="http://my.statcounter.com/project/standard/stats.php?project_id=3308553&guest=1">View 
+My Stats</a>
+
+ <br>
+
+<!-- Start of Toplist Code -->
+<a href="http://www.toplist.cz/stat/726662"><script language="JavaScript" type="text/javascript">
+<!--
+document.write ('<img src="http://toplist.cz/count.asp?id=726662&logo=s&http='+escape(document.referrer)+'&wi='+escape(window.screen.width)+'&he='+escape(window.screen.height)+'" width="14" height="14" border=0 alt="TOPlist" />');
+//--></script><noscript><img src="http://toplist.cz/count.asp?id=726662&logo=s" border="0"
+alt="TOPlist" width="14" height="14" /></noscript></a>
+<!-- End of Toplist Code -->
+ 
+<a href="http://statistiky.monitoring-serveru.cz/maw">Dostupnost
+serveru</a>
+
+ <br>
+  <!-- Histats.com  START  --> 
+ <a href="http://www.histats.com" target="_blank" title="free hit counter" > 
+ <script  type="text/javascript" language="javascript"> 
+  
+ var s_sid = 305361;var st_dominio = 4; 
+ var cimg = 603;var cwi =110;var che =40; 
+ </script> 
+ <script  type="text/javascript" language="javascript" src="http://s10.histats.com/js9.js"></script> 
+ </a> 
+ <noscript><a href="http://www.histats.com" target="_blank"> 
+ <img  src="http://s4.histats.com/stats/0.gif?305361&1" alt="free hit counter" border="0"></a> 
+ </noscript> 
+  
+ <!-- Histats.com  END  --> 
+
+</body>
+</html>
