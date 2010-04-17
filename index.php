@@ -40,7 +40,7 @@ if ($reqlang == "pl") { $lang = "pl"; $locale_file = "pl_PL"; }
 
 if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
 
-$locale_file_reader = new FileReader("locale/$locale_file/LC_MESSAGES/messages.mo");
+$locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
 
 function __($text){

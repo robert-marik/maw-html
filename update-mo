@@ -1,19 +1,13 @@
 echo "Updating Catalan .mo file"
-cd ./locale/ca_ES/LC_MESSAGES/
-msgfmt messages.po
-cd -
+cd ./locale
+msgfmt ca_ES.po --output-file ca_ES.mo
 
 echo "Updating Czech .mo file"
-cd ./locale/cs_CZ/LC_MESSAGES/
-msgfmt messages.po
-cd -
+msgfmt cs_CZ.po --output-file cs_CZ.mo
 
 echo "Updating Polish .mo file"
-cd ./locale/pl_PL/LC_MESSAGES/
-msgfmt messages.po
-cd -
+msgfmt pl_PL.po --output-file pl_PL.mo
 
 echo "Updating English .mo file"
-cd ./locale/en_US/LC_MESSAGES/
-msgfmt messages.po
+msgfmt en_US.po  --output-file en_US.mo
 cd -
