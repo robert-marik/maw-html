@@ -12,7 +12,7 @@ future plans:
 * integral: if function can be splitted into sum and is in x variable,
    we can investigate terms separately. Allow this feature also for
    general variable (by converting into x variable first)
-* put all po files into one directory
+* think on Windows port (running in cygwin)
 
 changes from January 2008
 -------------------------
@@ -28,6 +28,7 @@ http://sourceforge.net/tracker/?func=detail&aid=2982092&group_id=221048&atid=105
 * Catalan translation, thanks to Marti Ruiz-Altaba
 * Changed repo into Mercurial, removed MAW releases and replaced by a script 
   which downloads the sources automatically and takes care about some more things.
+* All po files in one directory now.
 
 february 2010
 * Polish translation, thanks to Przemyslaw Dabek
