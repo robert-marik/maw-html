@@ -29,6 +29,9 @@ http://sourceforge.net/tracker/?func=detail&aid=2982092&group_id=221048&atid=105
 * Changed repo into Mercurial, removed MAW releases and replaced by a script 
   which downloads the sources automatically and takes care about some more things.
 * All po files in one directory now.
+* Created mirror for sources at http://bitbucket.org/robert.marik/maw and
+  http://bitbucket.org/robert.marik/maw-html. Primary repository is still
+  sourceforge.net
 
 february 2010
 * Polish translation, thanks to Przemyslaw Dabek
