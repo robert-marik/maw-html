@@ -26,6 +26,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="http://localhost/maw";
 $lang = "en"; $locale_file = "en_US";
+$savereferer=false;
 
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
@@ -100,6 +101,8 @@ $ref=$_SERVER['HTTP_REFERER'];
 echo '<input type="hidden" name="referer" value="'.$ref.'">';
 }
 
+if ($savereferer == true)
+{
 $referer=$_SERVER['HTTP_REFERER'];
 if ((strpos($referer, 'user.mendelu.cz/~marik/maw') == false)&&(strpos($referer, 'user.mendelu.cz/marik/maw') == false)&&($referer!=""))
   {
@@ -107,6 +110,7 @@ if ((strpos($referer, 'user.mendelu.cz/~marik/maw') == false)&&(strpos($referer,
     fwrite($fp, date("d.M.Y, H:i:s, ")."server: ".$_SERVER['REMOTE_ADDR'].'  ref: '.$referer."\n");
     fclose($fp);
   }
+}
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
