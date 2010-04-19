@@ -34,7 +34,13 @@ require_once("lib/gettext.php");
 
 $reqlang=$_REQUEST["lang"];
 
-if (($reqlang == "")||($reqlang == "cs")||($reqlang == "cz")) { $lang = "cs"; $locale_file = "cs_CZ"; }
+if ($reqlang == "")
+  {
+    $reqlang=split(",",$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
+    $reqlang=substr($reqlang[0],0,2);
+  }
+
+if (($reqlang == "cs")||($reqlang == "cz")) { $lang = "cs"; $locale_file = "cs_CZ"; }
 
 if ($reqlang == "pl") { $lang = "pl"; $locale_file = "pl_PL"; }
 

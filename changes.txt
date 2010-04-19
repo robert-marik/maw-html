@@ -32,6 +32,8 @@ http://sourceforge.net/tracker/?func=detail&aid=2982092&group_id=221048&atid=105
 * Created mirror for sources at http://bitbucket.org/robert.marik/maw and
   http://bitbucket.org/robert.marik/maw-html. Primary repository is still
   sourceforge.net
+* French translation, thanks to Marti Ruiz-Altaba again
+* Autodetecting user's language
 
 february 2010
 * Polish translation, thanks to Przemyslaw Dabek
