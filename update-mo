@@ -10,4 +10,7 @@ msgfmt pl_PL.po --output-file pl_PL.mo
 
 echo "Updating English .mo file"
 msgfmt en_US.po  --output-file en_US.mo
+
+echo "Updating French .mo file"
+msgfmt fr_FR.po  --output-file fr_FR.mo
 cd -

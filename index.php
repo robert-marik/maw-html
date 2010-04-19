@@ -3,7 +3,7 @@
 /*
 Mathematical Assistant on Web - web interface for mathematical
 coputations including step by step solutions
-Copyright 2007-2008 Robert Marik, Miroslava Tihlarikova           
+Copyright 2007-2010 Robert Marik, Miroslava Tihlarikova           
 
 This file is part of Mathematical Assistant on Web.
 
@@ -39,6 +39,8 @@ if (($reqlang == "")||($reqlang == "cs")||($reqlang == "cz")) { $lang = "cs"; $l
 if ($reqlang == "pl") { $lang = "pl"; $locale_file = "pl_PL"; }
 
 if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
+
+if ($reqlang == "fr") { $lang = "fr"; $locale_file = "fr_FR"; }
 
 $locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
@@ -184,7 +186,8 @@ echo __("You should turn JavaScript on to see popup informations.");
 <img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>';
+echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
 </small></p></div>
 
@@ -194,7 +197,8 @@ echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" sty
 <img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>';
+echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
 <small>
 <br><br>
