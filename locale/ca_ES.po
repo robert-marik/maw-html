@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-17 22:58+0200\n"
-"PO-Revision-Date: 2010-04-17 17:40+0100\n"
+"POT-Creation-Date: 2010-04-19 07:46+0200\n"
+"PO-Revision-Date: 2010-04-18 22:14+0100\n"
 "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: autsyst.php:3
 msgid "Singular points of autonomous systems"
-msgstr "Punts singulars de sistemes independents"
+msgstr "Punts singulars de sistemes autònoms"
 
 #: autsyst.php:62
 msgid "What to do"
@@ -36,18 +36,18 @@ msgid ""
 "use computer to find stationary points first (this may fail to find all "
 "stationary points, however)"
 msgstr ""
-"primer busca automàticament  els punts estacionairs (potser no els trobarà "
+"primer busca automàticament els punts estacionairs (potser no els trobarem "
 "tots)"
 
 #: autsyst.php:87
 msgid "MAW-autsyst"
 msgstr ""
-"<ul> <li>Escriviu el que va a la dreta del sistema independent, trieu el "
-"punt estacionari que us interessa i cliqueu Envia-ho</li> <li>L'ordinador "
-"pot trobar els punts estacionaris, o bé el jacobià i els valors propis a un "
-"dels punts estacionaris. Trieu amb el botonet que calgui.</li> </ul>l"
+"<ul> <li>Escriviu el que va a la dreta del sistema autònom, trieu el punt "
+"estacionari que us interessa i cliqueu Envia-ho</li> <li>L'ordinador pot "
+"trobar els punts estacionaris, o bé el jacobià i els valors propis a un dels "
+"punts estacionaris. Trieu amb el botonet que calgui.</li> </ul>l"
 
-#: banach.php:2 index.php:402
+#: banach.php:2 index.php:404
 msgid "Method of iterations"
 msgstr "Mètode d'iteracions"
 
@@ -96,7 +96,7 @@ msgstr ""
 "wikipedia.org/wiki/Teorema_del_punt_fix_de_Banach\">teorema de Banach del "
 "punt fix</a>"
 
-#: bisection.php:2 index.php:400
+#: bisection.php:2 index.php:402
 msgid "Bisection"
 msgstr "Bisecció"
 
@@ -120,7 +120,7 @@ msgstr ""
 "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia.org/wiki/"
 "Bisection_method\">mètode de bisecció</a>"
 
-#: derivace.php:2 index.php:358
+#: derivace.php:2 index.php:360
 msgid "Derivative and partial derivative"
 msgstr "Derivada i derivada parcial"
 
@@ -149,7 +149,7 @@ msgstr "Derivada parcial respecte a <i>x</i> (funció de dues variables)"
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr "Derivada parcial respecte a <i>y</i> (funció de dues variables)"
 
-#: derivace.php:46 index.php:275 index.php:287
+#: derivace.php:46 index.php:277 index.php:289
 msgid "Submit"
 msgstr "Envia-ho"
 
@@ -182,7 +182,7 @@ msgstr "Funció de dues variables"
 
 #: df3d.php:28
 msgid "limits for the picture with domain:"
-msgstr "límits per al gràfic amb domini de definició:"
+msgstr "vores de la gràfica amb domini de definició:"
 
 #: df3d.php:33 df3d.php:35 df3d.php:37
 msgid "draw domain on the set"
@@ -191,12 +191,12 @@ msgstr "dibuixa el domini al conjunt"
 #: df3d.php:51
 msgid "MAW-df3d"
 msgstr ""
-"<ul> <li>Entreu una funció de dues variables, trieu les vores del gràfic i "
-"cliqueu Envia-ho.</li> </ul>"
+"<ul> <li>Entreu una funció de dues variables, trieu les vores de la gràfica "
+"i cliqueu Envia-ho.</li> </ul>"
 
 #: geom.php:5
 msgid "Definite integral in geometry"
-msgstr "Integral definidia en geometria"
+msgstr "Integral definida en geometria"
 
 #: geom.php:16
 msgid "Formulation of the problem"
@@ -208,11 +208,11 @@ msgstr "Corbes a la frontera"
 
 #: geom.php:22
 msgid "Upper bound"
-msgstr "Fita superior"
+msgstr "Vora superior"
 
 #: geom.php:31
 msgid "Lower bound"
-msgstr "Fita inferior"
+msgstr "Vora inferior"
 
 #: geom.php:42
 msgid ""
@@ -225,11 +225,11 @@ msgstr ""
 
 #: geom.php:47
 msgid "lower bound"
-msgstr "fita inferior"
+msgstr "vora inferior"
 
 #: geom.php:51
 msgid "upper bound"
-msgstr "fita superior"
+msgstr "vora superior"
 
 #: geom.php:60
 msgid "Action"
@@ -238,12 +238,12 @@ msgstr "Acció"
 #: geom.php:65
 #, php-format
 msgid "Find %s area %s between two curves and draw graph."
-msgstr "Troba %s àrea %s entre dues corbes i dibuixa'n el gràfic."
+msgstr "Troba %s l'àrea %s entre dues corbes i dibuixa'n la gràfica."
 
 #: geom.php:71
 #, php-format
 msgid "Find %s volume %s of solid of revolution and draw graph"
-msgstr "Troba %s volum %s de revoluciò i dibuixa'n el gràfic"
+msgstr "Troba %s el volum %s de revolució i dibuixa'n la gràfica"
 
 #: geom.php:76
 msgid "preview solid of revoultion"
@@ -251,7 +251,7 @@ msgstr "vista preliminar del volum de revolució"
 
 #: geom.php:78
 msgid "show colors, no mesh"
-msgstr "mostra els colors sense graella"
+msgstr "mostra els colors sense la graella"
 
 #: geom.php:80
 msgid "hide invisible parts"
@@ -263,20 +263,21 @@ msgstr "Troba les interseccions de corbes"
 
 #: geom.php:88
 msgid "Bounds for the picture (decimal numbers)"
-msgstr "Vores del gràfic (nombres decimals)"
+msgstr "Vores de la gràfica (nombres decimals)"
 
 #: geom.php:120
 msgid "MAW-geom"
 msgstr ""
-"<ul>   <li>Entreu les funcions que definiexien les fites inferior i superior "
-"del conjunt.</li>  <li>Si la fita inferior és l'eix de les <span style="
-"\"font-style: italic;\">x</span>, la funció <span style=\"font-style: italic;"
-"\">g</span> és 0.</li>  <li>Lórdinador pot trobar les interseccions de les "
-"corbes- Trieu aquesta acció amb el botonet escaient.<br> </li> </ul>"
+"<ul>   <li>Entreu les funcions que definexien les fronteres inferior i "
+"superior del conjunt.</li>  <li>Si la frontera inferior és l'eix de les "
+"<span style=\"font-style: italic;\">x</span>, la funció <span style=\"font-"
+"style: italic;\">g</span> és 0.</li>  <li>L'ordinador pot trobar les "
+"interseccions de les corbes. Trieu aquesta acció amb el botonet escaient."
+"<br> </li> </ul>"
 
-#: graf.php:2 index.php:344
+#: graf.php:2 index.php:346
 msgid "Graphs of elementary functions"
-msgstr "Gràfics de funcions elementals"
+msgstr "Gràfiques de funcions elementals"
 
 #: graf.php:20
 msgid ""
@@ -284,7 +285,7 @@ msgid ""
 "can be obtained from on of basic elementary functions by shifting and "
 "resizing graph)"
 msgstr ""
-"(la funció ha d'ésser elemental, o bé s'ha de poder obternir d'una funció "
+"(la funció ha d'ésser elemental, o bé s'ha de poder obtenir d'una funció "
 "elemental per translació i canvi d'escala)"
 
 #: graf.php:26
@@ -316,10 +317,10 @@ msgid "MAW-graf"
 msgstr ""
 "<span style=\"font-weight: bold;\">NB:</span><br><ul><li>Entreu una funció "
 "elemental, o que es pugui obternir d'una funció elemental per translació i "
-"canvi d'escala.</li><li>La funció serà analitzada i n'obtindreu el gràfic, "
+"canvi d'escala.</li><li>La funció serà analitzada i n'obtindreu la gràfica, "
 "incloent-hi l'animació de deformacions ulteriors.</li></ul>"
 
-#: index.php:78
+#: index.php:80
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -327,36 +328,36 @@ msgid ""
 "transfer to the form.)"
 msgstr ""
 "Problemes amb l'escriptura matemàtica? Un clic a Preview us mostrarà com <a "
-"href=\"http://formconv.sourceforge.net/\">formconv</a> convertirà la vostra "
-"expressió, i com podeu expressar-la en notació de Màxima (després ho podeu "
+"href=\"http://formconv.sourceforge.net/\">formconv</a> transformarà la "
+"vostra expressió, i com s'expressa en notació de Màxima (després ho podeu "
 "copiar i enganxar al formulari.)"
 
-#: index.php:83
+#: index.php:85
 msgid "History"
 msgstr "Historial"
 
-#: index.php:177
+#: index.php:179
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 "Engegeu JavaScript per poder veure la informació en finestres emergents."
 
-#: index.php:202
+#: index.php:204
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:206
+#: index.php:208
 msgid "changelog"
 msgstr "historial de canvis"
 
-#: index.php:209
+#: index.php:211
 msgid "known bugs"
 msgstr "bogs coneguts"
 
-#: index.php:242
+#: index.php:244
 msgid "Mathematical Assistant on Web"
 msgstr "L'Assistent Matemàtic al Web (MAW)"
 
-#: index.php:244
+#: index.php:246
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
@@ -366,98 +367,98 @@ msgstr ""
 "Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
-#: index.php:245
+#: index.php:247
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
-"%s Versió fora de línia%s també disponible; traductors %s benvinguts %s"
+"%s Versió fora de línia%s també disponible; traduccions %s benvingudes %s"
 
-#: index.php:275
+#: index.php:277
 msgid "Submitting, please wait ..."
 msgstr ""
 
-#: index.php:287
+#: index.php:289
 msgid "Click only once and wait few seconds for the answer!"
 msgstr "Clic un sol cop i espereu uns segons - ara ve la resposta!"
 
-#: index.php:305
+#: index.php:307
 msgid "Introduction, general remarks"
 msgstr "Introducció, comentaris generals"
 
-#: index.php:306
+#: index.php:308
 msgid "Introduction"
 msgstr "Introducció"
 
-#: index.php:310
+#: index.php:312
 msgid "Graphs of basic elementary functions"
 msgstr "Gràfiques de funcions elementals"
 
-#: index.php:310
+#: index.php:312
 msgid "Natural domains of function in one or two variables"
 msgstr "Domini de definició d'una funció d'una o dues variables"
 
-#: index.php:310 index.php:350 lagrange.php:3
+#: index.php:312 index.php:352 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr "Polinomi de Lagrange"
 
-#: index.php:310
+#: index.php:312
 msgid "Fitting data file using least squares method"
 msgstr "Ajustar dades amb el mètode dels mínims quadrats"
 
-#: index.php:311
+#: index.php:313
 msgid "Precalculus"
 msgstr "Àlgebra elemental"
 
-#: index.php:314
+#: index.php:316
 msgid "Investigating function"
-msgstr "Estudiant la funció"
+msgstr "Estudi de funcions"
 
-#: index.php:314
+#: index.php:316
 msgid "Derivative in one variable"
 msgstr "Derivada en una variable"
 
-#: index.php:314
+#: index.php:316
 msgid "Partial derivative in two variables"
 msgstr "Derivada parcial en dues variables"
 
-#: index.php:314 index.php:364 taylor.php:4
+#: index.php:316 index.php:366 taylor.php:4
 msgid "Taylor polynomial"
 msgstr "Polinomi de Taylor"
 
-#: index.php:314
+#: index.php:316
 msgid "Local maxima and minima for functions in two variables"
 msgstr "Máxims i mínims locals d'una funció de dues variables"
 
-#: index.php:315
+#: index.php:317
 msgid "Calculus"
 msgstr "Anàlisi"
 
-#: index.php:319
+#: index.php:321
 msgid "Indefinite integral (anitiderivative)"
 msgstr "Integral indefinida (anti-derivada)"
 
-#: index.php:319 index.php:376
+#: index.php:321 index.php:378
 msgid "Geometrical applications of definite integral"
 msgstr "Aplicacions geomètriques de la integral"
 
-#: index.php:319 index.php:382 integral2.php:2
+#: index.php:321 index.php:384 integral2.php:2
 msgid "Double integral"
 msgstr "Integral doble"
 
-#: index.php:319
+#: index.php:321
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr "Aproximació d'una integral per trapezis"
 
-#: index.php:320
+#: index.php:322
 msgid "Integral calculus"
 msgstr "Integrals"
 
-#: index.php:324
+#: index.php:326
 msgid "First order differerential equations"
 msgstr "Equacions diferencials de primer ordre"
 
-#: index.php:324
+#: index.php:326
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
@@ -465,95 +466,95 @@ msgstr ""
 "Equacions diferencials de segon ordre (lineals, amb variació de constants i "
 "havent endevinat una solució particular)"
 
-#: index.php:324
+#: index.php:326
 msgid "Stationary points of autonomous system"
-msgstr "Punts estacionaris d'un sistema independent"
+msgstr "Punts estacionaris d'un sistema autònom"
 
-#: index.php:325
+#: index.php:327
 msgid "Differential equations"
 msgstr "Equacions diferencials"
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using bisection"
 msgstr "Equacions no-lineals per bisecció"
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using method of iterations"
 msgstr "Equacions no-lineals amb el mètode d'iteracions"
 
-#: index.php:329
+#: index.php:331
 msgid "System of inequalities in one or two variables"
 msgstr "Sistema d'inequacions en una o dues variables"
 
-#: index.php:330
+#: index.php:332
 msgid "Equations and inequalities"
 msgstr "Equacions i inequacions"
 
-#: index.php:335
+#: index.php:337
 msgid "Site map (what you can find on this site and where)."
 msgstr "Mapa (què hi ha a aquesta adreça web i on trobar-ho)"
 
-#: index.php:335
+#: index.php:337
 msgid "Support"
 msgstr "Ajuda"
 
-#: index.php:336
+#: index.php:338
 msgid "Site map, support"
 msgstr "Mapa i ajuda"
 
-#: index.php:346
+#: index.php:348
 msgid "Domain of functions (one variable)"
 msgstr "Domini de definició (funció d'una variable)"
 
-#: index.php:348
+#: index.php:350
 msgid "Domain of functions (two variables)"
 msgstr "Domini de definició (funció de dues variables)"
 
-#: index.php:352 mnc.php:3
+#: index.php:354 mnc.php:3
 msgid "Least squares method"
 msgstr "Mètode dels mínims quadrats"
 
-#: index.php:361
+#: index.php:363
 msgid "Investigating functions"
 msgstr "Estudi de funcions"
 
-#: index.php:367
+#: index.php:369
 msgid "Local maxima and minima in two variables"
 msgstr "Màxims i mínims locals en dues variables"
 
-#: index.php:373 integral.php:2
+#: index.php:375 integral.php:2
 msgid "Antiderivative"
 msgstr "Integral indefinida (anti-derivada)"
 
-#: index.php:379
+#: index.php:381
 msgid "Trapezoidal rule"
 msgstr "Aproximació dels trapezis"
 
-#: index.php:388
+#: index.php:390
 msgid "First order ODE"
 msgstr "EDO de primer ordre"
 
-#: index.php:391
+#: index.php:393
 msgid "Second order LDE"
 msgstr "EDO de segon ordre"
 
-#: index.php:394
+#: index.php:396
 msgid "Autonomous system"
-msgstr "Sistema independent"
+msgstr "Sistema autònom"
 
-#: index.php:404
+#: index.php:406
 msgid "System of inequalities (in one or two variables)"
 msgstr "Sistema d'inequacions (en una o dues variables)"
 
-#: index.php:415
+#: index.php:417
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr "Bon funcionament comprovat amb Firefox, Opera i Konqueror."
 
-#: index.php:415
+#: index.php:417
 msgid "Some features do not work on Internet Explorer."
 msgstr "Diverses funcionalitats desapareixen amb Internet Explorer."
 
-#: index.php:420
+#: index.php:422
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -561,11 +562,11 @@ msgid ""
 "you move your mouse on the name of each group (the first row of the menu)."
 msgstr ""
 "Entreu les dades a la calculadora i cliqueu Envia-ho. Podeu canviar la mena "
-"de calculadora a la segona fila del menú. <br>Les calculadores estan "
+"de calculadora a la segona fila del menú.<br>Les calculadores estan "
 "repartides en grups la descripció dels quals apareix quan moveu el ratolí al "
 "damunt del nom del grup (primera fila del menú)."
 
-#: index.php:423
+#: index.php:425
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
@@ -573,12 +574,12 @@ msgid ""
 "calculators are divided into several groups, the description is available if "
 "you move your mouse on the name of each group (the first row of the menu)."
 msgstr ""
-"Trieu primer la mena de problema que us interess  i trieu després el model "
+"Trieu primer la mena de problema que us interessa  i trieu després el model "
 "particular de calculadora en funció del problema que voleu resoldre. <br>Les "
 "calculadores estan repartides en grups la descripció dels quals apareix quan "
 "moveu el ratolí al damunt del nom del grup (primera fila del menú). "
-"<br>Aquestes calculadores us acompanyaran en la resolució del problema "
-"mostrant-ne cada pas.  "
+"<br>Aquestes calculadores us acompanyaran pas a pas en la resolució del "
+"problema, mostrant-vos-en cada etapa.  "
 
 #: ineq2d.php:3
 msgid "Inequalities"
@@ -589,8 +590,8 @@ msgid ""
 "Read the comments below the form to find out, which inequalities can be "
 "solved."
 msgstr ""
-"Els comentaris a sota del formulari esclareixen quines inequacions poden ser "
-"resoltes."
+"Els comentaris a la part de baix del formulari esclareixen quines "
+"inequacions poden ser resoltes."
 
 #: ineq2d.php:20
 msgid "suppose x,y>0"
@@ -617,11 +618,11 @@ msgid "MAW-ineq2d"
 msgstr ""
 "<br> <ul>   <li>Entreu les vostres inequacions al camp del formulari. "
 "Escriviu-hi una inequació per línia.</li> <li>Les inequacions es resolen "
-"num`ricament a l'interval donat (rectangle per inequacions en dues "
-"variables). Si us surt una gràfica buida, llavor o bé no hi ha cap solució a "
-"l'interval (feu-ne més amples les vores), o bé la solució consisteix només "
+"numèricament a l'interval donat (un rectangle per inequacions en dues "
+"variables). Si us surt una gràfica buida, llavors o bé no hi ha cap solució "
+"a l'interval (feu-ne més amples les vores), o bé la solució consisteix només "
 "de punts aïllats. Aquests punts aïllats no es poden trobar numèricament amb "
-"els nostrs mètodes.</li> <li>Feu servir només desigualtats estrictes i "
+"els nostres mètodes.</li> <li>Feu servir només desigualtats estrictes i "
 "anomeneu les vostres incògnites <i>x</i> i <i>y</i>.</li> <li>Les vores per "
 "l'eix d'ordenades <i>y</i> no tenen cap importància si les vostres "
 "inequacions només contenen la variable <i>x</i>.</li> <li>Les gràfiques a la "
@@ -638,7 +639,7 @@ msgid ""
 "mathematical expressions (this allows to write  2x instead of 2*x)"
 msgstr ""
 "fés servir <a href=\"http://formconv.sourceforge.net/\">formconv</a> per "
-"convertir fórmules (així podeu escrirue 2x enlloc de 2*x)"
+"convertir fòrmules (així podeu escriure 2x enlloc de 2*x)"
 
 #: integral.php:35
 msgid ""
@@ -650,7 +651,7 @@ msgid ""
 msgstr ""
 "fés servir \n"
 "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per escriure "
-"les fórmules a la pàgina html enlloc de  \n"
+"les fòrmules a la pàgina html enlloc de  \n"
 "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
 "(més bonic però més lent)\n"
 
@@ -666,7 +667,7 @@ msgstr ""
 
 #: integral.php:49 integral2.php:82
 msgid "write acsinh and atanh in terms of log"
-msgstr "escriu arcsinh i arctanh enlloc de log"
+msgstr "escriu asinh i atanh enlloc de log"
 
 #: integral.php:63
 msgid "MAW-int"
@@ -677,14 +678,16 @@ msgstr ""
 
 #: integral2.php:25
 msgid "Enter function and choose variables ond order for integration "
-msgstr "Entra funció i tria variables i el seu ordre per integrar-les"
+msgstr ""
+"Entreu la funció, trieu les variables d'integració, i trieu també en quin "
+"ordre s'han d'integrar"
 
 #: integral2.php:61
 msgid ""
 " The Jacobian in polar coordinates is added automatically. You can write "
 "<b>phi</b> for polar variable <img src=\"phi.png\">."
 msgstr ""
-"El jacobià s'afegeix automàticament en coordenades polars. Podeu esciure "
+"El jacobià s'afegeix automàticament en coordenades polars. Podeu escriure "
 "<b>phi</b> per la variable angular <img src=\"phi.png\">."
 
 #: integral2.php:68
@@ -703,11 +706,11 @@ msgstr "Arxiu de dades"
 msgid "MAW-lagr"
 msgstr ""
 "<ul> <li> Escriu un arxiu de dades: els punts separats per punts i coma, les "
-"composants de cada punt separades per comes. </li> </ul>"
+"coordenades de cada punt separades per comes. </li> </ul>"
 
 #: lde2.php:3
 msgid "Second order linear differential equations"
-msgstr "Equació differencial lineal de segon ordre"
+msgstr "Equació diferencial lineal de segon ordre"
 
 #: lde2.php:15
 msgid "Equation"
@@ -718,8 +721,8 @@ msgid ""
 "<small>You can use Preview and Edit buttons for entering the right hand "
 "side</small>"
 msgstr ""
-"<small>Poderu fer servir els botons Preview i Editor per la part a la dreta</"
-"small>"
+"<small>Podeu fer servir els botons Preview i Editor com a ajuda per omplir "
+"la part a la dreta</small>"
 
 #: lde2.php:32
 msgid "Method"
@@ -744,7 +747,7 @@ msgstr ""
 "dreta de l'igual i cliqueu Envia-ho. Si no voleu incloure un dels termes, "
 "escriviu 0 allà on li correspon.</li> \t<li>El mètode de variació de "
 "constants funciona per qualsevol cosa que poseu a la dreta. El mètode dels "
-"coeficients indeterminats funciona s el termei a la dreta de l'igual és de "
+"coeficients indeterminats funciona si el terme a la dreta de l'igual és de "
 "la forma <i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i>, <i>a</i> i "
 "<i>b</i> reals i <i>P(x)</i>, <i>Q(x)</i> polinomis de grau igual o menor a "
 "4.</li>   <li>Si descobriu que la calculadora dóna resultats erronis, aviseu-"
@@ -755,53 +758,54 @@ msgid "MAW-main"
 msgstr ""
 "<b style=\"font-size:150%;\">Mals de cap amb l'anàlisi? <br>Entrebancs amb "
 "les derivades o les integrals? <br> Problemes amb les equacions "
-"diferencials? <br> Podem ajudar-vos! I ho farem!</b> <br> <br> <span class="
+"diferencials? <br> Podem ajudar-vos! i ho farem!</b> <br> <br> <span class="
 "\"nadpis\">Sobre aquesta pàgina</span> <ul> <li>Aquest lloc web conté la "
-"interfície per accedir al programa de càlcul algèbric amb ordinador <a href="
+"interfície per accedir al programa de càlcul algebraic amb ordinador <a href="
 "\"http://maxima.sourceforge.net/\">Màxima</a>, i resoldre automàticament uns "
-"quants problemes típics dels cursos de matemàtiques, mostrant els passos "
-"intermediaris per arribar a la solució.</li> <li>Trieu una de les "
+"quants problemes típics dels cursos de matemàtiques, mostrant en detall cada "
+"etapa del càlcul fins arribar a la solució.</li> <li>Trieu una de les "
 "calculadores fent servir els botons a la part de dalt de la pàgina, entreu "
 "les vostres dades i cliqueu Envia-ho. La resposta apareixerà en un arxiu en "
 "format PDF, que podeu llegir al vostre navigador o descarregar al vostre "
 "ordinador (segons com hagueu configurat les vostres preferències).</li> "
-"<li>La màquina que fa els càlculs est roba al servidor del <a target=\"_blank"
-"\" href=\"http://wood.mendelu.cz\">Departament de tecnologia de la fusta</a>."
-"</li> <li><a href=\"http://wood.mendelu.cz/math/phpsysinfo\">Informació "
-"sobre el sistema</a></li> </ul> <hr> <span class=\"nadpis\">Màxima</"
-"span><br> Si us cal <i>tota la potència</i> del programa <a href=\"http://"
-"maxima.sourceforge.net/\">Màxima</a> al vostre navegador, feu servir algun "
-"d'aquests projectes: <ul> <li><a href=\"http://www.my-tool.com/mathematics/"
-"maximaphp/\">MaximaPHP</a></li> <li><a href=\"http://maxima-online.lewalski."
-"pl/\">Maxima Online</a></li> </ul> Us cal un <i>accés simplificat</i> a "
-"algunes de les comandes de <a href=\"http://maxima.sourceforge.net/"
-"\">Màxima</a> al vostre navegador? Proveu el projecte <ul> <li><a href="
-"\"http://matek.hu\">Webmathematics Interactive 2</a></li> </ul> <hr> <span "
-"class=\"nadpis\">Nota bene:</span> <ul> <li>No oblideu que cal fer servir * "
-"per la multiplicació - escriviu 2*x i no pas 2x per \"dos ics\".</li> "
-"<li>L'entrada de l'usuari es processa amb els programes de codi obert<a href="
-"\"http://maxima.sourceforge.net/\">Màxima</a>, <a href=\"http://www.gnuplot."
-"info/\">gnuplot</a>, <a href=\"http://formconv.sourceforge.net/\">formconv</"
-"a>, <a href=\"http://www.tug.org/metapost.html\">MetaPost</a> is es formaten "
-"amb <a href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a>.</li> "
-"<li>Les nostres adreces electròniques per comentaris o anuncis de bogs són "
-"(cal treure'n les lletres \"NO SPAM\") maNOrikSP@mAendMelu.cz resp. "
-"tiNOhlSarPAMik@mendelu.cz.</li> </ul> <hr> <h3>Comentaris</h3>Preguntes més "
-"tècniques, comentaris, pistes, consells etc. al nostre <a href=\"http://"
-"sourceforge.net/apps/phpbb/mathassistant\">fòrum</a>."
+"<li>La màquina que fa els càlculs es troba al servidor del <a target=\"_blank"
+"\" href=\"http://wood.mendelu.cz\">Departament de tecnologia de la fusta</a> "
+"de la Universitat Mendel, a Brno, a la República Txeca.</li> <li><a href="
+"\"http://wood.mendelu.cz/math/phpsysinfo\">Informació sobre el sistema</a></"
+"li> </ul> <hr> <span class=\"nadpis\">Màxima</span><br> Si us cal <i>tota la "
+"potència</i> del programa <a href=\"http://maxima.sourceforge.net/\">Màxima</"
+"a> al vostre navegador, feu servir algun d'aquests projectes: <ul> <li><a "
+"href=\"http://www.my-tool.com/mathematics/maximaphp/\">MaximaPHP</a></li> "
+"<li><a href=\"http://maxima-online.lewalski.pl/\">Maxima Online</a></li> </"
+"ul> Us cal un <i>accés simplificat</i> a algunes de les comandes de <a href="
+"\"http://maxima.sourceforge.net/\">Màxima</a> al vostre navegador? Proveu el "
+"projecte <ul> <li><a href=\"http://matek.hu\">Webmathematics Interactive 2</"
+"a></li> </ul> <hr> <span class=\"nadpis\">Nota bene:</span> <ul> <li>No "
+"oblideu que cal fer servir * per la multiplicació - escriviu 2*x i no pas 2x "
+"per \"dos ics\".</li> <li>L'entrada de l'usuari es processa amb els "
+"programes de codi obert<a href=\"http://maxima.sourceforge.net/\">Màxima</"
+"a>, <a href=\"http://www.gnuplot.info/\">gnuplot</a>, <a href=\"http://"
+"formconv.sourceforge.net/\">formconv</a>, <a href=\"http://www.tug.org/"
+"metapost.html\">MetaPost</a> is es formaten amb <a href=\"http://www.tug.org/"
+"applications/pdftex/\">pdfLaTeX</a>.</li> <li>Les nostres adreces "
+"electròniques per comentaris o anuncis de bogs són (cal treure'n les lletres "
+"\"NO SPAM\") maNOrikSP@mAendMelu.cz resp. tiNOhlSarPAMik@mendelu.cz.</li> </"
+"ul> <hr> <h3>Comentaris</h3>Preguntes més tècniques, comentaris, pistes, "
+"consells etc. al nostre <a href=\"http://sourceforge.net/apps/phpbb/"
+"mathassistant/\">fòrum</a>."
 
 #: map.php:3
 msgid "MAW-map"
 msgstr ""
-"Fòrum</span><ul><li><a href=\"http://sourceforge.net/apps/phpbb/mathassistant"
-"\"> És aquí on podeu preguntar</a> a sourceforge.net.</li></ul><span class="
-"\"nadpis\">Mapa del lloc </span>  <ul> <li>Funcions <ul> <li>Gràfiques de "
-"funcions elementals, amb translacions i canvis d'escala. </li> <li>Domini de "
-"definició natural d'una funció d'una variable </li> <li>Domini de definició "
-"natural d'una funció de dues variables </li> <li>Polinomi de Lagrange  </li> "
-"<li>Mètode dels mínims quadrats </li> </ul> </li> <li>Anàlisi <ul> <li> "
+"Fòrum</span><ul><li><a href=\"http://sourceforge.net/apps/phpbb/"
+"mathassistant/\"> És aquí on podeu preguntar</a> a sourceforge.net.</li></"
+"ul><span class=\"nadpis\">Mapa del lloc </span>  <ul> <li>Funcions <ul> "
+"<li>Gràfiques de funcions elementals, amb translacions i canvis d'escala. </"
+"li> <li>Domini de definició d'una funció d'una variable </li> <li>Domini de "
+"definició d'una funció de dues variables </li> <li>Polinomis de Lagrange  </"
+"li> <li>Mètode dels mínims quadrats </li> </ul> </li> <li>Anàlisi <ul> <li> "
 "Derivada i derivada parcial </li> <li> Estudi de funcions </li> <li> "
-"Polinomi de Taylorl </li> <li>Màxims i mínims locals dúna funció de dues "
+"Polinomis de Taylor </li> <li>Màxims i mínims locals d'una funció de dues "
 "variables </li>  </ul> </li> <li>Integrals <ul> <li>Integral  indefinida o "
 "anti-derivada</li><li> Integral (definida):  àrea entre dues corbes i volum "
 "de revolució  </li><li>Integral doble</li><li> Aproximació dels trapezis "
@@ -809,17 +813,17 @@ msgstr ""
 "diferencials <ul> <li> Equacions diferencials de primer ordre (lineals, amb "
 "variables separades i homogènies)</li><li>Equacions diferencials lineals de "
 "segon ordre (variació de constants i endevinar una solució particular)</"
-"li><li> Sistema independent</li> </ul> </li> <li>Equacions i inequacions  "
-"<ul> <li>Equacions no-lineals pels mètodes de bisecció i d'iteracions</li> "
+"li><li> Sistema autònom</li> </ul> </li> <li>Equacions i inequacions  <ul> "
+"<li>Equacions no-lineals pels mètodes de bisecció i d'iteracions</li> "
 "<li>Inequacions amb una i dues incògnites</li> </ul> </il> </ul> <span class="
 "\"nadpis\">Ajuda</span> <ul><li>Voleu contribuïr al desenvolupament de "
 "l'Assistent Matemàtic al Web (MAW)? Ens voleu enviar diners? No ho feu! Més "
 "val que els envieu als <a href=\"http://www.rednoses.eu/\"> metges pallassos "
 "de nas vermell</a>. </li> <li>De debò voleu ajudar-nos directament? Feu "
-"servir l'aplicació i digueu-nos si trobeu cap problema. O dieu-nos que feu "
-"servir l'aplicació sense cap entrebanc, i què us agradaria que fés i no fa. "
-"També podeu descarregar<a href=\"http://mathassistant.hg.sourceforge.net/"
-"hgweb/mathassistant\">el programa original</a> i desenvolupar-lo com us "
+"servir l'aplicació i digueu-nos si hi trobeu cap problema. O dieu-nos que "
+"feu servir l'aplicació sense cap entrebanc, i què us agradaria que fés i no "
+"fa. També podeu descarregar<a href=\"http://mathassistant.cvs.sourceforge."
+"net/mathassistant/\">el programa original</a> i desenvolupar-lo com us "
 "plagui, amb noves funcionalitats. </li> </ul>"
 
 #: minmax3d.php:3
@@ -840,27 +844,27 @@ msgstr "Hessià al punt estacionari"
 
 #: minmax3d.php:73
 msgid "Hessian at stationary points"
-msgstr "Hesssians als punts estacionaris"
+msgstr "Hessians als punts estacionaris"
 
 #: minmax3d.php:93
 msgid "MAW-minmax3d"
 msgstr ""
 "<br>Podeu estudiar els punts estacionaris d'una funció de dues variables amb "
-"aquesta calculadora. Heus aquí les vostres opcions.<ul><li>Podeu trobar els "
-"punts estacionaris amb el programari simbòlic i després transcriure o bé "
-"copiar i enganxar la resposta com a entrada.</li><li>Podeu estudiar una col."
-"lecció de punts estacionaris per veure si un m´xim o mínim local hi "
-"existeix. Feu servir el punt-i-coma par separar els punts estacionaris, i la "
-"coma per separar les coordenades de cada punt.</li><li>Si trieu l'opció "
-"d'estudiar un sol punt, obtindreu una solució amb més detalls.</li><li>Fem "
-"servir un algorisme senzillet per verificar si el punt que entreu és "
-"estacionari o no; pot fallar.</li></ul>"
+"aquesta calculadora. Heus aquí les vostres opcions.<ul><li>Podeu primer "
+"trobar els punts estacionaris amb el programari simbòlic i després "
+"transcriure o bé copiar i enganxar el resultat per l'entrada següent.</"
+"li><li>Podeu estudiar una col.lecció de punts estacionaris per veure si "
+"algun d'ells és un màxim o un mínim local. Feu servir el punt-i-coma per "
+"separar els punts estacionaris, i la coma per separar les coordenades de "
+"cada punt.</li><li>Si trieu l'opció d'estudiar un sol punt, obtindreu una "
+"solució amb més detalls.</li><li>Fem servir un algorisme senzillet per "
+"verificar si el punt que entreu és estacionari o no; pot fallar.</li></ul>"
 
 #: mnc.php:24
 msgid "MAW-mnc"
 msgstr ""
 "<ul> <li> Escriu un arxiu de dades: els punts separats per punts i coma, les "
-"composants de cada punt separades per comes. </li> </ul>"
+"coordenades de cada punt separades per comes. </li> </ul>"
 
 #: ode.php:20
 msgid "Ordinary differential equations"
@@ -880,8 +884,8 @@ msgstr ""
 "<ul><li>Aquesta calculadora resol una equació diferencial ordinària que pot "
 "ser de variables separades, homogenènia, exacta, lineal o de Bernoulli. Es "
 "mostren els passos intermediaris en la solució.</li><li>Heu d'especificar "
-"només el que va a la dreta de l'equació diferencial. Si su cal aïllar <i>y'</"
-"i> a partir d'una equació que no és encara d'aquesta forma. podeu fer servir "
+"només el que va a la dreta de l'equació diferencial. Si us cal aïllar <i>y'</"
+"i> a partir d'una equació que no és encara d'aquesta forma, podeu fer servir "
 "els botonets del segon camp d'aquest formulari.</li> <li>També podeu "
 "escriure tota l'equació diferencial ordinària (incloent-hi y' i =) al segon "
 "camp. L'equació serà resolta respecte a y' automàticament, però us cal anar "
@@ -901,8 +905,8 @@ msgstr ""
 "de les vores de la gràfica, la calcularé automàticament. Això no sol ser una "
 "bona idea amb funcions discontínues o molt ràpides, car les vores esdevenen "
 "massa grans.</li><li>Els zeros de la funció i ses derivades s'avaluen als "
-"complexos, i després eliminem els zeros amb part imaginària. Fent això podem "
-"perdre, però, alguns zeros reals, degut a la imprecisió dels càlculs.</li></"
+"complexos, i després s'eliminen els zeros amb part imaginària. Se'ns poden "
+"escapar, però, alguns zeros reals, degut a la imprecisió dels càlculs.</li></"
 "ul>"
 
 #: tail.php:8

@@ -1,0 +1,980 @@
+# translation of messages.po to 
+# English translations for PACKAGE package.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Robert Marik <marik@mendelu.cz>, 2008.
+# Robert Marik <marik@carya>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MAW\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-19 07:46+0200\n"
+"PO-Revision-Date: 2010-04-18 13:12+0100\n"
+"Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
+"Language-Team: marti RA <marti.ruizaltaba@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.9.1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: SWITZERLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: 145,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: autsyst.php:3
+msgid "Singular points of autonomous systems"
+msgstr "Points singuliers d'un système autonome"
+
+#: autsyst.php:62
+msgid "What to do"
+msgstr "Que faire"
+
+#: autsyst.php:65
+msgid "find Jacobi matrix at stationary point"
+msgstr "trouver le jacobien au point stationnaire"
+
+#: autsyst.php:76 minmax3d.php:80
+msgid ""
+"use computer to find stationary points first (this may fail to find all "
+"stationary points, however)"
+msgstr ""
+"trouve d'abord automatiquement les points stationnaires (risque de ne pas "
+"les trouver tous)"
+
+#: autsyst.php:87
+msgid "MAW-autsyst"
+msgstr ""
+"<ul> <li>Écrivez les termes de droite du système autonome, choisissez le "
+"point stationnaire qui vous intéresse et cliquez sur Envoyer</li> "
+"<li>L'ordinateur peut trouver les points stationnaires, ou bien le jacobien "
+"et les valeurs propres à un des points stationnaires. Faites votre choix "
+"avec les petits boutons.</li> </ul>l"
+
+#: banach.php:2 index.php:404
+msgid "Method of iterations"
+msgstr "Méthode d'itérations"
+
+#: banach.php:25
+msgid "Enter function, interval containing  fixed point and number of steps."
+msgstr ""
+"Entrez la fonction, l'intervalle contenant le point fixe, et le nombre "
+"d'itérations."
+
+#: banach.php:29 bisection.php:30 derivace.php:11 df.php:12 graf.php:12
+#: integral.php:12 prubeh.php:27 taylor.php:12 trap.php:14
+msgid "Function"
+msgstr "Fonction"
+
+#: banach.php:39
+msgid "Interval from "
+msgstr "Intervalle de "
+
+#: banach.php:41 bisection.php:42
+msgid "to"
+msgstr "à"
+
+#: banach.php:43 bisection.php:44
+msgid "(integers or decimal numbers)"
+msgstr "(nombres entiers ou décimals)"
+
+#: banach.php:47 bisection.php:48
+msgid "Number of steps "
+msgstr "Nombre d'itérations"
+
+#: banach.php:49
+msgid "(integer between 2  and 40)"
+msgstr "(nombre naturel entre 2 et 40)"
+
+#: banach.php:52
+msgid "Initial approximation"
+msgstr "Approximation initiale"
+
+#: banach.php:54
+msgid "(integer or decimal number)"
+msgstr "(nombre entier ou décimal)"
+
+#: banach.php:63
+msgid "MAW-banach"
+msgstr ""
+"La résolution d'équations non-linéaires se base sur le <a href=\"http://ca."
+"wikipedia.org/wiki/Teorema_del_point_fix_de_Banach\">théorème du point fixe "
+"de Banach</a>"
+
+#: bisection.php:2 index.php:402
+msgid "Bisection"
+msgstr "Bisection"
+
+#: bisection.php:26
+msgid "Enter function, interval containing zero and number of steps."
+msgstr ""
+"Entrez la fonction, l'intervalle contenant le zéro de la fonction, et le "
+"nombre d'itérations."
+
+#: bisection.php:40
+msgid "Interval from"
+msgstr "Intervalle de"
+
+#: bisection.php:50
+msgid "(integer between 2 and 40)"
+msgstr "(nombre naturel entre 2 et 40)"
+
+#: bisection.php:67
+msgid "MAW-bisection"
+msgstr ""
+"Peut-être vous faut-il réviser la théorie de la <a href=\"http://en."
+"wikipedia.org/wiki/Bisection_method\">méthode de bisection</a>"
+
+#: derivace.php:2 index.php:360
+msgid "Derivative and partial derivative"
+msgstr "Dérivée et dérivée partielle"
+
+#: derivace.php:24
+msgid "automatically use linearity of derivative"
+msgstr ""
+"Exploite automatiquement le fait que la dérivée est une operation linéaire"
+
+#: derivace.php:27
+msgid "automatically differentiate constants"
+msgstr "dérive automatiquement les constantes"
+
+#: derivace.php:32
+msgid "The type of the derivative"
+msgstr "Type de dérivée"
+
+#: derivace.php:35
+msgid "Ordinary derivative (function in one variable)"
+msgstr "Dérivée ordinaire (fonction  à une variable)"
+
+#: derivace.php:38
+msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
+msgstr "Dérivée partielle par rapport à <i>x</i> (fonction à deux variables)"
+
+#: derivace.php:41
+msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
+msgstr "Dérivée partielle par rapport à <i>y</i> (fonction à deux variables)"
+
+#: derivace.php:46 index.php:277 index.php:289
+msgid "Submit"
+msgstr "Envoyer"
+
+#: derivace.php:53
+msgid "MAW-der"
+msgstr ""
+"<ul><li>Entrez une fonction et cliquez Envoyer. Vous recevrez sa dérivée en "
+"format PDF. </li><li>Ce formulaire vous permet de dériver des fonctions à "
+"une ou en deux variables.</li></ul>"
+
+#: df.php:2
+msgid "Domain of a function in one variable"
+msgstr "Domaine de définition de la fonction  à une variable"
+
+#: df.php:28 geom.php:58
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: df.php:48
+msgid "MAW-df"
+msgstr " "
+
+#: df3d.php:3
+msgid "Domain of a function in two variables"
+msgstr "Domaine de définition de la fonction à deux variables"
+
+#: df3d.php:13
+msgid "Function in two variables"
+msgstr "Fonction à deux variables"
+
+#: df3d.php:28
+msgid "limits for the picture with domain:"
+msgstr "limites pour le graphique avec domaine de définition:"
+
+#: df3d.php:33 df3d.php:35 df3d.php:37
+msgid "draw domain on the set"
+msgstr "dessine le domaine de définition"
+
+#: df3d.php:51
+msgid "MAW-df3d"
+msgstr ""
+"<ul> <li>Entrez une fonction à deux variables, choisissez les bords du "
+"graphique et cliquez Envoyer.</li> </ul>"
+
+#: geom.php:5
+msgid "Definite integral in geometry"
+msgstr "Integrale (définie) en géometrie"
+
+#: geom.php:16
+msgid "Formulation of the problem"
+msgstr "Formulation du problème"
+
+#: geom.php:18
+msgid "Curves on boundary"
+msgstr "Courbes à la frontière"
+
+#: geom.php:22
+msgid "Upper bound"
+msgstr "Bord supérieur"
+
+#: geom.php:31
+msgid "Lower bound"
+msgstr "Bord inférieur"
+
+#: geom.php:42
+msgid ""
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
+"curves by choosing \"intercepts\" in parameters for computation)</small>"
+msgstr ""
+"Bords sur l'axe des <i>x</i>: <small>( pour essayer de trouver les "
+"intersections entre les deux courbes, choisissez  \"intercepts\" parmi les "
+"paramètres du calcul)</small>"
+
+#: geom.php:47
+msgid "lower bound"
+msgstr "bord inférieur"
+
+#: geom.php:51
+msgid "upper bound"
+msgstr "bord supérieur"
+
+#: geom.php:60
+msgid "Action"
+msgstr "Action"
+
+#: geom.php:65
+#, php-format
+msgid "Find %s area %s between two curves and draw graph."
+msgstr "Trouvons %s l'aire %s entre deux courbes et dessinons-en le graphique."
+
+#: geom.php:71
+#, php-format
+msgid "Find %s volume %s of solid of revolution and draw graph"
+msgstr "Trouvons  %s le volume %s de révolution et dessinons-en le graphique"
+
+#: geom.php:76
+msgid "preview solid of revoultion"
+msgstr "Vue préliminaire du volume de révolution"
+
+#: geom.php:78
+msgid "show colors, no mesh"
+msgstr "montrons les couleurs, non pas la grille"
+
+#: geom.php:80
+msgid "hide invisible parts"
+msgstr "cachons les parties invisibles"
+
+#: geom.php:86
+msgid "Find intercepts of curves"
+msgstr "trouvons les intersections de courbes"
+
+#: geom.php:88
+msgid "Bounds for the picture (decimal numbers)"
+msgstr "Bords du graphique (nombres décimals)"
+
+#: geom.php:120
+msgid "MAW-geom"
+msgstr ""
+"<ul>   <li>Entrez les fonctions qui définissent les bords inférieur et "
+"supérieur de l'ensemble.</li>  <li>Si le bord inférieur est l'axe des <span "
+"style=\"font-style: italic;\">x</span>, la fonction <span style=\"font-"
+"style: italic;\">g</span> est 0.</li>  <li>L'ordinateur peut trouver les "
+"intersections des courbes.  Choisissez cette action avec le petit bouton "
+"approprié.<br> </li> </ul>"
+
+#: graf.php:2 index.php:346
+msgid "Graphs of elementary functions"
+msgstr "Graphiques de fonctions élémentaires"
+
+#: graf.php:20
+msgid ""
+"(the function must either a basic elementary function of a function which "
+"can be obtained from on of basic elementary functions by shifting and "
+"resizing graph)"
+msgstr ""
+"(la fonction doit être élémentaire, ou bien elle doit pouvoir s'obtenir "
+"d'une fonction élémentaire par translation et changement d'échelle)"
+
+#: graf.php:26
+msgid "Bounds for axes"
+msgstr "Bords des axes"
+
+#: graf.php:38
+msgid "show grid"
+msgstr "montre la grille"
+
+#: graf.php:45
+msgid "Logarithm"
+msgstr "logarithme"
+
+#: graf.php:46
+msgid "If the input contains logarithm, use"
+msgstr "Si l'entrée contient des logarithmes, emploie"
+
+#: graf.php:49
+msgid "natural log"
+msgstr "logarithme naturel (base e)"
+
+#: graf.php:52
+msgid "log with base"
+msgstr "logarithme avec base"
+
+#: graf.php:64
+msgid "MAW-graf"
+msgstr ""
+"<span style=\"font-weight: bold;\">NB:</span><br><ul><li>Entrez une fonction "
+"élémentaire, ou qui puisse être obtenue d'une fonction élémentaire par "
+"translation et changement d'échelle.</li><li>La fonction sera analysée et "
+"vous recevrez son graphique, avec même l'animation des déformations "
+"ultérieures.</li></ul>"
+
+#: index.php:80
+msgid ""
+"Troubles with writing math? Clicking Preview you get how <a href=\"http://"
+"formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
+"can enter this expression in Maxima notation (you can use copy and paste to "
+"transfer to the form.)"
+msgstr ""
+"Problèmes avec l'orthographe mathématique? Un clic à Preview vous montrera "
+"comment <a href=\"http://formconv.sourceforge.net/\">formconv</a> traitera "
+"votre expression, et comment l'exprimer en notation de Maxima (après, vous "
+"pouvez copier et coller le résultat de formconv dans le formulaire pour "
+"Maxima.)"
+
+#: index.php:85
+msgid "History"
+msgstr "Historial"
+
+#: index.php:179
+msgid "You should turn JavaScript on to see popup informations."
+msgstr ""
+"Enclenchez JavaScript pour pouvoir voir des informations dans des fenêtres "
+"émergentes."
+
+#: index.php:204
+msgid "Support from MAW forum"
+msgstr ""
+
+#: index.php:208
+msgid "changelog"
+msgstr "historial des changements"
+
+#: index.php:211
+msgid "known bugs"
+msgstr "bogues connus"
+
+#: index.php:244
+msgid "Mathematical Assistant on Web"
+msgstr "L'Assistant Mathématique au Web (MAW)"
+
+#: index.php:246
+msgid ""
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
+"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr ""
+"écrit par <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> et <a href=\"http://user.mendelu.cz/tihlarik\" target="
+"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#: index.php:247
+#, php-format
+msgid ""
+"%sOffline version%s is also available and translators are %s welcomed %s."
+msgstr ""
+"%s Version hors-ligne %s disponible aussi; traductions %s bienvenues %s"
+
+#: index.php:277
+msgid "Submitting, please wait ..."
+msgstr ""
+
+#: index.php:289
+msgid "Click only once and wait few seconds for the answer!"
+msgstr ""
+"Cliquez une seule fois et patientez quelques secondes - voilà la réponse!"
+
+#: index.php:307
+msgid "Introduction, general remarks"
+msgstr "Introduction, commentaires généraux"
+
+#: index.php:308
+msgid "Introduction"
+msgstr "Introduction"
+
+#: index.php:312
+msgid "Graphs of basic elementary functions"
+msgstr "Graphiques de fonctions élémentaires"
+
+#: index.php:312
+msgid "Natural domains of function in one or two variables"
+msgstr "Domaine de définition d'une fonction à une ou deux variables"
+
+#: index.php:312 index.php:352 lagrange.php:3
+msgid "Lagrange polynomial"
+msgstr "Polynôme de Lagrange"
+
+#: index.php:312
+msgid "Fitting data file using least squares method"
+msgstr "Ajuster des données avec la méthode des moindres carrés"
+
+#: index.php:313
+msgid "Precalculus"
+msgstr "Algèbre élémentaire"
+
+#: index.php:316
+msgid "Investigating function"
+msgstr "Étude de fonction"
+
+#: index.php:316
+msgid "Derivative in one variable"
+msgstr "Dérivée en une variable"
+
+#: index.php:316
+msgid "Partial derivative in two variables"
+msgstr "Dérivée partielle en deux variables"
+
+#: index.php:316 index.php:366 taylor.php:4
+msgid "Taylor polynomial"
+msgstr "Polynôme de Taylor"
+
+#: index.php:316
+msgid "Local maxima and minima for functions in two variables"
+msgstr "Maxima et minima locaux d'une fonction à deux variables"
+
+#: index.php:317
+msgid "Calculus"
+msgstr "Analyse"
+
+#: index.php:321
+msgid "Indefinite integral (anitiderivative)"
+msgstr "Intégral indéfinie (anti-dérivée)"
+
+#: index.php:321 index.php:378
+msgid "Geometrical applications of definite integral"
+msgstr "Applications géometriques de l'intégrale"
+
+#: index.php:321 index.php:384 integral2.php:2
+msgid "Double integral"
+msgstr "Intégrale double"
+
+#: index.php:321
+msgid "Approximation of definite integral by trapezoidal rule"
+msgstr "Approximation d'une intégrale par des trapèzes"
+
+#: index.php:322
+msgid "Integral calculus"
+msgstr "Intégrales"
+
+#: index.php:326
+msgid "First order differerential equations"
+msgstr "Équations différentielles de premier ordre"
+
+#: index.php:326
+msgid ""
+"Second order differential equations (linear, using variantion of constant "
+"and using guess of particular solution)"
+msgstr ""
+"Équations différentielles de deuxième ordre (linéaires, avec variation de "
+"constants et ayant deviné une solution particulière)"
+
+#: index.php:326
+msgid "Stationary points of autonomous system"
+msgstr "Points stationnaires d'un système autonome"
+
+#: index.php:327
+msgid "Differential equations"
+msgstr "Équations différentielles"
+
+#: index.php:331
+msgid "Nonlinear equations using bisection"
+msgstr "Équations non-linéaires par bisection"
+
+#: index.php:331
+msgid "Nonlinear equations using method of iterations"
+msgstr "Équations non-linéaires avec la méthode d'itérations"
+
+#: index.php:331
+msgid "System of inequalities in one or two variables"
+msgstr "Système d'inéquations à une ou deux variables"
+
+#: index.php:332
+msgid "Equations and inequalities"
+msgstr "Équations et inéquations"
+
+#: index.php:337
+msgid "Site map (what you can find on this site and where)."
+msgstr "Carte (ce qu'il y a sur ce site web et où le trouver)"
+
+#: index.php:337
+msgid "Support"
+msgstr "Aide"
+
+#: index.php:338
+msgid "Site map, support"
+msgstr "Carte et aide"
+
+#: index.php:348
+msgid "Domain of functions (one variable)"
+msgstr "Domaine de définition (fonction à une variable)"
+
+#: index.php:350
+msgid "Domain of functions (two variables)"
+msgstr "Domaine de definition (fonction à deux variables)"
+
+#: index.php:354 mnc.php:3
+msgid "Least squares method"
+msgstr "Méthode des moindres carrés"
+
+#: index.php:363
+msgid "Investigating functions"
+msgstr "Étude de fonctions"
+
+#: index.php:369
+msgid "Local maxima and minima in two variables"
+msgstr "Maxima et minima locaux avec deux variables indépendantes"
+
+#: index.php:375 integral.php:2
+msgid "Antiderivative"
+msgstr "Intégrale indéfinie (anti-dérivée)"
+
+#: index.php:381
+msgid "Trapezoidal rule"
+msgstr "Approximation des trapèzes"
+
+#: index.php:390
+msgid "First order ODE"
+msgstr "ÉDO de premier ordre"
+
+#: index.php:393
+msgid "Second order LDE"
+msgstr "ÉDO de deuxième ordre"
+
+#: index.php:396
+msgid "Autonomous system"
+msgstr "Système autonome"
+
+#: index.php:406
+msgid "System of inequalities (in one or two variables)"
+msgstr "Système d'inéquations (à une ou deux variables)"
+
+#: index.php:417
+msgid "Tested on Firefox, Opera and Konqueror."
+msgstr "Testé avec Firefox, Opera et Konqueror."
+
+#: index.php:417
+msgid "Some features do not work on Internet Explorer."
+msgstr "Plusieurs fonctionnalités disparaissent avec Internet Explorer."
+
+#: index.php:422
+msgid ""
+"Enter your data into the calculator and click Submit. You can also change "
+"the type of the caluclator in the second row of the menu. <br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
+"Entrez les données dans la calculette et cliquez Envoyer. Vous pouvez "
+"changer le type de calculette à la deuxième file du menu. <br>Les "
+"calculettes sont arrangées en groupes la description desquels apparait quand "
+"vous bougez la souris au dessus du nom du groupe (première file du menu)."
+
+#: index.php:425
+msgid ""
+"Choose the field of your interest in the menu and then choose the particular "
+"calculator depending on the problem you wich to solve.<br>These calculators "
+"are able to solve the problems including step by step solution.<br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
+"Choisissez en premier le type de problème qui vous intéresse et choisissez "
+"ensuite le modèle particulier de calculette en fonction du problème que vous "
+"voulez resoudre. <br>Les calculettes sont arrangées en groupes la "
+"description desquels apparait quand vous bougez la souris au dessus du nom "
+"du groupe (première file du menu). <br>Ces calculettes vous accompagneront "
+"dans la résolution du problème, en vous montrant chaque pas explicitement."
+
+#: ineq2d.php:3
+msgid "Inequalities"
+msgstr "Inéquations"
+
+#: ineq2d.php:17
+msgid ""
+"Read the comments below the form to find out, which inequalities can be "
+"solved."
+msgstr ""
+"Les commentaires dans la partie inférieure du formulaire précisent quelles "
+"inéquations peuvent être résolues."
+
+#: ineq2d.php:20
+msgid "suppose x,y>0"
+msgstr "supposons x,y>0"
+
+#: ineq2d.php:24
+msgid "draw labels on axes, not on boundary"
+msgstr "mettons les étiquettes sur les axes, non pas sur les bords"
+
+#: ineq2d.php:30
+msgid "use high quality output in PDF"
+msgstr "employons PDF de haute qualité (fichier plus grand)"
+
+#: ineq2d.php:34
+msgid "and change bounds to get equal units on both axes"
+msgstr ""
+"et ajustons les bords pour avoir la même échelle sur les deux axes "
+"(orthonormé)"
+
+#: ineq2d.php:42 prubeh.php:45
+msgid "Axes"
+msgstr "Axes"
+
+#: ineq2d.php:61
+msgid "MAW-ineq2d"
+msgstr ""
+"<br> <ul> <li>Entrez vos inéquations dans le formulaire. Écrivez-y une "
+"inéquation par ligne.</li> <li>Les inéquations sont résolues numériquement "
+"dans l'intervalle donné (rectangle pour inéquations à deux variables). Si à "
+"la fin vous vous retrouvez avec un graphique vide, alors ou bien il n'existe "
+"aucune solution dans l'intervalle (faites-en plus larges les bords), ou bien "
+"la solution n'a que des points isolés. Ces points isolés ne sont pas "
+"trouvables numériquement avec nos méthodes.</li> <li>Employez seulement "
+"inégalités strictes et nommez vos inconnues <i>x</i> et <i>y</i>.</li> "
+"<li>Les bords pour l'axe d'ordonnées <i>y</i> n'ont aucune importance si vos "
+"inéquations contiennent seulement la variable <i>x</i>.</li> <li>Les "
+"graphiques dans la vue préliminaire en html sont carrés. Si la différence "
+"entre les bords de <i>x</i> est égale à la différence entre les bords de "
+"<i>y</i>, alors les cercles n'auront pas l'air d'ellipses et les carrés "
+"n'auront pas la tête de rectangles. Les graphiques en format PDF jouissent "
+"d'un facteur d'échelle 10:7 et pour y obtenir des axes orthonormés, "
+"sélectionnez le deuxième petit carré (l'axe plus curt retrécira). </li> </ul>"
+
+#: integral.php:30
+msgid ""
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
+"mathematical expressions (this allows to write  2x instead of 2*x)"
+msgstr ""
+"employons <a href=\"http://formconv.sourceforge.net/\">formconv</a> pour "
+"convertir les formules d'entrée (ce qui permet d'écrire 2x en lieu de 2*x)"
+
+#: integral.php:35
+msgid ""
+"use \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
+"formulas on html page instead of  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(the output is better but the rendering could be slower)\n"
+msgstr ""
+"employons \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> pour écrire "
+"les formules à la page html en lieu de  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(plus choli mais plus lent)\n"
+
+#: integral.php:44
+msgid ""
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
+"composite fractions (with fraction in numerator))"
+msgstr ""
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"html#Item_003a-pfeformat\">pfeformat</a> (décochez-le si vous obtenez des "
+"tours de fractions, avec des fractions au numérateur)"
+
+#: integral.php:49 integral2.php:82
+msgid "write acsinh and atanh in terms of log"
+msgstr "écrire arcsinh et arctanh en termes de log"
+
+#: integral.php:63
+msgid "MAW-int"
+msgstr ""
+"<span style='color: rgb(255, 0, 0)';>Visitez la <a style='color: rgb(255, 0, "
+"0)' href=\"integral_offline/\">galerie d'intégrales</a></span>. Si vous "
+"voulez y rajouter une intégrale à vous, contactez-nous et nous le ferons "
+"volontiers."
+
+#: integral2.php:25
+msgid "Enter function and choose variables ond order for integration "
+msgstr ""
+"Entrons une fonction, puis choisissons les variables d'intégration et "
+"l'ordre dans lequel il faut les intégrer"
+
+#: integral2.php:61
+msgid ""
+" The Jacobian in polar coordinates is added automatically. You can write "
+"<b>phi</b> for polar variable <img src=\"phi.png\">."
+msgstr ""
+"Le jacobien est rajouté automatiquement en coordonnées polaires. Écrivez "
+"<b>phi</b> pour la variable angulaire <img src=\"phi.png\">."
+
+#: integral2.php:68
+msgid "Axes (decimal numbers)"
+msgstr "Axes (nombres décimals)"
+
+#: integral2.php:100
+msgid "MAW-int2"
+msgstr ""
+
+#: lagrange.php:11 mnc.php:11
+msgid "Data file"
+msgstr "Fichier de données"
+
+#: lagrange.php:25
+msgid "MAW-lagr"
+msgstr ""
+"<ul> <li> Écrivons un fichier de données: les points séparés par point-"
+"virgules, les coordonnées de chaque point séparées par des virgules. </li> </"
+"ul>"
+
+#: lde2.php:3
+msgid "Second order linear differential equations"
+msgstr "Équation diferentielle linéaire de deuxième ordre"
+
+#: lde2.php:15
+msgid "Equation"
+msgstr "Équation"
+
+#: lde2.php:27
+msgid ""
+"<small>You can use Preview and Edit buttons for entering the right hand "
+"side</small>"
+msgstr ""
+"<small>Les boutons Preview et Editor vous rendent service pour remplir la "
+"partie à droite</small>"
+
+#: lde2.php:32
+msgid "Method"
+msgstr "Méthode"
+
+#: lde2.php:36
+msgid "variation of constants"
+msgstr "variation des constantes"
+
+#: lde2.php:40
+msgid "undetermined coefficients"
+msgstr "coefficients indéterminés"
+
+#: lde2.php:44
+msgid "solve also initial value problem"
+msgstr "résolvons aussi le problème avec conditions initiales"
+
+#: lde2.php:64
+msgid "MAW-lde2"
+msgstr ""
+"<ul>   <li>Écrivez les coefficients de l'équation (nombres) et le terme à "
+"droite de l'égale et cliquez Envoyer. Si vous ne voulez pas inclure un des "
+"termes, écrivez 0, ne laissez pas en blanc.</li> \t<li>La méthode de "
+"variation des constantes marche pour n'importe quelle espression que vous "
+"mettiez à droite. Le méthode des coefficients indéterminés marche si le "
+"terme à droite de l'égale est de la forme <i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp"
+"(a*x)*cos(b*x)</i>, <i>a</i> et <i>b</i> réelles et <i>P(x)</i>, <i>Q(x)</i> "
+"polynômes de degré au plus 4.</li>  <li>Si vous découvrez que la calculette "
+"donnne des résultats erronés, alertez-nous, s'il vous plait.</li> </ul>"
+
+#: main.php:2
+msgid "MAW-main"
+msgstr ""
+"<b style=\"font-size:150%;\">Maux de tête avec l'analyse? <br>Contretemps "
+"avec les dérivées ou les integrals? <br> Problèmes avec les équations "
+"différentielles? <br> Nous sommes là pour vous aider! Et nous le ferons!</b> "
+"<br> <br> <span class=\"nadpis\">Au sujet de cette page</span> <ul> <li>Ce "
+"site web contient une interface pédagogique pour accéder au puissant "
+"programme de calcul algébrique avec ordinateur <a href=\"http://maxima."
+"sourceforge.net/\">Maxima</a>, et résoudre automatiquement plusieurs "
+"problèmes typiques des cours de mathématiques, tout en montrant les étapes "
+"intermédiaires pour parvenir à la solution.</li> <li>Choisissez une des "
+"calculettes à l'aide des boutons en haut de la page, rentrez vos données et "
+"cliquez Envoyer. La réponse vous parviendra en quelques secondes sous forme "
+"d'un fichier en format PDF, que vous pourrez lire dans votre écran ou garder "
+"dans votre ordinateur (selon la configuration de vos préférences).</li> "
+"<li>La machine que fait les calculs se trouve au serveur du <a target="
+"\"_blank\" href=\"http://wood.mendelu.cz\">Départament de technologie du "
+"bois</a> de l'Université Mendel, en République Tchèque.</li> <li><a href="
+"\"http://wood.mendelu.cz/math/phpsysinfo\">Information sur le système</a></"
+"li> </ul> <hr> <span class=\"nadpis\">Maxima</span><br> S'il vous faut "
+"<i>toute la puissance</i> du programme <a href=\"http://maxima.sourceforge."
+"net/\">Maxima</a> dans vostre navigateur, employez un de ces projets: <ul> "
+"<li><a href=\"http://www.my-tool.com/mathematics/maximaphp/\">MaximaPHP</a></"
+"li> <li><a href=\"http://maxima-online.lewalski.pl/\">Maxima Online</a></li> "
+"</ul> Il vous faut un <i>accès simplifié</i> à quelques-unes des commandes "
+"de <a href=\"http://maxima.sourceforge.net/\">Maxima</a> depuis votre "
+"navigateur? Essayez le projet <ul> <li><a href=\"http://matek.hu"
+"\">Webmathematics Interactive 2</a></li> </ul> <hr> <span class=\"nadpis"
+"\">Nota Bene:</span> <ul> <li>N'oubliez pas qu'il faut employer * pour la "
+"multiplication - écrivez 2*x et non pas 2x pour \"deux ics\".</li> <li>Votre "
+"entrée est traitée avec les programes de source publique<a href=\"http://"
+"maxima.sourceforge.net/\">Maxima</a>, <a href=\"http://www.gnuplot.info/"
+"\">gnuplot</a>, <a href=\"http://formconv.sourceforge.net/\">formconv</a>, "
+"<a href=\"http://www.tug.org/metapost.html\">MetaPost</a> et elle est "
+"formatée avec <a href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</"
+"a>.</li> <li> Commentaires ou annonces de bogues: nos adresses électroniques "
+"sont (il faut en retirer les lettres \"NO SPAM\") maNOrikSP@mAendMelu.cz "
+"resp. tiNOhlSarPAMik@mendelu.cz.</li> </ul> <hr> <h3>Foire aux questions</"
+"h3>Questions techniques, partage d'expériences, commentaires, pistes, "
+"conseils etc. sur notre <a href=\"http://sourceforge.net/apps/phpbb/"
+"mathassistant/\">forum</a>."
+
+#: map.php:3
+msgid "MAW-map"
+msgstr ""
+"Forum</span><ul><li><a href=\"http://sourceforge.net/apps/phpbb/"
+"mathassistant/\"> L'endroit pour toutes vos questions </a>,  à sourceforge."
+"net.</li></ul><span class=\"nadpis\">Carte du site </span>  <ul> "
+"<li>Fonctions <ul> <li>Graphiques de fonctions élémentaires, avec "
+"translations et changements d'échelle. </li> <li>Domaine de définition d'une "
+"fonction à une variable </li> <li>Domaine de définition d'une fonction à "
+"deux variables </li> <li>Polynôme de Lagrange  </li> <li>Méthode des "
+"moindres carrés </li> </ul> </li> <li>Analyse <ul> <li> Dérivée et dérivée "
+"partielle </li> <li> Étude de fonctions </li> <li> Polynôme de Taylor </li> "
+"<li>Maxima et minima locaux d'une fonction à deux variables </li>  </ul> </"
+"li> <li>Intégrales <ul> <li>Intégrale  indéfinie ou anti-dérivée</li><li> "
+"Intégrale (définie):  aire entre deux courbes et volume de révolution  </"
+"li><li>Intégrale double</li><li> Approximation des trapèzes (estimation "
+"numérique d'une intégrale)</li> </ul> </li> <li>Équations différentielles "
+"<ul> <li> Équations différentielles de premier ordre (linéaires, avec "
+"variables séparées et homogènes)</li><li>Équations différentielles linéaires "
+"de deuxième ordre (variation des constantes et divination d'une solution "
+"particulière)</li><li> Système autonome</li> </ul> </li> <li>Équations et "
+"inéquations  <ul> <li>Equations non-linéaires par les méthodes de bisection "
+"et d'itérations</li> <li>Inéquations à une et deux inconnues</li> </ul> </"
+"il> </ul> <span class=\"nadpis\">Aide</span> <ul><li>Volez-vous contribuer "
+"au développement de l'Assistant Mathématique au Web (MAW)? Vous voulez nous "
+"envoyer des sous? Surtout pas! Faites plutôt une donation aux <a href="
+"\"http://www.rednoses.eu/\"> médecins clowns au nez rouge</a>. </li> "
+"<li>Pour de vrai, vous voulez nous aider directement? Employez l'application "
+"et dites-nous si vous rencontrez des problèmes. Ou faites-nous savoir que "
+"vous employez l'application sans aucune entrave, et ce qu'il vous plairait "
+"qu'elle fasse ou ne fasse pas. Vous pouvez toujours télécharger<a href="
+"\"http://mathassistant.cvs.sourceforge.net/mathassistant/\">le programme "
+"original</a> et le développer comme il vous chante, avec de nouvelles "
+"fonctionnalités. </li> </ul>"
+
+#: minmax3d.php:3
+msgid "Local extrema in two variables"
+msgstr "Extrema locaux à deux variables"
+
+#: minmax3d.php:40
+msgid "Funtion in two variables"
+msgstr "Fonction à deux variables"
+
+#: minmax3d.php:56
+msgid "Task for computation"
+msgstr "Tâche à effectuer"
+
+#: minmax3d.php:61
+msgid "Hessian at stationary point"
+msgstr "Hessien au point stationnaire"
+
+#: minmax3d.php:73
+msgid "Hessian at stationary points"
+msgstr "Hesssiens aux points stationnaires"
+
+#: minmax3d.php:93
+msgid "MAW-minmax3d"
+msgstr ""
+"<br>Vous pouvez étudier les points stationnaires d'une fonction à deux "
+"variables avec cette calculette. Voici vos options.<ul><li>Vous pouvez "
+"trouver les points stationnaires avec le programme symbolique et puis "
+"transcrire ou bien copier et coller la réponse comme entrée.</li><li>Vous "
+"pouvez étudier une collection de points stationnaires pour voir s'il existe "
+"un maximum ou minimum local. Employez le point-virgule pour séparar les "
+"points stationnaires, et la virgule pour séparer les coordonnées de chaque "
+"point.</li><li>Si vous choisissez l'option d'étudier un seul point, la "
+"réponse aura plus de détails.</li><li>Nous empoyons un algorithme simple "
+"pour vérifier si le point que vous entrez est stationnaire ou pas; il n'est "
+"pas hyper-fiable.</li></ul>"
+
+#: mnc.php:24
+msgid "MAW-mnc"
+msgstr ""
+"<ul> <li> Écris un fichier de données: les points séparés par des point-"
+"virgules, les composantes de chaque point séparées par une virgule. </li> </"
+"ul>"
+
+#: ode.php:20
+msgid "Ordinary differential equations"
+msgstr "Équations différentielles ordinaires"
+
+#: ode.php:33
+msgid "Equation solved wrt y'"
+msgstr "Équation résolue par rapport à y'"
+
+#: ode.php:45
+msgid "Full equation"
+msgstr "Toute l'équation"
+
+#: ode.php:61
+msgid "MAW-ode"
+msgstr ""
+"<ul><li>Cette calculette résout une équation différentielle ordinaire qui "
+"peut être de variables séparées, homogenène, exacte, linéaire ou de "
+"Bernoulli. Elle vous montrera les étapes intermédiaires de la solution.</"
+"li><li>Tout ce qu'il vous faut spécifier est ce qui va à droite dans "
+"l'équation différentielle. S'il faut mettre en évidence <i>y'</i> à partir "
+"d'une équation qui n'est pas encore sous cette forme, vous pouvez employer "
+"les petits boutons du deuxième champ de ce formulaire.</li> <li>Autrement, "
+"vous pouveu aussi écrire toute l'équation différentielle ordinaire (avec y' "
+"et =) au deuxième champ. L'équation sera résolue par rapport à y' "
+"automatiquement, mais il vous faut faire très attention que votre entrée "
+"n'ait aucune erreur de syntaxe mathématique.</li> <li>Le problème général de "
+"trouver une solution (avec ou sans ordinateur) n'est pas du tout facile; si "
+"votre solution est erronée, dites-nous que vous avez décelé un bogue, s'il "
+"vous plait.</li></ul>"
+
+#: prubeh.php:2
+msgid "Function calculator"
+msgstr "Calculette de fonctions"
+
+#: prubeh.php:62
+msgid "MAW-prub"
+msgstr ""
+"<span style=\"font-weight: bold;\">NB:</span><br> <ul><li>Si vous n'indiquez "
+"pas un des bords du graphique, il sera calculé automatiquement. Ceci n'est "
+"pas une bonne procédure avec des fonctions discontinues ou très ràpides, car "
+"les bords deviennent trop gransd.</li><li>Les zéros de la fonction et ses "
+"dérivées sont évalués sur les complexes, et par la suite nous négligeons les "
+"zéros avec partie imaginaire. Cela faisant, nous pouvons perdre quelques "
+"zéros réels, dû à l'imprécision dans les calculs.</li></ul>"
+
+#: tail.php:8
+msgid "Server load in last hour: "
+msgstr "Charge du serveur pendant la dernière heure:"
+
+#: tail.php:43
+msgid "uptime"
+msgstr "temps depuis le dernier démarrage"
+
+#: taylor.php:19
+msgid "Degree of Taylor polynomial"
+msgstr "Degré du polynôme de Taylor"
+
+#: taylor.php:23
+msgid "Center of Taylor polynomial"
+msgstr "Point d'expansion du polynôme de Taylor"
+
+#: trap.php:3
+msgid "Trapezoidal rule (approximation for definite integral)"
+msgstr "Trapèzes (approximation d'une intégrale avec) "
+
+#: trap.php:25
+msgid "Limits for integration"
+msgstr "Limites de l'intégrale"
+
+#: trap.php:29
+msgid "lower limit"
+msgstr "limite inférieure"
+
+#: trap.php:33
+msgid "upper limit"
+msgstr "limite supérieure"
+
+#: trap.php:36
+msgid "intervals in partition"
+msgstr "nombre d'intervalles à la partition"
+
+#: trap.php:45
+msgid "MAW-trap"
+msgstr ""
+"<ul><li> Écrivez la fonction qu'il faut intégrer, les limites d'intégration "
+"et le nombre de sous-intervalles (pas plus de 20). Nous intégrerons avec "
+"l'approximation des trapèzes, avec l'approximation de Newton-Leibniz et avec "
+"une troisième méthode numérique avancée, pour pouvoir comparer.</li><li>Si "
+"le nombre de points est inférieur à 10 et si la fonction n'est jamais "
+"négative sur l'intervalle, nous montrons aussi le graphique de la fonction "
+"avec les trapèzes employés. </li></ul>"

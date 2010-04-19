@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-17 01:03+0200\n"
+"POT-Creation-Date: 2010-04-19 07:46+0200\n"
 "PO-Revision-Date: 2010-04-16 11:21+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 "\",     </span>vyplňte souřadnice stacion&aacute;rn&iacute;ho bodu, "
 "kter&yacute; v&aacute;s zaj&iacute;m&aacute;, a stiskněte Odeslat.</li> </ul>"
 
-#: banach.php:2 index.php:402
+#: banach.php:2 index.php:404
 msgid "Method of iterations"
 msgstr "Iterační metoda"
 
@@ -100,7 +100,7 @@ msgstr ""
 "viz <a href=\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem"
 "\">wikipedie</a>"
 
-#: bisection.php:2 index.php:400
+#: bisection.php:2 index.php:402
 msgid "Bisection"
 msgstr "Půlení intervalu"
 
@@ -120,7 +120,7 @@ msgstr "(celé číslo od 2 do 40)"
 msgid "MAW-bisection"
 msgstr "Půlení intervalu"
 
-#: derivace.php:2 index.php:358
+#: derivace.php:2 index.php:360
 msgid "Derivative and partial derivative"
 msgstr "Derivace a parciální derivace"
 
@@ -148,7 +148,7 @@ msgstr "Parciální derivace podle <i>x</i> (funkce dvou proměnných)"
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr "Parciální derivace podle <i>y</i> (funkce dvou proměnných)"
 
-#: derivace.php:46 index.php:275 index.php:287
+#: derivace.php:46 index.php:277 index.php:289
 msgid "Submit"
 msgstr "Odeslat"
 
@@ -306,7 +306,7 @@ msgstr ""
 "sofistikovaněj&scaron;&iacute; n&aacute;stroj na ře&scaron;en&iacute; rovnic."
 "<br>  </li></ul>"
 
-#: graf.php:2 index.php:344
+#: graf.php:2 index.php:346
 msgid "Graphs of elementary functions"
 msgstr "Grafy elementárních funkcí"
 
@@ -356,7 +356,7 @@ msgstr ""
 "posluchače předmětu Matematika I PEF jsou na stránkách <a href=\"http://user."
 "mendelu.cz/pospisi2\">RNDr. Lenky Pospíšilové</a></li> </ul>"
 
-#: index.php:78
+#: index.php:80
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -368,32 +368,32 @@ msgstr ""
 "formconv.sourceforge.net/\">formconv</a> a obdržíte radu, jak zapsat formuli "
 "v programu Maxima. "
 
-#: index.php:83
+#: index.php:85
 msgid "History"
 msgstr "Historie"
 
-#: index.php:177
+#: index.php:179
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 "Pro zobrazení některých dodatečných informací si prosím zapněte Javascripty."
 
-#: index.php:202
+#: index.php:204
 msgid "Support from MAW forum"
 msgstr "Podpora, diskusní fórum"
 
-#: index.php:206
+#: index.php:208
 msgid "changelog"
 msgstr "poslední změny"
 
-#: index.php:209
+#: index.php:211
 msgid "known bugs"
 msgstr "známé chyby"
 
-#: index.php:242
+#: index.php:244
 msgid "Mathematical Assistant on Web"
 msgstr "<big>MAW</big> - Matematické výpočty online"
 
-#: index.php:244
+#: index.php:246
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
@@ -403,192 +403,192 @@ msgstr ""
 "Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
-#: index.php:245
+#: index.php:247
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 "K dispozici je i %s offline%s verze a vítáme případné %s překladatele%s."
 
-#: index.php:275
+#: index.php:277
 msgid "Submitting, please wait ..."
 msgstr "Odesílám požadavek ..."
 
-#: index.php:287
+#: index.php:289
 msgid "Click only once and wait few seconds for the answer!"
 msgstr "Klikněte pouze jednou a počkejte několik okamžiků na odpověd!"
 
-#: index.php:305
+#: index.php:307
 msgid "Introduction, general remarks"
 msgstr "Úvodní poznámky a komentáře"
 
-#: index.php:306
+#: index.php:308
 msgid "Introduction"
 msgstr "Úvod"
 
-#: index.php:310
+#: index.php:312
 msgid "Graphs of basic elementary functions"
 msgstr "Grafy základních elementárních funkcí v posunutém tvaru"
 
-#: index.php:310
+#: index.php:312
 msgid "Natural domains of function in one or two variables"
 msgstr "Určování definičního oboru funkce jedné i dvou proměnných"
 
-#: index.php:310 index.php:350 lagrange.php:3
+#: index.php:312 index.php:352 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr "Lagrangeův polynom"
 
-#: index.php:310
+#: index.php:312
 msgid "Fitting data file using least squares method"
 msgstr "Aproximace metodou nejmenších čtverců"
 
-#: index.php:311
+#: index.php:313
 msgid "Precalculus"
 msgstr "Funkce"
 
-#: index.php:314
+#: index.php:316
 msgid "Investigating function"
 msgstr "Vyšetřování průběhu funkce"
 
-#: index.php:314
+#: index.php:316
 msgid "Derivative in one variable"
 msgstr "Výpočet derivací funkce jedné proměnné"
 
-#: index.php:314
+#: index.php:316
 msgid "Partial derivative in two variables"
 msgstr "Výpočet parciálních derivací funkce dvou proměnných"
 
-#: index.php:314 index.php:364 taylor.php:4
+#: index.php:316 index.php:366 taylor.php:4
 msgid "Taylor polynomial"
 msgstr "Taylorův polynom"
 
-#: index.php:314
+#: index.php:316
 msgid "Local maxima and minima for functions in two variables"
 msgstr "Hledání lokálních extrémů u funkce dvou proměnných"
 
-#: index.php:315
+#: index.php:317
 msgid "Calculus"
 msgstr "Diferenciální počet"
 
-#: index.php:319
+#: index.php:321
 msgid "Indefinite integral (anitiderivative)"
 msgstr "Neurčitý integrál"
 
-#: index.php:319 index.php:376
+#: index.php:321 index.php:378
 msgid "Geometrical applications of definite integral"
 msgstr "Geometrické aplikace určitého integrálu"
 
-#: index.php:319 index.php:382 integral2.php:2
+#: index.php:321 index.php:384 integral2.php:2
 msgid "Double integral"
 msgstr "Dvojnásobný integrál"
 
-#: index.php:319
+#: index.php:321
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr "Aproximace lichoběžníkovým pravidlem"
 
-#: index.php:320
+#: index.php:322
 msgid "Integral calculus"
 msgstr "Integrální počet"
 
-#: index.php:324
+#: index.php:326
 msgid "First order differerential equations"
 msgstr "Diferenciální rovnice prvního řádu"
 
-#: index.php:324
+#: index.php:326
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
 msgstr "Lineární diferenciální rovnice druhého řádu"
 
-#: index.php:324
+#: index.php:326
 msgid "Stationary points of autonomous system"
 msgstr "Stacionární body autonomního systému"
 
-#: index.php:325
+#: index.php:327
 msgid "Differential equations"
 msgstr "Diferenciální rovnice"
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using bisection"
 msgstr "Metoda půlení intervalu"
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using method of iterations"
 msgstr "Metoda prostých iterací"
 
-#: index.php:329
+#: index.php:331
 msgid "System of inequalities in one or two variables"
 msgstr "Soustava nerovnic jedné nebo dvou proměnných"
 
-#: index.php:330
+#: index.php:332
 msgid "Equations and inequalities"
 msgstr "Rovnice a nerovnice"
 
-#: index.php:335
+#: index.php:337
 msgid "Site map (what you can find on this site and where)."
 msgstr "Mapa stránek"
 
-#: index.php:335
+#: index.php:337
 msgid "Support"
 msgstr "Podpora"
 
-#: index.php:336
+#: index.php:338
 msgid "Site map, support"
 msgstr "Mapa stránek, podpora"
 
-#: index.php:346
+#: index.php:348
 msgid "Domain of functions (one variable)"
 msgstr "Definiční obor funkcí jedné proměnné"
 
-#: index.php:348
+#: index.php:350
 msgid "Domain of functions (two variables)"
 msgstr "Definiční obor funkcí dvou proměnných"
 
-#: index.php:352 mnc.php:3
+#: index.php:354 mnc.php:3
 msgid "Least squares method"
 msgstr "Metoda nejmenších čtverců"
 
-#: index.php:361
+#: index.php:363
 msgid "Investigating functions"
 msgstr "Průběh funkce"
 
-#: index.php:367
+#: index.php:369
 msgid "Local maxima and minima in two variables"
 msgstr "Lokální extrémy funkce dvou proměnných"
 
-#: index.php:373 integral.php:2
+#: index.php:375 integral.php:2
 msgid "Antiderivative"
 msgstr "Neurčitý integrál"
 
-#: index.php:379
+#: index.php:381
 msgid "Trapezoidal rule"
 msgstr "Lichoběžníkové pravidlo"
 
-#: index.php:388
+#: index.php:390
 msgid "First order ODE"
 msgstr "Diferenciální rovnice prvního řádu"
 
-#: index.php:391
+#: index.php:393
 msgid "Second order LDE"
 msgstr "Diferenciální rovnice druhého řádu"
 
-#: index.php:394
+#: index.php:396
 msgid "Autonomous system"
 msgstr "Autonomní systémy"
 
-#: index.php:404
+#: index.php:406
 msgid "System of inequalities (in one or two variables)"
 msgstr "Soustavy nerovnic (jedné nebo dvou proměnných)"
 
-#: index.php:415
+#: index.php:417
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr "Testováno v prohlížečích Firefox, Opera, Epiphany a Konqueror"
 
-#: index.php:415
+#: index.php:417
 msgid "Some features do not work on Internet Explorer."
 msgstr "Některé funkce nefungují v prohlížeči Internet Explorer."
 
-#: index.php:420
+#: index.php:422
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -600,7 +600,7 @@ msgstr ""
 "skupiny, pro každou tematickou skupinu jsou příslušené kalkulátory ve druhém "
 "řádku menu."
 
-#: index.php:423
+#: index.php:425
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-17 01:03+0200\n"
+"POT-Creation-Date: 2010-04-19 07:46+0200\n"
 "PO-Revision-Date: 2009-08-27 09:32+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "computer to find stationary points or Jacobi matrix and eigenvalue at one of "
 "stationary points. Choose the correct radiobutton, please.</li> </ul>"
 
-#: banach.php:2 index.php:402
+#: banach.php:2 index.php:404
 msgid "Method of iterations"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 "The nonlinear equation solver based on <a href=\"http://en.wikipedia.org/"
 "wiki/Banach_fixed_point_theorem\">Banach fixed point theorem</a>"
 
-#: bisection.php:2 index.php:400
+#: bisection.php:2 index.php:402
 msgid "Bisection"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 "For theory see <a href=\"http://en.wikipedia.org/wiki/Bisection_method"
 "\">Bisection method on Wikipedia</a>"
 
-#: derivace.php:2 index.php:358
+#: derivace.php:2 index.php:360
 msgid "Derivative and partial derivative"
 msgstr ""
 
@@ -142,7 +142,7 @@ msgstr ""
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr ""
 
-#: derivace.php:46 index.php:275 index.php:287
+#: derivace.php:46 index.php:277 index.php:289
 msgid "Submit"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 "the curves. Simply choose the action using appropriate radiobutton.<br> </"
 "li> </ul>"
 
-#: graf.php:2 index.php:344
+#: graf.php:2 index.php:346
 msgid "Graphs of elementary functions"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 "automatically and you get the graph of this functions, includin animation of "
 "consecutive deformations</li></ul>"
 
-#: index.php:78
+#: index.php:80
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -317,222 +317,222 @@ msgid ""
 "transfer to the form.)"
 msgstr ""
 
-#: index.php:83
+#: index.php:85
 msgid "History"
 msgstr ""
 
-#: index.php:177
+#: index.php:179
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 
-#: index.php:202
+#: index.php:204
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:206
+#: index.php:208
 msgid "changelog"
 msgstr ""
 
-#: index.php:209
+#: index.php:211
 msgid "known bugs"
 msgstr ""
 
-#: index.php:242
+#: index.php:244
 msgid "Mathematical Assistant on Web"
 msgstr ""
 
-#: index.php:244
+#: index.php:246
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
 
-#: index.php:245
+#: index.php:247
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 
-#: index.php:275
+#: index.php:277
 msgid "Submitting, please wait ..."
 msgstr ""
 
-#: index.php:287
+#: index.php:289
 msgid "Click only once and wait few seconds for the answer!"
 msgstr ""
 
-#: index.php:305
+#: index.php:307
 msgid "Introduction, general remarks"
 msgstr ""
 
-#: index.php:306
+#: index.php:308
 msgid "Introduction"
 msgstr ""
 
-#: index.php:310
+#: index.php:312
 msgid "Graphs of basic elementary functions"
 msgstr ""
 
-#: index.php:310
+#: index.php:312
 msgid "Natural domains of function in one or two variables"
 msgstr ""
 
-#: index.php:310 index.php:350 lagrange.php:3
+#: index.php:312 index.php:352 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr ""
 
-#: index.php:310
+#: index.php:312
 msgid "Fitting data file using least squares method"
 msgstr ""
 
-#: index.php:311
+#: index.php:313
 msgid "Precalculus"
 msgstr ""
 
-#: index.php:314
+#: index.php:316
 msgid "Investigating function"
 msgstr ""
 
-#: index.php:314
+#: index.php:316
 msgid "Derivative in one variable"
 msgstr ""
 
-#: index.php:314
+#: index.php:316
 msgid "Partial derivative in two variables"
 msgstr ""
 
-#: index.php:314 index.php:364 taylor.php:4
+#: index.php:316 index.php:366 taylor.php:4
 msgid "Taylor polynomial"
 msgstr ""
 
-#: index.php:314
+#: index.php:316
 msgid "Local maxima and minima for functions in two variables"
 msgstr ""
 
-#: index.php:315
+#: index.php:317
 msgid "Calculus"
 msgstr ""
 
-#: index.php:319
+#: index.php:321
 msgid "Indefinite integral (anitiderivative)"
 msgstr ""
 
-#: index.php:319 index.php:376
+#: index.php:321 index.php:378
 msgid "Geometrical applications of definite integral"
 msgstr ""
 
-#: index.php:319 index.php:382 integral2.php:2
+#: index.php:321 index.php:384 integral2.php:2
 msgid "Double integral"
 msgstr ""
 
-#: index.php:319
+#: index.php:321
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr ""
 
-#: index.php:320
+#: index.php:322
 msgid "Integral calculus"
 msgstr ""
 
-#: index.php:324
+#: index.php:326
 msgid "First order differerential equations"
 msgstr ""
 
-#: index.php:324
+#: index.php:326
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
 msgstr ""
 
-#: index.php:324
+#: index.php:326
 msgid "Stationary points of autonomous system"
 msgstr ""
 
-#: index.php:325
+#: index.php:327
 msgid "Differential equations"
 msgstr ""
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using bisection"
 msgstr ""
 
-#: index.php:329
+#: index.php:331
 msgid "Nonlinear equations using method of iterations"
 msgstr ""
 
-#: index.php:329
+#: index.php:331
 msgid "System of inequalities in one or two variables"
 msgstr ""
 
-#: index.php:330
+#: index.php:332
 msgid "Equations and inequalities"
 msgstr ""
 
-#: index.php:335
+#: index.php:337
 msgid "Site map (what you can find on this site and where)."
 msgstr ""
 
-#: index.php:335
+#: index.php:337
 msgid "Support"
 msgstr ""
 
-#: index.php:336
+#: index.php:338
 msgid "Site map, support"
 msgstr ""
 
-#: index.php:346
+#: index.php:348
 msgid "Domain of functions (one variable)"
 msgstr ""
 
-#: index.php:348
+#: index.php:350
 msgid "Domain of functions (two variables)"
 msgstr ""
 
-#: index.php:352 mnc.php:3
+#: index.php:354 mnc.php:3
 msgid "Least squares method"
 msgstr ""
 
-#: index.php:361
+#: index.php:363
 msgid "Investigating functions"
 msgstr ""
 
-#: index.php:367
+#: index.php:369
 msgid "Local maxima and minima in two variables"
 msgstr ""
 
-#: index.php:373 integral.php:2
+#: index.php:375 integral.php:2
 msgid "Antiderivative"
 msgstr ""
 
-#: index.php:379
+#: index.php:381
 msgid "Trapezoidal rule"
 msgstr ""
 
-#: index.php:388
+#: index.php:390
 msgid "First order ODE"
 msgstr ""
 
-#: index.php:391
+#: index.php:393
 msgid "Second order LDE"
 msgstr ""
 
-#: index.php:394
+#: index.php:396
 msgid "Autonomous system"
 msgstr ""
 
-#: index.php:404
+#: index.php:406
 msgid "System of inequalities (in one or two variables)"
 msgstr ""
 
-#: index.php:415
+#: index.php:417
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr ""
 
-#: index.php:415
+#: index.php:417
 msgid "Some features do not work on Internet Explorer."
 msgstr ""
 
-#: index.php:420
+#: index.php:422
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -540,7 +540,7 @@ msgid ""
 "you move your mouse on the name of each group (the first row of the menu)."
 msgstr ""
 
-#: index.php:423
+#: index.php:425
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
