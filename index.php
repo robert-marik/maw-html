@@ -226,31 +226,7 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 
 <?php 
 
-function  cz_en($cz,$en) {global $lang; if ($lang=="en") {return $en;} else {return $cz;}}
-
-/* echo '<center><span style="font-weight:bold;color:red">This is new version of MAW. If something does not */
-/* work, you can use old version <a           */
-/* href="http://user.mendelu.cz/marik/maw-old">here</a>.<br></span>'.cz_en("Pokud něco nefunguje v nové verzi, ale funguje ve verzi staré, dejte prosím o tomto problému vědět výojářům.<br>Nahlašte prosím i případné texty, které zůstaly nepřeloženy do češtiny.","If something does not work but works well in the old version, report this problem to the developers, please.").'</center>'; */
-
-//echo '&nbsp;&nbsp;&nbsp;&nbsp';
-//echo '&nbsp;&nbsp;&nbsp;&nbsp';
-//echo '&nbsp;&nbsp;&nbsp;&nbsp';
-// echo '<img src="../construction.jpg" width=100px/> ';
-//echo '<img src="../construction.jpg" width=150px/> ';
-//echo '<img src="../construction.jpg" width=150px/> ';
-//echo '<img src="../construction.jpg" width=150px/> ';
-//echo '<img src="../construction.jpg" width=150px/>';
-//echo '<br>';
-//echo '<big><b style=\'color: rgb(255, 0, 0)\';>';
-//echo 'Under construction';
-//echo '</b></b></big>';
-//echo '<img src="../construction.jpg" width=150px/> ';
-
-//echo '<center><span style="color:red"><b>CZECH - Delali jsme velke zmeny tykajici se internationalizace. Nahlaste nam proto prosim pripadne chyby nebo nesmyslne preklady.<br>ENGLISH - We did many changes related to internationalization. Report possible bugs, errors, misspelled or senseless formulations, please. Many many thanks<br>email: marik@mendelu.cz</b></span></center>';
-
-//echo '<center><a href="http://frcatel.fri.uniza.sk/OSS09" target="_blank"> 
-//<img alt="OSS09" height="44" width="220" src="http://frcatel.fri.uniza.sk/img/oss09.png"/> </a></center>'; 
-
+if (file_exists('./mawcustom_top.php')) {require ('./mawcustom_top.php');}
 
 echo '<h2 style="text-align: center;">';
 echo __('Mathematical Assistant on Web');
@@ -258,7 +234,7 @@ echo '&nbsp;&nbsp;<small><small>(';
 echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
 echo ')<br><center>('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.html">','</a>','<a href="translators.html">','</a>').')</center></small></small> </h2>';
 
-
+if (file_exists('./mawcustom_aftertitle.php')) {require ('./mawcustom_aftertitle.php');}
 
 ?>
 
