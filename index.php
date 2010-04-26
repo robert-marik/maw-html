@@ -26,7 +26,6 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="http://localhost/maw";
 $lang = "en"; $locale_file = "en_US";
-$savereferer=false;
 
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
@@ -72,8 +71,6 @@ if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&
   $form="main";
 }
 
-
-
 if ($form=="main") {$submenu=1;}
 if ($form=="map") {$submenu=7;}
 
@@ -101,16 +98,6 @@ $ref=$_SERVER['HTTP_REFERER'];
 echo '<input type="hidden" name="referer" value="'.$ref.'">';
 }
 
-if ($savereferer == true)
-{
-$referer=$_SERVER['HTTP_REFERER'];
-if ((strpos($referer, 'user.mendelu.cz/~marik/maw') == false)&&(strpos($referer, 'user.mendelu.cz/marik/maw') == false)&&($referer!=""))
-  {
-    $fp = fopen('log/log-ref.dat', 'a');
-    fwrite($fp, date("d.M.Y, H:i:s, ")."server: ".$_SERVER['REMOTE_ADDR'].'  ref: '.$referer."\n");
-    fclose($fp);
-  }
-}
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
