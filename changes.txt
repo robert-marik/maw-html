@@ -8,7 +8,7 @@ future plans:
 * Definicni obor funkci dvou promennych - upravit na vystup do PDF, vystup 
   do html nechat jako jednu z voleb.
 * test, jestli jsou v urcitych integralech meze konstanty (a ne napr."exp")
-* use a string variables for formconv and timeout executables 
+* use a string variables for formconv executable 
 * integral: if function can be splitted into sum and is in x variable,
    we can investigate terms separately. Allow this feature also for
    general variable (by converting into x variable first)
@@ -21,6 +21,9 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
+june 2010
+* /usr/bin/timeout replaced by custom variable $mawtimeout to avoid
+  conflict with another program /usr/bin/timeout from Debian distro
 
 april 2010
 * fixed bug

@@ -199,7 +199,7 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 ?>
 <small>
 <br><br>
-<img src="new.gif"><a href="http://sourceforge.net/apps/phpbb/mathassistant">
+<a href="http://sourceforge.net/apps/phpbb/mathassistant">
 <?php  echo __("Support from MAW forum");?></a>
 </a>
 <br>

@@ -16,9 +16,13 @@ http://wood.mendelu.cz/math/maw/derivace/derivace.php?lang=cs&ip=78.98.56.92&ref
 Solution: Use your own server and increase time limit.
 
 --------------------------------------------
+Description:
+
 radcan simplifies derivative of asin((x+1)/(x-1)) in and incorrect way
 ( sqrt(x^2-2*x+1) is simplified into x-1, not abs(x-1) )
 
 Solution: Do not trust everything computed by CAS or install MAW on your
 server and remove radcan from the chain called when simplifying
 derivative
+
+
