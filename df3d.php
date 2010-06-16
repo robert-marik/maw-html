@@ -3,7 +3,7 @@
 <?php echo __("Domain of a function in two variables"); ?>
 </span>
 
-<form method="get"
+<form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>

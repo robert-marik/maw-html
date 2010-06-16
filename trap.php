@@ -7,7 +7,7 @@
 
 <form name="exampleform"  
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/trap/trapezoidal.php">
+<?php formmethod();?> action="<?php echo($server);?>/trap/trapezoidal.php">
 <fieldset class="main">
     <?php polejazyka($lang); ?>
 <span>

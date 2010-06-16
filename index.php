@@ -98,6 +98,11 @@ $ref=$_SERVER['HTTP_REFERER'];
 echo '<input type="hidden" name="referer" value="'.$ref.'">';
 }
 
+function formmethod()
+{
+echo 'method="post"';
+}
+
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">

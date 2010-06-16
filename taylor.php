@@ -4,7 +4,7 @@
 <?php echo __("Taylor polynomial");?>
 </span> 
 
-<form name="exampleform" method="get"
+<form name="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/taylor/taylor.php">
 <fieldset class="main">

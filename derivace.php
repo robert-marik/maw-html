@@ -3,7 +3,7 @@
 </span>
 
 <form name="exampleform"
-method="get" action="<?php echo($server);?>/derivace/derivace.php">
+<?php formmethod();?> action="<?php echo($server);?>/derivace/derivace.php">
 <?php polejazyka($lang); ?>
 <fieldset class="main">
 <br>

@@ -3,7 +3,7 @@
 <?php echo __("Inequalities");?>
 </span>
 
-<form method="get"
+<form <?php formmethod();?>
 <?php //echo $onsubmit;
 ?>
 action="<?php echo($server);?>/ineq2d/ineq2d.php"name="exampleform">

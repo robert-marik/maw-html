@@ -20,7 +20,7 @@ if (str_replace(" ","",$function)=="")
 
 <form name="exampleform"
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/prubeh/zpracuj.php">
+<?php formmethod();?> action="<?php echo($server);?>/prubeh/zpracuj.php">
 <fieldset class="main">
 
 <label for="funkce">

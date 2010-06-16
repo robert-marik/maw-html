@@ -4,7 +4,7 @@
 
 <form name="exampleform"
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/graf/graf.php">
+<?php formmethod();?> action="<?php echo($server);?>/graf/graf.php">
 <fieldset class="main">
 <?php polejazyka($lang); ?>
 

@@ -32,7 +32,7 @@ if ($action==1)
 </span>
 
 <span style="font-weight: bold;"></span>
-<form method="get" 
+<form <?php formmethod();?> 
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/autsyst/autsyst.php"
 name="exampleform"><br>

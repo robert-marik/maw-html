@@ -2,7 +2,7 @@
    <?php echo __("Domain of a function in one variable");?>
 </span>
 
-<form method="get"
+<form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>

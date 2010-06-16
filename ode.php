@@ -22,7 +22,7 @@ if (str_replace(" ","",$ode2)=="")
 
 <form name="exampleform" 
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/ode/ode.php">
+<?php formmethod();?> action="<?php echo($server);?>/ode/ode.php">
 <?php polejazyka($lang); ?>
 
 <br>

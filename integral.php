@@ -4,7 +4,7 @@
 
 <form name="exampleform"
    <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/integral/integral.php">
+<?php formmethod();?> action="<?php echo($server);?>/integral/integral.php">
 <?php polejazyka($lang); ?>
 <fieldset class="main">
 <br>

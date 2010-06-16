@@ -17,7 +17,7 @@ if ($function=="")
 
 <form name="exampleform"
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/integral2/integral2.php">
+<?php formmethod();?> action="<?php echo($server);?>/integral2/integral2.php">
 <?php polejazyka($lang); ?>
 <fieldset class="main">
 <br>

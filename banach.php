@@ -16,7 +16,7 @@ if ($function=="")
 <form name="exampleform"
 <?php //echo $onsubmit;
 ?>
-method="get" action="<?php echo($server);?>/banach/banach.php">
+<?php formmethod();?> action="<?php echo($server);?>/banach/banach.php">
 <?php polejazyka($lang); ?>
 <input type="hidden" name="method" value="banach">
 <fieldset class="main">

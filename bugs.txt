@@ -25,4 +25,13 @@ Solution: Do not trust everything computed by CAS or install MAW on your
 server and remove radcan from the chain called when simplifying
 derivative
 
+--------------------------------------------
+Description 
+
+y''+2y'+y=ln(x) fails
+
+
+Explanation: Maxima 5.21 returns incomplete_gammafunction(a,b) and the comma in this function puzzles the 
+parses of the answer. The same problem could occur on more places. Needs a big rewrite :(
+
 

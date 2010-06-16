@@ -30,7 +30,7 @@ if ($action==2)
 ?>
 </span>
 
-<form method="get"
+<form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
 <?php polejazyka($lang); ?>

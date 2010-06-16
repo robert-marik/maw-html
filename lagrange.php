@@ -5,7 +5,7 @@
 </span>
 <form 
 <?php echo $onsubmit;?>
-method="get" action="<?php echo($server);?>/lagrange/lagrange.php">
+<?php formmethod();?> action="<?php echo($server);?>/lagrange/lagrange.php">
 <fieldset class="main">
 <?php polejazyka($lang); ?>
 <?php echo __('Data file'); ?>:
