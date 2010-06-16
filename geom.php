@@ -5,7 +5,7 @@
 <?php echo __("Definite integral in geometry");?>
 </span>
 
-<form name="exampleform" <?php formmethod();?> 
+<form name="exampleform" method="get"
 <?php //echo $onsubmit;
 ?>
 action="<?php

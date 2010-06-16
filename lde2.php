@@ -5,7 +5,7 @@
 
 
 <span style="font-weight: bold;"></span>
-<form <?php formmethod();?>
+<form method="get"
 <?php echo $onsubmit;?>
  action="<?php echo($server);?>/lde2/ldr2.php"
 name="exampleform">
