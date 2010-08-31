@@ -21,6 +21,9 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
+august 2010
+* Method regula falsi
+
 june 2010
 * /usr/bin/timeout replaced by custom variable $mawtimeout to avoid
   conflict with another program /usr/bin/timeout from Debian distro

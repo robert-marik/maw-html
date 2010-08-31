@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-19 07:46+0200\n"
+"POT-Creation-Date: 2010-08-31 13:55+0200\n"
 "PO-Revision-Date: 2010-04-18 22:14+0100\n"
 "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "trobar els punts estacionaris, o bé el jacobià i els valors propis a un dels "
 "punts estacionaris. Trieu amb el botonet que calgui.</li> </ul>l"
 
-#: banach.php:2 index.php:404
+#: banach.php:2 index.php:386
 msgid "Method of iterations"
 msgstr "Mètode d'iteracions"
 
@@ -57,7 +57,7 @@ msgstr ""
 "Entreu la funció, l'interval contenent el punt fix, i el nombre d'iteracions."
 
 #: banach.php:29 bisection.php:30 derivace.php:11 df.php:12 graf.php:12
-#: integral.php:12 prubeh.php:27 taylor.php:12 trap.php:14
+#: integral.php:12 prubeh.php:27 regula_falsi.php:30 taylor.php:12 trap.php:14
 msgid "Function"
 msgstr "Funció"
 
@@ -65,15 +65,15 @@ msgstr "Funció"
 msgid "Interval from "
 msgstr "Interval de "
 
-#: banach.php:41 bisection.php:42
+#: banach.php:41 bisection.php:42 regula_falsi.php:42
 msgid "to"
 msgstr "a"
 
-#: banach.php:43 bisection.php:44
+#: banach.php:43 bisection.php:44 regula_falsi.php:44
 msgid "(integers or decimal numbers)"
 msgstr "(nombres sencers o decimals)"
 
-#: banach.php:47 bisection.php:48
+#: banach.php:47 bisection.php:48 regula_falsi.php:48
 msgid "Number of steps "
 msgstr "Nombre d'iteracions"
 
@@ -96,21 +96,21 @@ msgstr ""
 "wikipedia.org/wiki/Teorema_del_punt_fix_de_Banach\">teorema de Banach del "
 "punt fix</a>"
 
-#: bisection.php:2 index.php:402
+#: bisection.php:2 index.php:382
 msgid "Bisection"
 msgstr "Bisecció"
 
-#: bisection.php:26
+#: bisection.php:26 regula_falsi.php:26
 msgid "Enter function, interval containing zero and number of steps."
 msgstr ""
 "Entreu la funció, l'interval contenent el zero de la funció, i el nombre "
 "d'iteracions."
 
-#: bisection.php:40
+#: bisection.php:40 regula_falsi.php:40
 msgid "Interval from"
 msgstr "Interval de"
 
-#: bisection.php:50
+#: bisection.php:50 regula_falsi.php:50
 msgid "(integer between 2 and 40)"
 msgstr "(nombre natural entre 2 i 40)"
 
@@ -120,7 +120,7 @@ msgstr ""
 "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia.org/wiki/"
 "Bisection_method\">mètode de bisecció</a>"
 
-#: derivace.php:2 index.php:360
+#: derivace.php:2 index.php:340
 msgid "Derivative and partial derivative"
 msgstr "Derivada i derivada parcial"
 
@@ -149,7 +149,7 @@ msgstr "Derivada parcial respecte a <i>x</i> (funció de dues variables)"
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr "Derivada parcial respecte a <i>y</i> (funció de dues variables)"
 
-#: derivace.php:46 index.php:277 index.php:289
+#: derivace.php:46 index.php:257 index.php:269
 msgid "Submit"
 msgstr "Envia-ho"
 
@@ -275,7 +275,7 @@ msgstr ""
 "interseccions de les corbes. Trieu aquesta acció amb el botonet escaient."
 "<br> </li> </ul>"
 
-#: graf.php:2 index.php:346
+#: graf.php:2 index.php:326
 msgid "Graphs of elementary functions"
 msgstr "Gràfiques de funcions elementals"
 
@@ -320,7 +320,7 @@ msgstr ""
 "canvi d'escala.</li><li>La funció serà analitzada i n'obtindreu la gràfica, "
 "incloent-hi l'animació de deformacions ulteriors.</li></ul>"
 
-#: index.php:80
+#: index.php:84
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -332,32 +332,32 @@ msgstr ""
 "vostra expressió, i com s'expressa en notació de Màxima (després ho podeu "
 "copiar i enganxar al formulari.)"
 
-#: index.php:85
+#: index.php:89
 msgid "History"
 msgstr "Historial"
 
-#: index.php:179
+#: index.php:181
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 "Engegeu JavaScript per poder veure la informació en finestres emergents."
 
-#: index.php:204
+#: index.php:208
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:208
+#: index.php:212
 msgid "changelog"
 msgstr "historial de canvis"
 
-#: index.php:211
+#: index.php:215
 msgid "known bugs"
 msgstr "bogs coneguts"
 
-#: index.php:244
+#: index.php:224
 msgid "Mathematical Assistant on Web"
 msgstr "L'Assistent Matemàtic al Web (MAW)"
 
-#: index.php:246
+#: index.php:226
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
@@ -367,98 +367,98 @@ msgstr ""
 "Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
-#: index.php:247
+#: index.php:227
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 "%s Versió fora de línia%s també disponible; traduccions %s benvingudes %s"
 
-#: index.php:277
+#: index.php:257
 msgid "Submitting, please wait ..."
 msgstr ""
 
-#: index.php:289
+#: index.php:269
 msgid "Click only once and wait few seconds for the answer!"
 msgstr "Clic un sol cop i espereu uns segons - ara ve la resposta!"
 
-#: index.php:307
+#: index.php:287
 msgid "Introduction, general remarks"
 msgstr "Introducció, comentaris generals"
 
-#: index.php:308
+#: index.php:288
 msgid "Introduction"
 msgstr "Introducció"
 
-#: index.php:312
+#: index.php:292
 msgid "Graphs of basic elementary functions"
 msgstr "Gràfiques de funcions elementals"
 
-#: index.php:312
+#: index.php:292
 msgid "Natural domains of function in one or two variables"
 msgstr "Domini de definició d'una funció d'una o dues variables"
 
-#: index.php:312 index.php:352 lagrange.php:3
+#: index.php:292 index.php:332 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr "Polinomi de Lagrange"
 
-#: index.php:312
+#: index.php:292
 msgid "Fitting data file using least squares method"
 msgstr "Ajustar dades amb el mètode dels mínims quadrats"
 
-#: index.php:313
+#: index.php:293
 msgid "Precalculus"
 msgstr "Àlgebra elemental"
 
-#: index.php:316
+#: index.php:296
 msgid "Investigating function"
 msgstr "Estudi de funcions"
 
-#: index.php:316
+#: index.php:296
 msgid "Derivative in one variable"
 msgstr "Derivada en una variable"
 
-#: index.php:316
+#: index.php:296
 msgid "Partial derivative in two variables"
 msgstr "Derivada parcial en dues variables"
 
-#: index.php:316 index.php:366 taylor.php:4
+#: index.php:296 index.php:346 taylor.php:4
 msgid "Taylor polynomial"
 msgstr "Polinomi de Taylor"
 
-#: index.php:316
+#: index.php:296
 msgid "Local maxima and minima for functions in two variables"
 msgstr "Máxims i mínims locals d'una funció de dues variables"
 
-#: index.php:317
+#: index.php:297
 msgid "Calculus"
 msgstr "Anàlisi"
 
-#: index.php:321
+#: index.php:301
 msgid "Indefinite integral (anitiderivative)"
 msgstr "Integral indefinida (anti-derivada)"
 
-#: index.php:321 index.php:378
+#: index.php:301 index.php:358
 msgid "Geometrical applications of definite integral"
 msgstr "Aplicacions geomètriques de la integral"
 
-#: index.php:321 index.php:384 integral2.php:2
+#: index.php:301 index.php:364 integral2.php:2
 msgid "Double integral"
 msgstr "Integral doble"
 
-#: index.php:321
+#: index.php:301
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr "Aproximació d'una integral per trapezis"
 
-#: index.php:322
+#: index.php:302
 msgid "Integral calculus"
 msgstr "Integrals"
 
-#: index.php:326
+#: index.php:306
 msgid "First order differerential equations"
 msgstr "Equacions diferencials de primer ordre"
 
-#: index.php:326
+#: index.php:306
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
@@ -466,95 +466,104 @@ msgstr ""
 "Equacions diferencials de segon ordre (lineals, amb variació de constants i "
 "havent endevinat una solució particular)"
 
-#: index.php:326
+#: index.php:306
 msgid "Stationary points of autonomous system"
 msgstr "Punts estacionaris d'un sistema autònom"
 
-#: index.php:327
+#: index.php:307
 msgid "Differential equations"
 msgstr "Equacions diferencials"
 
-#: index.php:331
+#: index.php:311
 msgid "Nonlinear equations using bisection"
 msgstr "Equacions no-lineals per bisecció"
 
-#: index.php:331
+#: index.php:311
+#, fuzzy
+msgid "Nonlinear equations using regula falsi"
+msgstr "Equacions no-lineals per bisecció"
+
+#: index.php:311
 msgid "Nonlinear equations using method of iterations"
 msgstr "Equacions no-lineals amb el mètode d'iteracions"
 
-#: index.php:331
+#: index.php:311
 msgid "System of inequalities in one or two variables"
 msgstr "Sistema d'inequacions en una o dues variables"
 
-#: index.php:332
+#: index.php:312
 msgid "Equations and inequalities"
 msgstr "Equacions i inequacions"
 
-#: index.php:337
+#: index.php:317
 msgid "Site map (what you can find on this site and where)."
 msgstr "Mapa (què hi ha a aquesta adreça web i on trobar-ho)"
 
-#: index.php:337
+#: index.php:317
 msgid "Support"
 msgstr "Ajuda"
 
-#: index.php:338
+#: index.php:318
 msgid "Site map, support"
 msgstr "Mapa i ajuda"
 
-#: index.php:348
+#: index.php:328
 msgid "Domain of functions (one variable)"
 msgstr "Domini de definició (funció d'una variable)"
 
-#: index.php:350
+#: index.php:330
 msgid "Domain of functions (two variables)"
 msgstr "Domini de definició (funció de dues variables)"
 
-#: index.php:354 mnc.php:3
+#: index.php:334 mnc.php:3
 msgid "Least squares method"
 msgstr "Mètode dels mínims quadrats"
 
-#: index.php:363
+#: index.php:343
 msgid "Investigating functions"
 msgstr "Estudi de funcions"
 
-#: index.php:369
+#: index.php:349
 msgid "Local maxima and minima in two variables"
 msgstr "Màxims i mínims locals en dues variables"
 
-#: index.php:375 integral.php:2
+#: index.php:355 integral.php:2
 msgid "Antiderivative"
 msgstr "Integral indefinida (anti-derivada)"
 
-#: index.php:381
+#: index.php:361
 msgid "Trapezoidal rule"
 msgstr "Aproximació dels trapezis"
 
-#: index.php:390
+#: index.php:370
 msgid "First order ODE"
 msgstr "EDO de primer ordre"
 
-#: index.php:393
+#: index.php:373
 msgid "Second order LDE"
 msgstr "EDO de segon ordre"
 
-#: index.php:396
+#: index.php:376
 msgid "Autonomous system"
 msgstr "Sistema autònom"
 
-#: index.php:406
+#: index.php:384 regula_falsi.php:2
+msgid "Regula falsi"
+msgstr ""
+
+#: index.php:388
 msgid "System of inequalities (in one or two variables)"
 msgstr "Sistema d'inequacions (en una o dues variables)"
 
-#: index.php:417
+#: index.php:399
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr "Bon funcionament comprovat amb Firefox, Opera i Konqueror."
 
-#: index.php:417
+#: index.php:399
 msgid "Some features do not work on Internet Explorer."
 msgstr "Diverses funcionalitats desapareixen amb Internet Explorer."
 
-#: index.php:422
+#: index.php:404
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -566,7 +575,7 @@ msgstr ""
 "repartides en grups la descripció dels quals apareix quan moveu el ratolí al "
 "damunt del nom del grup (primera fila del menú)."
 
-#: index.php:425
+#: index.php:407
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
@@ -909,11 +918,15 @@ msgstr ""
 "escapar, però, alguns zeros reals, degut a la imprecisió dels càlculs.</li></"
 "ul>"
 
-#: tail.php:8
+#: regula_falsi.php:66
+msgid "MAW-regula_falsi"
+msgstr ""
+
+#: tail_user.php:3
 msgid "Server load in last hour: "
 msgstr "Càrrega del servidor durant la darrera hora:"
 
-#: tail.php:43
+#: tail_user.php:38
 msgid "uptime"
 msgstr "temps d'ençà la darrera arrencada"
 

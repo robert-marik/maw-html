@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-19 07:46+0200\n"
+"POT-Creation-Date: 2010-08-31 13:55+0200\n"
 "PO-Revision-Date: 2010-02-26 12:20+0100\n"
 "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "punktów stacjonarnych lub wyznaczenia macierzy Jacobiego i wartości własnych "
 "dla danych punktów stacjonarnych, wybierając odpowiednią opcję.</li> </ul>"
 
-#: banach.php:2 index.php:404
+#: banach.php:2 index.php:386
 msgid "Method of iterations"
 msgstr "Metoda iteracji"
 
@@ -56,7 +56,7 @@ msgid "Enter function, interval containing  fixed point and number of steps."
 msgstr "Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
 
 #: banach.php:29 bisection.php:30 derivace.php:11 df.php:12 graf.php:12
-#: integral.php:12 prubeh.php:27 taylor.php:12 trap.php:14
+#: integral.php:12 prubeh.php:27 regula_falsi.php:30 taylor.php:12 trap.php:14
 msgid "Function"
 msgstr "Funkcja"
 
@@ -64,15 +64,15 @@ msgstr "Funkcja"
 msgid "Interval from "
 msgstr "Przedział od"
 
-#: banach.php:41 bisection.php:42
+#: banach.php:41 bisection.php:42 regula_falsi.php:42
 msgid "to"
 msgstr "do"
 
-#: banach.php:43 bisection.php:44
+#: banach.php:43 bisection.php:44 regula_falsi.php:44
 msgid "(integers or decimal numbers)"
 msgstr "(liczby całkowite lub dziesiętne)"
 
-#: banach.php:47 bisection.php:48
+#: banach.php:47 bisection.php:48 regula_falsi.php:48
 msgid "Number of steps "
 msgstr "Liczba kroków"
 
@@ -94,19 +94,19 @@ msgstr ""
 "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl.wikipedia.org/"
 "wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu Banacha o kontrakcji</a>"
 
-#: bisection.php:2 index.php:402
+#: bisection.php:2 index.php:382
 msgid "Bisection"
 msgstr "Bisekcja"
 
-#: bisection.php:26
+#: bisection.php:26 regula_falsi.php:26
 msgid "Enter function, interval containing zero and number of steps."
 msgstr "Podaj funkcję, przedział zawierający zero i liczbę kroków"
 
-#: bisection.php:40
+#: bisection.php:40 regula_falsi.php:40
 msgid "Interval from"
 msgstr "Przedział od"
 
-#: bisection.php:50
+#: bisection.php:50 regula_falsi.php:50
 msgid "(integer between 2 and 40)"
 msgstr "(liczba całkowita pomiędzy 2 a 40)"
 
@@ -116,7 +116,7 @@ msgstr ""
 "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji\">Metoda "
 "bisekcji na Wikipedii</a>"
 
-#: derivace.php:2 index.php:360
+#: derivace.php:2 index.php:340
 msgid "Derivative and partial derivative"
 msgstr "Pochodna i pochodna cząstkowa"
 
@@ -144,7 +144,7 @@ msgstr "Pochodna cząstkowa po <i>x</i> (funkcji dwóch zmiennych)"
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr "Pochodna cząstkowa po <i>y</i> (funkcji dwóch zmiennych)"
 
-#: derivace.php:46 index.php:277 index.php:289
+#: derivace.php:46 index.php:257 index.php:269
 msgid "Submit"
 msgstr "Wyślij"
 
@@ -269,7 +269,7 @@ msgstr ""
 "</li>  <li>Jeżeli chcesz znaleźć punkty przecięcia krzywych, to wybierz "
 "odpowiednią opcję.<br> </li> </ul>"
 
-#: graf.php:2 index.php:346
+#: graf.php:2 index.php:326
 msgid "Graphs of elementary functions"
 msgstr "Wykres funkcji"
 
@@ -316,7 +316,7 @@ msgstr ""
 "otrzymasz jej wykres z kolejnymi przekształceniami funkcji elementarnej.</"
 "li></ul>"
 
-#: index.php:80
+#: index.php:84
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -328,31 +328,31 @@ msgstr ""
 "przetwarza wprowadzone wyrażenie a także, aby sprawdzić jak należy "
 "wprowadzić dane wyrażenie w systemie Maxima."
 
-#: index.php:85
+#: index.php:89
 msgid "History"
 msgstr "Historia"
 
-#: index.php:179
+#: index.php:181
 msgid "You should turn JavaScript on to see popup informations."
 msgstr "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
 
-#: index.php:204
+#: index.php:208
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:208
+#: index.php:212
 msgid "changelog"
 msgstr "log zmian"
 
-#: index.php:211
+#: index.php:215
 msgid "known bugs"
 msgstr ""
 
-#: index.php:244
+#: index.php:224
 msgid "Mathematical Assistant on Web"
 msgstr "Matematyczny Asystent Online"
 
-#: index.php:246
+#: index.php:226
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
@@ -362,7 +362,7 @@ msgstr ""
 "Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
-#: index.php:247
+#: index.php:227
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
@@ -370,91 +370,91 @@ msgstr ""
 "%sWersja offline%s jest również dostępna. Tłumacze projektu mile %s widziani "
 "%s."
 
-#: index.php:277
+#: index.php:257
 msgid "Submitting, please wait ..."
 msgstr ""
 
-#: index.php:289
+#: index.php:269
 msgid "Click only once and wait few seconds for the answer!"
 msgstr ""
 
-#: index.php:307
+#: index.php:287
 msgid "Introduction, general remarks"
 msgstr "Wprowadzenie, uwagi"
 
-#: index.php:308
+#: index.php:288
 msgid "Introduction"
 msgstr "Wprowadzenie"
 
-#: index.php:312
+#: index.php:292
 msgid "Graphs of basic elementary functions"
 msgstr "Wykres funkcji"
 
-#: index.php:312
+#: index.php:292
 msgid "Natural domains of function in one or two variables"
 msgstr "Dziedzina funkcji jednej lub dwóch zmiennych"
 
-#: index.php:312 index.php:352 lagrange.php:3
+#: index.php:292 index.php:332 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr "Wielomian Lagrange'a"
 
-#: index.php:312
+#: index.php:292
 msgid "Fitting data file using least squares method"
 msgstr "Dopasowanie danych wykorzystując metodę najmniejszych kwadratów"
 
-#: index.php:313
+#: index.php:293
 msgid "Precalculus"
 msgstr "Funkcje"
 
-#: index.php:316
+#: index.php:296
 msgid "Investigating function"
 msgstr "Przebieg zmienności funkcji"
 
-#: index.php:316
+#: index.php:296
 msgid "Derivative in one variable"
 msgstr "Pochodna funkcji jednej zmiennej"
 
-#: index.php:316
+#: index.php:296
 msgid "Partial derivative in two variables"
 msgstr "Pochodna cząstkowa funkcji dwóch zmiennych"
 
-#: index.php:316 index.php:366 taylor.php:4
+#: index.php:296 index.php:346 taylor.php:4
 msgid "Taylor polynomial"
 msgstr "Wielomian Taylora"
 
-#: index.php:316
+#: index.php:296
 msgid "Local maxima and minima for functions in two variables"
 msgstr "Ekstrema lokalne dla funkcji dwóch zmiennych"
 
-#: index.php:317
+#: index.php:297
 msgid "Calculus"
 msgstr "Rachunek różniczkowy"
 
-#: index.php:321
+#: index.php:301
 msgid "Indefinite integral (anitiderivative)"
 msgstr "Całka nieoznaczona"
 
-#: index.php:321 index.php:378
+#: index.php:301 index.php:358
 msgid "Geometrical applications of definite integral"
 msgstr "Całka oznaczona"
 
-#: index.php:321 index.php:384 integral2.php:2
+#: index.php:301 index.php:364 integral2.php:2
 msgid "Double integral"
 msgstr "Całka podwójna"
 
-#: index.php:321
+#: index.php:301
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr "Przybliżona wartość całki oznaczonej - metoda trapezów"
 
-#: index.php:322
+#: index.php:302
 msgid "Integral calculus"
 msgstr "Rachunek całkowy"
 
-#: index.php:326
+#: index.php:306
 msgid "First order differerential equations"
 msgstr "Równania różniczkowe pierwszego rzędu"
 
-#: index.php:326
+#: index.php:306
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
@@ -462,95 +462,104 @@ msgstr ""
 "Równania różniczkowe drugiego rzędu (liniowe, uzmienniania stałej i metody "
 "przewidywań)"
 
-#: index.php:326
+#: index.php:306
 msgid "Stationary points of autonomous system"
 msgstr "Punkty stacjonarne autonomicznego układu równań"
 
-#: index.php:327
+#: index.php:307
 msgid "Differential equations"
 msgstr "Równania różniczkowe"
 
-#: index.php:331
+#: index.php:311
 msgid "Nonlinear equations using bisection"
 msgstr "Rozwiązywanie równań nieliniowych metodą bisekcji"
 
-#: index.php:331
+#: index.php:311
+#, fuzzy
+msgid "Nonlinear equations using regula falsi"
+msgstr "Rozwiązywanie równań nieliniowych metodą bisekcji"
+
+#: index.php:311
 msgid "Nonlinear equations using method of iterations"
 msgstr "Rozwiązywanie równań nieliniowych metodą iteracji"
 
-#: index.php:331
+#: index.php:311
 msgid "System of inequalities in one or two variables"
 msgstr "Układy nierówności z jedną lub dwiema niewiadomymi"
 
-#: index.php:332
+#: index.php:312
 msgid "Equations and inequalities"
 msgstr "Równania i nierówności"
 
-#: index.php:337
+#: index.php:317
 msgid "Site map (what you can find on this site and where)."
 msgstr "Mapa strony (czyli co możesz znaleźć i gdzie)"
 
-#: index.php:337
+#: index.php:317
 msgid "Support"
 msgstr "Wsparcie"
 
-#: index.php:338
+#: index.php:318
 msgid "Site map, support"
 msgstr "Mapa strony, wsparcie"
 
-#: index.php:348
+#: index.php:328
 msgid "Domain of functions (one variable)"
 msgstr "Dziedzina funkcji jednej zmiennej"
 
-#: index.php:350
+#: index.php:330
 msgid "Domain of functions (two variables)"
 msgstr "Dziedzina funkcji dwóch zmiennych"
 
-#: index.php:354 mnc.php:3
+#: index.php:334 mnc.php:3
 msgid "Least squares method"
 msgstr "Metoda najmniejszych kwadratów"
 
-#: index.php:363
+#: index.php:343
 msgid "Investigating functions"
 msgstr "Przebieg zmienności funkcji"
 
-#: index.php:369
+#: index.php:349
 msgid "Local maxima and minima in two variables"
 msgstr "Ekstrema lokalne funkcji dwóch zmiennych"
 
-#: index.php:375 integral.php:2
+#: index.php:355 integral.php:2
 msgid "Antiderivative"
 msgstr "Całka nieoznaczona"
 
-#: index.php:381
+#: index.php:361
 msgid "Trapezoidal rule"
 msgstr "Metoda trapezów"
 
-#: index.php:390
+#: index.php:370
 msgid "First order ODE"
 msgstr "Równanie różniczkowe pierszego rzędu"
 
-#: index.php:393
+#: index.php:373
 msgid "Second order LDE"
 msgstr "Równanie różniczkowe drugiego rzędu"
 
-#: index.php:396
+#: index.php:376
 msgid "Autonomous system"
 msgstr "Autonomiczny układ równań"
 
-#: index.php:406
+#: index.php:384 regula_falsi.php:2
+msgid "Regula falsi"
+msgstr ""
+
+#: index.php:388
 msgid "System of inequalities (in one or two variables)"
 msgstr "Układ nierówności z jedną lub dwiema niewiadomymi"
 
-#: index.php:417
+#: index.php:399
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr "Testowane w przeglądarkach: Firefox, Opera i Konqueror."
 
-#: index.php:417
+#: index.php:399
 msgid "Some features do not work on Internet Explorer."
 msgstr "Niektóre funkcje nie działają w przeglądarce Internet Explorer"
 
-#: index.php:422
+#: index.php:404
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -561,7 +570,7 @@ msgstr ""
 "wybierając w drugim rzędzie menu. <br>  Kalkulatory znajdują się w kilku "
 "działach, po najechaniu myszką na nazwę działu zobaczysz opisy kalkulatorów."
 
-#: index.php:425
+#: index.php:407
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
@@ -886,11 +895,15 @@ msgstr ""
 "Może to powodować utratę niektórych rzeczywistych miejsc zerowych, dlatego "
 "mogą one nie zostać uwzględnione w rozwiązaniu.</li></ul>"
 
-#: tail.php:8
+#: regula_falsi.php:66
+msgid "MAW-regula_falsi"
+msgstr ""
+
+#: tail_user.php:3
 msgid "Server load in last hour: "
 msgstr "Użycie serwera w ostatniej godzinie:"
 
-#: tail.php:43
+#: tail_user.php:38
 msgid "uptime"
 msgstr "czas działania"
 

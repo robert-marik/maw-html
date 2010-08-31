@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-19 07:46+0200\n"
+"POT-Creation-Date: 2010-08-31 13:55+0200\n"
 "PO-Revision-Date: 2009-08-27 09:32+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "computer to find stationary points or Jacobi matrix and eigenvalue at one of "
 "stationary points. Choose the correct radiobutton, please.</li> </ul>"
 
-#: banach.php:2 index.php:404
+#: banach.php:2 index.php:386
 msgid "Method of iterations"
 msgstr ""
 
@@ -54,7 +54,7 @@ msgid "Enter function, interval containing  fixed point and number of steps."
 msgstr ""
 
 #: banach.php:29 bisection.php:30 derivace.php:11 df.php:12 graf.php:12
-#: integral.php:12 prubeh.php:27 taylor.php:12 trap.php:14
+#: integral.php:12 prubeh.php:27 regula_falsi.php:30 taylor.php:12 trap.php:14
 msgid "Function"
 msgstr ""
 
@@ -62,15 +62,15 @@ msgstr ""
 msgid "Interval from "
 msgstr ""
 
-#: banach.php:41 bisection.php:42
+#: banach.php:41 bisection.php:42 regula_falsi.php:42
 msgid "to"
 msgstr ""
 
-#: banach.php:43 bisection.php:44
+#: banach.php:43 bisection.php:44 regula_falsi.php:44
 msgid "(integers or decimal numbers)"
 msgstr ""
 
-#: banach.php:47 bisection.php:48
+#: banach.php:47 bisection.php:48 regula_falsi.php:48
 msgid "Number of steps "
 msgstr ""
 
@@ -92,19 +92,19 @@ msgstr ""
 "The nonlinear equation solver based on <a href=\"http://en.wikipedia.org/"
 "wiki/Banach_fixed_point_theorem\">Banach fixed point theorem</a>"
 
-#: bisection.php:2 index.php:402
+#: bisection.php:2 index.php:382
 msgid "Bisection"
 msgstr ""
 
-#: bisection.php:26
+#: bisection.php:26 regula_falsi.php:26
 msgid "Enter function, interval containing zero and number of steps."
 msgstr ""
 
-#: bisection.php:40
+#: bisection.php:40 regula_falsi.php:40
 msgid "Interval from"
 msgstr ""
 
-#: bisection.php:50
+#: bisection.php:50 regula_falsi.php:50
 msgid "(integer between 2 and 40)"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 "For theory see <a href=\"http://en.wikipedia.org/wiki/Bisection_method"
 "\">Bisection method on Wikipedia</a>"
 
-#: derivace.php:2 index.php:360
+#: derivace.php:2 index.php:340
 msgid "Derivative and partial derivative"
 msgstr ""
 
@@ -142,7 +142,7 @@ msgstr ""
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
 msgstr ""
 
-#: derivace.php:46 index.php:277 index.php:289
+#: derivace.php:46 index.php:257 index.php:269
 msgid "Submit"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 "the curves. Simply choose the action using appropriate radiobutton.<br> </"
 "li> </ul>"
 
-#: graf.php:2 index.php:346
+#: graf.php:2 index.php:326
 msgid "Graphs of elementary functions"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 "automatically and you get the graph of this functions, includin animation of "
 "consecutive deformations</li></ul>"
 
-#: index.php:80
+#: index.php:84
 msgid ""
 "Troubles with writing math? Clicking Preview you get how <a href=\"http://"
 "formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
@@ -317,222 +317,230 @@ msgid ""
 "transfer to the form.)"
 msgstr ""
 
-#: index.php:85
+#: index.php:89
 msgid "History"
 msgstr ""
 
-#: index.php:179
+#: index.php:181
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 
-#: index.php:204
+#: index.php:208
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:208
+#: index.php:212
 msgid "changelog"
 msgstr ""
 
-#: index.php:211
+#: index.php:215
 msgid "known bugs"
 msgstr ""
 
-#: index.php:244
+#: index.php:224
 msgid "Mathematical Assistant on Web"
 msgstr ""
 
-#: index.php:246
+#: index.php:226
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
 
-#: index.php:247
+#: index.php:227
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 
-#: index.php:277
+#: index.php:257
 msgid "Submitting, please wait ..."
 msgstr ""
 
-#: index.php:289
+#: index.php:269
 msgid "Click only once and wait few seconds for the answer!"
 msgstr ""
 
-#: index.php:307
+#: index.php:287
 msgid "Introduction, general remarks"
 msgstr ""
 
-#: index.php:308
+#: index.php:288
 msgid "Introduction"
 msgstr ""
 
-#: index.php:312
+#: index.php:292
 msgid "Graphs of basic elementary functions"
 msgstr ""
 
-#: index.php:312
+#: index.php:292
 msgid "Natural domains of function in one or two variables"
 msgstr ""
 
-#: index.php:312 index.php:352 lagrange.php:3
+#: index.php:292 index.php:332 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr ""
 
-#: index.php:312
+#: index.php:292
 msgid "Fitting data file using least squares method"
 msgstr ""
 
-#: index.php:313
+#: index.php:293
 msgid "Precalculus"
 msgstr ""
 
-#: index.php:316
+#: index.php:296
 msgid "Investigating function"
 msgstr ""
 
-#: index.php:316
+#: index.php:296
 msgid "Derivative in one variable"
 msgstr ""
 
-#: index.php:316
+#: index.php:296
 msgid "Partial derivative in two variables"
 msgstr ""
 
-#: index.php:316 index.php:366 taylor.php:4
+#: index.php:296 index.php:346 taylor.php:4
 msgid "Taylor polynomial"
 msgstr ""
 
-#: index.php:316
+#: index.php:296
 msgid "Local maxima and minima for functions in two variables"
 msgstr ""
 
-#: index.php:317
+#: index.php:297
 msgid "Calculus"
 msgstr ""
 
-#: index.php:321
+#: index.php:301
 msgid "Indefinite integral (anitiderivative)"
 msgstr ""
 
-#: index.php:321 index.php:378
+#: index.php:301 index.php:358
 msgid "Geometrical applications of definite integral"
 msgstr ""
 
-#: index.php:321 index.php:384 integral2.php:2
+#: index.php:301 index.php:364 integral2.php:2
 msgid "Double integral"
 msgstr ""
 
-#: index.php:321
+#: index.php:301
 msgid "Approximation of definite integral by trapezoidal rule"
 msgstr ""
 
-#: index.php:322
+#: index.php:302
 msgid "Integral calculus"
 msgstr ""
 
-#: index.php:326
+#: index.php:306
 msgid "First order differerential equations"
 msgstr ""
 
-#: index.php:326
+#: index.php:306
 msgid ""
 "Second order differential equations (linear, using variantion of constant "
 "and using guess of particular solution)"
 msgstr ""
 
-#: index.php:326
+#: index.php:306
 msgid "Stationary points of autonomous system"
 msgstr ""
 
-#: index.php:327
+#: index.php:307
 msgid "Differential equations"
 msgstr ""
 
-#: index.php:331
+#: index.php:311
 msgid "Nonlinear equations using bisection"
 msgstr ""
 
-#: index.php:331
+#: index.php:311
+msgid "Nonlinear equations using regula falsi"
+msgstr ""
+
+#: index.php:311
 msgid "Nonlinear equations using method of iterations"
 msgstr ""
 
-#: index.php:331
+#: index.php:311
 msgid "System of inequalities in one or two variables"
 msgstr ""
 
-#: index.php:332
+#: index.php:312
 msgid "Equations and inequalities"
 msgstr ""
 
-#: index.php:337
+#: index.php:317
 msgid "Site map (what you can find on this site and where)."
 msgstr ""
 
-#: index.php:337
+#: index.php:317
 msgid "Support"
 msgstr ""
 
-#: index.php:338
+#: index.php:318
 msgid "Site map, support"
 msgstr ""
 
-#: index.php:348
+#: index.php:328
 msgid "Domain of functions (one variable)"
 msgstr ""
 
-#: index.php:350
+#: index.php:330
 msgid "Domain of functions (two variables)"
 msgstr ""
 
-#: index.php:354 mnc.php:3
+#: index.php:334 mnc.php:3
 msgid "Least squares method"
 msgstr ""
 
-#: index.php:363
+#: index.php:343
 msgid "Investigating functions"
 msgstr ""
 
-#: index.php:369
+#: index.php:349
 msgid "Local maxima and minima in two variables"
 msgstr ""
 
-#: index.php:375 integral.php:2
+#: index.php:355 integral.php:2
 msgid "Antiderivative"
 msgstr ""
 
-#: index.php:381
+#: index.php:361
 msgid "Trapezoidal rule"
 msgstr ""
 
-#: index.php:390
+#: index.php:370
 msgid "First order ODE"
 msgstr ""
 
-#: index.php:393
+#: index.php:373
 msgid "Second order LDE"
 msgstr ""
 
-#: index.php:396
+#: index.php:376
 msgid "Autonomous system"
 msgstr ""
 
-#: index.php:406
+#: index.php:384 regula_falsi.php:2
+msgid "Regula falsi"
+msgstr ""
+
+#: index.php:388
 msgid "System of inequalities (in one or two variables)"
 msgstr ""
 
-#: index.php:417
+#: index.php:399
 msgid "Tested on Firefox, Opera and Konqueror."
 msgstr ""
 
-#: index.php:417
+#: index.php:399
 msgid "Some features do not work on Internet Explorer."
 msgstr ""
 
-#: index.php:422
+#: index.php:404
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -540,7 +548,7 @@ msgid ""
 "you move your mouse on the name of each group (the first row of the menu)."
 msgstr ""
 
-#: index.php:425
+#: index.php:407
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
@@ -852,11 +860,15 @@ msgstr ""
 "can loose also some real zeros in this way. Therefore, some of the zeros may "
 "be omitted in the answer.</li></ul>"
 
-#: tail.php:8
+#: regula_falsi.php:66
+msgid "MAW-regula_falsi"
+msgstr ""
+
+#: tail_user.php:3
 msgid "Server load in last hour: "
 msgstr ""
 
-#: tail.php:43
+#: tail_user.php:38
 msgid "uptime"
 msgstr ""
 
