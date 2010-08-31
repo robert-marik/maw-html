@@ -1,4 +1,4 @@
- <span class="nadpis">
+<span class="nadpis">
 <?php echo __("Bisection");
 ;
 

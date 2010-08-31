@@ -59,14 +59,14 @@ function __($text){
 
 $form=$_REQUEST["form"];
 
-if (ereg("[^32a-z]",$form))
+if (ereg("[^3_2a-z]",$form))
 {
   header('Location:http://user.mendelu.cz/marik/maw');
   die();
 }
 
 
-if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2"))
+if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2")&& ($form!="regula_falsi"))
 {
   $form="main";
 }
@@ -78,7 +78,7 @@ if (($form=="graf")||($form=="df")||($form=="df3d")||($form=="lagrange")||($form
 if (($form=="derivace")||($form=="prubeh")||($form=="taylor")||($form=="minmax3d")) {$submenu=3;}
 if (($form=="integral")||($form=="integral2")||($form=="geom")||($form=="trap")) {$submenu=4;}
 if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
-if (($form=="banach")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
+if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
 
 function hint_preview(){
  echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");}
@@ -308,7 +308,7 @@ echo __("Differential equations");
 echo '</a>';
   aktivni_konec(5);
   aktivni(6);
-printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Nonlinear equations using bisection"),__("Nonlinear equations using method of iterations"),__("System of inequalities in one or two variables"));
+printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',__("Nonlinear equations using bisection"),__("Nonlinear equations using regula falsi"),__("Nonlinear equations using method of iterations"),__("System of inequalities in one or two variables"));
 echo __("Equations and inequalities");
 echo '</a>';
 aktivni_konec(6);
@@ -380,6 +380,8 @@ elseif ($submenu=="6")
 {
   echo aktivni_form("bisection"),'<a href="index.php?lang='.$lang.'&form=bisection">';
   echo __('Bisection');
+  echo '</a></span>',aktivni_form("regula_falsi"),'<a href="index.php?lang='.$lang.'&form=regula_falsi">';
+  echo __('Regula falsi');
   echo '</a></span>',aktivni_form("banach"),'<a href="index.php?lang='.$lang.'&form=banach">';
   echo __('Method of iterations');
   echo '</a></span>',aktivni_form("ineq2d"),' <a href="index.php?lang='.$lang.'&form=ineq2d">';
