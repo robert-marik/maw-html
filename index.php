@@ -70,7 +70,7 @@ if (ereg("[^3_2a-z]",$form))
 }
 
 
-if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2")&& ($form!="regula_falsi"))
+if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="gaussprop")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2")&& ($form!="regula_falsi"))
 {
   $form="main";
 }
@@ -79,7 +79,7 @@ if ($form=="main") {$submenu=1;}
 if ($form=="map") {$submenu=7;}
 
 if (($form=="graf")||($form=="df")||($form=="df3d")||($form=="lagrange")||($form=="mnc")) {$submenu=2;}
-if (($form=="derivace")||($form=="prubeh")||($form=="taylor")||($form=="minmax3d")) {$submenu=3;}
+if (($form=="derivace")||$form=="gaussprop"||($form=="prubeh")||($form=="taylor")||($form=="minmax3d")) {$submenu=3;}
 if (($form=="integral")||($form=="integral2")||($form=="geom")||($form=="trap")) {$submenu=4;}
 if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
 if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
@@ -348,6 +348,9 @@ elseif ($submenu=="3")
   echo '</a></span>',aktivni_form("taylor"),'
       <a href="index.php?lang='.$lang.'&form=taylor">';
   echo __('Taylor polynomial');
+  echo '</a></span>',aktivni_form("gaussprop"),'
+      <a href="index.php?lang='.$lang.'&form=gaussprop">';
+  echo __('Error propagation');
   echo '</a></span>',aktivni_form("minmax3d"),'
       <a href="index.php?lang='.$lang.'&form=minmax3d">';
   echo __('Local maxima and minima in two variables');
