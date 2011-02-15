@@ -1110,4 +1110,4 @@ msgstr ""
 "v&aacute;m i graf funkce s naznačen&yacute;mi lichoběžn&iacute;ky.</li></ul>"
 
 msgid "Did we help you with your math problem? Did we save your time? If so, consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF foundation.</a>"
-msgstr "Pomohli jsme? Ušetřili jste s námi čas a námahu? Pokud ano, zvažte prosím zaslání odpovídající částky konto nadace <a href=\"http://www.unicef.cz/\">UNICEF</a>."
+msgstr "Pomohli jsme? Ušetřili jste s námi čas a námahu? Pokud ano, zvažte prosím zaslání odpovídající částky na konto nadace <a href=\"http://www.unicef.cz/\">UNICEF</a>."
