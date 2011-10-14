@@ -208,7 +208,9 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 ?>
 <small>
 <br><br>
-<a href="http://sourceforge.net/apps/phpbb/mathassistant">
+<a href="
+<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>
+">
 <?php  echo __("Support from MAW forum");?></a>
 </a>
 <br>
