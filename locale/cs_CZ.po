@@ -912,7 +912,7 @@ msgstr ""
 #: map.php:3
 msgid "MAW-map"
 msgstr ""
-"Diskusní fórum</span><ul><li><a href=\"http://forum.matweb.cz/viewforum.php?id=39\">Místo pro vaše dotazy</a> na sourceforge.net.</li></"
+"Diskusní fórum</span><ul><li><a href=\"http://forum.matweb.cz/viewforum.php?id=39\">Místo pro vaše dotazy</a>.</li></"
 "ul><span class=\"nadpis\">Mapa stránek</span>  <ul> <li>Funkce <ul> "
 "<li>Grafy základních elementárních funkcí v posunutém tvaru. </li> "
 "<li>Definiční obor funkcí jedné proměnné </li> <li>Definiční obor funkcí "
