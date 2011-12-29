@@ -48,6 +48,8 @@ if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
 
 if ($reqlang == "fr") { $lang = "fr"; $locale_file = "fr_FR"; }
 
+if ($reqlang == "zh") { $lang = "zh"; $locale_file = "zh_CN"; }
+
 $locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
 
@@ -193,6 +195,7 @@ echo __("You should turn JavaScript on to see popup informations.");
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
 </small></p></div>
@@ -204,6 +207,7 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
+echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
 <small>
