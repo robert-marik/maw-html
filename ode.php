@@ -34,8 +34,8 @@ type="radio">
    </span> 
 &nbsp; &nbsp; <span style="font-style: italic;">y'=</span> 
 <input size="60" name="ode" value="<?php echo $oderhs;?>"> &nbsp; &nbsp; &nbsp;
-<input value="Editor" onclick="edit('ode')" type="button" class="tlacitko">
-<input value="Preview" onclick="previewb('ode')" type="button"
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('ode')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('ode')" type="button"
 class="tlacitko">
 <br>
 <br>
@@ -44,7 +44,7 @@ class="tlacitko">
 type="radio">&nbsp;
 <?php echo __("Full equation");?>: &nbsp; &nbsp;
 <input size="60" name="ode2" value="<?php echo $ode2;?>"> &nbsp; &nbsp; &nbsp;
-<input value="Preview" onclick="previewb('ode2')" type="button"
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('ode2')" type="button"
 class="tlacitko">
 
 <br>

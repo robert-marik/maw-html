@@ -1115,3 +1115,8 @@ msgstr "Pomohli jsme? Ušetřili jste s námi čas a námahu? Pokud ano, zvažte
 msgid "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr "http://forum.matweb.cz/viewforum.php?id=39"
 
+msgid "Preview"
+msgstr "Náhled"
+
+msgid "Editor"
+msgstr "Editor matematiky"

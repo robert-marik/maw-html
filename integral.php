@@ -19,8 +19,8 @@ $function=$_REQUEST["function"];
 if ($function==""){echo 'x^3*exp(x*2)';}
 else {echo rawurldecode($function);}
 ?>">dx&nbsp;
-  <input value="Editor" onclick="edit('funkce')" type="button" class="tlacitko">
-<input value="Preview" onclick="previewb('funkce')" type="button" class="tlacitko">
+  <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 	<br>
 	<small><?php hint_preview(); ?>
 </small>

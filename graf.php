@@ -14,7 +14,7 @@
 &nbsp;&nbsp;
 <span style="font-style: italic;">y=</span> <input size="60" name="funkce"
 						    value="1-2*(x-4)^2"> 
-<input value="Preview" onclick="previewb('funkce')" type="button"
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
 <br>						    <small>
 						    <?php echo __("(the function must either a basic elementary function of a function which can be obtained from on of basic elementary functions by shifting and resizing graph)");?></small>

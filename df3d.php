@@ -13,9 +13,9 @@ action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php echo __('Function in two variables'); ?>
  &nbsp;
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="asin(x*y)+sqrt(4-x-y)" size="35">
-<input value="Editor" onclick="edit('funkcef')" type="button" 
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
-<input value="Preview" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 	<br>
 <small><?php hint_preview(); ?>

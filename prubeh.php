@@ -31,8 +31,8 @@ if (str_replace(" ","",$function)=="")
 italic;">y=</span> <input size="60" name="funkce"
 value="<?php echo ($function); ?>">
 
-<input value="Editor" onclick="edit('funkce')" type="button" class="tlacitko">
-<input value="Preview" onclick="previewb('funkce')" type="button"
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
 	<br>
 <small><?php hint_preview(); ?>

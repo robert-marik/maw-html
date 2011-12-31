@@ -40,17 +40,17 @@ name="exampleform"><br>
 <fieldset class="main">
 
   <span style="font-style: italic;">x' =</span> <input name="funkcef" value="<?php echo $fcef; ?>">
-<input value="Editor" onclick="edit('funkcef')" type="button" 
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
-<input value="Preview" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 
 &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-style: italic;"><br>
 
 y' =</span> <input name="funkceg" value="<?php echo $fceg; ?>">
-<input value="Editor" onclick="edit('funkceg')" type="button" 
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" 
 class="tlacitko">
-<input value="Preview" onclick="previewb('funkceg')" type="button"
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkceg')" type="button"
 class="tlacitko">
 <br>
 <small><?php hint_preview(); ?>

@@ -23,16 +23,16 @@ echo($server);?>/geom/geom.php">
 </span>
 </td><td><span style="font-style: italic;">f(x) =</td><td></span> 
 <input name="funkcef" value="1-x^2">
-<input value="Editor" onclick="edit('funkcef')" type="button" class="tlacitko">
-<input value="Preview" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 </td><tr>
 <tr><td>
    <?php echo __('Lower bound'); ?>:
 </td><td><span style="font-style: italic;">g(x) =</td><td></span> 
 <input name="funkceg" value="(1-x)^2">
-<input value="Editor" onclick="edit('funkceg')" type="button" class="tlacitko">
-<input value="Preview" onclick="previewb('funkceg')" type="button"
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkceg')" type="button"
 class="tlacitko">
 </td></tr>
 </table>
