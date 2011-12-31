@@ -21,6 +21,13 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
+year 2011
+* Several minor changes, see the logs at https://bitbucket.org/robert.marik/maw/changesets.
+* Caching results from integral assistant.
+* Chinese translation, thanks to Minning Xiang.
+* Since the forum at sourceforge.com if sull of spam, the Czech support is at matweb.cz
+  (thanks to Jelena).
+
 august 2010
 * Method regula falsi
 
