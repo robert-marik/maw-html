@@ -13,6 +13,7 @@ future plans:
    we can investigate terms separately. Allow this feature also for
    general variable (by converting into x variable first)
 * think on Windows port (running in cygwin)
+* replace deprecated ereg function - http://www.devthought.com/2009/06/09/fix-ereg-is-deprecated-errors-in-php-53/
 
 changes from January 2008
 -------------------------
