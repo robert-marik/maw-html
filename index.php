@@ -114,7 +114,6 @@ echo 'method="post"';
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-  <link rel="shortcut icon" href="ikona1.png" >
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" />
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" />
