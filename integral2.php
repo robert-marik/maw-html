@@ -15,7 +15,7 @@ if ($function=="")
 ?>
 </span>
 
-<form name="exampleform"
+<?php maw_before_form()?><form name="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/integral2/integral2.php">
 <?php polejazyka($lang); ?>
@@ -86,7 +86,7 @@ value="<?php echo $function;?>">
 <br>
 <?php echo $submitbutton;?>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("integral2",$server); 
 

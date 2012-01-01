@@ -32,7 +32,7 @@ if ($action==1)
 </span>
 
 <span style="font-weight: bold;"></span>
-<form <?php formmethod();?> 
+<?php maw_before_form()?><form <?php formmethod();?> 
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/autsyst/autsyst.php"
 name="exampleform"><br>
@@ -81,7 +81,7 @@ class="tlacitko">
 <?php echo $submitbutton;?>
 </fieldset>
 
-</form>
+</form><?php maw_after_form(); ?>
 <?php history("autsyst",$server);
 
 echo __("MAW-autsyst");

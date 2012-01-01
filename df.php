@@ -2,7 +2,7 @@
    <?php echo __("Domain of a function in one variable");?>
 </span>
 
-<form <?php formmethod();?>
+<?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>
@@ -41,7 +41,7 @@ class="tlacitko">
 <br>
 <?php echo $submitbutton;?>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("domf",$server); 
 

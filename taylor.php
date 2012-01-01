@@ -4,7 +4,7 @@
 <?php echo __("Taylor polynomial");?>
 </span> 
 
-<form name="exampleform" <?php formmethod();?>
+<?php maw_before_form()?><form name="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/taylor/taylor.php">
 <fieldset class="main">
@@ -27,7 +27,7 @@ name="funkce" value="sin(x)"> &nbsp; &nbsp;
 <?php echo $submitbutton;?>
 <br>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("taylor",$server);?>
 

@@ -89,6 +89,12 @@ if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="i
 function hint_preview(){
  echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");}
 
+function maw_before_form() {echo "<div id='form'>";}
+function maw_after_form() {
+  echo "</div><div id='after-form'><span style='color:gray'><br><h2>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').hidden=true;document.getElementById('form').hidden=false;\">","</a>")."</h2></span></div>";
+  echo "<script>document.getElementById('after-form').hidden=true;</script>";
+}
+
 function history($adresar,$server)
 {
   echo ("<a style=\"font-weight: bold;\" href=\"$server/common/tail.php?dir=$adresar\">");
@@ -267,7 +273,7 @@ STR;
 // }
 // else
 // {
-$onsubmit=' ';
+$onsubmit=" onSubmit=\"document.getElementById('form').hidden=true;document.getElementById('after-form').hidden=false;\" ";
 // }
 
 $submitbuttont=<<<SUB

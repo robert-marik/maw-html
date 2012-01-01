@@ -3,7 +3,7 @@
 <?php echo __("Inequalities");?>
 </span>
 
-<form <?php formmethod();?>
+<?php maw_before_form()?><form <?php formmethod();?>
 <?php //echo $onsubmit;
 ?>
 action="<?php echo($server);?>/ineq2d/ineq2d.php"name="exampleform">
@@ -54,7 +54,7 @@ x+y-8<0
 <?php echo $submitbutton;?>
 <br>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("ineq2d",$server); 
 

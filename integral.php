@@ -2,7 +2,7 @@
 <?php echo __("Antiderivative");?>
 </span>
 
-<form name="exampleform"
+<?php maw_before_form()?><form name="exampleform"
    <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/integral/integral.php">
 <?php polejazyka($lang); ?>
@@ -55,7 +55,7 @@ else {echo rawurldecode($function);}
 <br>
 <?php echo $submitbutton;?>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("integral",$server); 
 

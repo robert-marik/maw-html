@@ -5,7 +5,7 @@
 
 
 <span style="font-weight: bold;"></span>
-<form method="get"
+<?php maw_before_form()?><form method="get"
 <?php echo $onsubmit;?>
  action="<?php echo($server);?>/lde2/ldr2.php"
 name="exampleform">
@@ -57,7 +57,7 @@ class="tlacitko">
 <br>
 </fieldset>
 
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("lde2",$server); 
 

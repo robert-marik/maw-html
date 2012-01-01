@@ -5,7 +5,7 @@
 
 
 
-<form name="exampleform"  
+<?php maw_before_form()?><form name="exampleform"  
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/trap/trapezoidal.php">
 <fieldset class="main">
@@ -39,7 +39,7 @@
 <br>
 <?php echo $submitbutton;?>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
  <?php history("trap",$server); 
         echo __("MAW-trap");

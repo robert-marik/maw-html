@@ -3,7 +3,7 @@
    <?php echo __("Lagrange polynomial");?>
 
 </span>
-<form 
+<?php maw_before_form()?><form 
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/lagrange/lagrange.php">
 <fieldset class="main">
@@ -17,7 +17,7 @@
 <br>
 </fieldset>
 
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("lagrange",$server); 
 

@@ -2,7 +2,8 @@
 <?php echo __("Derivative and partial derivative");?>
 </span>
 
-<form name="exampleform"
+<?php maw_before_form()?><form name="exampleform"
+<?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/derivace/derivace.php">
 <?php polejazyka($lang); ?>
 <fieldset class="main">
@@ -46,7 +47,7 @@ value="x^3*exp(x^2)">
 "<?php echo __('Submit'); ?>" 
 name="tlacitko" type="submit" class="tlacitko">
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("derivace",$server); 
 

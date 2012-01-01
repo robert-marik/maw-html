@@ -3,7 +3,7 @@
 <?php echo __("Domain of a function in two variables"); ?>
 </span>
 
-<form <?php formmethod();?>
+<?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>
@@ -44,7 +44,7 @@ echo '[-20,20]x[-20,20] ';
 <?php echo $submitbutton;?>
 
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("domf",$server); 
 

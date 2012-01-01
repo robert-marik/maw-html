@@ -30,7 +30,7 @@ if ($action==2)
 ?>
 </span>
 
-<form <?php formmethod();?>
+<?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
 <?php polejazyka($lang); ?>
@@ -86,7 +86,7 @@ class="tlacitko">
 <?php echo $submitbutton;?>
 <br>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("minmax3d",$server); 
 

@@ -5,9 +5,8 @@
 <?php echo __("Definite integral in geometry");?>
 </span>
 
-<form name="exampleform" method="get"
-<?php //echo $onsubmit;
-?>
+<?php maw_before_form()?><form name="exampleform" method="get"
+<?php echo $onsubmit;?>
 action="<?php
 echo($server);?>/geom/geom.php">
 <?php polejazyka($lang); ?>
@@ -115,7 +114,7 @@ type="radio">&nbsp;
 </fieldset>
 
 
-</form>
+</form><?php maw_after_form(); ?>
 <?php history("geom",$server);
 						echo __("MAW-geom");
 

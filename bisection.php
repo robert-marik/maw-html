@@ -14,7 +14,7 @@ if ($function=="")
 ?>
 </span>
 
-<form name="exampleform"
+<?php maw_before_form()?><form name="exampleform"
 <?php //echo $onsubmit;
 ?>
 method="get" action="<?php echo($server);?>/banach/banach.php">
@@ -53,7 +53,7 @@ value="<?php echo $function;?>">
 <?php echo $submitbutton;?>
 <br>
 </fieldset>
-</form>
+</form><?php maw_after_form(); ?>
 
 <?php history("bisection",$server); 
 
