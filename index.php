@@ -261,14 +261,14 @@ aa.value='%s';
 bb='%s';"
 STR;
 
-if ($form == "integral")
-{
-$onsubmit=sprintf($onsubmitA,__('Submitting, please wait ...'),__('Submit'));
-}
-else
-{
+// if ($form == "integral")
+// {
+// $onsubmit=sprintf($onsubmitA,__('Submitting, please wait ...'),__('Submit'));
+// }
+// else
+// {
 $onsubmit=' ';
-}
+// }
 
 $submitbuttont=<<<SUB
 <input value="%s" name="tlacitko" type="submit" class="tlacitko" id="myButton">
