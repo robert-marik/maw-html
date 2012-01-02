@@ -91,7 +91,7 @@ function hint_preview(){
 
 function maw_before_form() {echo "<div id='form'>";}
 function maw_after_form() {
-  echo "</div><div id='after-form'><span style='color:gray'><br><h2>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').hidden=true;document.getElementById('form').hidden=false;\">","</a>")."</h2></span></div>";
+  echo "</div><div id='after-form'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').hidden=true;document.getElementById('form').hidden=false;\">","</a>")."</div>";
   echo "<script>document.getElementById('after-form').hidden=true;</script>";
 }
 
