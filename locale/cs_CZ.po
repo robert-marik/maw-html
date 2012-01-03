@@ -56,7 +56,7 @@ msgstr ""
 
 #: banach.php:2 index.php:386
 msgid "Method of iterations"
-msgstr "Iterační metoda"
+msgstr "Metoda prosté iterace"
 
 #: banach.php:25
 msgid "Enter function, interval containing  fixed point and number of steps."
@@ -932,7 +932,7 @@ msgstr ""
 "Lineární diferenciální rovnice druhého řádu (metoda variace konstant a "
 "metoda odhadu partikulárního řešení)</li><li> Autonomní systém</li> </ul> </"
 "li> <li>Rovnice a nerovnice <ul> <li>Numerické řešení rovnic metodou půlení "
-"intervalu a iterační metodou</li> <li>Nerovnice a soustavy nerovnic jedné a "
+"intervalu a prostou iterační metodou</li> <li>Nerovnice a soustavy nerovnic jedné a "
 "dvou proměnných</li> </ul> </il> </ul> <span class=\"nadpis\">Jak nás "
 "podpořit</span> <ul><li>Chcete finančně podpořit vývoj aplikace Mathematical "
 "Assistant on Web? Nedělejte to...  Podpořte raději "
