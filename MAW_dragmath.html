@@ -6,8 +6,13 @@
 <script language="Javascript">
 
 var exp = opener.document.forms['exampleform'].elements[opener.thenumber].value
+var mawlan = opener.document.forms['exampleform'].elements[0].value
+
+if (mawlan=='cs') {mawlan='cz';}
+if (mawlan=='zh') {mawlan='en';}
+
 document.write('<applet name="DragMath" codebase="dragmath" code="Display.MainApplet.class" archive="DragMath.jar" width=540 height=322>',
-                   '<param name=language value="en"/>',
+                   '<param name=language value="'+mawlan+'"/>',
                    '<param name=outputFormat value="Maxima">',
 	     '<param name=openWithExpression value="' + exp + '">',
 	     'To use this page you need a Java-enabled browser. Download the latest Java plug-in from <a href="http://www.java.com">Java.com</a>',
