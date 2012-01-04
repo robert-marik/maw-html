@@ -6,8 +6,8 @@
 <script language="Javascript">
 
 var exp = opener.document.forms['exampleform'].elements[opener.thenumber].value
-document.write('<applet name="DragMath" codebase="classes" code="Display.MainApplet.class" archive="Project.jar,AbsoluteLayout.jar,swing-layout-1.0.jar,jdom.jar,jep.jar" width=540 height=322>',
-                   '<param name=language value="cz"/>',
+document.write('<applet name="DragMath" codebase="dragmath" code="Display.MainApplet.class" archive="DragMath.jar" width=540 height=322>',
+                   '<param name=language value="en"/>',
                    '<param name=outputFormat value="Maxima">',
 	     '<param name=openWithExpression value="' + exp + '">',
 	     'To use this page you need a Java-enabled browser. Download the latest Java plug-in from <a href="http://www.java.com">Java.com</a>',
