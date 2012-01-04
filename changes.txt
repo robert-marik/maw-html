@@ -22,6 +22,9 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
+year 2012
+* MAW vitrual machine updated to current version.
+
 year 2011
 * Several minor changes, see the logs at https://bitbucket.org/robert.marik/maw/changesets.
 * Caching results from integral assistant.
