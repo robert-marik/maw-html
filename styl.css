@@ -25,15 +25,17 @@ div#history{margin-bottom:12px;}
 div#history a{color: #444444;}
 
 div#odkaz_hlavicka a {line-height: 220%;text-decoration:
-none; background-color: #eofff; margin: 8px; padding: 4px;
+none; background-color: #eofff; margin: 5px; padding: 5px;
 border-color: #555; border-left: 2px solid  #555; color:#555; font-weight : bold;
 }
 
-div#odkaz_hlavicka{text-align: left; margin-top:20px;}
+div#odkaz_hlavicka{text-align: left; margin-top:20px; margin-bottom:10px;}
 
 div#odkaz_hlavicka ul li {display: inline;}
+div#odkaz_hlavicka ul {margin: 0; padding: 0;}
 
 
+div#submenu {margin-bottom:10px ; }
 div#submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
 
 div#submenu .aktivni a{border-bottom: 1px solid #555; color:#000;}
