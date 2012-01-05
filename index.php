@@ -204,6 +204,7 @@ echo __("You should turn JavaScript on to see popup informations.");
 </b>  </noscript> 
 
 <div id="main">
+<div id="head">
 <div id="flags">
 <div id="flags-left">
 <?php echo '<a href="index.php?lang=cz&form='.$form.'">
@@ -309,10 +310,12 @@ SUB;
 $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));
 
 
-  function aktivni_konec($cislo){echo '</span>';}
+  function aktivni_konec($cislo){echo '</span></li>';}
+
   function aktivni($cislo){
     global $submenu;
-    if ($submenu==$cislo) echo '<span class="aktivni">';
+    echo ('<li>');
+    if ($submenu==$cislo) echo '<span class="aktivni">'; else echo '<span>';
   }
 
   function aktivni_form($identifikace){
@@ -322,7 +325,7 @@ $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait f
     return($t);
   }
 
-
+printf('<ul>');
 aktivni(1);
 printf('<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\', FGCLASS,\'olfg\');" onmouseout="return nd();" >',fixit(__("Introduction, general remarks")));
 echo __('Introduction'); 
@@ -352,110 +355,82 @@ printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return o
 echo __("Equations and inequalities");
 echo '</a>';
 aktivni_konec(6);
-echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+//echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
   aktivni(7);
 printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(\'<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Site map (what you can find on this site and where).")),fixit(__("Support")));
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);
+printf('</ul>');
+
 echo '<div id="submenu">';
 
+function maw_submenu ($a,$b,$c,$d)
+{
+return '<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'">'.$d.'</a></span></li>';
+}
+
+echo '<ul>';	
 if ($submenu=="2")
   {
-    echo aktivni_form("graf"),'<a href="index.php?lang='.$lang.'&form=graf">';
-    echo __("Graphs of elementary functions");
-    echo '</a></span>',aktivni_form("df"),'<a href="index.php?lang='.$lang.'&form=df">';
-    echo __('Domain of functions (one variable)');
-    echo '</a></span>',aktivni_form("df3d"),'<a href="index.php?lang='.$lang.'&form=df3d">';
-    echo __('Domain of functions (two variables)');
-    echo '</a></span>',aktivni_form("lagrange"),'<a href="index.php?lang='.$lang.'&form=lagrange">';
-    echo __('Lagrange polynomial');
-    echo '</a></span>',aktivni_form("mnc"),'<a href="index.php?lang='.$lang.'&form=mnc">';
-    echo __('Least squares method');
-    echo '</a></span>';
+    echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
+    echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
+    echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
+    echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
+    echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
   }
 elseif ($submenu=="3")
 {
-  echo aktivni_form("derivace"),'      <a href="index.php?lang='.$lang.'&form=derivace">';
-  echo __('Derivative and partial derivative');
-  echo '</a></span>',aktivni_form("prubeh"),'
-      <a href="index.php?lang='.$lang.'&form=prubeh">';
-  echo __('Investigating functions');
-  echo '</a></span>',aktivni_form("taylor"),'
-      <a href="index.php?lang='.$lang.'&form=taylor">';
-  echo __('Taylor polynomial');
-//  echo '</a></span>',aktivni_form("gaussprop"),'
-//      <a href="index.php?lang='.$lang.'&form=gaussprop">';
-//  echo __('Error propagation');
-  echo '</a></span>',aktivni_form("minmax3d"),'
-      <a href="index.php?lang='.$lang.'&form=minmax3d">';
-  echo __('Local maxima and minima in two variables');
-  echo '</a></span>';
+  echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
+  echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
+  echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
+//  echo maw_submenu("gaussprop",$lang,'gaussprop', __('Error propagation'));
+  echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
 }
 elseif ($submenu=="4")
 {
-  echo aktivni_form("integral"),'      <a href="index.php?lang='.$lang.'&form=integral">';
-  echo __('Antiderivative');
-  echo '</a></span>',aktivni_form("geom"),'
-  <a href="index.php?lang='.$lang.'&form=geom">';
-  echo __('Geometrical applications of definite integral');
-  echo '</a></span>',aktivni_form("trap"),'
-      <a href="index.php?lang='.$lang.'&form=trap">';
-  echo __('Trapezoidal rule');
-  echo '</a></span>',aktivni_form("integral2"),'
-  <a href="index.php?lang='.$lang.'&form=integral2">';
-  echo __('Double integral');
-  echo '</a></span>';
+  echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
+  echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
+  echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
+  echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
 }
 elseif ($submenu=="5")
 {
-  echo aktivni_form("ode"),'      <a href="index.php?lang='.$lang.'&form=ode">';
-  echo __('First order ODE');
-  echo '</a></span>',aktivni_form("lde2"),'
-      <a href="index.php?lang='.$lang.'&form=lde2">';
-  echo __('Second order LDE');
-  echo '</a></span>',aktivni_form("autsyst"),'
-      <a href="index.php?lang='.$lang.'&form=autsyst">';
-  echo __('Autonomous system');
-  echo '</a></span>';
+  echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
+  echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
+  echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
 }
 elseif ($submenu=="6")
 {
-  echo aktivni_form("bisection"),'<a href="index.php?lang='.$lang.'&form=bisection">';
-  echo __('Bisection');
-  echo '</a></span>',aktivni_form("regula_falsi"),'<a href="index.php?lang='.$lang.'&form=regula_falsi">';
-  echo __('Regula falsi');
-  echo '</a></span>',aktivni_form("banach"),'<a href="index.php?lang='.$lang.'&form=banach">';
-  echo __('Method of iterations');
-  echo '</a></span>',aktivni_form("ineq2d"),' <a href="index.php?lang='.$lang.'&form=ineq2d">';
-  echo __('System of inequalities (in one or two variables)');
-  echo '</a></span>';
+  echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
+  echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
+  echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
+  echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
 }
+echo '</ul>';	
 
 
-echo '</div></div><br>';
+echo '</div></div>';
 
 echo '<script type="text/javascript">
 var browser=navigator.appName;
 if (browser=="Microsoft Internet Explorer")
 {
 document.write("<br><b><span style=\"color:#ff0000\">'.__('Tested on Firefox, Opera and Konqueror.').' <br>'.__('Some features do not work on Internet Explorer.').'" );
-document.write("</span></b><br><br>");
+document.write("</span></b><br>");
 }
 </script>';
 
-if (($submenu!="7")&&($submenu!="1")) {echo __("Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
+echo '<div id="aftermenu">';
+if (($submenu!="7")&&($submenu!="1")) {
+echo __("Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
 }
 else
   {echo __("Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");}
 
-echo '</div>';
-
-
 ?>
-<br>
-
-<br>
+</div>
+</div>
 
 <div id="kalkulator">
 

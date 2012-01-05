@@ -7,6 +7,7 @@ href="http://mathassistant.sourceforge.net/">sourceforge.net</a> and supported b
 if (file_exists('./tail_user.php')) {require ('./tail_user.php');}
 ?>
 
+</div>
 
 </body>
 </html>
