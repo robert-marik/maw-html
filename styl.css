@@ -18,10 +18,10 @@ div#subtitle{font-size=80%; text-align:center; margin-bottom:10px;}
 div#subsubtitle{font-size=80%; text-align:center;}
 div#title{top-margin:100px;}
 
-div#comments{color:#555555; }
-div#comments a{color:#5555FF; }
+div#comments{color:#444444; }
+div#comments a{color:#4444FF; }
 div#history{margin-bottom:12px;}
-div#history a{color: #555555;}
+div#history a{color: #444444;}
 
 div#odkaz_hlavicka a {line-height: 220%;text-decoration:
 none; background-color: #eofff; margin: 8px; padding: 4px;
@@ -55,3 +55,5 @@ td {font-size:14px; }
 
 .vnitrni {border: 3px solid #9ce6f3; }
 .fieldsetmin {border-width: 0px; margin:10px; margin-left:60px;}
+
+.olfg {background-color:#9ce6f3; }

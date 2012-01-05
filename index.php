@@ -240,10 +240,10 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 </a>
 <br>
 <a href="changes.txt">
-<?php  echo __("changelog");?></a>
+<?php  echo __("Changelog");?></a>
 <br>
 <a href="bugs.txt">
-<?php  echo __("known bugs");?></a>
+<?php  echo __("Known bugs");?></a>
 </div>
 
 <?php 
@@ -263,7 +263,7 @@ echo '</div><div id="subsubtitle">('.sprintf(__('%sOffline version%s is also ava
 
 if (file_exists('./mawcustom_aftertitle.php')) 
 {
-  echo ("<div id=\"mawcustom\">");
+  echo ("<div id=\"mawcustom2\">");
   require ('./mawcustom_aftertitle.php');
   echo ("</div>");
 }
@@ -324,37 +324,37 @@ $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait f
 
 
 aktivni(1);
-printf('<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\');" onmouseout="return nd();" >',fixit(__("Introduction, general remarks")));
+printf('<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\', FGCLASS,\'olfg\');" onmouseout="return nd();" >',fixit(__("Introduction, general remarks")));
 echo __('Introduction'); 
 echo '</a>';
 aktivni_konec(1);
 aktivni(2);
-printf('<a href="index.php?lang='.$lang.'&form=graf" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("Graphs of basic elementary functions")),fixit(__("Natural domains of function in one or two variables")),fixit(__("Lagrange polynomial")),fixit(__("Fitting data file using least squares method")));
+printf('<a href="index.php?lang='.$lang.'&form=graf" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Graphs of basic elementary functions")),fixit(__("Natural domains of function in one or two variables")),fixit(__("Lagrange polynomial")),fixit(__("Fitting data file using least squares method")));
 echo __("Precalculus"); echo '</a>';
 aktivni_konec(2);
 aktivni(3);
-printf('<a href="index.php?lang='.$lang.'&form=derivace" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("Investigating function")),fixit(__("Derivative in one variable")),fixit(__("Partial derivative in two variables")),fixit(__("Taylor polynomial")),fixit(__("Local maxima and minima for functions in two variables")));
+printf('<a href="index.php?lang='.$lang.'&form=derivace" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Investigating function")),fixit(__("Derivative in one variable")),fixit(__("Partial derivative in two variables")),fixit(__("Taylor polynomial")),fixit(__("Local maxima and minima for functions in two variables")));
 echo __("Calculus");
 echo '</a>';	  
 aktivni_konec(3);
 aktivni(4);
-printf('<a href="index.php?lang='.$lang.'&form=integral" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("Indefinite integral (anitiderivative)")),fixit(__("Geometrical applications of definite integral")),fixit(__("Double integral")),fixit(__("Approximation of definite integral by trapezoidal rule")));
+printf('<a href="index.php?lang='.$lang.'&form=integral" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Indefinite integral (anitiderivative)")),fixit(__("Geometrical applications of definite integral")),fixit(__("Double integral")),fixit(__("Approximation of definite integral by trapezoidal rule")));
 echo __("Integral calculus");
 echo '</a>';
   aktivni_konec(4);
   aktivni(5);
-printf('<a href="index.php?lang='.$lang.'&form=ode" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("First order differerential equations")),fixit(__("Second order differential equations (linear, using variantion of constant and using guess of particular solution)")),fixit(__("Stationary points of autonomous system")));
+printf('<a href="index.php?lang='.$lang.'&form=ode" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("First order differerential equations")),fixit(__("Second order differential equations (linear, using variantion of constant and using guess of particular solution)")),fixit(__("Stationary points of autonomous system")));
 echo __("Differential equations");
 echo '</a>';
   aktivni_konec(5);
   aktivni(6);
-printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("Nonlinear equations using bisection")),fixit(__("Nonlinear equations using regula falsi")),fixit(__("Nonlinear equations using method of iterations")),fixit(__("System of inequalities in one or two variables")));
+printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Nonlinear equations using bisection")),fixit(__("Nonlinear equations using regula falsi")),fixit(__("Nonlinear equations using method of iterations")),fixit(__("System of inequalities in one or two variables")));
 echo __("Equations and inequalities");
 echo '</a>';
 aktivni_konec(6);
 echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
   aktivni(7);
-printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(\'<li>%s<li>%s\');" onmouseout="return nd();"">',fixit(__("Site map (what you can find on this site and where).")),fixit(__("Support")));
+printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(\'<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Site map (what you can find on this site and where).")),fixit(__("Support")));
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);

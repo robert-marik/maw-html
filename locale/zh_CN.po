@@ -336,11 +336,11 @@ msgid "Support from MAW forum"
 msgstr "从MAW论坛获取支持"
 
 #: index.php:212
-msgid "changelog"
+msgid "Changelog"
 msgstr "更新日志"
 
 #: index.php:215
-msgid "known bugs"
+msgid "Known bugs"
 msgstr "已知问题"
 
 #: index.php:224

@@ -382,12 +382,12 @@ msgid "Support from MAW forum"
 msgstr "Podpora, diskusní fórum"
 
 #: index.php:212
-msgid "changelog"
-msgstr "poslední změny"
+msgid "Changelog"
+msgstr "Poslední změny"
 
 #: index.php:215
-msgid "known bugs"
-msgstr "známé chyby"
+msgid "Known bugs"
+msgstr "Známé chyby"
 
 #: index.php:224
 msgid "Mathematical Assistant on Web"
@@ -907,7 +907,7 @@ msgstr ""
 "textov&eacute;ho řetězce maNECHrikCI@mSPendAMelu.cz resp. "
 "tiNEhlCHCarISPiAk@mMendelu.cz.</li> </ul> <hr><h3>Nápady, vzkazy, "
 "připomínky ...</h3>Pro delší vzkazy prosím použijte diskusní <a href="
-"\"http://forum.matweb.cz/viewforum.php?id=39\">fórum</a>.<br>"
+"\"http://forum.matweb.cz/viewforum.php?id=39\">fórum</a>."
 
 #: map.php:3
 msgid "MAW-map"

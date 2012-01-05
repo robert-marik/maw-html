@@ -736,7 +736,7 @@ msgstr ""
 "following strings) maNOrikSP@mAendMelu.cz resp. tiNOhlSarPAMik@mendelu.cz.</"
 "li> </ul> <hr> <h3>Comments</h3>For longer questions, remarks, comments, "
 "hints and feature requests use our <a href=\"http://sourceforge.net/apps/"
-"phpbb/mathassistant/\">forum</a>.<br>"
+"phpbb/mathassistant/\">forum</a>."
 
 #: map.php:3
 msgid "MAW-map"

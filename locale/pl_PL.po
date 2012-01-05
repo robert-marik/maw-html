@@ -341,11 +341,11 @@ msgid "Support from MAW forum"
 msgstr ""
 
 #: index.php:212
-msgid "changelog"
-msgstr "log zmian"
+msgid "Changelog"
+msgstr "Log zmian"
 
 #: index.php:215
-msgid "known bugs"
+msgid "Known bugs"
 msgstr ""
 
 #: index.php:224
