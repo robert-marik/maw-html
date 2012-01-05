@@ -259,7 +259,7 @@ echo '<div id="title"><div id="main-title">';
 echo __('Mathematical Assistant on Web');
 echo '</div><div id="subtitle">'; 
 echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
-echo '</div><div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.html">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
+echo '</div><div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.php">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
 
 if (file_exists('./mawcustom_aftertitle.php')) 
 {

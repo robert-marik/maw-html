@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -6,6 +5,14 @@
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" />
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" />
+
+<?php
+if (file_exists('./custom.css')) 
+{
+  echo ('<link rel="stylesheet" type="text/css" href="custom.css" />');
+}
+?>
+
   <link rel="stylesheet" type="text/css" href="navigace.css" />
   <title>Mathematical Assistant on Web </title>
 

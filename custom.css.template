@@ -1,0 +1,13 @@
+form {background-color: #C2FFA3;}
+div#after-form {background-color: #C2FFA3;}
+body {background-color: #C2FFA3;}
+
+.vnitrni {border: 3px solid #41C200;  }
+
+.olfg {background-color:#41C200; }
+.olfgmath {background-color:#C2FFA3; }
+
+div#kalkulator {background-color: #41C200; }
+.mainmenu{background-color: #41C200; }
+
+div#support a {color: gray;}
