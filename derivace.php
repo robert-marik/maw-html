@@ -54,8 +54,6 @@ name="tlacitko" type="submit" class="tlacitko">
 echo __("MAW-der")
 
 
-
-
 ?>
 
 </body>

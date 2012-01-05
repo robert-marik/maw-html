@@ -27,6 +27,8 @@ along with Mathematical Assistant o Web.  If not, see
 $server="http://localhost/maw";
 $lang = "en"; $locale_file = "en_US";
 
+$custom_between_flags="";
+
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
 require_once("lib/streams.php");
@@ -97,9 +99,9 @@ function maw_after_form() {
 
 function history($adresar,$server)
 {
-  echo ("<a style=\"font-weight: bold;\" href=\"$server/common/tail.php?dir=$adresar\">");
+  echo ("<div id=\"history\"><a href=\"$server/common/tail.php?dir=$adresar\">");
   echo __("History");
-  echo ("</a><br>");
+  echo ("</a></div><div id=\"comments\">");
 }
 
 function polejazyka($ret)
@@ -124,6 +126,14 @@ echo 'method="post"';
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" />
   <link rel="stylesheet" type="text/css" href="navigace.css" />
+  
+<?php
+if (file_exists('./custom.css')) 
+{
+  echo ("<link rel=\"stylesheet\" type=\"text/css\" href=\"custom.css\" />");
+}
+?>
+
   <title>Mathematical Assistant on Web (<?php echo $form ?>) </title>
 
   <script language="JavaScript">
@@ -187,14 +197,15 @@ window.open(thedata,"","width=565,height=150,resizable");
 </head>
 <body><div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
-<noscript> <b style="color: rgb(255, 0, 0)";>
+<noscript> <b style="color: rgb(255, 0, 0);">
 <?php 
 echo __("You should turn JavaScript on to see popup informations.");
 ?>
 </b>  </noscript> 
 
-<div style="height: 0px; position: absolute; top: 0px; leftt: 5px;">
-<p align="left"><small>
+<div id="main">
+<div id="flags">
+<div id="flags-left">
 <?php echo '<a href="index.php?lang=cz&form='.$form.'">
 <img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
@@ -203,10 +214,11 @@ echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" sty
 echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
-</small></p></div>
+</div>
 
-<div style="height: 0px; position: absolute; top: 0px; right: 5px;">
-<p align="right"><small>
+
+
+<div id="flags-right">
 <?php echo '<a href="index.php?lang=cz&form='.$form.'">
 <img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
 echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
@@ -215,8 +227,12 @@ echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" sty
 echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
 echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
 ?>
-<small>
-<br><br>
+</div>
+
+<?php echo($custom_between_flags); ?>
+
+</div>
+<div id="support">
 <a href="
 <?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>
 ">
@@ -228,20 +244,29 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 <br>
 <a href="bugs.txt">
 <?php  echo __("known bugs");?></a>
-</small></small></p>
 </div>
 
 <?php 
 
-if (file_exists('./mawcustom_top.php')) {require ('./mawcustom_top.php');}
+if (file_exists('./mawcustom_top.php')) 
+{
+  echo ("<div id=\"mawcustom\">");
+  require ('./mawcustom_top.php');
+  echo("<div>");
+}
 
-echo '<h2 style="text-align: center;">';
+echo '<div id="title"><div id="main-title">';
 echo __('Mathematical Assistant on Web');
-echo '&nbsp;&nbsp;<small><small>('; 
+echo '</div><div id="subtitle">'; 
 echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
-echo ')<br><center>('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.html">','</a>','<a href="translators.html">','</a>').')</center></small></small> </h2>';
+echo '</div><div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.html">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
 
-if (file_exists('./mawcustom_aftertitle.php')) {require ('./mawcustom_aftertitle.php');}
+if (file_exists('./mawcustom_aftertitle.php')) 
+{
+  echo ("<div id=\"mawcustom\">");
+  require ('./mawcustom_aftertitle.php');
+  echo ("</div>");
+}
 
 ?>
 
