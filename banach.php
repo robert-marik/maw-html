@@ -64,6 +64,6 @@ echo __("MAW-banach");
 ?>
 
 
-</body>
-</html>
+
+
 

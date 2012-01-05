@@ -68,6 +68,6 @@ echo __('MAW-bisection');
 ?>
 
 
-</body>
-</html>
+
+
 

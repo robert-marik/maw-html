@@ -64,6 +64,6 @@ echo __("MAW-int");
 ?>
 
 
-</body>
-</html>
+
+
 

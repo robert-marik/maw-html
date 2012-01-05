@@ -56,6 +56,6 @@ echo __("MAW-der")
 
 ?>
 
-</body>
-</html>
+
+
 

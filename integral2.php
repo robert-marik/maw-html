@@ -100,6 +100,6 @@ value="<?php echo $function;?>">
 echo __("MAW-int2");?>
 
 
-</body>
-</html>
+
+
 

@@ -67,6 +67,6 @@ echo __('MAW-regula_falsi');
 ?>
 
 
-</body>
-</html>
+
+
 
