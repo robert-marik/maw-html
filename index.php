@@ -29,6 +29,13 @@ $lang = "en"; $locale_file = "en_US";
 
 $custom_between_flags="";
 
+$maw_overlib=true;
+
+if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
+{
+  $maw_overlib=false;
+}     
+
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
 require_once("lib/streams.php");
@@ -192,8 +199,22 @@ window.open(thedata,"","width=565,height=150,resizable");
 
   </script>
 
-<script type="text/javascript" src="overlibmws/overlibmws.js">
-</script> 
+<?php
+if ($maw_overlib)
+{
+  echo '<script type="text/javascript" src="overlibmws/overlibmws.js"></script>';
+}
+else
+{
+echo '
+  <script language="JavaScript">
+    function nd()
+      return null;
+    function overlib()
+      return null;
+  </script>';
+}
+?>
 </head>
 <body><div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
