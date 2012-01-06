@@ -693,8 +693,8 @@ msgstr "écrire arcsinh et arctanh en termes de log"
 #: integral.php:63
 msgid "MAW-int"
 msgstr ""
-"<span style='color: rgb(255, 0, 0)';>Visitez la <a style='color: rgb(255, 0, "
-"0)' href=\"integral_offline/\">galerie d'intégrales</a></span>. Si vous "
+"<span class='red'>Visitez la <a "
+" href=\"integral_offline/\">galerie d'intégrales</a></span>. Si vous "
 "voulez y rajouter une intégrale à vous, contactez-nous et nous le ferons "
 "volontiers."
 

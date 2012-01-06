@@ -671,8 +671,8 @@ msgstr "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
 #: integral.php:63
 msgid "MAW-int"
 msgstr ""
-"<span style='color: rgb(255, 0, 0)';>Odwiedź naszą <a style='color: rgb(255, "
-"0, 0)' href=\"integral_offline/\">galerię całek</a></span>. Jeśli chciałbyś "
+"<span class='red'>Odwiedź naszą <a "
+" href=\"integral_offline/\">galerię całek</a></span>. Jeśli chciałbyś "
 "dodać swoją całkę do galerii skontaktuj się z nami."
 
 #: integral2.php:25

@@ -681,8 +681,8 @@ msgstr "escriu asinh i atanh enlloc de log"
 #: integral.php:63
 msgid "MAW-int"
 msgstr ""
-"<span style='color: rgb(255, 0, 0)';>Visiteu la <a style='color: rgb(255, 0, "
-"0)' href=\"integral_offline/\">galeria d'integrals</a></span>. Si voleu "
+"<span class='red'>Visiteu la <a "
+" href=\"integral_offline/\">galeria d'integrals</a></span>. Si voleu "
 "afegir-hi una integral vostra, contacteu-nos i ho farem amb molt de gust."
 
 #: integral2.php:25

@@ -633,8 +633,8 @@ msgstr ""
 #: integral.php:63
 msgid "MAW-int"
 msgstr ""
-"<span style='color: rgb(255, 0, 0)';>Visit our <a style='color: rgb(255, 0, "
-"0)' href=\"integral_offline/\">integral gallery</a></span>. Feel free to "
+"<span class='red'>Visit our <a "
+" href=\"integral_offline/\">integral gallery</a>.</span> Feel free to "
 "contact us with request to add your integral into this gallery."
 
 #: integral2.php:25
