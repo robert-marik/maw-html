@@ -412,14 +412,16 @@ echo '</ul>';
 
 echo '</div></div>';
 
-echo '<script type="text/javascript">
-var browser=navigator.appName;
-if (browser=="Microsoft Internet Explorer")
-{
-document.write("<br><b><span style=\"color:#ff0000\">'.__('Tested on Firefox, Opera and Konqueror.').' <br>'.__('Some features do not work on Internet Explorer.').'" );
-document.write("</span></b><br>");
-}
-</script>';
+//echo '<script type="text/javascript">
+//var browser=navigator.appName;
+//if (browser=="Microsoft Internet Explorer")
+//{
+//document.write("<br><b><span style=\"color:#ff0000\">'.__('Tested on 
+//Firefox, Opera and Konqueror.').' <br>'.__('Some features do not work 
+//on Internet Explorer.').'" );
+//document.write("</span></b><br>");
+//}
+//</script>';
 
 echo '<div id="aftermenu">';
 if (($submenu!="7")&&($submenu!="1")) {
