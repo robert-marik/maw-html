@@ -24,7 +24,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 */
 
-$server="http://localhost/maw";
+$server="/maw";
 $lang = "en"; $locale_file = "en_US";
 
 $custom_between_flags="";
