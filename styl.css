@@ -8,7 +8,7 @@ div#after-form a{color:gray;}
 
 div#main{}
 
-div#support{font-size:65%; text-align:right; height:10px;}
+.support{font-size:65%; text-align:right; height:10px;}
 div#flags-left{font-size:75%; text-align:left;line-height:0; height: 0;}
 div#flags-right{font-size:75%; text-align:right; line-height:0; height: 0;}
 div#flags{position:relative; text-align:center; min-height:20px; _height: 20px; }
@@ -73,5 +73,5 @@ div#processing {font-size:130%; color:gray;}
 
 .hint { color:red; font-size:80%; font-style: italic;}
 
-.h3_error { color:red; font-size:200%; font-weight: bold;}
+.h3_error { color:red; font-size:200%; font-weight: bold; margin-bottom: 10px;}
 .ie_warning { color:red; font-size:120%; font-weight: bold;}
