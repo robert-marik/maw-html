@@ -99,17 +99,17 @@ if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="i
 function hint_preview(){
  echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");}
 
-function maw_before_form() {echo "<div id='form' style='display:block;'>";}
+function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
 function maw_after_form() {
-  echo "</div><div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.display='block';\">","</a>")."</div>";
+  echo "</div>\n<div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.display='block';\">","</a>")."</div>";
   echo "<script>document.getElementById('after-form').style.display='none';</script>";
 }
 
 function history($adresar,$server)
 {
-  echo ("<div id=\"history\"><a href=\"$server/common/tail.php?dir=$adresar\">");
+  echo ("\n<div id=\"history\"><a href=\"$server/common/tail.php?dir=$adresar\">");
   echo __("History");
-  echo ("</a></div><div id=\"comments\">");
+  echo ("</a></div>\n<div id=\"comments\">");
 }
 
 function polejazyka($ret)
@@ -219,7 +219,8 @@ echo '
 echo $maw_header;
 ?>
 </head>
-<body><div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
+<body>
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
 <noscript> <b style="color: rgb(255, 0, 0);">
 <?php 
@@ -275,20 +276,20 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 
 if (file_exists('./mawcustom_top.php')) 
 {
-  echo ("<div id=\"mawcustom\">");
+  echo ("\n<div id=\"mawcustom\">");
   require ('./mawcustom_top.php');
   echo("</div>");
 }
 
-echo '<div id="title"><div id="main-title">';
+echo "\n".'<div id="title">'."\n".'<div id="main-title">';
 echo __('Mathematical Assistant on Web');
 echo '</div><div id="subtitle">'; 
 echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
-echo '</div><div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.php">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
+echo '</div>'."\n".'<div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.php">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
 
 if (file_exists('./mawcustom_aftertitle.php')) 
 {
-  echo ("<div id=\"mawcustom2\">");
+  echo ("\n<div id=\"mawcustom2\">");
   require ('./mawcustom_aftertitle.php');
   echo ("</div>");
 }
@@ -338,7 +339,7 @@ $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait f
 
   function aktivni($cislo){
     global $submenu;
-    echo ('<li>');
+    echo ("\n".'<li>');
     if ($submenu==$cislo) echo '<span class="aktivni">'; else echo '<span>';
   }
 
@@ -385,9 +386,9 @@ printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);
-printf('</ul>');
+echo("\n</li></ul>");
 
-echo '<div id="submenu">';
+echo "\n".'<div id="submenu">';
 
 function maw_submenu ($a,$b,$c,$d)
 {
@@ -447,7 +448,7 @@ echo '</div></div>';
 //}
 //</script>';
 
-echo '<div id="aftermenu">';
+echo "\n".'<div id="aftermenu">';
 if (($submenu!="7")&&($submenu!="1")) {
 echo __("Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
 }
