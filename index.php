@@ -30,13 +30,12 @@ $lang = "en"; $locale_file = "en_US";
 $custom_between_flags="";
 
 $maw_overlib=true;
+$maw_header="";
 
 if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
 {
   $maw_overlib=false;
 }     
-
-if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
 require_once("lib/streams.php");
 require_once("lib/gettext.php");
@@ -66,6 +65,8 @@ function __($text){
 	global $locale_reader;
 	return $locale_reader->translate($text);
 }
+
+if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
 function fixit($text)
 {
@@ -214,6 +215,8 @@ echo '
       return null;
   </script>';
 }
+
+echo $maw_header;
 ?>
 </head>
 <body><div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
