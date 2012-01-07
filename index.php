@@ -259,7 +259,7 @@ echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" sty
 <?php echo($custom_between_flags); ?>
 
 </div>
-<div id="support">
+<div class="support">
 <a href="
 <?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>
 ">
