@@ -8,6 +8,8 @@
 var exp = opener.document.forms['exampleform'].elements[opener.thenumber].value
 var mawlan = opener.document.forms['exampleform'].elements[0].value
 
+if (mawlan==undefined) {mawlan=opener.document.forms['exampleform'].elements[1].value;}
+
 if (mawlan==undefined) {mawlan='en';}
 if (mawlan=='cs') {mawlan='cz';}
 if (mawlan=='zh') {mawlan='en';}
