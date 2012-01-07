@@ -144,7 +144,7 @@ if (file_exists('./custom.css'))
 
   <title>Mathematical Assistant on Web (<?php echo $form ?>) </title>
 
-  <script language="JavaScript">
+  <script type="text/javascript">
 var thedata;
 var newwin;
 var thenumber;
@@ -209,10 +209,11 @@ else
 {
 echo '
   <script language="JavaScript">
+    var FGCLASS;
     function nd()
-      return null;
+      { return null;}
     function overlib()
-      return null;
+      { return null;}
   </script>';
 }
 
@@ -386,16 +387,15 @@ printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);
-echo("\n</li></ul>");
-
-echo "\n".'<div id="submenu">';
+echo("\n</ul>");
 
 function maw_submenu ($a,$b,$c,$d)
 {
 return '<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'">'.$d.'</a></span></li>';
 }
 
-echo '<ul>';	
+if ( ($submenu!="1") && ($submenu!="7") ) {echo "\n".'<div id="submenu"><ul>';}
+
 if ($submenu=="2")
   {
     echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
@@ -432,10 +432,10 @@ elseif ($submenu=="6")
   echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
   echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
 }
-echo '</ul>';	
 
+if ( ($submenu!="1") && ($submenu!="7") ) {echo '</ul></div>';}
 
-echo '</div></div>';
+echo '</div>';
 
 //echo '<script type="text/javascript">
 //var browser=navigator.appName;
