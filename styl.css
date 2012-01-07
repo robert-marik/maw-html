@@ -70,3 +70,7 @@ div#processing {font-size:130%; color:gray;}
 
 .gray { color:gray;}
 .gray a { color:gray;}
+
+.hint { color:red; font-size:80%; font-style: italic;}
+
+.h3_error { color:red; font-size:200%; font-weight: bold;}
