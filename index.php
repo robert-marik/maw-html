@@ -153,7 +153,7 @@ function edit(textarea)
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value
 newwin =
-window.open("MAW_dragmath.html","","width=565,height=385,resizable")
+window.open("MAW_dragmath.html","","width=600,height=450,resizable")
 }
 
 function preview(textarea)
