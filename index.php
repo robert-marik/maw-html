@@ -277,7 +277,7 @@ if (file_exists('./mawcustom_top.php'))
 {
   echo ("<div id=\"mawcustom\">");
   require ('./mawcustom_top.php');
-  echo("<div>");
+  echo("</div>");
 }
 
 echo '<div id="title"><div id="main-title">';
