@@ -26,6 +26,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="/maw";
 $lang = "en"; $locale_file = "en_US";
+$lang_array=Array("cz","us","pl","ca","zh","fr");
 
 $custom_between_flags="";
 
@@ -233,27 +234,24 @@ echo __("You should turn JavaScript on to see popup informations.");
 <div id="head">
 <div id="flags">
 <div id="flags-left">
-<?php echo '<a href="index.php?lang=cz&form='.$form.'">
-<img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
-echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
+<?php 
+function lang_links()
+{
+global $form,$lang_array;
+foreach ($lang_array as $i => $value)
+  {
+    echo "\n".'<a href="index.php?lang='.$value.'&form='.$form.'" ><img src="'.$value.'.png" alt="cz" style="border: 0px solid ;" /></a>';
+    if ($i<5) {echo ("&nbsp;");}
+  }
+}
+lang_links();
 ?>
 </div>
 
 
 
 <div id="flags-right">
-<?php echo '<a href="index.php?lang=cz&form='.$form.'">
-<img src="cz.png" alt="cz" style="border: 0px solid ;" /></a>&nbsp;&nbsp;'; 
-echo '<a href="index.php?lang=en&form='.$form.'" ><img src="us.png" alt="us" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=pl&form='.$form.'" ><img src="pl.png" alt="pl" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=ca&form='.$form.'" ><img src="ca.png" alt="ca" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=zh&form='.$form.'" ><img src="zh.png" alt="zh" style="border: 0px solid ;" /></a>&nbsp;&nbsp;';
-echo '<a href="index.php?lang=fr&form='.$form.'" ><img src="fr.png" alt="fr" style="border: 0px solid ;" /></a>';
-?>
+<?php lang_links(); ?>
 </div>
 
 <?php echo($custom_between_flags); ?>
@@ -297,6 +295,7 @@ if (file_exists('./mawcustom_aftertitle.php'))
 
 ?>
 
+<div id="main_body">
 <div id="odkaz_hlavicka">
 
 <div class="mainmenu">
@@ -357,36 +356,43 @@ printf('<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\', F
 echo __('Introduction'); 
 echo '</a>';
 aktivni_konec(1);
+
 aktivni(2);
 printf('<a href="index.php?lang='.$lang.'&form=graf" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Graphs of basic elementary functions")),fixit(__("Natural domains of function in one or two variables")),fixit(__("Lagrange polynomial")),fixit(__("Fitting data file using least squares method")));
 echo __("Precalculus"); echo '</a>';
 aktivni_konec(2);
+
 aktivni(3);
 printf('<a href="index.php?lang='.$lang.'&form=derivace" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Investigating function")),fixit(__("Derivative in one variable")),fixit(__("Partial derivative in two variables")),fixit(__("Taylor polynomial")),fixit(__("Local maxima and minima for functions in two variables")));
 echo __("Calculus");
 echo '</a>';	  
 aktivni_konec(3);
+
 aktivni(4);
 printf('<a href="index.php?lang='.$lang.'&form=integral" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Indefinite integral (anitiderivative)")),fixit(__("Geometrical applications of definite integral")),fixit(__("Double integral")),fixit(__("Approximation of definite integral by trapezoidal rule")));
 echo __("Integral calculus");
 echo '</a>';
   aktivni_konec(4);
+
   aktivni(5);
 printf('<a href="index.php?lang='.$lang.'&form=ode" onmouseover="return overlib(\'<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("First order differerential equations")),fixit(__("Second order differential equations (linear, using variantion of constant and using guess of particular solution)")),fixit(__("Stationary points of autonomous system")));
 echo __("Differential equations");
 echo '</a>';
   aktivni_konec(5);
+
   aktivni(6);
 printf ('<a href="index.php?lang='.$lang.'&form=bisection" onmouseover="return overlib(\'<li>%s<li>%s<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Nonlinear equations using bisection")),fixit(__("Nonlinear equations using regula falsi")),fixit(__("Nonlinear equations using method of iterations")),fixit(__("System of inequalities in one or two variables")));
 echo __("Equations and inequalities");
 echo '</a>';
 aktivni_konec(6);
+
 //echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
   aktivni(7);
 printf('<a href="index.php?lang='.$lang.'&form=map" onmouseover="return overlib(\'<li>%s<li>%s\', FGCLASS,\'olfg\');" onmouseout="return nd();"">',fixit(__("Site map (what you can find on this site and where).")),fixit(__("Support")));
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);
+
 echo("\n</ul>");
 
 function maw_submenu ($a,$b,$c,$d)
