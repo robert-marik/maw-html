@@ -30,8 +30,15 @@ $lang_array=Array("cz","us","pl","ca","zh","fr");
 
 $custom_between_flags="";
 
+// is the submenu inside a menu or after?
+$submenu_inside=false;
 
+// all submenus? should be hidden with css
+$submenu_all=false;
+
+// do we use overlibmws?
 $maw_overlib=true;
+
 $maw_header="";
 
 if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
@@ -98,10 +105,11 @@ if (($form=="integral")||($form=="integral2")||($form=="geom")||($form=="trap"))
 if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
 if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
 
-function hint_preview(){
- echo ('<span class="hint_preview">');
+function hint_preview($a=""){
+ echo ("\n".'<div class="hint_preview">');
  echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
- echo ('</span>');
+ echo ($a);
+ echo ('</div><br>');
  }
 
 function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
@@ -339,22 +347,76 @@ SUB;
 $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));
 
 
-  function aktivni_konec($cislo){echo '</span></li>';}
+function aktivni_konec($cislo)
+{
+global $submenu_inside,$submenu,$submenu_all;
+echo '</span>';
+if ( ($submenu_inside) && (("$cislo"==$submenu) || ($submenu_all)) )
+   {
+   printsubmenu($cislo);
+   }
+echo ("</li>");
+}
 
-  function aktivni($cislo){
+function aktivni($cislo){
     global $submenu;
     echo ("\n".'<li>');
     if ($submenu==$cislo) echo '<span class="aktivni">'; else echo '<span>';
   }
 
-  function aktivni_form($identifikace){
+function aktivni_form($identifikace){
     global $form;
     $t="<span>";
     if ($identifikace==$form) {$t="<span class=\"aktivni\">";}
     return($t);
   }
 
-printf('<ul>');
+function maw_submenu ($a,$b,$c,$d)
+{
+return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'">'.$d.'</a></span></li>';
+}
+
+function printsubmenu($i)
+{
+  echo ("\n<ul class=\"submenu\">");
+  if ($i=="2") {
+    echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
+    echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
+    echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
+    echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
+    echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
+  }
+  elseif ($i=="3")
+  {
+    echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
+    echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
+    echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
+    echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
+  } 
+  elseif ($i=="4")
+  {
+    echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
+    echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
+    echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
+    echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
+  } 
+  elseif ($i=="5")
+  {
+    echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
+    echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
+    echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
+  } 
+  elseif ($i=="6")
+  {
+    echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
+    echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
+    echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
+    echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
+  } 
+  echo ("\n</ul>");
+}
+
+printf("\n<ul>");
 aktivni(1);
 printf('<a href="index.php?lang='.$lang.'" onmouseover="return overlib(\'%s\', FGCLASS,\'olfg\');" onmouseout="return nd();" >',fixit(__("Introduction, general remarks")));
 echo __('Introduction'); 
@@ -399,51 +461,12 @@ echo '</a>';
 
 echo("\n</ul>");
 
-function maw_submenu ($a,$b,$c,$d)
+if (!$submenu_inside)
 {
-return '<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'">'.$d.'</a></span></li>';
+  if ( ($submenu!="1") && ($submenu!="7") ) {echo "\n".'<div class="submenu"><ul>';}
+  printsubmenu($submenu);
+  if ( ($submenu!="1") && ($submenu!="7") ) {echo '</ul></div>';}
 }
-
-if ( ($submenu!="1") && ($submenu!="7") ) {echo "\n".'<div id="submenu"><ul>';}
-
-if ($submenu=="2")
-  {
-    echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
-    echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
-    echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
-    echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
-    echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
-  }
-elseif ($submenu=="3")
-{
-  echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
-  echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
-  echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
-//  echo maw_submenu("gaussprop",$lang,'gaussprop', __('Error propagation'));
-  echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
-}
-elseif ($submenu=="4")
-{
-  echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
-  echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
-  echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
-  echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
-}
-elseif ($submenu=="5")
-{
-  echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
-  echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
-  echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
-}
-elseif ($submenu=="6")
-{
-  echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
-  echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
-  echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
-  echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
-}
-
-if ( ($submenu!="1") && ($submenu!="7") ) {echo '</ul></div>';}
 
 echo '</div>';
 

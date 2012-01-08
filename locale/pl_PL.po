@@ -717,11 +717,11 @@ msgstr "Równanie"
 
 #: lde2.php:27
 msgid ""
-"<small>You can use Preview and Edit buttons for entering the right hand "
-"side</small>"
+"You can use Preview and Edit buttons for entering the right hand "
+"side"
 msgstr ""
-"<small>Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</"
-"b></small>"
+"Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</"
+"b>"
 
 #: lde2.php:32
 msgid "Method"
@@ -767,7 +767,7 @@ msgstr ""
 "dla tej strony znajduje się na serwerze <a target=\"_blank\" href=\"http://"
 "wood.mendelu.cz\">Department of Wood Science</a>.</li> <li><a href=\"http://"
 "wood.mendelu.cz/math/phpsysinfo\">Informacje o systemie</a></li> </ul> "
-"<hr><span class=\"nadpis\">Uwagi</span> <ul> <li>Pamiętaj "
+"<div class=\"noncompact\"><hr><span class=\"nadpis\">Uwagi</span> <ul> <li>Pamiętaj "
 "o używaniu gwiazdki * dla mnożenia, pisz 2*x zamiast 2x.</li> <li>Dane i "
 "wyrażenia wprowadzone przez użytkownika są przetwarzane przez programy Open "
 "Source <a href=\"http://maxima.sourceforge.net/\">Maxima</a>, <a href="
@@ -780,7 +780,7 @@ msgstr ""
 "lub  tiNOhlSarPAMik@mendelu.cz.</li> <li> Jeżeli zauważyłeś błędy w "
 "tłumaczeniu pisz na adres pdd1@o2.pl. </li> </ul> <hr> <h3>Komentarze</"
 "h3>Dłuższe pytania, uwagi, komentarze, propozycje zmian zamieść na naszym <a "
-"href=\"http://sourceforge.net/apps/phpbb/mathassistant/\">forum</a>."
+"href=\"http://sourceforge.net/apps/phpbb/mathassistant/\">forum</a>.</div>"
 
 #: map.php:3
 msgid "MAW-map"

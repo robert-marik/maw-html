@@ -28,16 +28,14 @@ if (str_replace(" ","",$function)=="")
 </label>
 <?php polejazyka($lang); ?>
 &nbsp;&nbsp;<span style="font-style:
-italic;">y=</span> <input size="60" name="funkce"
+italic;">y=</span> <input size="40" name="funkce"
 value="<?php echo ($function); ?>">
 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
-	<br>
+
 <?php hint_preview(); ?>
-  <br>
-  <br>
 
 <fieldset class="vnitrni">
 <legend class="podnadpis">
@@ -51,7 +49,6 @@ class="tlacitko">
  <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
 
 </fieldset>
-<br>
 <?php echo $submitbutton;?>
 </fieldset>
 </form><?php maw_after_form(); ?>

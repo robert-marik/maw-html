@@ -22,11 +22,10 @@ name="exampleform">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('f')" type="button"
 class="tlacitko">
-<br>
-<br>
-<?php echo __("<small>You can use Preview and Edit buttons for entering the right hand side</small>");
+<div class="hint_preview">
+<?php echo __("You can use Preview and Edit buttons for entering the right hand side");
 ?>
-
+</div>
 
 <fieldset  class="vnitrni"><legend class="podnadpis">
 <?php echo __('Method');?>

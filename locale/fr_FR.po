@@ -741,11 +741,11 @@ msgstr "Équation"
 
 #: lde2.php:27
 msgid ""
-"<small>You can use Preview and Edit buttons for entering the right hand "
-"side</small>"
+"You can use Preview and Edit buttons for entering the right hand "
+"side"
 msgstr ""
-"<small>Les boutons Preview et Editor vous rendent service pour remplir la "
-"partie à droite</small>"
+"Les boutons Preview et Editor vous rendent service pour remplir la "
+"partie à droite"
 
 #: lde2.php:32
 msgid "Method"
@@ -796,7 +796,7 @@ msgstr ""
 "\"_blank\" href=\"http://wood.mendelu.cz\">Départament de technologie du "
 "bois</a> de l'Université Mendel, en République Tchèque.</li> <li><a href="
 "\"http://wood.mendelu.cz/math/phpsysinfo\">Information sur le système</a></"
-"li> </ul> <hr> <span class=\"nadpis\">Maxima</span><br> S'il vous faut "
+"li> </ul> <div class=\"noncompact\"> <hr> <span class=\"nadpis\">Maxima</span><br> S'il vous faut "
 "<i>toute la puissance</i> du programme <a href=\"http://maxima.sourceforge."
 "net/\">Maxima</a> dans vostre navigateur, employez un de ces projets: <ul> "
 "<li><a href=\"http://www.my-tool.com/mathematics/maximaphp/\">MaximaPHP</a></"
@@ -817,7 +817,7 @@ msgstr ""
 "resp. tiNOhlSarPAMik@mendelu.cz.</li> </ul> <hr> <h3>Foire aux questions</"
 "h3>Questions techniques, partage d'expériences, commentaires, pistes, "
 "conseils etc. sur notre <a href=\"http://sourceforge.net/apps/phpbb/"
-"mathassistant/\">forum</a>."
+"mathassistant/\">forum</a>.</a>"
 
 #: map.php:3
 msgid "MAW-map"

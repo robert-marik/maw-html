@@ -30,12 +30,9 @@ method="get" action="<?php echo($server);?>/banach/banach.php">
 value="<?php echo $function;?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
-<br>
-<small><?php hint_preview();?>
-</small>
 
-
-<br><br>
+<?php hint_preview();?>
+ 
 <?php echo __("Interval from ")?> 
 <input size="6" name="a" value="<?php echo $a;?>">
   &nbsp; <?php echo __("to")?>   &nbsp;

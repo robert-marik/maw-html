@@ -727,11 +727,11 @@ msgstr "Equació"
 
 #: lde2.php:27
 msgid ""
-"<small>You can use Preview and Edit buttons for entering the right hand "
-"side</small>"
+"You can use Preview and Edit buttons for entering the right hand "
+"side"
 msgstr ""
-"<small>Podeu fer servir els botons Preview i Editor com a ajuda per omplir "
-"la part a la dreta</small>"
+"Podeu fer servir els botons Preview i Editor com a ajuda per omplir "
+"la part a la dreta"
 
 #: lde2.php:32
 msgid "Method"
@@ -781,7 +781,7 @@ msgstr ""
 "\" href=\"http://wood.mendelu.cz\">Departament de tecnologia de la fusta</a> "
 "de la Universitat Mendel, a Brno, a la República Txeca.</li> <li><a href="
 "\"http://wood.mendelu.cz/math/phpsysinfo\">Informació sobre el sistema</a></"
-"li> </ul> <hr> <span class=\"nadpis\">Màxima</span><br> Si us cal <i>tota la "
+"li> </ul> <div class=\"noncompact\"><hr> <span class=\"nadpis\">Màxima</span><br> Si us cal <i>tota la "
 "potència</i> del programa <a href=\"http://maxima.sourceforge.net/\">Màxima</"
 "a> al vostre navegador, feu servir algun d'aquests projectes: <ul> <li><a "
 "href=\"http://www.my-tool.com/mathematics/maximaphp/\">MaximaPHP</a></li> "
@@ -801,7 +801,7 @@ msgstr ""
 "\"NO SPAM\") maNOrikSP@mAendMelu.cz resp. tiNOhlSarPAMik@mendelu.cz.</li> </"
 "ul> <hr> <h3>Comentaris</h3>Preguntes més tècniques, comentaris, pistes, "
 "consells etc. al nostre <a href=\"http://sourceforge.net/apps/phpbb/"
-"mathassistant/\">fòrum</a>."
+"mathassistant/\">fòrum</a>.</div>"
 
 #: map.php:3
 msgid "MAW-map"

@@ -6,9 +6,7 @@
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>
-<br>
 <fieldset class="main">
-&nbsp;
 <?php echo __('Function');?>
  &nbsp;
 <span style="font-style: italic;">f(x) =</span> <input name="funkcef" value="x*log(4-x^2)/(sqrt(x-1))" size="35">
@@ -16,12 +14,8 @@ action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
-	<br>
-<small><?php hint_preview(); ?>
-</small>
-<br>
-<br>
 
+<?php hint_preview(); ?>
 
 <fieldset  class="vnitrni"><legend class="podnadpis">
 
@@ -35,10 +29,6 @@ class="tlacitko">
    <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" name="xmax" value="5"> 
 
 </fieldset>
-<br>
-
-
-<br>
 <?php echo $submitbutton;?>
 </fieldset>
 </form><?php maw_after_form(); ?>

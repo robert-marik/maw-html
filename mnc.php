@@ -9,12 +9,10 @@
 <fieldset class="main">
 <?php polejazyka($lang); ?>
 <?php echo __('Data file')  ?>:
- <input size="100" name="body" value="1, 2 ; 3,4; 2,1 ; 5,8 ">  
+ <input size="70" name="body" value="1, 2 ; 3,4; 2,1 ; 5,8 ">  
 
 <br>
-<br>
 <?php echo $submitbutton;?>
-<br>
 </fieldset>
 
 </form><?php maw_after_form(); ?>

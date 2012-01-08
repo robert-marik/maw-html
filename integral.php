@@ -21,10 +21,8 @@ else {echo rawurldecode($function);}
 ?>">dx&nbsp;
   <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
-	<br>
-	<small><?php hint_preview(); ?>
-</small>
-<br><br>
+
+<?php hint_preview(); ?>
 
 <input name="formconv" type="checkbox" checked="checked"> 
 	<?php echo __('use <a href="http://formconv.sourceforge.net/">formconv</a> to convert mathematical expressions (this allows to write  2x instead of 2*x)');

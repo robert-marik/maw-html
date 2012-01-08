@@ -7,20 +7,17 @@
 <?php formmethod();?> action="<?php echo($server);?>/derivace/derivace.php">
 <?php polejazyka($lang); ?>
 <fieldset class="main">
-<br>
 <label for="funkce">
-   <?php echo __('Function'); ?> :
+   <?php echo __('Function'); ?>
 </label>
 &nbsp;&nbsp;<span style="font-style:
 italic;">f=</span> <input size="60" name="funkce"
 value="x^3*exp(x^2)">
   <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
-	<br>
-	<small><?php hint_preview(); ?>
-</small>
-<br>
-<br>
+
+<?php hint_preview(); ?>
+
 <input name="linear" type="checkbox" checked="on"> 
 <?php echo __('automatically use linearity of derivative');?>
 <br>
@@ -41,11 +38,7 @@ value="x^3*exp(x^2)">
 <input name="akce" type="radio" value="2"> 
 	<?php echo __("Partial derivative with respect to <i>y</i> (function in two variables)");?>
 </fieldset>
-<br>
-<br>
-<input value=
-"<?php echo __('Submit'); ?>" 
-name="tlacitko" type="submit" class="tlacitko">
+<?php echo $submitbutton;?>
 </fieldset>
 </form><?php maw_after_form(); ?>
 

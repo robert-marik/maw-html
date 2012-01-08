@@ -36,20 +36,15 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
 <?php polejazyka($lang); ?>
 <br>
 <fieldset class="main">
+<?php echo __('Function'); ?>
 &nbsp;
-<?php echo __('Funtion in two variables');?>
- &nbsp;
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="<?php echo $function?>" size="35">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
-	<br>
-<small><?php hint_preview(); ?>
-</small>
-<br>
-<br>
 
+<?php hint_preview(); ?>
 
 <fieldset  class="vnitrni"><legend class="podnadpis">
 
@@ -82,9 +77,7 @@ class="tlacitko">
   <br>  <br>
 </fieldset>
 
-<br>
 <?php echo $submitbutton;?>
-<br>
 </fieldset>
 </form><?php maw_after_form(); ?>
 

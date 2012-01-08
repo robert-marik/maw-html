@@ -31,7 +31,7 @@ div#after-form {color: red;}
 /* .vnitrni {margin:6px;} */
 
 .red{color:E81046;}
-div#submenu a:hover   {color: E81046;}
+.submenu a:hover   {color: E81046;}
 div#odkaz_hlavicka a:hover   {color: E81046;}
 
 input.design_button { background-color:transparent;

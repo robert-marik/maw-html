@@ -35,9 +35,9 @@ class="tlacitko">
 class="tlacitko">
 </td></tr>
 </table>
-<br><small><?php hint_preview();?></small>
-<br>
-<br>
+
+<?php hint_preview();?>
+
 <?php echo __("Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both curves by choosing \"intercepts\" in parameters for computation)</small>");
 ?>
 <br>

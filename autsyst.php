@@ -52,12 +52,9 @@ y' =</span> <input name="funkceg" value="<?php echo $fceg; ?>">
 class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkceg')" type="button"
 class="tlacitko">
-<br>
-<small><?php hint_preview(); ?>
-</small>
 
-<br>
-<br>
+<?php hint_preview(); ?>
+
 <fieldset class="vnitrni"><legend class="podnadpis">
   <?php echo (__("What to do"));?>
 </legend>

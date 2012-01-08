@@ -36,7 +36,7 @@ if ($function=="")
 <tr>
 <td><img src="int.gif"></td>
    <td><img src="int.gif"></td>
-   <td><input size="60" name="funkce" 
+   <td><input size="35" name="funkce" 
 value="<?php echo $function;?>">
 <select name="vars">
 <option>dy dx</option>
@@ -57,12 +57,8 @@ value="<?php echo $function;?>">
    </table>
 </div>   
 
-	<br>
-<small><?php hint_preview(); echo __(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\">.");?>
-</small>
+<?php hint_preview(__(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\">."));?>
 
-<br>
-<br>
 <fieldset class="vnitrni">
 <legend class="podnadpis">
 <?php echo __('Axes (decimal numbers)'); ?>

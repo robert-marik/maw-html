@@ -695,11 +695,11 @@ msgstr "方程"
 
 #: lde2.php:27
 msgid ""
-"<small>You can use Preview and Edit buttons for entering the right hand "
-"side</small>"
+"You can use Preview and Edit buttons for entering the right hand "
+"side"
 msgstr ""
-"<small>单击“Edit”和“Preview”按钮可以使用可视化工具来编辑等号右边的公式，"
-"或者校验输入是否正确。</small>"
+"单击“Edit”和“Preview”按钮可以使用可视化工具来编辑等号右边的公式，"
+"或者校验输入是否正确。"
 
 #: lde2.php:32
 msgid "Method"
@@ -741,7 +741,7 @@ msgstr ""
 "果你需要，可以在最后生成 PDF 文件。</li> <li>本页面的计算单元所在服务器的管"
 "理者为<a target=\"_blank\" href=\"http://wood.mendelu.cz\">木材科学学院。</"
 "a></li> <li><a href=\"http://wood.mendelu.cz/math/phpsysinfo\">系统信息</a>"
-"</li> </ul>"
+"</li> </ul> <div class=\"noncompact\">"
 "<hr> <span class=\"nadpis\">备注：</span> <ul> <li>大部分情况下，请使用 2*x "
 "的形式来输入 2x （除非计算模块支持 formconv 方式解析表达式）。</li> <li>所有"
 "的输入数据均由以下开源项目处理： Maxima, gnuplot, formconv, MetaPost, 并且最"
@@ -749,7 +749,7 @@ msgstr ""
 "rikSP@mAendMelu.cz resp, tiNOhlSarPAMik@mendelu.cz （捷克语支持，请去掉其中的"
 " NO SPAM字符）； maw@sdjzu.cc （中文）。</li> </ul> <hr> <h3>Comments</h3>其"
 "它问题、评论、反馈、使用技巧以及建议，请访问我们的<a href=\"http://sourcefor"
-"ge.net/apps/phpbb/mathassistant/\">论坛</a>。"
+"ge.net/apps/phpbb/mathassistant/\">论坛</a>。</div>"
 
 
 #: map.php:3

@@ -36,14 +36,14 @@ div#odkaz_hlavicka ul li {display: inline;}
 div#odkaz_hlavicka ul {margin: 0; padding: 0;}
 
 
-div#submenu {margin-bottom:10px ; }
-div#submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
+.submenu {margin-bottom:10px ; }
+.submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
 
-div#submenu .aktivni a{border-bottom: 1px solid #555; color:#000;}
-div#odkaz_hlavicka .aktivni a { border-bottom: 2px solid #555; color:#000;}
+.submenu .aktivni a{border-bottom: 1px solid #555; color:#000;}
+#odkaz_hlavicka .aktivni a { border-bottom: 2px solid #555; color:#000;}
 
-div#submenu a:hover   {color: red;}
-div#odkaz_hlavicka a:hover   {color: red;}
+.submenu a:hover   {color: red;}
+#odkaz_hlavicka a:hover   {color: red;}
 
 div#dvojint td   {text-align: center;}
 
@@ -80,3 +80,7 @@ div#processing {font-size:130%; color:gray;}
  .submit_comment, .hint_preview {font-size: 80%; color:#444444;}
 
 .olfgmath {background-color: #E0FFFF;}
+
+.hint_preview {margin-top: 10px; margin-bottom: 10px;}
+
+input.tlacitko {margin-bottom: 5px; margin-top: 5px;}

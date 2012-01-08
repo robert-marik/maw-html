@@ -14,7 +14,7 @@ action="<?php echo($server);?>/ineq2d/ineq2d.php"name="exampleform">
 4*x-y>0
 x+y-8<0
 2*x+3*y<20</textarea>
-   <?php echo __("Read the comments below the form to find out, which inequalities can be solved.");?>
+<div class="hint_preview">   <?php echo __("Read the comments below the form to find out, which inequalities can be solved.");?> </div>
    <br>
 <input name="podmnez" type="checkbox"> 
    <?php echo __('suppose x,y>0');
