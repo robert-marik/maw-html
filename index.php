@@ -378,42 +378,50 @@ return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'"
 
 function printsubmenu($i)
 {
-  echo ("\n<ul class=\"submenu\">");
   if ($i=="2") {
+    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
     echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
     echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
     echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
     echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
+    echo ("\n</ul>");
   }
   elseif ($i=="3")
   {
+    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
     echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
     echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
     echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
+    echo ("\n</ul>");
   } 
   elseif ($i=="4")
   {
+    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
     echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
     echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
     echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
+    echo ("\n</ul>");
   } 
   elseif ($i=="5")
   {
+    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
     echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
     echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
+    echo ("\n</ul>");
   } 
   elseif ($i=="6")
   {
+    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
     echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
     echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
     echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
+    echo ("\n</ul>");
   } 
-  echo ("\n</ul>");
 }
 
 printf("\n<ul>");
