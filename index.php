@@ -30,6 +30,7 @@ $lang_array=Array("cz","us","pl","ca","zh","fr");
 
 $custom_between_flags="";
 
+
 $maw_overlib=true;
 $maw_header="";
 
@@ -98,7 +99,10 @@ if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
 if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
 
 function hint_preview(){
- echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");}
+ echo ('<span class="hint_preview">');
+ echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
+ echo ('</span>');
+ }
 
 function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
 function maw_after_form() {
@@ -329,7 +333,7 @@ $onsubmit=" onSubmit=\"document.getElementById('form').style.display='none';docu
 
 $submitbuttont=<<<SUB
 <input value="%s" name="tlacitko" type="submit" class="tlacitko" id="myButton">
-<small>(%s)</small>
+<span class="submit_comment">(%s)</span>
 SUB;
 
 $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));

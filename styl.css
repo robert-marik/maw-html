@@ -75,3 +75,5 @@ div#processing {font-size:130%; color:gray;}
 
 .h3_error { color:red; font-size:200%; font-weight: bold; margin-bottom: 10px;}
 .ie_warning { color:red; font-size:120%; font-weight: bold;}
+
+ .submit_comment, .hint_preview {font-size: 80%; color:#444444;}

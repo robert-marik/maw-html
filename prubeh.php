@@ -35,8 +35,7 @@ value="<?php echo ($function); ?>">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
 	<br>
-<small><?php hint_preview(); ?>
-</small>
+<?php hint_preview(); ?>
   <br>
   <br>
 
