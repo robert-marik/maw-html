@@ -1,0 +1,45 @@
+.support{font-size:75%; text-align:right; height:10px;}
+
+form {background-color: #C2FFA3; margin:2px; padding:10px;}
+div#after-form {background-color: #C2FFA3;}
+body {background-color: #C2FFA3;}
+
+.vnitrni {border: 3px solid #36B538; padding:10px; }
+
+.olfg {background-color:#36B538; margin:0px; font-size: 80%; list-style-type: none;}
+.olfgmath {background-color:#C2FFA3; }
+
+div#kalkulator {background-color: #36B538;;  width: 75%; position:absolute; margin-left:210px; }
+
+#main_body {position:relative;}
+
+.mainmenu{background-color: #C2FFA3; color:black; width:200px; float:left; position:absolute; font-size: 80%;}
+
+div#support a {color: #333;}
+
+div#main a {color: #1782B0;}
+
+div#kalkulator a {color: #4726C2;}
+
+/* div#menu{border: 3px solid #666666;}
+div#submenu{border: 3px solid #666666;} */
+
+
+div#odkaz_hlavicka a {color: #333; border-color: #333; border-left: 0px;}
+div#odkaz_hlavicka .aktivni a { border-left: 2px solid #555; border-bottom: 0px; color:#000;}
+
+/* .vnitrni {margin:6px;} */
+
+.red{color:E81046;}
+div#submenu a:hover   {color: E81046;}
+div#odkaz_hlavicka a:hover   {color: E81046;}
+
+div#odkaz_hlavicka ul li {display: list-item; list-style-type:none; text-indent:-20px; margin-left:20px; }
+
+#aftermenu, #history, #comments, #user, #maw_tail, .submit_comment, .hint_preview {display: none;}
+
+#submenu{background-color: #59D95B; margin-left: 10px; margin-top: 30px;}
+
+div#flags-right, .support, #subtitle, #subsubtitle{display:none;}
+
+
