@@ -41,16 +41,18 @@ div#odkaz_hlavicka ul li {display: list-item; list-style-type:none; text-indent:
 
 .noncompact, #aftermenu, #history, #comments, #user, #maw_tail, .submit_comment, .hint_preview {display: none;}
 
-.submenu{background-color: #59D95B; margin-left: 10px; margin-top: 30px;}
+.submenu{background-color: #36B538; margin-left: 10px; margin-top: 30px;}
+
+.submenu{background-color: #c2ffa3; border: 4px solid #36B538; }
 
 div#flags-right, .support, #subtitle, #subsubtitle{display:none;}
 
-ul.submenu {display:none;}
+ul.submenu {font-size:90%; display:none; width:250px; z-index: 1;}
 
 li:hover .submenu {display:block; position: absolute; left: 10px; top: 5px; }
 
 #odkaz_hlavicka li:hover { position: relative;}
 
-.mainmenu {margin-left:-10px;}
+.mainmenu {margin-left:-10px; font-size:100%;}
 
 
