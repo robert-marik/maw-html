@@ -37,6 +37,8 @@ div#odkaz_hlavicka a:hover   {color: E81046;}
 input.design_button { background-color:transparent;
    border-style:none; color:#1782B0; font-size: 75%;}
 
+input.design_button:hover {color:#AA00AA;}
+
 div#design_button {text-align: center;   width: 100%;} 
 
 #aftermenu {display: none;}

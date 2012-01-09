@@ -90,20 +90,21 @@ if (ereg("[^3_2a-z]",$form))
   die();
 }
 
+$group2=array("graf","df","df3d","lagrange","mnc");
+$group3=array("derivace","prubeh","taylor","minmax3d");
+$group4=array("integral","integral2","geom","trap");
+$group5=array("ode","lde2","autsyst");
+$group6=array("banach","regula_falsi","bisection","ineq2d");
+$group7=array("map");
 
-if (($form!="banach")&&($form!="bisection")&&($form!="ineq2d")&&($form!="df3d")&&($form!="df")&&($form!="graf")&&($form!="derivace")&&($form!="prubeh")&&($form!="taylor")&&($form!="mnc")&&($form!="prubeh")&&($form!="trap")&&($form!="geom")&&($form!="minmax3d")&&($form!="ode")&&($form!="lde2")&&($form!="autsyst") && ($form!="lagrange")&& ($form!="integral")&& ($form!="map")&& ($form!="integral2")&& ($form!="regula_falsi"))
-{
-  $form="main";
-}
-
-if ($form=="main") {$submenu=1;}
-if ($form=="map") {$submenu=7;}
-
-if (($form=="graf")||($form=="df")||($form=="df3d")||($form=="lagrange")||($form=="mnc")) {$submenu=2;}
-if (($form=="derivace")||($form=="prubeh")||($form=="taylor")||($form=="minmax3d")) {$submenu=3;}
-if (($form=="integral")||($form=="integral2")||($form=="geom")||($form=="trap")) {$submenu=4;}
-if (($form=="ode")||($form=="lde2")||($form=="autsyst")) {$submenu=5;}
-if (($form=="banach")||($form=="regula_falsi")||($form=="bisection")||($form=="ineq2d")) {$submenu=6;}
+$submenu=-1;
+if (in_array($form,$group2)) {$submenu=2;}
+if (in_array($form,$group3)) {$submenu=3;}
+if (in_array($form,$group4)) {$submenu=4;}
+if (in_array($form,$group5)) {$submenu=5;}
+if (in_array($form,$group6)) {$submenu=6;}
+if (in_array($form,$group7)) {$submenu=7;}
+if ($submenu==-1) { $form="main"; $submenu==1; }
 
 function hint_preview($a=""){
  echo ("\n".'<div class="hint_preview">');
