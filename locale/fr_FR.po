@@ -678,11 +678,11 @@ msgstr ""
 
 #: integral.php:44
 msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
 "composite fractions (with fraction in numerator))"
 msgstr ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a> (décochez-le si vous obtenez des "
 "tours de fractions, avec des fractions au numérateur)"
 

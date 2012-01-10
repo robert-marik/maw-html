@@ -39,7 +39,7 @@ else {echo rawurldecode($function);}
 
 <br>
 <input name="pfeformat" type="checkbox"  checked="checked"> 
-	<?php echo __('<a href="http://maxima.sourceforge.net/docs/manual/en/maxima_9.html#Item_003a-pfeformat">pfeformat</a> switch (uncheck this if you get composite fractions (with fraction in numerator))');
+	<?php echo __('<a href="http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat">pfeformat</a> switch (uncheck this if you get composite fractions (with fraction in numerator))');
 ?>
 
 <br>

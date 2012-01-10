@@ -656,11 +656,11 @@ msgstr ""
 
 #: integral.php:44
 msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
 "composite fractions (with fraction in numerator))"
 msgstr ""
-"opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli w funkcji "
 "podcałkowej będą występowały ułamki piętrowe)"
 

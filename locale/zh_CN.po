@@ -640,11 +640,11 @@ msgstr ""
 
 #: integral.php:44
 msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
 "composite fractions (with fraction in numerator))"
 msgstr ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_9."
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，不要勾选此项）"
 
 #: integral.php:49 integral2.php:82
