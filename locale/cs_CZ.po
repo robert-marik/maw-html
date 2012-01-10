@@ -905,9 +905,7 @@ msgstr ""
 "adresy pro př&iacute;padn&eacute; koment&aacute;ře a hl&aacute;&scaron;"
 "en&iacute; chyb dostanete, pokud odeberete p&iacute;smena \"NECHCI SPAM\" z "
 "textov&eacute;ho řetězce maNECHrikCI@mSPendAMelu.cz resp. "
-"tiNEhlCHCarISPiAk@mMendelu.cz.</li> </ul> <hr><h3>Nápady, vzkazy, "
-"připomínky ...</h3>Pro delší vzkazy prosím použijte diskusní <a href="
-"\"http://forum.matweb.cz/viewforum.php?id=39\">fórum</a>.</div>"
+"tiNEhlCHCarISPiAk@mMendelu.cz.</li> </ul></div>"
 
 #: map.php:3
 msgid "MAW-map"

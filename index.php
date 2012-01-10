@@ -75,14 +75,14 @@ function __($text){
 	return $locale_reader->translate($text);
 }
 
+$form=$_REQUEST["form"];
+
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
 function fixit($text)
 {
   return str_replace("'","\'",$text);
 }
-
-$form=$_REQUEST["form"];
 
 if (ereg("[^3_2a-z]",$form))
 {
@@ -253,7 +253,7 @@ function lang_links()
 global $form,$lang_array;
 foreach ($lang_array as $i => $value)
   {
-    echo "\n".'<a href="index.php?lang='.$value.'&form='.$form.'" ><img src="'.$value.'.png" alt="cz" style="border: 0px solid ;" /></a>';
+    echo "\n".'<a href="index.php?lang='.$value.'&form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" /></a>';
     if ($i<5) {echo ("&nbsp;");}
   }
 }
