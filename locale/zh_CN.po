@@ -906,3 +906,7 @@ msgstr "切换至精简视图"
 
 msgid "Switch to a full design"
 msgstr "切换至完整视图"
+
+msgid "Did we help you with your math problem? Did we save your time? If so, consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF foundation.</a>"
+msgstr "我们帮助你解决了数学问题吗？我们为你节省了时间吗？ 如果是这样，请考虑赞助<a href="http://www.supportunicefchina.org/">联合国儿童基金会</a>。"
+
