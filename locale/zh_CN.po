@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-31 13:55+0200\n"
-"PO-Revision-Date: 2011-12-27 09:32+0200\n"
+"PO-Revision-Date: 2011-12-31 09:32+0200\n"
 "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
 "Language-Team:  SupperDog <sdxmn@163.com>\n"
 "MIME-Version: 1.0\n"
@@ -698,7 +698,7 @@ msgid ""
 "You can use Preview and Edit buttons for entering the right hand "
 "side"
 msgstr ""
-"单击“Edit”和“Preview”按钮可以使用可视化工具来编辑等号右边的公式，"
+"单击“预览”和“编辑”按钮可以使用可视化工具来编辑等号右边的公式，"
 "或者校验输入是否正确。"
 
 #: lde2.php:32
@@ -747,7 +747,7 @@ msgstr ""
 "的输入数据均由以下开源项目处理： Maxima, gnuplot, formconv, MetaPost, 并且最"
 "终由 pdfLaTeX 转化生成 PDF 文件。</li> <li>接收反馈和评论的电子邮件地址：maNO"
 "rikSP@mAendMelu.cz resp, tiNOhlSarPAMik@mendelu.cz （捷克语支持，请去掉其中的"
-" NO SPAM字符）； maw@sdjzu.cc （中文）。</li> </ul></div>"
+" NO SPAM字符）。</li> </ul></div>"
 
 
 #: map.php:3
@@ -765,7 +765,7 @@ msgstr ""
 "程</li> <li>一元或二元不等式（组）</li> </ul> </il> </ul> <span class=\"nadp"
 "is\">赞助</span> <ul><li>想赞助 在线数学助理（MAW）开发？我们目前不接受捐助。"
 "想给我们捐款？请不要这样做。请捐助<a href=\"http://www.unicef.org/\">UNICEF</"
-"a> or <a href=\"http://www.rednoses.eu/\">Red noses "
+"a> 或者 <a href=\"http://www.rednoses.eu/\">Red noses "
 "clowndoctors</a>。</li> <li>仍然想帮助我们？请将任"
 "何问题反馈给我们。联系方式参见介绍页面。我们也欢迎你加入开发，完善这个项目。"
 "</li> </ul>"
@@ -898,3 +898,11 @@ msgid "Editor"
 msgstr "编辑"
 
 
+msgid "Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."
+msgstr "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一页面。"
+
+msgid "Switch to a compact design"
+msgstr "切换至精简视图"
+
+msgid "Switch to a full design"
+msgstr "切换至完整视图"
