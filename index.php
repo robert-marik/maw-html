@@ -97,14 +97,14 @@ $group5=array("ode","lde2","autsyst");
 $group6=array("banach","regula_falsi","bisection","ineq2d");
 $group7=array("map");
 
-$submenu=-1;
+$submenu=1;
 if (in_array($form,$group2)) {$submenu=2;}
 if (in_array($form,$group3)) {$submenu=3;}
 if (in_array($form,$group4)) {$submenu=4;}
 if (in_array($form,$group5)) {$submenu=5;}
 if (in_array($form,$group6)) {$submenu=6;}
 if (in_array($form,$group7)) {$submenu=7;}
-if ($submenu==-1) { $form="main"; $submenu==1; }
+if ($submenu==1) { $form="main";}
 
 function hint_preview($a=""){
  echo ("\n".'<div class="hint_preview">');
