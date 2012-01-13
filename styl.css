@@ -8,16 +8,15 @@ div#after-form a{color:gray;}
 
 div#main{}
 
-.support{font-size:65%; position: absolute; top:30; right:5; text-align:right; }
-div#flags-left{font-size:75%; position:aboslute; left: 0; top: 0; }
+.support{font-size:65%; position: absolute; top:30 px; right:5px; text-align:right; }
+div#flags-left{font-size:75%; position:absolute; left: 0px; top: 0px; }
 div#flags-right{font-size:75%; text-align:right; position:absolute; right: 0; top: 0;}
 div#flags {position: relative;}
 
 
 div#main-title{font-size:160%; text-align:center; font-weight:bolder; margin-bottom:10px;}
-div#subtitle{font-size=80%; text-align:center; margin-bottom:10px;}
-div#subsubtitle{font-size=80%; text-align:center;}
-div#title{top-margin:100px;}
+div#subtitle{font-size:80%; text-align:center; margin-bottom:10px;}
+div#subsubtitle{font-size:80%; text-align:center;}
 
 div#aftermenu{color:#444444; }
 div#comments{color:#444444; }
@@ -26,7 +25,7 @@ div#history{margin-bottom:12px;}
 div#history a{color: #444444;}
 
 div#odkaz_hlavicka a {line-height: 220%;text-decoration:
-none; background-color: #eofff; margin: 5px; padding: 5px;
+none; margin: 5px; padding: 5px;
 border-color: #555; border-left: 2px solid  #555; color:#555; font-weight : bold;
 }
 
@@ -57,8 +56,6 @@ body {background-color: #E0FFFF; font-size:14px; font-family: Arial, ARIAL CE, H
 td {font-size:14px; }
 
 .main{border-width: 0px;}
-
-.tlacitko{background-color: lightgray; }
 
 .vnitrni {border: 3px solid #9ce6f3; }
 .fieldsetmin {border-width: 0px; margin:10px; margin-left:60px;}
