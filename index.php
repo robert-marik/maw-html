@@ -144,15 +144,15 @@ echo 'method="post"';
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-  <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" />
+  <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-  <link rel="stylesheet" type="text/css" href="styl.css" />
-  <link rel="stylesheet" type="text/css" href="navigace.css" />
+  <link rel="stylesheet" type="text/css" href="styl.css" >
+  <link rel="stylesheet" type="text/css" href="navigace.css" >
   
 <?php
 if (file_exists('./custom.css')) 
 {
-  echo ("<link rel=\"stylesheet\" type=\"text/css\" href=\"custom.css\" />");
+  echo ("<link rel=\"stylesheet\" type=\"text/css\" href=\"custom.css\" >");
 }
 ?>
 
@@ -180,14 +180,14 @@ function preview(textarea)
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value
 newwin =
-window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
+window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&amp;expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
 	}
   else
     {
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value
 newwin =
-window.open(server+"/common/maxima.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
+window.open(server+"/common/maxima.php?lang=<?php echo $lang;?>&amp;expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
     }
 }
 
@@ -237,7 +237,7 @@ function lang_links()
 global $form,$lang_array;
 foreach ($lang_array as $i => $value)
   {
-    echo "\n".'<a href="index.php?lang='.$value.'&form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" /></a>';
+    echo "\n".'<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" /></a>';
     if ($i<5) {echo ("&nbsp;");}
   }
 }
@@ -259,7 +259,6 @@ lang_links();
 <?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>
 ">
 <?php  echo __("Support from MAW forum");?></a>
-</a>
 <br>
 <a href="changes.txt">
 <?php  echo __("Changelog");?></a>
@@ -358,7 +357,7 @@ function aktivni_form($identifikace){
 
 function maw_submenu ($a,$b,$c,$d)
 {
-return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&form='.$c.'">'.$d.'</a></span></li>';
+return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&amp;form='.$c.'">'.$d.'</a></span></li>';
 }
 
 function printsubmenu($i)
@@ -417,37 +416,37 @@ echo '</a>';
 aktivni_konec(1);
 
 aktivni(2);
-echo('<a href="index.php?lang='.$lang.'&form=graf">');
+echo('<a href="index.php?lang='.$lang.'&amp;form=graf">');
 echo __("Precalculus"); echo '</a>';
 aktivni_konec(2);
 
 aktivni(3);
-echo('<a href="index.php?lang='.$lang.'&form=derivace">');
+echo('<a href="index.php?lang='.$lang.'&amp;form=derivace">');
 echo __("Calculus");
 echo '</a>';	  
 aktivni_konec(3);
 
 aktivni(4);
-echo('<a href="index.php?lang='.$lang.'&form=integral" >');
+echo('<a href="index.php?lang='.$lang.'&amp;form=integral" >');
 echo __("Integral calculus");
 echo '</a>';
   aktivni_konec(4);
 
   aktivni(5);
-echo('<a href="index.php?lang='.$lang.'&form=ode" >');
+echo('<a href="index.php?lang='.$lang.'&amp;form=ode" >');
 echo __("Differential equations");
 echo '</a>';
   aktivni_konec(5);
 
   aktivni(6);
-echo ('<a href="index.php?lang='.$lang.'&form=bisection" >');
+echo ('<a href="index.php?lang='.$lang.'&amp;form=bisection" >');
 echo __("Equations and inequalities");
 echo '</a>';
 aktivni_konec(6);
 
 //echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
   aktivni(7);
-echo('<a href="index.php?lang='.$lang.'&form=map" >');
+echo('<a href="index.php?lang='.$lang.'&amp;form=map" >');
 echo __("Site map, support");
 echo '</a>';
   aktivni_konec(7);
