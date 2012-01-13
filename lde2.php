@@ -10,12 +10,9 @@
  action="<?php echo($server);?>/lde2/ldr2.php"
 name="exampleform">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
-<span>
-   <?php echo __('Equation');?>:
-</span>
+ <?php echo __('Equation');?>:
 &nbsp;
-  <span style="font-style: italic;">&nbsp; &nbsp;
+  <span style="font-style: italic;">
 &nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" value="2">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" value="1">
   <span style="font-style: italic;">y</span> = <input size="30" name="f" value="x^2">
 &nbsp; &nbsp; &nbsp;
@@ -44,17 +41,8 @@ class="tlacitko">
  <i>x</i>=<input maxlength="10" size="10" name="x0" value="0">
  <i>y</i>=<input maxlength="10" size="10" name="y0" value="1">
  <i>y'</i>=<input maxlength="10" size="10" name="y10" value="-1">
-	<br><small>&nbsp;&nbsp;&nbsp;
-</small>
-<br>
 </fieldset>
-
-<br>
 <?php echo $submitbutton;?>
-<br>
-
-<br>
-</fieldset>
 
 </form><?php maw_after_form(); ?>
 

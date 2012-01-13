@@ -116,7 +116,7 @@ function hint_preview($a=""){
 function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
 function maw_after_form() {
   echo "</div>\n<div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.display='block';\">","</a>")."</div>";
-  echo "<script>document.getElementById('after-form').style.display='none';</script>";
+  echo "<script type=\"text/javascript\">document.getElementById('after-form').style.display='none';</script>";
 }
 
 function history($adresar,$server)
@@ -131,7 +131,7 @@ function polejazyka($ret)
 echo '<input type="hidden" name="lang" value="'.$ret.'">';
 echo '<input type="hidden" name="ip" value="'.$_SERVER['REMOTE_ADDR'].'">';
 $ref=$_SERVER['HTTP_REFERER'];
-echo '<input type="hidden" name="referer" value="'.$ref.'">';
+echo '<input type="hidden" name="referer" value="'.str_replace("&", "&amp;",$ref).'">';
 }
 
 function formmethod()
@@ -207,7 +207,7 @@ function previewb_int2(textarea)
 <?php
     echo 'server="',$server,'";';
 ?>
-  thedata = server+"/common/formconv.php?expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
+  thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
 newwin =
 window.open(thedata,"","width=565,height=150,resizable");
 }
@@ -255,9 +255,7 @@ lang_links();
 
 </div>
 <div class="support">
-<a href="
-<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>
-">
+<a href="<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>">
 <?php  echo __("Support from MAW forum");?></a>
 <br>
 <a href="changes.txt">
@@ -455,9 +453,7 @@ echo("\n</ul>");
 
 if (!$submenu_inside)
 {
-  if ( ($submenu!="1") && ($submenu!="7") ) {echo "\n".'<div class="submenu"><ul>';}
   printsubmenu($submenu);
-  if ( ($submenu!="1") && ($submenu!="7") ) {echo '</ul></div>';}
 }
 
 echo '</div>';

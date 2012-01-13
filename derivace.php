@@ -6,7 +6,7 @@
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/derivace/derivace.php">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
+
 <label for="funkce">
    <?php echo __('Function'); ?>
 </label>
@@ -39,7 +39,7 @@ value="x^3*exp(x^2)">
 	<?php echo __("Partial derivative with respect to <i>y</i> (function in two variables)");?>
 </fieldset>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 <?php history("derivace",$server); 

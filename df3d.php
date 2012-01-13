@@ -8,7 +8,6 @@
 action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <?php polejazyka($lang); ?>
 
-<fieldset class="main">
 <?php echo __('Function');?>
 &nbsp;
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="asin(x*y)+sqrt(4-x-y)" size="35">
@@ -38,7 +37,6 @@ echo '[-20,20]x[-20,20] ';
 
 <?php echo $submitbutton;?>
 
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 <?php history("domf",$server); 

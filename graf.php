@@ -5,10 +5,9 @@
 <?php maw_before_form()?><form name="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/graf/graf.php">
-<fieldset class="main">
 <?php polejazyka($lang); ?>
 
-<label for="funkce">
+<label for=funkce>
 <?php  echo __("Function");?>
 </label>
 &nbsp;&nbsp;
@@ -56,7 +55,6 @@ class="tlacitko">
 
 </fieldset>
 <?php echo $submitbutton;?>
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 <?php history("posun-grafu",$server);

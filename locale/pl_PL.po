@@ -778,7 +778,7 @@ msgstr ""
 "chcesz zgłosić błędy napisz, w języku czeskim lub angielskim, na jeden z "
 "podanych adresów e-mail (usuń znaki \"NO SPAM\" ) maNOrikSP@mAendMelu.cz  "
 "lub  tiNOhlSarPAMik@mendelu.cz.</li> <li> Jeżeli zauważyłeś błędy w "
-"tłumaczeniu pisz na adres pdd1@o2.pl. </li> </ul></div>"
+"tłumaczeniu pisz na adres pdd1@o2.pl. </li> </ul>"
 
 #: map.php:3
 msgid "MAW-map"

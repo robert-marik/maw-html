@@ -8,8 +8,6 @@
 ?>
 action="<?php echo($server);?>/ineq2d/ineq2d.php"name="exampleform">
 <?php polejazyka($lang); ?>
-<br>
-<fieldset class="main">
 <textarea name="nerovnice" rows="6" cols="50">
 4*x-y>0
 x+y-8<0
@@ -52,8 +50,6 @@ x+y-8<0
 <br>
 
 <?php echo $submitbutton;?>
-<br>
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 <?php history("ineq2d",$server); 

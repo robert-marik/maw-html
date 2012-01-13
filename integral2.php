@@ -19,8 +19,7 @@ if ($function=="")
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/integral2/integral2.php">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
-<br>
+
 <label for="funkce">
   <?php echo __("Enter function and choose variables ond order for integration ");?>
 </label>
@@ -34,8 +33,8 @@ if ($function=="")
 <td></td>
 </tr>
 <tr>
-<td><img src="int.gif"></td>
-   <td><img src="int.gif"></td>
+<td><img src="int.gif" alt="int"></td>
+   <td><img src="int.gif" alt="int"></td>
    <td><input size="35" name="funkce" 
 value="<?php echo $function;?>">
 <select name="vars">
@@ -57,7 +56,7 @@ value="<?php echo $function;?>">
    </table>
 </div>   
 
-<?php hint_preview(__(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\">."));?>
+<?php hint_preview(__(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."));?>
 
 <fieldset class="vnitrni">
 <legend class="podnadpis">
@@ -71,17 +70,11 @@ value="<?php echo $function;?>">
  <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
 
 </fieldset>
-
-<br><br>
-
 <input name="logarc" type="checkbox"  checked="checked"> 
 <?php echo __('write acsinh and atanh in terms of log'); ?>
-
-
-<br>
 <br>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 <?php history("integral2",$server); 

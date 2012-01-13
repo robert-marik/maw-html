@@ -8,7 +8,7 @@
 <?php maw_before_form()?><form name="exampleform"  
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/trap/trapezoidal.php">
-<fieldset class="main">
+
     <?php polejazyka($lang); ?>
 <span>
 <?php echo __('Function'); ?>:
@@ -36,9 +36,8 @@
     <?php echo __('intervals in partition');?>: 
 <input maxlength="6" size="6" name="n" value="10"> 
 </fieldset>
-<br>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
  <?php history("trap",$server); 

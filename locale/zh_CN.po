@@ -747,7 +747,7 @@ msgstr ""
 "的输入数据均由以下开源项目处理： Maxima, gnuplot, formconv, MetaPost, 并且最"
 "终由 pdfLaTeX 转化生成 PDF 文件。</li> <li>接收反馈和评论的电子邮件地址：maNO"
 "rikSP@mAendMelu.cz resp, tiNOhlSarPAMik@mendelu.cz （捷克语支持，请去掉其中的"
-" NO SPAM字符）。</li> </ul></div>"
+" NO SPAM字符）。</li> </ul>"
 
 
 #: map.php:3

@@ -6,7 +6,7 @@
    <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/integral/integral.php">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
+
 <br>
 <label for="funkce">
    <?php echo __('Function');?>:
@@ -48,11 +48,9 @@ else {echo rawurldecode($function);}
 
 ?>
 
-
-<br>
 <br>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 <?php history("integral",$server); 

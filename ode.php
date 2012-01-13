@@ -24,22 +24,17 @@ if (str_replace(" ","",$ode2)=="")
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/ode/ode.php">
 <?php polejazyka($lang); ?>
-
-<br>
-<fieldset class="main">
 <input checked="checked" name="akce" value="0"
 type="radio">
    <span>
   <?php echo __('Equation solved wrt y\'');?>: 
    </span> 
 &nbsp; &nbsp; <span style="font-style: italic;">y'=</span> 
-<input size="60" name="ode" value="<?php echo $oderhs;?>"> &nbsp; &nbsp; &nbsp;
+<input size="40" name="ode" value="<?php echo $oderhs;?>"> &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('ode')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('ode')" type="button"
 class="tlacitko">
 <br>
-<br>
-
 <input name="akce" value="1"
 type="radio">&nbsp;
 <?php echo __("Full equation");?>: &nbsp; &nbsp;
@@ -48,10 +43,7 @@ type="radio">&nbsp;
 class="tlacitko">
 
 <br>
-<br>
 <?php echo $submitbutton;?>
-<br>
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 

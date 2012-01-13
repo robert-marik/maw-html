@@ -814,7 +814,7 @@ msgstr ""
 "formatée avec <a href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</"
 "a>.</li> <li> Commentaires ou annonces de bogues: nos adresses électroniques "
 "sont (il faut en retirer les lettres \"NO SPAM\") maNOrikSP@mAendMelu.cz "
-"resp. tiNOhlSarPAMik@mendelu.cz.</li> </ul></div>"
+"resp. tiNOhlSarPAMik@mendelu.cz.</li> </ul>"
 
 #: map.php:3
 msgid "MAW-map"

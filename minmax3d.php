@@ -34,8 +34,7 @@ if ($action==2)
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
 <?php polejazyka($lang); ?>
-<br>
-<fieldset class="main">
+
 <?php echo __('Function'); ?>
 &nbsp;
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="<?php echo $function?>" size="35">
@@ -78,7 +77,7 @@ class="tlacitko">
 </fieldset>
 
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 <?php history("minmax3d",$server); 

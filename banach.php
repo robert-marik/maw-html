@@ -19,8 +19,6 @@ if ($function=="")
 method="get" action="<?php echo($server);?>/banach/banach.php">
 <?php polejazyka($lang); ?>
 <input type="hidden" name="method" value="banach">
-<fieldset class="main">
-<br>
 <label for="funkce">
   <?php { echo __("Enter function, interval containing  fixed point and number of steps.");} ?>
 </label>
@@ -51,8 +49,6 @@ value="<?php echo $function;?>">
   <?php echo __("(integer or decimal number)");?> 
 <br>
 <?php echo $submitbutton;?>
-<br>
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 <?php history("banach",$server); 

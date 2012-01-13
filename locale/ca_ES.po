@@ -799,7 +799,7 @@ msgstr ""
 "applications/pdftex/\">pdfLaTeX</a>.</li> <li>Les nostres adreces "
 "electròniques per comentaris o anuncis de bogs són (cal treure'n les lletres "
 "\"NO SPAM\") maNOrikSP@mAendMelu.cz resp. tiNOhlSarPAMik@mendelu.cz.</li> </"
-"ul></div>"
+"ul>"
 
 #: map.php:3
 msgid "MAW-map"

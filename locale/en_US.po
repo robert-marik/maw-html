@@ -732,7 +732,7 @@ msgstr ""
 "\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a>.</li> <li>Our email "
 "addresses for comments or bug reports are (remove chars \"NO SPAM\" from the "
 "following strings) maNOrikSP@mAendMelu.cz resp. tiNOhlSarPAMik@mendelu.cz.</"
-"li> </ul></div>"
+"li> </ul>"
 
 #: map.php:3
 msgid "MAW-map"

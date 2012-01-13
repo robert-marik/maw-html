@@ -35,9 +35,8 @@ if ($action==1)
 <?php maw_before_form()?><form <?php formmethod();?> 
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/autsyst/autsyst.php"
-name="exampleform"><br>
+name="exampleform">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
 
   <span style="font-style: italic;">x' =</span> <input name="funkcef" value="<?php echo $fcef; ?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
@@ -73,10 +72,7 @@ class="tlacitko">
   <?php echo __('use computer to find stationary points first (this may fail to find all stationary points, however)');?>
 <br>
 </fieldset>
-  <br>
-
 <?php echo $submitbutton;?>
-</fieldset>
 
 </form><?php maw_after_form(); ?>
 <?php history("autsyst",$server);

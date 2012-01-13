@@ -20,8 +20,6 @@ if ($function=="")
 method="get" action="<?php echo($server);?>/banach/banach.php">
 <?php polejazyka($lang); ?>
 <input type="hidden" name="method" value="bisection">
-<fieldset class="main">
-<br>
 <label for="funkce">
   <?php { echo __("Enter function, interval containing zero and number of steps.");} ?>
 </label>
@@ -45,11 +43,9 @@ value="<?php echo $function;?>">
 <?php echo __("Number of steps ")?> 
 <input size="4" name="n" value="<?php echo $n;?>">
 <?php echo __("(integer between 2 and 40)")?>
-  <br><br>
+<br>
 
 <?php echo $submitbutton;?>
-<br>
-</fieldset>
 </form><?php maw_after_form(); ?>
 
 <?php history("bisection",$server); 
@@ -57,8 +53,6 @@ value="<?php echo $function;?>">
 
 
 ?>
-
-<br>
 
 <?php
 echo __('MAW-bisection');

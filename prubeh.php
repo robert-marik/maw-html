@@ -21,7 +21,6 @@ if (str_replace(" ","",$function)=="")
 <?php maw_before_form()?><form name="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/prubeh/zpracuj.php">
-<fieldset class="main">
 
 <label for="funkce">
   <?php echo __('Function'); ?>:
@@ -50,7 +49,7 @@ class="tlacitko">
 
 </fieldset>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 

@@ -1,5 +1,4 @@
 
-
 <span class="nadpis">
 <?php echo __("Taylor polynomial");?>
 </span> 
@@ -7,10 +6,10 @@
 <?php maw_before_form()?><form name="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/taylor/taylor.php">
-<fieldset class="main">
+
 <?php polejazyka($lang); ?>
 <?php echo __('Function'); ?>
-<span style="font-style: italic;">f(x)=</span> <input size="40"
+<span style="font-style: italic;"> f(x)=</span> <input size="40"
 name="funkce" value="sin(x)"> &nbsp; &nbsp; 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko"> 
 
@@ -23,7 +22,7 @@ name="funkce" value="sin(x)"> &nbsp; &nbsp;
 
 <br>
 <?php echo $submitbutton;?>
-</fieldset>
+
 </form><?php maw_after_form(); ?>
 
 <?php history("taylor",$server);?>

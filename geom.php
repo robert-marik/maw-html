@@ -1,6 +1,3 @@
-
-
-
 <span class="nadpis">
 <?php echo __("Definite integral in geometry");?>
 </span>
@@ -10,7 +7,7 @@
 action="<?php
 echo($server);?>/geom/geom.php">
 <?php polejazyka($lang); ?>
-<fieldset class="main">
+
 <fieldset  class="vnitrni"><legend class="podnadpis">
    <?php echo __("Formulation of the problem"); ?>
 </legend>
@@ -108,11 +105,8 @@ type="radio">&nbsp;
 <span style="font-style: italic;">ymin =</span>&nbsp;<input name="ymin" value="-1">
 &nbsp;&nbsp; <span style="font-style: italic;">&nbsp;ymax =</span> <input name="ymax" value="3">
 </fieldset>
-<br>
+
 <?php echo $submitbutton;?>
-
-</fieldset>
-
 
 </form><?php maw_after_form(); ?>
 <?php history("geom",$server);
