@@ -12,7 +12,7 @@
    <?php echo __('Function');?>:
 </label>
 &nbsp;&nbsp;<span style="font-style:
-italic;"><img src="int.gif" align="center"></span> <input size="60"
+italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> <input size="60"
 name="funkce"
 value="<?php
 $function=$_REQUEST["function"];
