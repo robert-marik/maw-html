@@ -147,7 +147,6 @@ echo 'method="post"';
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" >
-  <link rel="stylesheet" type="text/css" href="navigace.css" >
   
 <?php
 if (file_exists('./custom.css')) 
@@ -237,7 +236,7 @@ function lang_links()
 global $form,$lang_array;
 foreach ($lang_array as $i => $value)
   {
-    echo "\n".'<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" /></a>';
+    echo "\n".'<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" ></a>';
     if ($i<5) {echo ("&nbsp;");}
   }
 }
