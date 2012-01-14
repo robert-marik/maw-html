@@ -155,7 +155,7 @@ if (file_exists('./custom.css'))
 }
 ?>
 
-  <title>Mathematical Assistant on Web (<?php echo $form ?>) </title>
+  <title><?php echo __("Mathematical Assistant on Web");?></title>
 
   <script type="text/javascript">
 var thedata;
