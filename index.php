@@ -359,6 +359,7 @@ return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&amp;form='.$
 
 function printsubmenu($i)
 {
+  global $lang;
   if ($i=="2") {
     echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
