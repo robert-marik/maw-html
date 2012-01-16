@@ -60,7 +60,7 @@ msgstr "Metoda prosté iterace"
 
 #: banach.php:25
 msgid "Enter function, interval containing  fixed point and number of steps."
-msgstr "Zadejte funkce, interval obsahující pevný bod a počet kroků"
+msgstr "Zadejte funkci, interval obsahující pevný bod a počet kroků"
 
 #: banach.php:29 bisection.php:30 derivace.php:11 df.php:12 graf.php:12
 #: integral.php:12 prubeh.php:27 regula_falsi.php:30 taylor.php:12 trap.php:14
@@ -107,7 +107,7 @@ msgstr "Půlení intervalu"
 
 #: bisection.php:26 regula_falsi.php:26
 msgid "Enter function, interval containing zero and number of steps."
-msgstr "Zadejte funkce, interval obsahující pevný bod a počet kroků"
+msgstr "Zadejte funkci, interval obsahující nulový bod a počet kroků"
 
 #: bisection.php:40 regula_falsi.php:40
 msgid "Interval from"
@@ -351,11 +351,7 @@ msgstr ""
 "<li>Zadejte funkci která vznikne složením některé ze základních "
 "elementárních funkcí s lineární funkcí.</li> <li>Funkce bude automaticky "
 "rozpoznána a sestrojí se okomentovaný postup, jak obdržet graf funkce pomocí "
-"transformací základních grafů</li> <li>To co uvidíte po odkliknutí Odeslat "
-"je pouze předběžná pracovní verze.</li> <li><a href=\"http://user.mendelu.cz/"
-"pospisi2/pr_grafy.pdf\">Otázky</a> podobné testovým zadáním na testu pro "
-"posluchače předmětu Matematika I PEF jsou na stránkách <a href=\"http://user."
-"mendelu.cz/pospisi2\">RNDr. Lenky Pospíšilové</a></li> </ul>"
+"transformací základních grafů</li></ul>"
 
 #: index.php:84
 msgid ""
@@ -719,8 +715,8 @@ msgstr ""
 "html#Kvizy\">interaktivní testy</a> (podkapitolka Integrální počet)"
 "<br><br><b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat. Na "
 "následující straně si budetemoct zkoušet jednotlivé integrační metody "
-"(substituci, per partés, dělenípolynomů, různé úpravy integrandu) a zkoušet, "
-"která vede k úspěšnémuzintegrování.</li><li>Až budete ve fázi, kdy pro "
+"(substituci, per partés, dělení polynomů, různé úpravy integrandu) a zkoušet, "
+"která vede k úspěšnému zintegrování.</li><li>Až budete ve fázi, kdy pro "
 "zintegrování stačí použít vzorce, napište si výsledek napapír a použijte "
 "poslední volbu - integrovat pomocí počítače. Zobrazí se vám poslední "
 "integrál.</li><li>Nemáte k dipozici undo, ale můžete se vracet zpět pomocí "
