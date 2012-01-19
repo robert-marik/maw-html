@@ -81,3 +81,9 @@ div#processing {font-size:130%; color:gray;}
 .hint_preview {margin-top: 10px; margin-bottom: 10px;}
 
 input.tlacitko {margin-bottom: 5px; margin-top: 5px;}
+
+.test_maw {margin-left:30px;}
+
+#test_binaries, #test_forms, #test_filter {display:none;}
+#test_binaries {background-color: #BBB; max-width:900px; margin:5px;}
+
