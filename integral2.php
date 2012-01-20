@@ -21,7 +21,7 @@ if ($function=="")
 <?php polejazyka($lang); ?>
 
 <label for="funkce">
-  <?php echo __("Enter function and choose variables ond order for integration ");?>
+  <?php echo __("Enter function and choose variables and order for integration ");?>
 </label>
 
 <div id="dvojint">

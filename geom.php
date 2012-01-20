@@ -41,11 +41,11 @@ class="tlacitko">
 &nbsp; <span style="font-style: italic;">
    <?php echo __('lower bound') ?>
 =</span>
-<input name="meza" value="0"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+<input name="meza" value="0" size="15"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
 &nbsp;<span style="font-style: italic;">
     <?php echo __('upper bound');?>
  =</span>
-<input name="mezb" value="1"><br>
+<input name="mezb" value="1" size="15"><br>
 
 </fieldset>
 
@@ -68,7 +68,7 @@ type="radio">&nbsp;
 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
 <input name="akce" value="3"
 type="radio">&nbsp;
-						<?php echo __('preview solid of revoultion');?>
+						<?php echo __('preview solid of revolution');?>
 <input name="colors" type="checkbox">&nbsp;
 						<?php echo __('show colors, no mesh'); ?>
 <input name="hidden" type="checkbox">&nbsp;
@@ -85,9 +85,9 @@ type="radio">&nbsp;
 <br>
 
 <span style="font-style: italic;">xmin =</span>
-  <input name="xmin" value="-1"> &nbsp;
+  <input name="xmin" value="-1" size="15" > &nbsp;
 &nbsp; <span style="font-style: italic;">xmax =</span> 
-<input name="xmax" value="3"><br>
+<input name="xmax" value="3" size="15" ><br>
 
 
 
@@ -101,8 +101,8 @@ type="radio">&nbsp;
 
 
 
-<span style="font-style: italic;">ymin =</span>&nbsp;<input name="ymin" value="-1">
-&nbsp;&nbsp; <span style="font-style: italic;">&nbsp;ymax =</span> <input name="ymax" value="3">
+<span style="font-style: italic;">ymin =</span>&nbsp;<input name="ymin" value="-1" size="15" >
+&nbsp;&nbsp; <span style="font-style: italic;">&nbsp;ymax =</span> <input name="ymax" value="3" size="15" >
 </fieldset>
 
 <?php echo $submitbutton;?>

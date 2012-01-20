@@ -26,7 +26,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="/maw";
 $lang = "en"; $locale_file = "en_US";
-$lang_array=Array("cz","us","pl","ca","zh","fr");
+$lang_array=Array("cz","us","pl","ca","zh","fr","ru");
 
 $custom_between_flags="";
 
@@ -66,6 +66,8 @@ if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
 if ($reqlang == "fr") { $lang = "fr"; $locale_file = "fr_FR"; }
 
 if ($reqlang == "zh") { $lang = "zh"; $locale_file = "zh_CN"; }
+
+if ($reqlang == "ru") { $lang = "ru"; $locale_file = "ru_RU"; }
 
 $locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
@@ -237,10 +239,11 @@ global $form,$lang_array;
 foreach ($lang_array as $i => $value)
   {
     echo "\n".'<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" ></a>';
-    if ($i<5) {echo ("&nbsp;");}
+    if ($i<(count($lang_array)-1)) {echo ("&nbsp;");}
   }
 }
 lang_links();
+echo (" &nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More languages")."</a>");
 ?>
 </div>
 

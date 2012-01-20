@@ -1,7 +1,7 @@
 # translation of messages.po to 
-# English translations for PACKAGE package.
+# Russian translations for MAW package.
 # Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the MAW package.
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009.
 #
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-20 21:38+0100\n"
+"POT-Creation-Date: 2012-01-20 22:26+0100\n"
 "PO-Revision-Date: 2009-08-27 09:32+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: autsyst.php:3
 msgid "Singular points of autonomous systems"
-msgstr ""
+msgstr "Сингулярные точки автономных систем"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
@@ -36,184 +36,173 @@ msgstr ""
 #: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid "Preview"
-msgstr ""
+msgstr "Предварительный просмотр"
 
 #: autsyst.php:58
 msgid "What to do"
-msgstr ""
+msgstr "Что делать"
 
 #: autsyst.php:61
 msgid "find Jacobi matrix at stationary point"
-msgstr ""
+msgstr "найти матрицу Якоби в стационарной точке"
 
 #: autsyst.php:72 minmax3d.php:74
 msgid ""
 "use computer to find stationary points first (this may fail to find all "
 "stationary points, however)"
 msgstr ""
+"использовать компьютер, чтобы найти стационарные точки (это может не найти "
+"все)"
 
 #: autsyst.php:80
 msgid "MAW-autsyst"
 msgstr ""
-"<ul> <li>Write the rigth hand sides of the autonomous system, write the "
-"stationary point you are interested in and click Submit</li> <li>You may use "
-"computer to find stationary points or Jacobi matrix and eigenvalue at one of "
-"stationary points. Choose the correct radiobutton, please.</li> </ul>"
 
 #: banach.php:2 index.php:406
 msgid "Method of iterations"
-msgstr ""
+msgstr "Метод итераций"
 
 #: banach.php:23
 msgid "Enter function, interval containing  fixed point and number of steps."
-msgstr ""
+msgstr "Введите функцию, интервал, содержащий неподвижную точку и число шагов."
 
 #: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid "Function"
-msgstr ""
+msgstr "Функция"
 
 #: banach.php:34
 msgid "Interval from "
-msgstr ""
+msgstr "Интервал от"
 
 #: banach.php:36 bisection.php:37 regula_falsi.php:37
 msgid "to"
-msgstr ""
+msgstr "к"
 
 #: banach.php:38 bisection.php:39 regula_falsi.php:39
 msgid "(integers or decimal numbers)"
-msgstr ""
+msgstr "(Целых или десятичных чисел)"
 
 #: banach.php:42 bisection.php:43 regula_falsi.php:43
 msgid "Number of steps "
-msgstr ""
+msgstr "Число шагов"
 
 #: banach.php:44
 msgid "(integer between 2  and 40)"
-msgstr ""
+msgstr "(Целое число от 2 до 40)"
 
 #: banach.php:47
 msgid "Initial approximation"
-msgstr ""
+msgstr "Начальное приближение"
 
 #: banach.php:49
 msgid "(integer or decimal number)"
-msgstr ""
+msgstr "(целое или десятичное число)"
 
 #: banach.php:56
 msgid "MAW-banach"
 msgstr ""
-"The nonlinear equation solver based on <a href=\"http://en.wikipedia.org/"
-"wiki/Banach_fixed_point_theorem\">Banach fixed point theorem</a>"
 
 #: bisection.php:2 index.php:404
 msgid "Bisection"
-msgstr ""
+msgstr "Метод бисекции"
 
 #: bisection.php:24 regula_falsi.php:24
 msgid "Enter function, interval containing zero and number of steps."
-msgstr ""
+msgstr "Введите функцию, интервал содержащий нуля, и число шагов."
 
 #: bisection.php:35 regula_falsi.php:35
 msgid "Interval from"
-msgstr ""
+msgstr "Интервал от"
 
 #: bisection.php:45 regula_falsi.php:45
 msgid "(integer between 2 and 40)"
-msgstr ""
+msgstr "(Целое число от 2 до 40)"
 
 #: bisection.php:58
 msgid "MAW-bisection"
 msgstr ""
-"For theory see <a href=\"http://en.wikipedia.org/wiki/Bisection_method"
-"\">Bisection method on Wikipedia</a>"
 
 #: derivace.php:2 index.php:378
 msgid "Derivative and partial derivative"
-msgstr ""
+msgstr "Производная и частные производные"
 
 #: derivace.php:22
 msgid "automatically use linearity of derivative"
-msgstr ""
+msgstr "автоматически использовать линейности производной"
 
 #: derivace.php:25
 msgid "automatically differentiate constants"
-msgstr ""
+msgstr "автоматически различать константы"
 
 #: derivace.php:30
 msgid "The type of the derivative"
-msgstr ""
+msgstr "Тип производных"
 
 #: derivace.php:33
 msgid "Ordinary derivative (function in one variable)"
-msgstr ""
+msgstr "Обыкновенные производная (функции от одной переменной)"
 
 #: derivace.php:36
 msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
-msgstr ""
+msgstr "Частичная производная по <i> х </i> (функция двух переменных)"
 
 #: derivace.php:39
 msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
-msgstr ""
+msgstr "Частичная производная по <i>y</i> (функция двух переменных)"
 
 #: derivace.php:47
 msgid "MAW-der"
 msgstr ""
-"<ul><li>Enter a function and click Submit. You get the computation of "
-"derivative formated in PDF. </li><li>You can use this form to differentiate "
-"both functions in one variable and function in two variables.</li></ul>"
 
 #: df.php:2
 msgid "Domain of a function in one variable"
-msgstr ""
+msgstr "Oбласть определения функции одной переменной"
 
 #: df.php:21 geom.php:53
 msgid "Parameters"
-msgstr ""
+msgstr "Параметры"
 
 #: df.php:36
 msgid "MAW-df"
-msgstr " "
+msgstr ""
 
 #: df3d.php:3
 msgid "Domain of a function in two variables"
-msgstr ""
+msgstr "Oбласть определения функции двух переменных"
 
 #: df3d.php:22
 msgid "limits for the picture with domain:"
-msgstr ""
+msgstr "ограничения на изображение:"
 
 #: df3d.php:27 df3d.php:29 df3d.php:31
 msgid "draw domain on the set"
-msgstr ""
+msgstr "нарисовать область определения на множестве"
 
 #: df3d.php:44
 msgid "MAW-df3d"
 msgstr ""
-"<ul> <li>Write a function in two variables into the field, choose the bounds "
-"for the picture and click Submit.</li> </ul>"
 
 #: geom.php:2
 msgid "Definite integral in geometry"
-msgstr ""
+msgstr "Определенный интеграл в геометрии"
 
 #: geom.php:12
 msgid "Formulation of the problem"
-msgstr ""
+msgstr "Постановка задачи"
 
 #: geom.php:14
 msgid "Curves on boundary"
-msgstr ""
+msgstr "Кривые на границе"
 
 #: geom.php:18
 msgid "Upper bound"
-msgstr ""
+msgstr "Верхняя граница"
 
 #: geom.php:26
 msgid "Lower bound"
-msgstr ""
+msgstr "Нижняя граница"
 
 #: geom.php:37
 msgid ""
@@ -223,59 +212,53 @@ msgstr ""
 
 #: geom.php:42
 msgid "lower bound"
-msgstr ""
+msgstr "нижняя граница"
 
 #: geom.php:46
 msgid "upper bound"
-msgstr ""
+msgstr "верхняя граница"
 
 #: geom.php:55
 msgid "Action"
-msgstr ""
+msgstr "Aкция"
 
 #: geom.php:60
 #, php-format
 msgid "Find %s area %s between two curves and draw graph."
-msgstr ""
+msgstr "Найти %s площадь %s между двумя кривыми и нарисовать график."
 
 #: geom.php:66
 #, php-format
 msgid "Find %s volume %s of solid of revolution and draw graph"
-msgstr ""
+msgstr "Найти %s объем %s тела вращения и нарисовать график"
 
 #: geom.php:71
 msgid "preview solid of revolution"
-msgstr ""
+msgstr "предварительный просмотр тела вращения"
 
 #: geom.php:73
 msgid "show colors, no mesh"
-msgstr ""
+msgstr "показать цветов, не сетки"
 
 #: geom.php:75
 msgid "hide invisible parts"
-msgstr ""
+msgstr "скрыть невидимых частей"
 
 #: geom.php:81
 msgid "Find intercepts of curves"
-msgstr ""
+msgstr "Найти где кривые пересекаются"
 
 #: geom.php:83
 msgid "Bounds for the picture (decimal numbers)"
-msgstr ""
+msgstr "Границы для картины (десятичные числа)"
 
 #: geom.php:112
 msgid "MAW-geom"
 msgstr ""
-"<ul>   <li>Write functions which define the lower and upper bound for the "
-"set.</li>  <li>If the lower bound for the set is <span style=\"font-style: "
-"italic;\">x</span> axis, the function <span style=\"font-style: italic;\">g</"
-"span> is 0.</li>  <li>You can use computer to try to find the intercepts of "
-"the curves. Simply choose the action using appropriate radiobutton.<br> </"
-"li> </ul>"
 
 #: graf.php:2 index.php:368
 msgid "Graphs of elementary functions"
-msgstr ""
+msgstr "Графики элементарных функций"
 
 #: graf.php:20
 msgid ""
@@ -283,39 +266,37 @@ msgid ""
 "can be obtained from on of basic elementary functions by shifting and "
 "resizing graph)"
 msgstr ""
+"(функция должна либо основнaя элементарнaя функция, или функция которая "
+"может быть получена из основных элементарных функций путем сдвига и "
+"изменения размера графикa)"
 
 #: graf.php:25
 msgid "Bounds for axes"
-msgstr ""
+msgstr "Границы для осей"
 
 #: graf.php:37
 msgid "show grid"
-msgstr ""
+msgstr "показать сетку"
 
 #: graf.php:44
 msgid "Logarithm"
-msgstr ""
+msgstr "Логарифм"
 
 #: graf.php:45
 msgid "If the input contains logarithm, use"
-msgstr ""
+msgstr "Если на входе содержит логарифм, используйте"
 
 #: graf.php:48
 msgid "natural log"
-msgstr ""
+msgstr "натуральный логарифм"
 
 #: graf.php:51
 msgid "log with base"
-msgstr ""
+msgstr "логарифм с базой"
 
 #: graf.php:61
 msgid "MAW-graf"
 msgstr ""
-"<span style=\"font-weight: bold;\">Remarks:</span><br><ul><li>Enter a "
-"function which can be onbtained from one of basic elementary functions by "
-"shifting and resizing graph.</li><li>The function will be parsed "
-"automatically and you get the graph of this functions, includin animation of "
-"consecutive deformations</li></ul>"
 
 #: index.php:113
 msgid ""
@@ -331,14 +312,16 @@ msgid ""
 "Your input is being processed. Wait few seconds to see the output. Click "
 "%shere%s to reopen the form which has been submited."
 msgstr ""
+"Ваш вклад обрабатывается. Подождите несколько секунд, чтобы увидеть "
+"результат. %sКликните здесь%s, чтобы открыть форму, которая была занесена."
 
 #: index.php:127
 msgid "History"
-msgstr ""
+msgstr "История"
 
 #: index.php:160 index.php:280
 msgid "Mathematical Assistant on Web"
-msgstr ""
+msgstr "Математические Интернет Компьютеры (MAW)"
 
 #: index.php:227
 msgid "You should turn JavaScript on to see popup informations."
@@ -346,11 +329,11 @@ msgstr ""
 
 #: index.php:246
 msgid "More languages"
-msgstr ""
+msgstr "Другие языки"
 
 #: index.php:260
 msgid "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr ""
+msgstr "http://sourceforge.net/apps/phpbb/mathassistant"
 
 #: index.php:261
 msgid "Support from MAW forum"
@@ -370,76 +353,79 @@ msgid ""
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
+"Aвторы <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> и <a href=\"http://user.mendelu.cz/tihlarik\" target="
+"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
 #: index.php:283
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
-msgstr ""
+msgstr "%sОффлайн версия%s также доступна и %sпереводчики приветствуются%s."
 
 #: index.php:331
 msgid "Submit"
-msgstr ""
+msgstr "Отправить"
 
 #: index.php:331
 msgid "Click only once and wait few seconds for the answer!"
-msgstr ""
+msgstr "Нажмите только один раз и подождите несколько секунд, за ответ!"
 
 #: index.php:369
 msgid "Domain of functions (one variable)"
-msgstr ""
+msgstr "Oбласть определения функций (одной переменной)"
 
 #: index.php:370
 msgid "Domain of functions (two variables)"
-msgstr ""
+msgstr "Oбласть определения функций (двух переменных)"
 
 #: index.php:371 lagrange.php:3
 msgid "Lagrange polynomial"
-msgstr ""
+msgstr "Полином Лагранжа"
 
 #: index.php:372 mnc.php:3
 msgid "Least squares method"
-msgstr ""
+msgstr "Метод наименьших квадратов"
 
 #: index.php:379
 msgid "Investigating functions"
-msgstr ""
+msgstr "Исследование функций"
 
 #: index.php:380 taylor.php:3
 msgid "Taylor polynomial"
-msgstr ""
+msgstr "Полином Тейлора"
 
 #: index.php:381
 msgid "Local maxima and minima in two variables"
-msgstr ""
+msgstr "Локальные максимумы и минимумы с двумя переменными"
 
 #: index.php:387 integral.php:2
 msgid "Antiderivative"
-msgstr ""
+msgstr "Неопределенный интеграл"
 
 #: index.php:388
 msgid "Geometrical applications of definite integral"
-msgstr ""
+msgstr "Геометрические приложения определенного интеграла"
 
 #: index.php:389
 msgid "Trapezoidal rule"
-msgstr ""
+msgstr "Метод трапеций"
 
 #: index.php:390 integral2.php:2
 msgid "Double integral"
-msgstr ""
+msgstr "Двойной интеграл"
 
 #: index.php:396
 msgid "First order ODE"
-msgstr ""
+msgstr "ОДУ первого порядка"
 
 #: index.php:397
 msgid "Second order LDE"
-msgstr ""
+msgstr "ЛДУ второго порядка"
 
 #: index.php:398
 msgid "Autonomous system"
-msgstr ""
+msgstr "Автономная система"
 
 #: index.php:405 regula_falsi.php:2
 msgid "Regula falsi"
@@ -447,35 +433,35 @@ msgstr ""
 
 #: index.php:407
 msgid "System of inequalities (in one or two variables)"
-msgstr ""
+msgstr "Система неравенств (в одной или двух переменных)"
 
 #: index.php:415
 msgid "Introduction"
-msgstr ""
+msgstr "Введение"
 
 #: index.php:421
 msgid "Precalculus"
-msgstr ""
+msgstr "Функции"
 
 #: index.php:426
 msgid "Calculus"
-msgstr ""
+msgstr "Дифференциальное исчисление"
 
 #: index.php:432
 msgid "Integral calculus"
-msgstr ""
+msgstr "Интегральное исчисление"
 
 #: index.php:438
 msgid "Differential equations"
-msgstr ""
+msgstr "Дифференциальные уравнения"
 
 #: index.php:444
 msgid "Equations and inequalities"
-msgstr ""
+msgstr "Уравнения и неравенства"
 
 #: index.php:451
 msgid "Site map, support"
-msgstr ""
+msgstr "Карта сайта, поддержка"
 
 #: index.php:477
 msgid ""
@@ -496,7 +482,7 @@ msgstr ""
 
 #: ineq2d.php:3
 msgid "Inequalities"
-msgstr ""
+msgstr "Неравенства"
 
 #: ineq2d.php:15
 msgid ""
@@ -506,46 +492,35 @@ msgstr ""
 
 #: ineq2d.php:18
 msgid "suppose x,y>0"
-msgstr ""
+msgstr "пусть х, у> 0"
 
 #: ineq2d.php:22
 msgid "draw labels on axes, not on boundary"
-msgstr ""
+msgstr "отрисовки надписей по осям, а не на границе"
 
 #: ineq2d.php:28
 msgid "use high quality output in PDF"
-msgstr ""
+msgstr "использование высококачественного вывода в формате PDF"
 
 #: ineq2d.php:32
 msgid "and change bounds to get equal units on both axes"
-msgstr ""
+msgstr "и изменить границ, чтобы получить равные единицы на обеих осях"
 
 #: ineq2d.php:40 prubeh.php:41
 msgid "Axes"
-msgstr ""
+msgstr "Oси"
 
 #: ineq2d.php:57
 msgid "MAW-ineq2d"
 msgstr ""
-"<br> <ul>   <li>Enter you inequalities into the text field. Write one "
-"inequality per row.</li> <li>Inequalities are solved numerically on given "
-"interval (rectangle for inequalities in two variables). If you get empty "
-"graph, then either no solution exists on given interval (try to change the "
-"bounds) or the solution contains isolated points only. These isolated points "
-"cannot be found by our numerical computations.</li> <li>Use only sharp "
-"inequalities and variables <i>x</i> and <i>y</i>.</li> <li>Checkboxes and "
-"bounds for <i>y</i> axis are ignored, if you use inequalities in <i>x</i> "
-"variable only.</li> <li>The pictures in html preview are squares. If you use "
-"the difference in <i>y</i> bounds equal to the difference in <i>x</i> "
-"bounds, squares and circles will not be deformed. The pictures in PDF output "
-"have aspect ratio 10:7 and to get the same units on both axes, use the "
-"second checkbox. This choice rescales the shorter axis. </li> </ul>"
 
 #: integral.php:28
 msgid ""
 "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
 "mathematical expressions (this allows to write  2x instead of 2*x)"
 msgstr ""
+"использовать <a href=\"http://formconv.sourceforge.net/\"> formconv </a> для "
+"преобразования математических выражений (это позволяет писать 2x вместо 2*х)"
 
 #: integral.php:33
 msgid ""
@@ -565,24 +540,24 @@ msgstr ""
 
 #: integral.php:47 integral2.php:74
 msgid "write acsinh and atanh in terms of log"
-msgstr ""
+msgstr "написать acsinh и atanh как логарифм"
 
 #: integral.php:59
 msgid "MAW-int"
 msgstr ""
-"<span class='red'>Visit our <a  href=\"integral_offline/\">integral gallery</"
-"a>.</span> Feel free to contact us with request to add your integral into "
-"this gallery."
 
 #: integral2.php:24
+#, fuzzy
 msgid "Enter function and choose variables and order for integration "
-msgstr ""
+msgstr "Введите функцию и выберите переменные и порядок для интеграции"
 
 #: integral2.php:59
 msgid ""
 " The Jacobian in polar coordinates is added automatically. You can write "
 "<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
 msgstr ""
+"Якобиан в полярных координатах добавляется автоматически. Вы можете написать "
+"<b>phi</b> для полярной переменной <img src=\"phi.png\" alt=\"phi\">."
 
 #: integral2.php:63
 msgid "Axes (decimal numbers)"
@@ -594,21 +569,19 @@ msgstr ""
 
 #: lagrange.php:11 mnc.php:11
 msgid "Data file"
-msgstr ""
+msgstr "Файл данных"
 
 #: lagrange.php:22
 msgid "MAW-lagr"
 msgstr ""
-"<ul> <li> Write data file, the points are separated by semicolons, the "
-"components of each point are separated by commas. </li> </ul>"
 
 #: lde2.php:3
 msgid "Second order linear differential equations"
-msgstr ""
+msgstr "Линейные дифференциальные уравнения второго порядка"
 
 #: lde2.php:13
 msgid "Equation"
-msgstr ""
+msgstr "Uравнение"
 
 #: lde2.php:23
 msgid "You can use Preview and Edit buttons for entering the right hand side"
@@ -616,157 +589,81 @@ msgstr ""
 
 #: lde2.php:28
 msgid "Method"
-msgstr ""
+msgstr "Метода"
 
 #: lde2.php:32
 msgid "variation of constants"
-msgstr ""
+msgstr "вариация постоянных"
 
 #: lde2.php:36
 msgid "undetermined coefficients"
-msgstr ""
+msgstr "неопределенных коэффициентов"
 
 #: lde2.php:40
 msgid "solve also initial value problem"
-msgstr ""
+msgstr "решать также задачy Коши"
 
 #: lde2.php:51
 msgid "MAW-lde2"
 msgstr ""
-"<ul>   <li>Write the coefficients of the equation (numbers) and the right "
-"hand side and click Submit button. If you wich to omitt one of the temrs, "
-"write 0 into the corresponding field.</li> \t<li>Variation of constants "
-"works for arbitrary right hand side. The method of undetermined coefficients "
-"works for the right hand side in the form <i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp"
-"(a*x)*cos(b*x)</i>, <i>a</i> and <i>b</i> being real numbers and <i>P(x)</"
-"i>, <i>Q(x)</i> polynomials of degree no more than 4.</li>   <li>If you feel "
-"than the calculator gives incorrect results, send us a note, please.</li> </"
-"ul>"
 
 #: main.php:1
 msgid "MAW-main"
 msgstr ""
-"<span class=\"nadpis\">About this page</span> <ul> <li>This site contains "
-"interface to access computer algebra system <a href=\"http://maxima."
-"sourceforge.net/\">Maxima</a> and automatically solve selected typical "
-"problems from mathematical courses, including intermediate steps in the "
-"solution.</li> <li>Choose a caluclator using button on the top of this page, "
-"finll in your data and click Submit button. An answer formated as PDF file "
-"appears in your browser or downloads to your computer (this depends on the "
-"settings of your computer).</li> <li>The computing unit for this page is "
-"hosted on the server of the <a target=\"_blank\" href=\"http://wood.mendelu."
-"cz\">Departement of wood technology</a>.</li> <li><a href=\"http://wood."
-"mendelu.cz/math/phpsysinfo\">System info</a></li> </ul><div class="
-"\"noncompact\"><hr> <span class=\"nadpis\">Remarks</span> <ul> <li>Remember "
-"to use * for multiplication, write 2*x and not 2x for \"two eks\".</li> "
-"<li>The user input is processed by the Open Source programs <a href=\"http://"
-"maxima.sourceforge.net/\">Maxima</a>, <a href=\"http://www.gnuplot.info/"
-"\">gnuplot</a>, <a href=\"http://formconv.sourceforge.net/\">formconv</a>, "
-"<a href=\"http://www.tug.org/metapost.html\">MetaPost</a> and formated by <a "
-"href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a>.</li> <li>Our "
-"email addresses for comments or bug reports are (remove chars \"NO SPAM\" "
-"from the following strings) maNOrikSP@mAendMelu.cz resp. "
-"tiNOhlSarPAMik@mendelu.cz.</li> </ul>"
 
 #: map.php:3
 msgid "MAW-map"
 msgstr ""
-"Site map </span>  <ul> <li>Functions <ul> <li>Shifted and resized graphs of "
-"basic elementary functions </li> <li>Natural domain of function in one "
-"variable </li> <li>Natural domain of function in two variables </li> "
-"<li>Lagrange polynomial </li> <li>Least squares method </li> </ul> </li> "
-"<li>Calculus <ul> <li> Derivative and partial derivative </li> <li> "
-"Investigating functions </li> <li> Taylor polynomial </li> <li>Local maxima "
-"nad minima in two variables </li>  </ul> </li> <li>Integral calculus <ul> "
-"<li>Indefinite integral  </li><li> Definite integral  (area between two "
-"curves and solid of revolution)  </li><li>Double integral</li><li> "
-"Trapezoidal rule  (numerical estimate of definite integral)</li> </ul> </li> "
-"<li>Diferential equations <ul> <li> First order differential equations "
-"(linear equations, equations with separated variables and homogeneous "
-"equations)</li><li>Secod order linear differential equations (variation of "
-"constants and guessing particular solution)</li><li> Autonomous system</li> "
-"</ul> </li> <li>Equations and inequalities  <ul> <li>Nonlinear equations via "
-"method of bisection and method of iterations</li> <li>Inequalities in one "
-"and two variables</li> </ul> </il> </ul> <span class=\"nadpis\">Support</"
-"span> <ul><li>Do you want to support the developement of Mathematical "
-"Assistant on Web? Do you want to send us some money? Don't do it! Support <a "
-"href=\"http://www.unicef.org/\">UNICEF</a> or <a href=\"http://www.rednoses."
-"eu/\">Red noses clowndoctors</a> instead. </li> <li>Do you still want to "
-"help us? Use our applications and report problems (if any). Or let us know "
-"that you are using our applicatin without any problem. You can also download "
-"<a href=\"http://mathassistant.hg.sourceforge.net/hgweb/mathassistant"
-"\">sources</a> and develop new features and similar applications. </li> </ul>"
 
 #: mawconfightml.php:48
 msgid "Switch to a full design"
-msgstr ""
+msgstr "Переключитесь на полный дизайн"
 
 #: mawconfightml.php:60
 msgid "Switch to a compact design"
-msgstr ""
+msgstr "Переключить на компактный дизайн"
 
 #: minmax3d.php:3
 msgid "Local extrema in two variables"
-msgstr ""
+msgstr "Локальные экстремумы от двух переменных"
 
 #: minmax3d.php:50
 msgid "Task for computation"
-msgstr ""
+msgstr "Задачa для вычисления"
 
 #: minmax3d.php:55
 msgid "Hessian at stationary point"
-msgstr ""
+msgstr "Гессиан функции в критической точке"
 
 #: minmax3d.php:67
 msgid "Hessian at stationary points"
-msgstr ""
+msgstr "Гессиан функции в критическыx точкax"
 
 #: minmax3d.php:85
 msgid "MAW-minmax3d"
 msgstr ""
-"<br>You can investigate stationary points of a function in two variables in "
-"this caluculator. You have the folowing options.<ul><li>You can find the "
-"stationary points using computer algebra system and then rewrite of copy and "
-"paste the answer into input.</li><li>You can test a series of stationary "
-"points for existence and type of local extremum. Use semicolon to separeate "
-"the stationary points and comma to separate the coordinates in a point.</"
-"li><li>If you choose the option to investigate one point only, you get more "
-"detailed solution.</li><li>We use a simple test if the point from user's "
-"input is a stationary point or not.</li></ul>"
 
 #: mnc.php:21
 msgid "MAW-mnc"
 msgstr ""
-"<ul> <li> Write data file, the points are separated by semicolons, the "
-"components of each point are separated by commas. </li> </ul>"
 
 #: ode.php:20
 msgid "Ordinary differential equations"
-msgstr ""
+msgstr "Обыкновенные дифференциальные уравнения"
 
 #: ode.php:30
 msgid "Equation solved wrt y'"
 msgstr ""
+"Якобиан в полярных координатах добавляется автоматически. Вы можете написать "
+"<b>phi</b> для полярной переменной <img src=\"phi.png\" alt=\"phi\">."
 
 #: ode.php:40
 msgid "Full equation"
-msgstr ""
+msgstr "Полное уравнение"
 
 #: ode.php:53
 msgid "MAW-ode"
 msgstr ""
-"<ul><li>This calculator is capable to solve the ordinary differential "
-"equation with separated variables, homogeneous, exact, linear and Bernoulli "
-"equation, including intermediate steps in the solution.</li><li>You have to "
-"enter right hand side of the differential equation only. If you need to "
-"isolate <i>y'</i> from an equation which is not in this form, you can use "
-"radiobuttons and the second field in the form.</li> <li>You may also to "
-"write full ODE (including y' and =) into the second field. The equation will "
-"be solved with respect to y' automatically, but you have to check carefully "
-"that your input does not contain any error in math syntax.</li> <li>The "
-"problem to find the solution on computer is complicated. If you get an "
-"incorrect output, send please bugreports to the mails of the authors.</li></"
-"ul>"
 
 #: prubeh.php:2
 msgid "Function calculator"
@@ -775,14 +672,6 @@ msgstr ""
 #: prubeh.php:57
 msgid "MAW-prub"
 msgstr ""
-"<span style=\"font-weight: bold;\">Remarks:</span><br> <ul><li>If one of the "
-"boundaries for the picture is not given, it is estimated automatically. "
-"However, this is not a good idea for noncontinuous and fast increasing "
-"functions, since the range on the axis to large in this case.</li><li>The "
-"zeros of the function and its derivatives are evaluated in the set of "
-"complex numbers and the we remove the zeros with imaginary unit. However, we "
-"can loose also some real zeros in this way. Therefore, some of the zeros may "
-"be omitted in the answer.</li></ul>"
 
 #: regula_falsi.php:57
 msgid "MAW-regula_falsi"
@@ -790,27 +679,27 @@ msgstr ""
 
 #: taylor.php:18
 msgid "Degree of Taylor polynomial"
-msgstr ""
+msgstr "Степень многочлена Тейлора"
 
 #: taylor.php:21
 msgid "Center of Taylor polynomial"
-msgstr ""
+msgstr "Центр многочлена Тейлора"
 
 #: trap.php:3
 msgid "Trapezoidal rule (approximation for definite integral)"
-msgstr ""
+msgstr "Mетод  трапеций (приближение для определенного интеграла)"
 
 #: trap.php:25
 msgid "Limits for integration"
-msgstr ""
+msgstr "Ограничения для интеграции"
 
 #: trap.php:29
 msgid "lower limit"
-msgstr ""
+msgstr "нижний предел"
 
 #: trap.php:33
 msgid "upper limit"
-msgstr ""
+msgstr "верхний предел"
 
 #: trap.php:36
 msgid "intervals in partition"
@@ -819,10 +708,3 @@ msgstr ""
 #: trap.php:44
 msgid "MAW-trap"
 msgstr ""
-"<ul> <li>   Write the function for integration, limits for integration and "
-"the   density of partition (the number of subintervals, up to 20). We will   "
-"integrate by trapezoidal rule and among others, we try to evaluate   "
-"integral also by Newton--Leibniz formula and then by another advanced   "
-"numerical method, for comparison.</li>    <li>If the number of points is "
-"smaller than 10 and if the function     is nonegative over the interval, you "
-"get also a picture with the     functions and trapezoids. </li>       </ul>"
