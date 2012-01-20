@@ -47,12 +47,10 @@ msgid "find Jacobi matrix at stationary point"
 msgstr "найти матрицу Якоби в стационарной точке"
 
 #: autsyst.php:72 minmax3d.php:74
-msgid ""
-"use computer to find stationary points first (this may fail to find all "
-"stationary points, however)"
+msgid "use computer to find stationary points first (this may fail to find all stationary points, however)"
 msgstr ""
-"использовать компьютер, чтобы найти стационарные точки (это может не найти "
-"все)"
+"использовать компьютер, чтобы найти стационарные точки (это "
+"может не найти все)"
 
 #: autsyst.php:80
 msgid "MAW-autsyst"
@@ -64,7 +62,9 @@ msgstr "Метод итераций"
 
 #: banach.php:23
 msgid "Enter function, interval containing  fixed point and number of steps."
-msgstr "Введите функцию, интервал, содержащий неподвижную точку и число шагов."
+msgstr ""
+"Введите функцию, интервал, содержащий неподвижную точку и число "
+"шагов."
 
 #: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
@@ -206,8 +206,8 @@ msgstr "Нижняя граница"
 
 #: geom.php:37
 msgid ""
-"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
-"curves by choosing \"intercepts\" in parameters for computation)</small>"
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both curves by choosing \"intercepts\" in "
+"parameters for computation)</small>"
 msgstr ""
 
 #: geom.php:42
@@ -262,13 +262,12 @@ msgstr "Графики элементарных функций"
 
 #: graf.php:20
 msgid ""
-"(the function must either a basic elementary function of a function which "
-"can be obtained from on of basic elementary functions by shifting and "
-"resizing graph)"
+"(the function must either a basic elementary function of a function which can be obtained from on of basic elementary "
+"functions by shifting and resizing graph)"
 msgstr ""
-"(функция должна либо основнaя элементарнaя функция, или функция которая "
-"может быть получена из основных элементарных функций путем сдвига и "
-"изменения размера графикa)"
+"(функция должна либо основнaя элементарнaя функция, или функция "
+"которая может быть получена из основных элементарных функций "
+"путем сдвига и изменения размера графикa)"
 
 #: graf.php:25
 msgid "Bounds for axes"
@@ -300,20 +299,20 @@ msgstr ""
 
 #: index.php:113
 msgid ""
-"Troubles with writing math? Clicking Preview you get how <a href=\"http://"
-"formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
-"can enter this expression in Maxima notation (you can use copy and paste to "
+"Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> "
+"renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to "
 "transfer to the form.)"
 msgstr ""
 
 #: index.php:120
 #, php-format
 msgid ""
-"Your input is being processed. Wait few seconds to see the output. Click "
-"%shere%s to reopen the form which has been submited."
+"Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been "
+"submited."
 msgstr ""
-"Ваш вклад обрабатывается. Подождите несколько секунд, чтобы увидеть "
-"результат. %sКликните здесь%s, чтобы открыть форму, которая была занесена."
+"Ваш вклад обрабатывается. Подождите несколько секунд, чтобы "
+"увидеть результат. %sКликните здесь%s, чтобы открыть форму, "
+"которая была занесена."
 
 #: index.php:127
 msgid "History"
@@ -349,19 +348,17 @@ msgstr ""
 
 #: index.php:282
 msgid ""
-"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
-"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> and <a "
+"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
-"Aвторы <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-"Mař&iacute;k</a> и <a href=\"http://user.mendelu.cz/tihlarik\" target="
-"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+"Aвторы <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> и <a "
+"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
 #: index.php:283
 #, php-format
-msgid ""
-"%sOffline version%s is also available and translators are %s welcomed %s."
-msgstr "%sОффлайн версия%s также доступна и %sпереводчики приветствуются%s."
+msgid "%sOffline version%s is also available and translators are %s welcomed %s."
+msgstr ""
+"%sОффлайн версия%s также доступна и %sпереводчики приветствуются%s."
 
 #: index.php:331
 msgid "Submit"
@@ -369,7 +366,8 @@ msgstr "Отправить"
 
 #: index.php:331
 msgid "Click only once and wait few seconds for the answer!"
-msgstr "Нажмите только один раз и подождите несколько секунд, за ответ!"
+msgstr ""
+"Нажмите только один раз и подождите несколько секунд, за ответ!"
 
 #: index.php:369
 msgid "Domain of functions (one variable)"
@@ -465,19 +463,17 @@ msgstr "Карта сайта, поддержка"
 
 #: index.php:477
 msgid ""
-"Enter your data into the calculator and click Submit. You can also change "
-"the type of the caluclator in the second row of the menu. <br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
+"Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row "
+"of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse "
+"on the name of each group (the first row of the menu)."
 msgstr ""
 
 #: index.php:480
 msgid ""
-"Choose the field of your interest in the menu and then choose the particular "
-"calculator depending on the problem you wich to solve.<br>These calculators "
-"are able to solve the problems including step by step solution.<br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
+"Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you "
+"wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators "
+"are divided into several groups, the description is available if you move your mouse on the name of each group (the "
+"first row of the menu)."
 msgstr ""
 
 #: ineq2d.php:3
@@ -485,9 +481,7 @@ msgid "Inequalities"
 msgstr "Неравенства"
 
 #: ineq2d.php:15
-msgid ""
-"Read the comments below the form to find out, which inequalities can be "
-"solved."
+msgid "Read the comments below the form to find out, which inequalities can be solved."
 msgstr ""
 
 #: ineq2d.php:18
@@ -504,7 +498,8 @@ msgstr "использование высококачественного выв
 
 #: ineq2d.php:32
 msgid "and change bounds to get equal units on both axes"
-msgstr "и изменить границ, чтобы получить равные единицы на обеих осях"
+msgstr ""
+"и изменить границ, чтобы получить равные единицы на обеих осях"
 
 #: ineq2d.php:40 prubeh.php:41
 msgid "Axes"
@@ -516,26 +511,25 @@ msgstr ""
 
 #: integral.php:28
 msgid ""
-"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
-"mathematical expressions (this allows to write  2x instead of 2*x)"
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert mathematical expressions (this allows to write "
+" 2x instead of 2*x)"
 msgstr ""
 "использовать <a href=\"http://formconv.sourceforge.net/\"> formconv </a> для "
-"преобразования математических выражений (это позволяет писать 2x вместо 2*х)"
+"преобразования математических выражений (это позволяет писать 2x "
+"вместо 2*х)"
 
 #: integral.php:33
 msgid ""
 "use \n"
-"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
-"formulas on html page instead of  \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing formulas on html page instead of  \n"
 "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
 "(the output is better but the rendering could be slower)\n"
 msgstr ""
 
 #: integral.php:42
 msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-"html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
-"composite fractions (with fraction in numerator))"
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> switch "
+"(uncheck this if you get composite fractions (with fraction in numerator))"
 msgstr ""
 
 #: integral.php:47 integral2.php:74
@@ -549,15 +543,16 @@ msgstr ""
 #: integral2.php:24
 #, fuzzy
 msgid "Enter function and choose variables and order for integration "
-msgstr "Введите функцию и выберите переменные и порядок для интеграции"
+msgstr ""
+"Введите функцию и выберите переменные и порядок для интеграции"
 
 #: integral2.php:59
 msgid ""
-" The Jacobian in polar coordinates is added automatically. You can write "
-"<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
+" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img "
+"src=\"phi.png\" alt=\"phi\">."
 msgstr ""
-"Якобиан в полярных координатах добавляется автоматически. Вы можете написать "
-"<b>phi</b> для полярной переменной <img src=\"phi.png\" alt=\"phi\">."
+"Якобиан в полярных координатах добавляется автоматически. Вы "
+"можете написать <b>phi</b> для полярной переменной <img src=\"phi.png\" alt=\"phi\">."
 
 #: integral2.php:63
 msgid "Axes (decimal numbers)"
@@ -653,9 +648,7 @@ msgstr "Обыкновенные дифференциальные уравнен
 
 #: ode.php:30
 msgid "Equation solved wrt y'"
-msgstr ""
-"Якобиан в полярных координатах добавляется автоматически. Вы можете написать "
-"<b>phi</b> для полярной переменной <img src=\"phi.png\" alt=\"phi\">."
+msgstr "Уравнение розрешено относительно у '"
 
 #: ode.php:40
 msgid "Full equation"
