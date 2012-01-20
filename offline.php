@@ -39,7 +39,8 @@ To install MAW on your local computer with Linux download everything from our
 homepage at <a href="http://mathassistant.sourceforge.net/">sourceforge</a>, 
 install necesary software (on Debian install imagemagick texlive-base 
 texlive-base-bin texlive-latex-recommended texlive-latex-base texlive-metapost 
-maxima maxima-share gnuplot gettext libintl-perl texlive-fonts-recommended dvipng build-essential mercurial unzip). From CTAN
+maxima maxima-share gnuplot gettext libintl-perl texlive-fonts-recommended texlive-lang-cyrillic texmacs-common 
+latex-cjk-chinese latex-cjk-chinese-arphic-gbsn00lp latex-cjk-common dvipng build-essential mercurial unzip). From CTAN
 install <a href="http://www.math.uakron.edu/~dpstory/webeq.html">AcroTeX</a> 
 and <a href="http://tug.ctan.org/tex-archive/macros/latex/contrib/comment/">comment.sty</a>. 
 Then 
@@ -87,7 +88,8 @@ Pro instalaci na Linux stáhněte vše z domovské stránky na
 <a href="http://mathassistant.sourceforge.net/">sourceforge</a>, 
 nainstalujte potřebné prerekvizity (na Debianu instalujte imagemagick texlive-base 
 texlive-base-bin texlive-latex-recommended texlive-latex-base texlive-metapost 
-maxima maxima-share gnuplot gettext libintl-perl texlive-fonts-recommended dvipng). Z CTAN
+maxima maxima-share gnuplot gettext libintl-perl texlive-fonts-recommended texlive-lang-cyrillic 
+texmacs-common latex-cjk-chinese latex-cjk-chinese-arphic-gbsn00lp latex-cjk-common dvipng build-essential mercurial unzip). Z CTAN
 nebo odjinud nainstalujte <a href="http://www.math.uakron.edu/~dpstory/webeq.html">AcroTeX</a> 
 a <a href="http://tug.ctan.org/tex-archive/macros/latex/contrib/comment/">comment.sty</a>. 
 Potom zkuste <a

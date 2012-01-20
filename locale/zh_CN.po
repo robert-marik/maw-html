@@ -22,7 +22,7 @@ msgstr ""
 
 #: autsyst.php:3
 msgid "Singular points of autonomous systems"
-msgstr "自治微分方程的奇异点"
+msgstr "自治系统的奇点"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
@@ -325,7 +325,7 @@ msgid ""
 "can enter this expression in Maxima notation (you can use copy and paste to "
 "transfer to the form.)"
 msgstr ""
-"书写数学表达式有困难？ 点击“Preview”即可显示你书写的表达式如何被 <a href="
+"书写数学表达式有困难？ 点击“预览”即可显示你书写的表达式如何被 <a href="
 "\"http://formconv.sourceforge.net/\">formconv</a> 展现，以及你如何用 Maxima "
 "符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到这个表单中。）"
 
@@ -351,11 +351,11 @@ msgstr "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
 
 #: index.php:246
 msgid "More languages"
-msgstr ""
+msgstr "更多"
 
 #: index.php:260
 msgid "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr ""
+msgstr "http://sourceforge.net/apps/phpbb/mathassistant"
 
 #: index.php:261
 msgid "Support from MAW forum"
@@ -447,7 +447,7 @@ msgstr "二阶常微分方程"
 
 #: index.php:398
 msgid "Autonomous system"
-msgstr "自治微分方程"
+msgstr "自治系统"
 
 #: index.php:405 regula_falsi.php:2
 msgid "Regula falsi"
@@ -587,7 +587,7 @@ msgstr "将 arcsinh 和 arctanh 写成 log 形式"
 
 #: integral.php:59
 msgid "MAW-int"
-msgstr ""
+msgstr "MAW-int"
 
 #: integral2.php:24
 msgid "Enter function and choose variables and order for integration "
@@ -608,7 +608,7 @@ msgstr "积分区间"
 
 #: integral2.php:89
 msgid "MAW-int2"
-msgstr ""
+msgstr "MAW-int2"
 
 #: lagrange.php:11 mnc.php:11
 msgid "Data file"
@@ -776,7 +776,7 @@ msgstr ""
 
 #: regula_falsi.php:57
 msgid "MAW-regula_falsi"
-msgstr ""
+msgstr "MAW-regula_falsi"
 
 #: taylor.php:18
 msgid "Degree of Taylor polynomial"
@@ -860,7 +860,7 @@ msgstr ""
 #~ msgstr "二阶微分方程"
 
 #~ msgid "Stationary points of autonomous system"
-#~ msgstr "自治微分方程的驻点"
+#~ msgstr "自治系统的驻点"
 
 #~ msgid "Nonlinear equations using bisection"
 #~ msgstr "二分法解非线性方程"
