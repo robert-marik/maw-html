@@ -594,12 +594,11 @@ msgid "Enter function and choose variables and order for integration "
 msgstr "输入函数，选择变量和积分顺序"
 
 #: integral2.php:59
-#, fuzzy
 msgid ""
 " The Jacobian in polar coordinates is added automatically. You can write "
 "<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
 msgstr ""
-"极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\"> 可以写为 "
+"极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\" alt=\"phi\"> 可以写为 "
 "<b>phi</b> 。"
 
 #: integral2.php:63
