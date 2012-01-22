@@ -6,4 +6,5 @@ msgmerge -U locale/ca_ES.po messages.po
 msgmerge -U locale/fr_FR.po messages.po
 msgmerge -U locale/zh_CN.po messages.po
 msgmerge -U locale/ru_RU.po messages.po
+msgmerge -U locale/de_DE.po messages.po
 

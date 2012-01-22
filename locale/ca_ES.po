@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-20 21:38+0100\n"
+"POT-Creation-Date: 2012-01-22 12:40+0100\n"
 "PO-Revision-Date: 2010-04-18 22:14+0100\n"
 "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -135,6 +135,13 @@ msgid "MAW-bisection"
 msgstr ""
 "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia.org/wiki/"
 "Bisection_method\">mètode de bisecció</a>"
+
+#: custom.php:6
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
 
 #: derivace.php:2 index.php:378
 msgid "Derivative and partial derivative"
@@ -892,83 +899,3 @@ msgstr ""
 "avançat, per poder comparar.</li>    <li>Si el nombre de punts és inferior a "
 "10 i si la funció no pren valors negatius a l'interval, apareix també la "
 "gràfica de la funció amb els trapezis. </li>       </ul>"
-
-#~ msgid "Function in two variables"
-#~ msgstr "Funció de dues variables"
-
-#~ msgid "Introduction, general remarks"
-#~ msgstr "Introducció, comentaris generals"
-
-#~ msgid "Graphs of basic elementary functions"
-#~ msgstr "Gràfiques de funcions elementals"
-
-#~ msgid "Natural domains of function in one or two variables"
-#~ msgstr "Domini de definició d'una funció d'una o dues variables"
-
-#~ msgid "Fitting data file using least squares method"
-#~ msgstr "Ajustar dades amb el mètode dels mínims quadrats"
-
-#~ msgid "Investigating function"
-#~ msgstr "Estudi de funcions"
-
-#~ msgid "Derivative in one variable"
-#~ msgstr "Derivada en una variable"
-
-#~ msgid "Partial derivative in two variables"
-#~ msgstr "Derivada parcial en dues variables"
-
-#~ msgid "Local maxima and minima for functions in two variables"
-#~ msgstr "Máxims i mínims locals d'una funció de dues variables"
-
-#~ msgid "Indefinite integral (anitiderivative)"
-#~ msgstr "Integral indefinida (anti-derivada)"
-
-#~ msgid "Approximation of definite integral by trapezoidal rule"
-#~ msgstr "Aproximació d'una integral per trapezis"
-
-#~ msgid "First order differerential equations"
-#~ msgstr "Equacions diferencials de primer ordre"
-
-#~ msgid ""
-#~ "Second order differential equations (linear, using variantion of constant "
-#~ "and using guess of particular solution)"
-#~ msgstr ""
-#~ "Equacions diferencials de segon ordre (lineals, amb variació de constants "
-#~ "i havent endevinat una solució particular)"
-
-#~ msgid "Stationary points of autonomous system"
-#~ msgstr "Punts estacionaris d'un sistema autònom"
-
-#~ msgid "Nonlinear equations using bisection"
-#~ msgstr "Equacions no-lineals per bisecció"
-
-#, fuzzy
-#~ msgid "Nonlinear equations using regula falsi"
-#~ msgstr "Equacions no-lineals per bisecció"
-
-#~ msgid "Nonlinear equations using method of iterations"
-#~ msgstr "Equacions no-lineals amb el mètode d'iteracions"
-
-#~ msgid "System of inequalities in one or two variables"
-#~ msgstr "Sistema d'inequacions en una o dues variables"
-
-#~ msgid "Site map (what you can find on this site and where)."
-#~ msgstr "Mapa (què hi ha a aquesta adreça web i on trobar-ho)"
-
-#~ msgid "Support"
-#~ msgstr "Ajuda"
-
-#~ msgid "Tested on Firefox, Opera and Konqueror."
-#~ msgstr "Bon funcionament comprovat amb Firefox, Opera i Konqueror."
-
-#~ msgid "Some features do not work on Internet Explorer."
-#~ msgstr "Diverses funcionalitats desapareixen amb Internet Explorer."
-
-#~ msgid "Funtion in two variables"
-#~ msgstr "Funció de dues variables"
-
-#~ msgid "Server load in last hour: "
-#~ msgstr "Càrrega del servidor durant la darrera hora:"
-
-#~ msgid "uptime"
-#~ msgstr "temps d'ençà la darrera arrencada"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-20 21:38+0100\n"
+"POT-Creation-Date: 2012-01-22 12:40+0100\n"
 "PO-Revision-Date: 2010-02-26 12:20+0100\n"
 "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -131,6 +131,13 @@ msgid "MAW-bisection"
 msgstr ""
 "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji\">Metoda "
 "bisekcji na Wikipedii</a>"
+
+#: custom.php:6
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
 
 #: derivace.php:2 index.php:378
 msgid "Derivative and partial derivative"
@@ -861,98 +868,3 @@ msgstr ""
 "mniejsza niż 10 i funkcje przyjmuje wartości nieujemne w zadanym przedziale, "
 "to w rozwiązaniu znajdzie się także wykres funkcji i trapezów.</li>       </"
 "ul>"
-
-#~ msgid "Function in two variables"
-#~ msgstr "Funkcja dwóch zmiennych"
-
-#~ msgid "Introduction, general remarks"
-#~ msgstr "Wprowadzenie, uwagi"
-
-#~ msgid "Graphs of basic elementary functions"
-#~ msgstr "Wykres funkcji"
-
-#~ msgid "Natural domains of function in one or two variables"
-#~ msgstr "Dziedzina funkcji jednej lub dwóch zmiennych"
-
-#~ msgid "Fitting data file using least squares method"
-#~ msgstr "Dopasowanie danych wykorzystując metodę najmniejszych kwadratów"
-
-#~ msgid "Investigating function"
-#~ msgstr "Przebieg zmienności funkcji"
-
-#~ msgid "Derivative in one variable"
-#~ msgstr "Pochodna funkcji jednej zmiennej"
-
-#~ msgid "Partial derivative in two variables"
-#~ msgstr "Pochodna cząstkowa funkcji dwóch zmiennych"
-
-#~ msgid "Local maxima and minima for functions in two variables"
-#~ msgstr "Ekstrema lokalne dla funkcji dwóch zmiennych"
-
-#~ msgid "Indefinite integral (anitiderivative)"
-#~ msgstr "Całka nieoznaczona"
-
-#~ msgid "Approximation of definite integral by trapezoidal rule"
-#~ msgstr "Przybliżona wartość całki oznaczonej - metoda trapezów"
-
-#~ msgid "First order differerential equations"
-#~ msgstr "Równania różniczkowe pierwszego rzędu"
-
-#~ msgid ""
-#~ "Second order differential equations (linear, using variantion of constant "
-#~ "and using guess of particular solution)"
-#~ msgstr ""
-#~ "Równania różniczkowe drugiego rzędu (liniowe, uzmienniania stałej i "
-#~ "metody przewidywań)"
-
-#~ msgid "Stationary points of autonomous system"
-#~ msgstr "Punkty stacjonarne autonomicznego układu równań"
-
-#~ msgid "Nonlinear equations using bisection"
-#~ msgstr "Rozwiązywanie równań nieliniowych metodą bisekcji"
-
-#, fuzzy
-#~ msgid "Nonlinear equations using regula falsi"
-#~ msgstr "Rozwiązywanie równań nieliniowych metodą bisekcji"
-
-#~ msgid "Nonlinear equations using method of iterations"
-#~ msgstr "Rozwiązywanie równań nieliniowych metodą iteracji"
-
-#~ msgid "System of inequalities in one or two variables"
-#~ msgstr "Układy nierówności z jedną lub dwiema niewiadomymi"
-
-#~ msgid "Site map (what you can find on this site and where)."
-#~ msgstr "Mapa strony (czyli co możesz znaleźć i gdzie)"
-
-#~ msgid "Support"
-#~ msgstr "Wsparcie"
-
-#~ msgid "Tested on Firefox, Opera and Konqueror."
-#~ msgstr "Testowane w przeglądarkach: Firefox, Opera i Konqueror."
-
-#~ msgid "Some features do not work on Internet Explorer."
-#~ msgstr "Niektóre funkcje nie działają w przeglądarce Internet Explorer"
-
-#~ msgid "Funtion in two variables"
-#~ msgstr "Funkcja dwóch zmiennych"
-
-#~ msgid "Server load in last hour: "
-#~ msgstr "Użycie serwera w ostatniej godzinie:"
-
-#~ msgid "uptime"
-#~ msgstr "czas działania"
-
-#~ msgid ""
-#~ "First order differerential equations (linear and with separated variables)"
-#~ msgstr ""
-#~ "Równania różniczkowe pierwszego rzędu (liniowe i zmiennych rozdzielonych)"
-
-#~ msgid ""
-#~ "(The last option finds particular solution from general solution. To find "
-#~ "general solution use one of the methods above.)"
-#~ msgstr ""
-#~ "(Ostatnia opcja znajduje rozwiązanie szczególne . Aby znaleźć rozwiązanie "
-#~ "ogólne, użyj jedną z metod powyżej)"
-
-#~ msgid "Isolate y'"
-#~ msgstr "Wyznacz y'"

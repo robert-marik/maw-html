@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-20 21:38+0100\n"
+"POT-Creation-Date: 2012-01-22 12:40+0100\n"
 "PO-Revision-Date: 2009-08-27 09:32+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -129,6 +129,13 @@ msgid "MAW-bisection"
 msgstr ""
 "For theory see <a href=\"http://en.wikipedia.org/wiki/Bisection_method"
 "\">Bisection method on Wikipedia</a>"
+
+#: custom.php:6
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
 
 #: derivace.php:2 index.php:378
 msgid "Derivative and partial derivative"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MAW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-20 21:38+0100\n"
+"POT-Creation-Date: 2012-01-22 12:40+0100\n"
 "PO-Revision-Date: 2010-04-18 13:12+0100\n"
 "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
 "Language-Team: marti RA <marti.ruizaltaba@gmail.com>\n"
@@ -141,6 +141,13 @@ msgid "MAW-bisection"
 msgstr ""
 "Peut-être vous faut-il réviser la théorie de la <a href=\"http://en."
 "wikipedia.org/wiki/Bisection_method\">méthode de bisection</a>"
+
+#: custom.php:6
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
 
 #: derivace.php:2 index.php:378
 msgid "Derivative and partial derivative"
@@ -913,83 +920,3 @@ msgstr ""
 "le nombre de points est inférieur à 10 et si la fonction n'est jamais "
 "négative sur l'intervalle, nous montrons aussi le graphique de la fonction "
 "avec les trapèzes employés. </li></ul>"
-
-#~ msgid "Function in two variables"
-#~ msgstr "Fonction à deux variables"
-
-#~ msgid "Introduction, general remarks"
-#~ msgstr "Introduction, commentaires généraux"
-
-#~ msgid "Graphs of basic elementary functions"
-#~ msgstr "Graphiques de fonctions élémentaires"
-
-#~ msgid "Natural domains of function in one or two variables"
-#~ msgstr "Domaine de définition d'une fonction à une ou deux variables"
-
-#~ msgid "Fitting data file using least squares method"
-#~ msgstr "Ajuster des données avec la méthode des moindres carrés"
-
-#~ msgid "Investigating function"
-#~ msgstr "Étude de fonction"
-
-#~ msgid "Derivative in one variable"
-#~ msgstr "Dérivée en une variable"
-
-#~ msgid "Partial derivative in two variables"
-#~ msgstr "Dérivée partielle en deux variables"
-
-#~ msgid "Local maxima and minima for functions in two variables"
-#~ msgstr "Maxima et minima locaux d'une fonction à deux variables"
-
-#~ msgid "Indefinite integral (anitiderivative)"
-#~ msgstr "Intégral indéfinie (anti-dérivée)"
-
-#~ msgid "Approximation of definite integral by trapezoidal rule"
-#~ msgstr "Approximation d'une intégrale par des trapèzes"
-
-#~ msgid "First order differerential equations"
-#~ msgstr "Équations différentielles de premier ordre"
-
-#~ msgid ""
-#~ "Second order differential equations (linear, using variantion of constant "
-#~ "and using guess of particular solution)"
-#~ msgstr ""
-#~ "Équations différentielles de deuxième ordre (linéaires, avec variation de "
-#~ "constants et ayant deviné une solution particulière)"
-
-#~ msgid "Stationary points of autonomous system"
-#~ msgstr "Points stationnaires d'un système autonome"
-
-#~ msgid "Nonlinear equations using bisection"
-#~ msgstr "Équations non-linéaires par bisection"
-
-#, fuzzy
-#~ msgid "Nonlinear equations using regula falsi"
-#~ msgstr "Équations non-linéaires par bisection"
-
-#~ msgid "Nonlinear equations using method of iterations"
-#~ msgstr "Équations non-linéaires avec la méthode d'itérations"
-
-#~ msgid "System of inequalities in one or two variables"
-#~ msgstr "Système d'inéquations à une ou deux variables"
-
-#~ msgid "Site map (what you can find on this site and where)."
-#~ msgstr "Carte (ce qu'il y a sur ce site web et où le trouver)"
-
-#~ msgid "Support"
-#~ msgstr "Aide"
-
-#~ msgid "Tested on Firefox, Opera and Konqueror."
-#~ msgstr "Testé avec Firefox, Opera et Konqueror."
-
-#~ msgid "Some features do not work on Internet Explorer."
-#~ msgstr "Plusieurs fonctionnalités disparaissent avec Internet Explorer."
-
-#~ msgid "Funtion in two variables"
-#~ msgstr "Fonction à deux variables"
-
-#~ msgid "Server load in last hour: "
-#~ msgstr "Charge du serveur pendant la dernière heure:"
-
-#~ msgid "uptime"
-#~ msgstr "temps depuis le dernier démarrage"
