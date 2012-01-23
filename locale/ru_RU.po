@@ -105,7 +105,7 @@ msgstr "(целoe число или конечный десятичный дро
 #: banach.php:56
 msgid "MAW-banach"
 msgstr ""
-"Калькулятор позволяет nolinear решения уравнений с помощью <a "
+"Калькулятор позволяет решения уравнений с помощью <a "
 "href=\"http://ru.wikipedia.org/wiki/"
 "%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%91%D0%B0%D0%BD%D0%B0%D1%85%D0%B0_%D0%BE_"
 "%D0%BD%D0%B5%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B9_%D1%82%D0%BE%D1%87%D0%BA%D0%B5\">Теоремы "
@@ -130,7 +130,7 @@ msgstr "(Целое число от 2 до 40)"
 #: bisection.php:58
 msgid "MAW-bisection"
 msgstr ""
-"Калькулятор позволяет nolinear решения уравнений с помощью< a "
+"Калькулятор позволяет решения уравнений с помощью <a "
 "href=\"http://ru.wikipedia.org/wiki/"
 "%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методa бисекции</a>"
 
@@ -279,6 +279,8 @@ msgstr "Границы для картины (конечныe десятичны
 #: geom.php:112
 msgid "MAW-geom"
 msgstr ""
+"<b>Under construction.</b> Посмотрите на английском языке для некоторых "
+"соответствующих инструкций."
 
 #: graf.php:2 index.php:368
 msgid "Graphs of elementary functions"
@@ -454,8 +456,6 @@ msgstr "Автономная система"
 #: index.php:405 regula_falsi.php:2
 msgid "Regula falsi"
 msgstr ""
-"<b>Under construction.</b> Посмотрите на английском языке для некоторых "
-"соответствующих инструкций."
 
 #: index.php:407
 msgid "System of inequalities (in one or two variables)"
@@ -647,7 +647,7 @@ msgstr ""
 #: main.php:1
 msgid "MAW-main"
 msgstr ""
-"<span class=\"nadpis\"> Об этой странице</span>Этот сайт использует Маxima "
+"<span class=\"nadpis\"> Об этой странице</span><br>Этот сайт использует Маxima "
 "программy для решения типовых задач из дифференциального и "
 "интегрального исчисления. Все решения шаг за шагом.<p>Мы "
 "приветствуем помочь с переводом и языком"
@@ -759,3 +759,5 @@ msgstr ""
 #: trap.php:44
 msgid "MAW-trap"
 msgstr ""
+"<b>Under construction.</b> Посмотрите на английском языке для некоторых "
+"соответствующих инструкций."
