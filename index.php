@@ -357,7 +357,9 @@ function aktivni_form($identifikace){
 
 function nospaces ($a)
 {
-   return (str_replace(" ","&nbsp;",$a));
+   global $submenu_inside;
+   if (!($submenu_inside)) {return (str_replace(" ","&nbsp;",$a));}
+   else {return ($a);}
 }
 
 function maw_submenu ($a,$b,$c,$d)
