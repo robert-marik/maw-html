@@ -355,9 +355,14 @@ function aktivni_form($identifikace){
     return($t);
   }
 
+function nospaces ($a)
+{
+   return (str_replace(" ","&nbsp;",$a));
+}
+
 function maw_submenu ($a,$b,$c,$d)
 {
-return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&amp;form='.$c.'">'.$d.'</a></span></li>';
+return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&amp;form='.$c.'">'.nospaces($d).'</a></span></li>';
 }
 
 function printsubmenu($i)
