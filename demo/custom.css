@@ -7,15 +7,12 @@ body {background-color: #C2FFA3;}
 .olfg {background-color:#36B538; }
 .olfgmath {background-color:#C2FFA3; }
 
-div#kalkulator {background-color: #36B538; }
 .mainmenu, #maw_calculator {background-color: #36B538; color:black;}
 #odkaz_hlavicka {border-color: #36B538;}
 
 div#main a {color: #1782B0;}
 .support a {color: #1782B0;} 
-div#kalkulator a {color: #4726C2;}
-
-div#kalkulator a {color: #4726C2;}
+div#maw_calculator a {color: #4726C2;}
 
 div#odkaz_hlavicka a {color: #333; border-color: #333; 
 border-left: 2px solid  #333; color:#333;}
