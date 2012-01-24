@@ -238,12 +238,12 @@ function lang_links()
 global $form,$lang_array;
 foreach ($lang_array as $i => $value)
   {
-    echo "\n".'<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" ></a>';
+    echo '<a href="index.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" ></a>';
     if ($i<(count($lang_array)-1)) {echo ("&nbsp;");}
   }
 }
 lang_links();
-echo (" &nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More languages")."</a>");
+echo ("&nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More languages")."</a>");
 ?>
 </div>
 
@@ -257,14 +257,11 @@ echo (" &nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More langu
 
 </div>
 <div class="support">
-<a href="<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>">
-<?php  echo __("Support from MAW forum");?></a>
+<a href="<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>"><?php  echo __("Support from MAW forum");?></a>
 <br>
-<a href="changes.txt">
-<?php  echo __("Changelog");?></a>
+<a href="changes.txt"><?php  echo __("Changelog");?></a>
 <br>
-<a href="bugs.txt">
-<?php  echo __("Known bugs");?></a>
+<a href="bugs.txt"><?php  echo __("Known bugs");?></a>
 </div>
 
 <?php 
@@ -334,7 +331,6 @@ $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait f
 function aktivni_konec($cislo)
 {
 global $submenu_inside,$submenu,$submenu_all;
-echo '</span>';
 if ( ($submenu_inside) && (("$cislo"==$submenu) || ($submenu_all)) )
    {
    printsubmenu($cislo);
@@ -344,14 +340,14 @@ echo ("</li>");
 
 function aktivni($cislo){
     global $submenu;
-    echo ("\n".'<li>');
-    if ($submenu==$cislo) echo '<span class="aktivni">'; else echo '<span>';
+    echo ("\n".'<li');
+    if ($submenu==$cislo) echo ' class="maw_active">'; else echo ' class="maw_nonactive">';
   }
 
 function aktivni_form($identifikace){
     global $form;
-    $t="<span>";
-    if ($identifikace==$form) {$t="<span class=\"aktivni\">";}
+    $t="";
+    if ($identifikace==$form) {$t="class=\"maw_active\"";}
     return($t);
   }
 
@@ -364,59 +360,56 @@ function nospaces ($a)
 
 function maw_submenu ($a,$b,$c,$d)
 {
-return "\n".'<li>'.aktivni_form($a).'<a href="index.php?lang='.$b.'&amp;form='.$c.'">'.nospaces($d).'</a></span></li>';
+return "\n".'<li '.aktivni_form($a).'><a href="index.php?lang='.$b.'&amp;form='.$c.'">'.nospaces($d).'</a></li>';
 }
 
 function printsubmenu($i)
 {
   global $lang;
+  $proceed=false;
+  if (in_array($i,array("2","3","4","5","6")))
+    {
+      echo ("\n<div class=\"submenu_container\">\n<ul class=\"submenu\">");
+      $proceed=true;
+    }
   if ($i=="2") {
-    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
     echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
     echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
     echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
     echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
-    echo ("\n</ul>");
   }
   elseif ($i=="3")
   {
-    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
     echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
     echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
     echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
-    echo ("\n</ul>");
   } 
   elseif ($i=="4")
   {
-    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
     echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
     echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
     echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
-    echo ("\n</ul>");
   } 
   elseif ($i=="5")
   {
-    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
     echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
     echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
-    echo ("\n</ul>");
   } 
   elseif ($i=="6")
   {
-    echo ("\n<ul class=\"submenu\">");
     echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
     echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
     echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
     echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
-    echo ("\n</ul>");
-  } 
+  }
+  if ($proceed) {echo ("\n</ul>\n</div>\n");}
 }
 
-printf("\n<ul>");
+printf("\n<ul class=\"maw_menu\">");
 aktivni(1);
 echo('<a href="index.php?lang='.$lang.'">');
 echo __('Introduction'); 
@@ -490,7 +483,7 @@ else
 </div>
 </div>
 
-<div id="kalkulator">
+<div id="maw_calculator">
 
 <?php
 include($form.".php");

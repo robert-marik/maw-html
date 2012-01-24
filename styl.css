@@ -1,45 +1,42 @@
-form {font-size:110%; background-color: #E0FFFF; }
-
-div#kalkulator {margin-bottom:20px; 
-margin-top: 1px; padding: 10px; text-align:left; background-color: #9ce6f3;}
-
-div#after-form {margin-left: 5px; margin-top: 5px; padding: 10px; text-align:left; font-size:140%; background-color: #E0FFFF; color:gray;}
-div#after-form a{color:gray;}
-
-div#main{}
-
-.support{font-size:65%; position: absolute; top:30 px; right:5px; text-align:right; }
+.support{font-size:65%; position: absolute; top:30px; right:5px; text-align:right; }
 div#flags-left{font-size:75%; position:absolute; left: 0px; top: 0px; }
 div#flags-right{font-size:75%; text-align:right; position:absolute; right: 0; top: 0;}
 div#flags {position: relative;}
-
 
 div#main-title{font-size:160%; text-align:center; font-weight:bolder; margin-bottom:10px;}
 div#subtitle{font-size:80%; text-align:center; margin-bottom:10px;}
 div#subsubtitle{font-size:80%; text-align:center;}
 
-div#aftermenu{color:#444444; }
-div#comments{color:#444444; }
-div#comments a{color:#4444FF; }
-div#history{margin-bottom:12px;}
-div#history a{color: #444444;}
+form {font-size:110%; background-color: #E0FFFF; padding:10px;}
 
-div#odkaz_hlavicka a {line-height: 220%;text-decoration:
-none; margin: 5px; padding: 5px;
-border-color: #555; border-left: 2px solid  #555; color:#555; font-weight : bold;
-}
+#maw_calculator {margin-bottom:20px; margin-top: 1px; padding: 10px; text-align:left; background-color: #9ce6f3;}
+legend {color:black;}
 
-div#odkaz_hlavicka{text-align: left; margin-top:20px; margin-bottom:10px;}
+#after-form {margin-left: 5px; margin-top: 5px; padding: 10px; text-align:left; background-color: #E0FFFF; color:gray;}
+#after-form a{color:gray;}
 
-div#odkaz_hlavicka ul li {display: inline;}
-div#odkaz_hlavicka ul {margin: 0; padding: 0;}
+#aftermenu{color:#444444; margin-top: 5px; display:none;}
+#comments{color:#444444; }
+#comments a{color:#4444FF; }
+#history{margin-bottom:12px;}
+#history a{color: #444444;}
+
+#odkaz_hlavicka {border: 3px solid #9CE6F3;}
+
+#odkaz_hlavicka a {line-height:220%; text-decoration:none; margin:2px; padding: 5px; border-left: 2px solid  #555; color:#555; 
+font-weight : bold; white-space: nowrap; }
+
+#odkaz_hlavicka{text-align: left; margin-top:20px; margin-bottom:10px;}
+
+#odkaz_hlavicka ul li {display: inline;}
+#odkaz_hlavicka ul {margin: 0; padding: 0;}
 
 
 .submenu {margin-bottom:10px ; }
 .submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
 
-.submenu .aktivni a{border-bottom: 1px solid #555; color:#000;}
-#odkaz_hlavicka .aktivni a { border-bottom: 2px solid #555; color:#000;}
+.submenu .maw_active a{border-bottom: 1px solid #555; color:#000;}
+#odkaz_hlavicka .maw_active a { border-bottom: 2px solid #555; color:#000;}
 
 .submenu a:hover   {color: red;}
 #odkaz_hlavicka a:hover   {color: red;}
@@ -64,7 +61,7 @@ td {font-size:14px; }
 
 .red {color:red;}
 
-div#processing {font-size:130%; color:gray;}
+#processing {color:gray;}
 
 .gray { color:gray;}
 .gray a { color:gray;}
@@ -86,4 +83,3 @@ input.tlacitko {margin-bottom: 5px; margin-top: 5px;}
 
 #test_binaries, #test_forms, #test_filter {display:none;}
 #test_binaries {background-color: #BBB; max-width:900px; margin:5px;}
-
