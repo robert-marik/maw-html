@@ -1,6 +1,4 @@
-.support{font-size:75%; text-align:right; height:10px;}
-
-form {background-color: #C2FFA3; margin:2px; padding:10px;}
+form {background-color: #C2FFA3;}
 div#after-form {background-color: #C2FFA3;}
 body {background-color: #C2FFA3;}
 
@@ -10,25 +8,19 @@ body {background-color: #C2FFA3;}
 .olfgmath {background-color:#C2FFA3; }
 
 div#kalkulator {background-color: #36B538; }
-.mainmenu{background-color: #36B538; color:black;}
-
-div#support a {color: #333;}
+.mainmenu, #maw_calculator {background-color: #36B538; color:black;}
+#odkaz_hlavicka {border-color: #36B538;}
 
 div#main a {color: #1782B0;}
-
+.support a {color: #1782B0;} 
 div#kalkulator a {color: #4726C2;}
 
-/* div#menu{border: 3px solid #666666;}
-div#submenu{border: 3px solid #666666;} */
-
+div#kalkulator a {color: #4726C2;}
 
 div#odkaz_hlavicka a {color: #333; border-color: #333; 
 border-left: 2px solid  #333; color:#333;}
 
-
 div#after-form {color: red;}
-
-/* .vnitrni {margin:6px;} */
 
 .red{color: #E81046;}
 .submenu a:hover   {color: #E81046;}
