@@ -67,14 +67,13 @@ value="<?php echo $function;?>">
 
 <br>
 <span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
- <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
-
+<span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko">
 </fieldset>
 <input name="logarc" type="checkbox"  checked="checked"> 
 <?php echo __('write acsinh and atanh in terms of log'); ?>
 <br>
 <?php echo $submitbutton;?>
-
 </form><?php maw_after_form(); ?>
 
 <?php history("integral2",$server); 

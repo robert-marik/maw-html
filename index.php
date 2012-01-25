@@ -171,27 +171,6 @@ newwin =
 window.open("MAW_dragmath.html","","width=600,height=450,resizable")
 }
 
-function preview(textarea)
-{
-<?php
-    echo 'server="',$server,'";';
-?>
-  if (document.forms['exampleform'].elements['formconv'].value=="on")
-    {
-thenumber = textarea;
-thedata = document.forms['exampleform'].elements[textarea].value
-newwin =
-window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&amp;expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
-	}
-  else
-    {
-thenumber = textarea;
-thedata = document.forms['exampleform'].elements[textarea].value
-newwin =
-window.open(server+"/common/maxima.php?lang=<?php echo $lang;?>&amp;expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable")
-    }
-}
-
 function previewb(textarea)
 {
 <?php
@@ -209,6 +188,16 @@ function previewb_int2(textarea)
     echo 'server="',$server,'";';
 ?>
   thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
+newwin =
+window.open(thedata,"","width=565,height=150,resizable");
+}
+
+function preview_region(textarea)
+{
+<?php
+    echo 'server="',$server,'";';
+?>
+    thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements['funkce'].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value)+"&region=1";
 newwin =
 window.open(thedata,"","width=565,height=150,resizable");
 }
