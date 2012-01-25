@@ -109,11 +109,17 @@ if (in_array($form,$group7)) {$submenu=7;}
 if ($submenu==1) { $form="main";}
 
 function hint_preview($a=""){
- echo ("\n".'<div class="hint_preview">');
- echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
- echo ($a);
- echo ('</div><br>');
- }
+  if ($a!="")
+    {
+      echo ("\n".'<div class="hint_preview">');
+      // echo __("Troubles with writing math? Clicking Preview you get how <a href=\"http://formconv.sourceforge.net/\">formconv</a> renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
+      echo ($a);
+      echo ('</div>');
+    }
+  echo ('<br>');
+}
+
+$previewmsg=__("Troubles with writing math? Clicking Preview you get how formconv renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
 
 function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
 function maw_after_form() {

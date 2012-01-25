@@ -41,7 +41,7 @@ name="exampleform">
   <span style="font-style: italic;">x' =</span> <input name="funkcef" value="<?php echo $fcef; ?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 
 &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-style: italic;"><br>
@@ -49,7 +49,7 @@ class="tlacitko">
 y' =</span> <input name="funkceg" value="<?php echo $fceg; ?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" 
 class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkceg')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkceg')" type="button"
 class="tlacitko">
 
 <?php hint_preview(); ?>

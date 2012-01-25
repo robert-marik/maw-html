@@ -11,7 +11,7 @@ action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <span style="font-style: italic;">f(x) =</span> <input name="funkcef" value="x*log(4-x^2)/(sqrt(x-1))" size="35">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 
 <?php hint_preview(); ?>

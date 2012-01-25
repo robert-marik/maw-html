@@ -14,7 +14,7 @@
 italic;">f=</span> <input size="60" name="funkce"
 value="x^3*exp(x^2)">
   <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 
 <?php hint_preview(); ?>
 

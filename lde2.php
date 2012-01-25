@@ -17,7 +17,7 @@ name="exampleform">
   <span style="font-style: italic;">y</span> = <input size="30" name="f" value="x^2">
 &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('f')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>"  onclick="previewb('f')" type="button"
 class="tlacitko">
 <div class="hint_preview">
 <?php echo __("You can use Preview and Edit buttons for entering the right hand side");

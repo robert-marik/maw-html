@@ -13,7 +13,7 @@
 &nbsp;&nbsp;
 <span style="font-style: italic;">y=</span> <input size="40" name="funkce"
 						    value="1-2*(x-4)^2"> 
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkce')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
 
 <div class="hint_preview">

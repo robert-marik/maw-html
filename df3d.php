@@ -13,7 +13,7 @@ action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="asin(x*y)+sqrt(4-x-y)" size="35">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
 class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" onclick="previewb('funkcef')" type="button"
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 
 <?php hint_preview(); ?>
