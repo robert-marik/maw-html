@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-22 12:45+0100\n"
+"POT-Creation-Date: 2012-01-25 09:07+0100\n"
 "PO-Revision-Date: 2009-08-27 09:32+0200\n"
 "Last-Translator: Robert Marik <marik@carya>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "MAW-autsyst"
 msgstr ""
 
-#: banach.php:2 index.php:406
+#: banach.php:2 index.php:401
 msgid "Method of iterations"
 msgstr ""
 
@@ -102,7 +102,7 @@ msgstr ""
 msgid "MAW-banach"
 msgstr ""
 
-#: bisection.php:2 index.php:404
+#: bisection.php:2 index.php:399
 msgid "Bisection"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgid ""
 "foundation.</a>"
 msgstr ""
 
-#: derivace.php:2 index.php:378
+#: derivace.php:2 index.php:379
 msgid "Derivative and partial derivative"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Domain of a function in one variable"
 msgstr ""
 
-#: df.php:21 geom.php:53
+#: df.php:21 geom.php:52
 msgid "Parameters"
 msgstr ""
 
@@ -209,59 +209,59 @@ msgstr ""
 msgid "Lower bound"
 msgstr ""
 
-#: geom.php:37
+#: geom.php:36
 msgid ""
 "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
 "curves by choosing \"intercepts\" in parameters for computation)</small>"
 msgstr ""
 
-#: geom.php:42
+#: geom.php:41
 msgid "lower bound"
 msgstr ""
 
-#: geom.php:46
+#: geom.php:45
 msgid "upper bound"
 msgstr ""
 
-#: geom.php:55
+#: geom.php:54
 msgid "Action"
 msgstr ""
 
-#: geom.php:60
+#: geom.php:59
 #, php-format
 msgid "Find %s area %s between two curves and draw graph."
 msgstr ""
 
-#: geom.php:66
+#: geom.php:65
 #, php-format
 msgid "Find %s volume %s of solid of revolution and draw graph"
 msgstr ""
 
-#: geom.php:71
+#: geom.php:70
 msgid "preview solid of revolution"
 msgstr ""
 
-#: geom.php:73
+#: geom.php:72
 msgid "show colors, no mesh"
 msgstr ""
 
-#: geom.php:75
+#: geom.php:74
 msgid "hide invisible parts"
 msgstr ""
 
-#: geom.php:81
+#: geom.php:80
 msgid "Find intercepts of curves"
 msgstr ""
 
-#: geom.php:83
+#: geom.php:82
 msgid "Bounds for the picture (decimal numbers)"
 msgstr ""
 
-#: geom.php:112
+#: geom.php:111
 msgid "MAW-geom"
 msgstr ""
 
-#: graf.php:2 index.php:368
+#: graf.php:2 index.php:371
 msgid "Graphs of elementary functions"
 msgstr ""
 
@@ -300,167 +300,166 @@ msgstr ""
 msgid "MAW-graf"
 msgstr ""
 
-#: index.php:113
+#: index.php:122
 msgid ""
-"Troubles with writing math? Clicking Preview you get how <a href=\"http://"
-"formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
-"can enter this expression in Maxima notation (you can use copy and paste to "
-"transfer to the form.)"
+"Clicking this button you get how formconv renders your expression and how "
+"you can enter this expression in Maxima notation (you can use copy and paste "
+"to transfer to the form.)"
 msgstr ""
 
-#: index.php:120
+#: index.php:126
 #, php-format
 msgid ""
 "Your input is being processed. Wait few seconds to see the output. Click "
 "%shere%s to reopen the form which has been submited."
 msgstr ""
 
-#: index.php:127
+#: index.php:133
 msgid "History"
 msgstr ""
 
-#: index.php:160 index.php:280
+#: index.php:166 index.php:272
 msgid "Mathematical Assistant on Web"
 msgstr ""
 
-#: index.php:227
+#: index.php:222
 msgid "You should turn JavaScript on to see popup informations."
 msgstr ""
 
-#: index.php:246
+#: index.php:241
 msgid "More languages"
 msgstr ""
 
-#: index.php:260
+#: index.php:255
 msgid "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr ""
 
-#: index.php:261
+#: index.php:255
 msgid "Support from MAW forum"
 msgstr ""
 
-#: index.php:264
+#: index.php:257
 msgid "Changelog"
 msgstr ""
 
-#: index.php:267
+#: index.php:259
 msgid "Known bugs"
 msgstr ""
 
-#: index.php:282
+#: index.php:274
 msgid ""
 "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
 "Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
 "\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
 
-#: index.php:283
+#: index.php:275
 #, php-format
 msgid ""
 "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 
-#: index.php:331
+#: index.php:323
 msgid "Submit"
 msgstr ""
 
-#: index.php:331
+#: index.php:323
 msgid "Click only once and wait few seconds for the answer!"
 msgstr ""
 
-#: index.php:369
+#: index.php:372
 msgid "Domain of functions (one variable)"
 msgstr ""
 
-#: index.php:370
+#: index.php:373
 msgid "Domain of functions (two variables)"
 msgstr ""
 
-#: index.php:371 lagrange.php:3
+#: index.php:374 lagrange.php:3
 msgid "Lagrange polynomial"
 msgstr ""
 
-#: index.php:372 mnc.php:3
+#: index.php:375 mnc.php:3
 msgid "Least squares method"
 msgstr ""
 
-#: index.php:379
+#: index.php:380
 msgid "Investigating functions"
 msgstr ""
 
-#: index.php:380 taylor.php:3
+#: index.php:381 taylor.php:3
 msgid "Taylor polynomial"
 msgstr ""
 
-#: index.php:381
+#: index.php:382
 msgid "Local maxima and minima in two variables"
 msgstr ""
 
-#: index.php:387 integral.php:2
+#: index.php:386 integral.php:2
 msgid "Antiderivative"
 msgstr ""
 
-#: index.php:388
+#: index.php:387
 msgid "Geometrical applications of definite integral"
 msgstr ""
 
-#: index.php:389
+#: index.php:388
 msgid "Trapezoidal rule"
 msgstr ""
 
-#: index.php:390 integral2.php:2
+#: index.php:389 integral2.php:2
 msgid "Double integral"
 msgstr ""
 
-#: index.php:396
+#: index.php:393
 msgid "First order ODE"
 msgstr ""
 
-#: index.php:397
+#: index.php:394
 msgid "Second order LDE"
 msgstr ""
 
-#: index.php:398
+#: index.php:395
 msgid "Autonomous system"
 msgstr ""
 
-#: index.php:405 regula_falsi.php:2
+#: index.php:400 regula_falsi.php:2
 msgid "Regula falsi"
 msgstr ""
 
-#: index.php:407
+#: index.php:402
 msgid "System of inequalities (in one or two variables)"
 msgstr ""
 
-#: index.php:415
+#: index.php:410
 msgid "Introduction"
 msgstr ""
 
-#: index.php:421
+#: index.php:416
 msgid "Precalculus"
 msgstr ""
 
-#: index.php:426
+#: index.php:421
 msgid "Calculus"
 msgstr ""
 
-#: index.php:432
+#: index.php:427
 msgid "Integral calculus"
 msgstr ""
 
-#: index.php:438
+#: index.php:433
 msgid "Differential equations"
 msgstr ""
 
-#: index.php:444
+#: index.php:439
 msgid "Equations and inequalities"
 msgstr ""
 
-#: index.php:451
+#: index.php:446
 msgid "Site map, support"
 msgstr ""
 
-#: index.php:477
+#: index.php:472
 msgid ""
 "Enter your data into the calculator and click Submit. You can also change "
 "the type of the caluclator in the second row of the menu. <br>The "
@@ -468,7 +467,7 @@ msgid ""
 "you move your mouse on the name of each group (the first row of the menu)."
 msgstr ""
 
-#: index.php:480
+#: index.php:475
 msgid ""
 "Choose the field of your interest in the menu and then choose the particular "
 "calculator depending on the problem you wich to solve.<br>These calculators "
@@ -555,7 +554,11 @@ msgstr ""
 msgid "Axes (decimal numbers)"
 msgstr ""
 
-#: integral2.php:89
+#: integral2.php:71
+msgid "Preview region of integration"
+msgstr ""
+
+#: integral2.php:88
 msgid "MAW-int2"
 msgstr ""
 

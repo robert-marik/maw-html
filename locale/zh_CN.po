@@ -329,13 +329,13 @@ msgstr ""
 
 #: index.php:113
 msgid ""
-"Troubles with writing math? Clicking Preview you get how <a href=\"http://"
-"formconv.sourceforge.net/\">formconv</a> renders your expression and how you "
+"Clicking this button you get how "
+"formconv renders your expression and how you "
 "can enter this expression in Maxima notation (you can use copy and paste to "
 "transfer to the form.)"
 msgstr ""
-"书写数学表达式有困难？ 点击“预览”即可显示你书写的表达式如何被 <a href="
-"\"http://formconv.sourceforge.net/\">formconv</a> 展现，以及你如何用 Maxima "
+"点击“预览”即可显示你书写的表达式如何被 "
+"formconv展现，以及你如何用 Maxima "
 "符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到这个表单中。）"
 
 #: index.php:120

@@ -119,7 +119,7 @@ function hint_preview($a=""){
   echo ('<br>');
 }
 
-$previewmsg=__("Troubles with writing math? Clicking Preview you get how formconv renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
+$previewmsg=__("Clicking this button you get how formconv renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
 
 function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
 function maw_after_form() {
