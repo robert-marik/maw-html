@@ -4,8 +4,8 @@ div#flags-right{font-size:75%; text-align:right; position:absolute; right: 0; to
 div#flags {position: relative;}
 
 div#main-title{font-size:160%; text-align:center; font-weight:bolder; margin-bottom:10px;}
-div#subtitle{font-size:80%; text-align:center; margin-bottom:10px;}
-div#subsubtitle{font-size:80%; text-align:center;}
+div#subtitle:first-letter{text-transform: capitalize;}
+div#subsubtitle{}
 
 form {font-size:110%; background-color: #E0FFFF; padding:10px;}
 

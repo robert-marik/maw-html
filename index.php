@@ -4,6 +4,7 @@
 Mathematical Assistant on Web - web interface for mathematical
 coputations including step by step solutions
 Copyright 2007-2010 Robert Marik, Miroslava Tihlarikova           
+Copyright 2011-2012 Robert Marik
 
 This file is part of Mathematical Assistant on Web.
 
@@ -270,9 +271,8 @@ if (file_exists('./mawcustom_top.php'))
 
 echo "\n".'<div id="title">'."\n".'<div id="main-title">';
 echo __('Mathematical Assistant on Web');
-echo '</div><div id="subtitle">'; 
-echo __('written by <a href="http://user.mendelu.cz/marik" target="_blank">Robert Mař&iacute;k</a> and <a href="http://user.mendelu.cz/tihlarik" target="_blank">Miroslava Tihlař&iacute;kov&aacute;</a>');
-echo '</div>'."\n".'<div id="subsubtitle">('.sprintf(__('%sOffline version%s is also available and translators are %s welcomed %s.'),'<a href="offline.php">','</a>','<a href="translators.html">','</a>').')</div></div></div>';
+echo '</div></div></div>';
+
 
 if (file_exists('./mawcustom_aftertitle.php')) 
 {
