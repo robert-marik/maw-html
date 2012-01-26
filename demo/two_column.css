@@ -19,9 +19,9 @@ div#main a {color: #1782B0;}
 
 div#maw_calculator a {color: #4726C2;}
 
-/* div#menu{border: 3px solid #666666;}
-div#submenu{border: 3px solid #666666;} */
-
+ul.maw_menu {white-space: normal; overflow: visible;}
+ul.submenu {white-space: normal; overflow: visible;}
+.maw_menu, .submenu {text-shadow: 0 0 0px rgba(100,100,100,1);}
 
 div#odkaz_hlavicka a {color: #333; border-color: #333; border-left: 0px; white-space: normal; }
 

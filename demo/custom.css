@@ -20,7 +20,6 @@ border-left: 2px solid  #333; color:#333;}
 div#after-form {color: red;}
 
 .red{color: #E81046;}
-.submenu a:hover   {color: #E81046;}
 div#odkaz_hlavicka a:hover   {color: #E81046;}
 
 input.design_button { background-color:transparent;
@@ -31,3 +30,14 @@ input.design_button:hover {color:#AA00AA;}
 div#design_button {text-align: center;   width: 100%;} 
 
 #aftermenu {display: none;}
+ul.maw_menu {white-space: nowrap; overflow: auto;}
+
+ul.submenu {white-space: nowrap; overflow: auto;}
+
+.maw_menu, .submenu {
+   text-shadow: 0 0 8px rgba(100,100,100,1);
+}
+
+#odkaz_hlavicka .maw_active a { text-shadow: 0 0 0 rgba(0.1,0.1,0.1,0.4);}
+#odkaz_hlavicka a:hover   { text-shadow: 0 0 0 rgba(0.1,0.1,0.1,0.4);}
+
