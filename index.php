@@ -203,9 +203,9 @@ function preview_region(textarea)
 <?php
     echo 'server="',$server,'";';
 ?>
-    thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements['funkce'].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value)+"&region=1";
+    thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements['funkce'].value)+"&xmin="+encodeURIComponent(document.forms['exampleform'].elements['xmin'].value)+"&xmax="+encodeURIComponent(document.forms['exampleform'].elements['xmax'].value)+"&ymin="+encodeURIComponent(document.forms['exampleform'].elements['ymin'].value)+"&ymax="+encodeURIComponent(document.forms['exampleform'].elements['ymax'].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value)+"&region=1";
 newwin =
-window.open(thedata,"","width=565,height=150,resizable");
+window.open(thedata,"","width=565,height=500,resizable");
 }
 
   </script>
