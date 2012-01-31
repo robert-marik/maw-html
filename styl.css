@@ -5,7 +5,7 @@ div#flags {position: relative;}
 
 div#main-title{font-size:160%; text-align:center; font-weight:bolder; margin-bottom:10px;padding-top:30px;}
 div#subtitle:first-letter{text-transform: capitalize;}
-div#subsubtitle{}
+#subtitle {padding-bottom: 10px;}
 
 form {font-size:110%; background-color: #E0FFFF; padding:10px;}
 
