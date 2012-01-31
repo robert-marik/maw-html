@@ -54,7 +54,7 @@ msgstr ""
 
 #: autsyst.php:80
 msgid "MAW-autsyst"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: banach.php:2 index.php:401
 msgid "Method of iterations"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: banach.php:56
 msgid "MAW-banach"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: bisection.php:2 index.php:399
 msgid "Bisection"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: bisection.php:58
 msgid "MAW-bisection"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: custom.php:6
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: derivace.php:47
 msgid "MAW-der"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: df.php:2
 msgid "Domain of a function in one variable"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: df.php:36
 msgid "MAW-df"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: df3d.php:3
 msgid "Domain of a function in two variables"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: df3d.php:44
 msgid "MAW-df3d"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: geom.php:2
 msgid "Definite integral in geometry"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: geom.php:111
 msgid "MAW-geom"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: graf.php:2 index.php:371
 msgid "Graphs of elementary functions"
@@ -298,7 +298,7 @@ msgstr ""
 
 #: graf.php:61
 msgid "MAW-graf"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: index.php:122
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 
 #: index.php:166 index.php:272
 msgid "Mathematical Assistant on Web"
-msgstr ""
+msgstr "Mathematik Schritt für Schritt und online"
 
 #: index.php:222
 msgid "You should turn JavaScript on to see popup informations."
@@ -508,7 +508,7 @@ msgstr ""
 
 #: ineq2d.php:57
 msgid "MAW-ineq2d"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: integral.php:28
 msgid ""
@@ -538,7 +538,7 @@ msgstr ""
 
 #: integral.php:59
 msgid "MAW-int"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: integral2.php:24
 msgid "Enter function and choose variables and order for integration "
@@ -560,7 +560,7 @@ msgstr ""
 
 #: integral2.php:88
 msgid "MAW-int2"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: lagrange.php:11 mnc.php:11
 msgid "Data file"
@@ -568,7 +568,7 @@ msgstr ""
 
 #: lagrange.php:22
 msgid "MAW-lagr"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: lde2.php:3
 msgid "Second order linear differential equations"
@@ -600,15 +600,15 @@ msgstr ""
 
 #: lde2.php:51
 msgid "MAW-lde2"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: main.php:1
 msgid "MAW-main"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: map.php:3
 msgid "MAW-map"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: mawconfightml.php:48
 msgid "Switch to a full design"
@@ -636,11 +636,11 @@ msgstr ""
 
 #: minmax3d.php:85
 msgid "MAW-minmax3d"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: mnc.php:21
 msgid "MAW-mnc"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: ode.php:20
 msgid "Ordinary differential equations"
@@ -656,7 +656,7 @@ msgstr ""
 
 #: ode.php:53
 msgid "MAW-ode"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: prubeh.php:2
 msgid "Function calculator"
@@ -664,11 +664,11 @@ msgstr ""
 
 #: prubeh.php:57
 msgid "MAW-prub"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: regula_falsi.php:57
 msgid "MAW-regula_falsi"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."
 
 #: taylor.php:18
 msgid "Degree of Taylor polynomial"
@@ -700,4 +700,4 @@ msgstr ""
 
 #: trap.php:44
 msgid "MAW-trap"
-msgstr ""
+msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu lesen."

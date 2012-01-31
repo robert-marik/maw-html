@@ -20,4 +20,7 @@ msgfmt zh_CN.po  --output-file zh_CN.mo
 echo "Updating Russian .mo file"
 msgfmt ru_RU.po  --output-file ru_RU.mo
 
+echo "Updating German .mo file"
+msgfmt de_DE.po  --output-file de_DE.mo
+
 cd -
