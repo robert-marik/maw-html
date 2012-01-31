@@ -1,6 +1,6 @@
 # translation of messages.po to 
 # German translations for MAW package.
-# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the MAW package.
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009.
@@ -47,9 +47,7 @@ msgid "find Jacobi matrix at stationary point"
 msgstr ""
 
 #: autsyst.php:72 minmax3d.php:74
-msgid ""
-"use computer to find stationary points first (this may fail to find all "
-"stationary points, however)"
+msgid "use computer to find stationary points first (this may fail to find all stationary points, however)"
 msgstr ""
 
 #: autsyst.php:80
@@ -124,14 +122,13 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: custom.php:6
 msgid ""
-"Did we help you with your math problem? Did we save your time? If so, "
-"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
-"foundation.</a>"
+"Did we help you with your math problem? Did we save your time? If so, consider to send some money to <a "
+"href=\"http://www.unicef.org/\">UNICEF foundation.</a>"
 msgstr ""
 
 #: derivace.php:2 index.php:379
 msgid "Derivative and partial derivative"
-msgstr ""
+msgstr "Ableitung"
 
 #: derivace.php:22
 msgid "automatically use linearity of derivative"
@@ -211,8 +208,8 @@ msgstr ""
 
 #: geom.php:36
 msgid ""
-"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
-"curves by choosing \"intercepts\" in parameters for computation)</small>"
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both curves by choosing \"intercepts\" in "
+"parameters for computation)</small>"
 msgstr ""
 
 #: geom.php:41
@@ -263,13 +260,12 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: graf.php:2 index.php:371
 msgid "Graphs of elementary functions"
-msgstr ""
+msgstr "Graphen der elementaren Funktionen"
 
 #: graf.php:20
 msgid ""
-"(the function must either a basic elementary function of a function which "
-"can be obtained from on of basic elementary functions by shifting and "
-"resizing graph)"
+"(the function must either a basic elementary function of a function which can be obtained from on of basic elementary "
+"functions by shifting and resizing graph)"
 msgstr ""
 
 #: graf.php:25
@@ -302,16 +298,15 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: index.php:122
 msgid ""
-"Clicking this button you get how formconv renders your expression and how "
-"you can enter this expression in Maxima notation (you can use copy and paste "
-"to transfer to the form.)"
+"Clicking this button you get how formconv renders your expression and how you can enter this expression in Maxima "
+"notation (you can use copy and paste to transfer to the form.)"
 msgstr ""
 
 #: index.php:126
 #, php-format
 msgid ""
-"Your input is being processed. Wait few seconds to see the output. Click "
-"%shere%s to reopen the form which has been submited."
+"Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been "
+"submited."
 msgstr ""
 
 #: index.php:133
@@ -328,7 +323,7 @@ msgstr ""
 
 #: index.php:241
 msgid "More languages"
-msgstr ""
+msgstr "Weitere Sprachen"
 
 #: index.php:255
 msgid "http://sourceforge.net/apps/phpbb/mathassistant"
@@ -348,15 +343,13 @@ msgstr ""
 
 #: index.php:274
 msgid ""
-"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
-"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> and <a "
+"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr ""
 
 #: index.php:275
 #, php-format
-msgid ""
-"%sOffline version%s is also available and translators are %s welcomed %s."
+msgid "%sOffline version%s is also available and translators are %s welcomed %s."
 msgstr ""
 
 #: index.php:323
@@ -369,35 +362,35 @@ msgstr ""
 
 #: index.php:372
 msgid "Domain of functions (one variable)"
-msgstr ""
+msgstr "Definitionsbereich (eine Variable)"
 
 #: index.php:373
 msgid "Domain of functions (two variables)"
-msgstr ""
+msgstr "Definitionsbereich (zwei Variablen)"
 
 #: index.php:374 lagrange.php:3
 msgid "Lagrange polynomial"
-msgstr ""
+msgstr "Polynominterpolation"
 
 #: index.php:375 mnc.php:3
 msgid "Least squares method"
-msgstr ""
+msgstr "Methode der kleinsten Quadrate"
 
 #: index.php:380
 msgid "Investigating functions"
-msgstr ""
+msgstr "Graphen (mit Ableitungen)"
 
 #: index.php:381 taylor.php:3
 msgid "Taylor polynomial"
-msgstr ""
+msgstr "Taylorpolynom"
 
 #: index.php:382
 msgid "Local maxima and minima in two variables"
-msgstr ""
+msgstr "Extremwerten (zwei Variablen)"
 
 #: index.php:386 integral.php:2
 msgid "Antiderivative"
-msgstr ""
+msgstr "Integral"
 
 #: index.php:387
 msgid "Geometrical applications of definite integral"
@@ -405,85 +398,81 @@ msgstr ""
 
 #: index.php:388
 msgid "Trapezoidal rule"
-msgstr ""
+msgstr "Trapezregel"
 
 #: index.php:389 integral2.php:2
 msgid "Double integral"
-msgstr ""
+msgstr "Doppelintegral"
 
 #: index.php:393
 msgid "First order ODE"
-msgstr ""
+msgstr "Differentialgleichungen erster Ordnung"
 
 #: index.php:394
 msgid "Second order LDE"
-msgstr ""
+msgstr "Differentialgleichungen zweiter Ordnung"
 
 #: index.php:395
 msgid "Autonomous system"
-msgstr ""
+msgstr "Autonome Systeme"
 
 #: index.php:400 regula_falsi.php:2
 msgid "Regula falsi"
-msgstr ""
+msgstr "Regula-falsi-Verfahren"
 
 #: index.php:402
 msgid "System of inequalities (in one or two variables)"
-msgstr ""
+msgstr "System der Ungleichheiten (eine oder zwei Variablen)"
 
 #: index.php:410
 msgid "Introduction"
-msgstr ""
+msgstr "Einführung"
 
 #: index.php:416
 msgid "Precalculus"
-msgstr ""
+msgstr "Funktionen"
 
 #: index.php:421
 msgid "Calculus"
-msgstr ""
+msgstr "Differentialrechnung"
 
 #: index.php:427
 msgid "Integral calculus"
-msgstr ""
+msgstr "Integralrechnung"
 
 #: index.php:433
 msgid "Differential equations"
-msgstr ""
+msgstr "Differentialgleichungen"
 
 #: index.php:439
 msgid "Equations and inequalities"
-msgstr ""
+msgstr "Gleichungen und Ungleichungen"
 
 #: index.php:446
 msgid "Site map, support"
-msgstr ""
+msgstr "Unterstützung"
 
 #: index.php:472
 msgid ""
-"Enter your data into the calculator and click Submit. You can also change "
-"the type of the caluclator in the second row of the menu. <br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
+"Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row "
+"of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse "
+"on the name of each group (the first row of the menu)."
 msgstr ""
 
 #: index.php:475
 msgid ""
-"Choose the field of your interest in the menu and then choose the particular "
-"calculator depending on the problem you wich to solve.<br>These calculators "
-"are able to solve the problems including step by step solution.<br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
+"Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you "
+"wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators "
+"are divided into several groups, the description is available if you move your mouse on the name of each group (the "
+"first row of the menu)."
 msgstr ""
 
 #: ineq2d.php:3
 msgid "Inequalities"
-msgstr ""
+msgstr "Ungleichungen"
 
 #: ineq2d.php:15
-msgid ""
-"Read the comments below the form to find out, which inequalities can be "
-"solved."
+msgid "Read the comments below the form to find out, which inequalities can be solved."
 msgstr ""
 
 #: ineq2d.php:18
@@ -512,24 +501,22 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: integral.php:28
 msgid ""
-"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
-"mathematical expressions (this allows to write  2x instead of 2*x)"
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert mathematical expressions (this allows to write "
+" 2x instead of 2*x)"
 msgstr ""
 
 #: integral.php:33
 msgid ""
 "use \n"
-"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
-"formulas on html page instead of  \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing formulas on html page instead of  \n"
 "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
 "(the output is better but the rendering could be slower)\n"
 msgstr ""
 
 #: integral.php:42
 msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-"html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
-"composite fractions (with fraction in numerator))"
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> switch "
+"(uncheck this if you get composite fractions (with fraction in numerator))"
 msgstr ""
 
 #: integral.php:47 integral2.php:74
@@ -546,8 +533,8 @@ msgstr ""
 
 #: integral2.php:59
 msgid ""
-" The Jacobian in polar coordinates is added automatically. You can write "
-"<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
+" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img "
+"src=\"phi.png\" alt=\"phi\">."
 msgstr ""
 
 #: integral2.php:63
@@ -644,7 +631,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: ode.php:20
 msgid "Ordinary differential equations"
-msgstr ""
+msgstr "Differentialgleichungen"
 
 #: ode.php:30
 msgid "Equation solved wrt y'"
