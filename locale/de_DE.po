@@ -22,7 +22,7 @@ msgstr ""
 
 #: autsyst.php:3
 msgid "Singular points of autonomous systems"
-msgstr ""
+msgstr "Singuläre Punkte von autonomen Systemen"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
@@ -56,7 +56,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: banach.php:2 index.php:401
 msgid "Method of iterations"
-msgstr ""
+msgstr "Fixpunktiteration"
 
 #: banach.php:23
 msgid "Enter function, interval containing  fixed point and number of steps."
@@ -102,7 +102,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: bisection.php:2 index.php:399
 msgid "Bisection"
-msgstr ""
+msgstr "Bisektionsverfahren"
 
 #: bisection.php:24 regula_falsi.php:24
 msgid "Enter function, interval containing zero and number of steps."
@@ -160,7 +160,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: df.php:2
 msgid "Domain of a function in one variable"
-msgstr ""
+msgstr "Definitionsbereich (eine Variable)"
 
 #: df.php:21 geom.php:52
 msgid "Parameters"
@@ -172,7 +172,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: df3d.php:3
 msgid "Domain of a function in two variables"
-msgstr ""
+msgstr "Definitionsbereich (zwei Variables)"
 
 #: df3d.php:22
 msgid "limits for the picture with domain:"
@@ -188,7 +188,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: geom.php:2
 msgid "Definite integral in geometry"
-msgstr ""
+msgstr "Bestimmtes Integral in der Geometrie"
 
 #: geom.php:12
 msgid "Formulation of the problem"
@@ -559,7 +559,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: lde2.php:3
 msgid "Second order linear differential equations"
-msgstr ""
+msgstr "Lineare Differentialgleichungen (zweiter Ordnung)"
 
 #: lde2.php:13
 msgid "Equation"
@@ -607,7 +607,7 @@ msgstr ""
 
 #: minmax3d.php:3
 msgid "Local extrema in two variables"
-msgstr ""
+msgstr "Lokal extremwerten in zwei Variablen"
 
 #: minmax3d.php:50
 msgid "Task for computation"
@@ -647,7 +647,7 @@ msgstr "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu l
 
 #: prubeh.php:2
 msgid "Function calculator"
-msgstr ""
+msgstr "Graphen von Funktionen (mit Ableitungen)"
 
 #: prubeh.php:57
 msgid "MAW-prub"
