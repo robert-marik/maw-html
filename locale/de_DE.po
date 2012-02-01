@@ -422,7 +422,7 @@ msgstr "Regula-falsi-Verfahren"
 
 #: index.php:402
 msgid "System of inequalities (in one or two variables)"
-msgstr "System der Ungleichheiten (eine oder zwei Variablen)"
+msgstr "Ungleichungen"
 
 #: index.php:410
 msgid "Introduction"
@@ -469,7 +469,7 @@ msgstr ""
 
 #: ineq2d.php:3
 msgid "Inequalities"
-msgstr "Ungleichungen"
+msgstr "System der Ungleichungen (eine oder zwei Variablen)"
 
 #: ineq2d.php:15
 msgid "Read the comments below the form to find out, which inequalities can be solved."
