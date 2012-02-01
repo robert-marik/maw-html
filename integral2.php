@@ -38,10 +38,10 @@ if ($function=="")
    <td><input size="35" name="funkce" 
 value="<?php echo $function;?>">
 <select name="vars">
-<option>dy dx</option>
-<option>dx dy</option>
-<option>r dr dphi</option>
-<option>r dphi dr</option>
+<option value="dy dx">dy dx</option>
+<option value="dx dy">dx dy</option>
+<option value="d dr dphi">r dr dphi</option>
+<option value="d dphi dr">r dphi dr</option>
 </select>
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>"  title="<?php echo($previewmsg); ?>" onclick="previewb_int2('funkce')" type="button" class="tlacitko">
