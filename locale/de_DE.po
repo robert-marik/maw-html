@@ -394,7 +394,7 @@ msgstr "Integral"
 
 #: index.php:387
 msgid "Geometrical applications of definite integral"
-msgstr ""
+msgstr "Bestimmtes Integral"
 
 #: index.php:388
 msgid "Trapezoidal rule"
