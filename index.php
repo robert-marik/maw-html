@@ -54,7 +54,7 @@ $reqlang=$_REQUEST["lang"];
 
 if ($reqlang == "")
   {
-    $reqlang=split(",",$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
+    $reqlang=explode(",",$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
     $reqlang=substr($reqlang[0],0,2);
   }
 
@@ -84,7 +84,7 @@ function fixit($text)
   return str_replace("'","\'",$text);
 }
 
-if (ereg("[^3_2a-z]",$form))
+if (preg_match("/[^3_2a-z]/",$form))
 {
   header('Location:http://user.mendelu.cz/marik/maw');
   die();
