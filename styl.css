@@ -60,6 +60,12 @@ td {font-size:14px; }
 .olfg {background-color:#9ce6f3; }
 
 .red {color:red;}
+.text {color:black;}
+.letterspaced {letter-spacing: 1px; font-weight: bold;}
+.color0 {color:blue;}
+.color1 {color:red;}
+.color2 {color:green;}
+.color3 {color:black;}
 
 #processing {color:gray;}
 

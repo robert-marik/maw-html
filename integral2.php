@@ -40,8 +40,8 @@ value="<?php echo $function;?>">
 <select name="vars">
 <option value="dy dx">dy dx</option>
 <option value="dx dy">dx dy</option>
-<option value="d dr dphi">r dr dphi</option>
-<option value="d dphi dr">r dphi dr</option>
+<option value="r dr dphi">r dr dphi</option>
+<option value="r dphi dr">r dphi dr</option>
 </select>
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>"  title="<?php echo($previewmsg); ?>" onclick="previewb_int2('funkce')" type="button" class="tlacitko">
