@@ -37,7 +37,7 @@ if ($function=="")
    <td><img src="int.gif" alt="int"></td>
    <td><input size="35" name="funkce" 
 value="<?php echo $function;?>">
-<select name="vars">
+<select name="vars" onChange="allow_preview(this.value);">
 <option value="dy dx">dy dx</option>
 <option value="dx dy">dx dy</option>
 <option value="r dr dphi">r dr dphi</option>
@@ -68,7 +68,7 @@ value="<?php echo $function;?>">
 <br>
 <span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
 <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
 </fieldset>
 <input name="logarc" type="checkbox"  checked="checked"> 
 <?php echo __('write acsinh and atanh in terms of log'); ?>

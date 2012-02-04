@@ -206,6 +206,13 @@ newwin =
 window.open(thedata,"","width=565,height=500,resizable");
 }
 
+function allow_preview(text)
+{
+  if ((text=='dx dy')||(text=='dy dx'))
+    {document.getElementById('preview_region').style.display="inline";}
+  else 
+    {document.getElementById('preview_region').style.display="none";}
+}
   </script>
 
 <?php
