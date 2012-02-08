@@ -76,6 +76,7 @@ function __($text){
 }
 
 $form=$_REQUEST["form"];
+$maw_before_form_custom_string="";
 
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
@@ -119,7 +120,12 @@ function hint_preview($a=""){
 
 $previewmsg=__("Clicking this button you get how formconv renders your expression and how you can enter this expression in Maxima notation (you can use copy and paste to transfer to the form.)");
 
-function maw_before_form() {echo "\n<div id='form' style='display:block;'>";}
+function maw_before_form() 
+{
+  global $maw_before_form_custom_string;
+  echo $maw_before_form_custom_string."\n<div id='form' style='display:block;'>";
+}
+
 function maw_after_form() {
   echo "</div>\n<div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.display='block';\">","</a>")."</div>";
   echo "<script type=\"text/javascript\">document.getElementById('after-form').style.display='none';</script>";
