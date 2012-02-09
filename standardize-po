@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd locale
+for filename in *.po
+do
+  echo $filename
+  cp $filename temp.po
+  msgcat -i temp.po > $filename
+  rm temp.po
+done;
+cd ..

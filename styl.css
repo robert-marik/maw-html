@@ -89,3 +89,6 @@ input.tlacitko {margin-bottom: 5px; margin-top: 5px;}
 
 #test_binaries, #test_forms, #test_filter {display:none;}
 #test_binaries {background-color: #BBB; max-width:900px; margin:5px;}
+
+input.preview_region {}
+

@@ -5,794 +5,806 @@
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009.
 #
-msgid ""
-msgstr ""
-"Project-Id-Version: zh_CN\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-25 20:57+0100\n"
-"PO-Revision-Date: 2012-01-28 01:40+0000\n"
-"Last-Translator: Minning Xiang <sdxmn@163.com>\n"
-"Language-Team:  SupperDog <sdxmn@163.com>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.9.1\n"
+msgid   ""
+msgstr  "Project-Id-Version: zh_CN\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "PO-Revision-Date: 2012-01-28 01:40+0000\n"
+        "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
+        "Language-Team:  SupperDog <sdxmn@163.com>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+        "X-Generator: KBabel 1.9.1\n"
 
 #: autsyst.php:3
-msgid "Singular points of autonomous systems"
-msgstr "自治系统的奇点"
+msgid   "Singular points of autonomous systems"
+msgstr  "自治系统的奇点"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
 #: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
-msgid "Editor"
-msgstr "编辑"
+msgid   "Editor"
+msgstr  "编辑"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
 #: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
-msgid "Preview"
-msgstr "预览"
+msgid   "Preview"
+msgstr  "预览"
 
 #: autsyst.php:58
-msgid "What to do"
-msgstr "我需要"
+msgid   "What to do"
+msgstr  "我需要"
 
 #: autsyst.php:61
-msgid "find Jacobi matrix at stationary point"
-msgstr "求驻点处的雅可比矩阵"
+msgid   "find Jacobi matrix at stationary point"
+msgstr  "求驻点处的雅可比矩阵"
 
 #: autsyst.php:72 minmax3d.php:74
-msgid "use computer to find stationary points first (this may fail to find all stationary points, however)"
-msgstr "先让计算机求驻点（可能不会找到所有的驻点）"
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  "先让计算机求驻点（可能不会找到所有的驻点）"
 
 #: autsyst.php:80
-msgid "MAW-autsyst"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br><ul> "
-"<li>填写自治微分方程和驻点，然后单击“提交”按钮进行求解。</li> "
-"<li>你可以使用计算机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的单选按钮。</li> "
-"</ul>"
+msgid   "MAW-autsyst"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>填写自治"
+        "微分方程和驻点，然后单击“提交”按钮进行求解。</li> <li>你可以使用计算"
+        "机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的"
+        "单选按钮。</li> </ul>"
 
-#: banach.php:2 index.php:401
-msgid "Method of iterations"
-msgstr "迭代法"
+#: banach.php:2 index.php:411
+msgid   "Method of iterations"
+msgstr  "迭代法"
 
 #: banach.php:23
-msgid "Enter function, interval containing  fixed point and number of steps."
-msgstr "输入函数、不动点所在的区间，以及步数。"
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  "输入函数、不动点所在的区间，以及步数。"
 
 #: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
-msgid "Function"
-msgstr "函数"
+msgid   "Function"
+msgstr  "函数"
 
 #: banach.php:34
-msgid "Interval from "
-msgstr "区间 从 "
+msgid   "Interval from "
+msgstr  "区间 从 "
 
 #: banach.php:36 bisection.php:37 regula_falsi.php:37
-msgid "to"
-msgstr " 到 "
+msgid   "to"
+msgstr  " 到 "
 
 #: banach.php:38 bisection.php:39 regula_falsi.php:39
-msgid "(integers or decimal numbers)"
-msgstr "（整数或小数）"
+msgid   "(integers or decimal numbers)"
+msgstr  "（整数或小数）"
 
 #: banach.php:42 bisection.php:43 regula_falsi.php:43
-msgid "Number of steps "
-msgstr "步数"
+msgid   "Number of steps "
+msgstr  "步数"
 
 #: banach.php:44
-msgid "(integer between 2  and 40)"
-msgstr "（2 到 40 之间的整数）"
+msgid   "(integer between 2  and 40)"
+msgstr  "（2 到 40 之间的整数）"
 
 #: banach.php:47
-msgid "Initial approximation"
-msgstr "初始近似值"
+msgid   "Initial approximation"
+msgstr  "初始近似值"
 
 #: banach.php:49
-msgid "(integer or decimal number)"
-msgstr "（整数或小数）"
+msgid   "(integer or decimal number)"
+msgstr  "（整数或小数）"
 
 #: banach.php:56
-msgid "MAW-banach"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非线性方程组求解基于 <a "
-"href=\"http://zh.wikipedia.org/wiki/%E5%8E%8B%E7%BC%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</"
-"a> 。</li> </ul>"
+msgid   "MAW-banach"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非线性"
+        "方程组求解基于 <a href=\"http://zh.wikipedia.org/wiki/%E5%8E%8B%E7%BC"
+        "%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</a> 。</"
+        "li> </ul>"
 
-#: bisection.php:2 index.php:399
-msgid "Bisection"
-msgstr "二分法"
+#: bisection.php:2 index.php:409
+msgid   "Bisection"
+msgstr  "二分法"
 
 #: bisection.php:24 regula_falsi.php:24
-msgid "Enter function, interval containing zero and number of steps."
-msgstr "输入函数、包含 0 的区间，以及步数。"
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  "输入函数、包含 0 的区间，以及步数。"
 
 #: bisection.php:35 regula_falsi.php:35
-msgid "Interval from"
-msgstr "区间 从 "
+msgid   "Interval from"
+msgstr  "区间 从 "
 
 #: bisection.php:45 regula_falsi.php:45
-msgid "(integer between 2 and 40)"
-msgstr "（2 到 40 之间的整数）"
+msgid   "(integer between 2 and 40)"
+msgstr  "（2 到 40 之间的整数）"
 
 #: bisection.php:58
-msgid "MAW-bisection"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关理论请参阅 维基百科 <a "
-"href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
+msgid   "MAW-bisection"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关理论"
+        "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
+        "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
 
-#: custom.php:6
-msgid ""
-"Did we help you with your math problem? Did we save your time? If so, consider to send some money to <a "
-"href=\"http://www.unicef.org/\">UNICEF foundation.</a>"
-msgstr ""
-"我们帮助你解决了数学问题吗？我们为你节省了时间吗？ 如果是这样，请考虑赞助<a "
-"href=\"http://www.supportunicefchina.org/\">联合国儿童基金会</a>。"
-
-#: derivace.php:2 index.php:379
-msgid "Derivative and partial derivative"
-msgstr "导数和偏导数"
+#: derivace.php:2 index.php:389
+msgid   "Derivative and partial derivative"
+msgstr  "导数和偏导数"
 
 #: derivace.php:22
-msgid "automatically use linearity of derivative"
-msgstr "自动线性求导"
+msgid   "automatically use linearity of derivative"
+msgstr  "自动线性求导"
 
 #: derivace.php:25
-msgid "automatically differentiate constants"
-msgstr "自动微分常数"
+msgid   "automatically differentiate constants"
+msgstr  "自动微分常数"
 
 #: derivace.php:30
-msgid "The type of the derivative"
-msgstr "求导类型"
+msgid   "The type of the derivative"
+msgstr  "求导类型"
 
 #: derivace.php:33
-msgid "Ordinary derivative (function in one variable)"
-msgstr "普通求导（一元函数）"
+msgid   "Ordinary derivative (function in one variable)"
+msgstr  "普通求导（一元函数）"
 
 #: derivace.php:36
-msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
-msgstr "对 <i>x</i> 求偏导数（二元函数）"
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  "对 <i>x</i> 求偏导数（二元函数）"
 
 #: derivace.php:39
-msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
-msgstr "对 <i>y</i> 求偏导数（二元函数）"
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  "对 <i>y</i> 求偏导数（二元函数）"
 
 #: derivace.php:47
-msgid "MAW-der"
-msgstr ""
-"<span style=\"font-weight: "
-"bold;\">备注：</"
-"span><br><ul><li>输入一个函数然后单击“提交”按钮。请稍等几秒钟，计算结果将以 PDF "
-"文件形式返回。</li><li>根据用户环境不同，返回的 PDF "
-"文件可能直接在浏览器中显示预览，也可能显示下载窗口。请确保计算机中拥有 "
-"PDF阅读器。</li><li>你可以在本页面中求解一元或者二元函数的导数。"
+msgid   "MAW-der"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入一个"
+        "函数然后单击“提交”按钮。请稍等几秒钟，计算结果将以 PDF 文件形式返回。"
+        "</li><li>根据用户环境不同，返回的 PDF 文件可能直接在浏览器中显示预"
+        "览，也可能显示下载窗口。请确保计算机中拥有 PDF阅读器。</li><li>你可以"
+        "在本页面中求解一元或者二元函数的导数。"
 
 #: df.php:2
-msgid "Domain of a function in one variable"
-msgstr "一元函数的定义域"
+msgid   "Domain of a function in one variable"
+msgstr  "一元函数的定义域"
 
 #: df.php:21 geom.php:52
-msgid "Parameters"
-msgstr "参数"
+msgid   "Parameters"
+msgstr  "参数"
 
 #: df.php:36
-msgid "MAW-df"
-msgstr " "
+msgid   "MAW-df"
+msgstr  " "
 
 #: df3d.php:3
-msgid "Domain of a function in two variables"
-msgstr "二元函数的定义域"
+msgid   "Domain of a function in two variables"
+msgstr  "二元函数的定义域"
 
 #: df3d.php:22
-msgid "limits for the picture with domain:"
-msgstr "函数图像界限"
+msgid   "limits for the picture with domain:"
+msgstr  "函数图像界限"
 
 #: df3d.php:27 df3d.php:29 df3d.php:31
-msgid "draw domain on the set"
-msgstr "图像绘制坐标界限为"
+msgid   "draw domain on the set"
+msgstr  "图像绘制坐标界限为"
 
 #: df3d.php:44
-msgid "MAW-df3d"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br><ul> "
-"<li>在文本框中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
+msgid   "MAW-df3d"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
+        "中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
+
+#: dummy.php:6 mawconfightml.php:60
+msgid   "Switch to a compact design"
+msgstr  "切换至精简视图"
+
+#: dummy.php:7
+msgid   "Showcase"
+msgstr  ""
+
+#: dummy.php:8 mawconfightml.php:48
+msgid   "Switch to a full design"
+msgstr  "切换至完整视图"
+
+#: dummy.php:9
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  "我们帮助你解决了数学问题吗？我们为你节省了时间吗？ 如果是这样，请考虑"
+        "赞助<a href=\"http://www.supportunicefchina.org/\">联合国儿童基金会</"
+        "a>。"
 
 #: geom.php:2
-msgid "Definite integral in geometry"
-msgstr "定积分的几何应用"
+msgid   "Definite integral in geometry"
+msgstr  "定积分的几何应用"
 
 #: geom.php:12
-msgid "Formulation of the problem"
-msgstr "问题公式化"
+msgid   "Formulation of the problem"
+msgstr  "问题公式化"
 
 #: geom.php:14
-msgid "Curves on boundary"
-msgstr "图像边界"
+msgid   "Curves on boundary"
+msgstr  "图像边界"
 
 #: geom.php:18
-msgid "Upper bound"
-msgstr "上届"
+msgid   "Upper bound"
+msgstr  "上届"
 
 #: geom.php:26
-msgid "Lower bound"
-msgstr "下界"
+msgid   "Lower bound"
+msgstr  "下界"
 
 #: geom.php:36
-msgid ""
-"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both curves by choosing \"intercepts\" in "
-"parameters for computation)</small>"
-msgstr ""
-"<i>x</i> "
-"坐标轴的界限：<small>（在参数中勾选“求图像交点”可以尝试找到两条曲线的交点）</small>"
+msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
+        "of both curves by choosing \"intercepts\" in parameters for "
+        "computation)</small>"
+msgstr  "<i>x</i> 坐标轴的界限：<small>（在参数中勾选“求图像交点”可以尝试找到"
+        "两条曲线的交点）</small>"
 
 #: geom.php:41
-msgid "lower bound"
-msgstr "左边界"
+msgid   "lower bound"
+msgstr  "左边界"
 
 #: geom.php:45
-msgid "upper bound"
-msgstr "右边界"
+msgid   "upper bound"
+msgstr  "右边界"
 
 #: geom.php:54
-msgid "Action"
-msgstr "求解"
+msgid   "Action"
+msgstr  "求解"
 
 #: geom.php:59
 #, php-format
-msgid "Find %s area %s between two curves and draw graph."
-msgstr "求两条曲线之间的 %s 面积 %s 并绘制图像。"
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  "求两条曲线之间的 %s 面积 %s 并绘制图像。"
 
 #: geom.php:65
 #, php-format
-msgid "Find %s volume %s of solid of revolution and draw graph"
-msgstr "求回转体的 %s 体积 %s 并绘制图像。"
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  "求回转体的 %s 体积 %s 并绘制图像。"
 
 #: geom.php:70
-msgid "preview solid of revolution"
-msgstr "预览回转体"
+msgid   "preview solid of revolution"
+msgstr  "预览回转体"
 
 #: geom.php:72
-msgid "show colors, no mesh"
-msgstr "显示颜色，不显示网格"
+msgid   "show colors, no mesh"
+msgstr  "显示颜色，不显示网格"
 
 #: geom.php:74
-msgid "hide invisible parts"
-msgstr "隐藏不可见的部分"
+msgid   "hide invisible parts"
+msgstr  "隐藏不可见的部分"
 
 #: geom.php:80
-msgid "Find intercepts of curves"
-msgstr "求图像交点"
+msgid   "Find intercepts of curves"
+msgstr  "求图像交点"
 
 #: geom.php:82
-msgid "Bounds for the picture (decimal numbers)"
-msgstr "图像界限（可用小数）"
+msgid   "Bounds for the picture (decimal numbers)"
+msgstr  "图像界限（可用小数）"
 
 #: geom.php:111
-msgid "MAW-geom"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定义图像上下边界的函数。</li>  "
-"<li>如果下边界为<span style=\"font-style: italic;\">x</span> 轴，函数 <span style=\"font-style: "
-"italic;\">g</span> 请填写 0。</li>  "
-"<li>你可以让计算机尝试求解曲线的交点。请选择适当的选项。<br> </li> </ul>"
+msgid   "MAW-geom"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定义图"
+        "像上下边界的函数。</li>  <li>如果下边界为<span style=\"font-style: "
+        "italic;\">x</span> 轴，函数 <span style=\"font-style: italic;\">g</"
+        "span> 请填写 0。</li>  <li>你可以让计算机尝试求解曲线的交点。请选择适"
+        "当的选项。<br> </li> </ul>"
 
-#: graf.php:2 index.php:371
-msgid "Graphs of elementary functions"
-msgstr "初等函数图像"
+#: graf.php:2 index.php:381
+msgid   "Graphs of elementary functions"
+msgstr  "初等函数图像"
 
 #: graf.php:20
-msgid ""
-"(the function must either a basic elementary function of a function which can be obtained from on of basic elementary "
-"functions by shifting and resizing graph)"
-msgstr "（所求函数图像应当可以通过移动、缩放一个基本初等函数的图像得到）"
+msgid   "(the function must either a basic elementary function of a function "
+        "which can be obtained from on of basic elementary functions by "
+        "shifting and resizing graph)"
+msgstr  "（所求函数图像应当可以通过移动、缩放一个基本初等函数的图像得到）"
 
 #: graf.php:25
-msgid "Bounds for axes"
-msgstr "坐标轴界限"
+msgid   "Bounds for axes"
+msgstr  "坐标轴界限"
 
 #: graf.php:37
-msgid "show grid"
-msgstr "显示网格"
+msgid   "show grid"
+msgstr  "显示网格"
 
 #: graf.php:44
-msgid "Logarithm"
-msgstr "对数"
+msgid   "Logarithm"
+msgstr  "对数"
 
 #: graf.php:45
-msgid "If the input contains logarithm, use"
-msgstr "如果输入的函数包含对数，使用"
+msgid   "If the input contains logarithm, use"
+msgstr  "如果输入的函数包含对数，使用"
 
 #: graf.php:48
-msgid "natural log"
-msgstr "自然对数"
+msgid   "natural log"
+msgstr  "自然对数"
 
 #: graf.php:51
-msgid "log with base"
-msgstr "以此为底的对数"
+msgid   "log with base"
+msgstr  "以此为底的对数"
 
 #: graf.php:61
-msgid "MAW-graf"
-msgstr ""
-"<span style=\"font-weight: "
-"bold;\">备注：</"
-"span><br><ul><li>所求函数图像应当可以通过移动、缩放一个基本初等函数的图像得到。</"
-"li><li>输入的函数将被自动绘制。你将得到函数的图形，包括其变形过程。</li></ul>"
+msgid   "MAW-graf"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>所求函数"
+        "图像应当可以通过移动、缩放一个基本初等函数的图像得到。</li><li>输入的"
+        "函数将被自动绘制。你将得到函数的图形，包括其变形过程。</li></ul>"
 
-#: index.php:122
-msgid ""
-"Clicking this button you get how formconv renders your expression and how you can enter this expression in Maxima "
-"notation (you can use copy and paste to transfer to the form.)"
-msgstr ""
-"点击这个按钮即可显示你书写的表达式如何被 formconv 展现，以及你应当如何用 Maxima "
-"符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到这个表单中。）"
+#: index.php:121
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
+msgstr  "点击这个按钮即可显示你书写的表达式如何被 formconv 展现，以及你应当如"
+        "何用 Maxima 符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到"
+        "这个表单中。）"
 
-#: index.php:126
+#: index.php:130
 #, php-format
-msgid ""
-"Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been "
-"submited."
-msgstr "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一页面。"
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一"
+        "页面。"
 
-#: index.php:133
-msgid "History"
-msgstr "历史记录"
+#: index.php:137
+msgid   "History"
+msgstr  "历史记录"
 
-#: index.php:166 index.php:272
-msgid "Mathematical Assistant on Web"
-msgstr "在线数学助理 (MAW)"
+#: index.php:170 index.php:283
+msgid   "Mathematical Assistant on Web"
+msgstr  "在线数学助理 (MAW)"
 
-#: index.php:222
-msgid "You should turn JavaScript on to see popup informations."
-msgstr "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
+#: index.php:233
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
 
-#: index.php:241
-msgid "More languages"
-msgstr "更多"
+#: index.php:252
+msgid   "More languages"
+msgstr  "更多"
 
-#: index.php:255
-msgid "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr "http://sourceforge.net/apps/phpbb/mathassistant"
+#: index.php:266
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
 
-#: index.php:255
-msgid "Support from MAW forum"
-msgstr "从MAW论坛获取支持"
+#: index.php:266
+msgid   "Support from MAW forum"
+msgstr  "从MAW论坛获取支持"
 
-#: index.php:257
-msgid "Changelog"
-msgstr "更新日志"
+#: index.php:268
+msgid   "Changelog"
+msgstr  "更新日志"
 
-#: index.php:259
-msgid "Known bugs"
-msgstr "已知问题"
+#: index.php:270
+msgid   "Known bugs"
+msgstr  "已知问题"
 
-#: index.php:274
-msgid ""
-"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> and <a "
-"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr ""
-"由 <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> 和 <a "
-"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a> 创建"
+#: index.php:333
+msgid   "Submit"
+msgstr  "提交"
 
-#: index.php:275
-#, php-format
-msgid "%sOffline version%s is also available and translators are %s welcomed %s."
-msgstr "%s离线版本%s 可以在此处获取。同时我们也欢迎你 %s参与翻译%s。"
-
-#: index.php:323
-msgid "Submit"
-msgstr "提交"
-
-#: index.php:323
-msgid "Click only once and wait few seconds for the answer!"
-msgstr "请不要反复点击，结果将在数秒钟后呈现。"
-
-#: index.php:372
-msgid "Domain of functions (one variable)"
-msgstr "一元函数的定义域"
-
-#: index.php:373
-msgid "Domain of functions (two variables)"
-msgstr "二元函数的定义域"
-
-#: index.php:374 lagrange.php:3
-msgid "Lagrange polynomial"
-msgstr "拉格朗日多项式"
-
-#: index.php:375 mnc.php:3
-msgid "Least squares method"
-msgstr "最小二乘法"
-
-#: index.php:380
-msgid "Investigating functions"
-msgstr "函数特性"
-
-#: index.php:381 taylor.php:3
-msgid "Taylor polynomial"
-msgstr "泰勒多项式"
+#: index.php:333
+msgid   "Click only once and wait few seconds for the answer!"
+msgstr  "请不要反复点击，结果将在数秒钟后呈现。"
 
 #: index.php:382
-msgid "Local maxima and minima in two variables"
-msgstr "二元函数的局部最大值与最小值"
+msgid   "Domain of functions (one variable)"
+msgstr  "一元函数的定义域"
 
-#: index.php:386 integral.php:2
-msgid "Antiderivative"
-msgstr "不定积分（反导数）"
+#: index.php:383
+msgid   "Domain of functions (two variables)"
+msgstr  "二元函数的定义域"
 
-#: index.php:387
-msgid "Geometrical applications of definite integral"
-msgstr "定积分的几何应用"
+#: index.php:384 lagrange.php:3
+msgid   "Lagrange polynomial"
+msgstr  "拉格朗日多项式"
 
-#: index.php:388
-msgid "Trapezoidal rule"
-msgstr "梯形法则"
+#: index.php:385 mnc.php:3
+msgid   "Least squares method"
+msgstr  "最小二乘法"
 
-#: index.php:389 integral2.php:2
-msgid "Double integral"
-msgstr "二重积分"
+#: index.php:390
+msgid   "Investigating functions"
+msgstr  "函数特性"
 
-#: index.php:393
-msgid "First order ODE"
-msgstr "一阶常微分方程"
+#: index.php:391 taylor.php:3
+msgid   "Taylor polynomial"
+msgstr  "泰勒多项式"
 
-#: index.php:394
-msgid "Second order LDE"
-msgstr "二阶常微分方程"
+#: index.php:392
+msgid   "Local maxima and minima in two variables"
+msgstr  "二元函数的局部最大值与最小值"
 
-#: index.php:395
-msgid "Autonomous system"
-msgstr "自治系统"
+#: index.php:396 integral.php:2
+msgid   "Antiderivative"
+msgstr  "不定积分（反导数）"
 
-#: index.php:400 regula_falsi.php:2
-msgid "Regula falsi"
-msgstr "试位法"
+#: index.php:397
+msgid   "Geometrical applications of definite integral"
+msgstr  "定积分的几何应用"
 
-#: index.php:402
-msgid "System of inequalities (in one or two variables)"
-msgstr "一元或二元不等式（组）"
+#: index.php:398
+msgid   "Trapezoidal rule"
+msgstr  "梯形法则"
 
-#: index.php:410
-msgid "Introduction"
-msgstr "简介"
+#: index.php:399 integral2.php:2
+msgid   "Double integral"
+msgstr  "二重积分"
 
-#: index.php:416
-msgid "Precalculus"
-msgstr "初等数学"
+#: index.php:403
+msgid   "First order ODE"
+msgstr  "一阶常微分方程"
 
-#: index.php:421
-msgid "Calculus"
-msgstr "微分"
+#: index.php:404
+msgid   "Second order LDE"
+msgstr  "二阶常微分方程"
 
-#: index.php:427
-msgid "Integral calculus"
-msgstr "积分"
+#: index.php:405
+msgid   "Autonomous system"
+msgstr  "自治系统"
 
-#: index.php:433
-msgid "Differential equations"
-msgstr "微分方程"
+#: index.php:410 regula_falsi.php:2
+msgid   "Regula falsi"
+msgstr  "试位法"
 
-#: index.php:439
-msgid "Equations and inequalities"
-msgstr "等式与不等式"
+#: index.php:412
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "一元或二元不等式（组）"
 
-#: index.php:446
-msgid "Site map, support"
-msgstr "网站地图与支持"
+#: index.php:420
+msgid   "Introduction"
+msgstr  "简介"
 
-#: index.php:472
-msgid ""
-"Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row "
-"of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse "
-"on the name of each group (the first row of the menu)."
-msgstr ""
-"请在表单中输入你的数据并点击“提交”按钮。在菜单的第二行，你可以改变计算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜单的第一行）。"
+#: index.php:426
+msgid   "Precalculus"
+msgstr  "初等数学"
 
-#: index.php:475
-msgid ""
-"Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you "
-"wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators "
-"are divided into several groups, the description is available if you move your mouse on the name of each group (the "
-"first row of the menu)."
-msgstr ""
-"请在菜单中选择你需要的分类，然后根据你需要解决的问题选择特定的计算功能。<br>所提供的计算功能可以解答包括需要分步解决的问题。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜单的第一行）。"
+#: index.php:431
+msgid   "Calculus"
+msgstr  "微分"
+
+#: index.php:437
+msgid   "Integral calculus"
+msgstr  "积分"
+
+#: index.php:443
+msgid   "Differential equations"
+msgstr  "微分方程"
+
+#: index.php:449
+msgid   "Equations and inequalities"
+msgstr  "等式与不等式"
+
+#: index.php:456
+msgid   "Site map, support"
+msgstr  "网站地图与支持"
+
+#: index.php:482
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the caluclator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  "请在表单中输入你的数据并点击“提交”按钮。在菜单的第二行，你可以改变计"
+        "算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜"
+        "单的第一行）。"
+
+#: index.php:485
+msgid   "Choose the field of your interest in the menu and then choose the "
+        "particular calculator depending on the problem you wich to solve."
+        "<br>These calculators are able to solve the problems including step "
+        "by step solution.<br>The calculators are divided into several "
+        "groups, the description is available if you move your mouse on the "
+        "name of each group (the first row of the menu)."
+msgstr  "请在菜单中选择你需要的分类，然后根据你需要解决的问题选择特定的计算功"
+        "能。<br>所提供的计算功能可以解答包括需要分步解决的问题。<br>计算功能"
+        "被分成了几个组。将鼠标移至组名上可以显示介绍（菜单的第一行）。"
 
 #: ineq2d.php:3
-msgid "Inequalities"
-msgstr "不等式"
+msgid   "Inequalities"
+msgstr  "不等式"
 
 #: ineq2d.php:15
-msgid "Read the comments below the form to find out, which inequalities can be solved."
-msgstr "可求解的不等式请参看表单下方的备注。"
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  "可求解的不等式请参看表单下方的备注。"
 
 #: ineq2d.php:18
-msgid "suppose x,y>0"
-msgstr "假定 x 和 y 均大于 0"
+msgid   "suppose x,y>0"
+msgstr  "假定 x 和 y 均大于 0"
 
 #: ineq2d.php:22
-msgid "draw labels on axes, not on boundary"
-msgstr "将标签绘制在坐标轴旁，不要绘制在边界处"
+msgid   "draw labels on axes, not on boundary"
+msgstr  "将标签绘制在坐标轴旁，不要绘制在边界处"
 
 #: ineq2d.php:28
-msgid "use high quality output in PDF"
-msgstr "输出高质量 PDF 文件"
+msgid   "use high quality output in PDF"
+msgstr  "输出高质量 PDF 文件"
 
 #: ineq2d.php:32
-msgid "and change bounds to get equal units on both axes"
-msgstr "并且移动边界使两坐标轴单位相同"
+msgid   "and change bounds to get equal units on both axes"
+msgstr  "并且移动边界使两坐标轴单位相同"
 
 #: ineq2d.php:40 prubeh.php:41
-msgid "Axes"
-msgstr "坐标轴"
+msgid   "Axes"
+msgstr  "坐标轴"
 
 #: ineq2d.php:57
-msgid "MAW-ineq2d"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br><ul> "
-"<li>在文本框中输入要求解的不等式。每行一个。</li> "
-"<li>输入的不等式将在给定的区间内被求解（二元不等式为矩形区间）。如果最终给出空白图像，原因可能是给定的不等式无解（尝试更改求解区间）或者不等式的解为一个孤点。我们的数学计算系统目前无法绘制孤点。</li> "
-"<li>不要使用含有等号的不等式。不等式变量只能使用 <i>x</i> 和 <i>y</i> 。</li> <li>如果输入的不等式仅包含变量 <i>x</i> ，求解区间 <i>y</i> 以及相关的选项将被忽略。</li> <li>以 HTML "
-"方式显示的结果中的图像都是正方形。如果输入的 <i>x</i> 和 <i>y</i> 轴区间不同，图像将会被拉伸或压缩。PDF 方式输出的图像长宽比为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将被扩大。</li> </ul>"
+msgid   "MAW-ineq2d"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
+        "中输入要求解的不等式。每行一个。</li> <li>输入的不等式将在给定的区间"
+        "内被求解（二元不等式为矩形区间）。如果最终给出空白图像，原因可能是给"
+        "定的不等式无解（尝试更改求解区间）或者不等式的解为一个孤点。我们的数"
+        "学计算系统目前无法绘制孤点。</li> <li>不要使用含有等号的不等式。不等"
+        "式变量只能使用 <i>x</i> 和 <i>y</i> 。</li> <li>如果输入的不等式仅包"
+        "含变量 <i>x</i> ，求解区间 <i>y</i> 以及相关的选项将被忽略。</li> "
+        "<li>以 HTML 方式显示的结果中的图像都是正方形。如果输入的 <i>x</i> 和 "
+        "<i>y</i> 轴区间不同，图像将会被拉伸或压缩。PDF 方式输出的图像长宽比"
+        "为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将"
+        "被扩大。</li> </ul>"
 
 #: integral.php:28
-msgid ""
-"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert mathematical expressions (this allows to write "
-" 2x instead of 2*x)"
-msgstr ""
-"使用 <a href=\"http://formconv.sourceforge.net/\">formconv</a> 解析输入的表达式（允许将2*x写成2x）"
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  "使用 <a href=\"http://formconv.sourceforge.net/\">formconv</a> 解析输"
+        "入的表达式（允许将2*x写成2x）"
 
 #: integral.php:33
-msgid ""
-"use \n"
-"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing formulas on html page instead of  \n"
-"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-"(the output is better but the rendering could be slower)\n"
-msgstr ""
-"使用 <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> 将最终结果输出为 HTML ，取代 <a "
-"href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> "
-"的图形结果（输出效果稍好，但结果呈现可能会变慢）。\n"
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  "使用 <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> "
+        "将最终结果输出为 HTML ，取代 <a href=\"http://www.forkosh.com/"
+        "mathtex.html\">mathTeX</a> 的图形结果（输出效果稍好，但结果呈现可能会"
+        "变慢）。\n"
 
 #: integral.php:42
-msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> switch "
-"(uncheck this if you get composite fractions (with fraction in numerator))"
-msgstr ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> "
-"开关（如果函数中含有繁分式，不要勾选此项）"
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
+        "不要勾选此项）"
 
 #: integral.php:47 integral2.php:74
-msgid "write acsinh and atanh in terms of log"
-msgstr "将 arcsinh 和 arctanh 写成 log 形式"
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
 
 #: integral.php:59
-msgid "MAW-int"
-msgstr "MAW-int"
+msgid   "MAW-int"
+msgstr  "MAW-int"
 
 #: integral2.php:24
-msgid "Enter function and choose variables and order for integration "
-msgstr "输入函数，选择变量和积分顺序"
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "输入函数，选择变量和积分顺序"
 
 #: integral2.php:59
-msgid ""
-" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img "
-"src=\"phi.png\" alt=\"phi\">."
-msgstr ""
-"极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\" alt=\"phi\"> 可以写为 <b>phi</b> "
-"。"
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\" alt="
+        "\"phi\"> 可以写为 <b>phi</b> 。"
 
 #: integral2.php:63
-msgid "Axes (decimal numbers)"
-msgstr "积分区间（可用小数）"
+msgid   "Axes (decimal numbers)"
+msgstr  "积分区间（可用小数）"
 
 #: integral2.php:71
-msgid "Preview region of integration"
-msgstr "预览积分界限"
+msgid   "Preview region of integration"
+msgstr  "预览积分界限"
 
 #: integral2.php:88
-msgid "MAW-int2"
-msgstr "MAW-int2"
+msgid   "MAW-int2"
+msgstr  "MAW-int2"
 
 #: lagrange.php:11 mnc.php:11
-msgid "Data file"
-msgstr "数据"
+msgid   "Data file"
+msgstr  "数据"
 
 #: lagrange.php:22
-msgid "MAW-lagr"
-msgstr ""
-"<ul> <li> "
-"输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请使用逗号分隔。</li> </ul>"
+msgid   "MAW-lagr"
+msgstr  "<ul> <li> 输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请"
+        "使用逗号分隔。</li> </ul>"
 
 #: lde2.php:3
-msgid "Second order linear differential equations"
-msgstr "二阶常微分方程"
+msgid   "Second order linear differential equations"
+msgstr  "二阶常微分方程"
 
 #: lde2.php:13
-msgid "Equation"
-msgstr "方程"
+msgid   "Equation"
+msgstr  "方程"
 
 #: lde2.php:23
-msgid "You can use Preview and Edit buttons for entering the right hand side"
-msgstr ""
-"单击“预览”和“编辑”按钮可以使用可视化工具来编辑等号右边的公式，或者校验输入是否正确。"
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  "单击“预览”和“编辑”按钮可以使用可视化工具来编辑等号右边的公式，或者校"
+        "验输入是否正确。"
 
 #: lde2.php:28
-msgid "Method"
-msgstr "方法"
+msgid   "Method"
+msgstr  "方法"
 
 #: lde2.php:32
-msgid "variation of constants"
-msgstr "常数变易法"
+msgid   "variation of constants"
+msgstr  "常数变易法"
 
 #: lde2.php:36
-msgid "undetermined coefficients"
-msgstr "待定系数法"
+msgid   "undetermined coefficients"
+msgstr  "待定系数法"
 
 #: lde2.php:40
-msgid "solve also initial value problem"
-msgstr "同时求解初值问题"
+msgid   "solve also initial value problem"
+msgstr  "同时求解初值问题"
 
 #: lde2.php:51
-msgid "MAW-lde2"
-msgstr ""
-"<ul>   "
-"<li>在左侧填写系数（数字）并在右侧填写补全方程式，然后单击提交按钮。在文本框中填 "
-"0 可以忽略对应项。</li> "
-"\t<li>方程右侧为任意形式均可使用常数变易法。待定系数法仅适用于方程右侧形式为 "
-"<i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i> 的情况，并且 <i>a</i> and <i>b</i> 均为实数，且 "
-"<i>P(x)</i>, <i>Q(x)</i> 为不高于 4 次的多项式。</li>   "
-"<li>如果你认为给出的结果不正确，请务必通知我们，谢谢。</li> </ul>"
+msgid   "MAW-lde2"
+msgstr  "<ul>   <li>在左侧填写系数（数字）并在右侧填写补全方程式，然后单击提交"
+        "按钮。在文本框中填 0 可以忽略对应项。</li> \t<li>方程右侧为任意形式均"
+        "可使用常数变易法。待定系数法仅适用于方程右侧形式为 <i>P(x)*exp(a*x)"
+        "*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i> 的情况，并且 <i>a</i> and <i>b</"
+        "i> 均为实数，且 <i>P(x)</i>, <i>Q(x)</i> 为不高于 4 次的多项式。</"
+        "li>   <li>如果你认为给出的结果不正确，请务必通知我们，谢谢。</li> </"
+        "ul>"
 
 #: main.php:1
-msgid "MAW-main"
-msgstr ""
-"<span class=\"nadpis\">关于本页</span> <ul> <li>这个网站提供了一套 Web "
-"界面，你可以通过它访问计算机代数系统(CAS) <a href=\"http://maxima.sourceforge.net/\">Maxima</a> "
-"并能自动求解数学课程中某些类型的问题，并能在结果中给出运算过程。</li> "
-"<li>在上面选择计算类型，然后在表单中填入数据并单击“提交”按钮。答案将以 PDF "
-"文件的形式显示在你的浏览器中，或者下载到你的电脑上（这取决于你的设置）。某些计算功能中，答案将以网页的形式展示，如果你需要，可以在最后生成 "
-"PDF 文件。</li> <li>本页面的计算单元所在服务器的管理者为<a target=\"_blank\" href=\"http://wood.mendelu.cz\">木材科学学院</a>。</li> <li><a "
-"href=\"http://wood.mendelu.cz/math/phpsysinfo\">系统信息</a></li> </ul> <div class=\"noncompact\"><hr> <span class=\"nadpis\">备注：</span> <ul> <li>大部分情况下，请使用 2*x 的形式来输入 "
-"2x （除非计算模块支持 formconv 方式解析表达式）。</li> <li>所有的输入数据均由以下开源项目处理： <a href=\"http://maxima.sourceforge.net/\">Maxima</a>, <a "
-"href=\"http://www.gnuplot.info/\">gnuplot</a>, <a href=\"http://formconv.sourceforge.net/\">formconv</a>, <a href=\"http://www.tug.org/metapost.html\">MetaPost</a>, 并且最终由 <a "
-"href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a> 转化生成 PDF 文件。</li> <li>接收反馈和评论的电子邮件地址：maNOrikSP@mAendMelu.cz resp, tiNOhlSarPAMik@mendelu.cz "
-"（请去掉其中的“NO SPAM”字符）。</li> </ul>"
+msgid   "MAW-main"
+msgstr  "<span class=\"nadpis\">关于本页</span> <ul> <li>这个网站提供了一套 "
+        "Web 界面，你可以通过它访问计算机代数系统(CAS) <a href=\"http://"
+        "maxima.sourceforge.net/\">Maxima</a> 并能自动求解数学课程中某些类型的"
+        "问题，并能在结果中给出运算过程。</li> <li>在上面选择计算类型，然后在"
+        "表单中填入数据并单击“提交”按钮。答案将以 PDF 文件的形式显示在你的浏览"
+        "器中，或者下载到你的电脑上（这取决于你的设置）。某些计算功能中，答案"
+        "将以网页的形式展示，如果你需要，可以在最后生成 PDF 文件。</li> <li>本"
+        "页面的计算单元所在服务器的管理者为<a target=\"_blank\" href=\"http://"
+        "wood.mendelu.cz\">木材科学学院</a>。</li> <li><a href=\"http://wood."
+        "mendelu.cz/math/phpsysinfo\">系统信息</a></li> </ul> <div class="
+        "\"noncompact\"><hr> <span class=\"nadpis\">备注：</span> <ul> <li>大"
+        "部分情况下，请使用 2*x 的形式来输入 2x （除非计算模块支持 formconv 方"
+        "式解析表达式）。</li> <li>所有的输入数据均由以下开源项目处理： <a "
+        "href=\"http://maxima.sourceforge.net/\">Maxima</a>, <a href=\"http://"
+        "www.gnuplot.info/\">gnuplot</a>, <a href=\"http://formconv."
+        "sourceforge.net/\">formconv</a>, <a href=\"http://www.tug.org/"
+        "metapost.html\">MetaPost</a>, 并且最终由 <a href=\"http://www.tug."
+        "org/applications/pdftex/\">pdfLaTeX</a> 转化生成 PDF 文件。</li> <li>"
+        "接收反馈和评论的电子邮件地址：maNOrikSP@mAendMelu.cz resp, "
+        "tiNOhlSarPAMik@mendelu.cz （请去掉其中的“NO SPAM”字符）。</li> </ul>"
 
 #: map.php:3
-msgid "MAW-map"
-msgstr ""
-"网站地图</span>  <ul> <li>初等数学<ul> <li>初等函数图像</li> <li>一元或二元函数的定义域</li> "
-"<li>拉格朗日多项式</li> <li>使用最小二乘法拟合数据</li> </ul> </li> <li>微分<ul> "
-"<li>函数特性</li> <li>一元函数的导数</li> <li>二元函数的偏导数</li> <li>泰勒多项式</li> "
-"<li>二元函数的局部最大值和最小值</li>  </ul> </li> <li>积分<ul> <li>不定积分（反导数）</li> "
-"<li>定积分的几何应用</li> <li>二重积分</li> <li>梯形法则近似定积分</li> </ul> </li> "
-"<li>微分方程<ul><li>一阶微分方程</li> <li>二阶微分方程</li> <li>自治微分方程的驻点</li> </ul> "
-"</li> <li>等式和不等式<ul> <li>二分法解非线性方程</li> <li>试位法解非线性方程</li> "
-"<li>迭代法解非线性方程</li> <li>一元或二元不等式（组）</li> </ul> </il> </ul> <span "
-"class=\"nadpis\">赞助</span> <ul><li>想赞助 "
-"在线数学助理（MAW）开发？我们目前不接受捐助。想给我们捐款？请不要这样做。请捐助 "
-"<a href=\"http://www.unicef.org/\">UNICEF</a> 或者 <a href=\"http://www.rednoses.eu/\">Red noses "
-"clowndoctors</a>。</li> "
-"<li>仍然想帮助我们？请将任何问题反馈给我们。联系方式参见介绍页面。我们也欢迎你加入开发，完善这个项目。</li> "
-"</ul>"
-
-#: mawconfightml.php:48
-msgid "Switch to a full design"
-msgstr "切换至完整视图"
-
-#: mawconfightml.php:60
-msgid "Switch to a compact design"
-msgstr "切换至精简视图"
+msgid   "MAW-map"
+msgstr  "网站地图</span>  <ul> <li>初等数学<ul> <li>初等函数图像</li> <li>一元"
+        "或二元函数的定义域</li> <li>拉格朗日多项式</li> <li>使用最小二乘法拟"
+        "合数据</li> </ul> </li> <li>微分<ul> <li>函数特性</li> <li>一元函数的"
+        "导数</li> <li>二元函数的偏导数</li> <li>泰勒多项式</li> <li>二元函数"
+        "的局部最大值和最小值</li>  </ul> </li> <li>积分<ul> <li>不定积分（反"
+        "导数）</li> <li>定积分的几何应用</li> <li>二重积分</li> <li>梯形法则"
+        "近似定积分</li> </ul> </li> <li>微分方程<ul><li>一阶微分方程</li> "
+        "<li>二阶微分方程</li> <li>自治微分方程的驻点</li> </ul> </li> <li>等"
+        "式和不等式<ul> <li>二分法解非线性方程</li> <li>试位法解非线性方程</"
+        "li> <li>迭代法解非线性方程</li> <li>一元或二元不等式（组）</li> </"
+        "ul> </il> </ul> <span class=\"nadpis\">赞助</span> <ul><li>想赞助 在"
+        "线数学助理（MAW）开发？我们目前不接受捐助。想给我们捐款？请不要这样"
+        "做。请捐助 <a href=\"http://www.unicef.org/\">UNICEF</a> 或者 <a "
+        "href=\"http://www.rednoses.eu/\">Red noses clowndoctors</a>。</li> "
+        "<li>仍然想帮助我们？请将任何问题反馈给我们。联系方式参见介绍页面。我"
+        "们也欢迎你加入开发，完善这个项目。</li> </ul>"
 
 #: minmax3d.php:3
-msgid "Local extrema in two variables"
-msgstr "二元函数的局部极值"
+msgid   "Local extrema in two variables"
+msgstr  "二元函数的局部极值"
 
 #: minmax3d.php:50
-msgid "Task for computation"
-msgstr "计算任务"
+msgid   "Task for computation"
+msgstr  "计算任务"
 
 #: minmax3d.php:55
-msgid "Hessian at stationary point"
-msgstr "一个驻点处的海赛矩阵"
+msgid   "Hessian at stationary point"
+msgstr  "一个驻点处的海赛矩阵"
 
 #: minmax3d.php:67
-msgid "Hessian at stationary points"
-msgstr "多个驻点处的海赛矩阵"
+msgid   "Hessian at stationary points"
+msgstr  "多个驻点处的海赛矩阵"
 
 #: minmax3d.php:85
-msgid "MAW-minmax3d"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span> "
-"<br>在本页面你可以求解二元函数的驻点。你有以下选项。<ul><li>利用计算机代数系统自动寻找驻点然后将答案粘贴到文本框中。</"
-"li><li>测试一系列驻点，确定其存在性以及局部极值的类型。请使用分号分隔不同的驻点，用逗号分隔每个点中的坐标值。</"
-"li><li>如果你选择只只求解一个特定驻点的选项，得到的结果会更加详细。</"
-"li><li>求解前，系统会简单测试输入的点是否为驻点。</li></ul>"
+msgid   "MAW-minmax3d"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span> <br>在本页面你可以求"
+        "解二元函数的驻点。你有以下选项。<ul><li>利用计算机代数系统自动寻找驻"
+        "点然后将答案粘贴到文本框中。</li><li>测试一系列驻点，确定其存在性以及"
+        "局部极值的类型。请使用分号分隔不同的驻点，用逗号分隔每个点中的坐标"
+        "值。</li><li>如果你选择只只求解一个特定驻点的选项，得到的结果会更加详"
+        "细。</li><li>求解前，系统会简单测试输入的点是否为驻点。</li></ul>"
 
 #: mnc.php:21
-msgid "MAW-mnc"
-msgstr ""
-"<ul> <li> "
-"输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请使用逗号分隔。</li> </ul>"
+msgid   "MAW-mnc"
+msgstr  "<ul> <li> 输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请"
+        "使用逗号分隔。</li> </ul>"
 
 #: ode.php:20
-msgid "Ordinary differential equations"
-msgstr "常微分方程"
+msgid   "Ordinary differential equations"
+msgstr  "常微分方程"
 
 #: ode.php:30
-msgid "Equation solved wrt y'"
-msgstr "对 y' 的方程"
+msgid   "Equation solved wrt y'"
+msgstr  "对 y' 的方程"
 
 #: ode.php:40
-msgid "Full equation"
-msgstr "一般方程"
+msgid   "Full equation"
+msgstr  "一般方程"
 
 #: ode.php:53
-msgid "MAW-ode"
-msgstr ""
-"<span style=\"font-weight: "
-"bold;\">备注：</"
-"span><br><ul><li>本页面可以通过多种方式求解常微分方程，并能给出求解的中间步骤。</"
-"li><li>请根据方程的不同形式选择合适的选项并在适当的文本框中输入常微分方程。</li> "
-"<li>如果你在第二个文本框中输入完整的常微分方程，系统会自动对 y' "
-"进行求解。计算前请仔细检查确保输入正确。</li> "
-"<li>计算机求解是一项复杂的工作。如果你认为得到的结果不正确，请将其反馈给作者。谢谢。</"
-"li></ul>"
+msgid   "MAW-ode"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>本页面可"
+        "以通过多种方式求解常微分方程，并能给出求解的中间步骤。</li><li>请根据"
+        "方程的不同形式选择合适的选项并在适当的文本框中输入常微分方程。</li> "
+        "<li>如果你在第二个文本框中输入完整的常微分方程，系统会自动对 y' 进行"
+        "求解。计算前请仔细检查确保输入正确。</li> <li>计算机求解是一项复杂的"
+        "工作。如果你认为得到的结果不正确，请将其反馈给作者。谢谢。</li></ul>"
 
 #: prubeh.php:2
-msgid "Function calculator"
-msgstr "函数计算器"
+msgid   "Function calculator"
+msgstr  "函数计算器"
 
 #: prubeh.php:57
-msgid "MAW-prub"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><br> "
-"<ul><li>如果图像边界没有给出，系统将自动进行估算。对于不连续或者快速增长的函数来说，结果可能不尽人意。因此，在这种情况下，请输入足够大的函数边界。</"
-"li><li>函数的零点和导数使用复数坐标求值。最终的结果将会去除虚数单位的零点。但是采用这种方式可能会漏掉部分实数零点。因此，在最终答案里，部分零点可能会被遗漏。</li></"
-"ul>"
+msgid   "MAW-prub"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br> <ul><li>如果图像"
+        "边界没有给出，系统将自动进行估算。对于不连续或者快速增长的函数来说，"
+        "结果可能不尽人意。因此，在这种情况下，请输入足够大的函数边界。</"
+        "li><li>函数的零点和导数使用复数坐标求值。最终的结果将会去除虚数单位的"
+        "零点。但是采用这种方式可能会漏掉部分实数零点。因此，在最终答案里，部"
+        "分零点可能会被遗漏。</li></ul>"
 
 #: regula_falsi.php:57
-msgid "MAW-regula_falsi"
-msgstr "MAW-regula_falsi"
+msgid   "MAW-regula_falsi"
+msgstr  "MAW-regula_falsi"
+
+#: tail.php:6
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  "由 <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+        "Mař&iacute;k</a> 和 <a href=\"http://user.mendelu.cz/tihlarik\" "
+        "target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a> 创建"
+
+#: tail.php:8
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
+msgstr  "%s离线版本%s 可以在此处获取。同时我们也欢迎你 %s参与翻译%s。"
 
 #: taylor.php:18
-msgid "Degree of Taylor polynomial"
-msgstr "泰勒多项式阶数"
+msgid   "Degree of Taylor polynomial"
+msgstr  "泰勒多项式阶数"
 
 #: taylor.php:21
-msgid "Center of Taylor polynomial"
-msgstr "泰勒多项式的中心点"
+msgid   "Center of Taylor polynomial"
+msgstr  "泰勒多项式的中心点"
 
 #: trap.php:3
-msgid "Trapezoidal rule (approximation for definite integral)"
-msgstr "梯形法则（近似定积分）"
+msgid   "Trapezoidal rule (approximation for definite integral)"
+msgstr  "梯形法则（近似定积分）"
 
 #: trap.php:25
-msgid "Limits for integration"
-msgstr "积分界限"
+msgid   "Limits for integration"
+msgstr  "积分界限"
 
 #: trap.php:29
-msgid "lower limit"
-msgstr "下限"
+msgid   "lower limit"
+msgstr  "下限"
 
 #: trap.php:33
-msgid "upper limit"
-msgstr "上限"
+msgid   "upper limit"
+msgstr  "上限"
 
 #: trap.php:36
-msgid "intervals in partition"
-msgstr "区间间隔"
+msgid   "intervals in partition"
+msgstr  "区间间隔"
 
 #: trap.php:44
-msgid "MAW-trap"
-msgstr ""
-"<span style=\"font-weight: bold;\">备注：</span><ul> <li>   "
-"填写需要积分的函数、积分界限以及分片密度（区间间隔，最大为 20 "
-"）。系统将会按照梯形法则进行积分。系统也会尝试利用牛顿 - "
-"莱布尼兹公式进行求值。最后利用其它更为先进的方式计算积分，并把结果进行比较。</li> "
-"   <li>如果点的数量小于 "
-"10，并且函数值在求解区间非负，系统将给出函数和梯形的图像。</li>       </ul>"
+msgid   "MAW-trap"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul> <li>   填写需要"
+        "积分的函数、积分界限以及分片密度（区间间隔，最大为 20 ）。系统将会按"
+        "照梯形法则进行积分。系统也会尝试利用牛顿 - 莱布尼兹公式进行求值。最后"
+        "利用其它更为先进的方式计算积分，并把结果进行比较。</li>    <li>如果点"
+        "的数量小于 10，并且函数值在求解区间非负，系统将给出函数和梯形的图像。"
+        "</li>       </ul>"

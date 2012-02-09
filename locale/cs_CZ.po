@@ -7,1044 +7,1031 @@
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009, 2010.
 #
-msgid ""
-msgstr ""
-"Project-Id-Version: cs_CZ\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-25 09:07+0100\n"
-"PO-Revision-Date: 2010-08-31 13:56+0200\n"
-"Last-Translator: Robert Marik <marik@carya>\n"
-"Language-Team:  <cs@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: KBabel 1.9.1\n"
+msgid   ""
+msgstr  "Project-Id-Version: cs_CZ\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "PO-Revision-Date: 2010-08-31 13:56+0200\n"
+        "Last-Translator: Robert Marik <marik@carya>\n"
+        "Language-Team:  <cs@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : "
+        "2;\n"
+        "X-Generator: KBabel 1.9.1\n"
 
 #: autsyst.php:3
-msgid "Singular points of autonomous systems"
-msgstr "Singulární body autonomních systémů v rovině"
+msgid   "Singular points of autonomous systems"
+msgstr  "Singulární body autonomních systémů v rovině"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
 #: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
-msgid "Editor"
-msgstr "Editor matematiky"
+msgid   "Editor"
+msgstr  "Editor matematiky"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
 #: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
-msgid "Preview"
-msgstr "Náhled"
+msgid   "Preview"
+msgstr  "Náhled"
 
 #: autsyst.php:58
-msgid "What to do"
-msgstr "Co dělat"
+msgid   "What to do"
+msgstr  "Co dělat"
 
 #: autsyst.php:61
-msgid "find Jacobi matrix at stationary point"
-msgstr "hledat Jakobiho matici ve stacionárním bodě"
+msgid   "find Jacobi matrix at stationary point"
+msgstr  "hledat Jakobiho matici ve stacionárním bodě"
 
 #: autsyst.php:72 minmax3d.php:74
-msgid ""
-"use computer to find stationary points first (this may fail to find all "
-"stationary points, however)"
-msgstr ""
-"chci nejdřív zkusit hledat stacionární body počítačem (nemusí se však "
-"podařit najít všechny stacionární body)"
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  "chci nejdřív zkusit hledat stacionární body počítačem (nemusí se "
+        "však podařit najít všechny stacionární body)"
 
 #: autsyst.php:80
-msgid "MAW-autsyst"
-msgstr ""
-"<ul>   <li>Vyplňte funkčn&iacute; předpisy prav&yacute;ch strana "
-"autonomn&iacute;ho syst&eacute;mu.</li>    <li>Pokud potřebujete naj&iacute;"
-"t stacion&aacute;rn&iacute; body, zatrhněte <span style=\"font-style: italic;"
-"\">\"hledat stacion&aacute;rn&iacute; body\"</span> a stiskněte Odeslat.</"
-"li>    <li>Pokud potřebujete naj&iacute;t Jakobiho matici a jej&iacute; "
-"vlastn&iacute; č&iacute;sla v jednom ze stacion&aacute;rn&iacute;ch bodů, "
-"zatrhněte <span style=\"font-style: italic;\">\"Jakobiho&nbsp;matici ...."
-"\",     </span>vyplňte souřadnice stacion&aacute;rn&iacute;ho bodu, "
-"kter&yacute; v&aacute;s zaj&iacute;m&aacute;, a stiskněte Odeslat.</li> </ul>"
+msgid   "MAW-autsyst"
+msgstr  "<ul>   <li>Vyplňte funkčn&iacute; předpisy prav&yacute;ch strana "
+        "autonomn&iacute;ho syst&eacute;mu.</li>    <li>Pokud potřebujete "
+        "naj&iacute;t stacion&aacute;rn&iacute; body, zatrhněte <span style="
+        "\"font-style: italic;\">\"hledat stacion&aacute;rn&iacute; body\"</"
+        "span> a stiskněte Odeslat.</li>    <li>Pokud potřebujete naj&iacute;"
+        "t Jakobiho matici a jej&iacute; vlastn&iacute; č&iacute;sla v jednom "
+        "ze stacion&aacute;rn&iacute;ch bodů, zatrhněte <span style=\"font-"
+        "style: italic;\">\"Jakobiho&nbsp;matici ....\",     </span>vyplňte "
+        "souřadnice stacion&aacute;rn&iacute;ho bodu, kter&yacute; v&aacute;s "
+        "zaj&iacute;m&aacute;, a stiskněte Odeslat.</li> </ul>"
 
-#: banach.php:2 index.php:401
-msgid "Method of iterations"
-msgstr "Metoda prosté iterace"
+#: banach.php:2 index.php:411
+msgid   "Method of iterations"
+msgstr  "Metoda prosté iterace"
 
 #: banach.php:23
-msgid "Enter function, interval containing  fixed point and number of steps."
-msgstr "Zadejte funkci, interval obsahující pevný bod a počet kroků"
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  "Zadejte funkci, interval obsahující pevný bod a počet kroků"
 
 #: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
-msgid "Function"
-msgstr "Funkce"
+msgid   "Function"
+msgstr  "Funkce"
 
 #: banach.php:34
-msgid "Interval from "
-msgstr "Interval od"
+msgid   "Interval from "
+msgstr  "Interval od"
 
 #: banach.php:36 bisection.php:37 regula_falsi.php:37
-msgid "to"
-msgstr "do"
+msgid   "to"
+msgstr  "do"
 
 #: banach.php:38 bisection.php:39 regula_falsi.php:39
-msgid "(integers or decimal numbers)"
-msgstr "(celá nebo desetiná čísla)"
+msgid   "(integers or decimal numbers)"
+msgstr  "(celá nebo desetiná čísla)"
 
 #: banach.php:42 bisection.php:43 regula_falsi.php:43
-msgid "Number of steps "
-msgstr "Počet kroků"
+msgid   "Number of steps "
+msgstr  "Počet kroků"
 
 #: banach.php:44
-msgid "(integer between 2  and 40)"
-msgstr "(celé číslo od 2 do 40)"
+msgid   "(integer between 2  and 40)"
+msgstr  "(celé číslo od 2 do 40)"
 
 #: banach.php:47
-msgid "Initial approximation"
-msgstr "Počáteční aproximace"
+msgid   "Initial approximation"
+msgstr  "Počáteční aproximace"
 
 #: banach.php:49
-msgid "(integer or decimal number)"
-msgstr "(celé nebo desetinné číslo)"
+msgid   "(integer or decimal number)"
+msgstr  "(celé nebo desetinné číslo)"
 
 #: banach.php:56
-msgid "MAW-banach"
-msgstr ""
-"viz <a href=\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem"
-"\">wikipedie</a>"
+msgid   "MAW-banach"
+msgstr  "viz <a href=\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem"
+        "\">wikipedie</a>"
 
-#: bisection.php:2 index.php:399
-msgid "Bisection"
-msgstr "Půlení intervalu"
+#: bisection.php:2 index.php:409
+msgid   "Bisection"
+msgstr  "Půlení intervalu"
 
 #: bisection.php:24 regula_falsi.php:24
-msgid "Enter function, interval containing zero and number of steps."
-msgstr "Zadejte funkci, interval obsahující nulový bod a počet kroků"
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  "Zadejte funkci, interval obsahující nulový bod a počet kroků"
 
 #: bisection.php:35 regula_falsi.php:35
-msgid "Interval from"
-msgstr "Interval od"
+msgid   "Interval from"
+msgstr  "Interval od"
 
 #: bisection.php:45 regula_falsi.php:45
-msgid "(integer between 2 and 40)"
-msgstr "(celé číslo od 2 do 40)"
+msgid   "(integer between 2 and 40)"
+msgstr  "(celé číslo od 2 do 40)"
 
 #: bisection.php:58
-msgid "MAW-bisection"
-msgstr "Půlení intervalu"
+msgid   "MAW-bisection"
+msgstr  "Půlení intervalu"
 
-#: custom.php:6
-msgid ""
-"Did we help you with your math problem? Did we save your time? If so, "
-"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
-"foundation.</a>"
-msgstr ""
-"Pomohli jsme? Ušetřili jste s námi čas a námahu? Pokud ano, zvažte prosím "
-"zaslání odpovídající částky na konto nadace <a href=\"http://www.unicef.cz/"
-"\">UNICEF</a>."
-
-#: derivace.php:2 index.php:379
-msgid "Derivative and partial derivative"
-msgstr "Derivace a parciální derivace"
+#: derivace.php:2 index.php:389
+msgid   "Derivative and partial derivative"
+msgstr  "Derivace a parciální derivace"
 
 #: derivace.php:22
-msgid "automatically use linearity of derivative"
-msgstr "automaticky použít linearitu derivace"
+msgid   "automatically use linearity of derivative"
+msgstr  "automaticky použít linearitu derivace"
 
 #: derivace.php:25
-msgid "automatically differentiate constants"
-msgstr "automaticky derivovat konstanty"
+msgid   "automatically differentiate constants"
+msgstr  "automaticky derivovat konstanty"
 
 #: derivace.php:30
-msgid "The type of the derivative"
-msgstr "Typ derivace"
+msgid   "The type of the derivative"
+msgstr  "Typ derivace"
 
 #: derivace.php:33
-msgid "Ordinary derivative (function in one variable)"
-msgstr "Obyčejná derivace (funkce jedné proměnné)"
+msgid   "Ordinary derivative (function in one variable)"
+msgstr  "Obyčejná derivace (funkce jedné proměnné)"
 
 #: derivace.php:36
-msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
-msgstr "Parciální derivace podle <i>x</i> (funkce dvou proměnných)"
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  "Parciální derivace podle <i>x</i> (funkce dvou proměnných)"
 
 #: derivace.php:39
-msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
-msgstr "Parciální derivace podle <i>y</i> (funkce dvou proměnných)"
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  "Parciální derivace podle <i>y</i> (funkce dvou proměnných)"
 
 #: derivace.php:47
-msgid "MAW-der"
-msgstr ""
-"<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené "
-"příklady krok za krokem</a> a <a href=\"http://user.mendelu.cz/marik/kvizy/"
-"der1-CZ.pdf\">online test</a> na derivace<br><a href=\"http://user.mendelu."
-"cz/marik/prez/parc-der-cz.pdf\">Řešené příklady krok za krokem</a> a <a href="
-"\"http://user.mendelu.cz/marik/kvizy/pd1-CZ.pdf\">online test</a> na "
-"parciální derivace. <ul> <li>Zadejte funkci a klikněte na tlačítko Odeslat. "
-"Obdržíte detailní postup výpočtu derivace. Můžete nechat předvolenou "
-"obyčejnou derivaci funkce jedné proměnné, nebo si vybrat jednu z parciálních "
-"derivací funkce dvou proměnných.</li> <li>Na konci výpočtu se kontroluje, "
-"zda souhlasí s derivací vypočtenou vnitřními mechanismy programu Maxima, "
-"takže výsledek určitě nebude špatně.</li> </ul>"
+msgid   "MAW-der"
+msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené "
+        "příklady krok za krokem</a> a <a href=\"http://user.mendelu.cz/marik/"
+        "kvizy/der1-CZ.pdf\">online test</a> na derivace<br><a href=\"http://"
+        "user.mendelu.cz/marik/prez/parc-der-cz.pdf\">Řešené příklady krok za "
+        "krokem</a> a <a href=\"http://user.mendelu.cz/marik/kvizy/pd1-CZ.pdf"
+        "\">online test</a> na parciální derivace. <ul> <li>Zadejte funkci a "
+        "klikněte na tlačítko Odeslat. Obdržíte detailní postup výpočtu "
+        "derivace. Můžete nechat předvolenou obyčejnou derivaci funkce jedné "
+        "proměnné, nebo si vybrat jednu z parciálních derivací funkce dvou "
+        "proměnných.</li> <li>Na konci výpočtu se kontroluje, zda souhlasí s "
+        "derivací vypočtenou vnitřními mechanismy programu Maxima, takže "
+        "výsledek určitě nebude špatně.</li> </ul>"
 
 #: df.php:2
-msgid "Domain of a function in one variable"
-msgstr "Definiční obor funkce jedné proměnné"
+msgid   "Domain of a function in one variable"
+msgstr  "Definiční obor funkce jedné proměnné"
 
 #: df.php:21 geom.php:52
-msgid "Parameters"
-msgstr "Parametry výpočtu"
+msgid   "Parameters"
+msgstr  "Parametry výpočtu"
 
 #: df.php:36
-msgid "MAW-df"
-msgstr ""
-"<b>Poznámky</b><ul><li>Ve výsledku není nijak zaznačeno, zda kraje intervalů "
-"patří do definičního oboru či nikoliv. Také ve výsledku nejdou vidět "
-"případné jednotlivé body vyjmuté z definičního oboru, které vznikou "
-"například z podmínky nenulovosti jmenovatele.</li><li>Pokud se Vám nic "
-"nezobrazí ale vzorový příklad ve formuláři funguje, je pravděpodobně něco "
-"špatně zapsáno ve funkci, kterou se snažíte zadat. Pokud zadáte funkci, "
-"která není nikde definovaná, zobrazí se jenom řešení dílčích podmínek ale "
-"celkový definiční obor (prázdná množina) se nezobrazí.</li></ul>"
+msgid   "MAW-df"
+msgstr  "<b>Poznámky</b><ul><li>Ve výsledku není nijak zaznačeno, zda kraje "
+        "intervalů patří do definičního oboru či nikoliv. Také ve výsledku "
+        "nejdou vidět případné jednotlivé body vyjmuté z definičního oboru, "
+        "které vznikou například z podmínky nenulovosti jmenovatele.</"
+        "li><li>Pokud se Vám nic nezobrazí ale vzorový příklad ve formuláři "
+        "funguje, je pravděpodobně něco špatně zapsáno ve funkci, kterou se "
+        "snažíte zadat. Pokud zadáte funkci, která není nikde definovaná, "
+        "zobrazí se jenom řešení dílčích podmínek ale celkový definiční obor "
+        "(prázdná množina) se nezobrazí.</li></ul>"
 
 #: df3d.php:3
-msgid "Domain of a function in two variables"
-msgstr "Definiční obor funkce dvou proměných"
+msgid   "Domain of a function in two variables"
+msgstr  "Definiční obor funkce dvou proměných"
 
 #: df3d.php:22
-msgid "limits for the picture with domain:"
-msgstr "meze pro obrázek"
+msgid   "limits for the picture with domain:"
+msgstr  "meze pro obrázek"
 
 #: df3d.php:27 df3d.php:29 df3d.php:31
-msgid "draw domain on the set"
-msgstr "kreslit na čtverci"
+msgid   "draw domain on the set"
+msgstr  "kreslit na čtverci"
 
 #: df3d.php:44
-msgid "MAW-df3d"
-msgstr ""
-"<ul>  <li>Vyplňte funkčn&iacute; předpis pro funkci dvou proměnn&yacute;ch.</"
-"li> <li>Obrázek s definičním oborem sice bude kostrbatý a nebude tam "
-"zaznačeno, která část hranice patří nebo nepatří do definičního oboru, ale "
-"pro rychlou orientaci to určitě pomůže. Můžete si zvolit mezi několika "
-"rozsahy pro kreslení.</li> </ul>"
+msgid   "MAW-df3d"
+msgstr  "<ul>  <li>Vyplňte funkčn&iacute; předpis pro funkci dvou "
+        "proměnn&yacute;ch.</li> <li>Obrázek s definičním oborem sice bude "
+        "kostrbatý a nebude tam zaznačeno, která část hranice patří nebo "
+        "nepatří do definičního oboru, ale pro rychlou orientaci to určitě "
+        "pomůže. Můžete si zvolit mezi několika rozsahy pro kreslení.</li> </"
+        "ul>"
+
+#: dummy.php:6 mawconfightml.php:60
+msgid   "Switch to a compact design"
+msgstr  "Přepnout na kompaktní zobrazení"
+
+#: dummy.php:7
+msgid   "Showcase"
+msgstr  "Výkladní skříň"
+
+#: dummy.php:8 mawconfightml.php:48
+msgid   "Switch to a full design"
+msgstr  "Přepnout na plné zobrazení"
+
+#: dummy.php:9
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  "Pomohli jsme? Ušetřili jste s námi čas a námahu? Pokud ano, zvažte "
+        "prosím zaslání odpovídající částky na konto nadace <a href=\"http://"
+        "www.unicef.cz/\">UNICEF</a>."
 
 #: geom.php:2
-msgid "Definite integral in geometry"
-msgstr "Využití určitého integrálu v geometrii"
+msgid   "Definite integral in geometry"
+msgstr  "Využití určitého integrálu v geometrii"
 
 #: geom.php:12
-msgid "Formulation of the problem"
-msgstr "Zadání množiny"
+msgid   "Formulation of the problem"
+msgstr  "Zadání množiny"
 
 #: geom.php:14
-msgid "Curves on boundary"
-msgstr "Křivky ohraničující množinu"
+msgid   "Curves on boundary"
+msgstr  "Křivky ohraničující množinu"
 
 #: geom.php:18
-msgid "Upper bound"
-msgstr "Ohraničen&iacute; shora"
+msgid   "Upper bound"
+msgstr  "Ohraničen&iacute; shora"
 
 #: geom.php:26
-msgid "Lower bound"
-msgstr "Ohraničen&iacute; zdola"
+msgid   "Lower bound"
+msgstr  "Ohraničen&iacute; zdola"
 
 #: geom.php:36
-msgid ""
-"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
-"curves by choosing \"intercepts\" in parameters for computation)</small>"
-msgstr ""
-"Meze pro hlednou množinu: <small>(pokud meze nem&aacute;te zad&aacute;ny a "
-"ani nezn&aacute;te průseč&iacute;ky, zkuste&nbsp;průseč&iacute;ky "
-"nejdř&iacute;v naj&iacute;t pomoc&iacute; volby \"Co hledat\" v sekci "
-"\"parametry\")</small>"
+msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
+        "of both curves by choosing \"intercepts\" in parameters for "
+        "computation)</small>"
+msgstr  "Meze pro hlednou množinu: <small>(pokud meze nem&aacute;te "
+        "zad&aacute;ny a ani nezn&aacute;te průseč&iacute;ky, zkuste&nbsp;"
+        "průseč&iacute;ky nejdř&iacute;v naj&iacute;t pomoc&iacute; volby "
+        "\"Co hledat\" v sekci \"parametry\")</small>"
 
 #: geom.php:41
-msgid "lower bound"
-msgstr "dolní mez"
+msgid   "lower bound"
+msgstr  "dolní mez"
 
 #: geom.php:45
-msgid "upper bound"
-msgstr "horní mez"
+msgid   "upper bound"
+msgstr  "horní mez"
 
 #: geom.php:54
-msgid "Action"
-msgstr "Akce"
+msgid   "Action"
+msgstr  "Akce"
 
 #: geom.php:59
 #, php-format
-msgid "Find %s area %s between two curves and draw graph."
-msgstr "Vypočítat %s obsah %s množiny mezi dvěma křivkami"
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  "Vypočítat %s obsah %s množiny mezi dvěma křivkami"
 
 #: geom.php:65
 #, php-format
-msgid "Find %s volume %s of solid of revolution and draw graph"
-msgstr "Vypočítat %s objem %s rotačního tělesa a nakreslit obrázek"
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  "Vypočítat %s objem %s rotačního tělesa a nakreslit obrázek"
 
 #: geom.php:70
-msgid "preview solid of revolution"
-msgstr "náhled rotačního tělesa"
+msgid   "preview solid of revolution"
+msgstr  "náhled rotačního tělesa"
 
 #: geom.php:72
-msgid "show colors, no mesh"
-msgstr "zobrazit barvy místo kostry"
+msgid   "show colors, no mesh"
+msgstr  "zobrazit barvy místo kostry"
 
 #: geom.php:74
-msgid "hide invisible parts"
-msgstr "skrýt neviditelné části"
+msgid   "hide invisible parts"
+msgstr  "skrýt neviditelné části"
 
 #: geom.php:80
-msgid "Find intercepts of curves"
-msgstr "Najít průsečíky křivek"
+msgid   "Find intercepts of curves"
+msgstr  "Najít průsečíky křivek"
 
 #: geom.php:82
-msgid "Bounds for the picture (decimal numbers)"
-msgstr "Meze pro obrázek (desetinná čísla)"
+msgid   "Bounds for the picture (decimal numbers)"
+msgstr  "Meze pro obrázek (desetinná čísla)"
 
 #: geom.php:111
-msgid "MAW-geom"
-msgstr ""
-"<a href=\"http://user.mendelu.cz/marik/prez/riemann-cz.pdf\">Teorie a řešené "
-"příklady</a>, <a href=\"http://user.mendelu.cz/marik/aplik.pdf\">neřešené "
-"příklady</a> (s výsledky) <br><br><b>Poznámky</b><ul>   <li>Vyplňte "
-"funkčn&iacute; předpisy, meze pro množinu v rovině a meze pro "
-"nakreslen&iacute; obr&aacute;zku (obě funkce mus&iacute; b&yacute;t "
-"spojit&eacute; na cel&eacute;m rozsahu pro proměnnou <span style=\"font-"
-"style: italic;\">x</span>).</li>  <li>Pokud je množina zdola ohraničena osou "
-"<span style=\"font-style: italic;\">x</span>, vepi&scaron;te do pol&iacute;"
-"čka pro funkci <span style=\"font-style: italic;\">g</span> nulu.</li>  "
-"<li>Pokud potřebujete zn&aacute;t průseč&iacute;ky křivek, vyplňte "
-"funkčn&iacute; předpisy pro funkce, z rozbalovac&iacute;ho menu vyberte "
-"položku \"<span style=\"font-style: italic;\">průseč&iacute;ky</span>\" a "
-"ode&scaron;lete formul&aacute;ř. Hled&aacute;n&iacute; kořenů je obecně "
-"poměrně n&aacute;ročn&yacute; &uacute;kol a ne vždy se to podař&iacute; "
-"pomoc&iacute; standartn&iacute;ch postupů. Pokud kořeny takto nenajdete, "
-"zkuste je odhadnout z grafů nebo zkuste použ&iacute;t nějak&yacute; "
-"sofistikovaněj&scaron;&iacute; n&aacute;stroj na ře&scaron;en&iacute; rovnic."
-"<br>  </li></ul>"
+msgid   "MAW-geom"
+msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/riemann-cz.pdf\">Teorie "
+        "a řešené příklady</a>, <a href=\"http://user.mendelu.cz/marik/aplik."
+        "pdf\">neřešené příklady</a> (s výsledky) <br><br><b>Poznámky</"
+        "b><ul>   <li>Vyplňte funkčn&iacute; předpisy, meze pro množinu v "
+        "rovině a meze pro nakreslen&iacute; obr&aacute;zku (obě funkce "
+        "mus&iacute; b&yacute;t spojit&eacute; na cel&eacute;m rozsahu pro "
+        "proměnnou <span style=\"font-style: italic;\">x</span>).</li>  "
+        "<li>Pokud je množina zdola ohraničena osou <span style=\"font-style: "
+        "italic;\">x</span>, vepi&scaron;te do pol&iacute;čka pro funkci "
+        "<span style=\"font-style: italic;\">g</span> nulu.</li>  <li>Pokud "
+        "potřebujete zn&aacute;t průseč&iacute;ky křivek, vyplňte "
+        "funkčn&iacute; předpisy pro funkce, z rozbalovac&iacute;ho menu "
+        "vyberte položku \"<span style=\"font-style: italic;\">průseč&iacute;"
+        "ky</span>\" a ode&scaron;lete formul&aacute;ř. Hled&aacute;n&iacute; "
+        "kořenů je obecně poměrně n&aacute;ročn&yacute; &uacute;kol a ne vždy "
+        "se to podař&iacute; pomoc&iacute; standartn&iacute;ch postupů. Pokud "
+        "kořeny takto nenajdete, zkuste je odhadnout z grafů nebo zkuste "
+        "použ&iacute;t nějak&yacute; sofistikovaněj&scaron;&iacute; n&aacute;"
+        "stroj na ře&scaron;en&iacute; rovnic.<br>  </li></ul>"
 
-#: graf.php:2 index.php:371
-msgid "Graphs of elementary functions"
-msgstr "Grafy elementárních funkcí"
+#: graf.php:2 index.php:381
+msgid   "Graphs of elementary functions"
+msgstr  "Grafy elementárních funkcí"
 
 #: graf.php:20
-msgid ""
-"(the function must either a basic elementary function of a function which "
-"can be obtained from on of basic elementary functions by shifting and "
-"resizing graph)"
-msgstr ""
-"(funkce musí být buď základní elementární funkce anebo funkce, která ze "
-"základní elementární funkce vznikne natažením a posunutím)"
+msgid   "(the function must either a basic elementary function of a function "
+        "which can be obtained from on of basic elementary functions by "
+        "shifting and resizing graph)"
+msgstr  "(funkce musí být buď základní elementární funkce anebo funkce, která "
+        "ze základní elementární funkce vznikne natažením a posunutím)"
 
 #: graf.php:25
-msgid "Bounds for axes"
-msgstr "Rozsah pro osy"
+msgid   "Bounds for axes"
+msgstr  "Rozsah pro osy"
 
 #: graf.php:37
-msgid "show grid"
-msgstr "zobrazit mřížku"
+msgid   "show grid"
+msgstr  "zobrazit mřížku"
 
 #: graf.php:44
-msgid "Logarithm"
-msgstr "Jaký použít logaritmus"
+msgid   "Logarithm"
+msgstr  "Jaký použít logaritmus"
 
 #: graf.php:45
-msgid "If the input contains logarithm, use"
-msgstr "Pokud je zadán logaritmus, použije se"
+msgid   "If the input contains logarithm, use"
+msgstr  "Pokud je zadán logaritmus, použije se"
 
 #: graf.php:48
-msgid "natural log"
-msgstr "přirozený logaritmus"
+msgid   "natural log"
+msgstr  "přirozený logaritmus"
 
 #: graf.php:51
-msgid "log with base"
-msgstr "logaritmus o základě"
+msgid   "log with base"
+msgstr  "logaritmus o základě"
 
 #: graf.php:61
-msgid "MAW-graf"
-msgstr ""
-"<span style=\"font-weight: bold;\">Pozn&aacute;mky:</span><br><ul> "
-"<li>Zadejte funkci která vznikne složením některé ze základních "
-"elementárních funkcí s lineární funkcí.</li> <li>Funkce bude automaticky "
-"rozpoznána a sestrojí se okomentovaný postup, jak obdržet graf funkce pomocí "
-"transformací základních grafů</li></ul>"
+msgid   "MAW-graf"
+msgstr  "<span style=\"font-weight: bold;\">Pozn&aacute;mky:</span><br><ul> "
+        "<li>Zadejte funkci která vznikne složením některé ze základních "
+        "elementárních funkcí s lineární funkcí.</li> <li>Funkce bude "
+        "automaticky rozpoznána a sestrojí se okomentovaný postup, jak "
+        "obdržet graf funkce pomocí transformací základních grafů</li></ul>"
 
-#: index.php:122
-msgid ""
-"Clicking this button you get how formconv renders your expression and how "
-"you can enter this expression in Maxima notation (you can use copy and paste "
-"to transfer to the form.)"
-msgstr ""
-"Kliknutím na tlačítko Náhled zjistíte, "
-"jak je vaše matematická formule interpretována programem formconv a obdržíte radu, jak zapsat formuli "
-"v programu Maxima. "
+#: index.php:121
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
+msgstr  "Kliknutím na tlačítko Náhled zjistíte, jak je vaše matematická "
+        "formule interpretována programem formconv a obdržíte radu, jak "
+        "zapsat formuli v programu Maxima. "
 
-#: index.php:126
+#: index.php:130
 #, php-format
-msgid ""
-"Your input is being processed. Wait few seconds to see the output. Click "
-"%shere%s to reopen the form which has been submited."
-msgstr ""
-"Váš požadavek je zpracováván. Čekejte prosím na dokončení výpočtu. Kliknutím "
-"%ssem%s se vrátíte do odeslaného formuláře."
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  "Váš požadavek je zpracováván. Čekejte prosím na dokončení výpočtu. "
+        "Kliknutím %ssem%s se vrátíte do odeslaného formuláře."
 
-#: index.php:133
-msgid "History"
-msgstr "Historie"
+#: index.php:137
+msgid   "History"
+msgstr  "Historie"
 
-#: index.php:166 index.php:272
-msgid "Mathematical Assistant on Web"
-msgstr "Matematické výpočty online (MAW)"
+#: index.php:170 index.php:283
+msgid   "Mathematical Assistant on Web"
+msgstr  "Matematické výpočty online (MAW)"
 
-#: index.php:222
-msgid "You should turn JavaScript on to see popup informations."
-msgstr ""
-"Pro zobrazení některých dodatečných informací si prosím zapněte Javascripty."
+#: index.php:233
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  "Pro zobrazení některých dodatečných informací si prosím zapněte "
+        "Javascripty."
 
-#: index.php:241
-msgid "More languages"
-msgstr "Další jazyky"
+#: index.php:252
+msgid   "More languages"
+msgstr  "Další jazyky"
 
-#: index.php:255
-msgid "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr "http://forum.matweb.cz/viewforum.php?id=39"
+#: index.php:266
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr  "http://forum.matweb.cz/viewforum.php?id=39"
 
-#: index.php:255
-msgid "Support from MAW forum"
-msgstr "Podpora, diskusní fórum"
+#: index.php:266
+msgid   "Support from MAW forum"
+msgstr  "Podpora, diskusní fórum"
 
-#: index.php:257
-msgid "Changelog"
-msgstr "Poslední změny"
+#: index.php:268
+msgid   "Changelog"
+msgstr  "Poslední změny"
 
-#: index.php:259
-msgid "Known bugs"
-msgstr "Známé chyby"
+#: index.php:270
+msgid   "Known bugs"
+msgstr  "Známé chyby"
 
-#: index.php:274
-msgid ""
-"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" target="
-"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr ""
-"autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-"Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/tihlarik\" target="
-"\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+#: index.php:333
+msgid   "Submit"
+msgstr  "Odeslat"
 
-#: index.php:275
-#, php-format
-msgid ""
-"%sOffline version%s is also available and translators are %s welcomed %s."
-msgstr ""
-"K dispozici je i %s offline%s verze a vítáme případné %s překladatele%s."
-
-#: index.php:323
-msgid "Submit"
-msgstr "Odeslat"
-
-#: index.php:323
-msgid "Click only once and wait few seconds for the answer!"
-msgstr "Klikněte pouze jednou a počkejte několik okamžiků na odpověd!"
-
-#: index.php:372
-msgid "Domain of functions (one variable)"
-msgstr "Definiční obor funkcí jedné proměnné"
-
-#: index.php:373
-msgid "Domain of functions (two variables)"
-msgstr "Definiční obor funkcí dvou proměnných"
-
-#: index.php:374 lagrange.php:3
-msgid "Lagrange polynomial"
-msgstr "Lagrangeův polynom"
-
-#: index.php:375 mnc.php:3
-msgid "Least squares method"
-msgstr "Metoda nejmenších čtverců"
-
-#: index.php:380
-msgid "Investigating functions"
-msgstr "Průběh funkce"
-
-#: index.php:381 taylor.php:3
-msgid "Taylor polynomial"
-msgstr "Taylorův polynom"
+#: index.php:333
+msgid   "Click only once and wait few seconds for the answer!"
+msgstr  "Klikněte pouze jednou a počkejte několik okamžiků na odpověd!"
 
 #: index.php:382
-msgid "Local maxima and minima in two variables"
-msgstr "Lokální extrémy funkce dvou proměnných"
+msgid   "Domain of functions (one variable)"
+msgstr  "Definiční obor funkcí jedné proměnné"
 
-#: index.php:386 integral.php:2
-msgid "Antiderivative"
-msgstr "Neurčitý integrál"
+#: index.php:383
+msgid   "Domain of functions (two variables)"
+msgstr  "Definiční obor funkcí dvou proměnných"
 
-#: index.php:387
-msgid "Geometrical applications of definite integral"
-msgstr "Geometrické aplikace určitého integrálu"
+#: index.php:384 lagrange.php:3
+msgid   "Lagrange polynomial"
+msgstr  "Lagrangeův polynom"
 
-#: index.php:388
-msgid "Trapezoidal rule"
-msgstr "Lichoběžníkové pravidlo"
+#: index.php:385 mnc.php:3
+msgid   "Least squares method"
+msgstr  "Metoda nejmenších čtverců"
 
-#: index.php:389 integral2.php:2
-msgid "Double integral"
-msgstr "Dvojnásobný integrál"
+#: index.php:390
+msgid   "Investigating functions"
+msgstr  "Průběh funkce"
 
-#: index.php:393
-msgid "First order ODE"
-msgstr "Diferenciální rovnice prvního řádu"
+#: index.php:391 taylor.php:3
+msgid   "Taylor polynomial"
+msgstr  "Taylorův polynom"
 
-#: index.php:394
-msgid "Second order LDE"
-msgstr "Diferenciální rovnice druhého řádu"
+#: index.php:392
+msgid   "Local maxima and minima in two variables"
+msgstr  "Lokální extrémy funkce dvou proměnných"
 
-#: index.php:395
-msgid "Autonomous system"
-msgstr "Autonomní systémy"
+#: index.php:396 integral.php:2
+msgid   "Antiderivative"
+msgstr  "Neurčitý integrál"
 
-#: index.php:400 regula_falsi.php:2
-msgid "Regula falsi"
-msgstr "Regula falsi"
+#: index.php:397
+msgid   "Geometrical applications of definite integral"
+msgstr  "Geometrické aplikace určitého integrálu"
 
-#: index.php:402
-msgid "System of inequalities (in one or two variables)"
-msgstr "Soustavy nerovnic (jedné nebo dvou proměnných)"
+#: index.php:398
+msgid   "Trapezoidal rule"
+msgstr  "Lichoběžníkové pravidlo"
 
-#: index.php:410
-msgid "Introduction"
-msgstr "Úvod"
+#: index.php:399 integral2.php:2
+msgid   "Double integral"
+msgstr  "Dvojnásobný integrál"
 
-#: index.php:416
-msgid "Precalculus"
-msgstr "Funkce"
+#: index.php:403
+msgid   "First order ODE"
+msgstr  "Diferenciální rovnice prvního řádu"
 
-#: index.php:421
-msgid "Calculus"
-msgstr "Diferenciální počet"
+#: index.php:404
+msgid   "Second order LDE"
+msgstr  "Diferenciální rovnice druhého řádu"
 
-#: index.php:427
-msgid "Integral calculus"
-msgstr "Integrální počet"
+#: index.php:405
+msgid   "Autonomous system"
+msgstr  "Autonomní systémy"
 
-#: index.php:433
-msgid "Differential equations"
-msgstr "Diferenciální rovnice"
+#: index.php:410 regula_falsi.php:2
+msgid   "Regula falsi"
+msgstr  "Regula falsi"
 
-#: index.php:439
-msgid "Equations and inequalities"
-msgstr "Rovnice a nerovnice"
+#: index.php:412
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "Soustavy nerovnic (jedné nebo dvou proměnných)"
 
-#: index.php:446
-msgid "Site map, support"
-msgstr "Mapa stránek, podpora"
+#: index.php:420
+msgid   "Introduction"
+msgstr  "Úvod"
 
-#: index.php:472
-msgid ""
-"Enter your data into the calculator and click Submit. You can also change "
-"the type of the caluclator in the second row of the menu. <br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
-msgstr ""
-"Vyplňte následující formulář Vašimi daty a stiskněte tlačítko Odeslat, nebo "
-"si vyberte jiný kalkulátor z horního menu.<br>V prvním řádku jsou tematické "
-"skupiny, pro každou tematickou skupinu jsou příslušené kalkulátory ve druhém "
-"řádku menu."
+#: index.php:426
+msgid   "Precalculus"
+msgstr  "Funkce"
 
-#: index.php:475
-msgid ""
-"Choose the field of your interest in the menu and then choose the particular "
-"calculator depending on the problem you wich to solve.<br>These calculators "
-"are able to solve the problems including step by step solution.<br>The "
-"calculators are divided into several groups, the description is available if "
-"you move your mouse on the name of each group (the first row of the menu)."
-msgstr ""
-"Vyberte si tematickou skupinu kalkulátorů a poté konkrétní kalkulátor, který "
-"Vám zobrazí nejenom výsledek výpočtu, ale i postup.<br>Nápověda (popis "
-"dostupných kalkulátorů) se objeví po najetí myší na názvy těchto tematických "
-"skupin."
+#: index.php:431
+msgid   "Calculus"
+msgstr  "Diferenciální počet"
+
+#: index.php:437
+msgid   "Integral calculus"
+msgstr  "Integrální počet"
+
+#: index.php:443
+msgid   "Differential equations"
+msgstr  "Diferenciální rovnice"
+
+#: index.php:449
+msgid   "Equations and inequalities"
+msgstr  "Rovnice a nerovnice"
+
+#: index.php:456
+msgid   "Site map, support"
+msgstr  "Mapa stránek, podpora"
+
+#: index.php:482
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the caluclator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  "Vyplňte následující formulář Vašimi daty a stiskněte tlačítko "
+        "Odeslat, nebo si vyberte jiný kalkulátor z horního menu.<br>V prvním "
+        "řádku jsou tematické skupiny, pro každou tematickou skupinu jsou "
+        "příslušené kalkulátory ve druhém řádku menu."
+
+#: index.php:485
+msgid   "Choose the field of your interest in the menu and then choose the "
+        "particular calculator depending on the problem you wich to solve."
+        "<br>These calculators are able to solve the problems including step "
+        "by step solution.<br>The calculators are divided into several "
+        "groups, the description is available if you move your mouse on the "
+        "name of each group (the first row of the menu)."
+msgstr  "Vyberte si tematickou skupinu kalkulátorů a poté konkrétní "
+        "kalkulátor, který Vám zobrazí nejenom výsledek výpočtu, ale i postup."
+        "<br>Nápověda (popis dostupných kalkulátorů) se objeví po najetí myší "
+        "na názvy těchto tematických skupin."
 
 #: ineq2d.php:3
-msgid "Inequalities"
-msgstr "Nerovnice nebo soustava nerovnic"
+msgid   "Inequalities"
+msgstr  "Nerovnice nebo soustava nerovnic"
 
 #: ineq2d.php:15
-msgid ""
-"Read the comments below the form to find out, which inequalities can be "
-"solved."
-msgstr ""
-"Přečtěte si v komentáři pod formulářem, jaké nerovnosti můžete zadávat. "
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  "Přečtěte si v komentáři pod formulářem, jaké nerovnosti můžete "
+        "zadávat. "
 
 #: ineq2d.php:18
-msgid "suppose x,y>0"
-msgstr "řešit v prvním kvadrantu (s podmínkami nezápornosti)"
+msgid   "suppose x,y>0"
+msgstr  "řešit v prvním kvadrantu (s podmínkami nezápornosti)"
 
 #: ineq2d.php:22
-msgid "draw labels on axes, not on boundary"
-msgstr "kreslit značky na osách, ne na okraji obrázku"
+msgid   "draw labels on axes, not on boundary"
+msgstr  "kreslit značky na osách, ne na okraji obrázku"
 
 #: ineq2d.php:28
-msgid "use high quality output in PDF"
-msgstr "použít výstup do PDF (pro kvalitní tisk)"
+msgid   "use high quality output in PDF"
+msgstr  "použít výstup do PDF (pro kvalitní tisk)"
 
 #: ineq2d.php:32
-msgid "and change bounds to get equal units on both axes"
-msgstr "a přeškálovat osy tak, aby bylo na obou osách stejné měřítko"
+msgid   "and change bounds to get equal units on both axes"
+msgstr  "a přeškálovat osy tak, aby bylo na obou osách stejné měřítko"
 
 #: ineq2d.php:40 prubeh.php:41
-msgid "Axes"
-msgstr "Osy"
+msgid   "Axes"
+msgstr  "Osy"
 
 #: ineq2d.php:57
-msgid "MAW-ineq2d"
-msgstr ""
-"<ul>    <li>Zapište do políčka nerovnice, vždy jednu nerovnici na každý "
-"řádek.</li> <li>Používejte jenom ostré nerovnosti a proměnné <i>x</i> a "
-"<i>y</i>.</li> <li>Nerovnice jsou řešeny numericky na zadaném intervalu "
-"(obdélníku v případě funkcí dvou proměnnných). Pokud v obrázku není "
-"vyznačeno řešení, potom nerovnice na daném intervalu nemá řešení (zkuste "
-"interval zvětšit) nebo jsou řešením izolované body, které numerický výpočet "
-"nezachytí.</li> <li>Doplňující volby pod textovým políčkem (podmínky "
-"nezápornosti a značky na ose <i>y</i>) a meze pro proměnnou <i>y</i> jsou "
-"ignorovány, pokud použijete jenom nerovnost(nerovnosti) v proměnné <i>x</i>."
-"</li> <li> V html verzi jsou obrázky čtvercové. Abyste obdrželi stejné "
-"měřítko na obou osách, stačí zvolit hranice na osách tak, aby vzdálenost "
-"mezi krajními body na ose <i>x</i> byla stejná jako na ose <i>y</i>. V PDF "
-"výstupu jsou obrázky formátovány na poměr 10:7. Pokud chcete stejné měřítko "
-"na obou osách (a vidět například čtverce a kruhy bez deformace), zatrhněte "
-"příslušný checkbox aby se osa, která má delší délkovou jednotku, "
-"přeškálovala. </li> </ul>"
+msgid   "MAW-ineq2d"
+msgstr  "<ul>    <li>Zapište do políčka nerovnice, vždy jednu nerovnici na "
+        "každý řádek.</li> <li>Používejte jenom ostré nerovnosti a proměnné "
+        "<i>x</i> a <i>y</i>.</li> <li>Nerovnice jsou řešeny numericky na "
+        "zadaném intervalu (obdélníku v případě funkcí dvou proměnnných). "
+        "Pokud v obrázku není vyznačeno řešení, potom nerovnice na daném "
+        "intervalu nemá řešení (zkuste interval zvětšit) nebo jsou řešením "
+        "izolované body, které numerický výpočet nezachytí.</li> "
+        "<li>Doplňující volby pod textovým políčkem (podmínky nezápornosti a "
+        "značky na ose <i>y</i>) a meze pro proměnnou <i>y</i> jsou "
+        "ignorovány, pokud použijete jenom nerovnost(nerovnosti) v proměnné "
+        "<i>x</i>.</li> <li> V html verzi jsou obrázky čtvercové. Abyste "
+        "obdrželi stejné měřítko na obou osách, stačí zvolit hranice na osách "
+        "tak, aby vzdálenost mezi krajními body na ose <i>x</i> byla stejná "
+        "jako na ose <i>y</i>. V PDF výstupu jsou obrázky formátovány na "
+        "poměr 10:7. Pokud chcete stejné měřítko na obou osách (a vidět "
+        "například čtverce a kruhy bez deformace), zatrhněte příslušný "
+        "checkbox aby se osa, která má delší délkovou jednotku, přeškálovala. "
+        "</li> </ul>"
 
 #: integral.php:28
-msgid ""
-"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
-"mathematical expressions (this allows to write  2x instead of 2*x)"
-msgstr ""
-"použít program <a href=\"http://formconv.sourceforge.net/\">formconv</a> ke "
-"konverzi matematických výrazů (Umožní psát například 2x místo 2*x a sin^2(x) "
-"místo (sin(x))^2, ale neumí odchytit některé běžné chyby, jako zapomenutá "
-"závorka. Máte-li potíže se zadáváním funkce, zkuste zrušit zaškrtnutí tohoto "
-"políčka.) "
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  "použít program <a href=\"http://formconv.sourceforge.net/"
+        "\">formconv</a> ke konverzi matematických výrazů (Umožní psát "
+        "například 2x místo 2*x a sin^2(x) místo (sin(x))^2, ale neumí "
+        "odchytit některé běžné chyby, jako zapomenutá závorka. Máte-li "
+        "potíže se zadáváním funkce, zkuste zrušit zaškrtnutí tohoto "
+        "políčka.) "
 
 #: integral.php:33
-msgid ""
-"use \n"
-"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
-"formulas on html page instead of  \n"
-"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-"(the output is better but the rendering could be slower)\n"
-msgstr ""
-"použít <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> pro "
-"zobrazování matematických výrazů místo mathTeXu (kvalitnější zobrazování, "
-"vzorce jde zvětšovat a kopírovat z nich TeXovský kód, ale tato volba není "
-"moc vhodná při pomalém připojení)\n"
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  "použít <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</"
+        "a> pro zobrazování matematických výrazů místo mathTeXu (kvalitnější "
+        "zobrazování, vzorce jde zvětšovat a kopírovat z nich TeXovský kód, "
+        "ale tato volba není moc vhodná při pomalém připojení)\n"
 
 #: integral.php:42
-msgid ""
-"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-"html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you get "
-"composite fractions (with fraction in numerator))"
-msgstr ""
-"přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-"html#Item_003a-pfeformat\">pfeformat</a> (zrušte zatrhnutí, pokud při "
-"výpočtu obdržíte složené zlomky (se zlomkem v čitateli)) "
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  "přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
+        "maxima_4.html#Item_003a-pfeformat\">pfeformat</a> (zrušte zatrhnutí, "
+        "pokud při výpočtu obdržíte složené zlomky (se zlomkem v čitateli)) "
 
 #: integral.php:47 integral2.php:74
-msgid "write acsinh and atanh in terms of log"
-msgstr "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
 
 #: integral.php:59
-msgid "MAW-int"
-msgstr ""
-"<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/"
-"\">galerie integrálů</a>.</span> Máte-li s výpočtem některého z integrálů "
-"problémy, neváhejte nás kontaktovat s žádostí o přidání Vašeho integrálu do "
-"této galerie.<br><br> <a href=\"http://user.mendelu.cz/marik/prez/integraly-"
-"cz.pdf\">Příklady</a> řešené krok za krokem a <a href=\"http://user.mendelu."
-"cz/marik/kvizy/kvizy.html#Kvizy\">interaktivní testy</a> (podkapitolka "
-"Integrální počet)<br><br><b>Poznámky</b><ul><li>Zadejte funkci kterou chcete "
-"integrovat. Na následující straně si budetemoct zkoušet jednotlivé "
-"integrační metody (substituci, per partés, dělení polynomů, různé úpravy "
-"integrandu) a zkoušet, která vede k úspěšnému zintegrování.</li><li>Až "
-"budete ve fázi, kdy pro zintegrování stačí použít vzorce, napište si "
-"výsledek napapír a použijte poslední volbu - integrovat pomocí počítače. "
-"Zobrazí se vám poslední integrál.</li><li>Nemáte k dipozici undo, ale můžete "
-"se vracet zpět pomocí tlačítka \"Zpět\" ve vašem prohlížeči.</li> "
-"<li>Matematické výrazy se zobrazují programem mimetex ve formátu png, mohly "
-"by být problémy s prohlížečem Microsoft Explorer.</li> <li>Matematické "
-"výrazy zadávejte stejně jako v programu <a href=\"http://maxima.sourceforge."
-"net/\">Maxima</a>. Pokud si nejste jisti zápisem, nechte zaškrtnuté políčko "
-"s programem formconv, který řeší bežné nedostatky jako zapomenutá hvězdička "
-"pro násobení nebo zápis sin^2x pro (sin(x))^2.</li> <li>Na konci stránky je "
-"přepis session programu Maxima, odkud je možné vyčíst případné chyby.</li> "
-"<li>Podobn&eacute; rozhraní, kter&eacute; provede celý výpočet integrálu "
-"zcela automaticky, je &nbsp;na str&aacute;nk&aacute;ch&nbsp;<a target="
-"\"_blank\" href=\"http://cgi.math.muni.cz/%7Exsrot/int/uvod.cgi?cnt=yes"
-"\">Pavla Kř&iacute;že a Karla &Scaron;rota</a>.</li> <li>Část výpočtu se "
-"ukládá na serveru a po čase (delším jak dvě hodiny od začátku výpočtu) "
-"automaticky maže. Pokud použijete zobrazování matematiky pomocí mathTeXu, "
-"můžete si zdroják html stránky s dokončeným výpočtem uložit u sebe a budete "
-"to mít přístupné pořád.</li> </ul>"
+msgid   "MAW-int"
+msgstr  "<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/"
+        "\">galerie integrálů</a>.</span> Máte-li s výpočtem některého z "
+        "integrálů problémy, neváhejte nás kontaktovat s žádostí o přidání "
+        "Vašeho integrálu do této galerie.<br><br> <a href=\"http://user."
+        "mendelu.cz/marik/prez/integraly-cz.pdf\">Příklady</a> řešené krok za "
+        "krokem a <a href=\"http://user.mendelu.cz/marik/kvizy/kvizy."
+        "html#Kvizy\">interaktivní testy</a> (podkapitolka Integrální počet)"
+        "<br><br><b>Poznámky</b><ul><li>Zadejte funkci kterou chcete "
+        "integrovat. Na následující straně si budetemoct zkoušet jednotlivé "
+        "integrační metody (substituci, per partés, dělení polynomů, různé "
+        "úpravy integrandu) a zkoušet, která vede k úspěšnému zintegrování.</"
+        "li><li>Až budete ve fázi, kdy pro zintegrování stačí použít vzorce, "
+        "napište si výsledek napapír a použijte poslední volbu - integrovat "
+        "pomocí počítače. Zobrazí se vám poslední integrál.</li><li>Nemáte k "
+        "dipozici undo, ale můžete se vracet zpět pomocí tlačítka \"Zpět\" ve "
+        "vašem prohlížeči.</li> <li>Matematické výrazy se zobrazují programem "
+        "mimetex ve formátu png, mohly by být problémy s prohlížečem "
+        "Microsoft Explorer.</li> <li>Matematické výrazy zadávejte stejně "
+        "jako v programu <a href=\"http://maxima.sourceforge.net/\">Maxima</"
+        "a>. Pokud si nejste jisti zápisem, nechte zaškrtnuté políčko s "
+        "programem formconv, který řeší bežné nedostatky jako zapomenutá "
+        "hvězdička pro násobení nebo zápis sin^2x pro (sin(x))^2.</li> <li>Na "
+        "konci stránky je přepis session programu Maxima, odkud je možné "
+        "vyčíst případné chyby.</li> <li>Podobn&eacute; rozhraní, "
+        "kter&eacute; provede celý výpočet integrálu zcela automaticky, je "
+        "&nbsp;na str&aacute;nk&aacute;ch&nbsp;<a target=\"_blank\" href="
+        "\"http://cgi.math.muni.cz/%7Exsrot/int/uvod.cgi?cnt=yes\">Pavla "
+        "Kř&iacute;že a Karla &Scaron;rota</a>.</li> <li>Část výpočtu se "
+        "ukládá na serveru a po čase (delším jak dvě hodiny od začátku "
+        "výpočtu) automaticky maže. Pokud použijete zobrazování matematiky "
+        "pomocí mathTeXu, můžete si zdroják html stránky s dokončeným "
+        "výpočtem uložit u sebe a budete to mít přístupné pořád.</li> </ul>"
 
 #: integral2.php:24
-msgid "Enter function and choose variables and order for integration "
-msgstr "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
 
 #: integral2.php:59
-msgid ""
-" The Jacobian in polar coordinates is added automatically. You can write "
-"<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
-msgstr ""
-" Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici <img "
-"src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
+        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
 
 #: integral2.php:63
-msgid "Axes (decimal numbers)"
-msgstr "Osy (celá nebo desetinná čísla)"
+msgid   "Axes (decimal numbers)"
+msgstr  "Osy (celá nebo desetinná čísla)"
 
 #: integral2.php:71
-msgid "Preview region of integration"
-msgstr "Náhled oblasti integrace"
+msgid   "Preview region of integration"
+msgstr  "Náhled oblasti integrace"
 
 #: integral2.php:88
-msgid "MAW-int2"
-msgstr ""
-"<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a meze.</li> "
-"<li>Nezapomeňte, že vnější meze pro integraci musí být konstanty a vnitřní "
-"meze nejvýše funkce té proměnné, která je použita pro vnější integraci.</li> "
-"</ul>"
+msgid   "MAW-int2"
+msgstr  "<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a "
+        "meze.</li> <li>Nezapomeňte, že vnější meze pro integraci musí být "
+        "konstanty a vnitřní meze nejvýše funkce té proměnné, která je "
+        "použita pro vnější integraci.</li> </ul>"
 
 #: lagrange.php:11 mnc.php:11
-msgid "Data file"
-msgstr "Soubor bodů"
+msgid   "Data file"
+msgstr  "Soubor bodů"
 
 #: lagrange.php:22
-msgid "MAW-lagr"
-msgstr ""
-"Java applet pro <a href=\"http://user.mendelu.cz/marik/car/lagrange.html"
-"\">Lagrangeův polynom třetího stupně</a> a pro <a href=\"http://user.mendelu."
-"cz/marik/car/mnc-lagrange.html\">srovnání</a>  Lagrangova intepolačního "
-"polynomu s metodou nejmenších čtverců<br><br><b>Poznámky</b><ul> <li> "
-"Vyplňte souřadnice bodů, body oddělujte středn&iacute;kem, souřadnice "
-"č&aacute;rkou. </li><li>Meze pro kreslení obrázku jsou zvoleny automaticky "
-"podle maximálních a minimálních hodnot v souboru bodů. Pokud jsou body "
-"\"hodně rozházené\", může se stát že část polynomu \"uteče\" mimo obrázek. "
-"Protože předpokládáme nasazení u jednoduchých příkladů pro výuku, neměla by "
-"tato vlastnost nijak výrazně vadit.</li><li>Situace podobná situaci z "
-"předchozího bodu může nastat i když je v zadání hodně bodů. V tomto případě "
-"dostáváme polynom relativně velkého stupně, který se opět může chovat "
-"nepěkně. Tento případ také není nijak ošetřen, aby si student uvědomil slabé "
-"stránky interpolace pomocí polynomů vysokého stupně a používal tuto "
-"interpolaci s rozumem a případně ji nehradil jinou metodou (metoda "
-"nejmenších čtverců, interpolace pomocí splinů a podobně).</li> </ul>"
+msgid   "MAW-lagr"
+msgstr  "Java applet pro <a href=\"http://user.mendelu.cz/marik/car/lagrange."
+        "html\">Lagrangeův polynom třetího stupně</a> a pro <a href=\"http://"
+        "user.mendelu.cz/marik/car/mnc-lagrange.html\">srovnání</a>  "
+        "Lagrangova intepolačního polynomu s metodou nejmenších "
+        "čtverců<br><br><b>Poznámky</b><ul> <li> Vyplňte souřadnice bodů, "
+        "body oddělujte středn&iacute;kem, souřadnice č&aacute;rkou. </"
+        "li><li>Meze pro kreslení obrázku jsou zvoleny automaticky podle "
+        "maximálních a minimálních hodnot v souboru bodů. Pokud jsou body "
+        "\"hodně rozházené\", může se stát že část polynomu \"uteče\" mimo "
+        "obrázek. Protože předpokládáme nasazení u jednoduchých příkladů pro "
+        "výuku, neměla by tato vlastnost nijak výrazně vadit.</li><li>Situace "
+        "podobná situaci z předchozího bodu může nastat i když je v zadání "
+        "hodně bodů. V tomto případě dostáváme polynom relativně velkého "
+        "stupně, který se opět může chovat nepěkně. Tento případ také není "
+        "nijak ošetřen, aby si student uvědomil slabé stránky interpolace "
+        "pomocí polynomů vysokého stupně a používal tuto interpolaci s "
+        "rozumem a případně ji nehradil jinou metodou (metoda nejmenších "
+        "čtverců, interpolace pomocí splinů a podobně).</li> </ul>"
 
 #: lde2.php:3
-msgid "Second order linear differential equations"
-msgstr "Lineární diferenciální rovnice druhého řádu s konstantními koeficienty"
+msgid   "Second order linear differential equations"
+msgstr  "Lineární diferenciální rovnice druhého řádu s konstantními "
+        "koeficienty"
 
 #: lde2.php:13
-msgid "Equation"
-msgstr "Rovnice"
+msgid   "Equation"
+msgstr  "Rovnice"
 
 #: lde2.php:23
-msgid "You can use Preview and Edit buttons for entering the right hand side"
-msgstr ""
-"Pro editaci a zobrazení funkce na pravé straně rovnice můžete použít "
-"tlačítek Editor a Náhled"
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  "Pro editaci a zobrazení funkce na pravé straně rovnice můžete použít "
+        "tlačítek Editor a Náhled"
 
 #: lde2.php:28
-msgid "Method"
-msgstr "Metoda řešení"
+msgid   "Method"
+msgstr  "Metoda řešení"
 
 #: lde2.php:32
-msgid "variation of constants"
-msgstr "variace konstant"
+msgid   "variation of constants"
+msgstr  "variace konstant"
 
 #: lde2.php:36
-msgid "undetermined coefficients"
-msgstr "metoda neurčitých koeficientů"
+msgid   "undetermined coefficients"
+msgstr  "metoda neurčitých koeficientů"
 
 #: lde2.php:40
-msgid "solve also initial value problem"
-msgstr "hledáme řešení s počáteční podmínkou"
+msgid   "solve also initial value problem"
+msgstr  "hledáme řešení s počáteční podmínkou"
 
 #: lde2.php:51
-msgid "MAW-lde2"
-msgstr ""
-"<ul> <li>Zadejte koeficienty rovnice a stiskněte Odeslat. Ve v&scaron;ech "
-"pol&iacute;čk&aacute;ch mus&iacute; něco b&yacute;t, pokud tam dan&yacute; "
-"člen nefiguruje, je koeficient roven nule.</li> <li> Můžete si zvolit metodu "
-"výpočtu. <ul><li>Variace konstant funguje univerzálně.</li><li>Metoda odhadu "
-"partikulárního řešení pouze pro pravou stranu ve tvaru součinu exponenciální "
-"funkce s lineární vnitřní složkou a polynomu, tj. funkce ve tvaru <i>P(x)*exp"
-"(a*x)*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i>, kde <i>a</i> a <i>b</i> jsou "
-"reálná čísla a <i>P(x)</i> a <i>Q(x)</i> jsou polynomy stupně nejvýše 4. </"
-"li></ul></li>   <li>Pokud se v&aacute;m zd&aacute;, že se program "
-"chov&aacute; nekorektně ačkoliv zad&aacute;v&aacute;te dobře "
-"formulovan&yacute; probl&eacute;m, po&scaron;lete n&aacute;m stručnou "
-"informaci a my to ověř&iacute;me, děkujeme.</li> </ul>"
+msgid   "MAW-lde2"
+msgstr  "<ul> <li>Zadejte koeficienty rovnice a stiskněte Odeslat. Ve "
+        "v&scaron;ech pol&iacute;čk&aacute;ch mus&iacute; něco b&yacute;t, "
+        "pokud tam dan&yacute; člen nefiguruje, je koeficient roven nule.</"
+        "li> <li> Můžete si zvolit metodu výpočtu. <ul><li>Variace konstant "
+        "funguje univerzálně.</li><li>Metoda odhadu partikulárního řešení "
+        "pouze pro pravou stranu ve tvaru součinu exponenciální funkce s "
+        "lineární vnitřní složkou a polynomu, tj. funkce ve tvaru <i>P(x)*exp"
+        "(a*x)*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i>, kde <i>a</i> a <i>b</i> "
+        "jsou reálná čísla a <i>P(x)</i> a <i>Q(x)</i> jsou polynomy stupně "
+        "nejvýše 4. </li></ul></li>   <li>Pokud se v&aacute;m zd&aacute;, že "
+        "se program chov&aacute; nekorektně ačkoliv zad&aacute;v&aacute;te "
+        "dobře formulovan&yacute; probl&eacute;m, po&scaron;lete n&aacute;m "
+        "stručnou informaci a my to ověř&iacute;me, děkujeme.</li> </ul>"
 
 #: main.php:1
-msgid "MAW-main"
-msgstr ""
-"<span class=\"nadpis\">O této str&aacute;nce</span> <ul> <li>Str&aacute;nka "
-"obsahuje rozhran&iacute; pro matematick&eacute; v&yacute;počty na webu. "
-"Materi&aacute;ly pokr&yacute;vaj&iacute; jenom č&aacute;st předn&aacute;"
-"&scaron;en&eacute; a procvičovan&eacute; problematiky a v&yacute;stupem "
-"těchto aplikac&iacute; &nbsp;jsou ře&scaron;en&eacute; př&iacute;klady "
-"někter&yacute;ch typů.</li> <li>Vyplňte vždy pol&iacute;čka ve formul&aacute;"
-"ři a stiskněte \"Odeslat\". PDF soubor s v&yacute;stupem obsahuj&iacute;"
-"c&iacute;m ře&scaron;en&iacute; va&scaron;eho probl&eacute;mu se v&aacute;m "
-"buď otevře v prohl&iacute;žeči, nebo nab&iacute;dne ke stažen&iacute; (podle "
-"nastaven&iacute; va&scaron;eho poč&iacute;tače a prohl&iacute;žeče). "
-"V&yacute;stup je přizpůsoben řešen&iacute; relativně jednoduch&yacute;ch "
-"př&iacute;kladů, protože je zam&yacute;šlen jako <span class=\"red"
-"\">didaktick&aacute; pomůcka</span> a nikoliv jako <span class=\"red"
-"\">prostřed&iacute; pro n&aacute;ročné v&yacute;počty</span>. Pro "
-"prov&aacute;děn&iacute; složitějš&iacute;ch v&yacute;počtů využijte software "
-"nainstalovan&yacute; na svém vlastn&iacute;m poč&iacute;tači. </li> <li> "
-"Zd&aacute;nlivě podobn&eacute; n&aacute;stroje, kter&eacute; však "
-"zobraz&iacute; jenom v&yacute;sledek bez postupu, jsou k m&aacute;n&iacute; "
-"na mnoha m&iacute;stech internetu. Jednoduch&eacute; rozhran&iacute; je "
-"např&iacute;klad&nbsp;<a target=\"_blank\" href=\"http://user.mendelu.cz/"
-"marik/calc.html\">zde</a>.&nbsp;</li> <li>Systém byl prezentován na "
-"konferenci <a href=\"http://user.mendelu.cz/marik/talks/MAW_SCO2008.pdf"
-"\">SCO 2008</a> a <a href=\"http://user.mendelu.cz/marik/talks/aplimat2009."
-"pdf\">Aplimat 2009</a>.</li> <li>Str&aacute;nky funguj&iacute; d&iacute;ky "
-"laskavosti <a target=\"_blank\" href=\"http://wood.mendelu.cz\">&Uacute;"
-"stavu nauky o dřevě</a>.</li> <li><a href=\"maw.pdf\">Plakátek</a></li> "
-"<li><a href=\"http://wood.mendelu.cz/math/phpsysinfo\">Systémové informace</"
-"a></li> </ul><div class=\"noncompact\"> <hr style=\"width: 100%; height: 2px;"
-"\"> <span class=\"nadpis\">Další podobné aplikace</span> <p> N&aacute;"
-"sleduj&iacute;c&iacute; aplikace jsou PDF soubory, které sice "
-"neumoznuj&iacute; automatick&yacute; v&yacute;počet, usnadňuj&iacute; však "
-"pr&aacute;ci v tom, že si uživatel vol&iacute;, jak m&aacute; dalš&iacute; "
-"krok v&yacute;počtu prob&iacute;hat a je osvobozen od mechanického "
-"poč&iacute;t&aacute;n&iacute;. Nezapomeňte k prohl&iacute;žen&iacute; "
-"použ&iacute;t Adobe Reader, protože alternativn&iacute; prohl&iacute;žeče "
-"neum&iacute; interpretovat vložené Javascripty. </p> <ul> <li> <a href="
-"\"http://user.mendelu.cz/marik/kvizy/eliminace.pdf\">Gaussova eliminční "
-"metoda</a> - zadejte matici a v každém kroku volte, jaká se má použít "
-"řádková úprava. Vhodné pro řešení soustav lineráních rovnic, výpočet "
-"hodnosti a výpočet inverzní matice. </li> <li> <a href=\"http://user.mendelu."
-"cz/marik/kvizy/horner.pdf\">Hornerovo schema</a> - vhodné k hledání "
-"celočíselných kořenů polynomu s celočíselnými koeficienty </li> <li> <a href="
-"\"http://user.mendelu.cz/marik/kvizy/puleni.pdf\">Metoda půlení intervalu</"
-"a> </li> </ul> PHP aplikace <a href=\"http://www.umat.feec.vutbr.cz/~novakm/"
-"\">Michala Nováka</a><ul><li><a href=\"http://www.umat.feec.vutbr.cz/~novakm/"
-"linearni_algebra/\">Lineární algebra: práce s maticemi</a></li><li><a href="
-"\"http://www.umat.feec.vutbr.cz/~novakm/derivace/\">Základy matematické "
-"analýzy: derivování</a></li><li><a href=\"http://www.umat.feec.vutbr.cz/"
-"~novakm/\">a další ....</a></ul> <hr> <span class=\"nadpis\">Společn&eacute; "
-"pozn&aacute;mky</span> <ul> <li>Nezapomeňte ps&aacute;t * pro n&aacute;"
-"soben&iacute;. Pokud ji vynech&aacute;te, zadan&yacute; v&yacute;raz nebude "
-"rozezn&aacute;n a skonč&iacute; to chybou&nbsp;</li> <li>Pokud "
-"neobdrž&iacute;te ani chybov&yacute; v&yacute;pis ani PDF str&aacute;nku "
-"(nebo pr&aacute;zdnou str&aacute;nku), po&scaron;lete n&aacute;m bug report "
-"na mail. Děkujeme.</li> <li>V&scaron;echny v&yacute;počty a vys&aacute;"
-"zen&iacute; v&yacute;počtů na str&aacute;nku jsou prov&aacute;děny "
-"pomoc&iacute; OpenSourcov&yacute;ch programů <a href=\"http://maxima."
-"sourceforge.net/\">Maxima</a>, <a href=\"http://www.gnuplot.info/\">gnuplot</"
-"a>, <a href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a>, <a "
-"href=\"http://formconv.sourceforge.net/\">formconv</a>, <a href=\"http://www."
-"tug.org/metapost.html\">MetaPost</a>.</li> <li>Na&scaron;e emailov&eacute; "
-"adresy pro př&iacute;padn&eacute; koment&aacute;ře a hl&aacute;&scaron;"
-"en&iacute; chyb dostanete, pokud odeberete p&iacute;smena \"NECHCI SPAM\" z "
-"textov&eacute;ho řetězce maNECHrikCI@mSPendAMelu.cz resp. "
-"tiNEhlCHCarISPiAk@mMendelu.cz.</li> </ul>"
+msgid   "MAW-main"
+msgstr  "<span class=\"nadpis\">O této str&aacute;nce</span> <ul> "
+        "<li>Str&aacute;nka obsahuje rozhran&iacute; pro matematick&eacute; "
+        "v&yacute;počty na webu. V&yacute;stupem těchto aplikac&iacute; &nbsp;"
+        "jsou ře&scaron;en&eacute; př&iacute;klady někter&yacute;ch typů.</"
+        "li> <li>Vyplňte vždy pol&iacute;čka ve formul&aacute;ři a stiskněte "
+        "\"Odeslat\". PDF soubor s v&yacute;stupem obsahuj&iacute;c&iacute;m "
+        "ře&scaron;en&iacute; va&scaron;eho probl&eacute;mu se v&aacute;m buď "
+        "otevře v prohl&iacute;žeči, nebo nab&iacute;dne ke stažen&iacute; "
+        "(podle nastaven&iacute; va&scaron;eho poč&iacute;tače a prohl&iacute;"
+        "žeče). V&yacute;stup je přizpůsoben řešen&iacute; relativně "
+        "jednoduch&yacute;ch př&iacute;kladů, protože je zam&yacute;šlen jako "
+        "<span class=\"red\">didaktick&aacute; pomůcka</span> a nikoliv jako "
+        "<span class=\"red\">prostřed&iacute; pro n&aacute;ročné v&yacute;"
+        "počty</span>. Pro prov&aacute;děn&iacute; složitějš&iacute;ch "
+        "v&yacute;počtů využijte software nainstalovan&yacute; na svém "
+        "vlastn&iacute;m poč&iacute;tači. </li> <li>Systém byl prezentován na "
+        "konferenci <a href=\"http://user.mendelu.cz/marik/talks/MAW_SCO2008."
+        "pdf\">SCO 2008</a> a <a href=\"http://user.mendelu.cz/marik/talks/"
+        "aplimat2009.pdf\">Aplimat 2009</a>.</li> <li><a href=\"maw.pdf"
+        "\">Plakátek</a></li> <li><a href=\"http://wood.mendelu.cz/math/"
+        "phpsysinfo\">Systémové informace</a></li> </ul><div class="
+        "\"noncompact\"> <hr style=\"width: 100%; height: 2px;\"> <span class="
+        "\"nadpis\">Další podobné aplikace</span> <p> N&aacute;sleduj&iacute;"
+        "c&iacute; aplikace jsou PDF soubory, které sice neumoznuj&iacute; "
+        "automatick&yacute; v&yacute;počet, usnadňuj&iacute; však pr&aacute;"
+        "ci v tom, že si uživatel vol&iacute;, jak m&aacute; dalš&iacute; "
+        "krok v&yacute;počtu prob&iacute;hat a je osvobozen od mechanického "
+        "poč&iacute;t&aacute;n&iacute;. Nezapomeňte k prohl&iacute;"
+        "žen&iacute; použ&iacute;t Adobe Reader, protože alternativn&iacute; "
+        "prohl&iacute;žeče neum&iacute; interpretovat vložené Javascripty. </"
+        "p> <ul> <li> <a href=\"http://user.mendelu.cz/marik/kvizy/eliminace."
+        "pdf\">Gaussova eliminční metoda</a> - zadejte matici a v každém "
+        "kroku volte, jaká se má použít řádková úprava. Vhodné pro řešení "
+        "soustav lineráních rovnic, výpočet hodnosti a výpočet inverzní "
+        "matice. </li> <li> <a href=\"http://user.mendelu.cz/marik/kvizy/"
+        "horner.pdf\">Hornerovo schema</a> - vhodné k hledání celočíselných "
+        "kořenů polynomu s celočíselnými koeficienty </li> <li> <a href="
+        "\"http://user.mendelu.cz/marik/kvizy/puleni.pdf\">Metoda půlení "
+        "intervalu</a> </li> </ul> PHP aplikace <a href=\"http://www.umat."
+        "feec.vutbr.cz/~novakm/\">Michala Nováka</a><ul><li><a href=\"http://"
+        "www.umat.feec.vutbr.cz/~novakm/linearni_algebra/\">Lineární algebra: "
+        "práce s maticemi</a></li><li><a href=\"http://www.umat.feec.vutbr.cz/"
+        "~novakm/derivace/\">Základy matematické analýzy: derivování</a></"
+        "li><li><a href=\"http://www.umat.feec.vutbr.cz/~novakm/\">a "
+        "další ....</a></ul> <hr> <span class=\"nadpis\">Společn&eacute; "
+        "pozn&aacute;mky</span> <ul>  <li>Pokud neobdrž&iacute;te ani "
+        "chybov&yacute; v&yacute;pis ani PDF str&aacute;nku (nebo pr&aacute;"
+        "zdnou str&aacute;nku), po&scaron;lete n&aacute;m bug report na mail. "
+        "Děkujeme.</li> <li>V&scaron;echny v&yacute;počty a vys&aacute;"
+        "zen&iacute; v&yacute;počtů na str&aacute;nku jsou prov&aacute;děny "
+        "pomoc&iacute; OpenSource programů <a href=\"http://maxima."
+        "sourceforge.net/\">Maxima</a>, <a href=\"http://www.gnuplot.info/"
+        "\">gnuplot</a>, <a href=\"http://www.tug.org/applications/pdftex/"
+        "\">pdfLaTeX</a>, <a href=\"http://formconv.sourceforge.net/"
+        "\">formconv</a>, <a href=\"http://www.tug.org/metapost.html"
+        "\">MetaPost</a>.</li> <li>Na&scaron;e emailov&eacute; adresy pro "
+        "př&iacute;padn&eacute; koment&aacute;ře a hl&aacute;&scaron;"
+        "en&iacute; chyb dostanete, pokud odeberete p&iacute;smena \"NECHCI "
+        "SPAM\" z textov&eacute;ho řetězce maNECHrikCI@mSPendAMelu.cz resp. "
+        "tiNEhlCHCarISPiAk@mMendelu.cz.</li> </ul>"
 
 #: map.php:3
-msgid "MAW-map"
-msgstr ""
-"Diskusní fórum</span><ul><li><a href=\"http://forum.matweb.cz/viewforum.php?"
-"id=39\">Místo pro vaše dotazy</a>.</li></ul><span class=\"nadpis\">Mapa "
-"stránek</span>  <ul> <li>Funkce <ul> <li>Grafy základních elementárních "
-"funkcí v posunutém tvaru. </li> <li>Definiční obor funkcí jedné proměnné </"
-"li> <li>Definiční obor funkcí dvou proměnných </li> <li>Lagrangeův "
-"inerpolační polynom </li> <li>Metoda nejmenších čtverců </li> </ul> </li> "
-"<li>Diferenciální počet <ul> <li> Derivace a parciální derivace   </li> <li> "
-"Průběh funkce   </li> <li> Taylorův polynom   </li> <li>Lokální extrémy "
-"funkce dvou proměnných </li> </ul> </li> <li>Integrální počet <ul> <li> "
-"Neurčitý integrál (uživatel volí operace s integrandem, včetně per-partés "
-"nebo substtuce, a tyto operace jsou automaticky prováděny počítačem). "
-"Umožňuje i  plně automatický výpočet neurčitého interálu, avšak bez postupu</"
-"li><li>  Určitý integrál (výpočet obsahu plochy pod křivkou a mezi dvěma "
-"křivkami a objemu rotačního tělesa)  </li><li>Dvojnásobný (dvojný) integrál</"
-"li><li> Lichoběžníkové pravidlo (numerický odhad určitého integrálu)</li> </"
-"ul> </li> <li>Diferenciální rovnice <ul> <li> Diferenciální rovnice prvního "
-"řádu (se separovanými proměnnými, exaktní, homogenní a lineární pomocí "
-"variace konstant)</li><li> Lineární diferenciální rovnice druhého řádu "
-"(metoda variace konstant a metoda odhadu partikulárního řešení)</li><li> "
-"Autonomní systém</li> </ul> </li> <li>Rovnice a nerovnice <ul> <li>Numerické "
-"řešení rovnic metodou půlení intervalu a prostou iterační metodou</li> "
-"<li>Nerovnice a soustavy nerovnic jedné a dvou proměnných</li> </ul> </il> </"
-"ul> <span class=\"nadpis\">Jak nás podpořit</span> <ul><li>Chcete finančně "
-"podpořit vývoj aplikace Mathematical Assistant on Web? Nedělejte to...  "
-"Podpořte raději <a href=\"http://www.unicef.cz/\">UNICEF</a> nebo alespoň <a "
-"href=\"http://www.zdravotni-klaun.cz/\">zdravotní klauny</a>. </li> "
-"<li>Chcete přece jenom pomoci s rozvojem aplikace?  Používejte ji, testujte "
-"a oznamujte případné chyby. Nebo si stáhněte aktuální <a href=\"http://"
-"mathassistant.hg.sourceforge.net/hgweb/mathassistant\">zdrojové kódy</a> a "
-"vylepšete je. </li> </ul>"
-
-#: mawconfightml.php:48
-msgid "Switch to a full design"
-msgstr "Přepnout na plné zobrazení"
-
-#: mawconfightml.php:60
-msgid "Switch to a compact design"
-msgstr "Přepnout na kompaktní zobrazení"
+msgid   "MAW-map"
+msgstr  "Diskusní fórum</span><ul><li><a href=\"http://forum.matweb.cz/"
+        "viewforum.php?id=39\">Místo pro vaše dotazy</a>.</li></ul><span "
+        "class=\"nadpis\">Mapa stránek</span>  <ul> <li>Funkce <ul> <li>Grafy "
+        "základních elementárních funkcí v posunutém tvaru. </li> "
+        "<li>Definiční obor funkcí jedné proměnné </li> <li>Definiční obor "
+        "funkcí dvou proměnných </li> <li>Lagrangeův inerpolační polynom </"
+        "li> <li>Metoda nejmenších čtverců </li> </ul> </li> "
+        "<li>Diferenciální počet <ul> <li> Derivace a parciální derivace   </"
+        "li> <li> Průběh funkce   </li> <li> Taylorův polynom   </li> "
+        "<li>Lokální extrémy funkce dvou proměnných </li> </ul> </li> "
+        "<li>Integrální počet <ul> <li> Neurčitý integrál (uživatel volí "
+        "operace s integrandem, včetně per-partés nebo substtuce, a tyto "
+        "operace jsou automaticky prováděny počítačem). Umožňuje i  plně "
+        "automatický výpočet neurčitého interálu, avšak bez postupu</li><li>  "
+        "Určitý integrál (výpočet obsahu plochy pod křivkou a mezi dvěma "
+        "křivkami a objemu rotačního tělesa)  </li><li>Dvojnásobný (dvojný) "
+        "integrál</li><li> Lichoběžníkové pravidlo (numerický odhad určitého "
+        "integrálu)</li> </ul> </li> <li>Diferenciální rovnice <ul> <li> "
+        "Diferenciální rovnice prvního řádu (se separovanými proměnnými, "
+        "exaktní, homogenní a lineární pomocí variace konstant)</li><li> "
+        "Lineární diferenciální rovnice druhého řádu (metoda variace konstant "
+        "a metoda odhadu partikulárního řešení)</li><li> Autonomní systém</"
+        "li> </ul> </li> <li>Rovnice a nerovnice <ul> <li>Numerické řešení "
+        "rovnic metodou půlení intervalu a prostou iterační metodou</li> "
+        "<li>Nerovnice a soustavy nerovnic jedné a dvou proměnných</li> </ul> "
+        "</il> </ul> <span class=\"nadpis\">Jak nás podpořit</span> "
+        "<ul><li>Chcete finančně podpořit vývoj aplikace Mathematical "
+        "Assistant on Web? Nedělejte to...  Podpořte raději <a href=\"http://"
+        "www.unicef.cz/\">UNICEF</a> nebo alespoň <a href=\"http://www."
+        "zdravotni-klaun.cz/\">zdravotní klauny</a>. </li> <li>Chcete přece "
+        "jenom pomoci s rozvojem aplikace?  Používejte ji, testujte a "
+        "oznamujte případné chyby. Nebo si stáhněte aktuální <a href=\"http://"
+        "mathassistant.hg.sourceforge.net/hgweb/mathassistant\">zdrojové "
+        "kódy</a> a vylepšete je. </li> </ul>"
 
 #: minmax3d.php:3
-msgid "Local extrema in two variables"
-msgstr "Lokální extrémy funkce dvou proměnných"
+msgid   "Local extrema in two variables"
+msgstr  "Lokální extrémy funkce dvou proměnných"
 
 #: minmax3d.php:50
-msgid "Task for computation"
-msgstr "Co počítat"
+msgid   "Task for computation"
+msgstr  "Co počítat"
 
 #: minmax3d.php:55
-msgid "Hessian at stationary point"
-msgstr "Hessián ve stacionárním bodě"
+msgid   "Hessian at stationary point"
+msgstr  "Hessián ve stacionárním bodě"
 
 #: minmax3d.php:67
-msgid "Hessian at stationary points"
-msgstr "Hessián ve stacionárních bodech"
+msgid   "Hessian at stationary points"
+msgstr  "Hessián ve stacionárních bodech"
 
 #: minmax3d.php:85
-msgid "MAW-minmax3d"
-msgstr ""
-"<ul>  <li>Vyplňte funkčn&iacute; předpis pro funkci dvou  proměnn&yacute;ch."
-"</li><li>Pokud potřebujete naj&iacute;t stacion&aacute;rn&iacute; body,  "
-"zatrhněte <span style=\"font-style: italic;\">\".... hledat  stacion&aacute;"
-"rn&iacute; body ...\"</span> a stiskněte Odeslat.</li>  <li>Pokud "
-"potřebujete naj&iacute;t Hessovu matici, jej&iacute; determinant v jednom ze "
-"stacion&aacute;rn&iacute;ch bodů a posoudit existenci extr&eacute;mu v tomto "
-"bodě, zatrhněte <span style=\"font-style: italic;\">\"Hessi&aacute;n ....\", "
-"</span>vyplňte souřadnice stacion&aacute;rn&iacute;ho bodu, kter&yacute; "
-"v&aacute;s zaj&iacute;m&aacute;, a stiskněte Odeslat.</li> <li>Pokud "
-"v&aacute;s zaj&iacute;m&aacute;&nbsp;v&iacute;ce stacion&aacute;rn&iacute;ch "
-"bodů, zatrhněte druhou možnost, v&yacute;počet v&scaron;ak bude m&eacute;ně "
-"komentovan&yacute; než v předchoz&iacute;m př&iacute;padě.</li> <li>Program "
-"prov&aacute;d&iacute; jednoduch&yacute; test, zda uživatelem zadan&yacute; "
-"bod je skutečně kořenem obou derivac&iacute;.</li> </ul>"
+msgid   "MAW-minmax3d"
+msgstr  "<ul>  <li>Vyplňte funkčn&iacute; předpis pro funkci dvou  "
+        "proměnn&yacute;ch.</li><li>Pokud potřebujete naj&iacute;t "
+        "stacion&aacute;rn&iacute; body,  zatrhněte <span style=\"font-style: "
+        "italic;\">\".... hledat  stacion&aacute;rn&iacute; body ...\"</span> "
+        "a stiskněte Odeslat.</li>  <li>Pokud potřebujete naj&iacute;t "
+        "Hessovu matici, jej&iacute; determinant v jednom ze stacion&aacute;"
+        "rn&iacute;ch bodů a posoudit existenci extr&eacute;mu v tomto bodě, "
+        "zatrhněte <span style=\"font-style: italic;\">\"Hessi&aacute;n ...."
+        "\", </span>vyplňte souřadnice stacion&aacute;rn&iacute;ho bodu, "
+        "kter&yacute; v&aacute;s zaj&iacute;m&aacute;, a stiskněte Odeslat.</"
+        "li> <li>Pokud v&aacute;s zaj&iacute;m&aacute;&nbsp;v&iacute;ce "
+        "stacion&aacute;rn&iacute;ch bodů, zatrhněte druhou možnost, v&yacute;"
+        "počet v&scaron;ak bude m&eacute;ně komentovan&yacute; než v "
+        "předchoz&iacute;m př&iacute;padě.</li> <li>Program prov&aacute;"
+        "d&iacute; jednoduch&yacute; test, zda uživatelem zadan&yacute; bod "
+        "je skutečně kořenem obou derivac&iacute;.</li> </ul>"
 
 #: mnc.php:21
-msgid "MAW-mnc"
-msgstr ""
-"Java applet pro <a href=\"http://user.mendelu.cz/marik/car/"
-"metoda_nejmensich_ctvercu.html\">metodu nejmenších čtverců se čtyřmi body</"
-"a> a pro <a href=\"http://user.mendelu.cz/marik/car/mnc-lagrange.html"
-"\">srovnání</a>  Lagrangova intepolačního polynomu s metodou nejmenších "
-"čtverců<br><br><b>Poznámky</b><ul> <li>Vyplňte souřadnice bodů, body "
-"oddělujte středn&iacute;kem,   souřadnice č&aacute;rkou. </li><li>Body "
-"budeme prokládat přímkou, pokud potřebujete obecnější závsilost, použijte "
-"odpovídající software (např. GNUplot)</li> </ul"
+msgid   "MAW-mnc"
+msgstr  "Java applet pro <a href=\"http://user.mendelu.cz/marik/car/"
+        "metoda_nejmensich_ctvercu.html\">metodu nejmenších čtverců se čtyřmi "
+        "body</a> a pro <a href=\"http://user.mendelu.cz/marik/car/mnc-"
+        "lagrange.html\">srovnání</a>  Lagrangova intepolačního polynomu s "
+        "metodou nejmenších čtverců<br><br><b>Poznámky</b><ul> <li>Vyplňte "
+        "souřadnice bodů, body oddělujte středn&iacute;kem,   souřadnice "
+        "č&aacute;rkou. </li><li>Body budeme prokládat přímkou, pokud "
+        "potřebujete obecnější závsilost, použijte odpovídající software "
+        "(např. GNUplot)</li> </ul"
 
 #: ode.php:20
-msgid "Ordinary differential equations"
-msgstr "Obyčejné diferenciální rovnice"
+msgid   "Ordinary differential equations"
+msgstr  "Obyčejné diferenciální rovnice"
 
 #: ode.php:30
-msgid "Equation solved wrt y'"
-msgstr "Rovnice rozřešená vzhledem k derivaci"
+msgid   "Equation solved wrt y'"
+msgstr  "Rovnice rozřešená vzhledem k derivaci"
 
 #: ode.php:40
-msgid "Full equation"
-msgstr "Plná rovnice"
+msgid   "Full equation"
+msgstr  "Plná rovnice"
 
 #: ode.php:53
-msgid "MAW-ode"
-msgstr ""
-"<ul>  <li>Syst&eacute;m by měl rovnici vyře&scaron;it. Pokud je rovnice "
-"line&aacute;rn&iacute;, se separovan&yacute;mi proměnn&yacute;mi nebo "
-"homogení, měl by se zobrazit postup ře&scaron;en&iacute;.</li><li>V prvním "
-"políčku musíte rovnici zadat tak, že na levé straně je <i>y'</i> a na pravé "
-"zbylé členy. Na pravé straně rovnice se tedy již nesmí <i>y'</i> vyskytovat."
-"</li><li>Pro řešení rovnic nerozřešených vzhledem k derivaci slouží druhé "
-"políčko. <ul><li>Sem zadáváte celou rovnici, není však k dispozici podrobná "
-"kontrola syntaxe a proto jsou povoleny některé bežné obraty (jako například "
-"vynechávání znaménka pro násobení).</li><li>Vzhledem k nutnosti být schopen "
-"do políčka zapsat matematický výraz bez chyby, je tato volba doporučena "
-"zkušenějším uživatelům.</li><li>Systém se v tomto případě rovnici pokusí "
-"rozřešit vzhledem k derivaci a pokud je vyjádření derivace <i>y'</i> "
-"jednoznačné, automaticky pokračuje ve zobrazovnání postupu řešení.</"
-"li><li>Pokud vyjádření derivace <i>y'</i> jednoznačné není, nabídnou se "
-"nalezené možnosti pro další pokračování.</li></ul></li>  <li>&Uacute;loha "
-"ře&scaron;it diferenci&aacute;ln&iacute; rovnici je algoritmicky velice "
-"n&aacute;ročn&aacute;, může se snadno st&aacute;t, že program selže. Jestli "
-"se v&aacute;m to stane, zkontrolujte si, že jste do pol&iacute;čka zadali "
-"korektn&iacute; matematick&yacute; v&yacute;raz (včetně znam&eacute;nek * "
-"pro n&aacute;soben&iacute;) a kdyžtak mi nahlaste chybu na můj mail. Děkuji."
-"</li></ul>"
+msgid   "MAW-ode"
+msgstr  "<ul>  <li>Syst&eacute;m by měl rovnici vyře&scaron;it. Pokud je "
+        "rovnice line&aacute;rn&iacute;, se separovan&yacute;mi "
+        "proměnn&yacute;mi nebo homogení, měl by se zobrazit postup ře&scaron;"
+        "en&iacute;.</li><li>V prvním políčku musíte rovnici zadat tak, že na "
+        "levé straně je <i>y'</i> a na pravé zbylé členy. Na pravé straně "
+        "rovnice se tedy již nesmí <i>y'</i> vyskytovat.</li><li>Pro řešení "
+        "rovnic nerozřešených vzhledem k derivaci slouží druhé políčko. "
+        "<ul><li>Sem zadáváte celou rovnici, není však k dispozici podrobná "
+        "kontrola syntaxe a proto jsou povoleny některé bežné obraty (jako "
+        "například vynechávání znaménka pro násobení).</li><li>Vzhledem k "
+        "nutnosti být schopen do políčka zapsat matematický výraz bez chyby, "
+        "je tato volba doporučena zkušenějším uživatelům.</li><li>Systém se v "
+        "tomto případě rovnici pokusí rozřešit vzhledem k derivaci a pokud je "
+        "vyjádření derivace <i>y'</i> jednoznačné, automaticky pokračuje ve "
+        "zobrazovnání postupu řešení.</li><li>Pokud vyjádření derivace <i>y'</"
+        "i> jednoznačné není, nabídnou se nalezené možnosti pro další "
+        "pokračování.</li></ul></li>  <li>&Uacute;loha ře&scaron;it "
+        "diferenci&aacute;ln&iacute; rovnici je algoritmicky velice n&aacute;"
+        "ročn&aacute;, může se snadno st&aacute;t, že program selže. Jestli "
+        "se v&aacute;m to stane, zkontrolujte si, že jste do pol&iacute;čka "
+        "zadali korektn&iacute; matematick&yacute; v&yacute;raz (včetně "
+        "znam&eacute;nek * pro n&aacute;soben&iacute;) a kdyžtak mi nahlaste "
+        "chybu na můj mail. Děkuji.</li></ul>"
 
 #: prubeh.php:2
-msgid "Function calculator"
-msgstr "Průběh funkce"
+msgid   "Function calculator"
+msgstr  "Průběh funkce"
 
 #: prubeh.php:57
-msgid "MAW-prub"
-msgstr ""
-"<a href=\"http://user.mendelu.cz/marik/prez/prubeh-cz.pdf\">Řešené příklady "
-"krok za krokem</a> a <a href=\"http://user.mendelu.cz/marik/mm2.pdf"
-"\">neřešené příklady s výsledky</a>.<br><span style=\"font-weight: bold;"
-"\">Pozn&aacute;mky:</span><br> <ul><li>Meze, které necháte prázdné, budou "
-"nastaveny automaticky. Tuto volbu však není vhodné používat u funkcí se "
-"svislou asymptotou, protože rozsah na ose y je potom příliš velký.</li> "
-"<li>Pro racionální lomenou funkci jsou navíc zobrazeny asymptoty (pokud "
-"existují), a pokud všechny kořeny jmenovatele mají stejnou násobnost, je "
-"zobrazen i postup výpočtu a úpravy prvních dvou derivací. Tato část je zatím "
-"v režimu testování a může být vylepšována, pokud se z logů zjistí, že "
-"některé dotazy způsobily chybu.</li> <li>Při  hled&aacute;n&iacute; kořenů "
-"jsou odstraněny kořeny, kter&eacute; se  nepodařilo naj&iacute;t explicitně "
-"a kořeny obsahuj&iacute;c&iacute;  imagin&aacute;rn&iacute; jednotku (i "
-"kdyby byly nakonec  re&aacute;ln&eacute;). Proto mezi kořeny prvn&iacute; a "
-"druh&eacute;  derivace možn&aacute; nejsou v&scaron;echny.  &uacute;loha "
-"hledat  kořeny je totiž obecně velice obt&iacute;žn&aacute;.  Tak&eacute;  "
-"nen&iacute; vypisov&aacute;na n&aacute;sobnost kořenů. </li><li>Grafy "
-"programem <a href=\"http://user.mendelu.cz/marik/maw/gnuplot.html\">GNUplot</"
-"a></li></ul>"
+msgid   "MAW-prub"
+msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/prubeh-cz.pdf\">Řešené "
+        "příklady krok za krokem</a> a <a href=\"http://user.mendelu.cz/marik/"
+        "mm2.pdf\">neřešené příklady s výsledky</a>.<br><span style=\"font-"
+        "weight: bold;\">Pozn&aacute;mky:</span><br> <ul><li>Meze, které "
+        "necháte prázdné, budou nastaveny automaticky. Tuto volbu však není "
+        "vhodné používat u funkcí se svislou asymptotou, protože rozsah na "
+        "ose y je potom příliš velký.</li> <li>Pro racionální lomenou funkci "
+        "jsou navíc zobrazeny asymptoty (pokud existují), a pokud všechny "
+        "kořeny jmenovatele mají stejnou násobnost, je zobrazen i postup "
+        "výpočtu a úpravy prvních dvou derivací. Tato část je zatím v režimu "
+        "testování a může být vylepšována, pokud se z logů zjistí, že některé "
+        "dotazy způsobily chybu.</li> <li>Při  hled&aacute;n&iacute; kořenů "
+        "jsou odstraněny kořeny, kter&eacute; se  nepodařilo naj&iacute;t "
+        "explicitně a kořeny obsahuj&iacute;c&iacute;  imagin&aacute;"
+        "rn&iacute; jednotku (i kdyby byly nakonec  re&aacute;ln&eacute;). "
+        "Proto mezi kořeny prvn&iacute; a druh&eacute;  derivace možn&aacute; "
+        "nejsou v&scaron;echny.  &uacute;loha hledat  kořeny je totiž obecně "
+        "velice obt&iacute;žn&aacute;.  Tak&eacute;  nen&iacute; "
+        "vypisov&aacute;na n&aacute;sobnost kořenů. </li><li>Grafy programem "
+        "<a href=\"http://user.mendelu.cz/marik/maw/gnuplot.html\">GNUplot</"
+        "a></li></ul>"
 
 #: regula_falsi.php:57
-msgid "MAW-regula_falsi"
-msgstr "Metoda regula falsi"
+msgid   "MAW-regula_falsi"
+msgstr  "Metoda regula falsi"
+
+#: tail.php:6
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  "autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#: tail.php:8
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
+msgstr  "K dispozici je i %s offline%s verze a vítáme případné %s překladatele"
+        "%s."
 
 #: taylor.php:18
-msgid "Degree of Taylor polynomial"
-msgstr "Stupeň Taylorova polynomu"
+msgid   "Degree of Taylor polynomial"
+msgstr  "Stupeň Taylorova polynomu"
 
 #: taylor.php:21
-msgid "Center of Taylor polynomial"
-msgstr "Střed Taylorova polynomu"
+msgid   "Center of Taylor polynomial"
+msgstr  "Střed Taylorova polynomu"
 
 #: trap.php:3
-msgid "Trapezoidal rule (approximation for definite integral)"
-msgstr "Lichoběžníkové pravidlo (aproximace určitého integrálu)"
+msgid   "Trapezoidal rule (approximation for definite integral)"
+msgstr  "Lichoběžníkové pravidlo (aproximace určitého integrálu)"
 
 #: trap.php:25
-msgid "Limits for integration"
-msgstr "Integrační meze"
+msgid   "Limits for integration"
+msgstr  "Integrační meze"
 
 #: trap.php:29
-msgid "lower limit"
-msgstr "dolní mez"
+msgid   "lower limit"
+msgstr  "dolní mez"
 
 #: trap.php:33
-msgid "upper limit"
-msgstr "horní mez"
+msgid   "upper limit"
+msgstr  "horní mez"
 
 #: trap.php:36
-msgid "intervals in partition"
-msgstr "počet dílků"
+msgid   "intervals in partition"
+msgstr  "počet dílků"
 
 #: trap.php:44
-msgid "MAW-trap"
-msgstr ""
-"<ul><li> Zadejte funkci kterou chcete integrovat, meze a počet d&iacute;lků "
-"(nejv&yacute;&scaron;e 20). Budeme aproximovat integr&aacute;l pomoc&iacute; "
-"lichoběžn&iacute;kov&eacute;ho pravidla a pro srovn&aacute;n&iacute; se jej "
-"pokus&iacute;me&nbsp;vypoč&iacute;tat i přesněji.&nbsp;</li> <li>Pokud je "
-"počet d&iacute;lků men&scaron;&iacute; než deset a funkce je nez&aacute;"
-"porn&aacute; na intervalu přes kter&yacute; se integruje, zobraz&iacute; se "
-"v&aacute;m i graf funkce s naznačen&yacute;mi lichoběžn&iacute;ky.</li></ul>"
+msgid   "MAW-trap"
+msgstr  "<ul><li> Zadejte funkci kterou chcete integrovat, meze a počet "
+        "d&iacute;lků (nejv&yacute;&scaron;e 20). Budeme aproximovat "
+        "integr&aacute;l pomoc&iacute; lichoběžn&iacute;kov&eacute;ho "
+        "pravidla a pro srovn&aacute;n&iacute; se jej pokus&iacute;me&nbsp;"
+        "vypoč&iacute;tat i přesněji.&nbsp;</li> <li>Pokud je počet d&iacute;"
+        "lků men&scaron;&iacute; než deset a funkce je nez&aacute;"
+        "porn&aacute; na intervalu přes kter&yacute; se integruje, "
+        "zobraz&iacute; se v&aacute;m i graf funkce s naznačen&yacute;mi "
+        "lichoběžn&iacute;ky.</li></ul>"
