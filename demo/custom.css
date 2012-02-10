@@ -19,19 +19,22 @@ border-left: 2px solid  #333; color:#333;}
 
 div#after-form {color: red;}
 
-.red{color: #E81046;}
+.red{color: #E81046; white-space:pre-line;}
+.h3_error { color:#E81046; }
+
+.submenu a:hover   {color: #E81046;}
 div#odkaz_hlavicka a:hover   {color: #E81046;}
 
 input.design_button { background-color:transparent;
-   border-style:none; color:#1782B0; font-size: 75%;}
+   border-style:none; color:#1782B0; font-size: 75%; cursor: pointer; cursor: hand;}
 
 input.design_button:hover {color:#AA00AA;}
 
 div#design_button {text-align: center;   width: 100%;} 
 
 #aftermenu {display: none;}
-ul.maw_menu {white-space: nowrap; overflow: auto;}
 
+ul.maw_menu {white-space: nowrap; overflow: auto;}
 ul.submenu {white-space: nowrap; overflow: auto;}
 
 .maw_menu, .submenu {
@@ -40,4 +43,19 @@ ul.submenu {white-space: nowrap; overflow: auto;}
 
 #odkaz_hlavicka .maw_active a { text-shadow: 0 0 0 rgba(0.1,0.1,0.1,0.4);}
 #odkaz_hlavicka a:hover   { text-shadow: 0 0 0 rgba(0.1,0.1,0.1,0.4);}
+
+div#main-title {padding-top: 10px;}
+
+.fb-like{position:absolute; display:none;}
+
+.notice 
+{
+background-color:yellow;
+border:5px solid yellow;
+    box-shadow: 4px 4px 2px #222;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;   
+}
 
