@@ -5,7 +5,7 @@
 
 
 <span style="font-weight: bold;"></span>
-<?php maw_before_form()?><form method="get"
+<?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
  action="<?php echo($server);?>/lde2/ldr2.php"
 name="exampleform">

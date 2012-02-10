@@ -17,7 +17,7 @@ if ($function=="")
 <?php maw_before_form()?><form name="exampleform"
 <?php //echo $onsubmit;
 ?>
-method="get" action="<?php echo($server);?>/banach/banach.php">
+<?php formmethod();?> action="<?php echo($server);?>/banach/banach.php">
 <?php polejazyka($lang); ?>
 <input type="hidden" name="method" value="regula_falsi">
 <label for="funkce">

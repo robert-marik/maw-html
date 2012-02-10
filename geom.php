@@ -2,7 +2,7 @@
 <?php echo __("Definite integral in geometry");?>
 </span>
 
-<?php maw_before_form()?><form name="exampleform" method="get"
+<?php maw_before_form()?><form name="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php
 echo($server);?>/geom/geom.php">
