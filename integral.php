@@ -12,18 +12,27 @@
    <?php echo __('Function');?>:
 </label>
 &nbsp;&nbsp;<span style="font-style:
-italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> <input size="60"
+italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> <input size="50"
 name="funkce"
 value="<?php
 $function=$_REQUEST["function"];
 if ($function==""){echo 'x^3*exp(x*2)';}
 else {echo rawurldecode($function);}
-?>">dx&nbsp;
+?>">
+<span style="vertical-align:middle;display:inline-block; padding:3px;" class='vnitrni'>
+<input type="radio" name="prom" value="x" checked="checked">
+dx<br>
+<input type="radio" name="prom" value="t">
+dt
+</span>&nbsp;
   <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 
 <?php hint_preview(); ?>
 
+<fieldset  class="vnitrni"><legend class="podnadpis">
+<?php echo __('Parameters'); ?>
+</legend>
 <input name="formconv" type="checkbox" checked="checked"> 
 	<?php echo __('use <a href="http://formconv.sourceforge.net/">formconv</a> to convert mathematical expressions (this allows to write  2x instead of 2*x)');
 ?>
@@ -44,10 +53,8 @@ else {echo rawurldecode($function);}
 
 <br>
 <input name="logarc" type="checkbox"  checked="checked"> 
-	<?php echo __('write acsinh and atanh in terms of log');
-
-?>
-
+	<?php echo __('write acsinh and atanh in terms of log');?>
+</fieldset>
 <br>
 <?php echo $submitbutton;?>
 
