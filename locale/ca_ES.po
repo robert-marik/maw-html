@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
         "PO-Revision-Date: 2010-04-18 22:14+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -25,14 +25,14 @@ msgstr  "Punts singulars de sistemes autònoms"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  ""
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  ""
@@ -59,7 +59,7 @@ msgstr  "<ul> <li>Escriviu el que va a la dreta del sistema autònom, trieu el "
         "els valors propis a un dels punts estacionaris. Trieu amb el botonet "
         "que calgui.</li> </ul>l"
 
-#: banach.php:2 index.php:411
+#: banach.php:2 index.php:412
 msgid   "Method of iterations"
 msgstr  "Mètode d'iteracions"
 
@@ -108,7 +108,7 @@ msgstr  "La resolució d'equacions no-lineals es basa en el <a href=\"http://"
         "ca.wikipedia.org/wiki/Teorema_del_punt_fix_de_Banach\">teorema de "
         "Banach del punt fix</a>"
 
-#: bisection.php:2 index.php:409
+#: bisection.php:2 index.php:410
 msgid   "Bisection"
 msgstr  "Bisecció"
 
@@ -130,7 +130,7 @@ msgid   "MAW-bisection"
 msgstr  "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia."
         "org/wiki/Bisection_method\">mètode de bisecció</a>"
 
-#: derivace.php:2 index.php:389
+#: derivace.php:2 index.php:390
 msgid   "Derivative and partial derivative"
 msgstr  "Derivada i derivada parcial"
 
@@ -171,7 +171,7 @@ msgstr  "<ul><li>Entreu una funció i cliqueu Envia-ho. Obtindreu la derivada "
 msgid   "Domain of a function in one variable"
 msgstr  "Domini de definició de la funció d'una variable"
 
-#: df.php:21 geom.php:52
+#: df.php:21 geom.php:52 integral.php:34
 msgid   "Parameters"
 msgstr  "Paràmetres"
 
@@ -293,7 +293,7 @@ msgstr  "<ul>   <li>Entreu les funcions que definexien les fronteres inferior "
         "pot trobar les interseccions de les corbes. Trieu aquesta acció amb "
         "el botonet escaient.<br> </li> </ul>"
 
-#: graf.php:2 index.php:381
+#: graf.php:2 index.php:382
 msgid   "Graphs of elementary functions"
 msgstr  "Gràfiques de funcions elementals"
 
@@ -336,7 +336,7 @@ msgstr  "<span style=\"font-weight: bold;\">NB:</span><br><ul><li>Entreu una "
         "n'obtindreu la gràfica, incloent-hi l'animació de deformacions "
         "ulteriors.</li></ul>"
 
-#: index.php:121
+#: index.php:122
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
@@ -344,146 +344,146 @@ msgstr  "Un clic a Preview us mostrarà com formconv transformarà la vostra "
         "expressió, i com s'expressa en notació de Màxima (després ho podeu "
         "copiar i enganxar al formulari.)"
 
-#: index.php:130
+#: index.php:131
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
 msgstr  ""
 
-#: index.php:137
+#: index.php:138
 msgid   "History"
 msgstr  "Historial"
 
-#: index.php:170 index.php:283
+#: index.php:171 index.php:284
 msgid   "Mathematical Assistant on Web"
 msgstr  "L'Assistent Matemàtic al Web (MAW)"
 
-#: index.php:233
+#: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Engegeu JavaScript per poder veure la informació en finestres "
         "emergents."
 
-#: index.php:252
+#: index.php:253
 msgid   "More languages"
 msgstr  ""
 
-#: index.php:266
+#: index.php:267
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  ""
 
-#: index.php:266
+#: index.php:267
 msgid   "Support from MAW forum"
 msgstr  ""
 
-#: index.php:268
+#: index.php:269
 msgid   "Changelog"
 msgstr  "Historial de canvis"
 
-#: index.php:270
+#: index.php:271
 msgid   "Known bugs"
 msgstr  "Bogs coneguts"
 
-#: index.php:333
+#: index.php:334
 msgid   "Submit"
 msgstr  "Envia-ho"
 
-#: index.php:333
+#: index.php:334
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "Clic un sol cop i espereu uns segons - ara ve la resposta!"
 
-#: index.php:382
+#: index.php:383
 msgid   "Domain of functions (one variable)"
 msgstr  "Domini de definició (funció d'una variable)"
 
-#: index.php:383
+#: index.php:384
 msgid   "Domain of functions (two variables)"
 msgstr  "Domini de definició (funció de dues variables)"
 
-#: index.php:384 lagrange.php:3
+#: index.php:385 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Polinomi de Lagrange"
 
-#: index.php:385 mnc.php:3
+#: index.php:386 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Mètode dels mínims quadrats"
 
-#: index.php:390
+#: index.php:391
 msgid   "Investigating functions"
 msgstr  "Estudi de funcions"
 
-#: index.php:391 taylor.php:3
+#: index.php:392 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Polinomi de Taylor"
 
-#: index.php:392
+#: index.php:393
 msgid   "Local maxima and minima in two variables"
 msgstr  "Màxims i mínims locals en dues variables"
 
-#: index.php:396 integral.php:2
+#: index.php:397 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Integral indefinida (anti-derivada)"
 
-#: index.php:397
+#: index.php:398
 msgid   "Geometrical applications of definite integral"
 msgstr  "Aplicacions geomètriques de la integral"
 
-#: index.php:398
+#: index.php:399
 msgid   "Trapezoidal rule"
 msgstr  "Aproximació dels trapezis"
 
-#: index.php:399 integral2.php:2
+#: index.php:400 integral2.php:2
 msgid   "Double integral"
 msgstr  "Integral doble"
 
-#: index.php:403
+#: index.php:404
 msgid   "First order ODE"
 msgstr  "EDO de primer ordre"
 
-#: index.php:404
+#: index.php:405
 msgid   "Second order LDE"
 msgstr  "EDO de segon ordre"
 
-#: index.php:405
+#: index.php:406
 msgid   "Autonomous system"
 msgstr  "Sistema autònom"
 
-#: index.php:410 regula_falsi.php:2
+#: index.php:411 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  ""
 
-#: index.php:412
+#: index.php:413
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Sistema d'inequacions (en una o dues variables)"
 
-#: index.php:420
+#: index.php:421
 msgid   "Introduction"
 msgstr  "Introducció"
 
-#: index.php:426
+#: index.php:427
 msgid   "Precalculus"
 msgstr  "Àlgebra elemental"
 
-#: index.php:431
+#: index.php:432
 msgid   "Calculus"
 msgstr  "Anàlisi"
 
-#: index.php:437
+#: index.php:438
 msgid   "Integral calculus"
 msgstr  "Integrals"
 
-#: index.php:443
+#: index.php:444
 msgid   "Differential equations"
 msgstr  "Equacions diferencials"
 
-#: index.php:449
+#: index.php:450
 msgid   "Equations and inequalities"
 msgstr  "Equacions i inequacions"
 
-#: index.php:456
+#: index.php:457
 msgid   "Site map, support"
 msgstr  "Mapa i ajuda"
 
-#: index.php:482
+#: index.php:483
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -495,7 +495,7 @@ msgstr  "Entreu les dades a la calculadora i cliqueu Envia-ho. Podeu canviar "
         "apareix quan moveu el ratolí al damunt del nom del grup (primera "
         "fila del menú)."
 
-#: index.php:485
+#: index.php:486
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -561,14 +561,14 @@ msgstr  "<br> <ul>   <li>Entreu les vostres inequacions al camp del "
         "eixos ortonormats, seleccioneu el segon quadradet (l'eix més curt "
         "s'arronsarà). </li> </ul>"
 
-#: integral.php:28
+#: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
 msgstr  "fés servir <a href=\"http://formconv.sourceforge.net/\">formconv</a> "
         "per convertir fòrmules (així podeu escriure 2x enlloc de 2*x)"
 
-#: integral.php:33
+#: integral.php:42
 msgid   "use \n"
         "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
         "writing formulas on html page instead of  \n"
@@ -580,7 +580,7 @@ msgstr  "fés servir \n"
         "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
         "(més bonic però més lent)\n"
 
-#: integral.php:42
+#: integral.php:51
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
         "get composite fractions (with fraction in numerator))"
@@ -588,11 +588,11 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> (destrieu-ho si obteniu "
         "torres de fraccions, amb fraccions al numerador)"
 
-#: integral.php:47 integral2.php:74
+#: integral.php:56 integral2.php:74
 msgid   "write acsinh and atanh in terms of log"
 msgstr  "escriu asinh i atanh enlloc de log"
 
-#: integral.php:59
+#: integral.php:66
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visiteu la <a  href=\"integral_offline/\">galeria "
         "d'integrals</a></span>. Si voleu afegir-hi una integral vostra, "

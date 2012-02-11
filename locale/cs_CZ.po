@@ -10,7 +10,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
         "PO-Revision-Date: 2010-08-31 13:56+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -28,14 +28,14 @@ msgstr  "Singulární body autonomních systémů v rovině"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  "Editor matematiky"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  "Náhled"
@@ -67,7 +67,7 @@ msgstr  "<ul>   <li>Vyplňte funkčn&iacute; předpisy prav&yacute;ch strana "
         "souřadnice stacion&aacute;rn&iacute;ho bodu, kter&yacute; v&aacute;s "
         "zaj&iacute;m&aacute;, a stiskněte Odeslat.</li> </ul>"
 
-#: banach.php:2 index.php:411
+#: banach.php:2 index.php:412
 msgid   "Method of iterations"
 msgstr  "Metoda prosté iterace"
 
@@ -114,7 +114,7 @@ msgid   "MAW-banach"
 msgstr  "viz <a href=\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem"
         "\">wikipedie</a>"
 
-#: bisection.php:2 index.php:409
+#: bisection.php:2 index.php:410
 msgid   "Bisection"
 msgstr  "Půlení intervalu"
 
@@ -134,7 +134,7 @@ msgstr  "(celé číslo od 2 do 40)"
 msgid   "MAW-bisection"
 msgstr  "Půlení intervalu"
 
-#: derivace.php:2 index.php:389
+#: derivace.php:2 index.php:390
 msgid   "Derivative and partial derivative"
 msgstr  "Derivace a parciální derivace"
 
@@ -183,7 +183,7 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené
 msgid   "Domain of a function in one variable"
 msgstr  "Definiční obor funkce jedné proměnné"
 
-#: df.php:21 geom.php:52
+#: df.php:21 geom.php:52 integral.php:34
 msgid   "Parameters"
 msgstr  "Parametry výpočtu"
 
@@ -333,7 +333,7 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/riemann-cz.pdf\">Teorie "
         "použ&iacute;t nějak&yacute; sofistikovaněj&scaron;&iacute; n&aacute;"
         "stroj na ře&scaron;en&iacute; rovnic.<br>  </li></ul>"
 
-#: graf.php:2 index.php:381
+#: graf.php:2 index.php:382
 msgid   "Graphs of elementary functions"
 msgstr  "Grafy elementárních funkcí"
 
@@ -376,7 +376,7 @@ msgstr  "<span style=\"font-weight: bold;\">Pozn&aacute;mky:</span><br><ul> "
         "automaticky rozpoznána a sestrojí se okomentovaný postup, jak "
         "obdržet graf funkce pomocí transformací základních grafů</li></ul>"
 
-#: index.php:121
+#: index.php:122
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
@@ -384,147 +384,147 @@ msgstr  "Kliknutím na tlačítko Náhled zjistíte, jak je vaše matematická "
         "formule interpretována programem formconv a obdržíte radu, jak "
         "zapsat formuli v programu Maxima. "
 
-#: index.php:130
+#: index.php:131
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
 msgstr  "Váš požadavek je zpracováván. Čekejte prosím na dokončení výpočtu. "
         "Kliknutím %ssem%s se vrátíte do odeslaného formuláře."
 
-#: index.php:137
+#: index.php:138
 msgid   "History"
 msgstr  "Historie"
 
-#: index.php:170 index.php:283
+#: index.php:171 index.php:284
 msgid   "Mathematical Assistant on Web"
 msgstr  "Matematické výpočty online (MAW)"
 
-#: index.php:233
+#: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Pro zobrazení některých dodatečných informací si prosím zapněte "
         "Javascripty."
 
-#: index.php:252
+#: index.php:253
 msgid   "More languages"
 msgstr  "Další jazyky"
 
-#: index.php:266
+#: index.php:267
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  "http://forum.matweb.cz/viewforum.php?id=39"
 
-#: index.php:266
+#: index.php:267
 msgid   "Support from MAW forum"
 msgstr  "Podpora, diskusní fórum"
 
-#: index.php:268
+#: index.php:269
 msgid   "Changelog"
 msgstr  "Poslední změny"
 
-#: index.php:270
+#: index.php:271
 msgid   "Known bugs"
 msgstr  "Známé chyby"
 
-#: index.php:333
+#: index.php:334
 msgid   "Submit"
 msgstr  "Odeslat"
 
-#: index.php:333
+#: index.php:334
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "Klikněte pouze jednou a počkejte několik okamžiků na odpověd!"
 
-#: index.php:382
+#: index.php:383
 msgid   "Domain of functions (one variable)"
 msgstr  "Definiční obor funkcí jedné proměnné"
 
-#: index.php:383
+#: index.php:384
 msgid   "Domain of functions (two variables)"
 msgstr  "Definiční obor funkcí dvou proměnných"
 
-#: index.php:384 lagrange.php:3
+#: index.php:385 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Lagrangeův polynom"
 
-#: index.php:385 mnc.php:3
+#: index.php:386 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Metoda nejmenších čtverců"
 
-#: index.php:390
+#: index.php:391
 msgid   "Investigating functions"
 msgstr  "Průběh funkce"
 
-#: index.php:391 taylor.php:3
+#: index.php:392 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Taylorův polynom"
 
-#: index.php:392
+#: index.php:393
 msgid   "Local maxima and minima in two variables"
 msgstr  "Lokální extrémy funkce dvou proměnných"
 
-#: index.php:396 integral.php:2
+#: index.php:397 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Neurčitý integrál"
 
-#: index.php:397
+#: index.php:398
 msgid   "Geometrical applications of definite integral"
 msgstr  "Geometrické aplikace určitého integrálu"
 
-#: index.php:398
+#: index.php:399
 msgid   "Trapezoidal rule"
 msgstr  "Lichoběžníkové pravidlo"
 
-#: index.php:399 integral2.php:2
+#: index.php:400 integral2.php:2
 msgid   "Double integral"
 msgstr  "Dvojnásobný integrál"
 
-#: index.php:403
+#: index.php:404
 msgid   "First order ODE"
 msgstr  "Diferenciální rovnice prvního řádu"
 
-#: index.php:404
+#: index.php:405
 msgid   "Second order LDE"
 msgstr  "Diferenciální rovnice druhého řádu"
 
-#: index.php:405
+#: index.php:406
 msgid   "Autonomous system"
 msgstr  "Autonomní systémy"
 
-#: index.php:410 regula_falsi.php:2
+#: index.php:411 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
 
-#: index.php:412
+#: index.php:413
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Soustavy nerovnic (jedné nebo dvou proměnných)"
 
-#: index.php:420
+#: index.php:421
 msgid   "Introduction"
 msgstr  "Úvod"
 
-#: index.php:426
+#: index.php:427
 msgid   "Precalculus"
 msgstr  "Funkce"
 
-#: index.php:431
+#: index.php:432
 msgid   "Calculus"
 msgstr  "Diferenciální počet"
 
-#: index.php:437
+#: index.php:438
 msgid   "Integral calculus"
 msgstr  "Integrální počet"
 
-#: index.php:443
+#: index.php:444
 msgid   "Differential equations"
 msgstr  "Diferenciální rovnice"
 
-#: index.php:449
+#: index.php:450
 msgid   "Equations and inequalities"
 msgstr  "Rovnice a nerovnice"
 
-#: index.php:456
+#: index.php:457
 msgid   "Site map, support"
 msgstr  "Mapa stránek, podpora"
 
-#: index.php:482
+#: index.php:483
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -535,7 +535,7 @@ msgstr  "Vyplňte následující formulář Vašimi daty a stiskněte tlačítko
         "řádku jsou tematické skupiny, pro každou tematickou skupinu jsou "
         "příslušené kalkulátory ve druhém řádku menu."
 
-#: index.php:485
+#: index.php:486
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -598,7 +598,7 @@ msgstr  "<ul>    <li>Zapište do políčka nerovnice, vždy jednu nerovnici na "
         "checkbox aby se osa, která má delší délkovou jednotku, přeškálovala. "
         "</li> </ul>"
 
-#: integral.php:28
+#: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -609,7 +609,7 @@ msgstr  "použít program <a href=\"http://formconv.sourceforge.net/"
         "potíže se zadáváním funkce, zkuste zrušit zaškrtnutí tohoto "
         "políčka.) "
 
-#: integral.php:33
+#: integral.php:42
 msgid   "use \n"
         "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
         "writing formulas on html page instead of  \n"
@@ -620,7 +620,7 @@ msgstr  "použít <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</"
         "zobrazování, vzorce jde zvětšovat a kopírovat z nich TeXovský kód, "
         "ale tato volba není moc vhodná při pomalém připojení)\n"
 
-#: integral.php:42
+#: integral.php:51
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
         "get composite fractions (with fraction in numerator))"
@@ -628,11 +628,11 @@ msgstr  "přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
         "maxima_4.html#Item_003a-pfeformat\">pfeformat</a> (zrušte zatrhnutí, "
         "pokud při výpočtu obdržíte složené zlomky (se zlomkem v čitateli)) "
 
-#: integral.php:47 integral2.php:74
+#: integral.php:56 integral2.php:74
 msgid   "write acsinh and atanh in terms of log"
 msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
 
-#: integral.php:59
+#: integral.php:66
 msgid   "MAW-int"
 msgstr  "<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/"
         "\">galerie integrálů</a>.</span> Máte-li s výpočtem některého z "

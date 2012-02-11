@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -25,14 +25,14 @@ msgstr  "Сингулярные точки автономных систем"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  "Редактор"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  "Предварительный просмотр"
@@ -56,7 +56,7 @@ msgid   "MAW-autsyst"
 msgstr  "Калькулятор позволяет классифицировать стационарных точек двумерной "
         "автономной системы с помощью матрицы Якоби."
 
-#: banach.php:2 index.php:411
+#: banach.php:2 index.php:412
 msgid   "Method of iterations"
 msgstr  "Метод итераций"
 
@@ -107,7 +107,7 @@ msgstr  "Калькулятор позволяет решения уравнен
         "%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B9_%D1%82%D0%BE%D1%87%D0%BA"
         "%D0%B5\">Теоремы Банаха о неподвижной точке</a>."
 
-#: bisection.php:2 index.php:409
+#: bisection.php:2 index.php:410
 msgid   "Bisection"
 msgstr  "Метод бисекции"
 
@@ -130,7 +130,7 @@ msgstr  "Калькулятор позволяет решения уравнен
         "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методa бисекции</"
         "a>"
 
-#: derivace.php:2 index.php:389
+#: derivace.php:2 index.php:390
 msgid   "Derivative and partial derivative"
 msgstr  "Производная и частные производные"
 
@@ -169,7 +169,7 @@ msgstr  "Калькулятор находит производнyю функц�
 msgid   "Domain of a function in one variable"
 msgstr  "Oбласть определения функции одной переменной"
 
-#: df.php:21 geom.php:52
+#: df.php:21 geom.php:52 integral.php:34
 msgid   "Parameters"
 msgstr  "Параметры"
 
@@ -286,7 +286,7 @@ msgid   "MAW-geom"
 msgstr  "<b>Under construction.</b> Посмотрите на английском языке для "
         "некоторых соответствующих инструкций."
 
-#: graf.php:2 index.php:381
+#: graf.php:2 index.php:382
 msgid   "Graphs of elementary functions"
 msgstr  "Графики элементарных функций"
 
@@ -330,14 +330,14 @@ msgstr  "Здесь вы можете нарисовать график функ
         "автоматически, и вы получите график этой функции, включая анимацию "
         "последовательных деформаций."
 
-#: index.php:121
+#: index.php:122
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
 msgstr  "Здесь вы можете проверить, как мы понимаем ваши математические "
         "выражения и как вы можете ввести это выражение в компьютер."
 
-#: index.php:130
+#: index.php:131
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
@@ -345,140 +345,140 @@ msgstr  "Ваш вклад обрабатывается. Подождите не
         "результат. %sКликните здесь%s, чтобы открыть форму, которая была "
         "занесена."
 
-#: index.php:137
+#: index.php:138
 msgid   "History"
 msgstr  "История"
 
-#: index.php:170 index.php:283
+#: index.php:171 index.php:284
 msgid   "Mathematical Assistant on Web"
 msgstr  "Математические сервисы онлайн (MAW)"
 
-#: index.php:233
+#: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Вы должны включить JavaScript, чтобы увидеть дополнительную "
         "информацию."
 
-#: index.php:252
+#: index.php:253
 msgid   "More languages"
 msgstr  "Другие языки"
 
-#: index.php:266
+#: index.php:267
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
 
-#: index.php:266
+#: index.php:267
 msgid   "Support from MAW forum"
 msgstr  "Поддержка с MAW форума"
 
-#: index.php:268
+#: index.php:269
 msgid   "Changelog"
 msgstr  "Изменения"
 
-#: index.php:270
+#: index.php:271
 msgid   "Known bugs"
 msgstr  "Известные ошибки"
 
-#: index.php:333
+#: index.php:334
 msgid   "Submit"
 msgstr  "Отправить"
 
-#: index.php:333
+#: index.php:334
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "Нажмите только один раз и подождите несколько секунд, за ответ!"
 
-#: index.php:382
+#: index.php:383
 msgid   "Domain of functions (one variable)"
 msgstr  "Oбласть определения функций (одной переменной)"
 
-#: index.php:383
+#: index.php:384
 msgid   "Domain of functions (two variables)"
 msgstr  "Oбласть определения функций (двух переменных)"
 
-#: index.php:384 lagrange.php:3
+#: index.php:385 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Полином Лагранжа"
 
-#: index.php:385 mnc.php:3
+#: index.php:386 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Метод наименьших квадратов"
 
-#: index.php:390
+#: index.php:391
 msgid   "Investigating functions"
 msgstr  "Исследование функций"
 
-#: index.php:391 taylor.php:3
+#: index.php:392 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Полином Тейлора"
 
-#: index.php:392
+#: index.php:393
 msgid   "Local maxima and minima in two variables"
 msgstr  "Локальные максимумы и минимумы с двумя переменными"
 
-#: index.php:396 integral.php:2
+#: index.php:397 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Неопределенный интеграл"
 
-#: index.php:397
+#: index.php:398
 msgid   "Geometrical applications of definite integral"
 msgstr  "Геометрические приложения определенного интеграла"
 
-#: index.php:398
+#: index.php:399
 msgid   "Trapezoidal rule"
 msgstr  "Метод трапеций"
 
-#: index.php:399 integral2.php:2
+#: index.php:400 integral2.php:2
 msgid   "Double integral"
 msgstr  "Двойной интеграл"
 
-#: index.php:403
+#: index.php:404
 msgid   "First order ODE"
 msgstr  "ОДУ первого порядка"
 
-#: index.php:404
+#: index.php:405
 msgid   "Second order LDE"
 msgstr  "ЛДУ второго порядка"
 
-#: index.php:405
+#: index.php:406
 msgid   "Autonomous system"
 msgstr  "Автономная система"
 
-#: index.php:410 regula_falsi.php:2
+#: index.php:411 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  "Метод фальшпозиции"
 
-#: index.php:412
+#: index.php:413
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Система неравенств (в одной или двух переменных)"
 
-#: index.php:420
+#: index.php:421
 msgid   "Introduction"
 msgstr  "Введение"
 
-#: index.php:426
+#: index.php:427
 msgid   "Precalculus"
 msgstr  "Функции"
 
-#: index.php:431
+#: index.php:432
 msgid   "Calculus"
 msgstr  "Производныe"
 
-#: index.php:437
+#: index.php:438
 msgid   "Integral calculus"
 msgstr  "Интегралы"
 
-#: index.php:443
+#: index.php:444
 msgid   "Differential equations"
 msgstr  "Дифференциальные уравнения"
 
-#: index.php:449
+#: index.php:450
 msgid   "Equations and inequalities"
 msgstr  "Уравнения и неравенства"
 
-#: index.php:456
+#: index.php:457
 msgid   "Site map, support"
 msgstr  "Карта сайта, поддержка"
 
-#: index.php:482
+#: index.php:483
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -487,7 +487,7 @@ msgid   "Enter your data into the calculator and click Submit. You can also "
 msgstr  "Введите свои данные в калькулятор и нажмите кнопку Отправить. Вы "
         "также можете изменить тип калькулятора в меню."
 
-#: index.php:485
+#: index.php:486
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -532,7 +532,7 @@ msgid   "MAW-ineq2d"
 msgstr  "<b>Under construction.</b> Посмотрите на английском языке для "
         "некоторых соответствующих инструкций. "
 
-#: integral.php:28
+#: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -540,7 +540,7 @@ msgstr  "использовать <a href=\"http://formconv.sourceforge.net/\">f
         "a> для преобразования математических выражений (это позволяет писать "
         "2x вместо 2*х)"
 
-#: integral.php:33
+#: integral.php:42
 msgid   "use \n"
         "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
         "writing formulas on html page instead of  \n"
@@ -550,18 +550,18 @@ msgstr  "использовать <a href=\"http://www.math.union.edu/~dpvc/jsma
         "\">jsmath</a> и не <a href=\"http://www.forkosh.com/mathtex.html"
         "\">mathtex</a> чтобы показать математических выражений\n"
 
-#: integral.php:42
+#: integral.php:51
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
         "get composite fractions (with fraction in numerator))"
 msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> переключатель"
 
-#: integral.php:47 integral2.php:74
+#: integral.php:56 integral2.php:74
 msgid   "write acsinh and atanh in terms of log"
 msgstr  "написать acsinh и atanh как логарифм"
 
-#: integral.php:59
+#: integral.php:66
 msgid   "MAW-int"
 msgstr  "Введите функцию для интеграции. Вы сможете контролировать метод "
         "расчета на следующих страницах. Для полного автоматического "

@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
         "PO-Revision-Date: 2012-01-28 01:40+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -25,14 +25,14 @@ msgstr  "自治系统的奇点"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
 #: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  "编辑"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  "预览"
@@ -57,7 +57,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>填写�
         "机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的"
         "单选按钮。</li> </ul>"
 
-#: banach.php:2 index.php:411
+#: banach.php:2 index.php:412
 msgid   "Method of iterations"
 msgstr  "迭代法"
 
@@ -106,7 +106,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非�
         "%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</a> 。</"
         "li> </ul>"
 
-#: bisection.php:2 index.php:409
+#: bisection.php:2 index.php:410
 msgid   "Bisection"
 msgstr  "二分法"
 
@@ -128,7 +128,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关�
         "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
         "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
 
-#: derivace.php:2 index.php:389
+#: derivace.php:2 index.php:390
 msgid   "Derivative and partial derivative"
 msgstr  "导数和偏导数"
 
@@ -170,7 +170,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入�
 msgid   "Domain of a function in one variable"
 msgstr  "一元函数的定义域"
 
-#: df.php:21 geom.php:52
+#: df.php:21 geom.php:52 integral.php:34
 msgid   "Parameters"
 msgstr  "参数"
 
@@ -292,7 +292,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定
         "span> 请填写 0。</li>  <li>你可以让计算机尝试求解曲线的交点。请选择适"
         "当的选项。<br> </li> </ul>"
 
-#: graf.php:2 index.php:381
+#: graf.php:2 index.php:382
 msgid   "Graphs of elementary functions"
 msgstr  "初等函数图像"
 
@@ -332,7 +332,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>所求�
         "图像应当可以通过移动、缩放一个基本初等函数的图像得到。</li><li>输入的"
         "函数将被自动绘制。你将得到函数的图形，包括其变形过程。</li></ul>"
 
-#: index.php:121
+#: index.php:122
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
@@ -340,146 +340,146 @@ msgstr  "点击这个按钮即可显示你书写的表达式如何被 formconv �
         "何用 Maxima 符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到"
         "这个表单中。）"
 
-#: index.php:130
+#: index.php:131
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
 msgstr  "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一"
         "页面。"
 
-#: index.php:137
+#: index.php:138
 msgid   "History"
 msgstr  "历史记录"
 
-#: index.php:170 index.php:283
+#: index.php:171 index.php:284
 msgid   "Mathematical Assistant on Web"
 msgstr  "在线数学助理 (MAW)"
 
-#: index.php:233
+#: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
 
-#: index.php:252
+#: index.php:253
 msgid   "More languages"
 msgstr  "更多"
 
-#: index.php:266
+#: index.php:267
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
 
-#: index.php:266
+#: index.php:267
 msgid   "Support from MAW forum"
 msgstr  "从MAW论坛获取支持"
 
-#: index.php:268
+#: index.php:269
 msgid   "Changelog"
 msgstr  "更新日志"
 
-#: index.php:270
+#: index.php:271
 msgid   "Known bugs"
 msgstr  "已知问题"
 
-#: index.php:333
+#: index.php:334
 msgid   "Submit"
 msgstr  "提交"
 
-#: index.php:333
+#: index.php:334
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "请不要反复点击，结果将在数秒钟后呈现。"
 
-#: index.php:382
+#: index.php:383
 msgid   "Domain of functions (one variable)"
 msgstr  "一元函数的定义域"
 
-#: index.php:383
+#: index.php:384
 msgid   "Domain of functions (two variables)"
 msgstr  "二元函数的定义域"
 
-#: index.php:384 lagrange.php:3
+#: index.php:385 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "拉格朗日多项式"
 
-#: index.php:385 mnc.php:3
+#: index.php:386 mnc.php:3
 msgid   "Least squares method"
 msgstr  "最小二乘法"
 
-#: index.php:390
+#: index.php:391
 msgid   "Investigating functions"
 msgstr  "函数特性"
 
-#: index.php:391 taylor.php:3
+#: index.php:392 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "泰勒多项式"
 
-#: index.php:392
+#: index.php:393
 msgid   "Local maxima and minima in two variables"
 msgstr  "二元函数的局部最大值与最小值"
 
-#: index.php:396 integral.php:2
+#: index.php:397 integral.php:2
 msgid   "Antiderivative"
 msgstr  "不定积分（反导数）"
 
-#: index.php:397
+#: index.php:398
 msgid   "Geometrical applications of definite integral"
 msgstr  "定积分的几何应用"
 
-#: index.php:398
+#: index.php:399
 msgid   "Trapezoidal rule"
 msgstr  "梯形法则"
 
-#: index.php:399 integral2.php:2
+#: index.php:400 integral2.php:2
 msgid   "Double integral"
 msgstr  "二重积分"
 
-#: index.php:403
+#: index.php:404
 msgid   "First order ODE"
 msgstr  "一阶常微分方程"
 
-#: index.php:404
+#: index.php:405
 msgid   "Second order LDE"
 msgstr  "二阶常微分方程"
 
-#: index.php:405
+#: index.php:406
 msgid   "Autonomous system"
 msgstr  "自治系统"
 
-#: index.php:410 regula_falsi.php:2
+#: index.php:411 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  "试位法"
 
-#: index.php:412
+#: index.php:413
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "一元或二元不等式（组）"
 
-#: index.php:420
+#: index.php:421
 msgid   "Introduction"
 msgstr  "简介"
 
-#: index.php:426
+#: index.php:427
 msgid   "Precalculus"
 msgstr  "初等数学"
 
-#: index.php:431
+#: index.php:432
 msgid   "Calculus"
 msgstr  "微分"
 
-#: index.php:437
+#: index.php:438
 msgid   "Integral calculus"
 msgstr  "积分"
 
-#: index.php:443
+#: index.php:444
 msgid   "Differential equations"
 msgstr  "微分方程"
 
-#: index.php:449
+#: index.php:450
 msgid   "Equations and inequalities"
 msgstr  "等式与不等式"
 
-#: index.php:456
+#: index.php:457
 msgid   "Site map, support"
 msgstr  "网站地图与支持"
 
-#: index.php:482
+#: index.php:483
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -489,7 +489,7 @@ msgstr  "请在表单中输入你的数据并点击“提交”按钮。在菜�
         "算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜"
         "单的第一行）。"
 
-#: index.php:485
+#: index.php:486
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -543,14 +543,14 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文�
         "为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将"
         "被扩大。</li> </ul>"
 
-#: integral.php:28
+#: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
 msgstr  "使用 <a href=\"http://formconv.sourceforge.net/\">formconv</a> 解析输"
         "入的表达式（允许将2*x写成2x）"
 
-#: integral.php:33
+#: integral.php:42
 msgid   "use \n"
         "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
         "writing formulas on html page instead of  \n"
@@ -561,7 +561,7 @@ msgstr  "使用 <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> "
         "mathtex.html\">mathTeX</a> 的图形结果（输出效果稍好，但结果呈现可能会"
         "变慢）。\n"
 
-#: integral.php:42
+#: integral.php:51
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
         "get composite fractions (with fraction in numerator))"
@@ -569,11 +569,11 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
         "不要勾选此项）"
 
-#: integral.php:47 integral2.php:74
+#: integral.php:56 integral2.php:74
 msgid   "write acsinh and atanh in terms of log"
 msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
 
-#: integral.php:59
+#: integral.php:66
 msgid   "MAW-int"
 msgstr  "MAW-int"
 
