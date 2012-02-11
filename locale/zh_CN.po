@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
+        "POT-Creation-Date: 2012-02-11 13:40+0100\n"
         "PO-Revision-Date: 2012-01-28 01:40+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -201,7 +201,7 @@ msgstr  "切换至精简视图"
 
 #: dummy.php:7
 msgid   "Showcase"
-msgstr  ""
+msgstr  "示例"
 
 #: dummy.php:8 mawconfightml.php:48
 msgid   "Switch to a full design"
