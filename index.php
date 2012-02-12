@@ -264,8 +264,10 @@ echo ("&nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More langua
 
 </div>
 <div class="support">
-<a href="<?php echo __("http://sourceforge.net/apps/phpbb/mathassistant")?>"><?php  echo __("Support from MAW forum");?></a>
-<br>
+<?php
+  if (__("http://sourceforge.net/apps/phpbb/mathassistant")!="http://sourceforge.net/apps/phpbb/mathassistant")
+    { echo '<a href="'.__("http://sourceforge.net/apps/phpbb/mathassistant").'">'.__("Support from MAW forum").'</a><br>'; }
+?>
 <a href="changes.txt"><?php  echo __("Changelog");?></a>
 <br>
 <a href="bugs.txt"><?php  echo __("Known bugs");?></a>
