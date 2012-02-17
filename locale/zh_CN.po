@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-11 13:40+0100\n"
+        "POT-Creation-Date: 2012-02-17 11:40+0100\n"
         "PO-Revision-Date: 2012-01-28 01:40+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -24,15 +24,15 @@ msgid   "Singular points of autonomous systems"
 msgstr  "自治系统的奇点"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
+#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  "编辑"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
+#: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  "预览"
@@ -57,7 +57,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>填写�
         "机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的"
         "单选按钮。</li> </ul>"
 
-#: banach.php:2 index.php:412
+#: banach.php:2 index.php:415
 msgid   "Method of iterations"
 msgstr  "迭代法"
 
@@ -65,7 +65,7 @@ msgstr  "迭代法"
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "输入函数、不动点所在的区间，以及步数。"
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
+#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -106,7 +106,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非�
         "%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</a> 。</"
         "li> </ul>"
 
-#: bisection.php:2 index.php:410
+#: bisection.php:2 index.php:413
 msgid   "Bisection"
 msgstr  "二分法"
 
@@ -128,7 +128,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关�
         "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
         "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
 
-#: derivace.php:2 index.php:390
+#: derivace.php:2 index.php:392
 msgid   "Derivative and partial derivative"
 msgstr  "导数和偏导数"
 
@@ -166,18 +166,6 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入�
         "览，也可能显示下载窗口。请确保计算机中拥有 PDF阅读器。</li><li>你可以"
         "在本页面中求解一元或者二元函数的导数。"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  "一元函数的定义域"
-
-#: df.php:21 geom.php:52 integral.php:34
-msgid   "Parameters"
-msgstr  "参数"
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
-
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  "二元函数的定义域"
@@ -195,7 +183,19 @@ msgid   "MAW-df3d"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
         "中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
 
-#: dummy.php:6 mawconfightml.php:60
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  "一元函数的定义域"
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
+msgid   "Parameters"
+msgstr  "参数"
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  " "
+
+#: dummy.php:6
 msgid   "Switch to a compact design"
 msgstr  "切换至精简视图"
 
@@ -203,7 +203,7 @@ msgstr  "切换至精简视图"
 msgid   "Showcase"
 msgstr  "示例"
 
-#: dummy.php:8 mawconfightml.php:48
+#: dummy.php:8
 msgid   "Switch to a full design"
 msgstr  "切换至完整视图"
 
@@ -292,7 +292,7 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定
         "span> 请填写 0。</li>  <li>你可以让计算机尝试求解曲线的交点。请选择适"
         "当的选项。<br> </li> </ul>"
 
-#: graf.php:2 index.php:382
+#: graf.php:2 index.php:384
 msgid   "Graphs of elementary functions"
 msgstr  "初等函数图像"
 
@@ -351,7 +351,7 @@ msgstr  "你输入的数据正在处理中。稍等片刻即可呈现答案。�
 msgid   "History"
 msgstr  "历史记录"
 
-#: index.php:171 index.php:284
+#: index.php:171 index.php:286
 msgid   "Mathematical Assistant on Web"
 msgstr  "在线数学助理 (MAW)"
 
@@ -363,123 +363,127 @@ msgstr  "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
 msgid   "More languages"
 msgstr  "更多"
 
-#: index.php:267
+#: index.php:268 index.php:269
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
 
-#: index.php:267
+#: index.php:269
 msgid   "Support from MAW forum"
 msgstr  "从MAW论坛获取支持"
 
-#: index.php:269
+#: index.php:271
 msgid   "Changelog"
 msgstr  "更新日志"
 
-#: index.php:271
+#: index.php:273
 msgid   "Known bugs"
 msgstr  "已知问题"
 
-#: index.php:334
+#: index.php:336
 msgid   "Submit"
 msgstr  "提交"
 
-#: index.php:334
+#: index.php:336
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "请不要反复点击，结果将在数秒钟后呈现。"
 
-#: index.php:383
+#: index.php:385
 msgid   "Domain of functions (one variable)"
 msgstr  "一元函数的定义域"
 
-#: index.php:384
+#: index.php:386
 msgid   "Domain of functions (two variables)"
 msgstr  "二元函数的定义域"
 
-#: index.php:385 lagrange.php:3
+#: index.php:387 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "拉格朗日多项式"
 
-#: index.php:386 mnc.php:3
+#: index.php:388 mnc.php:3
 msgid   "Least squares method"
 msgstr  "最小二乘法"
 
-#: index.php:391
+#: index.php:393
 msgid   "Investigating functions"
 msgstr  "函数特性"
 
-#: index.php:392 taylor.php:3
+#: index.php:394 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "泰勒多项式"
 
-#: index.php:393
+#: index.php:395
 msgid   "Local maxima and minima in two variables"
 msgstr  "二元函数的局部最大值与最小值"
 
-#: index.php:397 integral.php:2
+#: index.php:399 integral.php:2
 msgid   "Antiderivative"
 msgstr  "不定积分（反导数）"
 
-#: index.php:398
+#: index.php:400
 msgid   "Geometrical applications of definite integral"
 msgstr  "定积分的几何应用"
 
-#: index.php:399
+#: index.php:401
 msgid   "Trapezoidal rule"
 msgstr  "梯形法则"
 
-#: index.php:400 integral2.php:2
+#: index.php:402 integral2.php:2
 msgid   "Double integral"
 msgstr  "二重积分"
 
-#: index.php:404
+#: index.php:403 lineintegral.php:2
+msgid   "Line integral"
+msgstr  ""
+
+#: index.php:407
 msgid   "First order ODE"
 msgstr  "一阶常微分方程"
 
-#: index.php:405
+#: index.php:408
 msgid   "Second order LDE"
 msgstr  "二阶常微分方程"
 
-#: index.php:406
+#: index.php:409
 msgid   "Autonomous system"
 msgstr  "自治系统"
 
-#: index.php:411 regula_falsi.php:2
+#: index.php:414 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  "试位法"
 
-#: index.php:413
+#: index.php:416
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "一元或二元不等式（组）"
 
-#: index.php:421
+#: index.php:424
 msgid   "Introduction"
 msgstr  "简介"
 
-#: index.php:427
+#: index.php:430
 msgid   "Precalculus"
 msgstr  "初等数学"
 
-#: index.php:432
+#: index.php:435
 msgid   "Calculus"
 msgstr  "微分"
 
-#: index.php:438
+#: index.php:441
 msgid   "Integral calculus"
 msgstr  "积分"
 
-#: index.php:444
+#: index.php:447
 msgid   "Differential equations"
 msgstr  "微分方程"
 
-#: index.php:450
+#: index.php:453
 msgid   "Equations and inequalities"
 msgstr  "等式与不等式"
 
-#: index.php:457
+#: index.php:460
 msgid   "Site map, support"
 msgstr  "网站地图与支持"
 
-#: index.php:483
+#: index.php:486
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -489,7 +493,7 @@ msgstr  "请在表单中输入你的数据并点击“提交”按钮。在菜�
         "算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜"
         "单的第一行）。"
 
-#: index.php:486
+#: index.php:489
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -543,6 +547,33 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文�
         "为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将"
         "被扩大。</li> </ul>"
 
+#: integral2.php:24
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "输入函数，选择变量和积分顺序"
+
+#: integral2.php:59
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\" alt="
+        "\"phi\"> 可以写为 <b>phi</b> 。"
+
+#: integral2.php:63
+msgid   "Axes (decimal numbers)"
+msgstr  "积分区间（可用小数）"
+
+#: integral2.php:71
+msgid   "Preview region of integration"
+msgstr  "预览积分界限"
+
+#: integral2.php:74 integral.php:56
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
+
+#: integral2.php:88
+msgid   "MAW-int2"
+msgstr  "MAW-int2"
+
 #: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
@@ -569,36 +600,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
         "不要勾选此项）"
 
-#: integral.php:56 integral2.php:74
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
-
 #: integral.php:66
 msgid   "MAW-int"
 msgstr  "MAW-int"
-
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "输入函数，选择变量和积分顺序"
-
-#: integral2.php:59
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "极坐标下的雅可比行列式会自动添加。圆周率 <img src=\"phi.png\" alt="
-        "\"phi\"> 可以写为 <b>phi</b> 。"
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  "积分区间（可用小数）"
-
-#: integral2.php:71
-msgid   "Preview region of integration"
-msgstr  "预览积分界限"
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  "MAW-int2"
 
 #: lagrange.php:11 mnc.php:11
 msgid   "Data file"
@@ -647,6 +651,48 @@ msgstr  "<ul>   <li>在左侧填写系数（数字）并在右侧填写补全方
         "i> 均为实数，且 <i>P(x)</i>, <i>Q(x)</i> 为不高于 4 次的多项式。</"
         "li>   <li>如果你认为给出的结果不正确，请务必通知我们，谢谢。</li> </"
         "ul>"
+
+#: lineintegral.php:22
+msgid   "Integral of a scalar field"
+msgstr  ""
+
+#: lineintegral.php:23
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+#: lineintegral.php:43
+msgid   "Integral of a vector field"
+msgstr  ""
+
+#: lineintegral.php:44
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+#: lineintegral.php:75 lineintegral.php:108
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+#: lineintegral.php:88
+msgid   "line integral in 2D"
+msgstr  ""
+
+#: lineintegral.php:92
+msgid   "line integral in 3D"
+msgstr  ""
+
+#: lineintegral.php:97
+msgid   "Curve"
+msgstr  ""
+
+#: lineintegral.php:112
+msgid   "Parameter bounds"
+msgstr  ""
+
+#: lineintegral.php:128
+msgid   "MAW-lineint"
+msgstr  ""
 
 #: main.php:1
 msgid   "MAW-main"

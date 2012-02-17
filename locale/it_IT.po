@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-09 12:50+0100\n"
+        "POT-Creation-Date: 2012-02-17 11:42+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: ... <...@...>\n"
         "Language-Team: Italian\n"
@@ -24,15 +24,15 @@ msgid   "Singular points of autonomous systems"
 msgstr  "Punti singolari di sistemi autonomi"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:22 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
+#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  ""
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:23 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
+#: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  ""
@@ -54,7 +54,7 @@ msgstr  ""
 msgid   "MAW-autsyst"
 msgstr  ""
 
-#: banach.php:2 index.php:411
+#: banach.php:2 index.php:415
 msgid   "Method of iterations"
 msgstr  "metodo di iterazione"
 
@@ -63,7 +63,7 @@ msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Inserire la funzione, un intervallo contenente un punto fisso e il "
         "numero di passi."
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
+#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -101,7 +101,7 @@ msgstr  "(numero intero o decimale)"
 msgid   "MAW-banach"
 msgstr  ""
 
-#: bisection.php:2 index.php:409
+#: bisection.php:2 index.php:413
 msgid   "Bisection"
 msgstr  "bisezione"
 
@@ -112,19 +112,19 @@ msgstr  "Inserire la funzione, un intervallo contenente lo zero e il numero "
 
 #: bisection.php:35 regula_falsi.php:35
 msgid   "Interval from"
-msgstr  ""
+msgstr  "Intervallo da"
 
 #: bisection.php:45 regula_falsi.php:45
 msgid   "(integer between 2 and 40)"
-msgstr  ""
+msgstr  "(numero naturale tra 2 e 40"
 
 #: bisection.php:58
 msgid   "MAW-bisection"
 msgstr  ""
 
-#: derivace.php:2 index.php:389
+#: derivace.php:2 index.php:392
 msgid   "Derivative and partial derivative"
-msgstr  ""
+msgstr  "Derivata e derivata parziale"
 
 #: derivace.php:22
 msgid   "automatically use linearity of derivative"
@@ -156,18 +156,6 @@ msgstr  ""
 msgid   "MAW-der"
 msgstr  ""
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  ""
-
-#: df.php:21 geom.php:52
-msgid   "Parameters"
-msgstr  ""
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
-
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  ""
@@ -184,7 +172,19 @@ msgstr  ""
 msgid   "MAW-df3d"
 msgstr  ""
 
-#: dummy.php:6 mawconfightml.php:60
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  ""
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
+msgid   "Parameters"
+msgstr  ""
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  " "
+
+#: dummy.php:6
 msgid   "Switch to a compact design"
 msgstr  ""
 
@@ -192,7 +192,7 @@ msgstr  ""
 msgid   "Showcase"
 msgstr  ""
 
-#: dummy.php:8 mawconfightml.php:48
+#: dummy.php:8
 msgid   "Switch to a full design"
 msgstr  ""
 
@@ -274,7 +274,7 @@ msgstr  ""
 msgid   "MAW-geom"
 msgstr  ""
 
-#: graf.php:2 index.php:381
+#: graf.php:2 index.php:384
 msgid   "Graphs of elementary functions"
 msgstr  ""
 
@@ -312,151 +312,155 @@ msgstr  ""
 msgid   "MAW-graf"
 msgstr  ""
 
-#: index.php:121
+#: index.php:122
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
 msgstr  ""
 
-#: index.php:130
+#: index.php:131
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
 msgstr  ""
 
-#: index.php:137
+#: index.php:138
 msgid   "History"
 msgstr  ""
 
-#: index.php:170 index.php:283
+#: index.php:171 index.php:286
 msgid   "Mathematical Assistant on Web"
 msgstr  ""
 
-#: index.php:233
+#: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  ""
 
-#: index.php:252
+#: index.php:253
 msgid   "More languages"
 msgstr  ""
 
-#: index.php:266
+#: index.php:268 index.php:269
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  ""
 
-#: index.php:266
+#: index.php:269
 msgid   "Support from MAW forum"
 msgstr  ""
 
-#: index.php:268
+#: index.php:271
 msgid   "Changelog"
 msgstr  ""
 
-#: index.php:270
+#: index.php:273
 msgid   "Known bugs"
 msgstr  ""
 
-#: index.php:333
+#: index.php:336
 msgid   "Submit"
 msgstr  ""
 
-#: index.php:333
+#: index.php:336
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  ""
 
-#: index.php:382
+#: index.php:385
 msgid   "Domain of functions (one variable)"
 msgstr  ""
 
-#: index.php:383
+#: index.php:386
 msgid   "Domain of functions (two variables)"
 msgstr  ""
 
-#: index.php:384 lagrange.php:3
+#: index.php:387 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  ""
 
-#: index.php:385 mnc.php:3
+#: index.php:388 mnc.php:3
 msgid   "Least squares method"
 msgstr  ""
 
-#: index.php:390
+#: index.php:393
 msgid   "Investigating functions"
 msgstr  ""
 
-#: index.php:391 taylor.php:3
+#: index.php:394 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  ""
 
-#: index.php:392
+#: index.php:395
 msgid   "Local maxima and minima in two variables"
 msgstr  ""
 
-#: index.php:396 integral.php:2
+#: index.php:399 integral.php:2
 msgid   "Antiderivative"
 msgstr  ""
 
-#: index.php:397
+#: index.php:400
 msgid   "Geometrical applications of definite integral"
 msgstr  ""
 
-#: index.php:398
+#: index.php:401
 msgid   "Trapezoidal rule"
 msgstr  ""
 
-#: index.php:399 integral2.php:2
+#: index.php:402 integral2.php:2
 msgid   "Double integral"
 msgstr  ""
 
-#: index.php:403
+#: index.php:403 lineintegral.php:2
+msgid   "Line integral"
+msgstr  ""
+
+#: index.php:407
 msgid   "First order ODE"
 msgstr  ""
 
-#: index.php:404
+#: index.php:408
 msgid   "Second order LDE"
 msgstr  ""
 
-#: index.php:405
+#: index.php:409
 msgid   "Autonomous system"
 msgstr  ""
 
-#: index.php:410 regula_falsi.php:2
+#: index.php:414 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  ""
 
-#: index.php:412
+#: index.php:416
 msgid   "System of inequalities (in one or two variables)"
 msgstr  ""
 
-#: index.php:420
+#: index.php:424
 msgid   "Introduction"
 msgstr  ""
 
-#: index.php:426
+#: index.php:430
 msgid   "Precalculus"
 msgstr  ""
 
-#: index.php:431
+#: index.php:435
 msgid   "Calculus"
 msgstr  ""
 
-#: index.php:437
+#: index.php:441
 msgid   "Integral calculus"
 msgstr  ""
 
-#: index.php:443
+#: index.php:447
 msgid   "Differential equations"
 msgstr  ""
 
-#: index.php:449
+#: index.php:453
 msgid   "Equations and inequalities"
 msgstr  ""
 
-#: index.php:456
+#: index.php:460
 msgid   "Site map, support"
 msgstr  ""
 
-#: index.php:482
+#: index.php:486
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -464,7 +468,7 @@ msgid   "Enter your data into the calculator and click Submit. You can also "
         "first row of the menu)."
 msgstr  ""
 
-#: index.php:485
+#: index.php:489
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -506,34 +510,6 @@ msgstr  ""
 msgid   "MAW-ineq2d"
 msgstr  ""
 
-#: integral.php:28
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  ""
-
-#: integral.php:33
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  ""
-
-#: integral.php:42
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  ""
-
-#: integral.php:47 integral2.php:74
-msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
-
-#: integral.php:59
-msgid   "MAW-int"
-msgstr  ""
-
 #: integral2.php:24
 msgid   "Enter function and choose variables and order for integration "
 msgstr  ""
@@ -552,8 +528,36 @@ msgstr  ""
 msgid   "Preview region of integration"
 msgstr  ""
 
+#: integral2.php:74 integral.php:56
+msgid   "write acsinh and atanh in terms of log"
+msgstr  ""
+
 #: integral2.php:88
 msgid   "MAW-int2"
+msgstr  ""
+
+#: integral.php:37
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  ""
+
+#: integral.php:42
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  ""
+
+#: integral.php:51
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  ""
+
+#: integral.php:66
+msgid   "MAW-int"
 msgstr  ""
 
 #: lagrange.php:11 mnc.php:11
@@ -594,6 +598,48 @@ msgstr  ""
 
 #: lde2.php:51
 msgid   "MAW-lde2"
+msgstr  ""
+
+#: lineintegral.php:22
+msgid   "Integral of a scalar field"
+msgstr  ""
+
+#: lineintegral.php:23
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+#: lineintegral.php:43
+msgid   "Integral of a vector field"
+msgstr  ""
+
+#: lineintegral.php:44
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+#: lineintegral.php:75 lineintegral.php:108
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+#: lineintegral.php:88
+msgid   "line integral in 2D"
+msgstr  ""
+
+#: lineintegral.php:92
+msgid   "line integral in 3D"
+msgstr  ""
+
+#: lineintegral.php:97
+msgid   "Curve"
+msgstr  ""
+
+#: lineintegral.php:112
+msgid   "Parameter bounds"
+msgstr  ""
+
+#: lineintegral.php:128
+msgid   "MAW-lineint"
 msgstr  ""
 
 #: main.php:1

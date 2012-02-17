@@ -20,12 +20,11 @@
 
 <?php 
    echo __('Integral of a scalar field');
-echo (sprintf(" <a href=\"%s\">?</a>",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field")));
+echo (sprintf(" (<a href=\"%s\">?</a>)",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field")));
 
 ?>:
 
-<span style="font-style:
-italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> 
+<span><img src="intC.gif" align="middle" alt="integral_sign" style="margin-bottom:10px;"></span> 
 <span id="first_kind">
 <input size="20"
 name="function"
@@ -33,7 +32,7 @@ value="<?php
 $function=$_REQUEST["function"];
 if ($function==""){echo 'x^2';}
 else {echo rawurldecode($function);}
-?>">ds
+?>">d<i>s</i>
 </span>
 
 <br>
@@ -42,37 +41,36 @@ else {echo rawurldecode($function);}
 
 <?php 
    echo __('Integral of a vector field');
-echo (sprintf(" <a href=\"%s\">?</a>",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field")));
+echo (sprintf(" (<a href=\"%s\">?</a>)",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field")));
 
 ?>:
 
 
-<span style="font-style:
-italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> 
+<span><img src="intC.gif" align="middle" alt="integral_sign"></span> 
 <span id="second_kind">
 <input size="6"
 name="fx"
 value="<?php
 $fx=$_REQUEST["fx"];
-if ($fx==""){echo 'x^2';}
+if ($fx==""){echo 'x+1';}
 else {echo rawurldecode($fxn);}
-?>">dx
+?>">d<i>x</i>
 +
 <input size="6"
 name="fy"
 value="<?php
 $fy=$_REQUEST["fx"];
-if ($fy==""){echo '1';}
+if ($fy==""){echo 'x*y';}
 else {echo rawurldecode($fy);}
-?>">dy
+?>">d<i>y</i>
 +
 <input size="6"
 name="fz"
 value="<?php
 $fz=$_REQUEST["fz"];
-if ($fz==""){echo 'x*y';}
+if ($fz==""){echo '';}
 else {echo rawurldecode($fz);}
-?>">dz
+?>">d<i>z</i>
 <br>
   &nbsp;<span class="submit_comment"><?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
 </span>
@@ -98,13 +96,13 @@ onclick="document.getElementById('z-coord').style.display='inline';"
 <legend class="podnadpis">
 <?php echo __('Curve'); ?>
 </legend>
-   x(t)=<input size="20" name="x" 
+   <i>x(t)</i>=<input size="20" name="x" 
    value="<?php $x=$_REQUEST["x"]; if ($x==""){echo 'cos(t)';} else {echo rawurldecode($x);}?>">
    <br>
-   y(t)=<input size="20" name="y" 
+   <i>y(t)</i>=<input size="20" name="y" 
    value="<?php $y=$_REQUEST["y"]; if ($y==""){echo 'sin(t)';} else {echo rawurldecode($y);}?>">
    <span id="z-coord"><br>
-   z(t)=<input size="20" name="z" 
+   <i>z(t)</i>=<input size="20" name="z" 
    value="<?php $z=$_REQUEST["z"]; if ($z==""){echo '';} else {echo rawurldecode($z);}?>">
    <br>
    <span class="submit_comment"><?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
@@ -115,7 +113,7 @@ onclick="document.getElementById('z-coord').style.display='inline';"
 </legend>
 tmin=<input size="10" name="tmin" value="<?php $tmin=$_REQUEST["tmin"]; if ($tmin==""){echo '0';} else {echo rawurldecode($tmin);}?>">
 <br>
-tmax=<input size="10" name="tmax" value="<?php $tmin=$_REQUEST["tmax"]; if ($tmax==""){echo '2*pi';} else {echo rawurldecode($tmax);}?>">
+tmax=<input size="10" name="tmax" value="<?php $tmin=$_REQUEST["tmax"]; if ($tmax==""){echo 'pi';} else {echo rawurldecode($tmax);}?>">
 </fieldset>
 <br>
   </fieldset>

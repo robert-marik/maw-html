@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-11 09:00+0100\n"
+        "POT-Creation-Date: 2012-02-17 11:40+0100\n"
         "PO-Revision-Date: 2010-02-26 12:20+0100\n"
         "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -24,15 +24,15 @@ msgid   "Singular points of autonomous systems"
 msgstr  "Punkty osobliwe autonomicznego układu równań"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
+#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  ""
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:29 integral2.php:47 lde2.php:20 minmax3d.php:43 ode.php:35
+#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
+#: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  ""
@@ -60,7 +60,7 @@ msgstr  "<ul> <li>Podaj prawe strony dla autonomicznego układu równań, punkty
         "i wartości własnych dla danych punktów stacjonarnych, wybierając "
         "odpowiednią opcję.</li> </ul>"
 
-#: banach.php:2 index.php:412
+#: banach.php:2 index.php:415
 msgid   "Method of iterations"
 msgstr  "Metoda iteracji"
 
@@ -68,7 +68,7 @@ msgstr  "Metoda iteracji"
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
+#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -108,7 +108,7 @@ msgstr  "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl."
         "wikipedia.org/wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu "
         "Banacha o kontrakcji</a>"
 
-#: bisection.php:2 index.php:410
+#: bisection.php:2 index.php:413
 msgid   "Bisection"
 msgstr  "Bisekcja"
 
@@ -129,7 +129,7 @@ msgid   "MAW-bisection"
 msgstr  "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji"
         "\">Metoda bisekcji na Wikipedii</a>"
 
-#: derivace.php:2 index.php:390
+#: derivace.php:2 index.php:392
 msgid   "Derivative and partial derivative"
 msgstr  "Pochodna i pochodna cząstkowa"
 
@@ -166,18 +166,6 @@ msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci
         "pochodnej funkcji jednej zmiennej, jak i pochodnej cząstkowej "
         "funkcji dwóch zmiennych.</li></ul>"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  "Dziedzina funkcji jednej zmiennej"
-
-#: df.php:21 geom.php:52 integral.php:34
-msgid   "Parameters"
-msgstr  "Parametry"
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
-
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  "Dziedzina funkcji dwóch zmiennych"
@@ -195,7 +183,19 @@ msgid   "MAW-df3d"
 msgstr  "<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie "
         "dziedziny dla obrazka i Wyślij.</li> </ul>"
 
-#: dummy.php:6 mawconfightml.php:60
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  "Dziedzina funkcji jednej zmiennej"
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
+msgid   "Parameters"
+msgstr  "Parametry"
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  " "
+
+#: dummy.php:6
 msgid   "Switch to a compact design"
 msgstr  ""
 
@@ -203,7 +203,7 @@ msgstr  ""
 msgid   "Showcase"
 msgstr  ""
 
-#: dummy.php:8 mawconfightml.php:48
+#: dummy.php:8
 msgid   "Switch to a full design"
 msgstr  ""
 
@@ -290,7 +290,7 @@ msgstr  "<ul>   <li> Podaj funkcje: górne i dolne ograniczenie obszaru.</li>  "
         "\">g(x)</span>=0.</li>  <li>Jeżeli chcesz znaleźć punkty przecięcia "
         "krzywych, to wybierz odpowiednią opcję.<br> </li> </ul>"
 
-#: graf.php:2 index.php:382
+#: graf.php:2 index.php:384
 msgid   "Graphs of elementary functions"
 msgstr  "Wykres funkcji"
 
@@ -352,7 +352,7 @@ msgstr  ""
 msgid   "History"
 msgstr  "Historia"
 
-#: index.php:171 index.php:284
+#: index.php:171 index.php:286
 msgid   "Mathematical Assistant on Web"
 msgstr  "Matematyczny Asystent Online"
 
@@ -364,123 +364,127 @@ msgstr  "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
 msgid   "More languages"
 msgstr  ""
 
-#: index.php:267
+#: index.php:268 index.php:269
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  ""
 
-#: index.php:267
+#: index.php:269
 msgid   "Support from MAW forum"
 msgstr  ""
 
-#: index.php:269
+#: index.php:271
 msgid   "Changelog"
 msgstr  "Log zmian"
 
-#: index.php:271
+#: index.php:273
 msgid   "Known bugs"
 msgstr  ""
 
-#: index.php:334
+#: index.php:336
 msgid   "Submit"
 msgstr  "Wyślij"
 
-#: index.php:334
+#: index.php:336
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  ""
 
-#: index.php:383
+#: index.php:385
 msgid   "Domain of functions (one variable)"
 msgstr  "Dziedzina funkcji jednej zmiennej"
 
-#: index.php:384
+#: index.php:386
 msgid   "Domain of functions (two variables)"
 msgstr  "Dziedzina funkcji dwóch zmiennych"
 
-#: index.php:385 lagrange.php:3
+#: index.php:387 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Wielomian Lagrange'a"
 
-#: index.php:386 mnc.php:3
+#: index.php:388 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Metoda najmniejszych kwadratów"
 
-#: index.php:391
+#: index.php:393
 msgid   "Investigating functions"
 msgstr  "Przebieg zmienności funkcji"
 
-#: index.php:392 taylor.php:3
+#: index.php:394 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Wielomian Taylora"
 
-#: index.php:393
+#: index.php:395
 msgid   "Local maxima and minima in two variables"
 msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
 
-#: index.php:397 integral.php:2
+#: index.php:399 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Całka nieoznaczona"
 
-#: index.php:398
+#: index.php:400
 msgid   "Geometrical applications of definite integral"
 msgstr  "Całka oznaczona"
 
-#: index.php:399
+#: index.php:401
 msgid   "Trapezoidal rule"
 msgstr  "Metoda trapezów"
 
-#: index.php:400 integral2.php:2
+#: index.php:402 integral2.php:2
 msgid   "Double integral"
 msgstr  "Całka podwójna"
 
-#: index.php:404
+#: index.php:403 lineintegral.php:2
+msgid   "Line integral"
+msgstr  ""
+
+#: index.php:407
 msgid   "First order ODE"
 msgstr  "Równanie różniczkowe pierszego rzędu"
 
-#: index.php:405
+#: index.php:408
 msgid   "Second order LDE"
 msgstr  "Równanie różniczkowe drugiego rzędu"
 
-#: index.php:406
+#: index.php:409
 msgid   "Autonomous system"
 msgstr  "Autonomiczny układ równań"
 
-#: index.php:411 regula_falsi.php:2
+#: index.php:414 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  ""
 
-#: index.php:413
+#: index.php:416
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Układ nierówności z jedną lub dwiema niewiadomymi"
 
-#: index.php:421
+#: index.php:424
 msgid   "Introduction"
 msgstr  "Wprowadzenie"
 
-#: index.php:427
+#: index.php:430
 msgid   "Precalculus"
 msgstr  "Funkcje"
 
-#: index.php:432
+#: index.php:435
 msgid   "Calculus"
 msgstr  "Rachunek różniczkowy"
 
-#: index.php:438
+#: index.php:441
 msgid   "Integral calculus"
 msgstr  "Rachunek całkowy"
 
-#: index.php:444
+#: index.php:447
 msgid   "Differential equations"
 msgstr  "Równania różniczkowe"
 
-#: index.php:450
+#: index.php:453
 msgid   "Equations and inequalities"
 msgstr  "Równania i nierówności"
 
-#: index.php:457
+#: index.php:460
 msgid   "Site map, support"
 msgstr  "Mapa strony, wsparcie"
 
-#: index.php:483
+#: index.php:486
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -491,7 +495,7 @@ msgstr  "Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
         "znajdują się w kilku działach, po najechaniu myszką na nazwę działu "
         "zobaczysz opisy kalkulatorów."
 
-#: index.php:486
+#: index.php:489
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -552,6 +556,36 @@ msgstr  "<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierównoś
         "drugą opcję. Ten wybór spowoduje przeskalowanie krótszej osi. </li> "
         "</ul>"
 
+#: integral2.php:24
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
+        "względem zmiennych"
+
+#: integral2.php:59
+#, fuzzy
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
+        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\">."
+
+#: integral2.php:63
+msgid   "Axes (decimal numbers)"
+msgstr  "Osie (liczby dziesiętne)"
+
+#: integral2.php:71
+#, fuzzy
+msgid   "Preview region of integration"
+msgstr  "Granice całkowania"
+
+#: integral2.php:74 integral.php:56
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
+
+#: integral2.php:88
+msgid   "MAW-int2"
+msgstr  " "
+
 #: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
@@ -580,41 +614,11 @@ msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
         "maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli "
         "w funkcji podcałkowej będą występowały ułamki piętrowe)"
 
-#: integral.php:56 integral2.php:74
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
-
 #: integral.php:66
 msgid   "MAW-int"
 msgstr  "<span class='red'>Odwiedź naszą <a  href=\"integral_offline/"
         "\">galerię całek</a></span>. Jeśli chciałbyś dodać swoją całkę do "
         "galerii skontaktuj się z nami."
-
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
-        "względem zmiennych"
-
-#: integral2.php:59
-#, fuzzy
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
-        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\">."
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  "Osie (liczby dziesiętne)"
-
-#: integral2.php:71
-#, fuzzy
-msgid   "Preview region of integration"
-msgstr  "Granice całkowania"
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  " "
 
 #: lagrange.php:11 mnc.php:11
 msgid   "Data file"
@@ -664,6 +668,48 @@ msgstr  "<ul>   <li>Podaj współczynniki równania (liczby), prawą stronę "
         "liczbami rzeczywistymi oraz <i>P(x)</i>, <i>Q(x)</i> są wielomianami "
         "stopnia co najwyżej 4-tego.</li>   <li>Jeśli zauważyłeś błędy w "
         "działaniu kalkulatora skontaktuj się z nami.</li> </ul>"
+
+#: lineintegral.php:22
+msgid   "Integral of a scalar field"
+msgstr  ""
+
+#: lineintegral.php:23
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+#: lineintegral.php:43
+msgid   "Integral of a vector field"
+msgstr  ""
+
+#: lineintegral.php:44
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+#: lineintegral.php:75 lineintegral.php:108
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+#: lineintegral.php:88
+msgid   "line integral in 2D"
+msgstr  ""
+
+#: lineintegral.php:92
+msgid   "line integral in 3D"
+msgstr  ""
+
+#: lineintegral.php:97
+msgid   "Curve"
+msgstr  ""
+
+#: lineintegral.php:112
+msgid   "Parameter bounds"
+msgstr  ""
+
+#: lineintegral.php:128
+msgid   "MAW-lineint"
+msgstr  ""
 
 #: main.php:1
 msgid   "MAW-main"
