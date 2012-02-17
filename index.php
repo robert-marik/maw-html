@@ -94,7 +94,7 @@ if (preg_match("/[^3_2a-z]/",$form))
 
 $group2=array("graf","df","df3d","lagrange","mnc");
 $group3=array("derivace","prubeh","taylor","minmax3d");
-$group4=array("integral","integral2","geom","trap");
+$group4=array("integral","integral2","geom","trap","lineintegral");
 $group5=array("ode","lde2","autsyst");
 $group6=array("banach","regula_falsi","bisection","ineq2d");
 $group7=array("map");
@@ -400,6 +400,7 @@ function printsubmenu($i)
     echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
     echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
     echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
+    echo maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral'));
   } 
   elseif ($i=="5")
   {

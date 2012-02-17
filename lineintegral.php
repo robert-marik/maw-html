@@ -1,0 +1,132 @@
+<span class="nadpis">
+<?php echo __("Line integral");?>
+   <span class="red"> (Under construction)</span></span>
+
+<?php maw_before_form()?><form name="exampleform"
+   <?php echo $onsubmit;?>
+<?php formmethod();?> action="<?php echo($server);?>/lineintegral/lineintegral.php">
+<?php polejazyka($lang); ?>
+
+<br>
+<fieldset class="vnitrni">
+
+<?php 
+  $kind=$_REQUEST["kind"];
+  if ($kind!="2"){$kind=1;}
+?>
+
+<input type="radio" name="kind" value="1" <?php if ($kind==1) {echo "checked=\"checked\"";}?> > 
+
+
+<?php 
+   echo __('Integral of a scalar field');
+echo (sprintf(" <a href=\"%s\">?</a>",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field")));
+
+?>:
+
+<span style="font-style:
+italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> 
+<span id="first_kind">
+<input size="20"
+name="function"
+value="<?php
+$function=$_REQUEST["function"];
+if ($function==""){echo 'x^2';}
+else {echo rawurldecode($function);}
+?>">ds
+</span>
+
+<br>
+
+<input type="radio" name="kind" value="2" <?php if ($kind==2) {echo "checked=\"checked\"";}?> > 
+
+<?php 
+   echo __('Integral of a vector field');
+echo (sprintf(" <a href=\"%s\">?</a>",__("http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field")));
+
+?>:
+
+
+<span style="font-style:
+italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> 
+<span id="second_kind">
+<input size="6"
+name="fx"
+value="<?php
+$fx=$_REQUEST["fx"];
+if ($fx==""){echo 'x^2';}
+else {echo rawurldecode($fxn);}
+?>">dx
++
+<input size="6"
+name="fy"
+value="<?php
+$fy=$_REQUEST["fx"];
+if ($fy==""){echo '1';}
+else {echo rawurldecode($fy);}
+?>">dy
++
+<input size="6"
+name="fz"
+value="<?php
+$fz=$_REQUEST["fz"];
+if ($fz==""){echo 'x*y';}
+else {echo rawurldecode($fz);}
+?>">dz
+<br>
+  &nbsp;<span class="submit_comment"><?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
+</span>
+</fieldset>
+
+<?php hint_preview(); ?>
+
+<fieldset  class="vnitrni"><legend class="podnadpis">
+<?php echo __('Parameters'); ?>
+</legend>
+<div style="display:none;"><div class="vnitrni2">
+<?php $dimension=$_REQUEST["dimension"]; if ($dimension !="3") {$dimension=2;} ?>
+<input type="radio" name="dimension" value="2" <?php if ($dimension=="2") {echo "checked=\"checked\"";}?> 
+onclick="document.getElementById('z-coord').style.display='none';"
+> <?php echo __("line integral in 2D"); ?>
+<br>
+<input type="radio" name="dimension" value="3" <?php if ($dimension=="3") {echo "checked=\"checked\"";}?> 
+onclick="document.getElementById('z-coord').style.display='inline';"
+> <?php echo __("line integral in 3D"); ?>
+</div>
+</div>
+<fieldset class="vnitrni2">
+<legend class="podnadpis">
+<?php echo __('Curve'); ?>
+</legend>
+   x(t)=<input size="20" name="x" 
+   value="<?php $x=$_REQUEST["x"]; if ($x==""){echo 'cos(t)';} else {echo rawurldecode($x);}?>">
+   <br>
+   y(t)=<input size="20" name="y" 
+   value="<?php $y=$_REQUEST["y"]; if ($y==""){echo 'sin(t)';} else {echo rawurldecode($y);}?>">
+   <span id="z-coord"><br>
+   z(t)=<input size="20" name="z" 
+   value="<?php $z=$_REQUEST["z"]; if ($z==""){echo '';} else {echo rawurldecode($z);}?>">
+   <br>
+   <span class="submit_comment"><?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
+   </span>
+</fieldset>
+<fieldset class="vnitrni2"><legend class="podnadpis">
+<?php echo __("Parameter bounds"); ?>
+</legend>
+tmin=<input size="10" name="tmin" value="<?php $tmin=$_REQUEST["tmin"]; if ($tmin==""){echo '0';} else {echo rawurldecode($tmin);}?>">
+<br>
+tmax=<input size="10" name="tmax" value="<?php $tmin=$_REQUEST["tmax"]; if ($tmax==""){echo '2*pi';} else {echo rawurldecode($tmax);}?>">
+</fieldset>
+<br>
+  </fieldset>
+  
+<br>
+<?php echo $submitbutton;?>
+
+</form><?php maw_after_form(); ?>
+
+<?php history("lineintegral",$server); 
+
+echo __("MAW-lineint");
+?>
+
