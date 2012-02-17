@@ -71,8 +71,7 @@ $fz=$_REQUEST["fz"];
 if ($fz==""){echo '';}
 else {echo rawurldecode($fz);}
 ?>">d<i>z</i>
-<br>
-  &nbsp;<span class="submit_comment"><?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
+<span class="submit_comment"><br>  &nbsp;<?php echo __("Leave the last field empty for integral in 2D plane."); ?></span>
 </span>
 </fieldset>
 
