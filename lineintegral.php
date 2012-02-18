@@ -113,9 +113,10 @@ onclick="document.getElementById('z-coord').style.display='inline';"
 tmin=<input size="10" name="tmin" value="<?php $tmin=$_REQUEST["tmin"]; if ($tmin==""){echo '0';} else {echo rawurldecode($tmin);}?>">
 <br>
 tmax=<input size="10" name="tmax" value="<?php $tmin=$_REQUEST["tmax"]; if ($tmax==""){echo 'pi';} else {echo rawurldecode($tmax);}?>">
-</fieldset>
 <br>
-  </fieldset>
+<span id="preview_curve"><input value="<?php echo(__("Preview")); ?>" onclick="preview_curve()" type="button" class="tlacitko"></span>
+</fieldset>
+</fieldset>
   
 <br>
 <?php echo $submitbutton;?>

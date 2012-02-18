@@ -213,6 +213,16 @@ newwin =
 window.open(thedata,"","width=565,height=500,resizable");
 }
 
+function preview_curve(textarea)
+{
+<?php
+    echo 'server="',$server,'";';
+?>
+    thedata = server+"/gnuplot/curve.php?lang=<?php echo $lang;?>&x="+encodeURIComponent(document.forms['exampleform'].elements['x'].value)+"&y="+encodeURIComponent(document.forms['exampleform'].elements['y'].value)+"&z="+encodeURIComponent(document.forms['exampleform'].elements['z'].value)+"&tmin="+encodeURIComponent(document.forms['exampleform'].elements['tmin'].value)+"&tmax="+encodeURIComponent(document.forms['exampleform'].elements['tmax'].value);
+newwin =
+window.open(thedata,"","width=800,height=600,resizable=1,menubar=1,scrollbars=1");
+}
+
 function allow_preview(text)
 {
   if ((text=='dx dy')||(text=='dy dx'))
