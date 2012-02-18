@@ -1,4 +1,4 @@
-# translation of messages.po to 
+# translation of messages.po to
 # English translations for PACKAGE package.
 # Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
@@ -9,7 +9,7 @@ msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
         "POT-Creation-Date: 2012-02-17 11:40+0100\n"
-        "PO-Revision-Date: 2012-01-28 01:40+0000\n"
+        "PO-Revision-Date: 2012-02-12 21:16+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
         "Language: \n"
@@ -433,7 +433,7 @@ msgstr  "二重积分"
 
 #: index.php:403 lineintegral.php:2
 msgid   "Line integral"
-msgstr  ""
+msgstr  "曲线积分"
 
 #: index.php:407
 msgid   "First order ODE"
@@ -654,45 +654,47 @@ msgstr  "<ul>   <li>在左侧填写系数（数字）并在右侧填写补全方
 
 #: lineintegral.php:22
 msgid   "Integral of a scalar field"
-msgstr  ""
+msgstr  "标量场的曲线积分"
 
 #: lineintegral.php:23
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
+msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E6.A0.87."
+        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
 
 #: lineintegral.php:43
 msgid   "Integral of a vector field"
-msgstr  ""
+msgstr  "向量场的曲线积分"
 
 #: lineintegral.php:44
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
+msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E5.90.91."
+        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
 
 #: lineintegral.php:75 lineintegral.php:108
 msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
+msgstr  "最后一个文本框留空将在二维平面中进行积分。"
 
 #: lineintegral.php:88
 msgid   "line integral in 2D"
-msgstr  ""
+msgstr  "二维空间的曲线积分"
 
 #: lineintegral.php:92
 msgid   "line integral in 3D"
-msgstr  ""
+msgstr  "三维空间的曲线积分"
 
 #: lineintegral.php:97
 msgid   "Curve"
-msgstr  ""
+msgstr  "曲线"
 
 #: lineintegral.php:112
 msgid   "Parameter bounds"
-msgstr  ""
+msgstr  "参数界限"
 
 #: lineintegral.php:128
 msgid   "MAW-lineint"
-msgstr  ""
+msgstr  "MAW-lineint"
 
 #: main.php:1
 msgid   "MAW-main"
