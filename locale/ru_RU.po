@@ -1,4 +1,4 @@
-# translation of messages.po to 
+# translation of messages.po to
 # Russian translations for MAW package.
 # Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the MAW package.
@@ -10,8 +10,8 @@ msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
         "POT-Creation-Date: 2012-02-17 11:40+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
-        "Last-Translator: Robert Marik <marik@carya>\n"
-        "Language-Team:  <cs@li.org>\n"
+        "Last-Translator: Jelena Stohanzlova<annastohanzlova@seznam.cz>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
         "Language: \n"
         "MIME-Version: 1.0\n"
         "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +53,7 @@ msgstr  "использовать компьютер, чтобы найти ст
 
 #: autsyst.php:80
 msgid   "MAW-autsyst"
-msgstr  "Калькулятор позволяет классифицировать стационарных точек двумерной "
+msgstr  "Калькулятор позволяет классифицировать стационарные точки двумерной "
         "автономной системы с помощью матрицы Якоби."
 
 #: banach.php:2 index.php:415
@@ -77,7 +77,7 @@ msgstr  "Интервал от"
 
 #: banach.php:36 bisection.php:37 regula_falsi.php:37
 msgid   "to"
-msgstr  "к"
+msgstr  "до"
 
 #: banach.php:38 bisection.php:39 regula_falsi.php:39
 msgid   "(integers or decimal numbers)"
@@ -97,7 +97,7 @@ msgstr  "Начальное приближение"
 
 #: banach.php:49
 msgid   "(integer or decimal number)"
-msgstr  "(целoe число или конечный десятичный дробь) "
+msgstr  "(целoe число или конечная десятичная дробь) "
 
 #: banach.php:56
 msgid   "MAW-banach"
@@ -113,7 +113,7 @@ msgstr  "Метод бисекции"
 
 #: bisection.php:24 regula_falsi.php:24
 msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Введите функцию, интервал содержащий нуля, и число шагов."
+msgstr  "Введите функцию, интервал, содержащий ноль, и число шагов."
 
 #: bisection.php:35 regula_falsi.php:35
 msgid   "Interval from"
@@ -153,12 +153,12 @@ msgstr  "Обыкновенные производная (функции от о
 #: derivace.php:36
 msgid   "Partial derivative with respect to <i>x</i> (function in two "
         "variables)"
-msgstr  "Частичная производная по <i> х </i> (функция двух переменных)"
+msgstr  "Частная производная по <i> х </i> (функция двух переменных)"
 
 #: derivace.php:39
 msgid   "Partial derivative with respect to <i>y</i> (function in two "
         "variables)"
-msgstr  "Частичная производная по <i>y</i> (функция двух переменных)"
+msgstr  "Частная производная по <i>y</i> (функция двух переменных)"
 
 #: derivace.php:47
 msgid   "MAW-der"
@@ -171,7 +171,7 @@ msgstr  "Oбласть определения функции двух перем
 
 #: df3d.php:22
 msgid   "limits for the picture with domain:"
-msgstr  "ограничения на изображение:"
+msgstr  "ограничения для изображения на рисунке:"
 
 #: df3d.php:27 df3d.php:29 df3d.php:31
 msgid   "draw domain on the set"
@@ -187,7 +187,7 @@ msgstr  "Oбласть определения функции одной пере
 
 #: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
 msgid   "Parameters"
-msgstr  "Параметры"
+msgstr  "Параметры вычислений"
 
 #: df.php:36
 msgid   "MAW-df"
@@ -199,7 +199,7 @@ msgstr  "Переключить на компактный дизайн"
 
 #: dummy.php:7
 msgid   "Showcase"
-msgstr  ""
+msgstr  "Просмотр образцов (витрина)"
 
 #: dummy.php:8
 msgid   "Switch to a full design"
@@ -209,9 +209,9 @@ msgstr  "Переключитесь на полный дизайн"
 msgid   "Did we help you with your math problem? Did we save your time? If "
         "so, consider to send some money to <a href=\"http://www.unicef.org/"
         "\">UNICEF foundation.</a>"
-msgstr  "Если мы помогли вам решить математическую задачу, рассмотрите "
-        "послать немного денег на <a href=\"http://www.unicef.ru/\">ЮНИСЕФ "
-        "фундамент</a>."
+msgstr  "Если мы помогли вам решить математическую задачу, подумайте, не "
+        "могли бы Вы послать немного денег на <a href=\"http://www.unicef.ru/"
+        "\">ЮНИСЕФ фундамент</a>."
 
 #: geom.php:2
 msgid   "Definite integral in geometry"
@@ -223,7 +223,7 @@ msgstr  "Постановка задачи"
 
 #: geom.php:14
 msgid   "Curves on boundary"
-msgstr  "Кривые на границе"
+msgstr  "Кривые, ограничивающие множество"
 
 #: geom.php:18
 msgid   "Upper bound"
@@ -237,7 +237,9 @@ msgstr  "Нижняя граница"
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "of both curves by choosing \"intercepts\" in parameters for "
         "computation)</small>"
-msgstr  ""
+msgstr  "Ограничения по оси <i>x</i>: <small>(можете найти точку пересечения "
+        "заданных кривых при помощи выбора \"intercepts\" в условиях "
+        "вычисления)</small>"
 
 #: geom.php:41
 msgid   "lower bound"
@@ -267,11 +269,11 @@ msgstr  "предварительный просмотр тела вращени
 
 #: geom.php:72
 msgid   "show colors, no mesh"
-msgstr  "показать цветов, не сетки"
+msgstr  "показать цветные исполнения, не сетки"
 
 #: geom.php:74
 msgid   "hide invisible parts"
-msgstr  "скрыть невидимых частей"
+msgstr  "скрыть невидимые части"
 
 #: geom.php:80
 msgid   "Find intercepts of curves"
@@ -279,7 +281,7 @@ msgstr  "Найти где кривые пересекаются"
 
 #: geom.php:82
 msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Границы для картины (конечныe десятичныe дробы)"
+msgstr  "Границы для рисунка(конечныe десятичныe дроби)"
 
 #: geom.php:111
 msgid   "MAW-geom"
@@ -294,7 +296,7 @@ msgstr  "Графики элементарных функций"
 msgid   "(the function must either a basic elementary function of a function "
         "which can be obtained from on of basic elementary functions by "
         "shifting and resizing graph)"
-msgstr  "(функция должна либо основнaя элементарнaя функция, или функция "
+msgstr  "(функция должна либо основнaя элементарнaя функция, или функция, "
         "которая может быть получена из основных элементарных функций путем "
         "сдвига и изменения размера графикa)"
 
@@ -320,7 +322,7 @@ msgstr  "натуральный логарифм"
 
 #: graf.php:51
 msgid   "log with base"
-msgstr  "логарифм с базой"
+msgstr  "логарифм по основанию"
 
 #: graf.php:61
 msgid   "MAW-graf"
@@ -341,9 +343,9 @@ msgstr  "Здесь вы можете проверить, как мы поним
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
-msgstr  "Ваш вклад обрабатывается. Подождите несколько секунд, чтобы увидеть "
-        "результат. %sКликните здесь%s, чтобы открыть форму, которая была "
-        "занесена."
+msgstr  "Ваше задание обрабатывается. Подождите несколько секунд, чтобы "
+        "увидеть результат. %sЩелкнете здесь%s, чтобы открыть формуляр, "
+        "который был занесен."
 
 #: index.php:138
 msgid   "History"
@@ -384,7 +386,8 @@ msgstr  "Отправить"
 
 #: index.php:336
 msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Нажмите только один раз и подождите несколько секунд, за ответ!"
+msgstr  "Нажмите только один раз и подождите ответа в течение нескольких "
+        "секунд!"
 
 #: index.php:385
 msgid   "Domain of functions (one variable)"
@@ -432,7 +435,7 @@ msgstr  "Двойной интеграл"
 
 #: index.php:403 lineintegral.php:2
 msgid   "Line integral"
-msgstr  ""
+msgstr  "Криволинейный интеграл"
 
 #: index.php:407
 msgid   "First order ODE"
@@ -452,7 +455,7 @@ msgstr  "Метод фальшпозиции"
 
 #: index.php:416
 msgid   "System of inequalities (in one or two variables)"
-msgstr  "Система неравенств (в одной или двух переменных)"
+msgstr  "Система неравенств (одной или двух переменных)"
 
 #: index.php:424
 msgid   "Introduction"
@@ -498,8 +501,8 @@ msgid   "Choose the field of your interest in the menu and then choose the "
         "by step solution.<br>The calculators are divided into several "
         "groups, the description is available if you move your mouse on the "
         "name of each group (the first row of the menu)."
-msgstr  "Наши калькуляторы способны решать проблемы, включая решение шаг за "
-        "шагом."
+msgstr  "Наши калькуляторы способны решать проблемы, в том числе решение шаг "
+        "за шагом."
 
 #: ineq2d.php:3
 msgid   "Inequalities"
@@ -508,7 +511,7 @@ msgstr  "Неравенства"
 #: ineq2d.php:15
 msgid   "Read the comments below the form to find out, which inequalities can "
         "be solved."
-msgstr  "Прочитайте комментарии ниже, чтобы узнать, какие неравенства можyт "
+msgstr  "Прочитайте комментарии ниже, чтобы узнать, какие неравенства могyт "
         "быть решены."
 
 #: ineq2d.php:18
@@ -517,7 +520,7 @@ msgstr  "пусть х, у> 0"
 
 #: ineq2d.php:22
 msgid   "draw labels on axes, not on boundary"
-msgstr  "отрисовки надписей по осям, а не на границе"
+msgstr  "обозначение по осям, а не на границе рисунка"
 
 #: ineq2d.php:28
 msgid   "use high quality output in PDF"
@@ -525,7 +528,8 @@ msgstr  "использование высококачественного вы�
 
 #: ineq2d.php:32
 msgid   "and change bounds to get equal units on both axes"
-msgstr  "и изменить границ, чтобы получить равные единицы на обеих осях"
+msgstr  "и изменить масштабы границ, чтобы получить равные единицы на обеих "
+        "осях"
 
 #: ineq2d.php:40 prubeh.php:41
 msgid   "Axes"
@@ -538,7 +542,7 @@ msgstr  "<b>Under construction.</b> Посмотрите на английско
 
 #: integral2.php:24
 msgid   "Enter function and choose variables and order for integration "
-msgstr  "Введите функцию и выберите переменные и порядок для интеграции"
+msgstr  "Введите функцию и выберите переменные и порядок для интегрирования"
 
 #: integral2.php:59
 msgid   " The Jacobian in polar coordinates is added automatically. You can "
@@ -554,7 +558,7 @@ msgstr  "Oси (конечные десятичные дробы)"
 
 #: integral2.php:71
 msgid   "Preview region of integration"
-msgstr  "Предварительный просмотр области для интеграции"
+msgstr  "Предварительный просмотр области для интегрирования"
 
 #: integral2.php:74 integral.php:56
 msgid   "write acsinh and atanh in terms of log"
@@ -581,7 +585,7 @@ msgid   "use \n"
         "(the output is better but the rendering could be slower)\n"
 msgstr  "использовать <a href=\"http://www.math.union.edu/~dpvc/jsmath/"
         "\">jsmath</a> и не <a href=\"http://www.forkosh.com/mathtex.html"
-        "\">mathtex</a> чтобы показать математических выражений\n"
+        "\">mathtex</a>, чтобы показать математические выражения\n"
 
 #: integral.php:51
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
@@ -592,7 +596,7 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 #: integral.php:66
 msgid   "MAW-int"
-msgstr  "Введите функцию для интеграции. Вы сможете контролировать метод "
+msgstr  "Введите функцию для интегрирования. Вы сможете контролировать метод "
         "расчета на следующих страницах. Для полного автоматического "
         "вычисления лучше использовать <a href=\"http://www.wolframalpha.com/"
         "\">Wolfram Alpha</a>."
@@ -612,15 +616,16 @@ msgstr  "Линейные дифференциальные уравнения в
 
 #: lde2.php:13
 msgid   "Equation"
-msgstr  "Uравнение"
+msgstr  "Уравнение"
 
 #: lde2.php:23
 msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  ""
+msgstr  "Вы можете пользоваться кнопкой Просмотр и Редактирование для "
+        "правильной вводной записи правой стороны"
 
 #: lde2.php:28
 msgid   "Method"
-msgstr  "Метода"
+msgstr  "Метод"
 
 #: lde2.php:32
 msgid   "variation of constants"
@@ -641,52 +646,53 @@ msgstr  "<b>Under construction.</b> Посмотрите на английско
 
 #: lineintegral.php:22
 msgid   "Integral of a scalar field"
-msgstr  ""
+msgstr  "Криволинейный интеграл первого рода"
 
 #: lineintegral.php:23
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
+msgstr  "http://ru.wikipedia.org/wiki/Криволинейный_интеграл"
 
 #: lineintegral.php:43
 msgid   "Integral of a vector field"
-msgstr  ""
+msgstr  "Криволинейный интеграл второго рода"
 
 #: lineintegral.php:44
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
+msgstr  "http://ru.wikipedia.org/wiki/Криволинейный_интеграл"
 
 #: lineintegral.php:75 lineintegral.php:108
 msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
+msgstr  "Оставьте последнее поле незаполненным для интегрирования на "
+        "плоскости (2D)"
 
 #: lineintegral.php:88
 msgid   "line integral in 2D"
-msgstr  ""
+msgstr  "Криволинейный интеграл в геометрии (на плоскости)"
 
 #: lineintegral.php:92
 msgid   "line integral in 3D"
-msgstr  ""
+msgstr  "Криволинейный интеграл в геометрии (в пространстве)"
 
 #: lineintegral.php:97
 msgid   "Curve"
-msgstr  ""
+msgstr  "Кривая"
 
 #: lineintegral.php:112
 msgid   "Parameter bounds"
-msgstr  ""
+msgstr  "Параметрические ограничения"
 
 #: lineintegral.php:128
 msgid   "MAW-lineint"
-msgstr  ""
+msgstr  "Введите функцию для интегрирования и уравнения для кривой."
 
 #: main.php:1
 msgid   "MAW-main"
 msgstr  "<span class=\"nadpis\"> Об этой странице</span><br>Этот сайт "
         "использует Маxima программy для решения типовых задач из "
         "дифференциального и интегрального исчисления. Все решения шаг за "
-        "шагом.<p>Мы приветствуем помочь с переводом и языком"
+        "шагом.<p>Мы приветствуем помощь с переводом и языком"
 
 #: map.php:3
 msgid   "MAW-map"
@@ -725,7 +731,7 @@ msgstr  "Обыкновенные дифференциальные уравне�
 
 #: ode.php:30
 msgid   "Equation solved wrt y'"
-msgstr  "Уравнение розрешено относительно у '"
+msgstr  "Уравнение разрешено относительно у '"
 
 #: ode.php:40
 msgid   "Full equation"
@@ -778,7 +784,7 @@ msgstr  "Mетод  трапеций (приближение для опреде
 
 #: trap.php:25
 msgid   "Limits for integration"
-msgstr  "Ограничения для интеграции"
+msgstr  "Ограничения для интегрирования"
 
 #: trap.php:29
 msgid   "lower limit"
@@ -790,7 +796,7 @@ msgstr  "верхний предел"
 
 #: trap.php:36
 msgid   "intervals in partition"
-msgstr  ""
+msgstr  "разделение интервала на части"
 
 #: trap.php:44
 msgid   "MAW-trap"
