@@ -225,7 +225,7 @@ window.open(thedata,"","width=800,height=600,resizable=1,menubar=1,scrollbars=1"
 
 function allow_preview(text)
 {
-  if ((text=='dx dy')||(text=='dy dx'))
+  if ((text=='dx dy')||(text=='dy dx')||(text=='r dr dphi')||(text=='r dphi dr'))
     {document.getElementById('preview_region').style.display="inline";}
   else 
     {document.getElementById('preview_region').style.display="none";}
