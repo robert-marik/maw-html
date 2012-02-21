@@ -179,7 +179,7 @@ function edit(textarea)
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value
 newwin =
-window.open("MAW_dragmath.html","","width=600,height=450,resizable")
+window.open("MAW_dragmath.html","","width=600,height=450,resizable=1,menubar=1,scrollbars=1")
 }
 
 function previewb(textarea)
@@ -190,7 +190,7 @@ function previewb(textarea)
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value;
 newwin =
-window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable");
+window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable=1,menubar=1,scrollbars=1");
 }
 
 function previewb_int2(textarea)
@@ -200,7 +200,7 @@ function previewb_int2(textarea)
 ?>
   thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
 newwin =
-window.open(thedata,"","width=565,height=150,resizable");
+window.open(thedata,"","width=565,height=150,resizable=1,menubar=1,scrollbars=1");
 }
 
 function preview_region(textarea)
