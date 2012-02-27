@@ -28,14 +28,14 @@ msgstr  "Punti singolari di sistemi autonomi"
 #: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
-msgstr  ""
+msgstr  "Editor"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
 #: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
 #: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
 #: ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
-msgstr  ""
+msgstr  "Preview"
 
 #: autsyst.php:58
 msgid   "What to do"
@@ -128,15 +128,15 @@ msgstr  "Derivata e derivata parziale"
 
 #: derivace.php:22
 msgid   "automatically use linearity of derivative"
-msgstr  ""
+msgstr  "Usa automaticamente la linearità della derivata"
 
 #: derivace.php:25
 msgid   "automatically differentiate constants"
-msgstr  ""
+msgstr  "Deriva automaticamente le costanti"
 
 #: derivace.php:30
 msgid   "The type of the derivative"
-msgstr  ""
+msgstr  "Il tipo di derivata"
 
 #: derivace.php:33
 msgid   "Ordinary derivative (function in one variable)"
@@ -145,12 +145,12 @@ msgstr  ""
 #: derivace.php:36
 msgid   "Partial derivative with respect to <i>x</i> (function in two "
         "variables)"
-msgstr  ""
+msgstr  "Derivata parziale rispetto a <i>x</i> (funzioni di due variabili)"
 
 #: derivace.php:39
 msgid   "Partial derivative with respect to <i>y</i> (function in two "
         "variables)"
-msgstr  ""
+msgstr  "Derivata parziale rispetto a <i>y</i> (funzioni di due variabili)"
 
 #: derivace.php:47
 msgid   "MAW-der"
@@ -158,7 +158,7 @@ msgstr  ""
 
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
-msgstr  ""
+msgstr  "Dominio di una funzione in due variabili"
 
 #: df3d.php:22
 msgid   "limits for the picture with domain:"
@@ -174,11 +174,11 @@ msgstr  ""
 
 #: df.php:2
 msgid   "Domain of a function in one variable"
-msgstr  ""
+msgstr  "Dominio di una funzione in una variabile"
 
 #: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
 msgid   "Parameters"
-msgstr  ""
+msgstr  "Parametri"
 
 #: df.php:36
 msgid   "MAW-df"
@@ -208,7 +208,7 @@ msgstr  ""
 
 #: geom.php:12
 msgid   "Formulation of the problem"
-msgstr  ""
+msgstr  "Formulazione del problema"
 
 #: geom.php:14
 msgid   "Curves on boundary"
@@ -238,21 +238,22 @@ msgstr  ""
 
 #: geom.php:54
 msgid   "Action"
-msgstr  ""
+msgstr  "Azione"
 
 #: geom.php:59
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
-msgstr  ""
+msgstr  "Trovare l'area della regione compresa tra due curve e disegnare il "
+        "grafico"
 
 #: geom.php:65
 #, php-format
 msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  ""
+msgstr  "Trovare il volume di un solido di rotazione e disegnare il grafico"
 
 #: geom.php:70
 msgid   "preview solid of revolution"
-msgstr  ""
+msgstr  "preview di un solido di rotazione"
 
 #: geom.php:72
 msgid   "show colors, no mesh"
@@ -260,11 +261,11 @@ msgstr  ""
 
 #: geom.php:74
 msgid   "hide invisible parts"
-msgstr  ""
+msgstr  "Nascondere le parti non visibili"
 
 #: geom.php:80
 msgid   "Find intercepts of curves"
-msgstr  ""
+msgstr  "Trovare le intercette delle curve"
 
 #: geom.php:82
 msgid   "Bounds for the picture (decimal numbers)"
@@ -276,13 +277,15 @@ msgstr  ""
 
 #: graf.php:2 index.php:384
 msgid   "Graphs of elementary functions"
-msgstr  ""
+msgstr  "Grafici di funzioni elementari"
 
 #: graf.php:20
 msgid   "(the function must either a basic elementary function of a function "
         "which can be obtained from on of basic elementary functions by "
         "shifting and resizing graph)"
-msgstr  ""
+msgstr  "(la funzione deve essere o una funzione elementare o una funzione "
+        "che può essere ottenuta da una funzione elementare mediante una "
+        "traslazione o ridimensionamento del grafico)"
 
 #: graf.php:25
 msgid   "Bounds for axes"
@@ -290,23 +293,23 @@ msgstr  ""
 
 #: graf.php:37
 msgid   "show grid"
-msgstr  ""
+msgstr  "Mostra la griglia"
 
 #: graf.php:44
 msgid   "Logarithm"
-msgstr  ""
+msgstr  "Logaritmo"
 
 #: graf.php:45
 msgid   "If the input contains logarithm, use"
-msgstr  ""
+msgstr  "Se l'input contiene logaritmi, usa"
 
 #: graf.php:48
 msgid   "natural log"
-msgstr  ""
+msgstr  "Logaritmo naturale"
 
 #: graf.php:51
 msgid   "log with base"
-msgstr  ""
+msgstr  "Logaritmo in base"
 
 #: graf.php:61
 msgid   "MAW-graf"
@@ -322,19 +325,21 @@ msgstr  ""
 #, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
+msgstr  "Il tuo input viene processato. Aspetta qualche secondo per vedere "
+        "l'output. Clicca qui per riaprire il form che è stato inviato."
 
 #: index.php:138
 msgid   "History"
-msgstr  ""
+msgstr  "Storia"
 
 #: index.php:171 index.php:286
 msgid   "Mathematical Assistant on Web"
-msgstr  ""
+msgstr  "Mathematical Assistant on Web"
 
 #: index.php:234
 msgid   "You should turn JavaScript on to see popup informations."
-msgstr  ""
+msgstr  "Devi attivare i Javascript per vedere le informazioni nelle finestre "
+        "popup"
 
 #: index.php:253
 msgid   "More languages"
@@ -346,15 +351,15 @@ msgstr  ""
 
 #: index.php:269
 msgid   "Support from MAW forum"
-msgstr  ""
+msgstr  "Supporto dal forum di MAW"
 
 #: index.php:271
 msgid   "Changelog"
-msgstr  ""
+msgstr  "Changelog"
 
 #: index.php:273
 msgid   "Known bugs"
-msgstr  ""
+msgstr  "Bachi noti"
 
 #: index.php:336
 msgid   "Submit"
@@ -362,15 +367,15 @@ msgstr  ""
 
 #: index.php:336
 msgid   "Click only once and wait few seconds for the answer!"
-msgstr  ""
+msgstr  "Cliccare una volta sola e attendere qualche secondo per la risposta!"
 
 #: index.php:385
 msgid   "Domain of functions (one variable)"
-msgstr  ""
+msgstr  "Dominio di funzioni (una variabile)"
 
 #: index.php:386
 msgid   "Domain of functions (two variables)"
-msgstr  ""
+msgstr  "Dominio di funzioni (due variabili)"
 
 #: index.php:387 lagrange.php:3
 msgid   "Lagrange polynomial"
@@ -386,19 +391,19 @@ msgstr  ""
 
 #: index.php:394 taylor.php:3
 msgid   "Taylor polynomial"
-msgstr  ""
+msgstr  "Polinomio di Taylor"
 
 #: index.php:395
 msgid   "Local maxima and minima in two variables"
-msgstr  ""
+msgstr  "Massimi e minimi locali in due variabili"
 
 #: index.php:399 integral.php:2
 msgid   "Antiderivative"
-msgstr  ""
+msgstr  "Antiderivata"
 
 #: index.php:400
 msgid   "Geometrical applications of definite integral"
-msgstr  ""
+msgstr  "Applicazioni geometriche dell'integrale definito"
 
 #: index.php:401
 msgid   "Trapezoidal rule"
@@ -406,7 +411,7 @@ msgstr  ""
 
 #: index.php:402 integral2.php:2
 msgid   "Double integral"
-msgstr  ""
+msgstr  "Integrale doppio"
 
 #: index.php:403 lineintegral.php:2
 msgid   "Line integral"
@@ -414,15 +419,15 @@ msgstr  ""
 
 #: index.php:407
 msgid   "First order ODE"
-msgstr  ""
+msgstr  "Equazione differenziale del primo ordine"
 
 #: index.php:408
 msgid   "Second order LDE"
-msgstr  ""
+msgstr  "Equazione differenziale (?) del secondo ordine"
 
 #: index.php:409
 msgid   "Autonomous system"
-msgstr  ""
+msgstr  "Sistema autonomo"
 
 #: index.php:414 regula_falsi.php:2
 msgid   "Regula falsi"
@@ -430,11 +435,11 @@ msgstr  ""
 
 #: index.php:416
 msgid   "System of inequalities (in one or two variables)"
-msgstr  ""
+msgstr  "Sistema di disequazioni (in una o due variabili)"
 
 #: index.php:424
 msgid   "Introduction"
-msgstr  ""
+msgstr  "Introduzione"
 
 #: index.php:430
 msgid   "Precalculus"
@@ -446,19 +451,19 @@ msgstr  ""
 
 #: index.php:441
 msgid   "Integral calculus"
-msgstr  ""
+msgstr  "Calcolo integrale"
 
 #: index.php:447
 msgid   "Differential equations"
-msgstr  ""
+msgstr  "Equazioni differenziali"
 
 #: index.php:453
 msgid   "Equations and inequalities"
-msgstr  ""
+msgstr  "Equazioni e disequazioni"
 
 #: index.php:460
 msgid   "Site map, support"
-msgstr  ""
+msgstr  "Mappa del sito, supporto"
 
 #: index.php:486
 msgid   "Enter your data into the calculator and click Submit. You can also "
@@ -479,7 +484,7 @@ msgstr  ""
 
 #: ineq2d.php:3
 msgid   "Inequalities"
-msgstr  ""
+msgstr  "Disequazioni"
 
 #: ineq2d.php:15
 msgid   "Read the comments below the form to find out, which inequalities can "
@@ -488,7 +493,7 @@ msgstr  ""
 
 #: ineq2d.php:18
 msgid   "suppose x,y>0"
-msgstr  ""
+msgstr  "Supporre x,y>0"
 
 #: ineq2d.php:22
 msgid   "draw labels on axes, not on boundary"
@@ -496,7 +501,7 @@ msgstr  ""
 
 #: ineq2d.php:28
 msgid   "use high quality output in PDF"
-msgstr  ""
+msgstr  "usare un output di alta qualità nel PDF"
 
 #: ineq2d.php:32
 msgid   "and change bounds to get equal units on both axes"
@@ -504,7 +509,7 @@ msgstr  ""
 
 #: ineq2d.php:40 prubeh.php:41
 msgid   "Axes"
-msgstr  ""
+msgstr  "Assi"
 
 #: ineq2d.php:57
 msgid   "MAW-ineq2d"
@@ -512,7 +517,8 @@ msgstr  ""
 
 #: integral2.php:24
 msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
+msgstr  "Inserire la funzione e scegliere le variabili e l'ordine di "
+        "integrazione"
 
 #: integral2.php:59
 msgid   " The Jacobian in polar coordinates is added automatically. You can "
@@ -522,7 +528,7 @@ msgstr  ""
 
 #: integral2.php:63
 msgid   "Axes (decimal numbers)"
-msgstr  ""
+msgstr  "Assi (numeri decimali)"
 
 #: integral2.php:71
 msgid   "Preview region of integration"
@@ -570,11 +576,11 @@ msgstr  ""
 
 #: lde2.php:3
 msgid   "Second order linear differential equations"
-msgstr  ""
+msgstr  "Equazioni differenziali lineari del secondo ordine"
 
 #: lde2.php:13
 msgid   "Equation"
-msgstr  ""
+msgstr  "Equazione"
 
 #: lde2.php:23
 msgid   "You can use Preview and Edit buttons for entering the right hand side"
@@ -582,19 +588,19 @@ msgstr  ""
 
 #: lde2.php:28
 msgid   "Method"
-msgstr  ""
+msgstr  "Metodo"
 
 #: lde2.php:32
 msgid   "variation of constants"
-msgstr  ""
+msgstr  "Variazione delle costanti"
 
 #: lde2.php:36
 msgid   "undetermined coefficients"
-msgstr  ""
+msgstr  "coefficienti indeterminati"
 
 #: lde2.php:40
 msgid   "solve also initial value problem"
-msgstr  ""
+msgstr  "risolvere anche il problema a valori iniziali"
 
 #: lde2.php:51
 msgid   "MAW-lde2"
@@ -652,7 +658,7 @@ msgstr  ""
 
 #: minmax3d.php:3
 msgid   "Local extrema in two variables"
-msgstr  ""
+msgstr  "Estremi locali in due variabili"
 
 #: minmax3d.php:50
 msgid   "Task for computation"
@@ -660,11 +666,11 @@ msgstr  ""
 
 #: minmax3d.php:55
 msgid   "Hessian at stationary point"
-msgstr  ""
+msgstr  "Hessiano in un punto stazionario"
 
 #: minmax3d.php:67
 msgid   "Hessian at stationary points"
-msgstr  ""
+msgstr  "Hessiano nei punti stazionari "
 
 #: minmax3d.php:85
 msgid   "MAW-minmax3d"
@@ -676,7 +682,7 @@ msgstr  ""
 
 #: ode.php:20
 msgid   "Ordinary differential equations"
-msgstr  ""
+msgstr  "Equazioni differenziali ordinarie"
 
 #: ode.php:30
 msgid   "Equation solved wrt y'"
@@ -712,15 +718,15 @@ msgstr  ""
 #, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
         "welcomed %s."
-msgstr  ""
+msgstr  "E' disponibile una versione offline e i traduttori sono benvenuti."
 
 #: taylor.php:18
 msgid   "Degree of Taylor polynomial"
-msgstr  ""
+msgstr  "Grado del polinomio di Taylor"
 
 #: taylor.php:21
 msgid   "Center of Taylor polynomial"
-msgstr  ""
+msgstr  "Centro del polinomio di Taylor"
 
 #: trap.php:3
 msgid   "Trapezoidal rule (approximation for definite integral)"
