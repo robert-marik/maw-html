@@ -1,6 +1,6 @@
 <span class="nadpis">
 <?php echo __("Line integral");?>
-   <span class="red"> (Under construction)</span></span>
+</span>
 
 <?php maw_before_form()?><form name="exampleform"
    <?php echo $onsubmit;?>
