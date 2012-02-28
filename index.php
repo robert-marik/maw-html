@@ -27,7 +27,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="/maw";
 $lang = "en"; $locale_file = "en_US";
-$lang_array=Array("cz","us","pl","ca","zh","fr","ru","de", "it");
+$lang_array=Array("cz","en","pl","ca","zh","fr","ru","de", "it");
 
 $custom_between_flags="";
 
