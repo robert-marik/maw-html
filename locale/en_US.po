@@ -60,7 +60,7 @@ msgstr  "<ul> <li>Write the right hand sides of the autonomous system, write "
 
 #: banach.php:2 index.php:415
 msgid   "Method of iterations"
-msgstr  ""
+msgstr  "Fixed point iterations"
 
 #: banach.php:23
 msgid   "Enter function, interval containing  fixed point and number of steps."
@@ -103,7 +103,9 @@ msgstr  ""
 #: banach.php:56
 msgid   "MAW-banach"
 msgstr  "The nonlinear equation solver based on <a href=\"http://en.wikipedia."
-        "org/wiki/Banach_fixed_point_theorem\">Banach fixed point theorem</a>"
+        "org/wiki/Banach_fixed_point_theorem\">Banach fixed point theorem</"
+        "a>. For an explanation of the method see <a href=\"http://en."
+        "wikipedia.org/wiki/Fixed-point_iteration\">here</a>."
 
 #: bisection.php:2 index.php:413
 msgid   "Bisection"
