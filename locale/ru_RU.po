@@ -669,11 +669,11 @@ msgstr  "Оставьте последнее поле незаполненным
 
 #: lineintegral.php:88
 msgid   "line integral in 2D"
-msgstr  "Криволинейный интеграл в геометрии (на плоскости)"
+msgstr  "Криволинейный интеграл (на плоскости)"
 
 #: lineintegral.php:92
 msgid   "line integral in 3D"
-msgstr  "Криволинейный интеграл в геометрии (в пространстве)"
+msgstr  "Криволинейный интеграл (в пространстве)"
 
 #: lineintegral.php:97
 msgid   "Curve"

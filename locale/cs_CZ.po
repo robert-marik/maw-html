@@ -111,8 +111,8 @@ msgstr  "(celé nebo desetinné číslo)"
 
 #: banach.php:56
 msgid   "MAW-banach"
-msgstr  "viz <a href=\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem"
-        "\">wikipedie</a>"
+msgstr  "Hledání pevného bodu funkce metodou postupných iterací, viz <a href="
+        "\"http://en.wikipedia.org/wiki/Fixed-point_iteration\">wikipedie</a>."
 
 #: bisection.php:2 index.php:413
 msgid   "Bisection"
