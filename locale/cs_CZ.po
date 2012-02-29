@@ -10,7 +10,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-17 11:40+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2010-08-31 13:56+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -27,16 +27,16 @@ msgid   "Singular points of autonomous systems"
 msgstr  "Singulární body autonomních systémů v rovině"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
-#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  "Editor matematiky"
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
-#: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
-#: ode.php:42 prubeh.php:34 regula_falsi.php:31
+#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
+#: integral.php:29 integral2.php:47 lde2.php:20 lineintegral.php:117
+#: minmax3d.php:43 ode.php:35 ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  "Náhled"
 
@@ -63,7 +63,7 @@ msgstr  "<ul>   <li>Vyplňte funkční předpisy pravých stran autonomního "
         "stacionárních bodů, zatrhněte musíte před odesláním formuláře zadat "
         "i souřadnice bodu, který vás zajímá.</li> </ul>"
 
-#: banach.php:2 index.php:415
+#: banach.php:2 index.php:425
 msgid   "Method of iterations"
 msgstr  "Metoda prosté iterace"
 
@@ -71,7 +71,7 @@ msgstr  "Metoda prosté iterace"
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Zadejte funkci, interval obsahující pevný bod a počet kroků"
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
+#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -110,7 +110,7 @@ msgid   "MAW-banach"
 msgstr  "Hledání pevného bodu funkce metodou postupných iterací, viz <a href="
         "\"http://en.wikipedia.org/wiki/Fixed-point_iteration\">wikipedie</a>."
 
-#: bisection.php:2 index.php:413
+#: bisection.php:2 index.php:423
 msgid   "Bisection"
 msgstr  "Půlení intervalu"
 
@@ -130,7 +130,7 @@ msgstr  "(celé číslo od 2 do 40)"
 msgid   "MAW-bisection"
 msgstr  "Půlení intervalu"
 
-#: derivace.php:2 index.php:392
+#: derivace.php:2 index.php:402
 msgid   "Derivative and partial derivative"
 msgstr  "Derivace a parciální derivace"
 
@@ -175,6 +175,26 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené
         "derivací vypočtenou vnitřními mechanismy programu Maxima, takže "
         "výsledek určitě nebude špatně.</li> </ul>"
 
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  "Definiční obor funkce jedné proměnné"
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
+msgid   "Parameters"
+msgstr  "Parametry výpočtu"
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  "<b>Poznámky</b><ul><li>Ve výsledku není nijak zaznačeno, zda kraje "
+        "intervalů patří do definičního oboru či nikoliv. Také ve výsledku "
+        "nejdou vidět případné jednotlivé body vyjmuté z definičního oboru, "
+        "které vzniknou například z podmínky nenulovosti jmenovatele.</"
+        "li><li>Pokud se Vám nic nezobrazí ale vzorový příklad ve formuláři "
+        "funguje, je pravděpodobně něco špatně zapsáno ve funkci, kterou se "
+        "snažíte zadat. Pokud zadáte funkci, která není nikde definovaná, "
+        "zobrazí se jenom řešení dílčích podmínek ale celkový definiční obor "
+        "(prázdná množina) se nezobrazí.</li></ul>"
+
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  "Definiční obor funkce dvou proměnných"
@@ -195,27 +215,7 @@ msgstr  "<ul>  <li>Vyplňte funkční předpis pro funkci dvou proměnných.</li
         "oboru, ale pro rychlou orientaci to určitě pomůže. Můžete si zvolit "
         "mezi několika rozsahy pro kreslení.</li> </ul>"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  "Definiční obor funkce jedné proměnné"
-
-#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
-msgid   "Parameters"
-msgstr  "Parametry výpočtu"
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  "<b>Poznámky</b><ul><li>Ve výsledku není nijak zaznačeno, zda kraje "
-        "intervalů patří do definičního oboru či nikoliv. Také ve výsledku "
-        "nejdou vidět případné jednotlivé body vyjmuté z definičního oboru, "
-        "které vzniknou například z podmínky nenulovosti jmenovatele.</"
-        "li><li>Pokud se Vám nic nezobrazí ale vzorový příklad ve formuláři "
-        "funguje, je pravděpodobně něco špatně zapsáno ve funkci, kterou se "
-        "snažíte zadat. Pokud zadáte funkci, která není nikde definovaná, "
-        "zobrazí se jenom řešení dílčích podmínek ale celkový definiční obor "
-        "(prázdná množina) se nezobrazí.</li></ul>"
-
-#: dummy.php:6
+#: dummy.php:6 mawconfightml.php:60
 msgid   "Switch to a compact design"
 msgstr  "Přepnout na kompaktní zobrazení"
 
@@ -223,7 +223,7 @@ msgstr  "Přepnout na kompaktní zobrazení"
 msgid   "Showcase"
 msgstr  "Výkladní skříň"
 
-#: dummy.php:8
+#: dummy.php:8 mawconfightml.php:48
 msgid   "Switch to a full design"
 msgstr  "Přepnout na plné zobrazení"
 
@@ -324,7 +324,7 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/riemann-cz.pdf\">Teorie "
         "odhadnout z grafů nebo zkuste použít nějaký sofistikovanější nástroj "
         "na řešení rovnic.<br>  </li></ul>"
 
-#: graf.php:2 index.php:384
+#: graf.php:2 index.php:394
 msgid   "Graphs of elementary functions"
 msgstr  "Grafy elementárních funkcí"
 
@@ -386,140 +386,140 @@ msgstr  "Váš požadavek je zpracováván. Čekejte prosím na dokončení výp
 msgid   "History"
 msgstr  "Historie"
 
-#: index.php:171 index.php:286
+#: index.php:171 index.php:296
 msgid   "Mathematical Assistant on Web"
 msgstr  "Matematické výpočty online (MAW)"
 
-#: index.php:234
+#: index.php:244
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Pro zobrazení některých dodatečných informací si prosím zapněte "
         "JavaScripty."
 
-#: index.php:253
+#: index.php:263
 msgid   "More languages"
 msgstr  "Další jazyky"
 
-#: index.php:268 index.php:269
+#: index.php:278 index.php:279
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  "http://forum.matweb.cz/viewforum.php?id=39"
 
-#: index.php:269
+#: index.php:279
 msgid   "Support from MAW forum"
 msgstr  "Podpora, diskusní fórum"
 
-#: index.php:271
+#: index.php:281
 msgid   "Changelog"
 msgstr  "Poslední změny"
 
-#: index.php:273
+#: index.php:283
 msgid   "Known bugs"
 msgstr  "Známé chyby"
 
-#: index.php:336
+#: index.php:346
 msgid   "Submit"
 msgstr  "Odeslat"
 
-#: index.php:336
+#: index.php:346
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "Klikněte pouze jednou a počkejte několik okamžiků na odpověď!"
 
-#: index.php:385
+#: index.php:395
 msgid   "Domain of functions (one variable)"
 msgstr  "Definiční obor funkcí jedné proměnné"
 
-#: index.php:386
+#: index.php:396
 msgid   "Domain of functions (two variables)"
 msgstr  "Definiční obor funkcí dvou proměnných"
 
-#: index.php:387 lagrange.php:3
+#: index.php:397 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Lagrangeův polynom"
 
-#: index.php:388 mnc.php:3
+#: index.php:398 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Metoda nejmenších čtverců"
 
-#: index.php:393
+#: index.php:403
 msgid   "Investigating functions"
 msgstr  "Průběh funkce"
 
-#: index.php:394 taylor.php:3
+#: index.php:404 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Taylorův polynom"
 
-#: index.php:395
+#: index.php:405
 msgid   "Local maxima and minima in two variables"
 msgstr  "Lokální extrémy funkce dvou proměnných"
 
-#: index.php:399 integral.php:2
+#: index.php:409 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Neurčitý integrál"
 
-#: index.php:400
+#: index.php:410
 msgid   "Geometrical applications of definite integral"
 msgstr  "Geometrické aplikace určitého integrálu"
 
-#: index.php:401
+#: index.php:411
 msgid   "Trapezoidal rule"
 msgstr  "Lichoběžníkové pravidlo"
 
-#: index.php:402 integral2.php:2
+#: index.php:412 integral2.php:2
 msgid   "Double integral"
 msgstr  "Dvojnásobný integrál"
 
-#: index.php:403 lineintegral.php:2
+#: index.php:413 lineintegral.php:2
 msgid   "Line integral"
 msgstr  "Křivkový integrál"
 
-#: index.php:407
+#: index.php:417
 msgid   "First order ODE"
 msgstr  "Diferenciální rovnice prvního řádu"
 
-#: index.php:408
+#: index.php:418
 msgid   "Second order LDE"
 msgstr  "Diferenciální rovnice druhého řádu"
 
-#: index.php:409
+#: index.php:419
 msgid   "Autonomous system"
 msgstr  "Autonomní systémy"
 
-#: index.php:414 regula_falsi.php:2
+#: index.php:424 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
 
-#: index.php:416
+#: index.php:426
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Soustavy nerovnic (jedné nebo dvou proměnných)"
 
-#: index.php:424
+#: index.php:434
 msgid   "Introduction"
 msgstr  "Úvod"
 
-#: index.php:430
+#: index.php:440
 msgid   "Precalculus"
 msgstr  "Funkce"
 
-#: index.php:435
+#: index.php:445
 msgid   "Calculus"
 msgstr  "Diferenciální počet"
 
-#: index.php:441
+#: index.php:451
 msgid   "Integral calculus"
 msgstr  "Integrální počet"
 
-#: index.php:447
+#: index.php:457
 msgid   "Differential equations"
 msgstr  "Diferenciální rovnice"
 
-#: index.php:453
+#: index.php:463
 msgid   "Equations and inequalities"
 msgstr  "Rovnice a nerovnice"
 
-#: index.php:460
+#: index.php:470
 msgid   "Site map, support"
 msgstr  "Podpora"
 
-#: index.php:486
+#: index.php:496
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -530,7 +530,7 @@ msgstr  "Vyplňte následující formulář Vašimi daty a stiskněte tlačítko
         "řádku jsou tematické skupiny, pro každou tematickou skupinu jsou "
         "příslušné kalkulátory ve druhém řádku menu."
 
-#: index.php:489
+#: index.php:499
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -593,36 +593,6 @@ msgstr  "<ul>    <li>Zapište do políčka nerovnice, vždy jednu nerovnici na "
         "checkbox aby se osa, která má delší délkovou jednotku, přeškálovala. "
         "</li> </ul>"
 
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
-
-#: integral2.php:59
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
-        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  "Osy (celá nebo desetinná čísla)"
-
-#: integral2.php:71
-msgid   "Preview region of integration"
-msgstr  "Náhled oblasti integrace"
-
-#: integral2.php:74 integral.php:56
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  "<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a "
-        "meze.</li> <li>Nezapomeňte, že vnější meze pro integraci musí být "
-        "konstanty a vnitřní meze nejvýše funkce té proměnné, která je "
-        "použita pro vnější integraci.</li> </ul>"
-
 #: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
@@ -652,6 +622,10 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 msgstr  "přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
         "maxima_4.html#Item_003a-pfeformat\">pfeformat</a> (zrušte zatrhnutí, "
         "pokud při výpočtu obdržíte složené zlomky (se zlomkem v čitateli)) "
+
+#: integral.php:56 integral2.php:74
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
 
 #: integral.php:66
 msgid   "MAW-int"
@@ -686,6 +660,32 @@ msgstr  "<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/
         "výpočtu) automaticky maže. Pokud použijete zobrazování matematiky "
         "pomocí mathTeXu, můžete si zdroják html stránky s dokončeným "
         "výpočtem uložit u sebe a budete to mít přístupné pořád.</li> </ul>"
+
+#: integral2.php:24
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
+
+#: integral2.php:59
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
+        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
+
+#: integral2.php:63
+msgid   "Axes (decimal numbers)"
+msgstr  "Osy (celá nebo desetinná čísla)"
+
+#: integral2.php:71
+msgid   "Preview region of integration"
+msgstr  "Náhled oblasti integrace"
+
+#: integral2.php:88
+msgid   "MAW-int2"
+msgstr  "<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a "
+        "meze.</li> <li>Nezapomeňte, že vnější meze pro integraci musí být "
+        "konstanty a vnitřní meze nejvýše funkce té proměnné, která je "
+        "použita pro vnější integraci.</li> </ul>"
 
 #: lagrange.php:11 mnc.php:11
 msgid   "Data file"
@@ -777,23 +777,23 @@ msgid   "http://en.wikipedia.org/wiki/"
 msgstr  "http://cs.wikipedia.org/wiki/Křivkový_integrál#Integr.C3.A1l_druh.C3."
         "A9ho_druhu"
 
-#: lineintegral.php:75 lineintegral.php:108
+#: lineintegral.php:74 lineintegral.php:107
 msgid   "Leave the last field empty for integral in 2D plane."
 msgstr  "Pro integraci v rovině <i>xy</i> nechte poslední políčko prázdné."
 
-#: lineintegral.php:88
+#: lineintegral.php:87
 msgid   "line integral in 2D"
 msgstr  "křivkový integrál v rovině (2D)"
 
-#: lineintegral.php:92
+#: lineintegral.php:91
 msgid   "line integral in 3D"
 msgstr  "křivkový integrál v prostoru (3D) "
 
-#: lineintegral.php:97
+#: lineintegral.php:96
 msgid   "Curve"
 msgstr  "Křivka"
 
-#: lineintegral.php:112
+#: lineintegral.php:111
 msgid   "Parameter bounds"
 msgstr  "Meze pro parametr"
 
@@ -977,11 +977,9 @@ msgstr  "Metoda regula falsi"
 
 #: tail.php:6
 msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mařík</a> and <a href=\"http://user.mendelu.cz/tihlarik\" "
-        "target=\"_blank\">Miroslava Tihlaříková</a>"
-msgstr  "autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mařík</a> a <a href=\"http://user.mendelu.cz/tihlarik\" "
-        "target=\"_blank\">Miroslava Tihlaříková</a>"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  ""
 
 #: tail.php:8
 #, php-format
@@ -1026,3 +1024,10 @@ msgstr  "<ul><li> Zadejte funkci kterou chcete integrovat, meze a počet dílků
         "&nbsp;</li> <li>Pokud je počet dílků menší než deset a funkce je "
         "nezáporná na intervalu přes který se integruje, zobrazí se vám i "
         "graf funkce s naznačenými lichoběžníky.</li></ul>"
+
+#~ msgid        "written by <a href=\"http://user.mendelu.cz/marik\" target="
+#~      "\"_blank\">Robert Mařík</a> and <a href=\"http://user.mendelu.cz/"
+#~      "tihlarik\" target=\"_blank\">Miroslava Tihlaříková</a>"
+#~ msgstr       "autoři <a href=\"http://user.mendelu.cz/marik\" target="
+#~      "\"_blank\">Robert Mařík</a> a <a href=\"http://user.mendelu.cz/"
+#~      "tihlarik\" target=\"_blank\">Miroslava Tihlaříková</a>"

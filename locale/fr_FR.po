@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: MAW\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-02-17 11:40+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2010-04-18 13:12+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team: marti RA <marti.ruizaltaba@gmail.com>\n"
@@ -28,16 +28,16 @@ msgid   "Singular points of autonomous systems"
 msgstr  "Points singuliers d'un système autonome"
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
-#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  ""
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
-#: integral2.php:47 integral.php:29 lde2.php:20 minmax3d.php:43 ode.php:35
-#: ode.php:42 prubeh.php:34 regula_falsi.php:31
+#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
+#: integral.php:29 integral2.php:47 lde2.php:20 lineintegral.php:117
+#: minmax3d.php:43 ode.php:35 ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  ""
 
@@ -64,7 +64,7 @@ msgstr  "<ul> <li>Écrivez les termes de droite du système autonome, "
         "stationnaires. Faites votre choix avec les petits boutons.</li> </"
         "ul>l"
 
-#: banach.php:2 index.php:415
+#: banach.php:2 index.php:425
 msgid   "Method of iterations"
 msgstr  "Méthode d'itérations"
 
@@ -73,7 +73,7 @@ msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Entrez la fonction, l'intervalle contenant le point fixe, et le "
         "nombre d'itérations."
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
+#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -113,7 +113,7 @@ msgstr  "La résolution d'équations non-linéaires se base sur le <a href="
         "\"http://ca.wikipedia.org/wiki/Teorema_del_point_fix_de_Banach"
         "\">théorème du point fixe de Banach</a>"
 
-#: bisection.php:2 index.php:413
+#: bisection.php:2 index.php:423
 msgid   "Bisection"
 msgstr  "Bisection"
 
@@ -135,7 +135,7 @@ msgid   "MAW-bisection"
 msgstr  "Peut-être vous faut-il réviser la théorie de la <a href=\"http://en."
         "wikipedia.org/wiki/Bisection_method\">méthode de bisection</a>"
 
-#: derivace.php:2 index.php:392
+#: derivace.php:2 index.php:402
 msgid   "Derivative and partial derivative"
 msgstr  "Dérivée et dérivée partielle"
 
@@ -172,6 +172,18 @@ msgstr  "<ul><li>Entrez une fonction et cliquez Envoyer. Vous recevrez sa "
         "dérivée en format PDF. </li><li>Ce formulaire vous permet de dériver "
         "des fonctions à une ou en deux variables.</li></ul>"
 
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  "Domaine de définition de la fonction  à une variable"
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
+msgid   "Parameters"
+msgstr  "Paramètres"
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  " "
+
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  "Domaine de définition de la fonction à deux variables"
@@ -189,19 +201,7 @@ msgid   "MAW-df3d"
 msgstr  "<ul> <li>Entrez une fonction à deux variables, choisissez les bords "
         "du graphique et cliquez Envoyer.</li> </ul>"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  "Domaine de définition de la fonction  à une variable"
-
-#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:82
-msgid   "Parameters"
-msgstr  "Paramètres"
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
-
-#: dummy.php:6
+#: dummy.php:6 mawconfightml.php:60
 msgid   "Switch to a compact design"
 msgstr  ""
 
@@ -209,7 +209,7 @@ msgstr  ""
 msgid   "Showcase"
 msgstr  ""
 
-#: dummy.php:8
+#: dummy.php:8 mawconfightml.php:48
 msgid   "Switch to a full design"
 msgstr  ""
 
@@ -299,7 +299,7 @@ msgstr  "<ul>   <li>Entrez les fonctions qui définissent les bords inférieur "
         "peut trouver les intersections des courbes.  Choisissez cette action "
         "avec le petit bouton approprié.<br> </li> </ul>"
 
-#: graf.php:2 index.php:384
+#: graf.php:2 index.php:394
 msgid   "Graphs of elementary functions"
 msgstr  "Graphiques de fonctions élémentaires"
 
@@ -362,141 +362,141 @@ msgstr  ""
 msgid   "History"
 msgstr  "Historial"
 
-#: index.php:171 index.php:286
+#: index.php:171 index.php:296
 msgid   "Mathematical Assistant on Web"
 msgstr  "L'Assistant Mathématique au Web (MAW)"
 
-#: index.php:234
+#: index.php:244
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Enclenchez JavaScript pour pouvoir voir des informations dans des "
         "fenêtres émergentes."
 
-#: index.php:253
+#: index.php:263
 msgid   "More languages"
 msgstr  ""
 
-#: index.php:268 index.php:269
+#: index.php:278 index.php:279
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  ""
 
-#: index.php:269
+#: index.php:279
 msgid   "Support from MAW forum"
 msgstr  ""
 
-#: index.php:271
+#: index.php:281
 msgid   "Changelog"
 msgstr  "Historial des changements"
 
-#: index.php:273
+#: index.php:283
 msgid   "Known bugs"
 msgstr  "Bogues connus"
 
-#: index.php:336
+#: index.php:346
 msgid   "Submit"
 msgstr  "Envoyer"
 
-#: index.php:336
+#: index.php:346
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  "Cliquez une seule fois et patientez quelques secondes - voilà la "
         "réponse!"
 
-#: index.php:385
+#: index.php:395
 msgid   "Domain of functions (one variable)"
 msgstr  "Domaine de définition (fonction à une variable)"
 
-#: index.php:386
+#: index.php:396
 msgid   "Domain of functions (two variables)"
 msgstr  "Domaine de definition (fonction à deux variables)"
 
-#: index.php:387 lagrange.php:3
+#: index.php:397 lagrange.php:3
 msgid   "Lagrange polynomial"
 msgstr  "Polynôme de Lagrange"
 
-#: index.php:388 mnc.php:3
+#: index.php:398 mnc.php:3
 msgid   "Least squares method"
 msgstr  "Méthode des moindres carrés"
 
-#: index.php:393
+#: index.php:403
 msgid   "Investigating functions"
 msgstr  "Étude de fonctions"
 
-#: index.php:394 taylor.php:3
+#: index.php:404 taylor.php:3
 msgid   "Taylor polynomial"
 msgstr  "Polynôme de Taylor"
 
-#: index.php:395
+#: index.php:405
 msgid   "Local maxima and minima in two variables"
 msgstr  "Maxima et minima locaux avec deux variables indépendantes"
 
-#: index.php:399 integral.php:2
+#: index.php:409 integral.php:2
 msgid   "Antiderivative"
 msgstr  "Intégrale indéfinie (anti-dérivée)"
 
-#: index.php:400
+#: index.php:410
 msgid   "Geometrical applications of definite integral"
 msgstr  "Applications géometriques de l'intégrale"
 
-#: index.php:401
+#: index.php:411
 msgid   "Trapezoidal rule"
 msgstr  "Approximation des trapèzes"
 
-#: index.php:402 integral2.php:2
+#: index.php:412 integral2.php:2
 msgid   "Double integral"
 msgstr  "Intégrale double"
 
-#: index.php:403 lineintegral.php:2
+#: index.php:413 lineintegral.php:2
 msgid   "Line integral"
 msgstr  ""
 
-#: index.php:407
+#: index.php:417
 msgid   "First order ODE"
 msgstr  "ÉDO de premier ordre"
 
-#: index.php:408
+#: index.php:418
 msgid   "Second order LDE"
 msgstr  "ÉDO de deuxième ordre"
 
-#: index.php:409
+#: index.php:419
 msgid   "Autonomous system"
 msgstr  "Système autonome"
 
-#: index.php:414 regula_falsi.php:2
+#: index.php:424 regula_falsi.php:2
 msgid   "Regula falsi"
 msgstr  ""
 
-#: index.php:416
+#: index.php:426
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Système d'inéquations (à une ou deux variables)"
 
-#: index.php:424
+#: index.php:434
 msgid   "Introduction"
 msgstr  "Introduction"
 
-#: index.php:430
+#: index.php:440
 msgid   "Precalculus"
 msgstr  "Algèbre élémentaire"
 
-#: index.php:435
+#: index.php:445
 msgid   "Calculus"
 msgstr  "Analyse"
 
-#: index.php:441
+#: index.php:451
 msgid   "Integral calculus"
 msgstr  "Intégrales"
 
-#: index.php:447
+#: index.php:457
 msgid   "Differential equations"
 msgstr  "Équations différentielles"
 
-#: index.php:453
+#: index.php:463
 msgid   "Equations and inequalities"
 msgstr  "Équations et inéquations"
 
-#: index.php:460
+#: index.php:470
 msgid   "Site map, support"
 msgstr  "Carte et aide"
 
-#: index.php:486
+#: index.php:496
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the caluclator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
@@ -508,7 +508,7 @@ msgstr  "Entrez les données dans la calculette et cliquez Envoyer. Vous "
         "desquels apparait quand vous bougez la souris au dessus du nom du "
         "groupe (première file du menu)."
 
-#: index.php:489
+#: index.php:499
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wich to solve."
         "<br>These calculators are able to solve the problems including step "
@@ -575,36 +575,6 @@ msgstr  "<br> <ul> <li>Entrez vos inéquations dans le formulaire. Écrivez-y "
         "d'échelle 10:7 et pour y obtenir des axes orthonormés, sélectionnez "
         "le deuxième petit carré (l'axe plus curt retrécira). </li> </ul>"
 
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Entrons une fonction, puis choisissons les variables d'intégration "
-        "et l'ordre dans lequel il faut les intégrer"
-
-#: integral2.php:59
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "Le jacobien est rajouté automatiquement en coordonnées polaires. "
-        "Écrivez <b>phi</b> pour la variable angulaire <img src=\"phi.png\" "
-        "alt=\"phi\">."
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  "Axes (nombres décimals)"
-
-#: integral2.php:71
-#, fuzzy
-msgid   "Preview region of integration"
-msgstr  "Limites de l'intégrale"
-
-#: integral2.php:74 integral.php:56
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "écrire arcsinh et arctanh en termes de log"
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  ""
-
 #: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
@@ -633,11 +603,41 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> (décochez-le si vous "
         "obtenez des tours de fractions, avec des fractions au numérateur)"
 
+#: integral.php:56 integral2.php:74
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "écrire arcsinh et arctanh en termes de log"
+
 #: integral.php:66
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visitez la <a  href=\"integral_offline/\">galerie "
         "d'intégrales</a></span>. Si vous voulez y rajouter une intégrale à "
         "vous, contactez-nous et nous le ferons volontiers."
+
+#: integral2.php:24
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Entrons une fonction, puis choisissons les variables d'intégration "
+        "et l'ordre dans lequel il faut les intégrer"
+
+#: integral2.php:59
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "Le jacobien est rajouté automatiquement en coordonnées polaires. "
+        "Écrivez <b>phi</b> pour la variable angulaire <img src=\"phi.png\" "
+        "alt=\"phi\">."
+
+#: integral2.php:63
+msgid   "Axes (decimal numbers)"
+msgstr  "Axes (nombres décimals)"
+
+#: integral2.php:71
+#, fuzzy
+msgid   "Preview region of integration"
+msgstr  "Limites de l'intégrale"
+
+#: integral2.php:88
+msgid   "MAW-int2"
+msgstr  ""
 
 #: lagrange.php:11 mnc.php:11
 msgid   "Data file"
@@ -710,23 +710,23 @@ msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_vector_field"
 msgstr  ""
 
-#: lineintegral.php:75 lineintegral.php:108
+#: lineintegral.php:74 lineintegral.php:107
 msgid   "Leave the last field empty for integral in 2D plane."
 msgstr  ""
 
-#: lineintegral.php:88
+#: lineintegral.php:87
 msgid   "line integral in 2D"
 msgstr  ""
 
-#: lineintegral.php:92
+#: lineintegral.php:91
 msgid   "line integral in 3D"
 msgstr  ""
 
-#: lineintegral.php:97
+#: lineintegral.php:96
 msgid   "Curve"
 msgstr  ""
 
-#: lineintegral.php:112
+#: lineintegral.php:111
 msgid   "Parameter bounds"
 msgstr  ""
 
