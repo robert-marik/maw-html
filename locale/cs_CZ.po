@@ -909,7 +909,7 @@ msgstr  "Java applet pro <a href=\"http://user.mendelu.cz/marik/car/"
         "metodou nejmenších čtverců<br><br><b>Poznámky</b><ul> <li>Vyplňte "
         "souřadnice bodů, body oddělujte středníkem,   souřadnice čárkou. </"
         "li><li>Body budeme prokládat přímkou, pokud potřebujete obecnější "
-        "závislost, použijte odpovídající software (např. GNUplot)</li> </ul"
+        "závislost, použijte odpovídající software (např. GNUplot)</li> </ul>"
 
 #: ode.php:20
 msgid   "Ordinary differential equations"
@@ -979,7 +979,9 @@ msgstr  "Metoda regula falsi"
 msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  ""
+msgstr  "autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
 #: tail.php:8
 #, php-format
@@ -1024,10 +1026,3 @@ msgstr  "<ul><li> Zadejte funkci kterou chcete integrovat, meze a počet dílků
         "&nbsp;</li> <li>Pokud je počet dílků menší než deset a funkce je "
         "nezáporná na intervalu přes který se integruje, zobrazí se vám i "
         "graf funkce s naznačenými lichoběžníky.</li></ul>"
-
-#~ msgid        "written by <a href=\"http://user.mendelu.cz/marik\" target="
-#~      "\"_blank\">Robert Mařík</a> and <a href=\"http://user.mendelu.cz/"
-#~      "tihlarik\" target=\"_blank\">Miroslava Tihlaříková</a>"
-#~ msgstr       "autoři <a href=\"http://user.mendelu.cz/marik\" target="
-#~      "\"_blank\">Robert Mařík</a> a <a href=\"http://user.mendelu.cz/"
-#~      "tihlarik\" target=\"_blank\">Miroslava Tihlaříková</a>"
