@@ -132,7 +132,7 @@ january 2009
      of maxima command solve(y*log(y),y)
 
 december 2008
-* integral2: improved test that radial variable in polar coordinates is nonegative
+* integral2: improved test that radial variable in polar coordinates is nonnegative
 * trapeziodal: added float around limits for numerical integration 
     (the limits could be something like %e^2)
 * changed behavior related to jacobian in double integral and inititated

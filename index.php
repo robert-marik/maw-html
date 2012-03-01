@@ -493,10 +493,10 @@ echo '</div>';
 
 echo "\n".'<div id="aftermenu">';
 if (($submenu!="7")&&($submenu!="1")) {
-echo __("Enter your data into the calculator and click Submit. You can also change the type of the caluclator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
+echo __("Enter your data into the calculator and click Submit. You can also change the type of the calculator in the second row of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");
 }
 else
-  {echo __("Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you wich to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");}
+  {echo __("Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you wish to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");}
 
 ?>
 </div>

@@ -486,7 +486,7 @@ msgstr  "Mapa strony, wsparcie"
 
 #: index.php:496
 msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the caluclator in the second row of the menu. "
+        "change the type of the calculator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
         "is available if you move your mouse on the name of each group (the "
         "first row of the menu)."
@@ -497,7 +497,7 @@ msgstr  "Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
 
 #: index.php:499
 msgid   "Choose the field of your interest in the menu and then choose the "
-        "particular calculator depending on the problem you wich to solve."
+        "particular calculator depending on the problem you wish to solve."
         "<br>These calculators are able to solve the problems including step "
         "by step solution.<br>The calculators are divided into several "
         "groups, the description is available if you move your mouse on the "
