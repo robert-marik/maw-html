@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
         "PO-Revision-Date: 2010-04-18 22:14+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -128,15 +128,6 @@ msgstr  "<ul><li>Entreu una funció i cliqueu Envia-ho. Obtindreu la derivada "
         "en format PDF. </li><li>Aquest formulari us permet derivar funcions "
         "en una o en dues variables.</li></ul>"
 
-msgid   "Domain of a function in one variable"
-msgstr  "Domini de definició de la funció d'una variable"
-
-msgid   "Parameters"
-msgstr  "Paràmetres"
-
-msgid   "MAW-df"
-msgstr  " "
-
 msgid   "Domain of a function in two variables"
 msgstr  "Domini de definició de la funció de dues variables"
 
@@ -149,6 +140,15 @@ msgstr  "dibuixa el domini al conjunt"
 msgid   "MAW-df3d"
 msgstr  "<ul> <li>Entreu una funció de dues variables, trieu les vores de la "
         "gràfica i cliqueu Envia-ho.</li> </ul>"
+
+msgid   "Domain of a function in one variable"
+msgstr  "Domini de definició de la funció d'una variable"
+
+msgid   "Parameters"
+msgstr  "Paràmetres"
+
+msgid   "MAW-df"
+msgstr  " "
 
 msgid   "Switch to a compact design"
 msgstr  ""
@@ -443,6 +443,30 @@ msgstr  "<br> <ul>   <li>Entreu les vostres inequacions al camp del "
         "eixos ortonormats, seleccioneu el segon quadradet (l'eix més curt "
         "s'arronsarà). </li> </ul>"
 
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Entreu la funció, trieu les variables d'integració, i trieu també en "
+        "quin ordre s'han d'integrar"
+
+#, fuzzy
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "El jacobià s'afegeix automàticament en coordenades polars. Podeu "
+        "escriure <b>phi</b> per la variable angular <img src=\"phi.png\">."
+
+msgid   "Axes (decimal numbers)"
+msgstr  "Eixos (nombres decimals)"
+
+#, fuzzy
+msgid   "Preview region of integration"
+msgstr  "Límits de la integral"
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "escriu asinh i atanh enlloc de log"
+
+msgid   "MAW-int2"
+msgstr  ""
+
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -467,34 +491,10 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> (destrieu-ho si obteniu "
         "torres de fraccions, amb fraccions al numerador)"
 
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "escriu asinh i atanh enlloc de log"
-
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visiteu la <a  href=\"integral_offline/\">galeria "
         "d'integrals</a></span>. Si voleu afegir-hi una integral vostra, "
         "contacteu-nos i ho farem amb molt de gust."
-
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Entreu la funció, trieu les variables d'integració, i trieu també en "
-        "quin ordre s'han d'integrar"
-
-#, fuzzy
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "El jacobià s'afegeix automàticament en coordenades polars. Podeu "
-        "escriure <b>phi</b> per la variable angular <img src=\"phi.png\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Eixos (nombres decimals)"
-
-#, fuzzy
-msgid   "Preview region of integration"
-msgstr  "Límits de la integral"
-
-msgid   "MAW-int2"
-msgstr  ""
 
 msgid   "Data file"
 msgstr  "Arxiu de dades"

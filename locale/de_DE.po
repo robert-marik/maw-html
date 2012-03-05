@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -119,16 +119,6 @@ msgid   "MAW-der"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
-msgid   "Domain of a function in one variable"
-msgstr  "Definitionsbereich (eine Variable)"
-
-msgid   "Parameters"
-msgstr  ""
-
-msgid   "MAW-df"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
 msgid   "Domain of a function in two variables"
 msgstr  "Definitionsbereich (zwei Variables)"
 
@@ -139,6 +129,16 @@ msgid   "draw domain on the set"
 msgstr  ""
 
 msgid   "MAW-df3d"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "Domain of a function in one variable"
+msgstr  "Definitionsbereich (eine Variable)"
+
+msgid   "Parameters"
+msgstr  ""
+
+msgid   "MAW-df"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
@@ -395,6 +395,27 @@ msgid   "MAW-ineq2d"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
+msgid   "Enter function and choose variables and order for integration "
+msgstr  ""
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  ""
+
+msgid   "Axes (decimal numbers)"
+msgstr  ""
+
+msgid   "Preview region of integration"
+msgstr  ""
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  ""
+
+msgid   "MAW-int2"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -412,28 +433,7 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "get composite fractions (with fraction in numerator))"
 msgstr  ""
 
-msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
-
 msgid   "MAW-int"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  ""
-
-msgid   "Axes (decimal numbers)"
-msgstr  ""
-
-msgid   "Preview region of integration"
-msgstr  ""
-
-msgid   "MAW-int2"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
