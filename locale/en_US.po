@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2012-03-05 09:36+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -24,15 +24,15 @@ msgid   "Singular points of autonomous systems"
 msgstr  ""
 
 #: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: derivace.php:16 df3d.php:14 df.php:12 geom.php:21 geom.php:29
+#: integral2.php:46 integral.php:28 lde2.php:19 minmax3d.php:41 ode.php:34
 #: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
 msgid   "Editor"
 msgstr  ""
 
 #: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:29 integral2.php:47 lde2.php:20 lineintegral.php:117
+#: derivace.php:17 df3d.php:16 df.php:14 geom.php:22 geom.php:30 graf.php:16
+#: integral2.php:47 integral.php:29 lde2.php:20 lineintegral.php:117
 #: minmax3d.php:43 ode.php:35 ode.php:42 prubeh.php:34 regula_falsi.php:31
 msgid   "Preview"
 msgstr  ""
@@ -66,7 +66,7 @@ msgstr  "Fixed point iterations"
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  ""
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
+#: banach.php:27 bisection.php:28 derivace.php:11 df3d.php:11 df.php:9
 #: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
 #: regula_falsi.php:28 taylor.php:11 trap.php:14
 msgid   "Function"
@@ -165,18 +165,6 @@ msgstr  "<ul><li>Enter a function and click Submit. You get the computation "
         "differentiate both functions in one variable and function in two "
         "variables.</li></ul>"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  ""
-
-#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
-msgid   "Parameters"
-msgstr  ""
-
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
-
 #: df3d.php:3
 msgid   "Domain of a function in two variables"
 msgstr  ""
@@ -194,7 +182,19 @@ msgid   "MAW-df3d"
 msgstr  "<ul> <li>Write a function in two variables into the field, choose "
         "the bounds for the picture and click Submit.</li> </ul>"
 
-#: dummy.php:6 mawconfightml.php:60
+#: df.php:2
+msgid   "Domain of a function in one variable"
+msgstr  ""
+
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
+msgid   "Parameters"
+msgstr  ""
+
+#: df.php:36
+msgid   "MAW-df"
+msgstr  " "
+
+#: dummy.php:6
 msgid   "Switch to a compact design"
 msgstr  ""
 
@@ -202,7 +202,7 @@ msgstr  ""
 msgid   "Showcase"
 msgstr  ""
 
-#: dummy.php:8 mawconfightml.php:48
+#: dummy.php:8
 msgid   "Switch to a full design"
 msgstr  ""
 
@@ -477,7 +477,7 @@ msgstr  ""
 
 #: index.php:470
 msgid   "Site map, support"
-msgstr  ""
+msgstr  "Support"
 
 #: index.php:496
 msgid   "Enter your data into the calculator and click Submit. You can also "
@@ -543,6 +543,32 @@ msgstr  "<br> <ul>   <li>Enter you inequalities into the text field. Write "
         "units on both axes, use the second check-box. This choice rescales "
         "the shorter axis. </li> </ul>"
 
+#: integral2.php:24
+msgid   "Enter function and choose variables and order for integration "
+msgstr  ""
+
+#: integral2.php:59
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  ""
+
+#: integral2.php:63
+msgid   "Axes (decimal numbers)"
+msgstr  ""
+
+#: integral2.php:71
+msgid   "Preview region of integration"
+msgstr  ""
+
+#: integral2.php:74 integral.php:56
+msgid   "write acsinh and atanh in terms of log"
+msgstr  ""
+
+#: integral2.php:88
+msgid   "MAW-int2"
+msgstr  ""
+
 #: integral.php:37
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
@@ -563,37 +589,11 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "get composite fractions (with fraction in numerator))"
 msgstr  ""
 
-#: integral.php:56 integral2.php:74
-msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
-
 #: integral.php:66
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visit our <a  href=\"integral_offline/\">integral "
         "gallery</a>.</span> Feel free to contact us with request to add your "
         "integral into this gallery."
-
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
-
-#: integral2.php:59
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  ""
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  ""
-
-#: integral2.php:71
-msgid   "Preview region of integration"
-msgstr  ""
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  ""
 
 #: lagrange.php:11 mnc.php:11
 msgid   "Data file"
@@ -716,35 +716,14 @@ msgstr  "<span class=\"nadpis\">About this page</span> <ul> <li>This site "
 
 #: map.php:3
 msgid   "MAW-map"
-msgstr  "Site map </span>  <ul> <li>Functions <ul> <li>Shifted and resized "
-        "graphs of basic elementary functions </li> <li>Natural domain of "
-        "function in one variable </li> <li>Natural domain of function in two "
-        "variables </li> <li>Lagrange polynomial </li> <li>Least squares "
-        "method </li> </ul> </li> <li>Calculus <ul> <li> Derivative and "
-        "partial derivative </li> <li> Investigating functions </li> <li> "
-        "Taylor polynomial </li> <li>Local maxima and minima in two variables "
-        "</li>  </ul> </li> <li>Integral calculus <ul> <li>Indefinite "
-        "integral  </li><li> Definite integral  (area between two curves and "
-        "solid of revolution)  </li><li>Double integral</li><li> Trapezoidal "
-        "rule  (numerical estimate of definite integral)</li> </ul> </li> "
-        "<li>Differential equations <ul> <li> First order differential "
-        "equations (linear equations, equations with separated variables and "
-        "homogeneous equations)</li><li>Second order linear differential "
-        "equations (variation of constants and guessing particular solution)</"
-        "li><li> Autonomous system</li> </ul> </li> <li>Equations and "
-        "inequalities  <ul> <li>Nonlinear equations via method of bisection "
-        "and method of iterations</li> <li>Inequalities in one and two "
-        "variables</li> </ul> </il> </ul> <span class=\"nadpis\">Support</"
-        "span> <ul><li>Do you want to support the development of Mathematical "
-        "Assistant on Web? Do you want to send us some money? Don't do it! "
-        "Support <a href=\"http://www.unicef.org/\">UNICEF</a> or <a href="
-        "\"http://www.rednoses.eu/\">Red noses clowndoctors</a> instead. </"
-        "li> <li>Do you still want to help us? Use our applications and "
-        "report problems (if any). Or let us know that you are using our "
-        "application without any problem. You can also download <a href="
-        "\"http://mathassistant.hg.sourceforge.net/hgweb/mathassistant"
-        "\">sources</a> and develop new features and similar applications. </"
-        "li> </ul>"
+msgstr  "Support</span> <ul><li>Do you want to support the development of "
+        "Mathematical Assistant on Web? Look <a href=\"http://wood.mendelu.cz/"
+        "math/maw-html/donate.php?lang=en\">here</a> for some suggestions.</"
+        "li> <li>Do you want to help us? Use our applications and report "
+        "problems (if any). Or let us know that you are using our application "
+        "without any problem. You can also download <a href=\"http://"
+        "mathassistant.hg.sourceforge.net/hgweb/mathassistant\">sources</a> "
+        "and develop new features and similar applications. </li> </ul>"
 
 #: minmax3d.php:3
 msgid   "Local extrema in two variables"
