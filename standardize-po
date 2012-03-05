@@ -5,7 +5,8 @@ for filename in *.po
 do
   echo $filename
   cp $filename temp.po
-  msgcat -i temp.po > $filename
-  rm temp.po
+  msgcat -i temp.po > temp2.po
+  potool -n pcmt temp2.po > $filename
+  rm temp.po temp2.po
 done;
 cd ..

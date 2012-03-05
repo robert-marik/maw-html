@@ -5,898 +5,760 @@
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009.
 #
-msgid   ""
-msgstr  "Project-Id-Version: messages\n"
-        "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
-        "PO-Revision-Date: 2010-02-26 12:20+0100\n"
-        "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
-        "Language-Team:  <cs@li.org>\n"
-        "Language: \n"
-        "MIME-Version: 1.0\n"
-        "Content-Type: text/plain; charset=UTF-8\n"
-        "Content-Transfer-Encoding: 8bit\n"
-        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-        "X-Generator: KBabel 1.9.1\n"
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-01 00:59+0100\n"
+"PO-Revision-Date: 2010-02-26 12:20+0100\n"
+"Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
+"Language-Team:  <cs@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.9.1\n"
 
-#: autsyst.php:3
-msgid   "Singular points of autonomous systems"
-msgstr  "Punkty osobliwe autonomicznego układu równań"
+msgid "Singular points of autonomous systems"
+msgstr "Punkty osobliwe autonomicznego układu równań"
 
-#: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
-#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
-#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
-#: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
-msgid   "Editor"
-msgstr  "Edytor graficzny(Java)"
+msgid "Editor"
+msgstr "Edytor graficzny(Java)"
 
-#: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
-#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
-#: integral.php:29 integral2.php:47 lde2.php:20 lineintegral.php:117
-#: minmax3d.php:43 ode.php:35 ode.php:42 prubeh.php:34 regula_falsi.php:31
-msgid   "Preview"
-msgstr  "Podgląd"
+msgid "Preview"
+msgstr "Podgląd"
 
-#: autsyst.php:58
-msgid   "What to do"
-msgstr  "Co zrobić"
+msgid "What to do"
+msgstr "Co zrobić"
 
-#: autsyst.php:61
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "znajdź macierz Jacobiego w punktach stacjonarnych"
+msgid "find Jacobi matrix at stationary point"
+msgstr "znajdź macierz Jacobiego w punktach stacjonarnych"
 
-#: autsyst.php:72 minmax3d.php:74
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "użyj komputera w pierwszej kolejności do znalezienia punktów "
-        "stacjonarnych (ta funkcja może nie znaleźć wszystkich punktów "
-        "stacjonarnych)"
+msgid ""
+"use computer to find stationary points first (this may fail to find all "
+"stationary points, however)"
+msgstr ""
+"użyj komputera w pierwszej kolejności do znalezienia punktów "
+"stacjonarnych (ta funkcja może nie znaleźć wszystkich punktów "
+"stacjonarnych)"
 
-#: autsyst.php:80
-msgid   "MAW-autsyst"
-msgstr  "<ul> <li>Podaj prawe strony dla autonomicznego układu równań, punkty "
-        "stacjonarne i Wyślij.</li> <li>Możesz wykorzystać system do "
-        "znalezienia punktów stacjonarnych lub wyznaczenia macierzy Jacobiego "
-        "i wartości własnych dla danych punktów stacjonarnych, wybierając "
-        "odpowiednią opcję.</li> </ul>"
+msgid "MAW-autsyst"
+msgstr ""
+"<ul> <li>Podaj prawe strony dla autonomicznego układu równań, punkty "
+"stacjonarne i Wyślij.</li> <li>Możesz wykorzystać system do znalezienia "
+"punktów stacjonarnych lub wyznaczenia macierzy Jacobiego i wartości "
+"własnych dla danych punktów stacjonarnych, wybierając odpowiednią "
+"opcję.</li> </ul>"
 
-#: banach.php:2 index.php:425
-msgid   "Method of iterations"
-msgstr  "Metoda iteracji"
+msgid "Method of iterations"
+msgstr "Metoda iteracji"
 
-#: banach.php:23
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
+msgid "Enter function, interval containing  fixed point and number of steps."
+msgstr ""
+"Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
 
-#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
-#: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
-#: regula_falsi.php:28 taylor.php:11 trap.php:14
-msgid   "Function"
-msgstr  "Funkcja"
+msgid "Function"
+msgstr "Funkcja"
 
-#: banach.php:34
-msgid   "Interval from "
-msgstr  "Przedział od"
+msgid "Interval from "
+msgstr "Przedział od"
 
-#: banach.php:36 bisection.php:37 regula_falsi.php:37
-msgid   "to"
-msgstr  "do"
+msgid "to"
+msgstr "do"
 
-#: banach.php:38 bisection.php:39 regula_falsi.php:39
-msgid   "(integers or decimal numbers)"
-msgstr  "(liczby całkowite lub dziesiętne)"
+msgid "(integers or decimal numbers)"
+msgstr "(liczby całkowite lub dziesiętne)"
 
-#: banach.php:42 bisection.php:43 regula_falsi.php:43
-msgid   "Number of steps "
-msgstr  "Liczba kroków"
+msgid "Number of steps "
+msgstr "Liczba kroków"
 
-#: banach.php:44
-msgid   "(integer between 2  and 40)"
-msgstr  "(liczba całkowita pomiędzy 2 a 40)"
+msgid "(integer between 2  and 40)"
+msgstr "(liczba całkowita pomiędzy 2 a 40)"
 
-#: banach.php:47
-msgid   "Initial approximation"
-msgstr  "Początkowe przybliżenie"
+msgid "Initial approximation"
+msgstr "Początkowe przybliżenie"
 
-#: banach.php:49
-msgid   "(integer or decimal number)"
-msgstr  "(liczby całkowite lub dziesiętne)"
+msgid "(integer or decimal number)"
+msgstr "(liczby całkowite lub dziesiętne)"
 
-#: banach.php:56
-msgid   "MAW-banach"
-msgstr  "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl."
-        "wikipedia.org/wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu "
-        "Banacha o kontrakcji</a>"
+msgid "MAW-banach"
+msgstr ""
+"Nieliniowy kalkulator równań bazujący na <a "
+"href=\"http://pl.wikipedia.org/wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu "
+"Banacha o kontrakcji</a>"
 
-#: bisection.php:2 index.php:423
-msgid   "Bisection"
-msgstr  "Bisekcja"
+msgid "Bisection"
+msgstr "Bisekcja"
 
-#: bisection.php:24 regula_falsi.php:24
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Podaj funkcję, przedział zawierający zero i liczbę kroków"
+msgid "Enter function, interval containing zero and number of steps."
+msgstr "Podaj funkcję, przedział zawierający zero i liczbę kroków"
 
-#: bisection.php:35 regula_falsi.php:35
-msgid   "Interval from"
-msgstr  "Przedział od"
+msgid "Interval from"
+msgstr "Przedział od"
 
-#: bisection.php:45 regula_falsi.php:45
-msgid   "(integer between 2 and 40)"
-msgstr  "(liczba całkowita pomiędzy 2 a 40)"
+msgid "(integer between 2 and 40)"
+msgstr "(liczba całkowita pomiędzy 2 a 40)"
 
-#: bisection.php:58
-msgid   "MAW-bisection"
-msgstr  "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji"
-        "\">Metoda bisekcji na Wikipedii</a>"
+msgid "MAW-bisection"
+msgstr ""
+"Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji\">Metoda "
+"bisekcji na Wikipedii</a>"
 
-#: derivace.php:2 index.php:402
-msgid   "Derivative and partial derivative"
-msgstr  "Pochodna i pochodna cząstkowa"
+msgid "Derivative and partial derivative"
+msgstr "Pochodna i pochodna cząstkowa"
 
-#: derivace.php:22
-msgid   "automatically use linearity of derivative"
-msgstr  "automatycznie wykorzystaj liniowość pochodnej"
+msgid "automatically use linearity of derivative"
+msgstr "automatycznie wykorzystaj liniowość pochodnej"
 
-#: derivace.php:25
-msgid   "automatically differentiate constants"
-msgstr  "automatycznie różniczkuj stałe"
+msgid "automatically differentiate constants"
+msgstr "automatycznie różniczkuj stałe"
 
-#: derivace.php:30
-msgid   "The type of the derivative"
-msgstr  "Typ pochodnej"
+msgid "The type of the derivative"
+msgstr "Typ pochodnej"
 
-#: derivace.php:33
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "Pochodna funkcji jednej zmiennej"
+msgid "Ordinary derivative (function in one variable)"
+msgstr "Pochodna funkcji jednej zmiennej"
 
-#: derivace.php:36
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "Pochodna cząstkowa po <i>x</i> (funkcji dwóch zmiennych)"
+msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
+msgstr "Pochodna cząstkowa po <i>x</i> (funkcji dwóch zmiennych)"
 
-#: derivace.php:39
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "Pochodna cząstkowa po <i>y</i> (funkcji dwóch zmiennych)"
+msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
+msgstr "Pochodna cząstkowa po <i>y</i> (funkcji dwóch zmiennych)"
 
-#: derivace.php:47
-msgid   "MAW-der"
-msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci "
-        "pliku PDF. </li><li> Możesz użyć tego kalkulatora do obliczania "
-        "pochodnej funkcji jednej zmiennej, jak i pochodnej cząstkowej "
-        "funkcji dwóch zmiennych.</li></ul>"
+msgid "MAW-der"
+msgstr ""
+"<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci "
+"pliku PDF. </li><li> Możesz użyć tego kalkulatora do obliczania pochodnej "
+"funkcji jednej zmiennej, jak i pochodnej cząstkowej funkcji dwóch "
+"zmiennych.</li></ul>"
 
-#: df.php:2
-msgid   "Domain of a function in one variable"
-msgstr  "Dziedzina funkcji jednej zmiennej"
+msgid "Domain of a function in one variable"
+msgstr "Dziedzina funkcji jednej zmiennej"
 
-#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
-msgid   "Parameters"
-msgstr  "Parametry"
+msgid "Parameters"
+msgstr "Parametry"
 
-#: df.php:36
-msgid   "MAW-df"
-msgstr  " "
+msgid "MAW-df"
+msgstr " "
 
-#: df3d.php:3
-msgid   "Domain of a function in two variables"
-msgstr  "Dziedzina funkcji dwóch zmiennych"
+msgid "Domain of a function in two variables"
+msgstr "Dziedzina funkcji dwóch zmiennych"
 
-#: df3d.php:22
-msgid   "limits for the picture with domain:"
-msgstr  "ograniczenie dziedziny na obrazku"
+msgid "limits for the picture with domain:"
+msgstr "ograniczenie dziedziny na obrazku"
 
-#: df3d.php:27 df3d.php:29 df3d.php:31
-msgid   "draw domain on the set"
-msgstr  "rysuj dziedzinę na zbiorze "
+msgid "draw domain on the set"
+msgstr "rysuj dziedzinę na zbiorze "
 
-#: df3d.php:44
-msgid   "MAW-df3d"
-msgstr  "<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie "
-        "dziedziny dla obrazka i Wyślij.</li> </ul>"
+msgid "MAW-df3d"
+msgstr ""
+"<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie dziedziny dla "
+"obrazka i Wyślij.</li> </ul>"
 
-#: dummy.php:6 mawconfightml.php:60
-msgid   "Switch to a compact design"
-msgstr  "Przełącz na wersję kompaktową"
+msgid "Switch to a compact design"
+msgstr "Przełącz na wersję kompaktową"
 
-#: dummy.php:7
-msgid   "Showcase"
-msgstr  ""
+msgid "Showcase"
+msgstr ""
 
-#: dummy.php:8 mawconfightml.php:48
-msgid   "Switch to a full design"
-msgstr  "Przełącz na wersję pełną"
+msgid "Switch to a full design"
+msgstr "Przełącz na wersję pełną"
 
-#: dummy.php:9
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  "Czy pomogliśmy Ci z twoim problemem matematycznym? Jeżeli tak, "
-        "rozważ zatem przekazanie dotacji dla <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
+"Czy pomogliśmy Ci z twoim problemem matematycznym? Jeżeli tak, rozważ "
+"zatem przekazanie dotacji dla <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
 
-#: geom.php:2
-msgid   "Definite integral in geometry"
-msgstr  "Graficzna interpretacja całki oznaczonej"
+msgid "Definite integral in geometry"
+msgstr "Graficzna interpretacja całki oznaczonej"
 
-#: geom.php:12
-msgid   "Formulation of the problem"
-msgstr  "Sformułowanie problemu"
+msgid "Formulation of the problem"
+msgstr "Sformułowanie problemu"
 
-#: geom.php:14
-msgid   "Curves on boundary"
-msgstr  "Powierzchnia ograniczona krzywymi:"
+msgid "Curves on boundary"
+msgstr "Powierzchnia ograniczona krzywymi:"
 
-#: geom.php:18
-msgid   "Upper bound"
-msgstr  "Górne ograniczenie"
+msgid "Upper bound"
+msgstr "Górne ograniczenie"
 
-#: geom.php:26
-msgid   "Lower bound"
-msgstr  "Dolne ograniczenie"
+msgid "Lower bound"
+msgstr "Dolne ograniczenie"
 
-#: geom.php:36
-msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
-        "of both curves by choosing \"intercepts\" in parameters for "
-        "computation)</small>"
-msgstr  "Granice na osi <i>x</i>: <small>(punkty przecięcia krzywych możesz "
-        "znaleźć wybierając odpowiednią opcję w polu Parametry)</small>"
+msgid ""
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
+"curves by choosing \"intercepts\" in parameters for computation)</small>"
+msgstr ""
+"Granice na osi <i>x</i>: <small>(punkty przecięcia krzywych możesz "
+"znaleźć wybierając odpowiednią opcję w polu Parametry)</small>"
 
-#: geom.php:41
-msgid   "lower bound"
-msgstr  "górna granica"
+msgid "lower bound"
+msgstr "górna granica"
 
-#: geom.php:45
-msgid   "upper bound"
-msgstr  "dolna granica"
+msgid "upper bound"
+msgstr "dolna granica"
 
-#: geom.php:54
-msgid   "Action"
-msgstr  "Działanie:"
+msgid "Action"
+msgstr "Działanie:"
 
-#: geom.php:59
 #, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "Znajdź %s pole %s pomiędzy krzywymi i narysuj wykres."
+msgid "Find %s area %s between two curves and draw graph."
+msgstr "Znajdź %s pole %s pomiędzy krzywymi i narysuj wykres."
 
-#: geom.php:65
 #, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "Znajdź %s objętość %s bryły i narysuj wykres."
+msgid "Find %s volume %s of solid of revolution and draw graph"
+msgstr "Znajdź %s objętość %s bryły i narysuj wykres."
 
-#: geom.php:70
-msgid   "preview solid of revolution"
-msgstr  "podgląd figury obrotowej"
+msgid "preview solid of revolution"
+msgstr "podgląd figury obrotowej"
 
-#: geom.php:72
-msgid   "show colors, no mesh"
-msgstr  "pokaż kolory, bez siatki"
+msgid "show colors, no mesh"
+msgstr "pokaż kolory, bez siatki"
 
-#: geom.php:74
-msgid   "hide invisible parts"
-msgstr  "ukryj niewidoczne części"
+msgid "hide invisible parts"
+msgstr "ukryj niewidoczne części"
 
-#: geom.php:80
-msgid   "Find intercepts of curves"
-msgstr  "Znajdź punkty przecięcia krzywych"
+msgid "Find intercepts of curves"
+msgstr "Znajdź punkty przecięcia krzywych"
 
-#: geom.php:82
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Granice obrazka (liczby dziesiętne)"
+msgid "Bounds for the picture (decimal numbers)"
+msgstr "Granice obrazka (liczby dziesiętne)"
 
-#: geom.php:111
-msgid   "MAW-geom"
-msgstr  "<ul>   <li> Podaj funkcje: górne i dolne ograniczenie obszaru.</li>  "
-        "<li>Jeśli dolnym ograniczeniem obszaru jest oś <span style=\"font-"
-        "style: italic;\">x</span>, ustaw <span style=\"font-style: italic;"
-        "\">g(x)</span>=0.</li>  <li>Jeżeli chcesz znaleźć punkty przecięcia "
-        "krzywych, to wybierz odpowiednią opcję.<br> </li> </ul>"
+msgid "MAW-geom"
+msgstr ""
+"<ul>   <li> Podaj funkcje: górne i dolne ograniczenie obszaru.</li>  "
+"<li>Jeśli dolnym ograniczeniem obszaru jest oś <span style=\"font-style: "
+"italic;\">x</span>, ustaw <span style=\"font-style: "
+"italic;\">g(x)</span>=0.</li>  <li>Jeżeli chcesz znaleźć punkty "
+"przecięcia krzywych, to wybierz odpowiednią opcję.<br> </li> </ul>"
 
-#: graf.php:2 index.php:394
-msgid   "Graphs of elementary functions"
-msgstr  "Wykres funkcji"
+msgid "Graphs of elementary functions"
+msgstr "Wykres funkcji"
 
-#: graf.php:20
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  "(funkcja musi być funkcją elementarną lub można ją otrzymać przez "
-        "proste przekształcenia, np. przesunięcie, symetria względem punktu, "
-        "osi, funkcji elementarnej)"
+msgid ""
+"(the function must either a basic elementary function of a function which "
+"can be obtained from on of basic elementary functions by shifting and "
+"resizing graph)"
+msgstr ""
+"(funkcja musi być funkcją elementarną lub można ją otrzymać przez "
+"proste przekształcenia, np. przesunięcie, symetria względem punktu, osi, "
+"funkcji elementarnej)"
 
-#: graf.php:25
-msgid   "Bounds for axes"
-msgstr  "Zakresy dla osi"
+msgid "Bounds for axes"
+msgstr "Zakresy dla osi"
 
-#: graf.php:37
-msgid   "show grid"
-msgstr  "pokaż siatkę"
+msgid "show grid"
+msgstr "pokaż siatkę"
 
-#: graf.php:44
-msgid   "Logarithm"
-msgstr  "Logarytm"
+msgid "Logarithm"
+msgstr "Logarytm"
 
-#: graf.php:45
-msgid   "If the input contains logarithm, use"
-msgstr  "Jeśli wyrażenie zawiera logarytmy, użyj"
+msgid "If the input contains logarithm, use"
+msgstr "Jeśli wyrażenie zawiera logarytmy, użyj"
 
-#: graf.php:48
-msgid   "natural log"
-msgstr  "logarytm naturalny"
+msgid "natural log"
+msgstr "logarytm naturalny"
 
-#: graf.php:51
-msgid   "log with base"
-msgstr  "logarytm o podstawie"
+msgid "log with base"
+msgstr "logarytm o podstawie"
 
-#: graf.php:61
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br><ul><li>Podaj "
-        "funkcję, która jest funkcją elementarną lub można ją otrzymać przez "
-        "proste przekształcenia.</li><li>Funkcja zostanie automatycznie "
-        "sparsowana i otrzymasz jej wykres z kolejnymi przekształceniami "
-        "funkcji elementarnej.</li></ul>"
+msgid "MAW-graf"
+msgstr ""
+"<span style=\"font-weight: bold;\">Uwagi:</span><br><ul><li>Podaj funkcję, "
+"która jest funkcją elementarną lub można ją otrzymać przez proste "
+"przekształcenia.</li><li>Funkcja zostanie automatycznie sparsowana i "
+"otrzymasz jej wykres z kolejnymi przekształceniami funkcji "
+"elementarnej.</li></ul>"
 
-#: index.php:122
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "Kliknij przycisk podglądu Preview, aby zobaczyć jak formconv "
-        "przetwarza wprowadzone wyrażenie a także, aby sprawdzić jak należy "
-        "wprowadzić dane wyrażenie w systemie Maxima."
+msgid ""
+"Clicking this button you get how formconv renders your expression and how "
+"you can enter this expression in Maxima notation (you can use copy and paste "
+"to transfer to the form.)"
+msgstr ""
+"Kliknij przycisk podglądu Preview, aby zobaczyć jak formconv przetwarza "
+"wprowadzone wyrażenie a także, aby sprawdzić jak należy wprowadzić dane "
+"wyrażenie w systemie Maxima."
 
-#: index.php:131
 #, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
-
-#: index.php:138
-msgid   "History"
-msgstr  "Historia"
-
-#: index.php:171 index.php:296
-msgid   "Mathematical Assistant on Web"
-msgstr  "Matematyczny Asystent Online"
-
-#: index.php:244
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
-
-#: index.php:263
-msgid   "More languages"
-msgstr  "Więcej języków"
-
-#: index.php:278 index.php:279
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  ""
-
-#: index.php:279
-msgid   "Support from MAW forum"
-msgstr  ""
-
-#: index.php:281
-msgid   "Changelog"
-msgstr  "Log zmian"
-
-#: index.php:283
-msgid   "Known bugs"
-msgstr  "Znane błędy"
-
-#: index.php:346
-msgid   "Submit"
-msgstr  "Wyślij"
-
-#: index.php:346
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Naciśnij tylko raz i poczekaj chwilę na wynik!"
-
-#: index.php:395
-msgid   "Domain of functions (one variable)"
-msgstr  "Dziedzina funkcji jednej zmiennej"
-
-#: index.php:396
-msgid   "Domain of functions (two variables)"
-msgstr  "Dziedzina funkcji dwóch zmiennych"
-
-#: index.php:397 lagrange.php:3
-msgid   "Lagrange polynomial"
-msgstr  "Wielomian Lagrange'a"
-
-#: index.php:398 mnc.php:3
-msgid   "Least squares method"
-msgstr  "Metoda najmniejszych kwadratów"
-
-#: index.php:403
-msgid   "Investigating functions"
-msgstr  "Przebieg zmienności funkcji"
-
-#: index.php:404 taylor.php:3
-msgid   "Taylor polynomial"
-msgstr  "Wielomian Taylora"
-
-#: index.php:405
-msgid   "Local maxima and minima in two variables"
-msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
-
-#: index.php:409 integral.php:2
-msgid   "Antiderivative"
-msgstr  "Całka nieoznaczona"
-
-#: index.php:410
-msgid   "Geometrical applications of definite integral"
-msgstr  "Całka oznaczona"
-
-#: index.php:411
-msgid   "Trapezoidal rule"
-msgstr  "Metoda trapezów"
-
-#: index.php:412 integral2.php:2
-msgid   "Double integral"
-msgstr  "Całka podwójna"
-
-#: index.php:413 lineintegral.php:2
-msgid   "Line integral"
-msgstr  ""
-
-#: index.php:417
-msgid   "First order ODE"
-msgstr  "Równanie różniczkowe pierszego rzędu"
-
-#: index.php:418
-msgid   "Second order LDE"
-msgstr  "Równanie różniczkowe drugiego rzędu"
-
-#: index.php:419
-msgid   "Autonomous system"
-msgstr  "Autonomiczny układ równań"
-
-#: index.php:424 regula_falsi.php:2
-msgid   "Regula falsi"
-msgstr  ""
-
-#: index.php:426
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Układ nierówności z jedną lub dwiema niewiadomymi"
-
-#: index.php:434
-msgid   "Introduction"
-msgstr  "Wprowadzenie"
-
-#: index.php:440
-msgid   "Precalculus"
-msgstr  "Funkcje"
-
-#: index.php:445
-msgid   "Calculus"
-msgstr  "Rachunek różniczkowy"
-
-#: index.php:451
-msgid   "Integral calculus"
-msgstr  "Rachunek całkowy"
-
-#: index.php:457
-msgid   "Differential equations"
-msgstr  "Równania różniczkowe"
-
-#: index.php:463
-msgid   "Equations and inequalities"
-msgstr  "Równania i nierówności"
-
-#: index.php:470
-msgid   "Site map, support"
-msgstr  "Mapa strony, wsparcie"
-
-#: index.php:496
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  "Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
-        "kalkulatora wybierając w drugim rzędzie menu. <br>  Kalkulatory "
-        "znajdują się w kilku działach, po najechaniu myszką na nazwę działu "
-        "zobaczysz opisy kalkulatorów."
-
-#: index.php:499
-msgid   "Choose the field of your interest in the menu and then choose the "
-        "particular calculator depending on the problem you wish to solve."
-        "<br>These calculators are able to solve the problems including step "
-        "by step solution.<br>The calculators are divided into several "
-        "groups, the description is available if you move your mouse on the "
-        "name of each group (the first row of the menu)."
-msgstr  "Wybierz interesujące Cię dział z menu a następnie wskaż odpowiedni "
-        "kalkulator związany z Twoim zadaniem. <br> Te kalkulatory są w "
-        "stanie rozwiązać zadania krok po kroku. <br> Kalkulatory znajdują "
-        "się w kilku działach, po najechaniu myszką na nazwę działu zobaczysz "
-        "opisy kalkulatorów."
-
-#: ineq2d.php:3
-msgid   "Inequalities"
-msgstr  "Nierówności"
-
-#: ineq2d.php:15
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "Przeczytaj komentarze poniżej, aby sprawdzić, które nierówności mogą "
-        "zostać rozwiązane."
-
-#: ineq2d.php:18
-msgid   "suppose x,y>0"
-msgstr  "załóż, że x,y>0"
-
-#: ineq2d.php:22
-msgid   "draw labels on axes, not on boundary"
-msgstr  "umieść etykiety na osiach, nie na granicach wykresów"
-
-#: ineq2d.php:28
-msgid   "use high quality output in PDF"
-msgstr  "użyj wysokiej jakości dla pliku PDF"
-
-#: ineq2d.php:32
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "zmień granice, aby uzyskać równe jednostki na obu osiach"
-
-#: ineq2d.php:40 prubeh.php:41
-msgid   "Axes"
-msgstr  "Osie"
-
-#: ineq2d.php:57
-msgid   "MAW-ineq2d"
-msgstr  "<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierówność "
-        "na linię.</li> <li>Nierówności są rozwiązywane numerycznie na "
-        "zadanym przedziale (prostokącie dla nierówności dwóch niewiadomych). "
-        "Jeśli otrzymasz pusty wykres oznacza to, że nie istnieje rozwiązanie "
-        "dla zadanego przedziału (spróbuj zmienić przedział) lub rozwiązaniem "
-        "są pojedyncze punkty, które nie mogą zostać wyznaczone przez "
-        "zastosowane, w tym systemie, metody numeryczne.</li> <li>Używaj "
-        "wyłącznie ostrych nierówności oraz niewiadomych <i>x</i> i <i>y</i>."
-        "</li> <li>Ustawienia dla <i>y</i> są ignorowane jeśli w nierówności "
-        "występuje tylko niewiadoma <i>x</i>.</li> <li>Obrazki w podglądzie "
-        "HTML są kwadratowe. Jeśli różnica zakresów będzie równa dla obu osi, "
-        "kształty zostaną zachowane. Obrazki w pliku PDF mają zachowaną "
-        "proporcję 10:7 i aby uzyskać równe jednostki na obu osiach, zaznacz "
-        "drugą opcję. Ten wybór spowoduje przeskalowanie krótszej osi. </li> "
-        "</ul>"
-
-#: integral.php:37
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "użyj <a href=\"http://formconv.sourceforge.net/\">formconv</a> aby "
-        "dokonać konwersji wyrażeń matematycznych (pozwala pisać 2x zamiast "
-        "2*x)"
-
-#: integral.php:42
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "użyj \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> do "
-        "zapisywania wzorów matematycznych na stronie html zamiast  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(efekt jest lepszy, ale generowanie wzorów może trwać dłużej)\n"
-
-#: integral.php:51
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
-        "maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli "
-        "w funkcji podcałkowej będą występowały ułamki piętrowe)"
-
-#: integral.php:56 integral2.php:74
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
-
-#: integral.php:66
-msgid   "MAW-int"
-msgstr  "<span class='red'>Odwiedź naszą <a  href=\"integral_offline/"
-        "\">galerię całek</a></span>. Jeśli chciałbyś dodać swoją całkę do "
-        "galerii skontaktuj się z nami."
-
-#: integral2.php:24
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
-        "względem zmiennych"
-
-#: integral2.php:59
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
-        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt="
-        "\"phi\">."
-
-#: integral2.php:63
-msgid   "Axes (decimal numbers)"
-msgstr  "Osie (liczby dziesiętne)"
-
-#: integral2.php:71
-msgid   "Preview region of integration"
-msgstr  "Granice całkowania"
-
-#: integral2.php:88
-msgid   "MAW-int2"
-msgstr  " "
-
-#: lagrange.php:11 mnc.php:11
-msgid   "Data file"
-msgstr  "Zbiór punktów"
-
-#: lagrange.php:22
-msgid   "MAW-lagr"
-msgstr  "<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
-        "punkty średnikami. </li> </ul>"
-
-#: lde2.php:3
-msgid   "Second order linear differential equations"
-msgstr  "Liniowe równanie różniczkowe drugiego rzędu"
-
-#: lde2.php:13
-msgid   "Equation"
-msgstr  "Równanie"
-
-#: lde2.php:23
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  "Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</b>"
-
-#: lde2.php:28
-msgid   "Method"
-msgstr  "Metoda"
-
-#: lde2.php:32
-msgid   "variation of constants"
-msgstr  "uzmiennianie stałych"
-
-#: lde2.php:36
-msgid   "undetermined coefficients"
-msgstr  "przewidywań (współczynników nieoznaczonych)"
-
-#: lde2.php:40
-msgid   "solve also initial value problem"
-msgstr  "rozwiąż także dla zadanych warunków początkowych"
-
-#: lde2.php:51
-msgid   "MAW-lde2"
-msgstr  "<ul>   <li>Podaj współczynniki równania (liczby), prawą stronę "
-        "równania i Wyślij. Jeśli chcesz pominać dane wyrażenie w równaniu, "
-        "wpisz 0 w odpowiednie pole.</li> \t<li>Uzmiennianie stałej działa "
-        "dla dowolnego wyrażenia po prawej stronie. Metoda przewidywań działa "
-        "poprawnie jeśli prawa strona równania jest w postaci <i>P(x)*exp(a*x)"
-        "*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i>, <i>a</i> i <i>b</i> są "
-        "liczbami rzeczywistymi oraz <i>P(x)</i>, <i>Q(x)</i> są wielomianami "
-        "stopnia co najwyżej 4-tego.</li>   <li>Jeśli zauważyłeś błędy w "
-        "działaniu kalkulatora skontaktuj się z nami.</li> </ul>"
-
-#: lineintegral.php:22
-msgid   "Integral of a scalar field"
-msgstr  ""
-
-#: lineintegral.php:23
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
-
-#: lineintegral.php:43
-msgid   "Integral of a vector field"
-msgstr  ""
-
-#: lineintegral.php:44
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
-
-#: lineintegral.php:74 lineintegral.php:107
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
-
-#: lineintegral.php:87
-msgid   "line integral in 2D"
-msgstr  ""
-
-#: lineintegral.php:91
-msgid   "line integral in 3D"
-msgstr  ""
-
-#: lineintegral.php:96
-msgid   "Curve"
-msgstr  ""
-
-#: lineintegral.php:111
-msgid   "Parameter bounds"
-msgstr  ""
-
-#: lineintegral.php:128
-msgid   "MAW-lineint"
-msgstr  ""
-
-#: main.php:1
-msgid   "MAW-main"
-msgstr  "<b style=\"font-size:150%;\">Problemy z całkami? <br>Problemy z "
-        "pochodnymi? <br> Problemy z równaniami różniczkowymi? <br> Możemy Ci "
-        "pomóc! I pomożemy Ci!</b> <br> <br> <span class=\"nadpis\">O "
-        "stronie</span> <ul> <li>Strona jest interfejsem dla systemu obliczeń "
-        "symbolicznych <a href=\"http://maxima.sourceforge.net/\">Maxima</a> "
-        "i automatycznie rozwiąże (wraz z pośrednimi krokami obliczeń) "
-        "wybrane, typowe zadania pojawiające się na zajęciach matematyki.</"
-        "li> <li> Wybierz interesujące Cię zagadnienie korzystając z paska w "
-        "górnej części strony, uzupełnij potrzebne i wyślij. Rozwiązanie w "
-        "pliku PDF pojawi się w Twojej przeglądarce albo będziesz mógł "
-        "ściągnąć plik na dysk (to zależy od ustawień komputera).</li> "
-        "<li>Jednostka obliczeniowa dla tej strony znajduje się na serwerze "
-        "<a target=\"_blank\" href=\"http://wood.mendelu.cz\">Department of "
-        "Wood Science</a>.</li> <li><a href=\"http://wood.mendelu.cz/math/"
-        "phpsysinfo\">Informacje o systemie</a></li> </ul> <div class="
-        "\"noncompact\"><hr><span class=\"nadpis\">Uwagi</span> <ul> "
-        "<li>Pamiętaj o używaniu gwiazdki * dla mnożenia, pisz 2*x zamiast 2x."
-        "</li> <li>Dane i wyrażenia wprowadzone przez użytkownika są "
-        "przetwarzane przez programy Open Source <a href=\"http://maxima."
-        "sourceforge.net/\">Maxima</a>, <a href=\"http://www.gnuplot.info/"
-        "\">gnuplot</a>, <a href=\"http://formconv.sourceforge.net/"
-        "\">formconv</a>, <a href=\"http://www.tug.org/metapost.html"
-        "\">MetaPost</a> oraz formatowane przez <a href=\"http://www.tug.org/"
-        "applications/pdftex/\">pdfLaTeX</a>.</li> <li> Jeżeli masz jakieś "
-        "uwagi lub chcesz zgłosić błędy napisz, w języku czeskim lub "
-        "angielskim, na jeden z podanych adresów e-mail (usuń znaki \"NO SPAM"
-        "\" ) maNOrikSP@mAendMelu.cz  lub  tiNOhlSarPAMik@mendelu.cz.</li> "
-        "<li> Jeżeli zauważyłeś błędy w tłumaczeniu pisz na adres pdd1@o2.pl. "
-        "</li> </ul>"
-
-#: map.php:3
-msgid   "MAW-map"
-msgstr  "Mapa strony </span>  <ul> <li>Funkcje <ul> <li>Wykres funkcji </li> "
-        "<li>Dziedzina funkcji jednej zmiennej </li> <li>Dziedzina funkcji "
-        "dwóch zmiennych </li> <li>Wielomian Lagrange'a </li> <li>Metoda "
-        "najmniejszych kwadratów </li> </ul> </li> <li>Rachunek różniczkowy "
-        "<ul> <li> Pochodna i pochodna cząstkowa </li> <li> Przebieg "
-        "zmienności funkcji </li> <li> Wielomian Taylora </li> <li>Ekstrema "
-        "lokalne funkcji dwóch zmiennych </li>  </ul> </li> <li>Rachunek "
-        "całkowy <ul> <li>Całka nieoznaczona </li><li> Całka oznaczona </"
-        "li><li>Całka podwójna </li><li> Metoda trapezów</li> </ul> </li> "
-        "<li>Równania różniczkowe <ul> <li> Równania różniczkowe pierwszego "
-        "rzędu</li><li>Równania różniczkowe drugiego rzędu</li><li> "
-        "Autonomiczny układ równań</li> </ul> </li> <li>Równania i "
-        "nierówności  <ul> <li>Bisekcja</li> <li>Układ nierówności (z jedną "
-        "lub dwiema niewiadomymi)</li> </ul> </il> </ul> <span class=\"nadpis"
-        "\">Wsparcie</span> <ul><li>Chcesz wesprzeć rozwój Matematycznego "
-        "Asystenta Online? Chcesz wysłać nam trochę pieniędzy? Nie rób tego! "
-        "Wesprzyj <a href=\"http://www.rednoses.eu/\"> Red noses "
-        "clowndoctors</a>. </li> <li>Nadal chcesz nam pomóc? Korzystaj z "
-        "naszych kalkulatorów i zgłaszaj problemy (jeśli jakieś wystąpią). "
-        "Możesz także pobrać <a href=\"http://mathassistant.hg.sourceforge."
-        "net/hgweb/mathassistant\">źródła</a> i rozpocząć rozwój nowych "
-        "funkcjonalności lub podobnych kalkulatorów. </li> </ul>"
-
-#: minmax3d.php:3
-msgid   "Local extrema in two variables"
-msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
-
-#: minmax3d.php:50
-msgid   "Task for computation"
-msgstr  "Zadanie do obliczenia"
-
-#: minmax3d.php:55
-msgid   "Hessian at stationary point"
-msgstr  "Hesjan w punkcie stacjonarnym"
-
-#: minmax3d.php:67
-msgid   "Hessian at stationary points"
-msgstr  "Hesjan w punktach stacjonarnych"
-
-#: minmax3d.php:85
-msgid   "MAW-minmax3d"
-msgstr  "<br>W tym kalkulatorze możesz sprawdzić punkty stacjonarne funkcji "
-        "dwóch zmiennych. Masz następujące możliwości:<ul><li>Znaleźć punkty "
-        "stacjonarne, a następnie przekopiować otrzymany wynik celem dalszego "
-        "sprawdzenia.</li><li>Sprawdzić istnienie i typ ekstremum dla "
-        "podanych punktów. Użyj średnika do rozdzielenia punktów, przecinków "
-        "do rozdzielenia współrzędnych.</li><li>Jeśli wybierzesz sprawdzanie "
-        "tylko w jednym punkcie, to otrzymasz bardziej szczegółowe "
-        "rozwiązanie.</li><li>Używamy prostego sprawdzenia czy punkt jest "
-        "stacjonarny czy nie.</li></ul>"
-
-#: mnc.php:21
-msgid   "MAW-mnc"
-msgstr  "<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
-        "punkty średnikami. </li> </ul>"
-
-#: ode.php:20
-msgid   "Ordinary differential equations"
-msgstr  "Równania różniczkowe zwyczajne"
-
-#: ode.php:30
-msgid   "Equation solved wrt y'"
-msgstr  ""
-
-#: ode.php:40
-msgid   "Full equation"
-msgstr  "Pełne równanie"
-
-#: ode.php:53
-msgid   "MAW-ode"
-msgstr  "<ul><li>Ten kalkulator jest w stanie rozwiązać krok po kroku "
-        "równania różniczkowe zwyczajne: o zmiennych rozdzielonych, "
-        "jednorodne, zupełne, liniowe i Bernoulliego.</li><li>Musisz podać "
-        "tylko prawą stronę równania różniczkowego. Jeśli potrzebujesz "
-        "wyznaczyć <i>y'</i> z równania, skorzystaj z odpowiedniej opcji.</"
-        "li> <li>Możesz także zapisać pełne równanie różniczkowe zwyczajne "
-        "(wraz z y' i =) w drugim polu tekstowym. Równanie zostanie "
-        "automatycznie rozwiązane ze względu na y', ale musisz sprawdzić czy "
-        "wprowadzone przez Ciebie wyrażenie nie zawiera błędów.</li> "
-        "<li>Problem znalezienia rozwiązania jest złożony. Jeśli otrzymałeś "
-        "nieprawidłowy wynik, zgłoś błąd autorom.</li></ul>"
-
-#: prubeh.php:2
-msgid   "Function calculator"
-msgstr  "Kalkulator funkcji"
-
-#: prubeh.php:57
-msgid   "MAW-prub"
-msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br> <ul><li> Jeżeli "
-        "nie podasz jednej z wartości dla osi, zostaną one automatycznie "
-        "wyznaczone. Jednakże, to nie jest dobry pomysł dla nieciągłych i "
-        "szybko rosnących funkcji, gdzie funkcja osiąga bardzo duże wartości "
-        "liczbowe.</li><li>Miejsca zerowe funkcji i pochodne funkcji są "
-        "wyznaczane w zbiorze liczb zespolonych. Może to powodować utratę "
-        "niektórych rzeczywistych miejsc zerowych, dlatego mogą one nie "
-        "zostać uwzględnione w rozwiązaniu.</li></ul>"
-
-#: regula_falsi.php:57
-msgid   "MAW-regula_falsi"
-msgstr  ""
-
-#: tail.php:6
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "autorzy: <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
-#: tail.php:8
+msgid ""
+"Your input is being processed. Wait few seconds to see the output. Click "
+"%shere%s to reopen the form which has been submited."
+msgstr ""
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Mathematical Assistant on Web"
+msgstr "Matematyczny Asystent Online"
+
+msgid "You should turn JavaScript on to see popup informations."
+msgstr "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
+
+msgid "More languages"
+msgstr "Więcej języków"
+
+msgid "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr ""
+
+msgid "Support from MAW forum"
+msgstr ""
+
+msgid "Changelog"
+msgstr "Log zmian"
+
+msgid "Known bugs"
+msgstr "Znane błędy"
+
+msgid "Submit"
+msgstr "Wyślij"
+
+msgid "Click only once and wait few seconds for the answer!"
+msgstr "Naciśnij tylko raz i poczekaj chwilę na wynik!"
+
+msgid "Domain of functions (one variable)"
+msgstr "Dziedzina funkcji jednej zmiennej"
+
+msgid "Domain of functions (two variables)"
+msgstr "Dziedzina funkcji dwóch zmiennych"
+
+msgid "Lagrange polynomial"
+msgstr "Wielomian Lagrange'a"
+
+msgid "Least squares method"
+msgstr "Metoda najmniejszych kwadratów"
+
+msgid "Investigating functions"
+msgstr "Przebieg zmienności funkcji"
+
+msgid "Taylor polynomial"
+msgstr "Wielomian Taylora"
+
+msgid "Local maxima and minima in two variables"
+msgstr "Ekstrema lokalne funkcji dwóch zmiennych"
+
+msgid "Antiderivative"
+msgstr "Całka nieoznaczona"
+
+msgid "Geometrical applications of definite integral"
+msgstr "Całka oznaczona"
+
+msgid "Trapezoidal rule"
+msgstr "Metoda trapezów"
+
+msgid "Double integral"
+msgstr "Całka podwójna"
+
+msgid "Line integral"
+msgstr ""
+
+msgid "First order ODE"
+msgstr "Równanie różniczkowe pierszego rzędu"
+
+msgid "Second order LDE"
+msgstr "Równanie różniczkowe drugiego rzędu"
+
+msgid "Autonomous system"
+msgstr "Autonomiczny układ równań"
+
+msgid "Regula falsi"
+msgstr ""
+
+msgid "System of inequalities (in one or two variables)"
+msgstr "Układ nierówności z jedną lub dwiema niewiadomymi"
+
+msgid "Introduction"
+msgstr "Wprowadzenie"
+
+msgid "Precalculus"
+msgstr "Funkcje"
+
+msgid "Calculus"
+msgstr "Rachunek różniczkowy"
+
+msgid "Integral calculus"
+msgstr "Rachunek całkowy"
+
+msgid "Differential equations"
+msgstr "Równania różniczkowe"
+
+msgid "Equations and inequalities"
+msgstr "Równania i nierówności"
+
+msgid "Site map, support"
+msgstr "Mapa strony, wsparcie"
+
+msgid ""
+"Enter your data into the calculator and click Submit. You can also change "
+"the type of the calculator in the second row of the menu. <br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
+"Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
+"kalkulatora wybierając w drugim rzędzie menu. <br>  Kalkulatory znajdują "
+"się w kilku działach, po najechaniu myszką na nazwę działu zobaczysz "
+"opisy kalkulatorów."
+
+msgid ""
+"Choose the field of your interest in the menu and then choose the particular "
+"calculator depending on the problem you wish to solve.<br>These calculators "
+"are able to solve the problems including step by step solution.<br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
+"Wybierz interesujące Cię dział z menu a następnie wskaż odpowiedni "
+"kalkulator związany z Twoim zadaniem. <br> Te kalkulatory są w stanie "
+"rozwiązać zadania krok po kroku. <br> Kalkulatory znajdują się w kilku "
+"działach, po najechaniu myszką na nazwę działu zobaczysz opisy "
+"kalkulatorów."
+
+msgid "Inequalities"
+msgstr "Nierówności"
+
+msgid ""
+"Read the comments below the form to find out, which inequalities can be "
+"solved."
+msgstr ""
+"Przeczytaj komentarze poniżej, aby sprawdzić, które nierówności mogą "
+"zostać rozwiązane."
+
+msgid "suppose x,y>0"
+msgstr "załóż, że x,y>0"
+
+msgid "draw labels on axes, not on boundary"
+msgstr "umieść etykiety na osiach, nie na granicach wykresów"
+
+msgid "use high quality output in PDF"
+msgstr "użyj wysokiej jakości dla pliku PDF"
+
+msgid "and change bounds to get equal units on both axes"
+msgstr "zmień granice, aby uzyskać równe jednostki na obu osiach"
+
+msgid "Axes"
+msgstr "Osie"
+
+msgid "MAW-ineq2d"
+msgstr ""
+"<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierówność na "
+"linię.</li> <li>Nierówności są rozwiązywane numerycznie na zadanym "
+"przedziale (prostokącie dla nierówności dwóch niewiadomych). Jeśli "
+"otrzymasz pusty wykres oznacza to, że nie istnieje rozwiązanie dla "
+"zadanego przedziału (spróbuj zmienić przedział) lub rozwiązaniem są "
+"pojedyncze punkty, które nie mogą zostać wyznaczone przez zastosowane, w "
+"tym systemie, metody numeryczne.</li> <li>Używaj wyłącznie ostrych "
+"nierówności oraz niewiadomych <i>x</i> i <i>y</i>.</li> <li>Ustawienia dla "
+"<i>y</i> są ignorowane jeśli w nierówności występuje tylko niewiadoma "
+"<i>x</i>.</li> <li>Obrazki w podglądzie HTML są kwadratowe. Jeśli "
+"różnica zakresów będzie równa dla obu osi, kształty zostaną "
+"zachowane. Obrazki w pliku PDF mają zachowaną proporcję 10:7 i aby "
+"uzyskać równe jednostki na obu osiach, zaznacz drugą opcję. Ten wybór "
+"spowoduje przeskalowanie krótszej osi. </li> </ul>"
+
+msgid ""
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
+"mathematical expressions (this allows to write  2x instead of 2*x)"
+msgstr ""
+"użyj <a href=\"http://formconv.sourceforge.net/\">formconv</a> aby dokonać "
+"konwersji wyrażeń matematycznych (pozwala pisać 2x zamiast 2*x)"
+
+msgid ""
+"use \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
+"formulas on html page instead of  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(the output is better but the rendering could be slower)\n"
+msgstr ""
+"użyj \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> do "
+"zapisywania wzorów matematycznych na stronie html zamiast  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(efekt jest lepszy, ale generowanie wzorów może trwać dłużej)\n"
+
+msgid ""
+"<a "
+"href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> "
+"switch (uncheck this if you get composite fractions (with fraction in "
+"numerator))"
+msgstr ""
+"opcja <a "
+"href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  "
+"(odznacz ja jeśli w funkcji podcałkowej będą występowały ułamki "
+"piętrowe)"
+
+msgid "write acsinh and atanh in terms of log"
+msgstr "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
+
+msgid "MAW-int"
+msgstr ""
+"<span class='red'>Odwiedź naszą <a  href=\"integral_offline/\">galerię "
+"całek</a></span>. Jeśli chciałbyś dodać swoją całkę do galerii "
+"skontaktuj się z nami."
+
+msgid "Enter function and choose variables and order for integration "
+msgstr ""
+"Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
+"względem zmiennych"
+
+msgid ""
+" The Jacobian in polar coordinates is added automatically. You can write "
+"<b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."
+msgstr ""
+" Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
+"Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt=\"phi\">."
+
+msgid "Axes (decimal numbers)"
+msgstr "Osie (liczby dziesiętne)"
+
+msgid "Preview region of integration"
+msgstr "Granice całkowania"
+
+msgid "MAW-int2"
+msgstr " "
+
+msgid "Data file"
+msgstr "Zbiór punktów"
+
+msgid "MAW-lagr"
+msgstr ""
+"<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
+"punkty średnikami. </li> </ul>"
+
+msgid "Second order linear differential equations"
+msgstr "Liniowe równanie różniczkowe drugiego rzędu"
+
+msgid "Equation"
+msgstr "Równanie"
+
+msgid "You can use Preview and Edit buttons for entering the right hand side"
+msgstr ""
+"Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</b>"
+
+msgid "Method"
+msgstr "Metoda"
+
+msgid "variation of constants"
+msgstr "uzmiennianie stałych"
+
+msgid "undetermined coefficients"
+msgstr "przewidywań (współczynników nieoznaczonych)"
+
+msgid "solve also initial value problem"
+msgstr "rozwiąż także dla zadanych warunków początkowych"
+
+msgid "MAW-lde2"
+msgstr ""
+"<ul>   <li>Podaj współczynniki równania (liczby), prawą stronę "
+"równania i Wyślij. Jeśli chcesz pominać dane wyrażenie w równaniu, "
+"wpisz 0 w odpowiednie pole.</li> \t<li>Uzmiennianie stałej działa dla "
+"dowolnego wyrażenia po prawej stronie. Metoda przewidywań działa "
+"poprawnie jeśli prawa strona równania jest w postaci "
+"<i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp(a*x)*cos(b*x)</i>, <i>a</i> i <i>b</i> "
+"są liczbami rzeczywistymi oraz <i>P(x)</i>, <i>Q(x)</i> są wielomianami "
+"stopnia co najwyżej 4-tego.</li>   <li>Jeśli zauważyłeś błędy w "
+"działaniu kalkulatora skontaktuj się z nami.</li> </ul>"
+
+msgid "Integral of a scalar field"
+msgstr ""
+
+msgid ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field"
+msgstr ""
+
+msgid "Integral of a vector field"
+msgstr ""
+
+msgid ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field"
+msgstr ""
+
+msgid "Leave the last field empty for integral in 2D plane."
+msgstr ""
+
+msgid "line integral in 2D"
+msgstr ""
+
+msgid "line integral in 3D"
+msgstr ""
+
+msgid "Curve"
+msgstr ""
+
+msgid "Parameter bounds"
+msgstr ""
+
+msgid "MAW-lineint"
+msgstr ""
+
+msgid "MAW-main"
+msgstr ""
+"<b style=\"font-size:150%;\">Problemy z całkami? <br>Problemy z pochodnymi? "
+"<br> Problemy z równaniami różniczkowymi? <br> Możemy Ci pomóc! I "
+"pomożemy Ci!</b> <br> <br> <span class=\"nadpis\">O stronie</span> <ul> "
+"<li>Strona jest interfejsem dla systemu obliczeń symbolicznych <a "
+"href=\"http://maxima.sourceforge.net/\">Maxima</a> i automatycznie "
+"rozwiąże (wraz z pośrednimi krokami obliczeń) wybrane, typowe zadania "
+"pojawiające się na zajęciach matematyki.</li> <li> Wybierz interesujące "
+"Cię zagadnienie korzystając z paska w górnej części strony, uzupełnij "
+"potrzebne i wyślij. Rozwiązanie w pliku PDF pojawi się w Twojej "
+"przeglądarce albo będziesz mógł ściągnąć plik na dysk (to zależy od "
+"ustawień komputera).</li> <li>Jednostka obliczeniowa dla tej strony "
+"znajduje się na serwerze <a target=\"_blank\" "
+"href=\"http://wood.mendelu.cz\">Department of Wood Science</a>.</li> <li><a "
+"href=\"http://wood.mendelu.cz/math/phpsysinfo\">Informacje o "
+"systemie</a></li> </ul> <div class=\"noncompact\"><hr><span "
+"class=\"nadpis\">Uwagi</span> <ul> <li>Pamiętaj o używaniu gwiazdki * dla "
+"mnożenia, pisz 2*x zamiast 2x.</li> <li>Dane i wyrażenia wprowadzone przez "
+"użytkownika są przetwarzane przez programy Open Source <a "
+"href=\"http://maxima.sourceforge.net/\">Maxima</a>, <a "
+"href=\"http://www.gnuplot.info/\">gnuplot</a>, <a "
+"href=\"http://formconv.sourceforge.net/\">formconv</a>, <a "
+"href=\"http://www.tug.org/metapost.html\">MetaPost</a> oraz formatowane "
+"przez <a href=\"http://www.tug.org/applications/pdftex/\">pdfLaTeX</a>.</li> "
+"<li> Jeżeli masz jakieś uwagi lub chcesz zgłosić błędy napisz, w "
+"języku czeskim lub angielskim, na jeden z podanych adresów e-mail (usuń "
+"znaki \"NO SPAM\" ) maNOrikSP@mAendMelu.cz  lub  "
+"tiNOhlSarPAMik@mendelu.cz.</li> <li> Jeżeli zauważyłeś błędy w "
+"tłumaczeniu pisz na adres pdd1@o2.pl. </li> </ul>"
+
+msgid "MAW-map"
+msgstr ""
+"Mapa strony </span>  <ul> <li>Funkcje <ul> <li>Wykres funkcji </li> "
+"<li>Dziedzina funkcji jednej zmiennej </li> <li>Dziedzina funkcji dwóch "
+"zmiennych </li> <li>Wielomian Lagrange'a </li> <li>Metoda najmniejszych "
+"kwadratów </li> </ul> </li> <li>Rachunek różniczkowy <ul> <li> Pochodna i "
+"pochodna cząstkowa </li> <li> Przebieg zmienności funkcji </li> <li> "
+"Wielomian Taylora </li> <li>Ekstrema lokalne funkcji dwóch zmiennych </li>  "
+"</ul> </li> <li>Rachunek całkowy <ul> <li>Całka nieoznaczona </li><li> "
+"Całka oznaczona </li><li>Całka podwójna </li><li> Metoda trapezów</li> "
+"</ul> </li> <li>Równania różniczkowe <ul> <li> Równania różniczkowe "
+"pierwszego rzędu</li><li>Równania różniczkowe drugiego rzędu</li><li> "
+"Autonomiczny układ równań</li> </ul> </li> <li>Równania i nierówności  "
+"<ul> <li>Bisekcja</li> <li>Układ nierówności (z jedną lub dwiema "
+"niewiadomymi)</li> </ul> </il> </ul> <span class=\"nadpis\">Wsparcie</span> "
+"<ul><li>Chcesz wesprzeć rozwój Matematycznego Asystenta Online? Chcesz "
+"wysłać nam trochę pieniędzy? Nie rób tego! Wesprzyj <a "
+"href=\"http://www.rednoses.eu/\"> Red noses clowndoctors</a>. </li> "
+"<li>Nadal chcesz nam pomóc? Korzystaj z naszych kalkulatorów i zgłaszaj "
+"problemy (jeśli jakieś wystąpią). Możesz także pobrać <a "
+"href=\"http://mathassistant.hg.sourceforge.net/hgweb/mathassistant\">źródła</a> "
+"i rozpocząć rozwój nowych funkcjonalności lub podobnych kalkulatorów. "
+"</li> </ul>"
+
+msgid "Local extrema in two variables"
+msgstr "Ekstrema lokalne funkcji dwóch zmiennych"
+
+msgid "Task for computation"
+msgstr "Zadanie do obliczenia"
+
+msgid "Hessian at stationary point"
+msgstr "Hesjan w punkcie stacjonarnym"
+
+msgid "Hessian at stationary points"
+msgstr "Hesjan w punktach stacjonarnych"
+
+msgid "MAW-minmax3d"
+msgstr ""
+"<br>W tym kalkulatorze możesz sprawdzić punkty stacjonarne funkcji dwóch "
+"zmiennych. Masz następujące możliwości:<ul><li>Znaleźć punkty "
+"stacjonarne, a następnie przekopiować otrzymany wynik celem dalszego "
+"sprawdzenia.</li><li>Sprawdzić istnienie i typ ekstremum dla podanych "
+"punktów. Użyj średnika do rozdzielenia punktów, przecinków do "
+"rozdzielenia współrzędnych.</li><li>Jeśli wybierzesz sprawdzanie tylko w "
+"jednym punkcie, to otrzymasz bardziej szczegółowe "
+"rozwiązanie.</li><li>Używamy prostego sprawdzenia czy punkt jest "
+"stacjonarny czy nie.</li></ul>"
+
+msgid "MAW-mnc"
+msgstr ""
+"<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
+"punkty średnikami. </li> </ul>"
+
+msgid "Ordinary differential equations"
+msgstr "Równania różniczkowe zwyczajne"
+
+msgid "Equation solved wrt y'"
+msgstr ""
+
+msgid "Full equation"
+msgstr "Pełne równanie"
+
+msgid "MAW-ode"
+msgstr ""
+"<ul><li>Ten kalkulator jest w stanie rozwiązać krok po kroku równania "
+"różniczkowe zwyczajne: o zmiennych rozdzielonych, jednorodne, zupełne, "
+"liniowe i Bernoulliego.</li><li>Musisz podać tylko prawą stronę równania "
+"różniczkowego. Jeśli potrzebujesz wyznaczyć <i>y'</i> z równania, "
+"skorzystaj z odpowiedniej opcji.</li> <li>Możesz także zapisać pełne "
+"równanie różniczkowe zwyczajne (wraz z y' i =) w drugim polu tekstowym. "
+"Równanie zostanie automatycznie rozwiązane ze względu na y', ale musisz "
+"sprawdzić czy wprowadzone przez Ciebie wyrażenie nie zawiera "
+"błędów.</li> <li>Problem znalezienia rozwiązania jest złożony. Jeśli "
+"otrzymałeś nieprawidłowy wynik, zgłoś błąd autorom.</li></ul>"
+
+msgid "Function calculator"
+msgstr "Kalkulator funkcji"
+
+msgid "MAW-prub"
+msgstr ""
+"<span style=\"font-weight: bold;\">Uwagi:</span><br> <ul><li> Jeżeli nie "
+"podasz jednej z wartości dla osi, zostaną one automatycznie wyznaczone. "
+"Jednakże, to nie jest dobry pomysł dla nieciągłych i szybko rosnących "
+"funkcji, gdzie funkcja osiąga bardzo duże wartości "
+"liczbowe.</li><li>Miejsca zerowe funkcji i pochodne funkcji są wyznaczane w "
+"zbiorze liczb zespolonych. Może to powodować utratę niektórych "
+"rzeczywistych miejsc zerowych, dlatego mogą one nie zostać uwzględnione w "
+"rozwiązaniu.</li></ul>"
+
+msgid "MAW-regula_falsi"
+msgstr ""
+
+msgid ""
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" "
+"target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr ""
+"autorzy: <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/tihlarik\" "
+"target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
 #, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "%sWersja offline%s jest również dostępna. Tłumacze projektu mile %s "
-        "widziani %s."
+msgid ""
+"%sOffline version%s is also available and translators are %s welcomed %s."
+msgstr ""
+"%sWersja offline%s jest również dostępna. Tłumacze projektu mile %s "
+"widziani %s."
 
-#: taylor.php:18
-msgid   "Degree of Taylor polynomial"
-msgstr  "Stopień wielomianu Taylora"
+msgid "Degree of Taylor polynomial"
+msgstr "Stopień wielomianu Taylora"
 
-#: taylor.php:21
-msgid   "Center of Taylor polynomial"
-msgstr  "Środek wielomianu Taylora"
+msgid "Center of Taylor polynomial"
+msgstr "Środek wielomianu Taylora"
 
-#: trap.php:3
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "Metoda trapezów (przybliżona wartość całki oznaczonej)"
+msgid "Trapezoidal rule (approximation for definite integral)"
+msgstr "Metoda trapezów (przybliżona wartość całki oznaczonej)"
 
-#: trap.php:25
-msgid   "Limits for integration"
-msgstr  "Granice całkowania"
+msgid "Limits for integration"
+msgstr "Granice całkowania"
 
-#: trap.php:29
-msgid   "lower limit"
-msgstr  "dolna granica"
+msgid "lower limit"
+msgstr "dolna granica"
 
-#: trap.php:33
-msgid   "upper limit"
-msgstr  "górna granica"
+msgid "upper limit"
+msgstr "górna granica"
 
-#: trap.php:36
-msgid   "intervals in partition"
-msgstr  "liczba podprzedziałów"
+msgid "intervals in partition"
+msgstr "liczba podprzedziałów"
 
-#: trap.php:44
-msgid   "MAW-trap"
-msgstr  "<ul> <li> Podaj funkcję, granice całkowania oraz liczbę "
-        "podprzedziałów (maksymalnie 20). Przybliżona wartość całki zostanie "
-        "obliczona przy pomocy metody trapezów, a celem porównania system "
-        "spróbuje wyznaczyć wartość całki zgodnie ze wzorem Newtona-Leibniza, "
-        "a także wykorzystując bardziej zaawansowaną metodą numeryczną.</"
-        "li>    <li>Jeśli liczba punktów jest mniejsza niż 10 i funkcje "
-        "przyjmuje wartości nieujemne w zadanym przedziale, to w rozwiązaniu "
-        "znajdzie się także wykres funkcji i trapezów.</li>       </ul>"
+msgid "MAW-trap"
+msgstr ""
+"<ul> <li> Podaj funkcję, granice całkowania oraz liczbę podprzedziałów "
+"(maksymalnie 20). Przybliżona wartość całki zostanie obliczona przy "
+"pomocy metody trapezów, a celem porównania system spróbuje wyznaczyć "
+"wartość całki zgodnie ze wzorem Newtona-Leibniza, a także wykorzystując "
+"bardziej zaawansowaną metodą numeryczną.</li>    <li>Jeśli liczba "
+"punktów jest mniejsza niż 10 i funkcje przyjmuje wartości nieujemne w "
+"zadanym przedziale, to w rozwiązaniu znajdzie się także wykres funkcji i "
+"trapezów.</li>       </ul>"
