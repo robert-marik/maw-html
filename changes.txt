@@ -22,8 +22,15 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
-year 2012
-* MAW vitrual machine updated to current version.
+January, February 2012
+* MAW vitrual machine updated to recent version.
+* Russian translation finished, thanks to the translators
+* Line integral added
+* Scripts for drawing regions redesigned (double integral, geometrical application of definite integral)
+* Functions sec and csc are also supported now
+* Entrans - web interface for translators
+* Many minor changes in input filters - catching more bad math constructions, 
+  highliting mismatched parentheses, ...
 
 year 2011
 * Several minor changes, see the logs at https://bitbucket.org/robert.marik/maw/changesets.
