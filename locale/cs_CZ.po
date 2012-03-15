@@ -1,18 +1,14 @@
-# translation of cs_CZ.po to 
-# translation of messages.po to
-# translation of messages.po to
-# Czech translations for PACKAGE package.
-# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Czech translations for MAW package.
+# Copyright (C) 2008-2012 Rbert Marik
+# This file is distributed under the same license as the MAW package.
 # Robert Marik <marik@mendelu.cz>, 2008.
-# Robert Marik <marik@carya>, 2009, 2010.
 #
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2010-08-31 13:56+0200\n"
-        "Last-Translator: Robert Marik <marik@carya>\n"
+        "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
         "Language: \n"
         "MIME-Version: 1.0\n"
@@ -136,22 +132,6 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené
         "derivací vypočtenou vnitřními mechanismy programu Maxima, takže "
         "výsledek určitě nebude špatně.</li> </ul>"
 
-msgid   "Domain of a function in two variables"
-msgstr  "Definiční obor funkce dvou proměnných"
-
-msgid   "limits for the picture with domain:"
-msgstr  "meze pro obrázek"
-
-msgid   "draw domain on the set"
-msgstr  "kreslit na čtverci"
-
-msgid   "MAW-df3d"
-msgstr  "<b>Poznámky</b><ul>  <li>Vyplňte funkční předpis pro funkci dvou "
-        "proměnných.</li> <li>Obrázek s definičním oborem sice bude kostrbatý "
-        "a nebude tam zaznačeno, která část hranice patří nebo nepatří do "
-        "definičního oboru, ale pro rychlou orientaci to určitě pomůže. "
-        "Můžete si zvolit mezi několika rozsahy pro kreslení.</li> </ul>"
-
 msgid   "Domain of a function in one variable"
 msgstr  "Definiční obor funkce jedné proměnné"
 
@@ -168,6 +148,22 @@ msgstr  "<b>Poznámky</b><ul><li>Ve výsledku není nijak zaznačeno, zda kraje 
         "snažíte zadat. Pokud zadáte funkci, která není nikde definovaná, "
         "zobrazí se jenom řešení dílčích podmínek ale celkový definiční obor "
         "(prázdná množina) se nezobrazí.</li></ul>"
+
+msgid   "Domain of a function in two variables"
+msgstr  "Definiční obor funkce dvou proměnných"
+
+msgid   "limits for the picture with domain:"
+msgstr  "meze pro obrázek"
+
+msgid   "draw domain on the set"
+msgstr  "kreslit na čtverci"
+
+msgid   "MAW-df3d"
+msgstr  "<b>Poznámky</b><ul>  <li>Vyplňte funkční předpis pro funkci dvou "
+        "proměnných.</li> <li>Obrázek s definičním oborem sice bude kostrbatý "
+        "a nebude tam zaznačeno, která část hranice patří nebo nepatří do "
+        "definičního oboru, ale pro rychlou orientaci to určitě pomůže. "
+        "Můžete si zvolit mezi několika rozsahy pro kreslení.</li> </ul>"
 
 msgid   "Switch to a compact design"
 msgstr  "Přepnout na kompaktní zobrazení"
@@ -471,30 +467,6 @@ msgstr  "<ul>    <li>Zapište do políčka nerovnice, vždy jednu nerovnici na "
         "checkbox aby se osa, která má delší délkovou jednotku, přeškálovala. "
         "</li> </ul>"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
-        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Osy (celá nebo desetinná čísla)"
-
-msgid   "Preview region of integration"
-msgstr  "Náhled oblasti integrace"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
-
-msgid   "MAW-int2"
-msgstr  "<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a "
-        "meze.</li> <li>Nezapomeňte, že vnější meze pro integraci musí být "
-        "konstanty a vnitřní meze nejvýše funkce té proměnné, která je "
-        "použita pro vnější integraci.</li> </ul>"
-
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -521,6 +493,9 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 msgstr  "přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
         "maxima_4.html#Item_003a-pfeformat\">pfeformat</a> (zrušte zatrhnutí, "
         "pokud při výpočtu obdržíte složené zlomky (se zlomkem v čitateli)) "
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zapsat funkce arcsinh a arctanh ekvivalentně pomocí logaritmů"
 
 msgid   "MAW-int"
 msgstr  "<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/"
@@ -554,6 +529,27 @@ msgstr  "<span class='red'>Podívejte se do naší  <a  href=\"integral_offline/
         "výpočtu) automaticky maže. Pokud použijete zobrazování matematiky "
         "pomocí mathTeXu, můžete si zdroják html stránky s dokončeným "
         "výpočtem uložit u sebe a budete to mít přístupné pořád.</li> </ul>"
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
+        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
+
+msgid   "Axes (decimal numbers)"
+msgstr  "Osy (celá nebo desetinná čísla)"
+
+msgid   "Preview region of integration"
+msgstr  "Náhled oblasti integrace"
+
+msgid   "MAW-int2"
+msgstr  "<b>Poznámky</b><ul><li>Zadejte funkci kterou chcete integrovat a "
+        "meze.</li> <li>Nezapomeňte, že vnější meze pro integraci musí být "
+        "konstanty a vnitřní meze nejvýše funkce té proměnné, která je "
+        "použita pro vnější integraci.</li> </ul>"
 
 msgid   "Data file"
 msgstr  "Soubor bodů"

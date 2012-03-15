@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2010-02-26 12:20+0100\n"
         "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -127,6 +127,15 @@ msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci
         "pochodnej funkcji jednej zmiennej, jak i pochodnej cząstkowej "
         "funkcji dwóch zmiennych.</li></ul>"
 
+msgid   "Domain of a function in one variable"
+msgstr  "Dziedzina funkcji jednej zmiennej"
+
+msgid   "Parameters"
+msgstr  "Parametry"
+
+msgid   "MAW-df"
+msgstr  " "
+
 msgid   "Domain of a function in two variables"
 msgstr  "Dziedzina funkcji dwóch zmiennych"
 
@@ -139,15 +148,6 @@ msgstr  "rysuj dziedzinę na zbiorze "
 msgid   "MAW-df3d"
 msgstr  "<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie "
         "dziedziny dla obrazka i Wyślij.</li> </ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  "Dziedzina funkcji jednej zmiennej"
-
-msgid   "Parameters"
-msgstr  "Parametry"
-
-msgid   "MAW-df"
-msgstr  " "
 
 msgid   "Switch to a compact design"
 msgstr  "Przełącz na wersję kompaktową"
@@ -348,7 +348,7 @@ msgid   "Autonomous system"
 msgstr  "Autonomiczny układ równań"
 
 msgid   "Regula falsi"
-msgstr  ""
+msgstr  "Reguła falsi"
 
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Układ nierówności z jedną lub dwiema niewiadomymi"
@@ -436,29 +436,6 @@ msgstr  "<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierównoś
         "drugą opcję. Ten wybór spowoduje przeskalowanie krótszej osi. </li> "
         "</ul>"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
-        "względem zmiennych"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
-        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt="
-        "\"phi\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Osie (liczby dziesiętne)"
-
-msgid   "Preview region of integration"
-msgstr  "Granice całkowania"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
-
-msgid   "MAW-int2"
-msgstr  " "
-
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -484,10 +461,33 @@ msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
         "maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli "
         "w funkcji podcałkowej będą występowały ułamki piętrowe)"
 
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
+
 msgid   "MAW-int"
 msgstr  "<span class='red'>Odwiedź naszą <a  href=\"integral_offline/"
         "\">galerię całek</a></span>. Jeśli chciałbyś dodać swoją całkę do "
         "galerii skontaktuj się z nami."
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
+        "względem zmiennych"
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
+        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt="
+        "\"phi\">."
+
+msgid   "Axes (decimal numbers)"
+msgstr  "Osie (liczby dziesiętne)"
+
+msgid   "Preview region of integration"
+msgstr  "Granice całkowania"
+
+msgid   "MAW-int2"
+msgstr  " "
 
 msgid   "Data file"
 msgstr  "Zbiór punktów"
@@ -646,7 +646,7 @@ msgid   "Ordinary differential equations"
 msgstr  "Równania różniczkowe zwyczajne"
 
 msgid   "Equation solved wrt y'"
-msgstr  ""
+msgstr  "Równanie rozwiązane względem y'"
 
 msgid   "Full equation"
 msgstr  "Pełne równanie"

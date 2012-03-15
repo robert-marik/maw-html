@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -126,6 +126,15 @@ msgstr  "<ul><li>Enter a function and click Submit. You get the computation "
         "differentiate both functions in one variable and function in two "
         "variables.</li></ul>"
 
+msgid   "Domain of a function in one variable"
+msgstr  ""
+
+msgid   "Parameters"
+msgstr  ""
+
+msgid   "MAW-df"
+msgstr  " "
+
 msgid   "Domain of a function in two variables"
 msgstr  ""
 
@@ -138,15 +147,6 @@ msgstr  ""
 msgid   "MAW-df3d"
 msgstr  "<ul> <li>Write a function in two variables into the field, choose "
         "the bounds for the picture and click Submit.</li> </ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  ""
-
-msgid   "Parameters"
-msgstr  ""
-
-msgid   "MAW-df"
-msgstr  " "
 
 msgid   "Switch to a compact design"
 msgstr  ""
@@ -421,26 +421,6 @@ msgstr  "<br> <ul>   <li>Enter you inequalities into the text field. Write "
         "units on both axes, use the second check-box. This choice rescales "
         "the shorter axis. </li> </ul>"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  ""
-
-msgid   "Axes (decimal numbers)"
-msgstr  ""
-
-msgid   "Preview region of integration"
-msgstr  ""
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
-
-msgid   "MAW-int2"
-msgstr  ""
-
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -458,10 +438,30 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "get composite fractions (with fraction in numerator))"
 msgstr  ""
 
+msgid   "write acsinh and atanh in terms of log"
+msgstr  ""
+
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visit our <a  href=\"integral_offline/\">integral "
         "gallery</a>.</span> Feel free to contact us with request to add your "
         "integral into this gallery."
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  ""
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  ""
+
+msgid   "Axes (decimal numbers)"
+msgstr  ""
+
+msgid   "Preview region of integration"
+msgstr  ""
+
+msgid   "MAW-int2"
+msgstr  ""
 
 msgid   "Data file"
 msgstr  ""

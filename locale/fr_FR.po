@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: MAW\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2010-04-18 13:12+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team: marti RA <marti.ruizaltaba@gmail.com>\n"
@@ -133,6 +133,15 @@ msgstr  "<ul><li>Entrez une fonction et cliquez Envoyer. Vous recevrez sa "
         "dérivée en format PDF. </li><li>Ce formulaire vous permet de dériver "
         "des fonctions à une ou en deux variables.</li></ul>"
 
+msgid   "Domain of a function in one variable"
+msgstr  "Domaine de définition de la fonction  à une variable"
+
+msgid   "Parameters"
+msgstr  "Paramètres"
+
+msgid   "MAW-df"
+msgstr  " "
+
 msgid   "Domain of a function in two variables"
 msgstr  "Domaine de définition de la fonction à deux variables"
 
@@ -145,15 +154,6 @@ msgstr  "dessine le domaine de définition"
 msgid   "MAW-df3d"
 msgstr  "<ul> <li>Entrez une fonction à deux variables, choisissez les bords "
         "du graphique et cliquez Envoyer.</li> </ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  "Domaine de définition de la fonction  à une variable"
-
-msgid   "Parameters"
-msgstr  "Paramètres"
-
-msgid   "MAW-df"
-msgstr  " "
 
 msgid   "Switch to a compact design"
 msgstr  ""
@@ -453,30 +453,6 @@ msgstr  "<br> <ul> <li>Entrez vos inéquations dans le formulaire. Écrivez-y "
         "d'échelle 10:7 et pour y obtenir des axes orthonormés, sélectionnez "
         "le deuxième petit carré (l'axe plus curt retrécira). </li> </ul>"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Entrons une fonction, puis choisissons les variables d'intégration "
-        "et l'ordre dans lequel il faut les intégrer"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "Le jacobien est rajouté automatiquement en coordonnées polaires. "
-        "Écrivez <b>phi</b> pour la variable angulaire <img src=\"phi.png\" "
-        "alt=\"phi\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Axes (nombres décimals)"
-
-#, fuzzy
-msgid   "Preview region of integration"
-msgstr  "Limites de l'intégrale"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "écrire arcsinh et arctanh en termes de log"
-
-msgid   "MAW-int2"
-msgstr  ""
-
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -502,10 +478,34 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> (décochez-le si vous "
         "obtenez des tours de fractions, avec des fractions au numérateur)"
 
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "écrire arcsinh et arctanh en termes de log"
+
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visitez la <a  href=\"integral_offline/\">galerie "
         "d'intégrales</a></span>. Si vous voulez y rajouter une intégrale à "
         "vous, contactez-nous et nous le ferons volontiers."
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Entrons une fonction, puis choisissons les variables d'intégration "
+        "et l'ordre dans lequel il faut les intégrer"
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "Le jacobien est rajouté automatiquement en coordonnées polaires. "
+        "Écrivez <b>phi</b> pour la variable angulaire <img src=\"phi.png\" "
+        "alt=\"phi\">."
+
+msgid   "Axes (decimal numbers)"
+msgstr  "Axes (nombres décimals)"
+
+#, fuzzy
+msgid   "Preview region of integration"
+msgstr  "Limites de l'intégrale"
+
+msgid   "MAW-int2"
+msgstr  ""
 
 msgid   "Data file"
 msgstr  "Fichier de données"

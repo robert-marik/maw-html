@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-05 11:17+0100\n"
+        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
         "PO-Revision-Date: 2012-02-12 21:16+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -127,6 +127,15 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入�
         "览，也可能显示下载窗口。请确保计算机中拥有 PDF阅读器。</li><li>你可以"
         "在本页面中求解一元或者二元函数的导数。"
 
+msgid   "Domain of a function in one variable"
+msgstr  "一元函数的定义域"
+
+msgid   "Parameters"
+msgstr  "参数"
+
+msgid   "MAW-df"
+msgstr  " "
+
 msgid   "Domain of a function in two variables"
 msgstr  "二元函数的定义域"
 
@@ -139,15 +148,6 @@ msgstr  "图像绘制坐标界限为"
 msgid   "MAW-df3d"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
         "中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  "一元函数的定义域"
-
-msgid   "Parameters"
-msgstr  "参数"
-
-msgid   "MAW-df"
-msgstr  " "
 
 msgid   "Switch to a compact design"
 msgstr  "切换至精简视图"
@@ -425,27 +425,6 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文�
         "为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将"
         "被扩大。</li> </ul>"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "输入函数，选择变量和积分顺序"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "极坐标下的雅可比行列式会自动添加。极坐标变量 <img src=\"phi.png\" "
-        "alt=\"phi\"> 可以写为 <b>phi</b> 。"
-
-msgid   "Axes (decimal numbers)"
-msgstr  "积分区间（可用小数）"
-
-msgid   "Preview region of integration"
-msgstr  "预览积分界限"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
-
-msgid   "MAW-int2"
-msgstr  "MAW-int2"
-
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
@@ -469,8 +448,29 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
         "不要勾选此项）"
 
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
+
 msgid   "MAW-int"
 msgstr  "MAW-int"
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "输入函数，选择变量和积分顺序"
+
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "极坐标下的雅可比行列式会自动添加。极坐标变量 <img src=\"phi.png\" "
+        "alt=\"phi\"> 可以写为 <b>phi</b> 。"
+
+msgid   "Axes (decimal numbers)"
+msgstr  "积分区间（可用小数）"
+
+msgid   "Preview region of integration"
+msgstr  "预览积分界限"
+
+msgid   "MAW-int2"
+msgstr  "MAW-int2"
 
 msgid   "Data file"
 msgstr  "数据"
