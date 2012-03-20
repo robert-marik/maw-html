@@ -52,7 +52,7 @@ dt
 ?>
 
 <br>
-<input name="logarc" type="checkbox"  checked="checked"> 
+<input name="logarc" type="checkbox"> 
 	<?php echo __('write acsinh and atanh in terms of log');?>
 </fieldset>
 <br>
