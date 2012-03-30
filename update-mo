@@ -1,6 +1,6 @@
 cd ./locale
 
-for i in "ca_ES" "cs_CZ" "pl_PL" "en_US" "fr_FR" "zh_CN" "ru_RU" "de_DE" "it_IT"
+for i in "ca_ES" "cs_CZ" "pl_PL" "en_US" "fr_FR" "zh_CN" "ru_RU" "de_DE" "it_IT" "uk_UA"
 do
     echo "Updating $i language"
     msgfmt $i.po --output-file $i.mo

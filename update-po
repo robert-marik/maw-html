@@ -8,5 +8,6 @@ msgmerge -U -N locale/zh_CN.po messages.po
 msgmerge -U -N locale/ru_RU.po messages.po
 msgmerge -U -N locale/de_DE.po messages.po
 msgmerge -U -N locale/it_IT.po messages.po
+msgmerge -U -N locale/uk_UA.po messages.po
 
 

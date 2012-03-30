@@ -27,7 +27,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="/maw";
 $lang = "en"; $locale_file = "en_US";
-$lang_array=Array("cz","en","pl","ca","zh","fr","ru","de", "it");
+$lang_array=Array("cz","en","pl","ca","zh","fr","ru","de", "it", "ua");
 
 $custom_between_flags="";
 
@@ -67,6 +67,7 @@ if ($reqlang == "zh") { $lang = "zh"; $locale_file = "zh_CN"; }
 if ($reqlang == "ru") { $lang = "ru"; $locale_file = "ru_RU"; }
 if ($reqlang == "de") { $lang = "de"; $locale_file = "de_DE"; }
 if ($reqlang == "it") { $lang = "it"; $locale_file = "it_IT"; }
+if ($reqlang == "ua") { $lang = "ua"; $locale_file = "uk_UA"; }
 
 $locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
