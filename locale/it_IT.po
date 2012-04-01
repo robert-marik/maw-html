@@ -19,581 +19,742 @@ msgstr  "Project-Id-Version: messages\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
 
-msgid   "Singular points of autonomous systems"
-msgstr  "Punti singolari di sistemi autonomi"
+#: autsyst.php:3
+msgid "Singular points of autonomous systems"
+msgstr "Punti singolari di sistemi autonomi"
 
-msgid   "Editor"
-msgstr  "Editor"
+#: autsyst.php:42 autsyst.php:50 banach.php:29 bisection.php:30
+#: derivace.php:16 df.php:12 df3d.php:14 geom.php:21 geom.php:29
+#: integral.php:28 integral2.php:46 lde2.php:19 minmax3d.php:41 ode.php:34
+#: prubeh.php:33 regula_falsi.php:30 taylor.php:14 trap.php:19
+msgid "Editor"
+msgstr "Editor"
 
-msgid   "Preview"
-msgstr  "Preview"
+#: autsyst.php:44 autsyst.php:52 banach.php:30 bisection.php:31
+#: derivace.php:17 df.php:14 df3d.php:16 geom.php:22 geom.php:30 graf.php:16
+#: integral.php:29 integral2.php:47 lde2.php:20 lineintegral.php:117
+#: minmax3d.php:43 ode.php:35 ode.php:42 prubeh.php:34 regula_falsi.php:31
+msgid "Preview"
+msgstr "Preview"
 
-msgid   "What to do"
-msgstr  "Che cosa fare"
+#: autsyst.php:58
+msgid "What to do"
+msgstr "Che cosa fare"
 
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "Determinare la matrice Jacobiana in un punto stazionario"
+#: autsyst.php:61
+msgid "find Jacobi matrix at stationary point"
+msgstr "Determinare la matrice Jacobiana in un punto stazionario"
 
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "usare il computer per trovare il primo punto stazionario (il "
-        "procedimento può fallire nella ricerca di tutti i punti stazionari)"
+#: autsyst.php:72 minmax3d.php:74
+msgid "use computer to find stationary points first (this may fail to find all stationary points, however)"
+msgstr ""
+"usare il computer per trovare il primo punto stazionario (il procedimento può fallire nella ricerca di tutti i punti "
+"stazionari)"
 
-msgid   "MAW-autsyst"
-msgstr  "MAW-autsyst"
+#: autsyst.php:80
+msgid "MAW-autsyst"
+msgstr "MAW-autsyst"
 
-msgid   "Method of iterations"
-msgstr  "metodo di iterazione"
+#: banach.php:2 index.php:425
+msgid "Method of iterations"
+msgstr "metodo di iterazione"
 
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "Inserire la funzione, un intervallo contenente un punto fisso e il "
-        "numero di passi."
+#: banach.php:23
+msgid "Enter function, interval containing  fixed point and number of steps."
+msgstr "Inserire la funzione, un intervallo contenente un punto fisso e il numero di passi."
 
-msgid   "Function"
-msgstr  "Funzione"
+#: banach.php:27 bisection.php:28 derivace.php:11 df.php:9 df3d.php:11
+#: graf.php:11 integral.php:12 minmax3d.php:38 prubeh.php:26
+#: regula_falsi.php:28 taylor.php:11 trap.php:14
+msgid "Function"
+msgstr "Funzione"
 
-msgid   "Interval from "
-msgstr  "Intervallo da"
+#: banach.php:34
+msgid "Interval from "
+msgstr "Intervallo da"
 
-msgid   "to"
-msgstr  "A"
+#: banach.php:36 bisection.php:37 regula_falsi.php:37
+msgid "to"
+msgstr "A"
 
-msgid   "(integers or decimal numbers)"
-msgstr  "(numeri interi o decimali)"
+#: banach.php:38 bisection.php:39 regula_falsi.php:39
+msgid "(integers or decimal numbers)"
+msgstr "(numeri interi o decimali)"
 
-msgid   "Number of steps "
-msgstr  "Numero di passi"
+#: banach.php:42 bisection.php:43 regula_falsi.php:43
+msgid "Number of steps "
+msgstr "Numero di passi"
 
-msgid   "(integer between 2  and 40)"
-msgstr  "(numeri interi tra 2 e 40)"
+#: banach.php:44
+msgid "(integer between 2  and 40)"
+msgstr "(numeri interi tra 2 e 40)"
 
-msgid   "Initial approximation"
-msgstr  "Approssimazione iniziale"
+#: banach.php:47
+msgid "Initial approximation"
+msgstr "Approssimazione iniziale"
 
-msgid   "(integer or decimal number)"
-msgstr  "(numero intero o decimale)"
+#: banach.php:49
+msgid "(integer or decimal number)"
+msgstr "(numero intero o decimale)"
 
-msgid   "MAW-banach"
-msgstr  "MAW-banach"
+#: banach.php:56
+msgid "MAW-banach"
+msgstr "MAW-banach"
 
-msgid   "Bisection"
-msgstr  "bisezione"
+#: bisection.php:2 index.php:423
+msgid "Bisection"
+msgstr "bisezione"
 
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Inserire la funzione, un intervallo contenente lo zero e il numero "
-        "di passi."
+#: bisection.php:24 regula_falsi.php:24
+msgid "Enter function, interval containing zero and number of steps."
+msgstr "Inserire la funzione, un intervallo contenente lo zero e il numero di passi."
 
-msgid   "Interval from"
-msgstr  "Intervallo da"
+#: bisection.php:35 regula_falsi.php:35
+msgid "Interval from"
+msgstr "Intervallo da"
 
-msgid   "(integer between 2 and 40)"
-msgstr  "(numero naturale tra 2 e 40"
+#: bisection.php:45 regula_falsi.php:45
+msgid "(integer between 2 and 40)"
+msgstr "(numero naturale tra 2 e 40"
 
-msgid   "MAW-bisection"
-msgstr  "MAW-bisection"
+#: bisection.php:58
+msgid "MAW-bisection"
+msgstr "MAW-bisection"
 
-msgid   "Derivative and partial derivative"
-msgstr  "Derivata e derivata parziale"
+#: derivace.php:2 index.php:402
+msgid "Derivative and partial derivative"
+msgstr "Derivata e derivata parziale"
 
-msgid   "automatically use linearity of derivative"
-msgstr  "Usa automaticamente la linearità della derivata"
+#: derivace.php:22
+msgid "automatically use linearity of derivative"
+msgstr "Usa automaticamente la linearità della derivata"
 
-msgid   "automatically differentiate constants"
-msgstr  "Deriva automaticamente le costanti"
+#: derivace.php:25
+msgid "automatically differentiate constants"
+msgstr "Deriva automaticamente le costanti"
 
-msgid   "The type of the derivative"
-msgstr  "Il tipo di derivata"
+#: derivace.php:30
+msgid "The type of the derivative"
+msgstr "Il tipo di derivata"
 
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "Derivata ordinaria (funzione di una variabile)"
+#: derivace.php:33
+msgid "Ordinary derivative (function in one variable)"
+msgstr "Derivata ordinaria (funzione di una variabile)"
 
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "Derivata parziale rispetto a <i>x</i> (funzioni di due variabili)"
+#: derivace.php:36
+msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
+msgstr "Derivata parziale rispetto a <i>x</i> (funzioni di due variabili)"
 
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "Derivata parziale rispetto a <i>y</i> (funzioni di due variabili)"
+#: derivace.php:39
+msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
+msgstr "Derivata parziale rispetto a <i>y</i> (funzioni di due variabili)"
 
-msgid   "MAW-der"
-msgstr  "MAW-der"
+#: derivace.php:47
+msgid "MAW-der"
+msgstr "MAW-der"
 
-msgid   "Domain of a function in one variable"
-msgstr  "Dominio di una funzione in una variabile"
+#: df.php:2
+msgid "Domain of a function in one variable"
+msgstr "Dominio di una funzione in una variabile"
 
-msgid   "Parameters"
-msgstr  "Parametri"
+#: df.php:21 geom.php:52 integral.php:34 lineintegral.php:81
+msgid "Parameters"
+msgstr "Parametri"
 
-msgid   "MAW-df"
-msgstr  "MAW-df "
+#: df.php:36
+msgid "MAW-df"
+msgstr "MAW-df "
 
-msgid   "Domain of a function in two variables"
-msgstr  "Dominio di una funzione in due variabili"
+#: df3d.php:3
+msgid "Domain of a function in two variables"
+msgstr "Dominio di una funzione in due variabili"
 
-msgid   "limits for the picture with domain:"
-msgstr  ""
+#: df3d.php:22
+msgid "limits for the picture with domain:"
+msgstr ""
 
-msgid   "draw domain on the set"
-msgstr  ""
+#: df3d.php:27 df3d.php:29 df3d.php:31
+msgid "draw domain on the set"
+msgstr ""
 
-msgid   "MAW-df3d"
-msgstr  "MAW-df3d"
+#: df3d.php:44
+msgid "MAW-df3d"
+msgstr "MAW-df3d"
 
-msgid   "Switch to a compact design"
-msgstr  ""
+#: dummy.php:6 mawconfightml.php:60
+msgid "Switch to a compact design"
+msgstr ""
 
-msgid   "Showcase"
-msgstr  ""
+#: dummy.php:7
+msgid "Showcase"
+msgstr ""
 
-msgid   "Switch to a full design"
-msgstr  ""
+#: dummy.php:8 mawconfightml.php:48
+msgid "Switch to a full design"
+msgstr ""
 
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  "Ti abbiamo aiutato a risolvere il tuo problema matematico? Ti "
-        "abbiamo fatto risparmiare tempo? Se è così, prendi in considerazione "
-        "l'idea di fare una donazione a <a href=\"http://www.unicef.org/"
-        "\">Fondazione UNICEF</a>"
+#: dummy.php:9
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, consider to send some money to <a "
+"href=\"http://www.unicef.org/\">UNICEF foundation.</a>"
+msgstr ""
+"Ti abbiamo aiutato a risolvere il tuo problema matematico? Ti abbiamo fatto risparmiare tempo? Se è così, prendi in "
+"considerazione l'idea di fare una donazione a <a href=\"http://www.unicef.org/\">Fondazione UNICEF</a>"
 
-msgid   "Definite integral in geometry"
-msgstr  "Integrale definito in geometria"
+#: geom.php:2
+msgid "Definite integral in geometry"
+msgstr "Integrale definito in geometria"
 
-msgid   "Formulation of the problem"
-msgstr  "Formulazione del problema"
+#: geom.php:12
+msgid "Formulation of the problem"
+msgstr "Formulazione del problema"
 
-msgid   "Curves on boundary"
-msgstr  "Curve sulla frontiera"
+#: geom.php:14
+msgid "Curves on boundary"
+msgstr "Curve sulla frontiera"
 
-msgid   "Upper bound"
-msgstr  "Limite superiore"
+#: geom.php:18
+msgid "Upper bound"
+msgstr "Limite superiore"
 
-msgid   "Lower bound"
-msgstr  "Limite inferiore"
+#: geom.php:26
+msgid "Lower bound"
+msgstr "Limite inferiore"
 
-msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
-        "of both curves by choosing \"intercepts\" in parameters for "
-        "computation)</small>"
-msgstr  ""
+#: geom.php:36
+msgid ""
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both curves by choosing \"intercepts\" in "
+"parameters for computation)</small>"
+msgstr ""
 
-msgid   "lower bound"
-msgstr  "limite inferiore"
+#: geom.php:41
+msgid "lower bound"
+msgstr "limite inferiore"
 
-msgid   "upper bound"
-msgstr  "limite superiore"
+#: geom.php:45
+msgid "upper bound"
+msgstr "limite superiore"
 
-msgid   "Action"
-msgstr  "Azione"
+#: geom.php:54
+msgid "Action"
+msgstr "Azione"
 
+#: geom.php:59
 #, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "Trovare l'area della regione compresa tra due curve e disegnare il "
-        "grafico"
+msgid "Find %s area %s between two curves and draw graph."
+msgstr "Trovare l'area della regione compresa tra due curve e disegnare il grafico"
 
+#: geom.php:65
 #, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "Trovare il volume di un solido di rotazione e disegnare il grafico"
+msgid "Find %s volume %s of solid of revolution and draw graph"
+msgstr "Trovare il volume di un solido di rotazione e disegnare il grafico"
 
-msgid   "preview solid of revolution"
-msgstr  "preview di un solido di rotazione"
+#: geom.php:70
+msgid "preview solid of revolution"
+msgstr "preview di un solido di rotazione"
 
+#: geom.php:72
 #, fuzzy
-msgid   "show colors, no mesh"
-msgstr  "mostra i colori, non le griglie"
+msgid "show colors, no mesh"
+msgstr "mostra i colori, non le griglie"
 
-msgid   "hide invisible parts"
-msgstr  "Nascondere le parti non visibili"
+#: geom.php:74
+msgid "hide invisible parts"
+msgstr "Nascondere le parti non visibili"
 
-msgid   "Find intercepts of curves"
-msgstr  "Trovare le intercette delle curve"
+#: geom.php:80
+msgid "Find intercepts of curves"
+msgstr "Trovare le intercette delle curve"
 
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Limiti della figura (in numeri decimali)"
+#: geom.php:82
+msgid "Bounds for the picture (decimal numbers)"
+msgstr "Limiti della figura (in numeri decimali)"
 
-msgid   "MAW-geom"
-msgstr  "MAW-geom"
+#: geom.php:111
+msgid "MAW-geom"
+msgstr "MAW-geom"
 
-msgid   "Graphs of elementary functions"
-msgstr  "Grafici di funzioni elementari"
+#: graf.php:2 index.php:394
+msgid "Graphs of elementary functions"
+msgstr "Grafici di funzioni elementari"
 
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  "(la funzione deve essere o una funzione elementare o una funzione "
-        "che può essere ottenuta da una funzione elementare mediante una "
-        "traslazione o ridimensionamento del grafico)"
+#: graf.php:20
+msgid ""
+"(the function must either a basic elementary function of a function which can be obtained from on of basic elementary "
+"functions by shifting and resizing graph)"
+msgstr ""
+"(la funzione deve essere o una funzione elementare o una funzione che può essere ottenuta da una funzione elementare "
+"mediante una traslazione o ridimensionamento del grafico)"
 
-msgid   "Bounds for axes"
-msgstr  "Limiti per gli assi"
+#: graf.php:25
+msgid "Bounds for axes"
+msgstr "Limiti per gli assi"
 
-msgid   "show grid"
-msgstr  "Mostra la griglia"
+#: graf.php:37
+msgid "show grid"
+msgstr "Mostra la griglia"
 
-msgid   "Logarithm"
-msgstr  "Logaritmo"
+#: graf.php:44
+msgid "Logarithm"
+msgstr "Logaritmo"
 
-msgid   "If the input contains logarithm, use"
-msgstr  "Se l'input contiene logaritmi, usa"
+#: graf.php:45
+msgid "If the input contains logarithm, use"
+msgstr "Se l'input contiene logaritmi, usa"
 
-msgid   "natural log"
-msgstr  "Logaritmo naturale"
+#: graf.php:48
+msgid "natural log"
+msgstr "Logaritmo naturale"
 
-msgid   "log with base"
-msgstr  "Logaritmo in base"
+#: graf.php:51
+msgid "log with base"
+msgstr "Logaritmo in base"
 
-msgid   "MAW-graf"
-msgstr  "MAW-graf"
+#: graf.php:61
+msgid "MAW-graf"
+msgstr "MAW-graf"
 
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "Cliccando questo bottone, puoi vedere come formconv rende la tua "
-        "espressione e come inserirla nella notazione di Maxima (puoi usare "
-        "copia e incolla per trasferirla nel modulo)."
+#: index.php:122
+msgid ""
+"Clicking this button you get how formconv renders your expression and how you can enter this expression in Maxima "
+"notation (you can use copy and paste to transfer to the form.)"
+msgstr ""
+"Cliccando questo bottone, puoi vedere come formconv rende la tua espressione e come inserirla nella notazione di Maxima "
+"(puoi usare copia e incolla per trasferirla nel modulo)."
 
+#: index.php:131
 #, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  "Il tuo input viene processato. Aspetta qualche secondo per vedere "
-        "l'output. Clicca qui per riaprire il form che è stato inviato."
-
-msgid   "History"
-msgstr  "Storia"
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "Mathematical Assistant on Web"
-
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "Devi attivare i Javascript per vedere le informazioni nelle finestre "
-        "popup"
-
-msgid   "More languages"
-msgstr  "Più lingue"
-
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
-
-msgid   "Support from MAW forum"
-msgstr  "Supporto dal forum di MAW"
-
-msgid   "Changelog"
-msgstr  "Changelog"
-
-msgid   "Known bugs"
-msgstr  "Bachi noti"
-
-msgid   "Submit"
-msgstr  "Invia"
-
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Cliccare una volta sola e attendere qualche secondo per la risposta!"
-
-msgid   "Domain of functions (one variable)"
-msgstr  "Dominio di funzioni (una variabile)"
-
-msgid   "Domain of functions (two variables)"
-msgstr  "Dominio di funzioni (due variabili)"
-
-msgid   "Lagrange polynomial"
-msgstr  "Polinomio di Lagrange"
-
-msgid   "Least squares method"
-msgstr  "Metodo dei minimi quadrati"
-
-msgid   "Investigating functions"
-msgstr  ""
-
-msgid   "Taylor polynomial"
-msgstr  "Polinomio di Taylor"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "Massimi e minimi locali in due variabili"
-
-msgid   "Antiderivative"
-msgstr  "Antiderivata"
-
-msgid   "Geometrical applications of definite integral"
-msgstr  "Applicazioni geometriche dell'integrale definito"
-
-msgid   "Trapezoidal rule"
-msgstr  "Regola dei trapezi"
-
-msgid   "Double integral"
-msgstr  "Integrale doppio"
-
-msgid   "Line integral"
-msgstr  "Integrale di linea"
-
-msgid   "First order ODE"
-msgstr  "Equazione differenziale del primo ordine"
-
-msgid   "Second order LDE"
-msgstr  "Equazione differenziale lineare del secondo ordine"
-
-msgid   "Autonomous system"
-msgstr  "Sistema autonomo"
-
-msgid   "Regula falsi"
-msgstr  ""
-
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Sistema di disequazioni (in una o due variabili)"
-
-msgid   "Introduction"
-msgstr  "Introduzione"
-
-msgid   "Precalculus"
-msgstr  "Nozioni preliminari di Analisi Matematica"
-
-msgid   "Calculus"
-msgstr  "Analisi Matematica"
-
-msgid   "Integral calculus"
-msgstr  "Calcolo integrale"
-
-msgid   "Differential equations"
-msgstr  "Equazioni differenziali"
-
-msgid   "Equations and inequalities"
-msgstr  "Equazioni e disequazioni"
-
-msgid   "Site map, support"
-msgstr  "Mappa del sito, supporto"
-
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  ""
-
-msgid   "Choose the field of your interest in the menu and then choose the "
-        "particular calculator depending on the problem you wish to solve."
-        "<br>These calculators are able to solve the problems including step "
-        "by step solution.<br>The calculators are divided into several "
-        "groups, the description is available if you move your mouse on the "
-        "name of each group (the first row of the menu)."
-msgstr  ""
-
-msgid   "Inequalities"
-msgstr  "Disequazioni"
-
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "leggere i commenti sotto il modulo per capire quali disuguaglianze "
-        "possono essere risolte."
-
-msgid   "suppose x,y>0"
-msgstr  "Supporre x,y>0"
-
-msgid   "draw labels on axes, not on boundary"
-msgstr  ""
-
-msgid   "use high quality output in PDF"
-msgstr  "usare un output di alta qualità nel PDF"
-
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "e cambiare i limiti per ottenere la stessa unità di misura su "
-        "entrambi gli assi."
-
-msgid   "Axes"
-msgstr  "Assi"
-
-msgid   "MAW-ineq2d"
-msgstr  ""
-
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "usare <a href=\"http://formconv.sourceforge.net/\">formconv</a> per "
-        "convertire le espressioni matematiche (questo permette di scrivere "
-        "2x anziché 2*x)"
-
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "usare \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per "
-        "scrivere formule su una pagina html invece di \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        " (l'output è migliore ma la visualizzazione può essere lenta)\n"
-
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  ""
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "Scrivere acsinh e atanh usando i logaritmi"
-
-msgid   "MAW-int"
-msgstr  "<span class='red'>visita la nostra <a  href=\"integral_offline/"
-        "\">galleria di integrali</a>.</span> Contattaci per chiedere di "
-        "aggiungere il tuo integrale a questa galleria."
-
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Inserire la funzione e scegliere le variabili e l'ordine di "
-        "integrazione"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "La matrice Jacobiana in coordinate polari viene scritta "
-        "automaticamente. Puoi scrivere <b>phi</b> per la variabile polare "
-        "<img src=\"phi.png\" alt=\"phi\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Assi (numeri decimali)"
-
-msgid   "Preview region of integration"
-msgstr  "Anteprima della regione di integrazione."
-
-msgid   "MAW-int2"
-msgstr  ""
-
-msgid   "Data file"
-msgstr  ""
-
-msgid   "MAW-lagr"
-msgstr  ""
-
-msgid   "Second order linear differential equations"
-msgstr  "Equazioni differenziali lineari del secondo ordine"
-
-msgid   "Equation"
-msgstr  "Equazione"
-
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  ""
-
-msgid   "Method"
-msgstr  "Metodo"
-
-msgid   "variation of constants"
-msgstr  "Variazione delle costanti"
-
-msgid   "undetermined coefficients"
-msgstr  "coefficienti indeterminati"
-
-msgid   "solve also initial value problem"
-msgstr  "risolvere anche il problema a valori iniziali"
-
-msgid   "MAW-lde2"
-msgstr  ""
-
-msgid   "Integral of a scalar field"
-msgstr  "Integrale di un campo scalare"
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-
-msgid   "Integral of a vector field"
-msgstr  "Integrale di un campo vettoriale"
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  "Lascia vuoto l'ultimo campo per gli integrali in R^2"
-
-msgid   "line integral in 2D"
-msgstr  "integrali di linea in R^2"
-
-msgid   "line integral in 3D"
-msgstr  "Integrali di linea in R^3"
-
-msgid   "Curve"
-msgstr  "Curva"
-
-msgid   "Parameter bounds"
-msgstr  "Limiti dei parametri"
-
-msgid   "MAW-lineint"
-msgstr  "MAW-lineint"
-
-msgid   "MAW-main"
-msgstr  ""
-
-msgid   "MAW-map"
-msgstr  ""
-
-msgid   "Local extrema in two variables"
-msgstr  "Estremi locali in due variabili"
-
-msgid   "Task for computation"
-msgstr  ""
-
-msgid   "Hessian at stationary point"
-msgstr  "Hessiano in un punto stazionario"
-
-msgid   "Hessian at stationary points"
-msgstr  "Hessiano nei punti stazionari "
-
-msgid   "MAW-minmax3d"
-msgstr  ""
-
-msgid   "MAW-mnc"
-msgstr  ""
-
-msgid   "Ordinary differential equations"
-msgstr  "Equazioni differenziali ordinarie"
-
-msgid   "Equation solved wrt y'"
-msgstr  "equazione in forma esplicita"
-
-msgid   "Full equation"
-msgstr  "Equazione completa"
-
-msgid   "MAW-ode"
-msgstr  ""
-
-msgid   "Function calculator"
-msgstr  ""
-
-msgid   "MAW-prub"
-msgstr  ""
-
-msgid   "MAW-regula_falsi"
-msgstr  "MAW-regula_falsi"
-
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "scritto da <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
+msgid ""
+"Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been "
+"submited."
+msgstr ""
+"Il tuo input viene processato. Aspetta qualche secondo per vedere l'output. Clicca qui per riaprire il form che è "
+"stato inviato."
+
+#: index.php:138
+msgid "History"
+msgstr "Storia"
+
+#: index.php:171 index.php:296
+msgid "Mathematical Assistant on Web"
+msgstr "Mathematical Assistant on Web"
+
+#: index.php:244
+msgid "You should turn JavaScript on to see popup informations."
+msgstr "Devi attivare i Javascript per vedere le informazioni nelle finestre popup"
+
+#: index.php:263
+msgid "More languages"
+msgstr "Più lingue"
+
+#: index.php:278 index.php:279
+msgid "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr "http://sourceforge.net/apps/phpbb/mathassistant"
+
+#: index.php:279
+msgid "Support from MAW forum"
+msgstr "Supporto dal forum di MAW"
+
+#: index.php:281
+msgid "Changelog"
+msgstr "Changelog"
+
+#: index.php:283
+msgid "Known bugs"
+msgstr "Bachi noti"
+
+#: index.php:346
+msgid "Submit"
+msgstr "Invia"
+
+#: index.php:346
+msgid "Click only once and wait few seconds for the answer!"
+msgstr "Cliccare una volta sola e attendere qualche secondo per la risposta!"
+
+#: index.php:395
+msgid "Domain of functions (one variable)"
+msgstr "Dominio di funzioni (una variabile)"
+
+#: index.php:396
+msgid "Domain of functions (two variables)"
+msgstr "Dominio di funzioni (due variabili)"
+
+#: index.php:397 lagrange.php:3
+msgid "Lagrange polynomial"
+msgstr "Polinomio di Lagrange"
+
+#: index.php:398 mnc.php:3
+msgid "Least squares method"
+msgstr "Metodo dei minimi quadrati"
+
+#: index.php:403
+msgid "Investigating functions"
+msgstr ""
+
+#: index.php:404 taylor.php:3
+msgid "Taylor polynomial"
+msgstr "Polinomio di Taylor"
+
+#: index.php:405
+msgid "Local maxima and minima in two variables"
+msgstr "Massimi e minimi locali in due variabili"
+
+#: index.php:409 integral.php:2
+msgid "Antiderivative"
+msgstr "Antiderivata"
+
+#: index.php:410
+msgid "Geometrical applications of definite integral"
+msgstr "Applicazioni geometriche dell'integrale definito"
+
+#: index.php:411
+msgid "Trapezoidal rule"
+msgstr "Regola dei trapezi"
+
+#: index.php:412 integral2.php:2
+msgid "Double integral"
+msgstr "Integrale doppio"
+
+#: index.php:413 lineintegral.php:2
+msgid "Line integral"
+msgstr "Integrale di linea"
+
+#: index.php:417
+msgid "First order ODE"
+msgstr "Equazione differenziale del primo ordine"
+
+#: index.php:418
+msgid "Second order LDE"
+msgstr "Equazione differenziale lineare del secondo ordine"
+
+#: index.php:419
+msgid "Autonomous system"
+msgstr "Sistema autonomo"
+
+#: index.php:424 regula_falsi.php:2
+msgid "Regula falsi"
+msgstr ""
+
+#: index.php:426
+msgid "System of inequalities (in one or two variables)"
+msgstr "Sistema di disequazioni (in una o due variabili)"
+
+#: index.php:434
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: index.php:440
+msgid "Precalculus"
+msgstr "Nozioni preliminari di Analisi Matematica"
+
+#: index.php:445
+msgid "Calculus"
+msgstr "Analisi Matematica"
+
+#: index.php:451
+msgid "Integral calculus"
+msgstr "Calcolo integrale"
+
+#: index.php:457
+msgid "Differential equations"
+msgstr "Equazioni differenziali"
+
+#: index.php:463
+msgid "Equations and inequalities"
+msgstr "Equazioni e disequazioni"
+
+#: index.php:470
+msgid "Site map, support"
+msgstr "Mappa del sito, supporto"
+
+#: index.php:496
+msgid ""
+"Enter your data into the calculator and click Submit. You can also change the type of the calculator in the second row "
+"of the menu. <br>The calculators are divided into several groups, the description is available if you move your mouse "
+"on the name of each group (the first row of the menu)."
+msgstr ""
+
+#: index.php:499
+msgid ""
+"Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you "
+"wish to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators "
+"are divided into several groups, the description is available if you move your mouse on the name of each group (the "
+"first row of the menu)."
+msgstr ""
+
+#: ineq2d.php:3
+msgid "Inequalities"
+msgstr "Disequazioni"
+
+#: ineq2d.php:15
+msgid "Read the comments below the form to find out, which inequalities can be solved."
+msgstr "leggere i commenti sotto il modulo per capire quali disuguaglianze possono essere risolte."
+
+#: ineq2d.php:18
+msgid "suppose x,y>0"
+msgstr "Supporre x,y>0"
+
+#: ineq2d.php:22
+msgid "draw labels on axes, not on boundary"
+msgstr ""
+
+#: ineq2d.php:28
+msgid "use high quality output in PDF"
+msgstr "usare un output di alta qualità nel PDF"
+
+#: ineq2d.php:32
+msgid "and change bounds to get equal units on both axes"
+msgstr "e cambiare i limiti per ottenere la stessa unità di misura su entrambi gli assi."
+
+#: ineq2d.php:40 prubeh.php:41
+msgid "Axes"
+msgstr "Assi"
+
+#: ineq2d.php:57
+msgid "MAW-ineq2d"
+msgstr ""
+
+#: integral.php:37
+msgid ""
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert mathematical expressions (this allows to write "
+" 2x instead of 2*x)"
+msgstr ""
+"usare <a href=\"http://formconv.sourceforge.net/\">formconv</a> per convertire le espressioni matematiche (questo "
+"permette di scrivere 2x anziché 2*x)"
+
+#: integral.php:42
+msgid ""
+"use \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing formulas on html page instead of  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(the output is better but the rendering could be slower)\n"
+msgstr ""
+"usare \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per scrivere formule su una pagina html invece di \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+" (l'output è migliore ma la visualizzazione può essere lenta)\n"
+
+#: integral.php:51
+msgid ""
+"<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> switch "
+"(uncheck this if you get composite fractions (with fraction in numerator))"
+msgstr ""
+
+#: integral.php:56 integral2.php:74
+msgid "write acsinh and atanh in terms of log"
+msgstr "Scrivere acsinh e atanh usando i logaritmi"
+
+#: integral.php:66
+msgid "MAW-int"
+msgstr ""
+"<span class='red'>visita la nostra <a  href=\"integral_offline/\">galleria di integrali</a>.</span> Contattaci per "
+"chiedere di aggiungere il tuo integrale a questa galleria."
+
+#: integral2.php:24
+msgid "Enter function and choose variables and order for integration "
+msgstr "Inserire la funzione e scegliere le variabili e l'ordine di integrazione"
+
+#: integral2.php:59
+msgid ""
+" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img "
+"src=\"phi.png\" alt=\"phi\">."
+msgstr ""
+"La matrice Jacobiana in coordinate polari viene scritta automaticamente. Puoi scrivere <b>phi</b> per la variabile "
+"polare <img src=\"phi.png\" alt=\"phi\">."
+
+#: integral2.php:63
+msgid "Axes (decimal numbers)"
+msgstr "Assi (numeri decimali)"
+
+#: integral2.php:71
+msgid "Preview region of integration"
+msgstr "Anteprima della regione di integrazione."
+
+#: integral2.php:88
+msgid "MAW-int2"
+msgstr ""
+
+#: lagrange.php:11 mnc.php:11
+msgid "Data file"
+msgstr ""
+
+#: lagrange.php:22
+msgid "MAW-lagr"
+msgstr ""
+
+#: lde2.php:3
+msgid "Second order linear differential equations"
+msgstr "Equazioni differenziali lineari del secondo ordine"
+
+#: lde2.php:13
+msgid "Equation"
+msgstr "Equazione"
+
+#: lde2.php:23
+msgid "You can use Preview and Edit buttons for entering the right hand side"
+msgstr ""
+
+#: lde2.php:28
+msgid "Method"
+msgstr "Metodo"
+
+#: lde2.php:32
+msgid "variation of constants"
+msgstr "Variazione delle costanti"
+
+#: lde2.php:36
+msgid "undetermined coefficients"
+msgstr "coefficienti indeterminati"
+
+#: lde2.php:40
+msgid "solve also initial value problem"
+msgstr "risolvere anche il problema a valori iniziali"
+
+#: lde2.php:51
+msgid "MAW-lde2"
+msgstr ""
+
+#: lineintegral.php:22
+msgid "Integral of a scalar field"
+msgstr "Integrale di un campo scalare"
+
+#: lineintegral.php:23
+msgid "http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field"
+msgstr "http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field"
+
+#: lineintegral.php:43
+msgid "Integral of a vector field"
+msgstr "Integrale di un campo vettoriale"
+
+#: lineintegral.php:44
+msgid "http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field"
+msgstr "http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field"
+
+#: lineintegral.php:74 lineintegral.php:107
+msgid "Leave the last field empty for integral in 2D plane."
+msgstr "Lascia vuoto l'ultimo campo per gli integrali in R^2"
+
+#: lineintegral.php:87
+msgid "line integral in 2D"
+msgstr "integrali di linea in R^2"
+
+#: lineintegral.php:91
+msgid "line integral in 3D"
+msgstr "Integrali di linea in R^3"
+
+#: lineintegral.php:96
+msgid "Curve"
+msgstr "Curva"
+
+#: lineintegral.php:111
+msgid "Parameter bounds"
+msgstr "Limiti dei parametri"
+
+#: lineintegral.php:128
+msgid "MAW-lineint"
+msgstr "MAW-lineint"
+
+#: main.php:1
+msgid "MAW-main"
+msgstr ""
+
+#: map.php:3
+msgid "MAW-map"
+msgstr ""
+
+#: minmax3d.php:3
+msgid "Local extrema in two variables"
+msgstr "Estremi locali in due variabili"
+
+#: minmax3d.php:50
+msgid "Task for computation"
+msgstr ""
+
+#: minmax3d.php:55
+msgid "Hessian at stationary point"
+msgstr "Hessiano in un punto stazionario"
+
+#: minmax3d.php:67
+msgid "Hessian at stationary points"
+msgstr "Hessiano nei punti stazionari "
+
+#: minmax3d.php:85
+msgid "MAW-minmax3d"
+msgstr ""
+
+#: mnc.php:21
+msgid "MAW-mnc"
+msgstr ""
+
+#: ode.php:20
+msgid "Ordinary differential equations"
+msgstr "Equazioni differenziali ordinarie"
+
+#: ode.php:30
+msgid "Equation solved wrt y'"
+msgstr "equazione in forma esplicita"
+
+#: ode.php:40
+msgid "Full equation"
+msgstr "Equazione completa"
+
+#: ode.php:53
+msgid "MAW-ode"
+msgstr ""
+
+#: prubeh.php:2
+msgid "Function calculator"
+msgstr ""
+
+#: prubeh.php:57
+msgid "MAW-prub"
+msgstr ""
+
+#: regula_falsi.php:57
+msgid "MAW-regula_falsi"
+msgstr "MAW-regula_falsi"
+
+#: tail.php:6
+msgid ""
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> and <a "
+"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr ""
+"scritto da <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert Mař&iacute;k</a> and <a "
+"href=\"http://user.mendelu.cz/tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#: tail.php:8
 #, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "E' disponibile una versione offline e i traduttori sono benvenuti."
+msgid "%sOffline version%s is also available and translators are %s welcomed %s."
+msgstr "E' disponibile una versione offline e i traduttori sono benvenuti."
 
-msgid   "Degree of Taylor polynomial"
-msgstr  "Grado del polinomio di Taylor"
+#: taylor.php:18
+msgid "Degree of Taylor polynomial"
+msgstr "Grado del polinomio di Taylor"
 
-msgid   "Center of Taylor polynomial"
-msgstr  "Centro del polinomio di Taylor"
+#: taylor.php:21
+msgid "Center of Taylor polynomial"
+msgstr "Centro del polinomio di Taylor"
 
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "Regola dei trapezi (approssimazione per gli integrali definiti)"
+#: trap.php:3
+msgid "Trapezoidal rule (approximation for definite integral)"
+msgstr "Regola dei trapezi (approssimazione per gli integrali definiti)"
 
-msgid   "Limits for integration"
-msgstr  "Estremi di integrazione"
+#: trap.php:25
+msgid "Limits for integration"
+msgstr "Estremi di integrazione"
 
-msgid   "lower limit"
-msgstr  "Estremo inferiore"
+#: trap.php:29
+msgid "lower limit"
+msgstr "Estremo inferiore"
 
-msgid   "upper limit"
-msgstr  "Estremo superiore"
+#: trap.php:33
+msgid "upper limit"
+msgstr "Estremo superiore"
 
-msgid   "intervals in partition"
-msgstr  "intervalli della partizione"
+#: trap.php:36
+msgid "intervals in partition"
+msgstr "intervalli della partizione"
 
-msgid   "MAW-trap"
-msgstr  ""
+#: trap.php:44
+msgid "MAW-trap"
+msgstr ""

@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2012-04-01 13:58+0200\n"
         "PO-Revision-Date: 2010-04-18 22:14+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team:  <cs@li.org>\n"

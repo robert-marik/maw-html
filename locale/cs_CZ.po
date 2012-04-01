@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2012-04-01 13:58+0200\n"
         "PO-Revision-Date: 2010-08-31 13:56+0200\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
