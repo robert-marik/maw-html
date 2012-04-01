@@ -40,13 +40,13 @@ msgid   "MAW-autsyst"
 msgstr  ""
 
 msgid   "Method of iterations"
-msgstr  ""
+msgstr  "Метод ітерацій"
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  ""
 
 msgid   "Function"
-msgstr  ""
+msgstr  "Функція"
 
 msgid   "Interval from "
 msgstr  ""
@@ -243,10 +243,10 @@ msgid   "History"
 msgstr  ""
 
 msgid   "Mathematical Assistant on Web"
-msgstr  ""
+msgstr  "Математичні сервіси онлайн (MAW)"
 
 msgid   "You should turn JavaScript on to see popup informations."
-msgstr  ""
+msgstr  "Ви повинні включити JavaScript, щоб побачити додаткову інформацію."
 
 msgid   "More languages"
 msgstr  ""
@@ -264,7 +264,7 @@ msgid   "Known bugs"
 msgstr  ""
 
 msgid   "Submit"
-msgstr  ""
+msgstr  "Відправити"
 
 msgid   "Click only once and wait few seconds for the answer!"
 msgstr  ""
@@ -279,13 +279,13 @@ msgid   "Lagrange polynomial"
 msgstr  ""
 
 msgid   "Least squares method"
-msgstr  ""
+msgstr  "Метод найменьших квадратів"
 
 msgid   "Investigating functions"
 msgstr  ""
 
 msgid   "Taylor polynomial"
-msgstr  ""
+msgstr  "Поліном Тейлора"
 
 msgid   "Local maxima and minima in two variables"
 msgstr  ""
@@ -300,7 +300,7 @@ msgid   "Trapezoidal rule"
 msgstr  ""
 
 msgid   "Double integral"
-msgstr  ""
+msgstr  "Подвійний інтеграл"
 
 msgid   "Line integral"
 msgstr  ""
@@ -312,7 +312,7 @@ msgid   "Second order LDE"
 msgstr  ""
 
 msgid   "Autonomous system"
-msgstr  ""
+msgstr  "Автономна система"
 
 msgid   "Regula falsi"
 msgstr  ""
@@ -357,7 +357,7 @@ msgid   "Choose the field of your interest in the menu and then choose the "
 msgstr  ""
 
 msgid   "Inequalities"
-msgstr  ""
+msgstr  "Нерівності"
 
 msgid   "Read the comments below the form to find out, which inequalities can "
         "be solved."
@@ -431,13 +431,13 @@ msgid   "Second order linear differential equations"
 msgstr  ""
 
 msgid   "Equation"
-msgstr  ""
+msgstr  "Рівняння"
 
 msgid   "You can use Preview and Edit buttons for entering the right hand side"
 msgstr  ""
 
 msgid   "Method"
-msgstr  ""
+msgstr  "Метод"
 
 msgid   "variation of constants"
 msgstr  ""
@@ -490,7 +490,7 @@ msgid   "MAW-map"
 msgstr  ""
 
 msgid   "Local extrema in two variables"
-msgstr  ""
+msgstr  "Локальні екстремуми функції двох змінних"
 
 msgid   "Task for computation"
 msgstr  ""
