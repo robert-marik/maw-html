@@ -1,13 +1,9 @@
+#!/bin/bash
+
 xgettext    --keyword=__ --from-code=utf-8 *.php 
-msgmerge -U -N locale/en_US.po messages.po
-msgmerge -U -N locale/cs_CZ.po messages.po
-msgmerge -U -N locale/pl_PL.po messages.po
-msgmerge -U -N locale/ca_ES.po messages.po
-msgmerge -U -N locale/fr_FR.po messages.po
-msgmerge -U -N locale/zh_CN.po messages.po
-msgmerge -U -N locale/ru_RU.po messages.po
-msgmerge -U -N locale/de_DE.po messages.po
-msgmerge -U -N locale/it_IT.po messages.po
-msgmerge -U -N locale/uk_UA.po messages.po
 
-
+for i in `cat ./maw_languages.txt`
+do
+    echo "Updating po file for $i language"
+    msgmerge -U -N locale/$i.po messages.po
+done
