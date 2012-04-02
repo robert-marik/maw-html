@@ -27,7 +27,7 @@ along with Mathematical Assistant o Web.  If not, see
 
 $server="/maw";
 $lang = "en"; $locale_file = "en_US";
-$lang_array=Array("cz","en","pl","ca","zh","fr","ru","de", "it", "ua");
+$lang_array=Array("cs","en","pl","ca","zh","fr","ru","de", "it", "uk");
 
 $custom_between_flags="";
 
@@ -58,16 +58,19 @@ if ($reqlang == "")
     $reqlang=substr($reqlang[0],0,2);
   }
 
-if (($reqlang == "cs")||($reqlang == "cz")) { $lang = "cs"; $locale_file = "cs_CZ"; }
+if ($reqlang == "cz") { $reqlang = "cs";}
+if ($reqlang == "ua") { $reqlang = "uk";}
+$lang=$reqlang;
 
-if ($reqlang == "pl") { $lang = "pl"; $locale_file = "pl_PL"; }
-if ($reqlang == "ca") { $lang = "ca"; $locale_file = "ca_ES"; }
-if ($reqlang == "fr") { $lang = "fr"; $locale_file = "fr_FR"; }
-if ($reqlang == "zh") { $lang = "zh"; $locale_file = "zh_CN"; }
-if ($reqlang == "ru") { $lang = "ru"; $locale_file = "ru_RU"; }
-if ($reqlang == "de") { $lang = "de"; $locale_file = "de_DE"; }
-if ($reqlang == "it") { $lang = "it"; $locale_file = "it_IT"; }
-if ($reqlang == "ua") { $lang = "ua"; $locale_file = "uk_UA"; }
+if ($reqlang == "cs") { $locale_file = "cs_CZ"; }
+elseif ($reqlang == "pl") { $locale_file = "pl_PL"; }
+elseif ($reqlang == "ca") { $locale_file = "ca_ES"; }
+elseif ($reqlang == "fr") { $locale_file = "fr_FR"; }
+elseif ($reqlang == "zh") { $locale_file = "zh_CN"; }
+elseif ($reqlang == "ru") { $locale_file = "ru_RU"; }
+elseif ($reqlang == "de") { $locale_file = "de_DE"; }
+elseif ($reqlang == "it") { $locale_file = "it_IT"; }
+elseif ($reqlang == "uk") { $locale_file = "uk_UA"; }
 
 $locale_file_reader = new FileReader("locale/$locale_file.mo");
 $locale_reader = new gettext_reader($locale_file_reader);
