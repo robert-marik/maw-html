@@ -18,7 +18,7 @@ msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "&& n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid   "Singular points of autonomous systems"
-msgstr  ""
+msgstr  "Сингулярні точки автономних систем"
 
 msgid   "Editor"
 msgstr  ""
@@ -27,112 +27,122 @@ msgid   "Preview"
 msgstr  ""
 
 msgid   "What to do"
-msgstr  ""
+msgstr  "Що робити"
 
 msgid   "find Jacobi matrix at stationary point"
-msgstr  ""
+msgstr  "знайти матрицю Якобі в стаціонарній точці"
 
 msgid   "use computer to find stationary points first (this may fail to find "
         "all stationary points, however)"
-msgstr  ""
+msgstr  "використати комп'ютер, щоб знайти стаціонарні точки (тим не менше, "
+        "всі стаціонарні точки можуть бути і не знайдені)"
 
 msgid   "MAW-autsyst"
-msgstr  ""
+msgstr  "Калькулятор дозволяє класифікувати стаціонарні точки двомірної "
+        "автономної системи за допомогою матриці Якобі."
 
 msgid   "Method of iterations"
 msgstr  "Метод ітерацій"
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  ""
+msgstr  "Введіть функцію, інтервал, що містить нерухому точку, і число кроків."
 
 msgid   "Function"
 msgstr  "Функція"
 
 msgid   "Interval from "
-msgstr  ""
+msgstr  "Інтервал від"
 
 msgid   "to"
-msgstr  ""
+msgstr  "до"
 
 msgid   "(integers or decimal numbers)"
-msgstr  ""
+msgstr  "(цілі числа або кінцеві десяткові дроби)"
 
 msgid   "Number of steps "
-msgstr  ""
+msgstr  "Число кроків"
 
 msgid   "(integer between 2  and 40)"
-msgstr  ""
+msgstr  "(ціле число від 2 до 40)"
 
 msgid   "Initial approximation"
-msgstr  ""
+msgstr  "Початкове наближення"
 
 msgid   "(integer or decimal number)"
-msgstr  ""
+msgstr  "(ціле число або кінцевий десятковий дріб)"
 
 msgid   "MAW-banach"
-msgstr  ""
+msgstr  "Калькулятор дозволяє розв'язувати рівняння за допомогою<a href="
+        "\"http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC"
+        "%D0%B0_%D0%91%D0%B0%D0%BD%D0%B0%D1%85%D0%B0_%D0%BE_%D0%BD%D0%B5%D0%BF"
+        "%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B9_%D1%82%D0%BE"
+        "%D1%87%D0%BA%D0%B5\">теореми Банаха про нерухому точку</a>."
 
 msgid   "Bisection"
-msgstr  ""
+msgstr  "Метод бісекції"
 
 msgid   "Enter function, interval containing zero and number of steps."
-msgstr  ""
+msgstr  "Введіть функцію, інтервал, що містить нуль, і число кроків."
 
 msgid   "Interval from"
-msgstr  ""
+msgstr  "Інтервал від"
 
 msgid   "(integer between 2 and 40)"
-msgstr  ""
+msgstr  "(Ціле число від 2 до 40)"
 
 msgid   "MAW-bisection"
-msgstr  ""
+msgstr  "За допомогою калькулятора можна розв'язувати рівняння за <a href="
+        "\"http://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_"
+        "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методом бісекції</"
+        "a>"
 
 msgid   "Derivative and partial derivative"
-msgstr  ""
+msgstr  "Похідна і частинні похідні"
 
 msgid   "automatically use linearity of derivative"
-msgstr  ""
+msgstr  "автоматично використовувати лінійність похідної"
 
 msgid   "automatically differentiate constants"
-msgstr  ""
+msgstr  "автоматично відрізняти константи"
 
 msgid   "The type of the derivative"
-msgstr  ""
+msgstr  "Тип похідних"
 
 msgid   "Ordinary derivative (function in one variable)"
-msgstr  ""
+msgstr  "Звичайна похідна (функції однієї змінної)"
 
 msgid   "Partial derivative with respect to <i>x</i> (function in two "
         "variables)"
-msgstr  ""
+msgstr  "Частинна похідна по <i> х </ i> (функція двох змінних)"
 
 msgid   "Partial derivative with respect to <i>y</i> (function in two "
         "variables)"
-msgstr  ""
+msgstr  "Частинна похідна по <i> y </ i> (функція двох змінних)"
 
 msgid   "MAW-der"
-msgstr  ""
+msgstr  "Калькулятор знаходить похідну функції однієї змінної або частиннy "
+        "похідну функції двох змінних. Розв'язання крок за кроком."
 
 msgid   "Domain of a function in one variable"
-msgstr  ""
+msgstr  "Oбласть визначення функції однієї змінної"
 
 msgid   "Parameters"
-msgstr  ""
+msgstr  "Параметри обчислень"
 
 msgid   "MAW-df"
-msgstr  ""
+msgstr  "Калькулятор знаходить oбласть визначення функції однієї змінної."
 
 msgid   "Domain of a function in two variables"
-msgstr  ""
+msgstr  "Oбласть визначення функції двох змінних"
 
 msgid   "limits for the picture with domain:"
-msgstr  ""
+msgstr  "обмеження для зображення на рисунку:"
 
 msgid   "draw domain on the set"
-msgstr  ""
+msgstr  "намалювати область визначення на множині"
 
 msgid   "MAW-df3d"
-msgstr  ""
+msgstr  "Калькулятор знаходить oбласть визначення функції двох змінних."
 
 msgid   "Switch to a compact design"
 msgstr  ""
@@ -149,39 +159,41 @@ msgid   "Did we help you with your math problem? Did we save your time? If "
 msgstr  ""
 
 msgid   "Definite integral in geometry"
-msgstr  ""
+msgstr  "Визначений інтеграл в геометрії"
 
 msgid   "Formulation of the problem"
-msgstr  ""
+msgstr  "Постановка задачі"
 
 msgid   "Curves on boundary"
-msgstr  ""
+msgstr  "Криві, що обмежують множину"
 
 msgid   "Upper bound"
-msgstr  ""
+msgstr  "Верхня границя"
 
 msgid   "Lower bound"
-msgstr  ""
+msgstr  "Нижня границя"
 
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "of both curves by choosing \"intercepts\" in parameters for "
         "computation)</small>"
-msgstr  ""
+msgstr  "Обмеження по осі <i> x </ i>: <small> (можете знайти точку перетину "
+        "заданих кривих за допомогою вибору \"intercepts\" в умовах "
+        "обчислення) </ small>"
 
 msgid   "lower bound"
-msgstr  ""
+msgstr  "нижня границя"
 
 msgid   "upper bound"
-msgstr  ""
+msgstr  "верхня границя"
 
 msgid   "Action"
-msgstr  ""
+msgstr  "Aкція"
 
 msgid   "Find %s area %s between two curves and draw graph."
-msgstr  ""
+msgstr  "Знайти %s площу %s між двома кривими й побудувати графік."
 
 msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  ""
+msgstr  "Знайти %s об'єм %s тіла обертання і побудувати графік"
 
 msgid   "preview solid of revolution"
 msgstr  ""
