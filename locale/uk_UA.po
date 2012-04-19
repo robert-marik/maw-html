@@ -21,10 +21,10 @@ msgid   "Singular points of autonomous systems"
 msgstr  "Сингулярні точки автономних систем"
 
 msgid   "Editor"
-msgstr  ""
+msgstr  "Редактор"
 
 msgid   "Preview"
-msgstr  ""
+msgstr  "Попередній перегляд"
 
 msgid   "What to do"
 msgstr  "Що робити"
@@ -145,18 +145,20 @@ msgid   "MAW-df3d"
 msgstr  "Калькулятор знаходить oбласть визначення функції двох змінних."
 
 msgid   "Switch to a compact design"
-msgstr  ""
+msgstr  "Переключити на компактний дизайн"
 
 msgid   "Showcase"
-msgstr  ""
+msgstr  "Перегляд зразків"
 
 msgid   "Switch to a full design"
-msgstr  ""
+msgstr  "Переключити на повний дизайн"
 
 msgid   "Did we help you with your math problem? Did we save your time? If "
         "so, consider to send some money to <a href=\"http://www.unicef.org/"
         "\">UNICEF foundation.</a>"
-msgstr  ""
+msgstr  "Якщо ми допомогли вам розв'язати задачу, подумайте, не могли б Ви "
+        "надіслати трохи грошей на <a href=\"http://www.unicef.ru/\"> ЮНІСЕФ</"
+        "a>."
 
 msgid   "Definite integral in geometry"
 msgstr  "Визначений інтеграл в геометрії"
@@ -196,63 +198,73 @@ msgid   "Find %s volume %s of solid of revolution and draw graph"
 msgstr  "Знайти %s об'єм %s тіла обертання і побудувати графік"
 
 msgid   "preview solid of revolution"
-msgstr  ""
+msgstr  "попередній перегляд тіла обертання"
 
 msgid   "show colors, no mesh"
-msgstr  ""
+msgstr  "показати кольорові виконання, не сітки"
 
 msgid   "hide invisible parts"
-msgstr  ""
+msgstr  "сховати невидимі частини"
 
 msgid   "Find intercepts of curves"
-msgstr  ""
+msgstr  "Знайти, де криві перетинаються (знайти точку перетину кривих)"
 
 msgid   "Bounds for the picture (decimal numbers)"
-msgstr  ""
+msgstr  "Границі для рисунка (скінченні десяткові дроби)"
 
 msgid   "MAW-geom"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться на англійській мові деякі "
+        "відповідні інструкції."
 
 msgid   "Graphs of elementary functions"
-msgstr  ""
+msgstr  "Графіки елементарних функцій"
 
 msgid   "(the function must either a basic elementary function of a function "
         "which can be obtained from on of basic elementary functions by "
         "shifting and resizing graph)"
-msgstr  ""
+msgstr  "(функція повинна бути або основною елементарною функцією, або "
+        "функцією, яка може бути отримана з основних елементарних за "
+        "допомогою елементарних перетворень графікa)"
 
 msgid   "Bounds for axes"
-msgstr  ""
+msgstr  "Границі для вісей"
 
 msgid   "show grid"
-msgstr  ""
+msgstr  "показати сітку"
 
 msgid   "Logarithm"
-msgstr  ""
+msgstr  "Логарифм"
 
 msgid   "If the input contains logarithm, use"
-msgstr  ""
+msgstr  "Якщо на вході містить логарифм, використовуйте"
 
 msgid   "natural log"
-msgstr  ""
+msgstr  "натуральний логарифм"
 
 msgid   "log with base"
-msgstr  ""
+msgstr  "логарифм за основою"
 
 msgid   "MAW-graf"
-msgstr  ""
+msgstr  "Тут ви можете побудувати графік функції, яка може бути отримана з "
+        "однієї з основних елементарних функцій шляхом елементарних "
+        "перетворень її графіка. Ваша функція буде розбиратися автоматично, і "
+        "ви отримаєте графік цієї функції, включаючи анімацію послідовних "
+        "перетворень."
 
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
-msgstr  ""
+msgstr  "Тут ви можете перевірити, як ми розуміємо ваші математичні вирази і "
+        "як ви можете ввести цей вираз в комп'ютер."
 
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
+msgstr  "Ваше завдання обробляється. Зачекайте кілька секунд, щоб побачити "
+        "результат. %s Натисніть тут %s, щоб відкрити формуляр, який був "
+        "занесений."
 
 msgid   "History"
-msgstr  ""
+msgstr  "Історія"
 
 msgid   "Mathematical Assistant on Web"
 msgstr  "Математичні сервіси онлайн (MAW)"
@@ -261,104 +273,106 @@ msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Ви повинні включити JavaScript, щоб побачити додаткову інформацію."
 
 msgid   "More languages"
-msgstr  ""
+msgstr  "Інші мови"
 
 msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  ""
+msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
 
 msgid   "Support from MAW forum"
-msgstr  ""
+msgstr  "Підтримка з MAW форуму"
 
 msgid   "Changelog"
-msgstr  ""
+msgstr  "Зміни"
 
 msgid   "Known bugs"
-msgstr  ""
+msgstr  "Відомі помилки"
 
 msgid   "Submit"
 msgstr  "Відправити"
 
 msgid   "Click only once and wait few seconds for the answer!"
-msgstr  ""
+msgstr  "Натисніть тільки один раз і почекайте відповідь протягом декількох "
+        "секунд!"
 
 msgid   "Domain of functions (one variable)"
-msgstr  ""
+msgstr  "Область визначення функцій (однієї змінної)"
 
 msgid   "Domain of functions (two variables)"
-msgstr  ""
+msgstr  "Область визначення функцій (двох змінної)"
 
 msgid   "Lagrange polynomial"
-msgstr  ""
+msgstr  "Поліном Лагранжа"
 
 msgid   "Least squares method"
 msgstr  "Метод найменьших квадратів"
 
 msgid   "Investigating functions"
-msgstr  ""
+msgstr  "Дослідження функцій"
 
 msgid   "Taylor polynomial"
 msgstr  "Поліном Тейлора"
 
 msgid   "Local maxima and minima in two variables"
-msgstr  ""
+msgstr  "Локальні максимуми і мінімуми функції двох змінних"
 
 msgid   "Antiderivative"
-msgstr  ""
+msgstr  "Невизначений інтеграл"
 
 msgid   "Geometrical applications of definite integral"
-msgstr  ""
+msgstr  "Геометричні застосування визначеного інтеграла"
 
 msgid   "Trapezoidal rule"
-msgstr  ""
+msgstr  "Метод трапеції"
 
 msgid   "Double integral"
 msgstr  "Подвійний інтеграл"
 
 msgid   "Line integral"
-msgstr  ""
+msgstr  "Криволінійний інтеграл"
 
 msgid   "First order ODE"
-msgstr  ""
+msgstr  "ОДР першого порядку"
 
 msgid   "Second order LDE"
-msgstr  ""
+msgstr  "ЛДР другого порядку"
 
 msgid   "Autonomous system"
 msgstr  "Автономна система"
 
 msgid   "Regula falsi"
-msgstr  ""
+msgstr  "Метод фальшпозиції"
 
 msgid   "System of inequalities (in one or two variables)"
-msgstr  ""
+msgstr  "Система нерівностей (однієї або двох змінних)"
 
 msgid   "Introduction"
-msgstr  ""
+msgstr  "Вступ"
 
 msgid   "Precalculus"
-msgstr  ""
+msgstr  "Функції"
 
 msgid   "Calculus"
-msgstr  ""
+msgstr  "Похідні"
 
 msgid   "Integral calculus"
-msgstr  ""
+msgstr  "Інтеграли"
 
 msgid   "Differential equations"
-msgstr  ""
+msgstr  "Диференціальні рівняння"
 
 msgid   "Equations and inequalities"
-msgstr  ""
+msgstr  "Рівняння і нерівності"
 
 msgid   "Site map, support"
-msgstr  ""
+msgstr  "Карта сайта, підтримка"
 
 msgid   "Enter your data into the calculator and click Submit. You can also "
         "change the type of the calculator in the second row of the menu. "
         "<br>The calculators are divided into several groups, the description "
         "is available if you move your mouse on the name of each group (the "
         "first row of the menu)."
-msgstr  ""
+msgstr  "Введіть свої дані в калькулятор і натисніть кнопку Надіслати. Ви "
+        "також можете змінити тип калькулятора в меню."
 
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wish to solve."
@@ -366,209 +380,238 @@ msgid   "Choose the field of your interest in the menu and then choose the "
         "by step solution.<br>The calculators are divided into several "
         "groups, the description is available if you move your mouse on the "
         "name of each group (the first row of the menu)."
-msgstr  ""
+msgstr  "Наші калькулятори здатні розв'язувати завдання, в тому числі надаючи "
+        "детальні розв'язки."
 
 msgid   "Inequalities"
 msgstr  "Нерівності"
 
 msgid   "Read the comments below the form to find out, which inequalities can "
         "be solved."
-msgstr  ""
+msgstr  "Прочитайте коментарі нижче, щоб дізнатися, які нерівності можуть "
+        "бути розв'язані."
 
 msgid   "suppose x,y>0"
-msgstr  ""
+msgstr  "Нехай х, у> 0"
 
 msgid   "draw labels on axes, not on boundary"
-msgstr  ""
+msgstr  "позначення по осях, а не на границі рисунка"
 
 msgid   "use high quality output in PDF"
-msgstr  ""
+msgstr  "використання високоякісного виводу в форматі PDF"
 
 msgid   "and change bounds to get equal units on both axes"
-msgstr  ""
+msgstr  "і змінити масштаби границь, щоб отримати рівні одиниці по обох осях"
 
 msgid   "Axes"
-msgstr  ""
+msgstr  "Вісі"
 
 msgid   "MAW-ineq2d"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою."
 
 msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
         "convert mathematical expressions (this allows to write  2x instead "
         "of 2*x)"
-msgstr  ""
+msgstr  "використовувати <a href=\"http://formconv.sourceforge.net/\"> "
+        "formconv </a> для перетворення математичних виразів (це дозволяє "
+        "писати 2x замість 2 * х)"
 
 msgid   "use \n"
         "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
         "writing formulas on html page instead of  \n"
         "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
         "(the output is better but the rendering could be slower)\n"
-msgstr  ""
+msgstr  "використовувати <a href=\"http://www.math.union.edu/~dpvc/jsmath/\"> "
+        "jsmath </a> і не <a href = \"http://www.forkosh.com/ mathtex.html "
+        "\"> mathtex </a>, щоб показати математичні вирази \n"
 
 msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
         "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
         "get composite fractions (with fraction in numerator))"
-msgstr  ""
+msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> перемикач"
 
 msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
+msgstr  "написати arcsh і arcth як логарифм"
 
 msgid   "MAW-int"
-msgstr  ""
+msgstr  "Введіть функцію для інтегрування. Ви зможете контролювати метод "
+        "розрахунку на наступних сторінках. Для повного автоматичного "
+        "обчислення краще використовувати <a href=\"http://www.wolframalpha."
+        "com/\">Wolfram Alpha</a>."
 
 msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
+msgstr  "Введіть функцію і виберіть змінні і порядок інтегрування"
 
 msgid   " The Jacobian in polar coordinates is added automatically. You can "
         "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
         "\">."
-msgstr  ""
+msgstr  "Якобіан в полярних координатах додається автоматично. Ви можете "
+        "написати <b> phi </ b> для полярної змінної <img src=\"phi.png\" alt="
+        "\"phi\">."
 
 msgid   "Axes (decimal numbers)"
-msgstr  ""
+msgstr  "Oсі (десяткове число)"
 
 msgid   "Preview region of integration"
-msgstr  ""
+msgstr  "Попередній перегляд області інтегрування"
 
 msgid   "MAW-int2"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Data file"
-msgstr  ""
+msgstr  "Файл даних"
 
 msgid   "MAW-lagr"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Second order linear differential equations"
-msgstr  ""
+msgstr  "Лінійні диференціальні рівняння другого порядку"
 
 msgid   "Equation"
 msgstr  "Рівняння"
 
 msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  ""
+msgstr  "Ви можете використовувати кнопки Перегляд і Редагування для "
+        "правильного вхідного запису в правій частині"
 
 msgid   "Method"
 msgstr  "Метод"
 
 msgid   "variation of constants"
-msgstr  ""
+msgstr  "варіація постійних"
 
 msgid   "undetermined coefficients"
-msgstr  ""
+msgstr  "невизначених коефіцієнтів"
 
 msgid   "solve also initial value problem"
-msgstr  ""
+msgstr  "розв'язувати також задачy Коші"
 
 msgid   "MAW-lde2"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Integral of a scalar field"
-msgstr  ""
+msgstr  "криволінійний інтеграл першого роду"
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
+msgstr  "http://ru.wikipedia.org/wiki/Криволінійний_інтеграл"
 
 msgid   "Integral of a vector field"
-msgstr  ""
+msgstr  "Криволінійний інтеграл другого роду"
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
+msgstr  "http://ru.wikipedia.org/wiki/Криволінійний_інтеграл "
 
 msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
+msgstr  "Залиште останнє поле незаповненим для інтегрування на площині(2D)"
 
 msgid   "line integral in 2D"
-msgstr  ""
+msgstr  "Криволінійний інтеграл на площиі"
 
 msgid   "line integral in 3D"
-msgstr  ""
+msgstr  "Криволінійний інтеграл (у просторі)"
 
 msgid   "Curve"
-msgstr  ""
+msgstr  "Крива"
 
 msgid   "Parameter bounds"
-msgstr  ""
+msgstr  "параметричні обмеження"
 
 msgid   "MAW-lineint"
-msgstr  ""
+msgstr  "Введіть функцію для інтегрування і рівняння для кривої."
 
 msgid   "MAW-main"
-msgstr  ""
+msgstr  "<span class=\"nadpis\"> Про цю сторінку </ span> <br> Цей сайт "
+        "використовує Маxima програмy для розв'язання типових задач з "
+        "диференціального та інтегрального числення. Всі розв'язки крок за "
+        "кроком."
 
 msgid   "MAW-map"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Local extrema in two variables"
 msgstr  "Локальні екстремуми функції двох змінних"
 
 msgid   "Task for computation"
-msgstr  ""
+msgstr  "Задачa для обчислення"
 
 msgid   "Hessian at stationary point"
-msgstr  ""
+msgstr  "Гессіан функції в критичній точці"
 
 msgid   "Hessian at stationary points"
-msgstr  ""
+msgstr  "Гессіан функції в критичних точках"
 
 msgid   "MAW-minmax3d"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "MAW-mnc"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Ordinary differential equations"
-msgstr  ""
+msgstr  "Звичайні диференціальні рівняння"
 
 msgid   "Equation solved wrt y'"
-msgstr  ""
+msgstr  "Рівняння, розв'язане відносно у '"
 
 msgid   "Full equation"
-msgstr  ""
+msgstr  "Повне рівняння"
 
 msgid   "MAW-ode"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "Function calculator"
-msgstr  ""
+msgstr  "Дослідження функції"
 
 msgid   "MAW-prub"
-msgstr  ""
+msgstr  "Калькулятор досліджує крок за кроком функцію з першою і "
+        "другоїюпохідними. Графік і асимптоти також включені."
 
 msgid   "MAW-regula_falsi"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
 
 msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  ""
+msgstr  "Aвтори <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> та <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 
 msgid   "%sOffline version%s is also available and translators are %s "
         "welcomed %s."
-msgstr  ""
+msgstr  "%s Оффлайн версія %s також доступна і %s перекладачі запрошуються %s."
 
 msgid   "Degree of Taylor polynomial"
-msgstr  ""
+msgstr  "Степінь многочлена Тейлора"
 
 msgid   "Center of Taylor polynomial"
-msgstr  ""
+msgstr  "Центр многочлена Тейлора"
 
 msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  ""
+msgstr  "Mетод трапецій (наближення для визначеного інтеграла)"
 
 msgid   "Limits for integration"
-msgstr  ""
+msgstr  "Обмеження для інтегрування"
 
 msgid   "lower limit"
-msgstr  ""
+msgstr  "нижня границя"
 
 msgid   "upper limit"
-msgstr  ""
+msgstr  "верхня границя"
 
 msgid   "intervals in partition"
-msgstr  ""
+msgstr  "поділ інтервалу на частини"
 
 msgid   "MAW-trap"
-msgstr  ""
+msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
+        "англійською мовою. "
