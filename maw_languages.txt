@@ -8,3 +8,4 @@ ru_RU
 de_DE 
 it_IT 
 uk_UA
+es_ES
