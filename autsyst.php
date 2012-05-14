@@ -60,11 +60,13 @@ class="tlacitko">
   <input <?php echo $check0?> name="akce" value="0" type="radio"> 
   <?php echo __("find Jacobi matrix at stationary point");?>
 &nbsp;&nbsp;&nbsp;
-<span style="font-style: italic;">x</span>= <input name="xs" value="<?echo $pointx;?>" size="5" > 
+<span style="display:inline-block"><span style="font-style: italic;">x</span>=&nbsp;<input name="xs" value="<?echo $pointx;?>" size="5" ></span>
 &nbsp;
 &nbsp; 
-<span style="font-style: italic;">y</span>=
+<span style="display:inline-block">
+<span style="font-style: italic;">y</span>=&nbsp;
 <input name="ys" value="<?echo $pointy;?>" size="5" >
+</span>
 <br>
 <br>
 
