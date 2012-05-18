@@ -38,9 +38,9 @@ class="tlacitko">
 <br><hr>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="IVP" type="checkbox" value="on">
 <?php echo __('solve also initial value problem');?>:
- <i>x</i>=<input maxlength="10" size="10" name="x0" value="0">
- <i>y</i>=<input maxlength="10" size="10" name="y0" value="1">
- <i>y'</i>=<input maxlength="10" size="10" name="y10" value="-1">
+ <span style="display:inline-block"><i>x</i>=<input maxlength="10" size="10" name="x0" value="0"></span>
+ <span style="display:inline-block"><i>y</i>=<input maxlength="10" size="10" name="y0" value="1"></span>
+ <span style="display:inline-block"><i>y'</i>=<input maxlength="10" size="10" name="y10" value="-1"></span>
 </fieldset>
 <?php echo $submitbutton;?>
 
