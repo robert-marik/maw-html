@@ -225,7 +225,12 @@ msgid   "Bounds for the picture (decimal numbers)"
 msgstr  "Límites para la imagen (números decimales)"
 
 msgid   "MAW-geom"
-msgstr  "MAW-geom"
+msgstr  "<ul>   <li>Escriba las funciones que definen las fronteras superior "
+        "e inferior del conjunto</li>  <li>Si la frontera superior es el eje "
+        "<span style=\"font-style: italic;\">x</span>, la función  <span "
+        "style=\"font-style: italic;\">g</span> es 0.</li>  <li>Puede usarlo "
+        "para intentar encontrar las intersecciones de las curvas. Solo debe "
+        "seleccionar la opción adecuada.<br> </li> </ul>"
 
 msgid   "Graphs of elementary functions"
 msgstr  "Gráficas de funciones elementales"
