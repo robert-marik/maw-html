@@ -6,13 +6,22 @@
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/derivace/derivace.php">
 <?php polejazyka($lang); ?>
+<?php 
+   $function=rawurldecode($_REQUEST["function"]); 
+if ($function=="")
+  {
+    $function="x^3*exp(x^2)";
+  }
+?>
+
+
 
 <label for="funkce">
    <?php echo __('Function'); ?>
 </label>
 &nbsp;&nbsp;<span style="font-style:
 italic;">f=</span> <input size="60" name="funkce"
-value="x^3*exp(x^2)">
+value="<?php echo $function; ?>">
   <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 
