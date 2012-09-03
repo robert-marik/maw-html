@@ -10,11 +10,20 @@
  action="<?php echo($server);?>/lde2/ldr2.php"
 name="exampleform">
 <?php polejazyka($lang); ?>
- <?php echo __('Equation');?>:
+
+<?php 
+   $f=rawurldecode($_REQUEST["f"]);    if ($f=="")  { $f="x^2"; }
+   $p=rawurldecode($_REQUEST["p"]);    if ($p=="")  { $p="2"; }
+   $q=rawurldecode($_REQUEST["q"]);    if ($q=="")  { $q="1"; }
+   $method=rawurldecode($_REQUEST["method"]);    if ($method=="0")  { $method=0; } else {$method=1;}
+?>
+
+
+<?php echo __('Equation');?>:
 &nbsp;
   <span style="font-style: italic;">
-&nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" value="2">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" value="1">
-  <span style="font-style: italic;">y</span> = <input size="30" name="f" value="x^2">
+&nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" value="<?php echo $p; ?>">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" value="<?php echo $q; ?>">
+  <span style="font-style: italic;">y</span> = <input size="30" name="f" value="<?php echo $f; ?>">
 &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>"  onclick="previewb('f')" type="button"
@@ -28,11 +37,11 @@ class="tlacitko">
 <?php echo __('Method');?>
 
 </legend>
-<input checked="checked" name="akce" value="0" type="radio"> 
+<input <?php if ($method==0) {echo 'checked="checked"';} ?> name="akce" value="0" type="radio"> 
 <?php echo __('variation of constants');?>
 
 <br>
-<input name="akce" value="1" type="radio"> 
+<input <?php if ($method==1) {echo 'checked="checked"';} ?>name="akce" value="1" type="radio"> 
 <?php echo __('undetermined coefficients');?>
 
 <br><hr>
