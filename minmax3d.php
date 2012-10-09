@@ -15,17 +15,13 @@ if ($function=="") {
   $action=0;
 }
 
-if ($action==0)
-  {
-    $check0="checked=\"checked\"";
-    $check2="";
-  }
+$check0="";
+$check1="";
+$check2="";
 
-if ($action==2)
-  {
-    $check2="checked=\"checked\"";
-    $check0="";
-  }
+if ($action==0) {$check0="checked=\"checked\"";}
+if ($action==1) {$check1="checked=\"checked\"";}
+if ($action==2) {$check2="checked=\"checked\"";}
 
 ?>
 </span>
@@ -69,7 +65,7 @@ class="tlacitko">
 [x1,y1] ; [x2,y2] ; .... &nbsp;<input value="<?php echo $points; ?>" size="30" name="stacbody"><br>
 
   <br>
-  <input name="akce" value="1" type="radio"> 
+  <input name="akce" value="1" type="radio" <?php echo $check1;?>> 
 
 	    <?php echo __('use computer to find stationary points first (this may fail to find all stationary points, however)');?>
 
