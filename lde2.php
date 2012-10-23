@@ -16,6 +16,11 @@ name="exampleform">
    $p=rawurldecode($_REQUEST["p"]);    if ($p=="")  { $p="2"; }
    $q=rawurldecode($_REQUEST["q"]);    if ($q=="")  { $q="1"; }
    $method=rawurldecode($_REQUEST["method"]);    if ($method=="0")  { $method=0; } else {$method=1;}
+   $ivp=rawurldecode($_REQUEST["ivp"]);    
+   $x0=rawurldecode($_REQUEST["x0"]);    if ($x0=="")  { $x0="0"; }
+   $y0=rawurldecode($_REQUEST["y0"]);    if ($y0=="")  { $y0="1"; }
+   $y10=rawurldecode($_REQUEST["y10"]);    if ($y10=="")  { $y10="-1"; }
+
 ?>
 
 
@@ -45,11 +50,11 @@ class="tlacitko">
 <?php echo __('undetermined coefficients');?>
 
 <br><hr>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="IVP" type="checkbox" value="on">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="IVP" type="checkbox" <?php if ($ivp!="") {echo 'checked="checked"';} ?> value="on">
 <?php echo __('solve also initial value problem');?>:
- <span style="display:inline-block"><i>x</i>=<input maxlength="10" size="10" name="x0" value="0"></span>
- <span style="display:inline-block"><i>y</i>=<input maxlength="10" size="10" name="y0" value="1"></span>
- <span style="display:inline-block"><i>y'</i>=<input maxlength="10" size="10" name="y10" value="-1"></span>
+ <span style="display:inline-block"><i>x</i>=<input maxlength="10" size="10" name="x0" value="<?php echo $x0 ?>"></span>
+ <span style="display:inline-block"><i>y</i>=<input maxlength="10" size="10" name="y0" value="<?php echo $y0 ?>"></span>
+ <span style="display:inline-block"><i>y'</i>=<input maxlength="10" size="10" name="y10" value="<?php echo $y10 ?>"></span>
 </fieldset>
 <?php echo $submitbutton;?>
 
