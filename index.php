@@ -81,6 +81,7 @@ function __($text){
 	return $locale_reader->translate($text);
 }
 
+
 $form=$_REQUEST["form"];
 $maw_before_form_custom_string="";
 

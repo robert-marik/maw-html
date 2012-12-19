@@ -615,7 +615,6 @@ msgstr  "<span class=\"nadpis\">A proposito di questa pagina</span> <ul> "
         "caratteri \"NO SPAM\" dalle seguenti stringhe) maNOrikSP@mAendMelu."
         "cz e tiNOhlSarPAMik@mendelu.cz.</li> </ul>"
 
-#, fuzzy
 msgid   "MAW-map"
 msgstr  "Mappa del sito </span>  <ul> <li>Funzioni <ul> <li>Grafici traslati "
         "e ridimensionati di funzioni elementari </li> <li>Dominio naturale "
