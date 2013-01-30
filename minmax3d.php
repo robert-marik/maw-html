@@ -34,10 +34,8 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
 <?php echo __('Function'); ?>
 &nbsp;
 <span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="<?php echo $function?>" size="35">
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" 
-class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
-class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko editor">
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button" class="tlacitko">
 
 <?php hint_preview(); ?>
 

@@ -30,9 +30,8 @@ name="exampleform">
 &nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" value="<?php echo $p; ?>">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" value="<?php echo $q; ?>">
   <span style="font-style: italic;">y</span> = <input size="30" name="f" value="<?php echo $f; ?>">
 &nbsp; &nbsp; &nbsp;
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko">
-<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>"  onclick="previewb('f')" type="button"
-class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko editor">
+<input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>"  onclick="previewb('f')" type="button" class="tlacitko">
 <div class="hint_preview">
 <?php echo __("You can use Preview and Edit buttons for entering the right hand side");
 ?>

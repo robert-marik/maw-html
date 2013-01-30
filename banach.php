@@ -26,7 +26,7 @@ if ($function=="")
 <br>
 <?php echo __("Function")?>: <input size="60" name="funkce" 
 value="<?php echo $function;?>">
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 
 <?php hint_preview();?>

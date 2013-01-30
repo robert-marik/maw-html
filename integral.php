@@ -25,7 +25,7 @@ dx<br>
 <input type="radio" name="prom" value="t">
 dt
 </span>&nbsp;
-  <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
 
 <?php hint_preview(); ?>

@@ -93,3 +93,5 @@ input.tlacitko {margin-bottom: 5px; margin-top: 5px;}
 input.preview_region {}
 
 .vnitrni2 {border: 2px solid gray; margin:5px; padding:5px; display:inline-block; vertical-align:top;}
+
+.editor {display:none;}
