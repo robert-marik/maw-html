@@ -47,9 +47,6 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
   $maw_overlib=false;
 }     
 
-require_once("lib/streams.php");
-require_once("lib/gettext.php");
-
 $reqlang=$_REQUEST["lang"];
 
 if ($reqlang == "")
@@ -62,25 +59,23 @@ if ($reqlang == "cz") { $reqlang = "cs";}
 if ($reqlang == "ua") { $reqlang = "uk";}
 $lang=$reqlang;
 
-if ($reqlang == "cs") { $locale_file = "cs_CZ"; }
-elseif ($reqlang == "pl") { $locale_file = "pl_PL"; }
-elseif ($reqlang == "ca") { $locale_file = "ca_ES"; }
-elseif ($reqlang == "fr") { $locale_file = "fr_FR"; }
-elseif ($reqlang == "zh") { $locale_file = "zh_CN"; }
-elseif ($reqlang == "ru") { $locale_file = "ru_RU"; }
-elseif ($reqlang == "de") { $locale_file = "de_DE"; }
-elseif ($reqlang == "it") { $locale_file = "it_IT"; }
-elseif ($reqlang == "uk") { $locale_file = "uk_UA"; }
-elseif ($reqlang == "es") { $locale_file = "es_ES"; }
-
-$locale_file_reader = new FileReader("locale/$locale_file.mo");
-$locale_reader = new gettext_reader($locale_file_reader);
-
-function __($text){
-	global $locale_reader;
-	return $locale_reader->translate($text);
-}
-
+// gettext
+if ($reqlang=="cs") {$langl="cs_CZ"; $locale_file = "cs_CZ";}
+if ($reqlang=="en") {$langl="en_US"; $locale_file = "en_US";}
+if ($reqlang=="pl") {$langl="pl_PL"; $locale_file = "pl_PL";}
+if ($reqlang=="ca") {$langl="ca_ES"; $locale_file = "ca_ES";}
+if ($reqlang=="fr") {$langl="fr_FR"; $locale_file = "fr_FR";}
+if ($reqlang=="zh") {$langl="zh_CN"; $locale_file = "zh_CN";}
+if ($reqlang=="ru") {$langl="ru_RU"; $locale_file = "ru_RU";}
+if ($reqlang=="de") {$langl="de_DE"; $locale_file = "de_DE";}
+if ($reqlang=="it") {$langl="it_IT"; $locale_file = "it_IT";}
+if ($reqlang=="uk") {$langl="uk_UA"; $locale_file = "uk_UA";}
+if ($reqlang=="es") {$langl="es_ES"; $locale_file = "es_ES";}
+setlocale(LC_MESSAGES, $langl.".UTF-8");
+bindtextdomain("messages", "locale");
+textdomain("messages");
+bind_textdomain_codeset  ( "messages" , "UTF-8" );
+function __($text){return gettext($text);}
 
 $form=$_REQUEST["form"];
 $maw_before_form_custom_string="";
