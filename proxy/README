@@ -1,0 +1,5 @@
+Example of Proxy. Can be used if MAW is installed behind firewall. The files
+from this directory have to be installed on a computer which is visible from
+the Internet and can reach the MAW installation behing the firewall.
+
+Just an example remember to use your own URLs.

@@ -1,0 +1,95 @@
+.support{font-size:65%; position: absolute; top:30px; right:5px; text-align:right; }
+div#flags-left{font-size:75%; position:absolute; left: 0px; top: 0px; }
+div#flags-right{font-size:75%; text-align:right; position:absolute; right: 0; top: 0;}
+div#flags {position: relative;}
+
+div#main-title{font-size:160%; text-align:center; font-weight:bolder; margin-bottom:10px;padding-top:30px;}
+div#subtitle:first-letter{text-transform: capitalize;}
+#subtitle {padding-bottom: 10px;}
+
+form {font-size:110%; background-color: #E0FFFF; padding:10px;}
+
+#maw_calculator {margin-bottom:20px; margin-top: 1px; padding: 10px; text-align:left; background-color: #9ce6f3;}
+legend {color:black;}
+
+#after-form {margin-left: 5px; margin-top: 5px; padding: 10px; text-align:left; background-color: #E0FFFF; color:gray;}
+#after-form a{color:gray;}
+
+#aftermenu{color:#444444; margin-top: 5px; display:none;}
+#comments{color:#444444; }
+#comments a{color:#4444FF; }
+#history{margin-bottom:12px;}
+#history a{color: #444444;}
+
+#odkaz_hlavicka {border: 3px solid #9CE6F3;}
+
+#odkaz_hlavicka a {line-height:220%; text-decoration:none; margin:2px; padding: 5px; border-left: 2px solid  #555; color:#555; 
+font-weight : bold; white-space: nowrap; }
+
+#odkaz_hlavicka{text-align: left; margin-top:20px; margin-bottom:10px;}
+
+#odkaz_hlavicka ul li {display: inline;}
+#odkaz_hlavicka ul {margin: 0; padding: 0;}
+
+
+.submenu {margin-bottom:10px ; }
+.submenu a{font-size:90%; font-weight : normal; border-style:none; border-left: 1px solid ; }
+
+.submenu .maw_active a{border-bottom: 1px solid #555; color:#000;}
+#odkaz_hlavicka .maw_active a { border-bottom: 2px solid #555; color:#000;}
+
+.submenu a:hover   {color: red;}
+#odkaz_hlavicka a:hover   {color: red;}
+
+div#dvojint td   {text-align: center;}
+
+body {background-color: #E0FFFF; font-size:14px; font-family: Arial, ARIAL CE, Helvetica, sans-serif;}
+
+.nadpis{font-size:150%; }
+.podnadpis{font-size: 110%; }
+
+.mainmenu{background-color: #9ce6f3;}
+
+td {font-size:14px; }
+
+.main{border-width: 0px;}
+
+.vnitrni {border: 3px solid #9ce6f3; }
+.fieldsetmin {border-width: 0px; margin:10px; margin-left:60px;}
+
+.olfg {background-color:#9ce6f3; }
+
+.red {color:red;}
+.text {color:black;}
+.letterspaced {letter-spacing: 1px; font-weight: bold;}
+.color0 {color:blue;}
+.color1 {color:red;}
+.color2 {color:green;}
+.color3 {color:black;}
+
+#processing {color:gray;}
+
+.gray { color:gray;}
+.gray a { color:gray;}
+
+.hint { color:red; font-size:80%; font-style: italic;}
+
+.h3_error { color:red; font-size:200%; font-weight: bold; margin-bottom: 10px;}
+.ie_warning { color:red; font-size:120%; font-weight: bold;}
+
+ .submit_comment, .hint_preview {font-size: 80%; color:#444444;}
+
+.olfgmath {background-color: #E0FFFF;}
+
+.hint_preview {margin-top: 10px; margin-bottom: 10px;}
+
+input.tlacitko {margin-bottom: 5px; margin-top: 5px;}
+
+.test_maw {margin-left:30px;}
+
+#test_binaries, #test_forms, #test_filter {display:none;}
+#test_binaries {background-color: #BBB; max-width:900px; margin:5px;}
+
+input.preview_region {}
+
+.vnitrni2 {border: 2px solid gray; margin:5px; padding:5px; display:inline-block; vertical-align:top;}
