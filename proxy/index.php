@@ -47,7 +47,42 @@ $a=str_replace('/gnuplot/curve.php?','form=gnuplot/curve.php?&',$a);
 echo $a;
 curl_close($ch);
 
+if ( ($form != "") && ($form != "map") )
+{
+
+if ($reqlang=="cs") { 
+
+echo '<div
+style="color:#333;margin-left:20%;margin-right:20%"><b>Ujednání</b>. Odesláním
+formuláře stvrzuji, že rozumím tomu, že bezmyšlenkové vkládání zadání
+do počítače a bezmyšlenkové opsání výsledku může mít neblahý vliv na
+mé budoucí vzdělávání. Proto používám tuto aplikaci spíše ke kontrole
+výsledků získaných klasickým počítáním, nebo výjímečně v případech,
+kdy moje pokusy vypočítat příklad klasickou cestou selhaly.</div>';
+
+} else { 
+
+echo '<div
+style="color:#333;margin-left:20%;margin-right:20%"><b>Warning</b>. Did
+you try the problem by yourself first? Blind rewriting problem to
+computer and puting down the answer may have serious negative
+influence on your education. The optimal way how to use this
+application is to solve the problem and then check your result against
+computer generated answer.</div>';
+
+}
+
+}
+
 echo "<br><br>";
 echo "<center><img src='http://user.mendelu.cz/marik/akademie/OPVK.png' width=600></center>";
 ?>
 
+<br>
+<br>
+<br>
+<br>
+<center> This is temporary URL for Mathematical Assistant on
+Web. Please, do not spread this URL. Always use <a
+href="http://user.mendelu.cz/marik/maw">http://user.mendelu.cz/marik/maw</a>. Thanks.
+</center>
