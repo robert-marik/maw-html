@@ -4,8 +4,32 @@ cd ./locale
 
 for i in `cat ../maw_languages.txt`
 do
-    echo "Updating $i language"
-    msgfmt $i.po --output-file $i.mo
+    if [ ! -d $i ]
+    then
+	echo "Creating $i directory"
+	mkdir $i
+    fi
+    if [ ! -d $i/LC_MESSAGES ]
+    then
+	echo "Creating $i/LC_MESSAGES directory"
+	mkdir $i/LC_MESSAGES
+    fi
+    echo "Updating *.mo file from maw_$i.po"
+    msgfmt $i.po -o $i/LC_MESSAGES/messages.mo
 done
 
 cd -
+
+echo "Restarting apache (if running as non root you may be asked to write paswoord for sudo user)"
+if [ $(id -u) = "0" ]; then
+    /etc/init.d/apache2 restart
+else
+   sudo /etc/init.d/apache2 restart &> /dev/null
+   if [ $? = "0" ]; then 
+      echo "Apache restarted succesfully"
+   else
+      echo "!!! Restarting apache failed, restart apache manually as root. !!!"
+   fi
+fi
+
+echo "Done"

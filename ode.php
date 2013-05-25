@@ -31,7 +31,7 @@ type="radio">
    </span> 
 &nbsp; &nbsp; <span style="font-style: italic;">y'=</span> 
 <input size="40" name="ode" value="<?php echo $oderhs;?>"> &nbsp; &nbsp; &nbsp;
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('ode')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('ode')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('ode')" type="button"
 class="tlacitko">
 <br>

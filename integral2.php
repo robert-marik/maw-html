@@ -43,7 +43,7 @@ value="<?php echo $function;?>">
 <option value="r dr dphi">r dr dphi</option>
 <option value="r dphi dr">r dphi dr</option>
 </select>
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>"  title="<?php echo($previewmsg); ?>" onclick="previewb_int2('funkce')" type="button" class="tlacitko">
 </td>
    </tr>

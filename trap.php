@@ -16,7 +16,7 @@
 </span> &nbsp; &nbsp;<span style="font-style: italic;"> y=</span> <input size="40" name="funkce" value="sin(x)/x"> 
 		 &nbsp;&nbsp;&nbsp;
 
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 			       
 <br>
 <br>

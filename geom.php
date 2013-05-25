@@ -18,7 +18,7 @@ echo($server);?>/geom/geom.php">
 <?php echo __('Upper bound');?>:
 </td><td><span style="font-style: italic;">f(x) =</span> </td><td>
 <input name="funkcef" value="1-x^2">
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
 </td></tr>
@@ -26,7 +26,7 @@ class="tlacitko">
    <?php echo __('Lower bound'); ?>:
 </td><td><span style="font-style: italic;">g(x) =</span></td><td>
 <input name="funkceg" value="(1-x)^2">
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" class="tlacitko">
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkceg')" type="button" class="tlacitko">
 </td></tr>
 </table>

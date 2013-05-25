@@ -22,7 +22,7 @@ action="<?php echo($server);?>/taylor/taylor.php">
 <?php echo __('Function'); ?>
 <span style="font-style: italic;"> f(x)=</span> <input size="40"
 name="funkce" value="<?php echo $function; ?>"> &nbsp; &nbsp; 
-<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko"> 
+<input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor"> 
 
 <?php hint_preview(); ?>
 
