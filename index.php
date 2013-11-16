@@ -57,6 +57,7 @@ if ($reqlang == "")
 
 if ($reqlang == "cz") { $reqlang = "cs";}
 if ($reqlang == "ua") { $reqlang = "uk";}
+if ($reqlang == "")  {$reqlang="en";}
 $lang=$reqlang;
 
 // gettext
@@ -171,6 +172,28 @@ if (file_exists('./custom.css'))
 
   <title><?php echo __("Mathematical Assistant on Web");?></title>
 
+
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script> 
+<script src = "js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src = "js/jquery.highlight-4.js"></script>
+
+<link href="js/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+<!---  <link href="css/example.css" media="screen" rel="stylesheet" type="text/css" /> -->
+  <script src="js/facebox.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('a[rel*=facebox]').facebox({
+        loadingImage : 'js/loading.gif',
+        closeImage   : 'js/closelabel.png'
+      })
+    })
+
+//$(document).bind('reveal.facebox', function() {
+//MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+//})
+
+</script>
+
   <script type="text/javascript">
 var thedata;
 var newwin;
@@ -190,8 +213,8 @@ function previewb(textarea)
 ?>
 thenumber = textarea;
 thedata = document.forms['exampleform'].elements[textarea].value;
-newwin =
-window.open(server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value),"","width=565,height=150,resizable=1,menubar=1,scrollbars=1");
+jQuery.facebox({ 
+  ajax : server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)});
 }
 
 function previewb_int2(textarea)
@@ -200,8 +223,7 @@ function previewb_int2(textarea)
     echo 'server="',$server,'";';
 ?>
   thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements[textarea].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value);
-newwin =
-window.open(thedata,"","width=565,height=150,resizable=1,menubar=1,scrollbars=1");
+  jQuery.facebox({  ajax : thedata  });
 }
 
 function preview_region(textarea)
@@ -210,8 +232,7 @@ function preview_region(textarea)
     echo 'server="',$server,'";';
 ?>
     thedata = server+"/common/formconv.php?lang=<?php echo $lang;?>&expr="+encodeURIComponent(document.forms['exampleform'].elements['funkce'].value)+"&xmin="+encodeURIComponent(document.forms['exampleform'].elements['xmin'].value)+"&xmax="+encodeURIComponent(document.forms['exampleform'].elements['xmax'].value)+"&ymin="+encodeURIComponent(document.forms['exampleform'].elements['ymin'].value)+"&ymax="+encodeURIComponent(document.forms['exampleform'].elements['ymax'].value)+"&a="+encodeURIComponent(document.forms['exampleform'].elements['a'].value)+"&b="+encodeURIComponent(document.forms['exampleform'].elements['b'].value)+"&c="+encodeURIComponent(document.forms['exampleform'].elements['c'].value)+"&d="+encodeURIComponent(document.forms['exampleform'].elements['d'].value)+"&vars="+encodeURIComponent(document.forms['exampleform'].elements['vars'].value)+"&region=1";
-newwin =
-window.open(thedata,"","width=565,height=500,resizable=1,menubar=1,scrollbars=1");
+    jQuery.facebox({  ajax : thedata  }); 
 }
 
 function preview_curve(textarea)
@@ -220,8 +241,7 @@ function preview_curve(textarea)
     echo 'server="',$server,'";';
 ?>
     thedata = server+"/gnuplot/curve.php?lang=<?php echo $lang;?>&x="+encodeURIComponent(document.forms['exampleform'].elements['x'].value)+"&y="+encodeURIComponent(document.forms['exampleform'].elements['y'].value)+"&z="+encodeURIComponent(document.forms['exampleform'].elements['z'].value)+"&tmin="+encodeURIComponent(document.forms['exampleform'].elements['tmin'].value)+"&tmax="+encodeURIComponent(document.forms['exampleform'].elements['tmax'].value);
-newwin =
-window.open(thedata,"","width=800,height=600,resizable=1,menubar=1,scrollbars=1");
+    jQuery.facebox({  ajax : thedata  }); 
 }
 
 function allow_preview(text)
