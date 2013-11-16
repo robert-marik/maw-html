@@ -173,9 +173,7 @@ if (file_exists('./custom.css'))
   <title><?php echo __("Mathematical Assistant on Web");?></title>
 
 
-<script type="text/javascript" src="js/jquery-1.9.1.js"></script> 
-<script src = "js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src = "js/jquery.highlight-4.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <link href="js/facebox.css" media="screen" rel="stylesheet" type="text/css" />
 <!---  <link href="css/example.css" media="screen" rel="stylesheet" type="text/css" /> -->
