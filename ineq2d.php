@@ -6,7 +6,7 @@
 <?php maw_before_form()?><form <?php formmethod();?>
 <?php //echo $onsubmit;
 ?>
-action="<?php echo($server);?>/ineq2d/ineq2d.php"name="exampleform">
+action="<?php echo($server);?>/ineq2d/ineq2d.php" name="exampleform"  id="exampleform">
 <?php polejazyka($lang); ?>
 <textarea name="nerovnice" rows="6" cols="50">
 4*x-y>0
@@ -23,9 +23,9 @@ x+y-8<0
 ?>
 
 <br>
-<input name="pdf" type="checkbox" > 
+<input name="pdf" type="checkbox" style="display:none"> 
 
-   <?php echo __('use high quality output in PDF');
+   <?php echo "";//__('use high quality output in PDF');
 ?>
 
 <input name="square" type="checkbox" checked="checked">

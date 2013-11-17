@@ -525,5 +525,33 @@ else
 
 <?php
 include($form.".php");
+
+?>
+
+<script>
+$("#exampleform").submit(function(e)
+{
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+       {
+       url : formURL,
+       type: "POST",
+       data : postData,
+       success:function(data, textStatus, jqXHR)
+                    {
+                     jQuery.facebox(data);
+                    },
+       error: function(jqXHR, textStatus, errorThrown)
+                    {
+                     alert("problems ....");//if fails     
+                    }
+      });
+   
+   e.preventDefault(); //STOP default action
+});
+</script>
+
+<?php
 include("tail.php"); 
 ?>

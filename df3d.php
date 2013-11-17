@@ -5,7 +5,7 @@
 
 <?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
-action="<?php echo($server);?>/domf/domf.php"name="exampleform">
+action="<?php echo($server);?>/domf/domf.php" name="exampleform" id="exampleform">
 <?php polejazyka($lang); ?>
 
 <?php echo __('Function');?>
