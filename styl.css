@@ -98,6 +98,12 @@ input.preview_region {}
 
 #facebox .popup .content {padding:30px;}
 
+#facebox .loading, #facebox .popup .content {min-width:800px;}
+
+#main-body {width:1600px;}
+
 #facebox form, #facebox .zavrit {display:none;}
 
 #facebox img {vertical-align:center;}
+
+

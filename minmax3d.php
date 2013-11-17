@@ -28,7 +28,7 @@ if ($action==2) {$check2="checked=\"checked\"";}
 
 <?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
-action="<?php echo($server);?>/minmax3d/minmax3d.php"name="exampleform">
+action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exampleform">
 <?php polejazyka($lang); ?>
 
 <?php echo __('Function'); ?>

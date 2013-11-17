@@ -539,12 +539,26 @@ $("#exampleform").submit(function(e)
        type: "POST",
        data : postData,
        success:function(data, textStatus, jqXHR)
+               {
+               var ct = jqXHR.getResponseHeader("content-type");
+               if (ct != "application/json") {jQuery.facebox(data);}
+                    else
                     {
-                     jQuery.facebox(data);
-                    },
+                    //alert (data.data+" "+data.file);
+                    url="http://um.mendelu.cz/dev-maw/common/maw_download.php?file="+data.file+"&filename="+data.data;
+                    //alert (url);
+                    jQuery('<form action="http://um.mendelu.cz/dev-maw/common/maw_download.php" method="post"><input type="hidden" name="file" value="'+ data.file +'"/><input type="hidden" name="filename" value="'+ data.data +'"/>submit<input type="submit" value="odeslat"></form>').appendTo('body').submit().remove();
+                    //jquery("#odkaz").remove();
+                    //jQuery("<a id=\"odkaz\" href=http://um.mendelu.cz/dev-maw/cache/"+data.data+">stahnout</a>").appendTo('body');
+                    }
+                    setTimeout(function() {
+                           $("#after-form").css("display","none");
+                           $("#form").css("display","block");
+                    }, 1800);
+               },
        error: function(jqXHR, textStatus, errorThrown)
                     {
-                     alert("problems ....");//if fails     
+                     alert("There seem to be some technical problems. Please, report to marik@mendelu.cz. Thanks.");//if fails     
                     }
       });
    

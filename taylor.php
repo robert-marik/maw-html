@@ -14,7 +14,7 @@ if  ($degree=="")   {     $degree="5";   }
 <?php echo __("Taylor polynomial");?>
 </span> 
 
-<?php maw_before_form()?><form name="exampleform" <?php formmethod();?>
+<?php maw_before_form()?><form name="exampleform" id="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/taylor/taylor.php">
 
