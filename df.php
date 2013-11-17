@@ -4,7 +4,7 @@
 
 <?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
-action="<?php echo($server);?>/domf/domf.php"name="exampleform">
+action="<?php echo($server);?>/domf/domf.php" name="exampleform" id="exampleform">
 <?php polejazyka($lang); ?>
 <?php echo __('Function');?>
  &nbsp;
@@ -30,7 +30,35 @@ action="<?php echo($server);?>/domf/domf.php"name="exampleform">
 </form><?php maw_after_form(); ?>
 
 <?php history("domf",$server); 
+?>
 
+<script>
+
+
+$("#exampleform").submit(function(e)
+{
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        success:function(data, textStatus, jqXHR)
+        {
+            jQuery.facebox(data);
+        },
+        error: function(jqXHR, textStatus, errorThrown)
+        {
+            alert("problems ....");//if fails     
+        }
+    });
+    e.preventDefault(); //STOP default action
+});
+
+
+</script>
+
+<?php
 echo __("MAW-df")
-
 ?>

@@ -136,7 +136,7 @@ function maw_after_form() {
 
 function history($adresar,$server)
 {
-  echo ("\n<div id=\"history\"><a href=\"$server/common/tail.php?dir=$adresar\">");
+  echo ("\n<div id=\"history\"><a rel=\"facebox\" href=\"$server/common/tail.php?dir=$adresar\">");
   echo __("History");
   echo ("</a></div>\n<div id=\"comments\">");
 }
