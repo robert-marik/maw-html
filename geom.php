@@ -1,8 +1,46 @@
+<?php
+
+$fcef=$_REQUEST["funkcef"];
+$fceg=$_REQUEST["funkceg"];
+$akce=$_REQUEST["akce"];
+$meza=$_REQUEST["meza"];
+$mezb=$_REQUEST["mezb"];
+$colors=$_REQUEST["colors"];
+$hidden=$_REQUEST["hidden"];
+$xmin=$_REQUEST["xmin"];
+$xmax=$_REQUEST["xmax"];
+$ymin=$_REQUEST["ymin"];
+$ymax=$_REQUEST["ymax"];
+$action=rawurldecode($_REQUEST["akce"]);
+
+if ($fceg=="") {$fceg="(1-x)^2";}
+if ($fcef=="") {$fcef="1-x^2";}
+if ($akce=="") {$akce=1;}
+if ($meza=="") {$meza=0;}
+if ($mezb=="") {$mezb=1;}
+if ($xmin=="") {$xmin=-1;}
+if ($xmax=="") {$xmax=3;}
+if ($ymin=="") {$ymin=-1;}
+if ($ymax=="") {$ymax=3;}
+
+$check0="";
+$check1="";
+$check2="";
+$check3="";
+
+if ($action=="") {$action=0;}
+if ($action==0) {$check0=" checked=\"checked\" ";}
+if ($action==1) {$check1=" checked=\"checked\" ";}
+if ($action==2) {$check2=" checked=\"checked\" ";}
+if ($action==3) {$check3=" checked=\"checked\" ";}
+
+?>
+
 <span class="nadpis">
 <?php echo __("Definite integral in geometry");?>
 </span>
 
-<?php maw_before_form()?><form name="exampleform" <?php formmethod();?>
+<?php maw_before_form()?><form name="exampleform" id="exampleform" <?php formmethod();?>
 <?php echo $onsubmit;?>
 action="<?php
 echo($server);?>/geom/geom.php">
@@ -17,7 +55,7 @@ echo($server);?>/geom/geom.php">
 <table><tr><td>
 <?php echo __('Upper bound');?>:
 </td><td><span style="font-style: italic;">f(x) =</span> </td><td>
-<input name="funkcef" value="1-x^2">
+<input name="funkcef" value="<?php echo $fcef; ?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button"
 class="tlacitko">
@@ -25,7 +63,7 @@ class="tlacitko">
 <tr><td>
    <?php echo __('Lower bound'); ?>:
 </td><td><span style="font-style: italic;">g(x) =</span></td><td>
-<input name="funkceg" value="(1-x)^2">
+<input name="funkceg" value="<?php echo $fceg; ?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkceg')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkceg')" type="button" class="tlacitko">
 </td></tr>
@@ -40,11 +78,11 @@ class="tlacitko">
 &nbsp; <span style="font-style: italic;">
    <?php echo __('lower bound') ?>
 =</span>
-<input name="meza" value="0" size="15"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+<input name="meza" value="<?php echo $meza; ?>" size="15"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
 &nbsp;<span style="font-style: italic;">
     <?php echo __('upper bound');?>
  =</span>
-<input name="mezb" value="1" size="15"><br>
+<input name="mezb" value="<?php echo $mezb; ?>" size="15"><br>
 
 </fieldset>
 
@@ -54,18 +92,18 @@ class="tlacitko">
 <?php echo __('Action');?>:
 <br>
 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
-<input checked="checked" name="akce" value="0"
+<input <?php echo ($check0); ?> name="akce" value="0"
 type="radio">&nbsp;
 						<?php printf(__('Find %s area %s between two curves and draw graph.'),'<b>','</b>'); ?>
 
 <br>
 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
-<input name="akce" value="2"
+<input  <?php echo ($check2); ?> name="akce" value="2"
 type="radio">&nbsp;
 						<?php printf (__('Find %s volume %s of solid of revolution and draw graph'),'<b>','</b>');?>
 <br>
 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
-<input name="akce" value="3"
+<input  <?php echo ($check3); ?> name="akce" value="3"
 type="radio">&nbsp;
 						<?php echo __('preview solid of revolution');?>
 <input name="colors" type="checkbox">&nbsp;
@@ -75,7 +113,7 @@ type="radio">&nbsp;
 
 <br> 
 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 
-<input name="akce" value="1"
+<input  <?php echo ($check1); ?> name="akce" value="1"
 type="radio">&nbsp;
 						<?php echo __('Find intercepts of curves');?>
 <br><br>
@@ -84,9 +122,9 @@ type="radio">&nbsp;
 <br>
 
 <span style="font-style: italic;">xmin =</span>
-  <input name="xmin" value="-1" size="15" > &nbsp;
+  <input name="xmin" value="<?php echo $xmin; ?>" size="15" > &nbsp;
 &nbsp; <span style="font-style: italic;">xmax =</span> 
-<input name="xmax" value="3" size="15" ><br>
+<input name="xmax" value="<?php echo $xmax; ?>" size="15" ><br>
 
 
 
@@ -100,8 +138,8 @@ type="radio">&nbsp;
 
 
 
-<span style="font-style: italic;">ymin =</span>&nbsp;<input name="ymin" value="-1" size="15" >
-&nbsp;&nbsp; <span style="font-style: italic;">&nbsp;ymax =</span> <input name="ymax" value="3" size="15" >
+<span style="font-style: italic;">ymin =</span>&nbsp;<input name="ymin" value="<?php echo $ymin; ?>" size="15" >
+&nbsp;&nbsp; <span style="font-style: italic;">&nbsp;ymax =</span> <input name="ymax" value="<?php echo $ymax; ?>" size="15" >
 </fieldset>
 
 <?php echo $submitbutton;?>
@@ -109,8 +147,5 @@ type="radio">&nbsp;
 </form><?php maw_after_form(); ?>
 <?php history("geom",$server);
 						echo __("MAW-geom");
-
- ?>
-
-
+?>
 

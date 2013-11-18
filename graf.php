@@ -2,7 +2,7 @@
 <?php echo __("Graphs of elementary functions");?>
 </span>
 
-<?php maw_before_form()?><form name="exampleform"
+<?php maw_before_form()?><form name="exampleform" id="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/graf/graf.php">
 <?php polejazyka($lang); ?>

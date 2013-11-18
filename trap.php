@@ -5,7 +5,7 @@
 
 
 
-<?php maw_before_form()?><form name="exampleform"  
+<?php maw_before_form()?><form name="exampleform"  id="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/trap/trapezoidal.php">
 

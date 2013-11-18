@@ -35,7 +35,7 @@ if ($action==1)
 <?php maw_before_form()?><form <?php formmethod();?> 
 <?php echo $onsubmit;?>
 action="<?php echo($server);?>/autsyst/autsyst.php"
-name="exampleform">
+name="exampleform" id="exampleform">
 <?php polejazyka($lang); ?>
 
   <span style="font-style: italic;">x' =</span> <input name="funkcef" value="<?php echo $fcef; ?>">

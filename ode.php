@@ -20,7 +20,7 @@ if (str_replace(" ","",$ode2)=="")
 <?php echo __("Ordinary differential equations");?>
 </span>
 
-<?php maw_before_form()?><form name="exampleform" 
+<?php maw_before_form()?><form name="exampleform" id="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/ode/ode.php">
 <?php polejazyka($lang); ?>

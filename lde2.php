@@ -8,7 +8,7 @@
 <?php maw_before_form()?><form <?php formmethod();?>
 <?php echo $onsubmit;?>
  action="<?php echo($server);?>/lde2/ldr2.php"
-name="exampleform">
+name="exampleform" id="exampleform">
 <?php polejazyka($lang); ?>
 
 <?php 

@@ -3,7 +3,7 @@
 <?php echo __("Least squares method");?>
 
 </span>
-<?php maw_before_form()?><form 
+<?php maw_before_form()?><form id="exampleform"
 <?php echo $onsubmit;?>
 <?php formmethod();?> action="<?php echo($server);?>/mnc/mnc.php">
 

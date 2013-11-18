@@ -568,4 +568,27 @@ $("#exampleform").submit(function(e)
 
 <?php
 include("tail.php"); 
+
+if ($_REQUEST["auto"]==1):
+
 ?>
+
+<script>
+if ($("#autosend").length)
+{alert ('has been sent already');}
+else
+{
+//alert ('sending'); 
+var action = confirm('Do you want to send the form?');
+if(action){
+$("#exampleform").submit();
+            //delete the item the way you want
+                }
+
+}
+$('<div if=autosend>sent automatically</div>').prependTo('form')
+</script>
+
+<?php endif; ?>	
+
+
