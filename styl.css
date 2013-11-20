@@ -98,7 +98,7 @@ input.preview_region {}
 
 #facebox .popup .content {padding:30px;}
 
-#facebox .loading, #facebox .popup .content {min-width:800px;}
+#facebox .loading, #facebox .popup .content {width:800px; max-width:800px; overflow:auto;}
 
 #main-body {width:1600px;}
 
@@ -106,4 +106,4 @@ input.preview_region {}
 
 #facebox img {vertical-align:center;}
 
-
+.pdforhtml{display:inline-block; border:none;}

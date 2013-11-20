@@ -28,7 +28,7 @@ if (str_replace(" ","",$ode2)=="")
 type="radio">
    <span>
   <?php echo __('Equation solved wrt y\'');?>: 
-   </span> 
+   </span> <br>
 &nbsp; &nbsp; <span style="font-style: italic;">y'=</span> 
 <input size="40" name="ode" value="<?php echo $oderhs;?>"> &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('ode')" type="button" class="tlacitko editor">
@@ -37,7 +37,7 @@ class="tlacitko">
 <br>
 <input name="akce" value="1"
 type="radio">&nbsp;
-<?php echo __("Full equation");?>: &nbsp; &nbsp;
+<?php echo __("Full equation");?>:<br> &nbsp; &nbsp;
 <input size="60" name="ode2" value="<?php echo $ode2;?>"> &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Preview")); ?>" onclick="previewb('ode2')" type="button"
 class="tlacitko">

@@ -186,11 +186,31 @@ if (file_exists('./custom.css'))
       })
     })
 
-//$(document).bind('reveal.facebox', function() {
-//MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-//})
+$(document).bind('reveal.facebox', function() {
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+})
 
 </script>
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      skipTags: ["script","noscript","style","textarea","code"],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
   <script type="text/javascript">
 var thedata;
@@ -363,7 +383,7 @@ $submitbuttont=<<<SUB
 SUB;
 
 $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));
-
+$submitbutton=$submitbutton."<div class=pdforhtml><fieldset class=pdforhtml>".__('Output').":<input type=\"radio\" value=\"html\" checked=\"checked\" name=\"output\">html<input type=\"radio\" value=\"pdf\" name=\"output\">PDF</fieldset></div>";
 
 function aktivni_konec($cislo)
 {
@@ -517,6 +537,7 @@ echo __("Enter your data into the calculator and click Submit. You can also chan
 else
   {echo __("Choose the field of your interest in the menu and then choose the particular calculator depending on the problem you wish to solve.<br>These calculators are able to solve the problems including step by step solution.<br>The calculators are divided into several groups, the description is available if you move your mouse on the name of each group (the first row of the menu).");}
 
+
 ?>
 </div>
 </div>
@@ -568,7 +589,6 @@ $("#exampleform").submit(function(e)
 
 <?php
 include("tail.php"); 
-
 if ($_REQUEST["auto"]==1):
 
 ?>
@@ -592,3 +612,9 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
+<?php if (!in_array($form, Array("derivace","bisection","regula_falsi","banach") )) : ?>
+
+<script>
+$(".pdforhtml").css("display","none");
+</script>
+<?php endif; ?>
