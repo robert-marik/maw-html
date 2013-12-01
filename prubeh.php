@@ -47,6 +47,7 @@ class="tlacitko">
 <span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
  <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
 
+<span id="preview_function"><input value="<?php echo(__("Preview")); ?>" onclick="preview_function()" type="button" class="tlacitko"></span>
 </fieldset>
 <?php echo $submitbutton;?>
 

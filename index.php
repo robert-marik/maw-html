@@ -253,6 +253,15 @@ function preview_region(textarea)
     jQuery.facebox({  ajax : thedata  }); 
 }
 
+function preview_function(textarea)
+{
+<?php
+  echo 'server="',$server,'";';
+?>
+  thedata = server+"/prubeh/zpracuj.php?lang=<?php echo $lang;?>&funkce="+encodeURIComponent(document.forms['exampleform'].elements['funkce'].value)+"&xmin="+encodeURIComponent(document.forms['exampleform'].elements['xmin'].value)+"&xmax="+encodeURIComponent(document.forms['exampleform'].elements['xmax'].value)+"&ymin="+encodeURIComponent(document.forms['exampleform'].elements['ymin'].value)+"&ymax="+encodeURIComponent(document.forms['exampleform'].elements['ymax'].value)+"&output=png";
+  jQuery.facebox("<img alt='Processing image ...' src='"+thedata+"'>");
+}
+
 function preview_curve(textarea)
 {
 <?php
