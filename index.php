@@ -621,7 +621,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (!in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh") )) : ?>
+<?php if (!in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2") )) : ?>
 
 <script>
 $(".pdforhtml").css("display","none");
