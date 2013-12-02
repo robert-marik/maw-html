@@ -192,6 +192,20 @@ MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 
 </script>
 
+ <script type="text/x-mathjax-config">
+     MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+          var TEX = MathJax.InputJax.TeX;
+          var PREFILTER = TEX.prefilterMath;
+          TEX.Augment({
+            prefilterMath: function (math,displaymode,script) {
+              math = "\\displaystyle{"+math+"}";
+              return PREFILTER.call(TEX,math,displaymode,script);
+            }
+          });
+        });
+ </script>
+
+
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
