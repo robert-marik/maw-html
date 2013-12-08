@@ -130,7 +130,7 @@ function maw_before_form()
 }
 
 function maw_after_form() {
-  echo "</div>\n<div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.display='block';\">","</a>")."</div>";
+  echo "</div>\n<div id='after-form' style='display:none;'>".sprintf(__("Your input is being processed. Wait few seconds to see the output. Click %shere%s to reopen the form which has been submited."),"<a href=\"#\" onclick=\"document.getElementById('after-form').style.display='none';document.getElementById('form').style.visibility='visible';\">","</a>")."</div>";
   echo "<script type=\"text/javascript\">document.getElementById('after-form').style.display='none';</script>";
 }
 
@@ -397,7 +397,7 @@ STR;
 // }
 // else
 // {
-$onsubmit=" onSubmit=\"document.getElementById('form').style.display='none';document.getElementById('after-form').style.display='block';\" ";
+$onsubmit=" onSubmit=\"document.getElementById('form').style.visibility='hidden';document.getElementById('after-form').style.display='block';\" ";
 // }
 
 $submitbuttont=<<<SUB
@@ -407,6 +407,8 @@ SUB;
 
 $submitbutton=sprintf($submitbuttont,__('Submit'),__('Click only once and wait few seconds for the answer!'));
 $submitbutton=$submitbutton."<div class=pdforhtml><fieldset class=pdforhtml>".__('Output').":<input type=\"radio\" value=\"html\" checked=\"checked\" name=\"output\">html<input type=\"radio\" value=\"pdf\" name=\"output\">PDF</fieldset></div>";
+$submitbutton=$submitbutton."<div class=pdfnohtmlyes><fieldset class=pdfnohtmlyes>".__('Output').":<input type=\"radio\" value=\"html\" checked=\"checked\" name=\"output2\" >html<input type=\"radio\" value=\"pdf\" name=\"output2\" disabled>PDF</fieldset></div>";
+$submitbutton=$submitbutton."<div class=pdfyeshtmlno><fieldset class=pdfyeshtmlno>".__('Output').":<input type=\"radio\" value=\"html\" disabled name=\"output3\">html<input type=\"radio\" value=\"pdf\" name=\"output3\" checked=\"checked\" >PDF</fieldset></div>";
 
 function aktivni_konec($cislo)
 {
@@ -527,11 +529,11 @@ echo '</a>';
 aktivni_konec(6);
 
 //echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
-  aktivni(7);
-echo('<a href="index.php?lang='.$lang.'&amp;form=map" >');
-echo __("Site map, support");
-echo '</a>';
-  aktivni_konec(7);
+//  aktivni(7);
+//echo('<a href="index.php?lang='.$lang.'&amp;form=map" >');
+//echo __("Site map, support");
+//echo '</a>';
+//  aktivni_konec(7);
 
 echo("\n</ul>");
 
@@ -572,9 +574,29 @@ include($form.".php");
 
 ?>
 
+
+<script>
+div1 = $('#form');
+div2 = $('#after-form');
+
+tdiv1 = div1.clone();
+tdiv2 = div2.clone();
+
+div1.replaceWith(tdiv2);
+div2.replaceWith(tdiv1);
+
+if (navigator.userAgent.match(/msie/i) )
+{alert("Microsoft Internet Explorer gives poor resutls when using this site. This will be fixed in next months. Now you can try Firefox or Chrome instead. Thanks. \n\n\n Zdá se, že používáte Microsoft Inetrnet Explorer. Tento prohlížeč nepracuje správně s webem MAW. Než bude problém opraven, zkuste prosím Firefox nebo Chrome.");}
+
+//alert ($.browser);
+
+</script>
+
+
 <script>
 $("#exampleform").submit(function(e)
 {
+    $("#mawoutput").slideUp();
     var postData = $(this).serializeArray();
     var formURL = $(this).attr("action");
     $.ajax(
@@ -583,9 +605,17 @@ $("#exampleform").submit(function(e)
        type: "POST",
        data : postData,
        success:function(data, textStatus, jqXHR)
-               {
+               {                
                var ct = jqXHR.getResponseHeader("content-type");
-               if (ct != "application/json") {jQuery.facebox(data);}
+               if (ct != "application/json") {//jQuery.facebox(data);
+                $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
+                $("#mawoutput").fadeIn(1000);
+                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                var position = $("#mawoutput").position();
+                //scroll(0,position.top);
+                $("body").animate({scrollTop : position.top, duration: 1000});
+                $("#go-top").click(function() {$("body").animate({scrollTop : 0});});
+               }
                     else
                     {
                     //alert (data.data+" "+data.file);
@@ -598,7 +628,8 @@ $("#exampleform").submit(function(e)
                     setTimeout(function() {
                            $("#after-form").css("display","none");
                            $("#form").css("display","block");
-                    }, 1800);
+                           $("#form").css("visibility","visible");
+                    }, 1500);
                },
        error: function(jqXHR, textStatus, errorThrown)
                     {
@@ -635,9 +666,16 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (!in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst") )) : ?>
-
+<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d") )) : ?>
 <script>
-$(".pdforhtml").css("display","none");
+$(".pdforhtml").css("display","inline-block");
+</script>
+<?php elseif (in_array($form, Array("ineq2d","graf","df","df3d","integral","ineq2d"))):?>
+<script>
+$(".pdfnohtmlyes").css("display","inline-block");
+</script>
+<?php else: ?>
+<script>
+$(".pdfyeshtmlno").css("display","inline-block");
 </script>
 <?php endif; ?>

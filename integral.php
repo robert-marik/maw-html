@@ -38,7 +38,8 @@ dt
 ?>
 
 <br>
-<input name="jsmath" type="checkbox"> 
+<div style="display:none">
+<input name="jsmath" type="checkbox" disabled> 
 	<?php echo __('use 
 <a href="http://www.math.union.edu/~dpvc/jsmath/">jsMath</a> for writing formulas on html page instead of  
 <a href="http://www.forkosh.com/mathtex.html">mathTeX</a> 
@@ -46,7 +47,7 @@ dt
 ');
 ?>
 
-<br>
+<br></div>
 <input name="pfeformat" type="checkbox"  checked="checked"> 
 	<?php echo __('<a href="http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat">pfeformat</a> switch (uncheck this if you get composite fractions (with fraction in numerator))');
 ?>
