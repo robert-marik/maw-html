@@ -576,6 +576,7 @@ include($form.".php");
 
 
 <script>
+$('#after-form').append("<center><br><img src=\"working.gif\"></center>");
 div1 = $('#form');
 div2 = $('#after-form');
 
@@ -597,6 +598,7 @@ if (navigator.userAgent.match(/msie/i) )
 $("#exampleform").submit(function(e)
 {
     $("#mawoutput").slideUp();
+    $("#maw_calculator").css("background-color","#CCC");
     var postData = $(this).serializeArray();
     var formURL = $(this).attr("action");
     $.ajax(
@@ -608,7 +610,17 @@ $("#exampleform").submit(function(e)
                {                
                var ct = jqXHR.getResponseHeader("content-type");
                if (ct != "application/json") {//jQuery.facebox(data);
-                $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
+                if (data.match(/MAWerror/i)) 
+                  {
+                    $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up_red.png width=30></span>"+data+"</div>");
+                    $(".outputdata").css("border-color","#F00");
+                    //data = "<div style='margin-left:auto; margin-right:10px;'><img src=fail.png width=90></div>" + data;
+                  } 
+                  else 
+                  {
+                   $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
+                   $(".outputdata").css("border-color","#5FCC06");
+                  }                
                 $("#mawoutput").fadeIn(1000);
                 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 var position = $("#mawoutput").position();
@@ -629,6 +641,7 @@ $("#exampleform").submit(function(e)
                            $("#after-form").css("display","none");
                            $("#form").css("display","block");
                            $("#form").css("visibility","visible");
+                           $("#maw_calculator").css("background-color","#5FCC06");
                     }, 1500);
                },
        error: function(jqXHR, textStatus, errorThrown)
@@ -643,7 +656,7 @@ $("#exampleform").submit(function(e)
 
 <?php
 include("tail.php"); 
-if ($_REQUEST["auto"]==1):
+if (($_REQUEST["auto"]==1)&&($_REQUEST["output"]!="pdf")&&false):
 
 ?>
 
@@ -653,7 +666,8 @@ if ($("#autosend").length)
 else
 {
 //alert ('sending'); 
-var action = confirm('Do you want to send the form?');
+//var action = confirm('Do you want to send the form?');
+var action = true;
 if(action){
 $("#exampleform").submit();
             //delete the item the way you want
@@ -666,7 +680,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d") )) : ?>
+<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom") )) : ?>
 <script>
 $(".pdforhtml").css("display","inline-block");
 </script>

@@ -36,8 +36,7 @@ if ($action==3) {$check3=" checked=\"checked\" ";}
 
 ?>
 
-<span class="nadpis">
-<?php echo __("Definite integral in geometry");?>
+<span class="nadpis"><?php echo __("Definite integral in geometry");?>
 </span>
 
 <?php maw_before_form()?><form name="exampleform" id="exampleform" <?php formmethod();?>

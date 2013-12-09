@@ -5,7 +5,7 @@
 div#maw_calculator a {color: #4726C2;}
 
 
-div#after-form {color: red;}
+div#after-form {color: #AA0000;}
 
 .red{color: #E81046; white-space:pre-line;}
 .h3_error, .hint { color:#E81046; }
@@ -131,12 +131,12 @@ li:hover .submenu_container {display:block; position: static; }
 
 .editor {display:none;}
 
-.maw_menu, .submenu, .mainmenu, form, div#after-form, body, .olfgmath {background-color: #C2FFA3;}
+.maw_menu, .submenu, .mainmenu, form, body, .olfgmath {background-color: #C2FFA3;}
 #maw_calculator, #odkaz_hlavicka, div#maw_calculator , .olfg {background-color:#36B538;}
 .vnitrni {border: 3px solid #36B538; padding:10px; } 
 
 
-.maw_menu, .submenu, .mainmenu, form, div#after-form, body, .olfgmath {background-color: #C4FABE;}
+.maw_menu, .submenu, .mainmenu, form,  body, .olfgmath {background-color: #C4FABE;}
 #maw_calculator, #odkaz_hlavicka, div#maw_calculator , .olfg {background-color:#5FCC06;}
 .vnitrni, .vnitrni2 {border: 3px solid #5FCC06; padding:10px; } 
 
@@ -166,9 +166,9 @@ table  { border-collapse:collapse; }
 th  {background-color:green; color:white;} 
 th, td {padding:10px;}
 
-.outputdata{border:4px solid #5FCC06; padding:20px; margin-left:40px; margin-bottom:60px; margin-top:40px; background-color:#EEE; margin-right:40px;}
+.outputdata{border:6px solid #5FCC06; padding:20px; margin-left:40px; margin-bottom:60px; margin-top:40px; background-color:#EEE; margin-right:40px;}
 
-
+#mawoutput .support {display:none;}
 #after-form {position:absolute;}
 
 #go-top {cursor:pointer;}
