@@ -1,6 +1,5 @@
 <span class="nadpis">
-<?php echo __("Graphs of elementary functions");?>
-</span>
+<?php echo __("Function grapher");?></span>
 
 <?php maw_before_form()?><form name="exampleform" id="exampleform"
 <?php echo $onsubmit;?>
@@ -12,7 +11,7 @@
 </label>
 &nbsp;&nbsp;
 <span style="font-style: italic;">y=</span> <input size="40" name="funkce"
-						    value="1-2*(x-4)^2"> 
+						    value="1-1/2*(x-1)^2"> 
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
 

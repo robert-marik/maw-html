@@ -4,15 +4,11 @@ future plans:
     and concavity
 * vylepsit zobrazeni celeho retezce funkci, pres ktere prochazime u
   transformaci grafu zakl el. fci (u PDF  animace). 
-* Definicni obor funkci jedne promenne - upravit na vystup do PDF.
-* Definicni obor funkci dvou promennych - upravit na vystup do PDF, vystup 
-  do html nechat jako jednu z voleb.
 * test, jestli jsou v urcitych integralech meze konstanty (a ne napr."exp")
 * use a string variables for formconv executable 
 * integral: if function can be splitted into sum and is in x variable,
    we can investigate terms separately. Allow this feature also for
    general variable (by converting into x variable first)
-* think on Windows port (running in cygwin)
 * replace deprecated ereg function - http://www.devthought.com/2009/06/09/fix-ereg-is-deprecated-errors-in-php-53/
 
 changes from January 2008
@@ -22,7 +18,12 @@ Some changes are motivatied by error messages from logs. It may
 hapen that the problem which caused an error works well after few 
 days. 
 
-January, February 2012
+year 2013
+* Most calculators have output in html. This allows translation into other
+  languages using Chrome browser.
+* Moved to new hardware
+
+year 2012
 * MAW vitrual machine updated to recent version.
 * Russian translation finished, thanks to the translators
 * Line integral added

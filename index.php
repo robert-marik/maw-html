@@ -372,7 +372,7 @@ if (file_exists('./mawcustom_aftertitle.php'))
 <div id="odkaz_hlavicka">
 
 <div class="mainmenu">
- 
+<div style="position:absolute;text-align:right;margin-right:10px; margin-left:150px;"><img src=xmas.png width=70></div>
 <?php 
 
 
@@ -455,7 +455,7 @@ function printsubmenu($i)
       $proceed=true;
     }
   if ($i=="2") {
-    echo maw_submenu('graf',$lang,'graf', __("Graphs of elementary functions"));
+    echo maw_submenu('graf',$lang,'graf', __("Function grapher"));
     echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
     echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
     echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
