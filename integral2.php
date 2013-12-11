@@ -1,5 +1,4 @@
-<span class="nadpis">
-   <?php echo __("Double integral");
+<span class="nadpis"><?php echo __("Double integral");
 
 $function=$_REQUEST["function"];
 if ($function=="")
@@ -69,6 +68,19 @@ value="<?php echo $function;?>">
 <span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
 <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
+</fieldset>
+<fieldset class="vnitrni">
+<legend class="podnadpis">
+<?php echo __('Additional computation'); ?> (<?php echo __("html only"); ?>)
+</legend>
+<div class=twocolumn>
+<?php printf (__("The calculator evaluates %s."),"\$\\iint_{M}f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
+<input name="f1" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} \\mathrm{d}x\\mathrm{d}y\$"); ?><br>
+<input name="fx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} xf(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
+<input name="fy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} yf(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
+<input name="fxx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} x^2f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
+<input name="fyy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} y^2f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?>
+</div>
 </fieldset>
 <input name="logarc" type="checkbox"  checked="checked"> 
 <?php echo __('write acsinh and atanh in terms of log'); ?>

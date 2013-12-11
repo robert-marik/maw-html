@@ -624,6 +624,22 @@ $("#exampleform").submit(function(e)
                   }                
                 $("#mawoutput").fadeIn(1000);
                 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                /* 8.11.2013 Robert Marik: nastaveni stejne vysky pro class "blok" pokud jsou ve stejne vysce*/
+                /* bloky=$(".logickyBlok");
+                for (var i=0;i<bloky.length-1;i++)
+                   {
+                        ted = bloky.eq(i).position().top;
+                        dalsi = bloky.eq(i+1).position().top;
+                        
+                        if (Math.abs(ted-dalsi)<5)
+                                {        
+                                     max1=bloky.eq(i).height();
+                                     max2=bloky.eq(i+1).height();
+                                     max=Math.max(max1,max2,800);
+                                     bloky.eq(i).height(max);
+                                     bloky.eq(i+1).height(max);
+                                }
+                   }*/
                 var position = $("#mawoutput").position();
                 //scroll(0,position.top);
                 $("body").animate({scrollTop : position.top, duration: 1000});
