@@ -19,166 +19,64 @@ msgstr  "Project-Id-Version: zh_CN\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
 
-msgid   "Singular points of autonomous systems"
-msgstr  "自治系统的奇点"
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "极坐标下的雅可比行列式会自动添加。极坐标变量 <img src=\"phi.png\" "
+        "alt=\"phi\"> 可以写为 <b>phi</b> 。"
 
-msgid   "Editor"
-msgstr  "编辑"
-
-msgid   "Preview"
-msgstr  "预览"
-
-msgid   "What to do"
-msgstr  "我需要"
-
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "求驻点处的雅可比矩阵"
-
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "先让计算机求驻点（可能不会找到所有的驻点）"
-
-msgid   "MAW-autsyst"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>填写自治"
-        "微分方程和驻点，然后单击“提交”按钮进行求解。</li> <li>你可以使用计算"
-        "机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的"
-        "单选按钮。</li> </ul>"
-
-msgid   "Method of iterations"
-msgstr  "迭代法"
-
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "输入函数、不动点所在的区间，以及步数。"
-
-msgid   "Function"
-msgstr  "函数"
-
-msgid   "Interval from "
-msgstr  "区间 从 "
-
-msgid   "to"
-msgstr  " 到 "
-
-msgid   "(integers or decimal numbers)"
-msgstr  "（整数或小数）"
-
-msgid   "Number of steps "
-msgstr  "步数"
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
+msgstr  "%s离线版本%s 可以在此处获取。同时我们也欢迎你 %s参与翻译%s。"
 
 msgid   "(integer between 2  and 40)"
 msgstr  "（2 到 40 之间的整数）"
 
-msgid   "Initial approximation"
-msgstr  "初始近似值"
+msgid   "(integer between 2 and 40)"
+msgstr  "（2 到 40 之间的整数）"
 
 msgid   "(integer or decimal number)"
 msgstr  "（整数或小数）"
 
-msgid   "MAW-banach"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非线性"
-        "方程组求解基于 <a href=\"http://zh.wikipedia.org/wiki/%E5%8E%8B%E7%BC"
-        "%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</a> 。</"
-        "li> </ul>"
+msgid   "(integers or decimal numbers)"
+msgstr  "（整数或小数）"
+
+msgid   "(the function must either a basic elementary function of a function "
+        "which can be obtained from on of basic elementary functions by "
+        "shifting and resizing graph)"
+msgstr  "（所求函数图像应当可以通过移动、缩放一个基本初等函数的图像得到）"
+
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
+        "不要勾选此项）"
+
+msgid   "Action"
+msgstr  "求解"
+
+msgid   "Antiderivative"
+msgstr  "不定积分（反导数）"
+
+msgid   "Autonomous system"
+msgstr  "自治系统"
+
+msgid   "Axes"
+msgstr  "坐标轴"
+
+msgid   "Axes (decimal numbers)"
+msgstr  "积分区间（可用小数）"
 
 msgid   "Bisection"
 msgstr  "二分法"
 
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "输入函数、包含 0 的区间，以及步数。"
+msgid   "Bounds for axes"
+msgstr  "坐标轴界限"
 
-msgid   "Interval from"
-msgstr  "区间 从 "
-
-msgid   "(integer between 2 and 40)"
-msgstr  "（2 到 40 之间的整数）"
-
-msgid   "MAW-bisection"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关理论"
-        "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
-        "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
-
-msgid   "Derivative and partial derivative"
-msgstr  "导数和偏导数"
-
-msgid   "automatically use linearity of derivative"
-msgstr  "自动线性求导"
-
-msgid   "automatically differentiate constants"
-msgstr  "自动微分常数"
-
-msgid   "The type of the derivative"
-msgstr  "求导类型"
-
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "普通求导（一元函数）"
-
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "对 <i>x</i> 求偏导数（二元函数）"
-
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "对 <i>y</i> 求偏导数（二元函数）"
-
-msgid   "MAW-der"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入一个"
-        "函数然后单击“提交”按钮。请稍等几秒钟，计算结果将以 PDF 文件形式返回。"
-        "</li><li>根据用户环境不同，返回的 PDF 文件可能直接在浏览器中显示预"
-        "览，也可能显示下载窗口。请确保计算机中拥有 PDF阅读器。</li><li>你可以"
-        "在本页面中求解一元或者二元函数的导数。"
-
-msgid   "Domain of a function in one variable"
-msgstr  "一元函数的定义域"
-
-msgid   "Parameters"
-msgstr  "参数"
-
-msgid   "MAW-df"
-msgstr  " "
-
-msgid   "Domain of a function in two variables"
-msgstr  "二元函数的定义域"
-
-msgid   "limits for the picture with domain:"
-msgstr  "函数图像界限"
-
-msgid   "draw domain on the set"
-msgstr  "图像绘制坐标界限为"
-
-msgid   "MAW-df3d"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
-        "中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
-
-msgid   "Switch to a compact design"
-msgstr  "切换至精简视图"
-
-msgid   "Showcase"
-msgstr  "示例"
-
-msgid   "Switch to a full design"
-msgstr  "切换至完整视图"
-
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  "我们帮助你解决了数学问题吗？我们为你节省了时间吗？ 如果是这样，请考虑"
-        "赞助<a href=\"http://www.supportunicefchina.org/\">联合国儿童基金会</"
-        "a>。"
-
-msgid   "Definite integral in geometry"
-msgstr  "定积分的几何应用"
-
-msgid   "Formulation of the problem"
-msgstr  "问题公式化"
-
-msgid   "Curves on boundary"
-msgstr  "图像边界"
-
-msgid   "Upper bound"
-msgstr  "上届"
-
-msgid   "Lower bound"
-msgstr  "下界"
+msgid   "Bounds for the picture (decimal numbers)"
+msgstr  "图像界限（可用小数）"
 
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "of both curves by choosing \"intercepts\" in parameters for "
@@ -186,199 +84,14 @@ msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
 msgstr  "<i>x</i> 坐标轴的界限：<small>（在参数中勾选“求图像交点”可以尝试找到"
         "两条曲线的交点）</small>"
 
-msgid   "lower bound"
-msgstr  "左边界"
-
-msgid   "upper bound"
-msgstr  "右边界"
-
-msgid   "Action"
-msgstr  "求解"
-
-#, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "求两条曲线之间的 %s 面积 %s 并绘制图像。"
-
-#, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "求回转体的 %s 体积 %s 并绘制图像。"
-
-msgid   "preview solid of revolution"
-msgstr  "预览回转体"
-
-msgid   "show colors, no mesh"
-msgstr  "显示颜色，不显示网格"
-
-msgid   "hide invisible parts"
-msgstr  "隐藏不可见的部分"
-
-msgid   "Find intercepts of curves"
-msgstr  "求图像交点"
-
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "图像界限（可用小数）"
-
-msgid   "MAW-geom"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定义图"
-        "像上下边界的函数。</li>  <li>如果下边界为<span style=\"font-style: "
-        "italic;\">x</span> 轴，函数 <span style=\"font-style: italic;\">g</"
-        "span> 请填写 0。</li>  <li>你可以让计算机尝试求解曲线的交点。请选择适"
-        "当的选项。<br> </li> </ul>"
-
-msgid   "Graphs of elementary functions"
-msgstr  "初等函数图像"
-
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  "（所求函数图像应当可以通过移动、缩放一个基本初等函数的图像得到）"
-
-msgid   "Bounds for axes"
-msgstr  "坐标轴界限"
-
-msgid   "show grid"
-msgstr  "显示网格"
-
-msgid   "Logarithm"
-msgstr  "对数"
-
-msgid   "If the input contains logarithm, use"
-msgstr  "如果输入的函数包含对数，使用"
-
-msgid   "natural log"
-msgstr  "自然对数"
-
-msgid   "log with base"
-msgstr  "以此为底的对数"
-
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>所求函数"
-        "图像应当可以通过移动、缩放一个基本初等函数的图像得到。</li><li>输入的"
-        "函数将被自动绘制。你将得到函数的图形，包括其变形过程。</li></ul>"
-
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "点击这个按钮即可显示你书写的表达式如何被 formconv 展现，以及你应当如"
-        "何用 Maxima 符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到"
-        "这个表单中。）"
-
-#, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一"
-        "页面。"
-
-msgid   "History"
-msgstr  "历史记录"
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "在线数学助理 (MAW)"
-
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
-
-msgid   "More languages"
-msgstr  "更多"
-
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
-
-msgid   "Support from MAW forum"
-msgstr  "从MAW论坛获取支持"
-
-msgid   "Changelog"
-msgstr  "更新日志"
-
-msgid   "Known bugs"
-msgstr  "已知问题"
-
-msgid   "Submit"
-msgstr  "提交"
-
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "请不要反复点击，结果将在数秒钟后呈现。"
-
-msgid   "Domain of functions (one variable)"
-msgstr  "一元函数的定义域"
-
-msgid   "Domain of functions (two variables)"
-msgstr  "二元函数的定义域"
-
-msgid   "Lagrange polynomial"
-msgstr  "拉格朗日多项式"
-
-msgid   "Least squares method"
-msgstr  "最小二乘法"
-
-msgid   "Investigating functions"
-msgstr  "函数特性"
-
-msgid   "Taylor polynomial"
-msgstr  "泰勒多项式"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "二元函数的局部最大值与最小值"
-
-msgid   "Antiderivative"
-msgstr  "不定积分（反导数）"
-
-msgid   "Geometrical applications of definite integral"
-msgstr  "定积分的几何应用"
-
-msgid   "Trapezoidal rule"
-msgstr  "梯形法则"
-
-msgid   "Double integral"
-msgstr  "二重积分"
-
-msgid   "Line integral"
-msgstr  "曲线积分"
-
-msgid   "First order ODE"
-msgstr  "一阶常微分方程"
-
-msgid   "Second order LDE"
-msgstr  "二阶常微分方程"
-
-msgid   "Autonomous system"
-msgstr  "自治系统"
-
-msgid   "Regula falsi"
-msgstr  "试位法"
-
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "一元或二元不等式（组）"
-
-msgid   "Introduction"
-msgstr  "简介"
-
-msgid   "Precalculus"
-msgstr  "初等数学"
-
 msgid   "Calculus"
 msgstr  "微分"
 
-msgid   "Integral calculus"
-msgstr  "积分"
+msgid   "Center of Taylor polynomial"
+msgstr  "泰勒多项式的中心点"
 
-msgid   "Differential equations"
-msgstr  "微分方程"
-
-msgid   "Equations and inequalities"
-msgstr  "等式与不等式"
-
-msgid   "Site map, support"
-msgstr  "网站地图与支持"
-
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  "请在表单中输入你的数据并点击“提交”按钮。在菜单的第二行，你可以改变计"
-        "算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜"
-        "单的第一行）。"
+msgid   "Changelog"
+msgstr  "更新日志"
 
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wish to solve."
@@ -390,27 +103,232 @@ msgstr  "请在菜单中选择你需要的分类，然后根据你需要解决�
         "能。<br>所提供的计算功能可以解答包括需要分步解决的问题。<br>计算功能"
         "被分成了几个组。将鼠标移至组名上可以显示介绍（菜单的第一行）。"
 
+msgid   "Click only once and wait few seconds for the answer!"
+msgstr  "请不要反复点击，结果将在数秒钟后呈现。"
+
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
+msgstr  "点击这个按钮即可显示你书写的表达式如何被 formconv 展现，以及你应当如"
+        "何用 Maxima 符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到"
+        "这个表单中。）"
+
+msgid   "Curve"
+msgstr  "曲线"
+
+msgid   "Curves on boundary"
+msgstr  "图像边界"
+
+msgid   "Data file"
+msgstr  "数据"
+
+msgid   "Definite integral in geometry"
+msgstr  "定积分的几何应用"
+
+msgid   "Degree of Taylor polynomial"
+msgstr  "泰勒多项式阶数"
+
+msgid   "Derivative and partial derivative"
+msgstr  "导数和偏导数"
+
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  "我们帮助你解决了数学问题吗？我们为你节省了时间吗？ 如果是这样，请考虑"
+        "赞助<a href=\"http://www.supportunicefchina.org/\">联合国儿童基金会</"
+        "a>。"
+
+msgid   "Differential equations"
+msgstr  "微分方程"
+
+msgid   "Domain of a function in one variable"
+msgstr  "一元函数的定义域"
+
+msgid   "Domain of a function in two variables"
+msgstr  "二元函数的定义域"
+
+msgid   "Domain of functions (one variable)"
+msgstr  "一元函数的定义域"
+
+msgid   "Domain of functions (two variables)"
+msgstr  "二元函数的定义域"
+
+msgid   "Double integral"
+msgstr  "二重积分"
+
+msgid   "Editor"
+msgstr  "编辑"
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "输入函数，选择变量和积分顺序"
+
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  "输入函数、不动点所在的区间，以及步数。"
+
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  "输入函数、包含 0 的区间，以及步数。"
+
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the calculator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  "请在表单中输入你的数据并点击“提交”按钮。在菜单的第二行，你可以改变计"
+        "算类型。<br>计算功能被分成了几个组。将鼠标移至组名上可以显示介绍（菜"
+        "单的第一行）。"
+
+msgid   "Equation"
+msgstr  "方程"
+
+msgid   "Equation solved wrt y'"
+msgstr  "对 y' 的方程"
+
+msgid   "Equations and inequalities"
+msgstr  "等式与不等式"
+
+#, php-format
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  "求两条曲线之间的 %s 面积 %s 并绘制图像。"
+
+#, php-format
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  "求回转体的 %s 体积 %s 并绘制图像。"
+
+msgid   "Find intercepts of curves"
+msgstr  "求图像交点"
+
+msgid   "First order ODE"
+msgstr  "一阶常微分方程"
+
+msgid   "Formulation of the problem"
+msgstr  "问题公式化"
+
+msgid   "Full equation"
+msgstr  "一般方程"
+
+msgid   "Function"
+msgstr  "函数"
+
+msgid   "Function calculator"
+msgstr  "函数计算器"
+
+msgid   "Geometrical applications of definite integral"
+msgstr  "定积分的几何应用"
+
+msgid   "Graphs of elementary functions"
+msgstr  "初等函数图像"
+
+msgid   "Hessian at stationary point"
+msgstr  "一个驻点处的海赛矩阵"
+
+msgid   "Hessian at stationary points"
+msgstr  "多个驻点处的海赛矩阵"
+
+msgid   "History"
+msgstr  "历史记录"
+
+msgid   "If the input contains logarithm, use"
+msgstr  "如果输入的函数包含对数，使用"
+
 msgid   "Inequalities"
 msgstr  "不等式"
 
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "可求解的不等式请参看表单下方的备注。"
+msgid   "Initial approximation"
+msgstr  "初始近似值"
 
-msgid   "suppose x,y>0"
-msgstr  "假定 x 和 y 均大于 0"
+msgid   "Integral calculus"
+msgstr  "积分"
 
-msgid   "draw labels on axes, not on boundary"
-msgstr  "将标签绘制在坐标轴旁，不要绘制在边界处"
+msgid   "Integral of a scalar field"
+msgstr  "标量场的曲线积分"
 
-msgid   "use high quality output in PDF"
-msgstr  "输出高质量 PDF 文件"
+msgid   "Integral of a vector field"
+msgstr  "向量场的曲线积分"
 
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "并且移动边界使两坐标轴单位相同"
+msgid   "Interval from"
+msgstr  "区间 从 "
 
-msgid   "Axes"
-msgstr  "坐标轴"
+msgid   "Interval from "
+msgstr  "区间 从 "
+
+msgid   "Introduction"
+msgstr  "简介"
+
+msgid   "Investigating functions"
+msgstr  "函数特性"
+
+msgid   "Known bugs"
+msgstr  "已知问题"
+
+msgid   "Lagrange polynomial"
+msgstr  "拉格朗日多项式"
+
+msgid   "Least squares method"
+msgstr  "最小二乘法"
+
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  "最后一个文本框留空将在二维平面中进行积分。"
+
+msgid   "Limits for integration"
+msgstr  "积分界限"
+
+msgid   "Line integral"
+msgstr  "曲线积分"
+
+msgid   "Local extrema in two variables"
+msgstr  "二元函数的局部极值"
+
+msgid   "Local maxima and minima in two variables"
+msgstr  "二元函数的局部最大值与最小值"
+
+msgid   "Logarithm"
+msgstr  "对数"
+
+msgid   "Lower bound"
+msgstr  "下界"
+
+msgid   "MAW-autsyst"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>填写自治"
+        "微分方程和驻点，然后单击“提交”按钮进行求解。</li> <li>你可以使用计算"
+        "机来求解驻点或者雅可比矩阵，以及在某一个驻点处的特征值。请选择正确的"
+        "单选按钮。</li> </ul>"
+
+msgid   "MAW-banach"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>本非线性"
+        "方程组求解基于 <a href=\"http://zh.wikipedia.org/wiki/%E5%8E%8B%E7%BC"
+        "%A9%E6%98%A0%E5%B0%84%E5%AE%9A%E7%90%86\">巴拿赫不动点定理</a> 。</"
+        "li> </ul>"
+
+msgid   "MAW-bisection"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关理论"
+        "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
+        "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
+
+msgid   "MAW-der"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入一个"
+        "函数然后单击“提交”按钮。请稍等几秒钟，计算结果将以 PDF 文件形式返回。"
+        "</li><li>根据用户环境不同，返回的 PDF 文件可能直接在浏览器中显示预"
+        "览，也可能显示下载窗口。请确保计算机中拥有 PDF阅读器。</li><li>你可以"
+        "在本页面中求解一元或者二元函数的导数。"
+
+msgid   "MAW-df"
+msgstr  " "
+
+msgid   "MAW-df3d"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
+        "中输入一个二元函数，然后选择图像界限并单击“提交”按钮。</li> </ul>"
+
+msgid   "MAW-geom"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul>   <li>输入定义图"
+        "像上下边界的函数。</li>  <li>如果下边界为<span style=\"font-style: "
+        "italic;\">x</span> 轴，函数 <span style=\"font-style: italic;\">g</"
+        "span> 请填写 0。</li>  <li>你可以让计算机尝试求解曲线的交点。请选择适"
+        "当的选项。<br> </li> </ul>"
+
+msgid   "MAW-graf"
+msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>所求函数"
+        "图像应当可以通过移动、缩放一个基本初等函数的图像得到。</li><li>输入的"
+        "函数将被自动绘制。你将得到函数的图形，包括其变形过程。</li></ul>"
 
 msgid   "MAW-ineq2d"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文本框"
@@ -425,81 +343,15 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>在文�
         "为 10:7 。选中第二个选项可以使横纵坐标单位一致，比较短的坐标轴区间将"
         "被扩大。</li> </ul>"
 
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "使用 <a href=\"http://formconv.sourceforge.net/\">formconv</a> 解析输"
-        "入的表达式（允许将2*x写成2x）"
-
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "使用 <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> "
-        "将最终结果输出为 HTML ，取代 <a href=\"http://www.forkosh.com/"
-        "mathtex.html\">mathTeX</a> 的图形结果（输出效果稍好，但结果呈现可能会"
-        "变慢）。\n"
-
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> 开关（如果函数中含有繁分式，"
-        "不要勾选此项）"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
-
 msgid   "MAW-int"
 msgstr  "MAW-int"
-
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "输入函数，选择变量和积分顺序"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "极坐标下的雅可比行列式会自动添加。极坐标变量 <img src=\"phi.png\" "
-        "alt=\"phi\"> 可以写为 <b>phi</b> 。"
-
-msgid   "Axes (decimal numbers)"
-msgstr  "积分区间（可用小数）"
-
-msgid   "Preview region of integration"
-msgstr  "预览积分界限"
 
 msgid   "MAW-int2"
 msgstr  "MAW-int2"
 
-msgid   "Data file"
-msgstr  "数据"
-
 msgid   "MAW-lagr"
 msgstr  "<ul> <li> 输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请"
         "使用逗号分隔。</li> </ul>"
-
-msgid   "Second order linear differential equations"
-msgstr  "二阶常微分方程"
-
-msgid   "Equation"
-msgstr  "方程"
-
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  "单击“预览”和“编辑”按钮可以使用可视化工具来编辑等号右边的公式，或者校"
-        "验输入是否正确。"
-
-msgid   "Method"
-msgstr  "方法"
-
-msgid   "variation of constants"
-msgstr  "常数变易法"
-
-msgid   "undetermined coefficients"
-msgstr  "待定系数法"
-
-msgid   "solve also initial value problem"
-msgstr  "同时求解初值问题"
 
 msgid   "MAW-lde2"
 msgstr  "<ul>   <li>在左侧填写系数（数字）并在右侧填写补全方程式，然后单击提交"
@@ -509,37 +361,6 @@ msgstr  "<ul>   <li>在左侧填写系数（数字）并在右侧填写补全方
         "i> 均为实数，且 <i>P(x)</i>, <i>Q(x)</i> 为不高于 4 次的多项式。</"
         "li>   <li>如果你认为给出的结果不正确，请务必通知我们，谢谢。</li> </"
         "ul>"
-
-msgid   "Integral of a scalar field"
-msgstr  "标量场的曲线积分"
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E6.A0.87."
-        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
-
-msgid   "Integral of a vector field"
-msgstr  "向量场的曲线积分"
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E5.90.91."
-        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  "最后一个文本框留空将在二维平面中进行积分。"
-
-msgid   "line integral in 2D"
-msgstr  "二维空间的曲线积分"
-
-msgid   "line integral in 3D"
-msgstr  "三维空间的曲线积分"
-
-msgid   "Curve"
-msgstr  "曲线"
-
-msgid   "Parameter bounds"
-msgstr  "参数界限"
 
 msgid   "MAW-lineint"
 msgstr  "MAW-lineint"
@@ -584,18 +405,6 @@ msgstr  "网站地图</span>  <ul> <li>初等数学<ul> <li>初等函数图像</
         "<li>仍然想帮助我们？请将任何问题反馈给我们。联系方式参见介绍页面。我"
         "们也欢迎你加入开发，完善这个项目。</li> </ul>"
 
-msgid   "Local extrema in two variables"
-msgstr  "二元函数的局部极值"
-
-msgid   "Task for computation"
-msgstr  "计算任务"
-
-msgid   "Hessian at stationary point"
-msgstr  "一个驻点处的海赛矩阵"
-
-msgid   "Hessian at stationary points"
-msgstr  "多个驻点处的海赛矩阵"
-
 msgid   "MAW-minmax3d"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span> <br>在本页面你可以求"
         "解二元函数的驻点。你有以下选项。<ul><li>利用计算机代数系统自动寻找驻"
@@ -608,15 +417,6 @@ msgid   "MAW-mnc"
 msgstr  "<ul> <li> 输入数据点。点与点之间请使用分号分隔，每个点的坐标值数字请"
         "使用逗号分隔。</li> </ul>"
 
-msgid   "Ordinary differential equations"
-msgstr  "常微分方程"
-
-msgid   "Equation solved wrt y'"
-msgstr  "对 y' 的方程"
-
-msgid   "Full equation"
-msgstr  "一般方程"
-
 msgid   "MAW-ode"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>本页面可"
         "以通过多种方式求解常微分方程，并能给出求解的中间步骤。</li><li>请根据"
@@ -624,9 +424,6 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>本页�
         "<li>如果你在第二个文本框中输入完整的常微分方程，系统会自动对 y' 进行"
         "求解。计算前请仔细检查确保输入正确。</li> <li>计算机求解是一项复杂的"
         "工作。如果你认为得到的结果不正确，请将其反馈给作者。谢谢。</li></ul>"
-
-msgid   "Function calculator"
-msgstr  "函数计算器"
 
 msgid   "MAW-prub"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br> <ul><li>如果图像"
@@ -639,39 +436,6 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><br> <ul><li>如果�
 msgid   "MAW-regula_falsi"
 msgstr  "MAW-regula_falsi"
 
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "由 <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
-        "Mař&iacute;k</a> 和 <a href=\"http://user.mendelu.cz/tihlarik\" "
-        "target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a> 创建"
-
-#, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "%s离线版本%s 可以在此处获取。同时我们也欢迎你 %s参与翻译%s。"
-
-msgid   "Degree of Taylor polynomial"
-msgstr  "泰勒多项式阶数"
-
-msgid   "Center of Taylor polynomial"
-msgstr  "泰勒多项式的中心点"
-
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "梯形法则（近似定积分）"
-
-msgid   "Limits for integration"
-msgstr  "积分界限"
-
-msgid   "lower limit"
-msgstr  "下限"
-
-msgid   "upper limit"
-msgstr  "上限"
-
-msgid   "intervals in partition"
-msgstr  "区间间隔"
-
 msgid   "MAW-trap"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul> <li>   填写需要"
         "积分的函数、积分界限以及分片密度（区间间隔，最大为 20 ）。系统将会按"
@@ -679,3 +443,239 @@ msgstr  "<span style=\"font-weight: bold;\">备注：</span><ul> <li>   填写�
         "利用其它更为先进的方式计算积分，并把结果进行比较。</li>    <li>如果点"
         "的数量小于 10，并且函数值在求解区间非负，系统将给出函数和梯形的图像。"
         "</li>       </ul>"
+
+msgid   "Mathematical Assistant on Web"
+msgstr  "在线数学助理 (MAW)"
+
+msgid   "Method"
+msgstr  "方法"
+
+msgid   "Method of iterations"
+msgstr  "迭代法"
+
+msgid   "More languages"
+msgstr  "更多"
+
+msgid   "Number of steps "
+msgstr  "步数"
+
+msgid   "Ordinary derivative (function in one variable)"
+msgstr  "普通求导（一元函数）"
+
+msgid   "Ordinary differential equations"
+msgstr  "常微分方程"
+
+msgid   "Parameter bounds"
+msgstr  "参数界限"
+
+msgid   "Parameters"
+msgstr  "参数"
+
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  "对 <i>x</i> 求偏导数（二元函数）"
+
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  "对 <i>y</i> 求偏导数（二元函数）"
+
+msgid   "Precalculus"
+msgstr  "初等数学"
+
+msgid   "Preview"
+msgstr  "预览"
+
+msgid   "Preview region of integration"
+msgstr  "预览积分界限"
+
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  "可求解的不等式请参看表单下方的备注。"
+
+msgid   "Regula falsi"
+msgstr  "试位法"
+
+msgid   "Second order LDE"
+msgstr  "二阶常微分方程"
+
+msgid   "Second order linear differential equations"
+msgstr  "二阶常微分方程"
+
+msgid   "Showcase"
+msgstr  "示例"
+
+msgid   "Singular points of autonomous systems"
+msgstr  "自治系统的奇点"
+
+msgid   "Site map, support"
+msgstr  "网站地图与支持"
+
+msgid   "Submit"
+msgstr  "提交"
+
+msgid   "Support from MAW forum"
+msgstr  "从MAW论坛获取支持"
+
+msgid   "Switch to a compact design"
+msgstr  "切换至精简视图"
+
+msgid   "Switch to a full design"
+msgstr  "切换至完整视图"
+
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "一元或二元不等式（组）"
+
+msgid   "Task for computation"
+msgstr  "计算任务"
+
+msgid   "Taylor polynomial"
+msgstr  "泰勒多项式"
+
+msgid   "The type of the derivative"
+msgstr  "求导类型"
+
+msgid   "Trapezoidal rule"
+msgstr  "梯形法则"
+
+msgid   "Trapezoidal rule (approximation for definite integral)"
+msgstr  "梯形法则（近似定积分）"
+
+msgid   "Upper bound"
+msgstr  "上届"
+
+msgid   "What to do"
+msgstr  "我需要"
+
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  "单击“预览”和“编辑”按钮可以使用可视化工具来编辑等号右边的公式，或者校"
+        "验输入是否正确。"
+
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  "您应当允许 JavaScript 脚本运行才能看到弹出信息。"
+
+#, php-format
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  "你输入的数据正在处理中。稍等片刻即可呈现答案。单击 %s这里%s 回到上一"
+        "页面。"
+
+msgid   "and change bounds to get equal units on both axes"
+msgstr  "并且移动边界使两坐标轴单位相同"
+
+msgid   "automatically differentiate constants"
+msgstr  "自动微分常数"
+
+msgid   "automatically use linearity of derivative"
+msgstr  "自动线性求导"
+
+msgid   "draw domain on the set"
+msgstr  "图像绘制坐标界限为"
+
+msgid   "draw labels on axes, not on boundary"
+msgstr  "将标签绘制在坐标轴旁，不要绘制在边界处"
+
+msgid   "find Jacobi matrix at stationary point"
+msgstr  "求驻点处的雅可比矩阵"
+
+msgid   "hide invisible parts"
+msgstr  "隐藏不可见的部分"
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E6.A0.87."
+        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  "http://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A7%AF%E5%88%86#.E5.90.91."
+        "E9.87.8F.E5.9C.BA.E7.9A.84.E6.9B.B2.E7.BA.BF.E7.A7.AF.E5.88.86"
+
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
+
+msgid   "intervals in partition"
+msgstr  "区间间隔"
+
+msgid   "limits for the picture with domain:"
+msgstr  "函数图像界限"
+
+msgid   "line integral in 2D"
+msgstr  "二维空间的曲线积分"
+
+msgid   "line integral in 3D"
+msgstr  "三维空间的曲线积分"
+
+msgid   "log with base"
+msgstr  "以此为底的对数"
+
+msgid   "lower bound"
+msgstr  "左边界"
+
+msgid   "lower limit"
+msgstr  "下限"
+
+msgid   "natural log"
+msgstr  "自然对数"
+
+msgid   "preview solid of revolution"
+msgstr  "预览回转体"
+
+msgid   "show colors, no mesh"
+msgstr  "显示颜色，不显示网格"
+
+msgid   "show grid"
+msgstr  "显示网格"
+
+msgid   "solve also initial value problem"
+msgstr  "同时求解初值问题"
+
+msgid   "suppose x,y>0"
+msgstr  "假定 x 和 y 均大于 0"
+
+msgid   "to"
+msgstr  " 到 "
+
+msgid   "undetermined coefficients"
+msgstr  "待定系数法"
+
+msgid   "upper bound"
+msgstr  "右边界"
+
+msgid   "upper limit"
+msgstr  "上限"
+
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  "使用 <a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> "
+        "将最终结果输出为 HTML ，取代 <a href=\"http://www.forkosh.com/"
+        "mathtex.html\">mathTeX</a> 的图形结果（输出效果稍好，但结果呈现可能会"
+        "变慢）。\n"
+
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  "使用 <a href=\"http://formconv.sourceforge.net/\">formconv</a> 解析输"
+        "入的表达式（允许将2*x写成2x）"
+
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  "先让计算机求驻点（可能不会找到所有的驻点）"
+
+msgid   "use high quality output in PDF"
+msgstr  "输出高质量 PDF 文件"
+
+msgid   "variation of constants"
+msgstr  "常数变易法"
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "将 arcsinh 和 arctanh 写成 log 形式"
+
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  "由 <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+        "Mař&iacute;k</a> 和 <a href=\"http://user.mendelu.cz/tihlarik\" "
+        "target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a> 创建"

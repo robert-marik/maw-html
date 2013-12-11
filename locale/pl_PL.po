@@ -19,214 +19,30 @@ msgstr  "Project-Id-Version: messages\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
 
-msgid   "Singular points of autonomous systems"
-msgstr  "Punkty osobliwe autonomicznego układu równań"
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
+        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt="
+        "\"phi\">."
 
-msgid   "Editor"
-msgstr  "Edytor graficzny(Java)"
-
-msgid   "Preview"
-msgstr  "Podgląd"
-
-msgid   "What to do"
-msgstr  "Co zrobić"
-
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "znajdź macierz Jacobiego w punktach stacjonarnych"
-
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "użyj komputera w pierwszej kolejności do znalezienia punktów "
-        "stacjonarnych (ta funkcja może nie znaleźć wszystkich punktów "
-        "stacjonarnych)"
-
-msgid   "MAW-autsyst"
-msgstr  "<ul> <li>Podaj prawe strony dla autonomicznego układu równań, punkty "
-        "stacjonarne i Wyślij.</li> <li>Możesz wykorzystać system do "
-        "znalezienia punktów stacjonarnych lub wyznaczenia macierzy Jacobiego "
-        "i wartości własnych dla danych punktów stacjonarnych, wybierając "
-        "odpowiednią opcję.</li> </ul>"
-
-msgid   "Method of iterations"
-msgstr  "Metoda iteracji"
-
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
-
-msgid   "Function"
-msgstr  "Funkcja"
-
-msgid   "Interval from "
-msgstr  "Przedział od"
-
-msgid   "to"
-msgstr  "do"
-
-msgid   "(integers or decimal numbers)"
-msgstr  "(liczby całkowite lub dziesiętne)"
-
-msgid   "Number of steps "
-msgstr  "Liczba kroków"
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
+msgstr  "%sWersja offline%s jest również dostępna. Tłumacze projektu mile %s "
+        "widziani %s."
 
 msgid   "(integer between 2  and 40)"
 msgstr  "(liczba całkowita pomiędzy 2 a 40)"
 
-msgid   "Initial approximation"
-msgstr  "Początkowe przybliżenie"
+msgid   "(integer between 2 and 40)"
+msgstr  "(liczba całkowita pomiędzy 2 a 40)"
 
 msgid   "(integer or decimal number)"
 msgstr  "(liczby całkowite lub dziesiętne)"
 
-msgid   "MAW-banach"
-msgstr  "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl."
-        "wikipedia.org/wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu "
-        "Banacha o kontrakcji</a>"
-
-msgid   "Bisection"
-msgstr  "Bisekcja"
-
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Podaj funkcję, przedział zawierający zero i liczbę kroków"
-
-msgid   "Interval from"
-msgstr  "Przedział od"
-
-msgid   "(integer between 2 and 40)"
-msgstr  "(liczba całkowita pomiędzy 2 a 40)"
-
-msgid   "MAW-bisection"
-msgstr  "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji"
-        "\">Metoda bisekcji na Wikipedii</a>"
-
-msgid   "Derivative and partial derivative"
-msgstr  "Pochodna i pochodna cząstkowa"
-
-msgid   "automatically use linearity of derivative"
-msgstr  "automatycznie wykorzystaj liniowość pochodnej"
-
-msgid   "automatically differentiate constants"
-msgstr  "automatycznie różniczkuj stałe"
-
-msgid   "The type of the derivative"
-msgstr  "Typ pochodnej"
-
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "Pochodna funkcji jednej zmiennej"
-
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "Pochodna cząstkowa po <i>x</i> (funkcji dwóch zmiennych)"
-
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "Pochodna cząstkowa po <i>y</i> (funkcji dwóch zmiennych)"
-
-msgid   "MAW-der"
-msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci "
-        "pliku PDF. </li><li> Możesz użyć tego kalkulatora do obliczania "
-        "pochodnej funkcji jednej zmiennej, jak i pochodnej cząstkowej "
-        "funkcji dwóch zmiennych.</li></ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  "Dziedzina funkcji jednej zmiennej"
-
-msgid   "Parameters"
-msgstr  "Parametry"
-
-msgid   "MAW-df"
-msgstr  " "
-
-msgid   "Domain of a function in two variables"
-msgstr  "Dziedzina funkcji dwóch zmiennych"
-
-msgid   "limits for the picture with domain:"
-msgstr  "ograniczenie dziedziny na obrazku"
-
-msgid   "draw domain on the set"
-msgstr  "rysuj dziedzinę na zbiorze "
-
-msgid   "MAW-df3d"
-msgstr  "<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie "
-        "dziedziny dla obrazka i Wyślij.</li> </ul>"
-
-msgid   "Switch to a compact design"
-msgstr  "Przełącz na wersję kompaktową"
-
-msgid   "Showcase"
-msgstr  ""
-
-msgid   "Switch to a full design"
-msgstr  "Przełącz na wersję pełną"
-
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  "Czy pomogliśmy Ci z twoim problemem matematycznym? Jeżeli tak, "
-        "rozważ zatem przekazanie dotacji dla <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-
-msgid   "Definite integral in geometry"
-msgstr  "Graficzna interpretacja całki oznaczonej"
-
-msgid   "Formulation of the problem"
-msgstr  "Sformułowanie problemu"
-
-msgid   "Curves on boundary"
-msgstr  "Powierzchnia ograniczona krzywymi:"
-
-msgid   "Upper bound"
-msgstr  "Górne ograniczenie"
-
-msgid   "Lower bound"
-msgstr  "Dolne ograniczenie"
-
-msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
-        "of both curves by choosing \"intercepts\" in parameters for "
-        "computation)</small>"
-msgstr  "Granice na osi <i>x</i>: <small>(punkty przecięcia krzywych możesz "
-        "znaleźć wybierając odpowiednią opcję w polu Parametry)</small>"
-
-msgid   "lower bound"
-msgstr  "górna granica"
-
-msgid   "upper bound"
-msgstr  "dolna granica"
-
-msgid   "Action"
-msgstr  "Działanie:"
-
-#, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "Znajdź %s pole %s pomiędzy krzywymi i narysuj wykres."
-
-#, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "Znajdź %s objętość %s bryły i narysuj wykres."
-
-msgid   "preview solid of revolution"
-msgstr  "podgląd figury obrotowej"
-
-msgid   "show colors, no mesh"
-msgstr  "pokaż kolory, bez siatki"
-
-msgid   "hide invisible parts"
-msgstr  "ukryj niewidoczne części"
-
-msgid   "Find intercepts of curves"
-msgstr  "Znajdź punkty przecięcia krzywych"
-
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Granice obrazka (liczby dziesiętne)"
-
-msgid   "MAW-geom"
-msgstr  "<ul>   <li> Podaj funkcje: górne i dolne ograniczenie obszaru.</li>  "
-        "<li>Jeśli dolnym ograniczeniem obszaru jest oś <span style=\"font-"
-        "style: italic;\">x</span>, ustaw <span style=\"font-style: italic;"
-        "\">g(x)</span>=0.</li>  <li>Jeżeli chcesz znaleźć punkty przecięcia "
-        "krzywych, to wybierz odpowiednią opcję.<br> </li> </ul>"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Wykres funkcji"
+msgid   "(integers or decimal numbers)"
+msgstr  "(liczby całkowite lub dziesiętne)"
 
 msgid   "(the function must either a basic elementary function of a function "
         "which can be obtained from on of basic elementary functions by "
@@ -235,154 +51,51 @@ msgstr  "(funkcja musi być funkcją elementarną lub można ją otrzymać przez
         "proste przekształcenia, np. przesunięcie, symetria względem punktu, "
         "osi, funkcji elementarnej)"
 
-msgid   "Bounds for axes"
-msgstr  "Zakresy dla osi"
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
+        "maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli "
+        "w funkcji podcałkowej będą występowały ułamki piętrowe)"
 
-msgid   "show grid"
-msgstr  "pokaż siatkę"
-
-msgid   "Logarithm"
-msgstr  "Logarytm"
-
-msgid   "If the input contains logarithm, use"
-msgstr  "Jeśli wyrażenie zawiera logarytmy, użyj"
-
-msgid   "natural log"
-msgstr  "logarytm naturalny"
-
-msgid   "log with base"
-msgstr  "logarytm o podstawie"
-
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br><ul><li>Podaj "
-        "funkcję, która jest funkcją elementarną lub można ją otrzymać przez "
-        "proste przekształcenia.</li><li>Funkcja zostanie automatycznie "
-        "sparsowana i otrzymasz jej wykres z kolejnymi przekształceniami "
-        "funkcji elementarnej.</li></ul>"
-
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "Kliknij przycisk podglądu Preview, aby zobaczyć jak formconv "
-        "przetwarza wprowadzone wyrażenie a także, aby sprawdzić jak należy "
-        "wprowadzić dane wyrażenie w systemie Maxima."
-
-#, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
-
-msgid   "History"
-msgstr  "Historia"
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "Matematyczny Asystent Online"
-
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
-
-msgid   "More languages"
-msgstr  "Więcej języków"
-
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  ""
-
-msgid   "Support from MAW forum"
-msgstr  ""
-
-msgid   "Changelog"
-msgstr  "Log zmian"
-
-msgid   "Known bugs"
-msgstr  "Znane błędy"
-
-msgid   "Submit"
-msgstr  "Wyślij"
-
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Naciśnij tylko raz i poczekaj chwilę na wynik!"
-
-msgid   "Domain of functions (one variable)"
-msgstr  "Dziedzina funkcji jednej zmiennej"
-
-msgid   "Domain of functions (two variables)"
-msgstr  "Dziedzina funkcji dwóch zmiennych"
-
-msgid   "Lagrange polynomial"
-msgstr  "Wielomian Lagrange'a"
-
-msgid   "Least squares method"
-msgstr  "Metoda najmniejszych kwadratów"
-
-msgid   "Investigating functions"
-msgstr  "Przebieg zmienności funkcji"
-
-msgid   "Taylor polynomial"
-msgstr  "Wielomian Taylora"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
+msgid   "Action"
+msgstr  "Działanie:"
 
 msgid   "Antiderivative"
 msgstr  "Całka nieoznaczona"
 
-msgid   "Geometrical applications of definite integral"
-msgstr  "Całka oznaczona"
-
-msgid   "Trapezoidal rule"
-msgstr  "Metoda trapezów"
-
-msgid   "Double integral"
-msgstr  "Całka podwójna"
-
-msgid   "Line integral"
-msgstr  ""
-
-msgid   "First order ODE"
-msgstr  "Równanie różniczkowe pierszego rzędu"
-
-msgid   "Second order LDE"
-msgstr  "Równanie różniczkowe drugiego rzędu"
-
 msgid   "Autonomous system"
 msgstr  "Autonomiczny układ równań"
 
-msgid   "Regula falsi"
-msgstr  "Reguła falsi"
+msgid   "Axes"
+msgstr  "Osie"
 
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Układ nierówności z jedną lub dwiema niewiadomymi"
+msgid   "Axes (decimal numbers)"
+msgstr  "Osie (liczby dziesiętne)"
 
-msgid   "Introduction"
-msgstr  "Wprowadzenie"
+msgid   "Bisection"
+msgstr  "Bisekcja"
 
-msgid   "Precalculus"
-msgstr  "Funkcje"
+msgid   "Bounds for axes"
+msgstr  "Zakresy dla osi"
+
+msgid   "Bounds for the picture (decimal numbers)"
+msgstr  "Granice obrazka (liczby dziesiętne)"
+
+msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
+        "of both curves by choosing \"intercepts\" in parameters for "
+        "computation)</small>"
+msgstr  "Granice na osi <i>x</i>: <small>(punkty przecięcia krzywych możesz "
+        "znaleźć wybierając odpowiednią opcję w polu Parametry)</small>"
 
 msgid   "Calculus"
 msgstr  "Rachunek różniczkowy"
 
-msgid   "Integral calculus"
-msgstr  "Rachunek całkowy"
+msgid   "Center of Taylor polynomial"
+msgstr  "Środek wielomianu Taylora"
 
-msgid   "Differential equations"
-msgstr  "Równania różniczkowe"
-
-msgid   "Equations and inequalities"
-msgstr  "Równania i nierówności"
-
-msgid   "Site map, support"
-msgstr  "Mapa strony, wsparcie"
-
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  "Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
-        "kalkulatora wybierając w drugim rzędzie menu. <br>  Kalkulatory "
-        "znajdują się w kilku działach, po najechaniu myszką na nazwę działu "
-        "zobaczysz opisy kalkulatorów."
+msgid   "Changelog"
+msgstr  "Log zmian"
 
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wish to solve."
@@ -396,28 +109,234 @@ msgstr  "Wybierz interesujące Cię dział z menu a następnie wskaż odpowiedni
         "się w kilku działach, po najechaniu myszką na nazwę działu zobaczysz "
         "opisy kalkulatorów."
 
+msgid   "Click only once and wait few seconds for the answer!"
+msgstr  "Naciśnij tylko raz i poczekaj chwilę na wynik!"
+
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
+msgstr  "Kliknij przycisk podglądu Preview, aby zobaczyć jak formconv "
+        "przetwarza wprowadzone wyrażenie a także, aby sprawdzić jak należy "
+        "wprowadzić dane wyrażenie w systemie Maxima."
+
+msgid   "Curve"
+msgstr  ""
+
+msgid   "Curves on boundary"
+msgstr  "Powierzchnia ograniczona krzywymi:"
+
+msgid   "Data file"
+msgstr  "Zbiór punktów"
+
+msgid   "Definite integral in geometry"
+msgstr  "Graficzna interpretacja całki oznaczonej"
+
+msgid   "Degree of Taylor polynomial"
+msgstr  "Stopień wielomianu Taylora"
+
+msgid   "Derivative and partial derivative"
+msgstr  "Pochodna i pochodna cząstkowa"
+
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  "Czy pomogliśmy Ci z twoim problemem matematycznym? Jeżeli tak, "
+        "rozważ zatem przekazanie dotacji dla <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+
+msgid   "Differential equations"
+msgstr  "Równania różniczkowe"
+
+msgid   "Domain of a function in one variable"
+msgstr  "Dziedzina funkcji jednej zmiennej"
+
+msgid   "Domain of a function in two variables"
+msgstr  "Dziedzina funkcji dwóch zmiennych"
+
+msgid   "Domain of functions (one variable)"
+msgstr  "Dziedzina funkcji jednej zmiennej"
+
+msgid   "Domain of functions (two variables)"
+msgstr  "Dziedzina funkcji dwóch zmiennych"
+
+msgid   "Double integral"
+msgstr  "Całka podwójna"
+
+msgid   "Editor"
+msgstr  "Edytor graficzny(Java)"
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
+        "względem zmiennych"
+
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  "Podaj funkcję, przedział zawierający punkt stały i liczbę kroków."
+
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  "Podaj funkcję, przedział zawierający zero i liczbę kroków"
+
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the calculator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  "Wprowadź dane do kalkulatora i Wyślij. Możesz także zmienić typ "
+        "kalkulatora wybierając w drugim rzędzie menu. <br>  Kalkulatory "
+        "znajdują się w kilku działach, po najechaniu myszką na nazwę działu "
+        "zobaczysz opisy kalkulatorów."
+
+msgid   "Equation"
+msgstr  "Równanie"
+
+msgid   "Equation solved wrt y'"
+msgstr  "Równanie rozwiązane względem y'"
+
+msgid   "Equations and inequalities"
+msgstr  "Równania i nierówności"
+
+#, php-format
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  "Znajdź %s pole %s pomiędzy krzywymi i narysuj wykres."
+
+#, php-format
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  "Znajdź %s objętość %s bryły i narysuj wykres."
+
+msgid   "Find intercepts of curves"
+msgstr  "Znajdź punkty przecięcia krzywych"
+
+msgid   "First order ODE"
+msgstr  "Równanie różniczkowe pierszego rzędu"
+
+msgid   "Formulation of the problem"
+msgstr  "Sformułowanie problemu"
+
+msgid   "Full equation"
+msgstr  "Pełne równanie"
+
+msgid   "Function"
+msgstr  "Funkcja"
+
+msgid   "Function calculator"
+msgstr  "Kalkulator funkcji"
+
+msgid   "Geometrical applications of definite integral"
+msgstr  "Całka oznaczona"
+
+msgid   "Graphs of elementary functions"
+msgstr  "Wykres funkcji"
+
+msgid   "Hessian at stationary point"
+msgstr  "Hesjan w punkcie stacjonarnym"
+
+msgid   "Hessian at stationary points"
+msgstr  "Hesjan w punktach stacjonarnych"
+
+msgid   "History"
+msgstr  "Historia"
+
+msgid   "If the input contains logarithm, use"
+msgstr  "Jeśli wyrażenie zawiera logarytmy, użyj"
+
 msgid   "Inequalities"
 msgstr  "Nierówności"
 
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "Przeczytaj komentarze poniżej, aby sprawdzić, które nierówności mogą "
-        "zostać rozwiązane."
+msgid   "Initial approximation"
+msgstr  "Początkowe przybliżenie"
 
-msgid   "suppose x,y>0"
-msgstr  "załóż, że x,y>0"
+msgid   "Integral calculus"
+msgstr  "Rachunek całkowy"
 
-msgid   "draw labels on axes, not on boundary"
-msgstr  "umieść etykiety na osiach, nie na granicach wykresów"
+msgid   "Integral of a scalar field"
+msgstr  ""
 
-msgid   "use high quality output in PDF"
-msgstr  "użyj wysokiej jakości dla pliku PDF"
+msgid   "Integral of a vector field"
+msgstr  ""
 
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "zmień granice, aby uzyskać równe jednostki na obu osiach"
+msgid   "Interval from"
+msgstr  "Przedział od"
 
-msgid   "Axes"
-msgstr  "Osie"
+msgid   "Interval from "
+msgstr  "Przedział od"
+
+msgid   "Introduction"
+msgstr  "Wprowadzenie"
+
+msgid   "Investigating functions"
+msgstr  "Przebieg zmienności funkcji"
+
+msgid   "Known bugs"
+msgstr  "Znane błędy"
+
+msgid   "Lagrange polynomial"
+msgstr  "Wielomian Lagrange'a"
+
+msgid   "Least squares method"
+msgstr  "Metoda najmniejszych kwadratów"
+
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+msgid   "Limits for integration"
+msgstr  "Granice całkowania"
+
+msgid   "Line integral"
+msgstr  ""
+
+msgid   "Local extrema in two variables"
+msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
+
+msgid   "Local maxima and minima in two variables"
+msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
+
+msgid   "Logarithm"
+msgstr  "Logarytm"
+
+msgid   "Lower bound"
+msgstr  "Dolne ograniczenie"
+
+msgid   "MAW-autsyst"
+msgstr  "<ul> <li>Podaj prawe strony dla autonomicznego układu równań, punkty "
+        "stacjonarne i Wyślij.</li> <li>Możesz wykorzystać system do "
+        "znalezienia punktów stacjonarnych lub wyznaczenia macierzy Jacobiego "
+        "i wartości własnych dla danych punktów stacjonarnych, wybierając "
+        "odpowiednią opcję.</li> </ul>"
+
+msgid   "MAW-banach"
+msgstr  "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl."
+        "wikipedia.org/wiki/Twierdzenie_Banacha_o_kontrakcji\">Twierdzeniu "
+        "Banacha o kontrakcji</a>"
+
+msgid   "MAW-bisection"
+msgstr  "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji"
+        "\">Metoda bisekcji na Wikipedii</a>"
+
+msgid   "MAW-der"
+msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci "
+        "pliku PDF. </li><li> Możesz użyć tego kalkulatora do obliczania "
+        "pochodnej funkcji jednej zmiennej, jak i pochodnej cząstkowej "
+        "funkcji dwóch zmiennych.</li></ul>"
+
+msgid   "MAW-df"
+msgstr  " "
+
+msgid   "MAW-df3d"
+msgstr  "<ul> <li>Podaj funkcję dwóch zmiennych, wybierz ograniczenie "
+        "dziedziny dla obrazka i Wyślij.</li> </ul>"
+
+msgid   "MAW-geom"
+msgstr  "<ul>   <li> Podaj funkcje: górne i dolne ograniczenie obszaru.</li>  "
+        "<li>Jeśli dolnym ograniczeniem obszaru jest oś <span style=\"font-"
+        "style: italic;\">x</span>, ustaw <span style=\"font-style: italic;"
+        "\">g(x)</span>=0.</li>  <li>Jeżeli chcesz znaleźć punkty przecięcia "
+        "krzywych, to wybierz odpowiednią opcję.<br> </li> </ul>"
+
+msgid   "MAW-graf"
+msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br><ul><li>Podaj "
+        "funkcję, która jest funkcją elementarną lub można ją otrzymać przez "
+        "proste przekształcenia.</li><li>Funkcja zostanie automatycznie "
+        "sparsowana i otrzymasz jej wykres z kolejnymi przekształceniami "
+        "funkcji elementarnej.</li></ul>"
 
 msgid   "MAW-ineq2d"
 msgstr  "<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierówność "
@@ -436,86 +355,17 @@ msgstr  "<br> <ul>   <li>Podaj nierówności w polu tekstowym. Jedna nierównoś
         "drugą opcję. Ten wybór spowoduje przeskalowanie krótszej osi. </li> "
         "</ul>"
 
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "użyj <a href=\"http://formconv.sourceforge.net/\">formconv</a> aby "
-        "dokonać konwersji wyrażeń matematycznych (pozwala pisać 2x zamiast "
-        "2*x)"
-
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "użyj \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> do "
-        "zapisywania wzorów matematycznych na stronie html zamiast  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(efekt jest lepszy, ale generowanie wzorów może trwać dłużej)\n"
-
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
-        "maxima_4.html#Item_003a-pfeformat\">pfeformat</a>  (odznacz ja jeśli "
-        "w funkcji podcałkowej będą występowały ułamki piętrowe)"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
-
 msgid   "MAW-int"
 msgstr  "<span class='red'>Odwiedź naszą <a  href=\"integral_offline/"
         "\">galerię całek</a></span>. Jeśli chciałbyś dodać swoją całkę do "
         "galerii skontaktuj się z nami."
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Podaj funkcję, granice całkowania i wybierz kolejność całkowania "
-        "względem zmiennych"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobian dla współrzędnych biegunowych jest automatycznie dodawany. "
-        "Używaj <b>phi</b> dla zmiennej biegunowej <img src=\"phi.png\" alt="
-        "\"phi\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Osie (liczby dziesiętne)"
-
-msgid   "Preview region of integration"
-msgstr  "Granice całkowania"
-
 msgid   "MAW-int2"
 msgstr  " "
-
-msgid   "Data file"
-msgstr  "Zbiór punktów"
 
 msgid   "MAW-lagr"
 msgstr  "<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
         "punkty średnikami. </li> </ul>"
-
-msgid   "Second order linear differential equations"
-msgstr  "Liniowe równanie różniczkowe drugiego rzędu"
-
-msgid   "Equation"
-msgstr  "Równanie"
-
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  "Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</b>"
-
-msgid   "Method"
-msgstr  "Metoda"
-
-msgid   "variation of constants"
-msgstr  "uzmiennianie stałych"
-
-msgid   "undetermined coefficients"
-msgstr  "przewidywań (współczynników nieoznaczonych)"
-
-msgid   "solve also initial value problem"
-msgstr  "rozwiąż także dla zadanych warunków początkowych"
 
 msgid   "MAW-lde2"
 msgstr  "<ul>   <li>Podaj współczynniki równania (liczby), prawą stronę "
@@ -527,35 +377,6 @@ msgstr  "<ul>   <li>Podaj współczynniki równania (liczby), prawą stronę "
         "liczbami rzeczywistymi oraz <i>P(x)</i>, <i>Q(x)</i> są wielomianami "
         "stopnia co najwyżej 4-tego.</li>   <li>Jeśli zauważyłeś błędy w "
         "działaniu kalkulatora skontaktuj się z nami.</li> </ul>"
-
-msgid   "Integral of a scalar field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
-
-msgid   "Integral of a vector field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
-
-msgid   "line integral in 2D"
-msgstr  ""
-
-msgid   "line integral in 3D"
-msgstr  ""
-
-msgid   "Curve"
-msgstr  ""
-
-msgid   "Parameter bounds"
-msgstr  ""
 
 msgid   "MAW-lineint"
 msgstr  ""
@@ -611,18 +432,6 @@ msgstr  "Mapa strony </span>  <ul> <li>Funkcje <ul> <li>Wykres funkcji </li> "
         "net/hgweb/mathassistant\">źródła</a> i rozpocząć rozwój nowych "
         "funkcjonalności lub podobnych kalkulatorów. </li> </ul>"
 
-msgid   "Local extrema in two variables"
-msgstr  "Ekstrema lokalne funkcji dwóch zmiennych"
-
-msgid   "Task for computation"
-msgstr  "Zadanie do obliczenia"
-
-msgid   "Hessian at stationary point"
-msgstr  "Hesjan w punkcie stacjonarnym"
-
-msgid   "Hessian at stationary points"
-msgstr  "Hesjan w punktach stacjonarnych"
-
 msgid   "MAW-minmax3d"
 msgstr  "<br>W tym kalkulatorze możesz sprawdzić punkty stacjonarne funkcji "
         "dwóch zmiennych. Masz następujące możliwości:<ul><li>Znaleźć punkty "
@@ -638,15 +447,6 @@ msgid   "MAW-mnc"
 msgstr  "<ul> <li> Podaj punkty. Współrzędne punktów rozdzielaj przecinkami, "
         "punkty średnikami. </li> </ul>"
 
-msgid   "Ordinary differential equations"
-msgstr  "Równania różniczkowe zwyczajne"
-
-msgid   "Equation solved wrt y'"
-msgstr  "Równanie rozwiązane względem y'"
-
-msgid   "Full equation"
-msgstr  "Pełne równanie"
-
 msgid   "MAW-ode"
 msgstr  "<ul><li>Ten kalkulator jest w stanie rozwiązać krok po kroku "
         "równania różniczkowe zwyczajne: o zmiennych rozdzielonych, "
@@ -659,9 +459,6 @@ msgstr  "<ul><li>Ten kalkulator jest w stanie rozwiązać krok po kroku "
         "wprowadzone przez Ciebie wyrażenie nie zawiera błędów.</li> "
         "<li>Problem znalezienia rozwiązania jest złożony. Jeśli otrzymałeś "
         "nieprawidłowy wynik, zgłoś błąd autorom.</li></ul>"
-
-msgid   "Function calculator"
-msgstr  "Kalkulator funkcji"
 
 msgid   "MAW-prub"
 msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br> <ul><li> Jeżeli "
@@ -676,40 +473,6 @@ msgstr  "<span style=\"font-weight: bold;\">Uwagi:</span><br> <ul><li> Jeżeli "
 msgid   "MAW-regula_falsi"
 msgstr  ""
 
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "autorzy: <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
-#, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "%sWersja offline%s jest również dostępna. Tłumacze projektu mile %s "
-        "widziani %s."
-
-msgid   "Degree of Taylor polynomial"
-msgstr  "Stopień wielomianu Taylora"
-
-msgid   "Center of Taylor polynomial"
-msgstr  "Środek wielomianu Taylora"
-
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "Metoda trapezów (przybliżona wartość całki oznaczonej)"
-
-msgid   "Limits for integration"
-msgstr  "Granice całkowania"
-
-msgid   "lower limit"
-msgstr  "dolna granica"
-
-msgid   "upper limit"
-msgstr  "górna granica"
-
-msgid   "intervals in partition"
-msgstr  "liczba podprzedziałów"
-
 msgid   "MAW-trap"
 msgstr  "<ul> <li> Podaj funkcję, granice całkowania oraz liczbę "
         "podprzedziałów (maksymalnie 20). Przybliżona wartość całki zostanie "
@@ -719,3 +482,240 @@ msgstr  "<ul> <li> Podaj funkcję, granice całkowania oraz liczbę "
         "li>    <li>Jeśli liczba punktów jest mniejsza niż 10 i funkcje "
         "przyjmuje wartości nieujemne w zadanym przedziale, to w rozwiązaniu "
         "znajdzie się także wykres funkcji i trapezów.</li>       </ul>"
+
+msgid   "Mathematical Assistant on Web"
+msgstr  "Matematyczny Asystent Online"
+
+msgid   "Method"
+msgstr  "Metoda"
+
+msgid   "Method of iterations"
+msgstr  "Metoda iteracji"
+
+msgid   "More languages"
+msgstr  "Więcej języków"
+
+msgid   "Number of steps "
+msgstr  "Liczba kroków"
+
+msgid   "Ordinary derivative (function in one variable)"
+msgstr  "Pochodna funkcji jednej zmiennej"
+
+msgid   "Ordinary differential equations"
+msgstr  "Równania różniczkowe zwyczajne"
+
+msgid   "Parameter bounds"
+msgstr  ""
+
+msgid   "Parameters"
+msgstr  "Parametry"
+
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  "Pochodna cząstkowa po <i>x</i> (funkcji dwóch zmiennych)"
+
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  "Pochodna cząstkowa po <i>y</i> (funkcji dwóch zmiennych)"
+
+msgid   "Precalculus"
+msgstr  "Funkcje"
+
+msgid   "Preview"
+msgstr  "Podgląd"
+
+msgid   "Preview region of integration"
+msgstr  "Granice całkowania"
+
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  "Przeczytaj komentarze poniżej, aby sprawdzić, które nierówności mogą "
+        "zostać rozwiązane."
+
+msgid   "Regula falsi"
+msgstr  "Reguła falsi"
+
+msgid   "Second order LDE"
+msgstr  "Równanie różniczkowe drugiego rzędu"
+
+msgid   "Second order linear differential equations"
+msgstr  "Liniowe równanie różniczkowe drugiego rzędu"
+
+msgid   "Showcase"
+msgstr  ""
+
+msgid   "Singular points of autonomous systems"
+msgstr  "Punkty osobliwe autonomicznego układu równań"
+
+msgid   "Site map, support"
+msgstr  "Mapa strony, wsparcie"
+
+msgid   "Submit"
+msgstr  "Wyślij"
+
+msgid   "Support from MAW forum"
+msgstr  ""
+
+msgid   "Switch to a compact design"
+msgstr  "Przełącz na wersję kompaktową"
+
+msgid   "Switch to a full design"
+msgstr  "Przełącz na wersję pełną"
+
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "Układ nierówności z jedną lub dwiema niewiadomymi"
+
+msgid   "Task for computation"
+msgstr  "Zadanie do obliczenia"
+
+msgid   "Taylor polynomial"
+msgstr  "Wielomian Taylora"
+
+msgid   "The type of the derivative"
+msgstr  "Typ pochodnej"
+
+msgid   "Trapezoidal rule"
+msgstr  "Metoda trapezów"
+
+msgid   "Trapezoidal rule (approximation for definite integral)"
+msgstr  "Metoda trapezów (przybliżona wartość całki oznaczonej)"
+
+msgid   "Upper bound"
+msgstr  "Górne ograniczenie"
+
+msgid   "What to do"
+msgstr  "Co zrobić"
+
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  "Możesz użyć przycisków podglądu <b>Preview</b> i edycji <b>Editor</b>"
+
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  "Włącz JavaScript, żeby zobaczyć informacje w oknach popup."
+
+#, php-format
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  ""
+
+msgid   "and change bounds to get equal units on both axes"
+msgstr  "zmień granice, aby uzyskać równe jednostki na obu osiach"
+
+msgid   "automatically differentiate constants"
+msgstr  "automatycznie różniczkuj stałe"
+
+msgid   "automatically use linearity of derivative"
+msgstr  "automatycznie wykorzystaj liniowość pochodnej"
+
+msgid   "draw domain on the set"
+msgstr  "rysuj dziedzinę na zbiorze "
+
+msgid   "draw labels on axes, not on boundary"
+msgstr  "umieść etykiety na osiach, nie na granicach wykresów"
+
+msgid   "find Jacobi matrix at stationary point"
+msgstr  "znajdź macierz Jacobiego w punktach stacjonarnych"
+
+msgid   "hide invisible parts"
+msgstr  "ukryj niewidoczne części"
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr  ""
+
+msgid   "intervals in partition"
+msgstr  "liczba podprzedziałów"
+
+msgid   "limits for the picture with domain:"
+msgstr  "ograniczenie dziedziny na obrazku"
+
+msgid   "line integral in 2D"
+msgstr  ""
+
+msgid   "line integral in 3D"
+msgstr  ""
+
+msgid   "log with base"
+msgstr  "logarytm o podstawie"
+
+msgid   "lower bound"
+msgstr  "górna granica"
+
+msgid   "lower limit"
+msgstr  "dolna granica"
+
+msgid   "natural log"
+msgstr  "logarytm naturalny"
+
+msgid   "preview solid of revolution"
+msgstr  "podgląd figury obrotowej"
+
+msgid   "show colors, no mesh"
+msgstr  "pokaż kolory, bez siatki"
+
+msgid   "show grid"
+msgstr  "pokaż siatkę"
+
+msgid   "solve also initial value problem"
+msgstr  "rozwiąż także dla zadanych warunków początkowych"
+
+msgid   "suppose x,y>0"
+msgstr  "załóż, że x,y>0"
+
+msgid   "to"
+msgstr  "do"
+
+msgid   "undetermined coefficients"
+msgstr  "przewidywań (współczynników nieoznaczonych)"
+
+msgid   "upper bound"
+msgstr  "dolna granica"
+
+msgid   "upper limit"
+msgstr  "górna granica"
+
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  "użyj \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> do "
+        "zapisywania wzorów matematycznych na stronie html zamiast  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(efekt jest lepszy, ale generowanie wzorów może trwać dłużej)\n"
+
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  "użyj <a href=\"http://formconv.sourceforge.net/\">formconv</a> aby "
+        "dokonać konwersji wyrażeń matematycznych (pozwala pisać 2x zamiast "
+        "2*x)"
+
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  "użyj komputera w pierwszej kolejności do znalezienia punktów "
+        "stacjonarnych (ta funkcja może nie znaleźć wszystkich punktów "
+        "stacjonarnych)"
+
+msgid   "use high quality output in PDF"
+msgstr  "użyj wysokiej jakości dla pliku PDF"
+
+msgid   "variation of constants"
+msgstr  "uzmiennianie stałych"
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "zastąp funkcje arcsinh i arctanh za pomocą logarytmu"
+
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  "autorzy: <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"

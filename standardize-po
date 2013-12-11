@@ -7,7 +7,7 @@ do
   cp $filename temp.po
   msgcat -i temp.po > temp2.po
   potool -n pcmt temp2.po > temp3.po
-  msgcat -i temp3.po > $filename
+  msgcat -i temp3.po -s > $filename
   rm temp.po temp2.po temp3.po
 done;
 cd ..

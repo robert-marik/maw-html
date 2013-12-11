@@ -19,165 +19,67 @@ msgstr  "Project-Id-Version: messages\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
 
-msgid   "Singular points of autonomous systems"
-msgstr  "Punts singulars de sistemes autònoms"
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
+msgstr  "El jacobià s'afegeix automàticament en coordenades polars. Podeu "
+        "escriure <b>phi</b> per la variable angular <img src=\"phi.png\" alt="
+        "\"phi\">."
 
-msgid   "Editor"
-msgstr  ""
-
-msgid   "Preview"
-msgstr  ""
-
-msgid   "What to do"
-msgstr  "Què fer"
-
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "trobar el jacobià al punt estacionari"
-
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "primer busca automàticament els punts estacionairs (potser no els "
-        "trobarem tots)"
-
-msgid   "MAW-autsyst"
-msgstr  "<ul> <li>Escriviu el que va a la dreta del sistema autònom, trieu el "
-        "punt estacionari que us interessa i cliqueu Envia-ho</li> "
-        "<li>L'ordinador pot trobar els punts estacionaris, o bé el jacobià i "
-        "els valors propis a un dels punts estacionaris. Trieu amb el botonet "
-        "que calgui.</li> </ul>l"
-
-msgid   "Method of iterations"
-msgstr  "Mètode d'iteracions"
-
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "Entreu la funció, l'interval contenent el punt fix, i el nombre "
-        "d'iteracions."
-
-msgid   "Function"
-msgstr  "Funció"
-
-msgid   "Interval from "
-msgstr  "Interval de "
-
-msgid   "to"
-msgstr  "a"
-
-msgid   "(integers or decimal numbers)"
-msgstr  "(nombres sencers o decimals)"
-
-msgid   "Number of steps "
-msgstr  "Nombre d'iteracions"
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
+msgstr  "%s Versió fora de línia%s també disponible; traduccions %s "
+        "benvingudes %s"
 
 msgid   "(integer between 2  and 40)"
 msgstr  "(nombre natural entre 2 i 40)"
 
-msgid   "Initial approximation"
-msgstr  "Aproximació inicial"
+msgid   "(integer between 2 and 40)"
+msgstr  "(nombre natural entre 2 i 40)"
 
 msgid   "(integer or decimal number)"
 msgstr  "(nombre sencer o decimal)"
 
-msgid   "MAW-banach"
-msgstr  "La resolució d'equacions no-lineals es basa en el <a href=\"http://"
-        "ca.wikipedia.org/wiki/Teorema_del_punt_fix_de_Banach\">teorema de "
-        "Banach del punt fix</a>"
+msgid   "(integers or decimal numbers)"
+msgstr  "(nombres sencers o decimals)"
+
+msgid   "(the function must either a basic elementary function of a function "
+        "which can be obtained from on of basic elementary functions by "
+        "shifting and resizing graph)"
+msgstr  "(la funció ha d'ésser elemental, o bé s'ha de poder obtenir d'una "
+        "funció elemental per translació i canvi d'escala)"
+
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> (destrieu-ho si obteniu "
+        "torres de fraccions, amb fraccions al numerador)"
+
+msgid   "Action"
+msgstr  "Acció"
+
+msgid   "Antiderivative"
+msgstr  "Integral indefinida (anti-derivada)"
+
+msgid   "Autonomous system"
+msgstr  "Sistema autònom"
+
+msgid   "Axes"
+msgstr  "Eixos"
+
+msgid   "Axes (decimal numbers)"
+msgstr  "Eixos (nombres decimals)"
 
 msgid   "Bisection"
 msgstr  "Bisecció"
 
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Entreu la funció, l'interval contenent el zero de la funció, i el "
-        "nombre d'iteracions."
+msgid   "Bounds for axes"
+msgstr  "Vores dels eixos"
 
-msgid   "Interval from"
-msgstr  "Interval de"
-
-msgid   "(integer between 2 and 40)"
-msgstr  "(nombre natural entre 2 i 40)"
-
-msgid   "MAW-bisection"
-msgstr  "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia."
-        "org/wiki/Bisection_method\">mètode de bisecció</a>"
-
-msgid   "Derivative and partial derivative"
-msgstr  "Derivada i derivada parcial"
-
-msgid   "automatically use linearity of derivative"
-msgstr  "Fés servir automàticament el fet que la derivada és una operació "
-        "lineal"
-
-msgid   "automatically differentiate constants"
-msgstr  "deriva automàticament les constants"
-
-msgid   "The type of the derivative"
-msgstr  "Mena de derivada"
-
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "Derivada ordinària (funció d'una sola variable)"
-
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "Derivada parcial respecte a <i>x</i> (funció de dues variables)"
-
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "Derivada parcial respecte a <i>y</i> (funció de dues variables)"
-
-msgid   "MAW-der"
-msgstr  "<ul><li>Entreu una funció i cliqueu Envia-ho. Obtindreu la derivada "
-        "en format PDF. </li><li>Aquest formulari us permet derivar funcions "
-        "en una o en dues variables.</li></ul>"
-
-msgid   "Domain of a function in one variable"
-msgstr  "Domini de definició de la funció d'una variable"
-
-msgid   "Parameters"
-msgstr  "Paràmetres"
-
-msgid   "MAW-df"
-msgstr  " "
-
-msgid   "Domain of a function in two variables"
-msgstr  "Domini de definició de la funció de dues variables"
-
-msgid   "limits for the picture with domain:"
-msgstr  "vores de la gràfica amb domini de definició:"
-
-msgid   "draw domain on the set"
-msgstr  "dibuixa el domini al conjunt"
-
-msgid   "MAW-df3d"
-msgstr  "<ul> <li>Entreu una funció de dues variables, trieu les vores de la "
-        "gràfica i cliqueu Envia-ho.</li> </ul>"
-
-msgid   "Switch to a compact design"
-msgstr  ""
-
-msgid   "Showcase"
-msgstr  ""
-
-msgid   "Switch to a full design"
-msgstr  ""
-
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  ""
-
-msgid   "Definite integral in geometry"
-msgstr  "Integral definida en geometria"
-
-msgid   "Formulation of the problem"
-msgstr  "Formulació del problema"
-
-msgid   "Curves on boundary"
-msgstr  "Corbes a la frontera"
-
-msgid   "Upper bound"
-msgstr  "Vora superior"
-
-msgid   "Lower bound"
-msgstr  "Vora inferior"
+msgid   "Bounds for the picture (decimal numbers)"
+msgstr  "Vores de la gràfica (nombres decimals)"
 
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "of both curves by choosing \"intercepts\" in parameters for "
@@ -186,205 +88,14 @@ msgstr  "Vores a l'eix de les <i>x</i>: <small>( podeu intentar trobar les "
         "interseccions d'ambdues corbes si trieu  \"intercepts\" als "
         "paràmetres de càlcul)</small>"
 
-msgid   "lower bound"
-msgstr  "vora inferior"
-
-msgid   "upper bound"
-msgstr  "vora superior"
-
-msgid   "Action"
-msgstr  "Acció"
-
-#, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "Troba %s l'àrea %s entre dues corbes i dibuixa'n la gràfica."
-
-#, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "Troba %s el volum %s de revolució i dibuixa'n la gràfica"
-
-msgid   "preview solid of revolution"
-msgstr  "vista preliminar del volum de revolució"
-
-msgid   "show colors, no mesh"
-msgstr  "mostra els colors sense la graella"
-
-msgid   "hide invisible parts"
-msgstr  "amaga les parts invisibles"
-
-msgid   "Find intercepts of curves"
-msgstr  "Troba les interseccions de corbes"
-
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Vores de la gràfica (nombres decimals)"
-
-msgid   "MAW-geom"
-msgstr  "<ul>   <li>Entreu les funcions que definexien les fronteres inferior "
-        "i superior del conjunt.</li>  <li>Si la frontera inferior és l'eix "
-        "de les <span style=\"font-style: italic;\">x</span>, la funció <span "
-        "style=\"font-style: italic;\">g</span> és 0.</li>  <li>L'ordinador "
-        "pot trobar les interseccions de les corbes. Trieu aquesta acció amb "
-        "el botonet escaient.<br> </li> </ul>"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Gràfiques de funcions elementals"
-
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  "(la funció ha d'ésser elemental, o bé s'ha de poder obtenir d'una "
-        "funció elemental per translació i canvi d'escala)"
-
-msgid   "Bounds for axes"
-msgstr  "Vores dels eixos"
-
-msgid   "show grid"
-msgstr  "mostra la graella"
-
-msgid   "Logarithm"
-msgstr  "Logaritme"
-
-msgid   "If the input contains logarithm, use"
-msgstr  "Si l'entrada conté logaritmes, fés servir"
-
-msgid   "natural log"
-msgstr  "logaritme natural (base e)"
-
-msgid   "log with base"
-msgstr  "logaritme amb base"
-
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">NB:</span><br><ul><li>Entreu una "
-        "funció elemental, o que es pugui obternir d'una funció elemental per "
-        "translació i canvi d'escala.</li><li>La funció serà analitzada i "
-        "n'obtindreu la gràfica, incloent-hi l'animació de deformacions "
-        "ulteriors.</li></ul>"
-
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "Un clic a Preview us mostrarà com formconv transformarà la vostra "
-        "expressió, i com s'expressa en notació de Màxima (després ho podeu "
-        "copiar i enganxar al formulari.)"
-
-#, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
-
-msgid   "History"
-msgstr  "Historial"
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "L'Assistent Matemàtic al Web (MAW)"
-
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "Engegeu JavaScript per poder veure la informació en finestres "
-        "emergents."
-
-msgid   "More languages"
-msgstr  ""
-
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  ""
-
-msgid   "Support from MAW forum"
-msgstr  ""
-
-msgid   "Changelog"
-msgstr  "Historial de canvis"
-
-msgid   "Known bugs"
-msgstr  "Bogs coneguts"
-
-msgid   "Submit"
-msgstr  "Envia-ho"
-
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Clic un sol cop i espereu uns segons - ara ve la resposta!"
-
-msgid   "Domain of functions (one variable)"
-msgstr  "Domini de definició (funció d'una variable)"
-
-msgid   "Domain of functions (two variables)"
-msgstr  "Domini de definició (funció de dues variables)"
-
-msgid   "Lagrange polynomial"
-msgstr  "Polinomi de Lagrange"
-
-msgid   "Least squares method"
-msgstr  "Mètode dels mínims quadrats"
-
-msgid   "Investigating functions"
-msgstr  "Estudi de funcions"
-
-msgid   "Taylor polynomial"
-msgstr  "Polinomi de Taylor"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "Màxims i mínims locals en dues variables"
-
-msgid   "Antiderivative"
-msgstr  "Integral indefinida (anti-derivada)"
-
-msgid   "Geometrical applications of definite integral"
-msgstr  "Aplicacions geomètriques de la integral"
-
-msgid   "Trapezoidal rule"
-msgstr  "Aproximació dels trapezis"
-
-msgid   "Double integral"
-msgstr  "Integral doble"
-
-msgid   "Line integral"
-msgstr  ""
-
-msgid   "First order ODE"
-msgstr  "EDO de primer ordre"
-
-msgid   "Second order LDE"
-msgstr  "EDO de segon ordre"
-
-msgid   "Autonomous system"
-msgstr  "Sistema autònom"
-
-msgid   "Regula falsi"
-msgstr  ""
-
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Sistema d'inequacions (en una o dues variables)"
-
-msgid   "Introduction"
-msgstr  "Introducció"
-
-msgid   "Precalculus"
-msgstr  "Àlgebra elemental"
-
 msgid   "Calculus"
 msgstr  "Anàlisi"
 
-msgid   "Integral calculus"
-msgstr  "Integrals"
+msgid   "Center of Taylor polynomial"
+msgstr  "Punt d'expansió del polinomi de Taylor"
 
-msgid   "Differential equations"
-msgstr  "Equacions diferencials"
-
-msgid   "Equations and inequalities"
-msgstr  "Equacions i inequacions"
-
-msgid   "Site map, support"
-msgstr  "Mapa i ajuda"
-
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  "Entreu les dades a la calculadora i cliqueu Envia-ho. Podeu canviar "
-        "la mena de calculadora a la segona fila del menú.<br>Les "
-        "calculadores estan repartides en grups la descripció dels quals "
-        "apareix quan moveu el ratolí al damunt del nom del grup (primera "
-        "fila del menú)."
+msgid   "Changelog"
+msgstr  "Historial de canvis"
 
 msgid   "Choose the field of your interest in the menu and then choose the "
         "particular calculator depending on the problem you wish to solve."
@@ -400,28 +111,235 @@ msgstr  "Trieu primer la mena de problema que us interessa  i trieu després "
         "acompanyaran pas a pas en la resolució del problema, mostrant-vos-en "
         "cada etapa.  "
 
+msgid   "Click only once and wait few seconds for the answer!"
+msgstr  "Clic un sol cop i espereu uns segons - ara ve la resposta!"
+
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
+msgstr  "Un clic a Preview us mostrarà com formconv transformarà la vostra "
+        "expressió, i com s'expressa en notació de Màxima (després ho podeu "
+        "copiar i enganxar al formulari.)"
+
+msgid   "Curve"
+msgstr  ""
+
+msgid   "Curves on boundary"
+msgstr  "Corbes a la frontera"
+
+msgid   "Data file"
+msgstr  "Arxiu de dades"
+
+msgid   "Definite integral in geometry"
+msgstr  "Integral definida en geometria"
+
+msgid   "Degree of Taylor polynomial"
+msgstr  "Grau del polinomi de Taylor"
+
+msgid   "Derivative and partial derivative"
+msgstr  "Derivada i derivada parcial"
+
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  ""
+
+msgid   "Differential equations"
+msgstr  "Equacions diferencials"
+
+msgid   "Domain of a function in one variable"
+msgstr  "Domini de definició de la funció d'una variable"
+
+msgid   "Domain of a function in two variables"
+msgstr  "Domini de definició de la funció de dues variables"
+
+msgid   "Domain of functions (one variable)"
+msgstr  "Domini de definició (funció d'una variable)"
+
+msgid   "Domain of functions (two variables)"
+msgstr  "Domini de definició (funció de dues variables)"
+
+msgid   "Double integral"
+msgstr  "Integral doble"
+
+msgid   "Editor"
+msgstr  ""
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  "Entreu la funció, trieu les variables d'integració, i trieu també en "
+        "quin ordre s'han d'integrar"
+
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  "Entreu la funció, l'interval contenent el punt fix, i el nombre "
+        "d'iteracions."
+
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  "Entreu la funció, l'interval contenent el zero de la funció, i el "
+        "nombre d'iteracions."
+
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the calculator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  "Entreu les dades a la calculadora i cliqueu Envia-ho. Podeu canviar "
+        "la mena de calculadora a la segona fila del menú.<br>Les "
+        "calculadores estan repartides en grups la descripció dels quals "
+        "apareix quan moveu el ratolí al damunt del nom del grup (primera "
+        "fila del menú)."
+
+msgid   "Equation"
+msgstr  "Equació"
+
+msgid   "Equation solved wrt y'"
+msgstr  "Equació resolta respecte a y'"
+
+msgid   "Equations and inequalities"
+msgstr  "Equacions i inequacions"
+
+#, php-format
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  "Troba %s l'àrea %s entre dues corbes i dibuixa'n la gràfica."
+
+#, php-format
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  "Troba %s el volum %s de revolució i dibuixa'n la gràfica"
+
+msgid   "Find intercepts of curves"
+msgstr  "Troba les interseccions de corbes"
+
+msgid   "First order ODE"
+msgstr  "EDO de primer ordre"
+
+msgid   "Formulation of the problem"
+msgstr  "Formulació del problema"
+
+msgid   "Full equation"
+msgstr  "Tota l'equació"
+
+msgid   "Function"
+msgstr  "Funció"
+
+msgid   "Function calculator"
+msgstr  "Calculadora de funcions"
+
+msgid   "Geometrical applications of definite integral"
+msgstr  "Aplicacions geomètriques de la integral"
+
+msgid   "Graphs of elementary functions"
+msgstr  "Gràfiques de funcions elementals"
+
+msgid   "Hessian at stationary point"
+msgstr  "Hessià al punt estacionari"
+
+msgid   "Hessian at stationary points"
+msgstr  "Hessians als punts estacionaris"
+
+msgid   "History"
+msgstr  "Historial"
+
+msgid   "If the input contains logarithm, use"
+msgstr  "Si l'entrada conté logaritmes, fés servir"
+
 msgid   "Inequalities"
 msgstr  "Inequacions"
 
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "Els comentaris a la part de baix del formulari esclareixen quines "
-        "inequacions poden ser resoltes."
+msgid   "Initial approximation"
+msgstr  "Aproximació inicial"
 
-msgid   "suppose x,y>0"
-msgstr  "suposem x,y>0"
+msgid   "Integral calculus"
+msgstr  "Integrals"
 
-msgid   "draw labels on axes, not on boundary"
-msgstr  "mostra etiquetes als eixos, no a les vores"
+msgid   "Integral of a scalar field"
+msgstr  ""
 
-msgid   "use high quality output in PDF"
-msgstr  "fés servir PDF d'alta qualitat (arxiu més gran)"
+msgid   "Integral of a vector field"
+msgstr  ""
 
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "i ajusta les vores per tenir les mateixes unitats a tots dos eixos"
+msgid   "Interval from"
+msgstr  "Interval de"
 
-msgid   "Axes"
-msgstr  "Eixos"
+msgid   "Interval from "
+msgstr  "Interval de "
+
+msgid   "Introduction"
+msgstr  "Introducció"
+
+msgid   "Investigating functions"
+msgstr  "Estudi de funcions"
+
+msgid   "Known bugs"
+msgstr  "Bogs coneguts"
+
+msgid   "Lagrange polynomial"
+msgstr  "Polinomi de Lagrange"
+
+msgid   "Least squares method"
+msgstr  "Mètode dels mínims quadrats"
+
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+msgid   "Limits for integration"
+msgstr  "Límits de la integral"
+
+msgid   "Line integral"
+msgstr  ""
+
+msgid   "Local extrema in two variables"
+msgstr  "Extrèmums locals en dues variables"
+
+msgid   "Local maxima and minima in two variables"
+msgstr  "Màxims i mínims locals en dues variables"
+
+msgid   "Logarithm"
+msgstr  "Logaritme"
+
+msgid   "Lower bound"
+msgstr  "Vora inferior"
+
+msgid   "MAW-autsyst"
+msgstr  "<ul> <li>Escriviu el que va a la dreta del sistema autònom, trieu el "
+        "punt estacionari que us interessa i cliqueu Envia-ho</li> "
+        "<li>L'ordinador pot trobar els punts estacionaris, o bé el jacobià i "
+        "els valors propis a un dels punts estacionaris. Trieu amb el botonet "
+        "que calgui.</li> </ul>l"
+
+msgid   "MAW-banach"
+msgstr  "La resolució d'equacions no-lineals es basa en el <a href=\"http://"
+        "ca.wikipedia.org/wiki/Teorema_del_punt_fix_de_Banach\">teorema de "
+        "Banach del punt fix</a>"
+
+msgid   "MAW-bisection"
+msgstr  "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia."
+        "org/wiki/Bisection_method\">mètode de bisecció</a>"
+
+msgid   "MAW-der"
+msgstr  "<ul><li>Entreu una funció i cliqueu Envia-ho. Obtindreu la derivada "
+        "en format PDF. </li><li>Aquest formulari us permet derivar funcions "
+        "en una o en dues variables.</li></ul>"
+
+msgid   "MAW-df"
+msgstr  " "
+
+msgid   "MAW-df3d"
+msgstr  "<ul> <li>Entreu una funció de dues variables, trieu les vores de la "
+        "gràfica i cliqueu Envia-ho.</li> </ul>"
+
+msgid   "MAW-geom"
+msgstr  "<ul>   <li>Entreu les funcions que definexien les fronteres inferior "
+        "i superior del conjunt.</li>  <li>Si la frontera inferior és l'eix "
+        "de les <span style=\"font-style: italic;\">x</span>, la funció <span "
+        "style=\"font-style: italic;\">g</span> és 0.</li>  <li>L'ordinador "
+        "pot trobar les interseccions de les corbes. Trieu aquesta acció amb "
+        "el botonet escaient.<br> </li> </ul>"
+
+msgid   "MAW-graf"
+msgstr  "<span style=\"font-weight: bold;\">NB:</span><br><ul><li>Entreu una "
+        "funció elemental, o que es pugui obternir d'una funció elemental per "
+        "translació i canvi d'escala.</li><li>La funció serà analitzada i "
+        "n'obtindreu la gràfica, incloent-hi l'animació de deformacions "
+        "ulteriors.</li></ul>"
 
 msgid   "MAW-ineq2d"
 msgstr  "<br> <ul>   <li>Entreu les vostres inequacions al camp del "
@@ -443,87 +361,17 @@ msgstr  "<br> <ul>   <li>Entreu les vostres inequacions al camp del "
         "eixos ortonormats, seleccioneu el segon quadradet (l'eix més curt "
         "s'arronsarà). </li> </ul>"
 
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "fés servir <a href=\"http://formconv.sourceforge.net/\">formconv</a> "
-        "per convertir fòrmules (així podeu escriure 2x enlloc de 2*x)"
-
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "fés servir \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per "
-        "escriure les fòrmules a la pàgina html enlloc de  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(més bonic però més lent)\n"
-
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> (destrieu-ho si obteniu "
-        "torres de fraccions, amb fraccions al numerador)"
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "escriu asinh i atanh enlloc de log"
-
 msgid   "MAW-int"
 msgstr  "<span class='red'>Visiteu la <a  href=\"integral_offline/\">galeria "
         "d'integrals</a></span>. Si voleu afegir-hi una integral vostra, "
         "contacteu-nos i ho farem amb molt de gust."
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Entreu la funció, trieu les variables d'integració, i trieu també en "
-        "quin ordre s'han d'integrar"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "El jacobià s'afegeix automàticament en coordenades polars. Podeu "
-        "escriure <b>phi</b> per la variable angular <img src=\"phi.png\" alt="
-        "\"phi\">."
-
-msgid   "Axes (decimal numbers)"
-msgstr  "Eixos (nombres decimals)"
-
-#, fuzzy
-msgid   "Preview region of integration"
-msgstr  "Límits de la integral"
-
 msgid   "MAW-int2"
 msgstr  ""
-
-msgid   "Data file"
-msgstr  "Arxiu de dades"
 
 msgid   "MAW-lagr"
 msgstr  "<ul> <li> Escriu un arxiu de dades: els punts separats per punts i "
         "coma, les coordenades de cada punt separades per comes. </li> </ul>"
-
-msgid   "Second order linear differential equations"
-msgstr  "Equació diferencial lineal de segon ordre"
-
-msgid   "Equation"
-msgstr  "Equació"
-
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  "Podeu fer servir els botons Preview i Editor com a ajuda per omplir "
-        "la part a la dreta"
-
-msgid   "Method"
-msgstr  "Mètode"
-
-msgid   "variation of constants"
-msgstr  "variació de constants"
-
-msgid   "undetermined coefficients"
-msgstr  "coeficients indeterminats"
-
-msgid   "solve also initial value problem"
-msgstr  "resol també el problema de condicions inicials"
 
 msgid   "MAW-lde2"
 msgstr  "<ul>   <li>Escriviu els coeficients de l'equació (nombres) i el "
@@ -536,35 +384,6 @@ msgstr  "<ul>   <li>Escriviu els coeficients de l'equació (nombres) i el "
         "</i>, <i>Q(x)</i> polinomis de grau igual o menor a 4.</li>   <li>Si "
         "descobriu que la calculadora dóna resultats erronis, aviseu-nous, si "
         "us plau.</li> </ul>"
-
-msgid   "Integral of a scalar field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
-
-msgid   "Integral of a vector field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
-
-msgid   "line integral in 2D"
-msgstr  ""
-
-msgid   "line integral in 3D"
-msgstr  ""
-
-msgid   "Curve"
-msgstr  ""
-
-msgid   "Parameter bounds"
-msgstr  ""
 
 msgid   "MAW-lineint"
 msgstr  ""
@@ -637,18 +456,6 @@ msgstr  "Mapa del lloc </span>  <ul> <li>Funcions <ul> <li>Gràfiques de "
         "programa original</a> i desenvolupar-lo com us plagui, amb noves "
         "funcionalitats. </li> </ul>"
 
-msgid   "Local extrema in two variables"
-msgstr  "Extrèmums locals en dues variables"
-
-msgid   "Task for computation"
-msgstr  "Tasca a calcular"
-
-msgid   "Hessian at stationary point"
-msgstr  "Hessià al punt estacionari"
-
-msgid   "Hessian at stationary points"
-msgstr  "Hessians als punts estacionaris"
-
 msgid   "MAW-minmax3d"
 msgstr  "<br>Podeu estudiar els punts estacionaris d'una funció de dues "
         "variables amb aquesta calculadora. Heus aquí les vostres opcions."
@@ -666,15 +473,6 @@ msgid   "MAW-mnc"
 msgstr  "<ul> <li> Escriu un arxiu de dades: els punts separats per punts i "
         "coma, les coordenades de cada punt separades per comes. </li> </ul>"
 
-msgid   "Ordinary differential equations"
-msgstr  "Equacions diferencials ordinàries"
-
-msgid   "Equation solved wrt y'"
-msgstr  "Equació resolta respecte a y'"
-
-msgid   "Full equation"
-msgstr  "Tota l'equació"
-
 msgid   "MAW-ode"
 msgstr  "<ul><li>Aquesta calculadora resol una equació diferencial ordinària "
         "que pot ser de variables separades, homogenènia, exacta, lineal o de "
@@ -690,9 +488,6 @@ msgstr  "<ul><li>Aquesta calculadora resol una equació diferencial ordinària "
         "solució amb l'ordinador no és gens fàcil; si la vostra solució és "
         "errònia, digueu-nos que heu trobat un bog, si us plau.</li></ul>"
 
-msgid   "Function calculator"
-msgstr  "Calculadora de funcions"
-
 msgid   "MAW-prub"
 msgstr  "<span style=\"font-weight: bold;\">NB:</span><br> <ul><li>Si no "
         "indiqueu una de les vores de la gràfica, la calcularé "
@@ -706,40 +501,6 @@ msgstr  "<span style=\"font-weight: bold;\">NB:</span><br> <ul><li>Si no "
 msgid   "MAW-regula_falsi"
 msgstr  ""
 
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "escrit per <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
-#, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "%s Versió fora de línia%s també disponible; traduccions %s "
-        "benvingudes %s"
-
-msgid   "Degree of Taylor polynomial"
-msgstr  "Grau del polinomi de Taylor"
-
-msgid   "Center of Taylor polynomial"
-msgstr  "Punt d'expansió del polinomi de Taylor"
-
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "Trapezis (aproximació d'una integral amb) "
-
-msgid   "Limits for integration"
-msgstr  "Límits de la integral"
-
-msgid   "lower limit"
-msgstr  "límit inferior"
-
-msgid   "upper limit"
-msgstr  "límit superior"
-
-msgid   "intervals in partition"
-msgstr  "nombre d'intervals a la partició"
-
 msgid   "MAW-trap"
 msgstr  "<ul> <li>  Escriviu la funció que cal integrar, els límits "
         "d'integració i el nombre de sots-intervals (fins a 20). Integrarem "
@@ -748,3 +509,242 @@ msgstr  "<ul> <li>  Escriviu la funció que cal integrar, els límits "
         "<li>Si el nombre de punts és inferior a 10 i si la funció no pren "
         "valors negatius a l'interval, apareix també la gràfica de la funció "
         "amb els trapezis. </li>       </ul>"
+
+msgid   "Mathematical Assistant on Web"
+msgstr  "L'Assistent Matemàtic al Web (MAW)"
+
+msgid   "Method"
+msgstr  "Mètode"
+
+msgid   "Method of iterations"
+msgstr  "Mètode d'iteracions"
+
+msgid   "More languages"
+msgstr  ""
+
+msgid   "Number of steps "
+msgstr  "Nombre d'iteracions"
+
+msgid   "Ordinary derivative (function in one variable)"
+msgstr  "Derivada ordinària (funció d'una sola variable)"
+
+msgid   "Ordinary differential equations"
+msgstr  "Equacions diferencials ordinàries"
+
+msgid   "Parameter bounds"
+msgstr  ""
+
+msgid   "Parameters"
+msgstr  "Paràmetres"
+
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  "Derivada parcial respecte a <i>x</i> (funció de dues variables)"
+
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  "Derivada parcial respecte a <i>y</i> (funció de dues variables)"
+
+msgid   "Precalculus"
+msgstr  "Àlgebra elemental"
+
+msgid   "Preview"
+msgstr  ""
+
+#, fuzzy
+msgid   "Preview region of integration"
+msgstr  "Límits de la integral"
+
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  "Els comentaris a la part de baix del formulari esclareixen quines "
+        "inequacions poden ser resoltes."
+
+msgid   "Regula falsi"
+msgstr  ""
+
+msgid   "Second order LDE"
+msgstr  "EDO de segon ordre"
+
+msgid   "Second order linear differential equations"
+msgstr  "Equació diferencial lineal de segon ordre"
+
+msgid   "Showcase"
+msgstr  ""
+
+msgid   "Singular points of autonomous systems"
+msgstr  "Punts singulars de sistemes autònoms"
+
+msgid   "Site map, support"
+msgstr  "Mapa i ajuda"
+
+msgid   "Submit"
+msgstr  "Envia-ho"
+
+msgid   "Support from MAW forum"
+msgstr  ""
+
+msgid   "Switch to a compact design"
+msgstr  ""
+
+msgid   "Switch to a full design"
+msgstr  ""
+
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "Sistema d'inequacions (en una o dues variables)"
+
+msgid   "Task for computation"
+msgstr  "Tasca a calcular"
+
+msgid   "Taylor polynomial"
+msgstr  "Polinomi de Taylor"
+
+msgid   "The type of the derivative"
+msgstr  "Mena de derivada"
+
+msgid   "Trapezoidal rule"
+msgstr  "Aproximació dels trapezis"
+
+msgid   "Trapezoidal rule (approximation for definite integral)"
+msgstr  "Trapezis (aproximació d'una integral amb) "
+
+msgid   "Upper bound"
+msgstr  "Vora superior"
+
+msgid   "What to do"
+msgstr  "Què fer"
+
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  "Podeu fer servir els botons Preview i Editor com a ajuda per omplir "
+        "la part a la dreta"
+
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  "Engegeu JavaScript per poder veure la informació en finestres "
+        "emergents."
+
+#, php-format
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  ""
+
+msgid   "and change bounds to get equal units on both axes"
+msgstr  "i ajusta les vores per tenir les mateixes unitats a tots dos eixos"
+
+msgid   "automatically differentiate constants"
+msgstr  "deriva automàticament les constants"
+
+msgid   "automatically use linearity of derivative"
+msgstr  "Fés servir automàticament el fet que la derivada és una operació "
+        "lineal"
+
+msgid   "draw domain on the set"
+msgstr  "dibuixa el domini al conjunt"
+
+msgid   "draw labels on axes, not on boundary"
+msgstr  "mostra etiquetes als eixos, no a les vores"
+
+msgid   "find Jacobi matrix at stationary point"
+msgstr  "trobar el jacobià al punt estacionari"
+
+msgid   "hide invisible parts"
+msgstr  "amaga les parts invisibles"
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr  ""
+
+msgid   "intervals in partition"
+msgstr  "nombre d'intervals a la partició"
+
+msgid   "limits for the picture with domain:"
+msgstr  "vores de la gràfica amb domini de definició:"
+
+msgid   "line integral in 2D"
+msgstr  ""
+
+msgid   "line integral in 3D"
+msgstr  ""
+
+msgid   "log with base"
+msgstr  "logaritme amb base"
+
+msgid   "lower bound"
+msgstr  "vora inferior"
+
+msgid   "lower limit"
+msgstr  "límit inferior"
+
+msgid   "natural log"
+msgstr  "logaritme natural (base e)"
+
+msgid   "preview solid of revolution"
+msgstr  "vista preliminar del volum de revolució"
+
+msgid   "show colors, no mesh"
+msgstr  "mostra els colors sense la graella"
+
+msgid   "show grid"
+msgstr  "mostra la graella"
+
+msgid   "solve also initial value problem"
+msgstr  "resol també el problema de condicions inicials"
+
+msgid   "suppose x,y>0"
+msgstr  "suposem x,y>0"
+
+msgid   "to"
+msgstr  "a"
+
+msgid   "undetermined coefficients"
+msgstr  "coeficients indeterminats"
+
+msgid   "upper bound"
+msgstr  "vora superior"
+
+msgid   "upper limit"
+msgstr  "límit superior"
+
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  "fés servir \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per "
+        "escriure les fòrmules a la pàgina html enlloc de  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(més bonic però més lent)\n"
+
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  "fés servir <a href=\"http://formconv.sourceforge.net/\">formconv</a> "
+        "per convertir fòrmules (així podeu escriure 2x enlloc de 2*x)"
+
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  "primer busca automàticament els punts estacionairs (potser no els "
+        "trobarem tots)"
+
+msgid   "use high quality output in PDF"
+msgstr  "fés servir PDF d'alta qualitat (arxiu més gran)"
+
+msgid   "variation of constants"
+msgstr  "variació de constants"
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  "escriu asinh i atanh enlloc de log"
+
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  "escrit per <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"

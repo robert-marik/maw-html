@@ -19,156 +19,60 @@ msgstr  "Project-Id-Version: messages\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
 
-msgid   "Singular points of autonomous systems"
-msgstr  "Singuläre Punkte von autonomen Systemen"
-
-msgid   "Editor"
+msgid   " The Jacobian in polar coordinates is added automatically. You can "
+        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
+        "\">."
 msgstr  ""
 
-msgid   "Preview"
-msgstr  ""
-
-msgid   "What to do"
-msgstr  ""
-
-msgid   "find Jacobi matrix at stationary point"
-msgstr  ""
-
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  ""
-
-msgid   "MAW-autsyst"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Method of iterations"
-msgstr  "Fixpunktiteration"
-
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  ""
-
-msgid   "Function"
-msgstr  ""
-
-msgid   "Interval from "
-msgstr  ""
-
-msgid   "to"
-msgstr  ""
-
-msgid   "(integers or decimal numbers)"
-msgstr  ""
-
-msgid   "Number of steps "
+#, php-format
+msgid   "%sOffline version%s is also available and translators are %s "
+        "welcomed %s."
 msgstr  ""
 
 msgid   "(integer between 2  and 40)"
 msgstr  ""
 
-msgid   "Initial approximation"
+msgid   "(integer between 2 and 40)"
 msgstr  ""
 
 msgid   "(integer or decimal number)"
 msgstr  ""
 
-msgid   "MAW-banach"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
+msgid   "(integers or decimal numbers)"
+msgstr  ""
+
+msgid   "(the function must either a basic elementary function of a function "
+        "which can be obtained from on of basic elementary functions by "
+        "shifting and resizing graph)"
+msgstr  ""
+
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  ""
+
+msgid   "Action"
+msgstr  ""
+
+msgid   "Antiderivative"
+msgstr  "Integral"
+
+msgid   "Autonomous system"
+msgstr  "Autonome Systeme"
+
+msgid   "Axes"
+msgstr  ""
+
+msgid   "Axes (decimal numbers)"
+msgstr  ""
 
 msgid   "Bisection"
 msgstr  "Bisektionsverfahren"
 
-msgid   "Enter function, interval containing zero and number of steps."
+msgid   "Bounds for axes"
 msgstr  ""
 
-msgid   "Interval from"
-msgstr  ""
-
-msgid   "(integer between 2 and 40)"
-msgstr  ""
-
-msgid   "MAW-bisection"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Derivative and partial derivative"
-msgstr  "Ableitung"
-
-msgid   "automatically use linearity of derivative"
-msgstr  ""
-
-msgid   "automatically differentiate constants"
-msgstr  ""
-
-msgid   "The type of the derivative"
-msgstr  ""
-
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  ""
-
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  ""
-
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  ""
-
-msgid   "MAW-der"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Domain of a function in one variable"
-msgstr  "Definitionsbereich (eine Variable)"
-
-msgid   "Parameters"
-msgstr  ""
-
-msgid   "MAW-df"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Domain of a function in two variables"
-msgstr  "Definitionsbereich (zwei Variables)"
-
-msgid   "limits for the picture with domain:"
-msgstr  ""
-
-msgid   "draw domain on the set"
-msgstr  ""
-
-msgid   "MAW-df3d"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Switch to a compact design"
-msgstr  ""
-
-msgid   "Showcase"
-msgstr  ""
-
-msgid   "Switch to a full design"
-msgstr  ""
-
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  ""
-
-msgid   "Definite integral in geometry"
-msgstr  "Bestimmtes Integral in der Geometrie"
-
-msgid   "Formulation of the problem"
-msgstr  ""
-
-msgid   "Curves on boundary"
-msgstr  ""
-
-msgid   "Upper bound"
-msgstr  ""
-
-msgid   "Lower bound"
+msgid   "Bounds for the picture (decimal numbers)"
 msgstr  ""
 
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
@@ -176,189 +80,13 @@ msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "computation)</small>"
 msgstr  ""
 
-msgid   "lower bound"
-msgstr  ""
-
-msgid   "upper bound"
-msgstr  ""
-
-msgid   "Action"
-msgstr  ""
-
-#, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  ""
-
-#, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  ""
-
-msgid   "preview solid of revolution"
-msgstr  ""
-
-msgid   "show colors, no mesh"
-msgstr  ""
-
-msgid   "hide invisible parts"
-msgstr  ""
-
-msgid   "Find intercepts of curves"
-msgstr  ""
-
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  ""
-
-msgid   "MAW-geom"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Graphs of elementary functions"
-msgstr  "Graphen der elementaren Funktionen"
-
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  ""
-
-msgid   "Bounds for axes"
-msgstr  ""
-
-msgid   "show grid"
-msgstr  ""
-
-msgid   "Logarithm"
-msgstr  ""
-
-msgid   "If the input contains logarithm, use"
-msgstr  ""
-
-msgid   "natural log"
-msgstr  ""
-
-msgid   "log with base"
-msgstr  ""
-
-msgid   "MAW-graf"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  ""
-
-#, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  ""
-
-msgid   "History"
-msgstr  ""
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "Mathematik Schritt für Schritt und online (MAW)"
-
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  ""
-
-msgid   "More languages"
-msgstr  "Weitere Sprachen"
-
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  ""
-
-msgid   "Support from MAW forum"
-msgstr  ""
-
-msgid   "Changelog"
-msgstr  ""
-
-msgid   "Known bugs"
-msgstr  ""
-
-msgid   "Submit"
-msgstr  ""
-
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  ""
-
-msgid   "Domain of functions (one variable)"
-msgstr  "Definitionsbereich (eine Variable)"
-
-msgid   "Domain of functions (two variables)"
-msgstr  "Definitionsbereich (zwei Variablen)"
-
-msgid   "Lagrange polynomial"
-msgstr  "Polynominterpolation"
-
-msgid   "Least squares method"
-msgstr  "Methode der kleinsten Quadrate"
-
-msgid   "Investigating functions"
-msgstr  "Graphen (mit Ableitungen)"
-
-msgid   "Taylor polynomial"
-msgstr  "Taylorpolynom"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "Extremwerten (zwei Variablen)"
-
-msgid   "Antiderivative"
-msgstr  "Integral"
-
-msgid   "Geometrical applications of definite integral"
-msgstr  "Bestimmtes Integral"
-
-msgid   "Trapezoidal rule"
-msgstr  "Trapezregel"
-
-msgid   "Double integral"
-msgstr  "Doppelintegral"
-
-msgid   "Line integral"
-msgstr  ""
-
-msgid   "First order ODE"
-msgstr  "Differentialgleichungen erster Ordnung"
-
-msgid   "Second order LDE"
-msgstr  "Differentialgleichungen zweiter Ordnung"
-
-msgid   "Autonomous system"
-msgstr  "Autonome Systeme"
-
-msgid   "Regula falsi"
-msgstr  "Regula-falsi-Verfahren"
-
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Ungleichungen"
-
-msgid   "Introduction"
-msgstr  "Einführung"
-
-msgid   "Precalculus"
-msgstr  "Funktionen"
-
 msgid   "Calculus"
 msgstr  "Differentialrechnung"
 
-msgid   "Integral calculus"
-msgstr  "Integralrechnung"
+msgid   "Center of Taylor polynomial"
+msgstr  ""
 
-msgid   "Differential equations"
-msgstr  "Differentialgleichungen"
-
-msgid   "Equations and inequalities"
-msgstr  "Gleichungen und Ungleichungen"
-
-msgid   "Site map, support"
-msgstr  "Unterstützung"
-
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
+msgid   "Changelog"
 msgstr  ""
 
 msgid   "Choose the field of your interest in the menu and then choose the "
@@ -369,134 +97,235 @@ msgid   "Choose the field of your interest in the menu and then choose the "
         "name of each group (the first row of the menu)."
 msgstr  ""
 
-msgid   "Inequalities"
-msgstr  "System der Ungleichungen (eine oder zwei Variablen)"
-
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
+msgid   "Click only once and wait few seconds for the answer!"
 msgstr  ""
 
-msgid   "suppose x,y>0"
-msgstr  ""
-
-msgid   "draw labels on axes, not on boundary"
-msgstr  ""
-
-msgid   "use high quality output in PDF"
-msgstr  ""
-
-msgid   "and change bounds to get equal units on both axes"
-msgstr  ""
-
-msgid   "Axes"
-msgstr  ""
-
-msgid   "MAW-ineq2d"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  ""
-
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  ""
-
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  ""
-
-msgid   "write acsinh and atanh in terms of log"
-msgstr  ""
-
-msgid   "MAW-int"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Enter function and choose variables and order for integration "
-msgstr  ""
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  ""
-
-msgid   "Axes (decimal numbers)"
-msgstr  ""
-
-msgid   "Preview region of integration"
-msgstr  ""
-
-msgid   "MAW-int2"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Data file"
-msgstr  ""
-
-msgid   "MAW-lagr"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Second order linear differential equations"
-msgstr  "Lineare Differentialgleichungen (zweiter Ordnung)"
-
-msgid   "Equation"
-msgstr  ""
-
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  ""
-
-msgid   "Method"
-msgstr  ""
-
-msgid   "variation of constants"
-msgstr  ""
-
-msgid   "undetermined coefficients"
-msgstr  ""
-
-msgid   "solve also initial value problem"
-msgstr  ""
-
-msgid   "MAW-lde2"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "Integral of a scalar field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  ""
-
-msgid   "Integral of a vector field"
-msgstr  ""
-
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  ""
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  ""
-
-msgid   "line integral in 2D"
-msgstr  ""
-
-msgid   "line integral in 3D"
+msgid   "Clicking this button you get how formconv renders your expression "
+        "and how you can enter this expression in Maxima notation (you can "
+        "use copy and paste to transfer to the form.)"
 msgstr  ""
 
 msgid   "Curve"
 msgstr  ""
 
-msgid   "Parameter bounds"
+msgid   "Curves on boundary"
 msgstr  ""
+
+msgid   "Data file"
+msgstr  ""
+
+msgid   "Definite integral in geometry"
+msgstr  "Bestimmtes Integral in der Geometrie"
+
+msgid   "Degree of Taylor polynomial"
+msgstr  ""
+
+msgid   "Derivative and partial derivative"
+msgstr  "Ableitung"
+
+msgid   "Did we help you with your math problem? Did we save your time? If "
+        "so, consider to send some money to <a href=\"http://www.unicef.org/"
+        "\">UNICEF foundation.</a>"
+msgstr  ""
+
+msgid   "Differential equations"
+msgstr  "Differentialgleichungen"
+
+msgid   "Domain of a function in one variable"
+msgstr  "Definitionsbereich (eine Variable)"
+
+msgid   "Domain of a function in two variables"
+msgstr  "Definitionsbereich (zwei Variables)"
+
+msgid   "Domain of functions (one variable)"
+msgstr  "Definitionsbereich (eine Variable)"
+
+msgid   "Domain of functions (two variables)"
+msgstr  "Definitionsbereich (zwei Variablen)"
+
+msgid   "Double integral"
+msgstr  "Doppelintegral"
+
+msgid   "Editor"
+msgstr  ""
+
+msgid   "Enter function and choose variables and order for integration "
+msgstr  ""
+
+msgid   "Enter function, interval containing  fixed point and number of steps."
+msgstr  ""
+
+msgid   "Enter function, interval containing zero and number of steps."
+msgstr  ""
+
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the calculator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  ""
+
+msgid   "Equation"
+msgstr  ""
+
+msgid   "Equation solved wrt y'"
+msgstr  ""
+
+msgid   "Equations and inequalities"
+msgstr  "Gleichungen und Ungleichungen"
+
+#, php-format
+msgid   "Find %s area %s between two curves and draw graph."
+msgstr  ""
+
+#, php-format
+msgid   "Find %s volume %s of solid of revolution and draw graph"
+msgstr  ""
+
+msgid   "Find intercepts of curves"
+msgstr  ""
+
+msgid   "First order ODE"
+msgstr  "Differentialgleichungen erster Ordnung"
+
+msgid   "Formulation of the problem"
+msgstr  ""
+
+msgid   "Full equation"
+msgstr  ""
+
+msgid   "Function"
+msgstr  ""
+
+msgid   "Function calculator"
+msgstr  "Graphen von Funktionen (mit Ableitungen)"
+
+msgid   "Geometrical applications of definite integral"
+msgstr  "Bestimmtes Integral"
+
+msgid   "Graphs of elementary functions"
+msgstr  "Graphen der elementaren Funktionen"
+
+msgid   "Hessian at stationary point"
+msgstr  ""
+
+msgid   "Hessian at stationary points"
+msgstr  ""
+
+msgid   "History"
+msgstr  ""
+
+msgid   "If the input contains logarithm, use"
+msgstr  ""
+
+msgid   "Inequalities"
+msgstr  "System der Ungleichungen (eine oder zwei Variablen)"
+
+msgid   "Initial approximation"
+msgstr  ""
+
+msgid   "Integral calculus"
+msgstr  "Integralrechnung"
+
+msgid   "Integral of a scalar field"
+msgstr  ""
+
+msgid   "Integral of a vector field"
+msgstr  ""
+
+msgid   "Interval from"
+msgstr  ""
+
+msgid   "Interval from "
+msgstr  ""
+
+msgid   "Introduction"
+msgstr  "Einführung"
+
+msgid   "Investigating functions"
+msgstr  "Graphen (mit Ableitungen)"
+
+msgid   "Known bugs"
+msgstr  ""
+
+msgid   "Lagrange polynomial"
+msgstr  "Polynominterpolation"
+
+msgid   "Least squares method"
+msgstr  "Methode der kleinsten Quadrate"
+
+msgid   "Leave the last field empty for integral in 2D plane."
+msgstr  ""
+
+msgid   "Limits for integration"
+msgstr  ""
+
+msgid   "Line integral"
+msgstr  ""
+
+msgid   "Local extrema in two variables"
+msgstr  "Lokal extremwerten in zwei Variablen"
+
+msgid   "Local maxima and minima in two variables"
+msgstr  "Extremwerten (zwei Variablen)"
+
+msgid   "Logarithm"
+msgstr  ""
+
+msgid   "Lower bound"
+msgstr  ""
+
+msgid   "MAW-autsyst"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-banach"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-bisection"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-der"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-df"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-df3d"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-geom"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-graf"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-ineq2d"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-int"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-int2"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-lagr"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "MAW-lde2"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
 
 msgid   "MAW-lineint"
 msgstr  ""
@@ -509,18 +338,6 @@ msgid   "MAW-map"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
-msgid   "Local extrema in two variables"
-msgstr  "Lokal extremwerten in zwei Variablen"
-
-msgid   "Task for computation"
-msgstr  ""
-
-msgid   "Hessian at stationary point"
-msgstr  ""
-
-msgid   "Hessian at stationary points"
-msgstr  ""
-
 msgid   "MAW-minmax3d"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
@@ -529,21 +346,9 @@ msgid   "MAW-mnc"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
-msgid   "Ordinary differential equations"
-msgstr  "Differentialgleichungen"
-
-msgid   "Equation solved wrt y'"
-msgstr  ""
-
-msgid   "Full equation"
-msgstr  ""
-
 msgid   "MAW-ode"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
-
-msgid   "Function calculator"
-msgstr  "Graphen von Funktionen (mit Ableitungen)"
 
 msgid   "MAW-prub"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
@@ -553,37 +358,232 @@ msgid   "MAW-regula_falsi"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgid   "MAW-trap"
+msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
+        "lesen."
+
+msgid   "Mathematical Assistant on Web"
+msgstr  "Mathematik Schritt für Schritt und online (MAW)"
+
+msgid   "Method"
 msgstr  ""
 
-#, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
+msgid   "Method of iterations"
+msgstr  "Fixpunktiteration"
+
+msgid   "More languages"
+msgstr  "Weitere Sprachen"
+
+msgid   "Number of steps "
 msgstr  ""
 
-msgid   "Degree of Taylor polynomial"
+msgid   "Ordinary derivative (function in one variable)"
 msgstr  ""
 
-msgid   "Center of Taylor polynomial"
+msgid   "Ordinary differential equations"
+msgstr  "Differentialgleichungen"
+
+msgid   "Parameter bounds"
 msgstr  ""
+
+msgid   "Parameters"
+msgstr  ""
+
+msgid   "Partial derivative with respect to <i>x</i> (function in two "
+        "variables)"
+msgstr  ""
+
+msgid   "Partial derivative with respect to <i>y</i> (function in two "
+        "variables)"
+msgstr  ""
+
+msgid   "Precalculus"
+msgstr  "Funktionen"
+
+msgid   "Preview"
+msgstr  ""
+
+msgid   "Preview region of integration"
+msgstr  ""
+
+msgid   "Read the comments below the form to find out, which inequalities can "
+        "be solved."
+msgstr  ""
+
+msgid   "Regula falsi"
+msgstr  "Regula-falsi-Verfahren"
+
+msgid   "Second order LDE"
+msgstr  "Differentialgleichungen zweiter Ordnung"
+
+msgid   "Second order linear differential equations"
+msgstr  "Lineare Differentialgleichungen (zweiter Ordnung)"
+
+msgid   "Showcase"
+msgstr  ""
+
+msgid   "Singular points of autonomous systems"
+msgstr  "Singuläre Punkte von autonomen Systemen"
+
+msgid   "Site map, support"
+msgstr  "Unterstützung"
+
+msgid   "Submit"
+msgstr  ""
+
+msgid   "Support from MAW forum"
+msgstr  ""
+
+msgid   "Switch to a compact design"
+msgstr  ""
+
+msgid   "Switch to a full design"
+msgstr  ""
+
+msgid   "System of inequalities (in one or two variables)"
+msgstr  "Ungleichungen"
+
+msgid   "Task for computation"
+msgstr  ""
+
+msgid   "Taylor polynomial"
+msgstr  "Taylorpolynom"
+
+msgid   "The type of the derivative"
+msgstr  ""
+
+msgid   "Trapezoidal rule"
+msgstr  "Trapezregel"
 
 msgid   "Trapezoidal rule (approximation for definite integral)"
 msgstr  ""
 
-msgid   "Limits for integration"
+msgid   "Upper bound"
 msgstr  ""
 
-msgid   "lower limit"
+msgid   "What to do"
 msgstr  ""
 
-msgid   "upper limit"
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  ""
+
+msgid   "You should turn JavaScript on to see popup informations."
+msgstr  ""
+
+#, php-format
+msgid   "Your input is being processed. Wait few seconds to see the output. "
+        "Click %shere%s to reopen the form which has been submited."
+msgstr  ""
+
+msgid   "and change bounds to get equal units on both axes"
+msgstr  ""
+
+msgid   "automatically differentiate constants"
+msgstr  ""
+
+msgid   "automatically use linearity of derivative"
+msgstr  ""
+
+msgid   "draw domain on the set"
+msgstr  ""
+
+msgid   "draw labels on axes, not on boundary"
+msgstr  ""
+
+msgid   "find Jacobi matrix at stationary point"
+msgstr  ""
+
+msgid   "hide invisible parts"
+msgstr  ""
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_scalar_field"
+msgstr  ""
+
+msgid   "http://en.wikipedia.org/wiki/"
+        "Line_integral#Line_integral_of_a_vector_field"
+msgstr  ""
+
+msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
 msgstr  ""
 
 msgid   "intervals in partition"
 msgstr  ""
 
-msgid   "MAW-trap"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
+msgid   "limits for the picture with domain:"
+msgstr  ""
+
+msgid   "line integral in 2D"
+msgstr  ""
+
+msgid   "line integral in 3D"
+msgstr  ""
+
+msgid   "log with base"
+msgstr  ""
+
+msgid   "lower bound"
+msgstr  ""
+
+msgid   "lower limit"
+msgstr  ""
+
+msgid   "natural log"
+msgstr  ""
+
+msgid   "preview solid of revolution"
+msgstr  ""
+
+msgid   "show colors, no mesh"
+msgstr  ""
+
+msgid   "show grid"
+msgstr  ""
+
+msgid   "solve also initial value problem"
+msgstr  ""
+
+msgid   "suppose x,y>0"
+msgstr  ""
+
+msgid   "to"
+msgstr  ""
+
+msgid   "undetermined coefficients"
+msgstr  ""
+
+msgid   "upper bound"
+msgstr  ""
+
+msgid   "upper limit"
+msgstr  ""
+
+msgid   "use \n"
+        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
+        "writing formulas on html page instead of  \n"
+        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+        "(the output is better but the rendering could be slower)\n"
+msgstr  ""
+
+msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
+        "convert mathematical expressions (this allows to write  2x instead "
+        "of 2*x)"
+msgstr  ""
+
+msgid   "use computer to find stationary points first (this may fail to find "
+        "all stationary points, however)"
+msgstr  ""
+
+msgid   "use high quality output in PDF"
+msgstr  ""
+
+msgid   "variation of constants"
+msgstr  ""
+
+msgid   "write acsinh and atanh in terms of log"
+msgstr  ""
+
+msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
+        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
+        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr  ""
