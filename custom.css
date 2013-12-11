@@ -175,3 +175,4 @@ th, td {padding:10px;}
 
 .center{margin-left:auto; margin-right:auto;}
 .centerimg{display:block; margin-left:auto; margin-right:auto;}
+.inlinediv{display:inline-block;  vertical-align:top;}

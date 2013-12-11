@@ -96,7 +96,7 @@ if (preg_match("/[^3_2a-z]/",$form))
 
 $group2=array("graf","df","df3d","lagrange","mnc");
 $group3=array("derivace","prubeh","taylor","minmax3d");
-$group4=array("integral","integral2","geom","trap","lineintegral");
+$group4=array("integral","definite","integral2","geom","trap","lineintegral");
 $group5=array("ode","lde2","autsyst");
 $group6=array("banach","regula_falsi","bisection","ineq2d");
 $group7=array("map");
@@ -471,6 +471,7 @@ function printsubmenu($i)
   elseif ($i=="4")
   {
     echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
+    echo maw_submenu('definite',$lang,'definite',__('Definite integral and mean value'));
     echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
     echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
     echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
@@ -684,7 +685,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <script>
 $(".pdforhtml").css("display","inline-block");
 </script>
-<?php elseif (in_array($form, Array("ineq2d","graf","df","df3d","integral","ineq2d"))):?>
+<?php elseif (in_array($form, Array("ineq2d","graf","df","df3d","integral","ineq2d","definite"))):?>
 <script>
 $(".pdfnohtmlyes").css("display","inline-block");
 </script>
