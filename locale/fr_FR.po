@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: MAW\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2010-04-18 13:12+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team: marti RA <marti.ruizaltaba@gmail.com>\n"
@@ -64,6 +64,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Action"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Intégrale indéfinie (anti-dérivée)"
@@ -137,6 +140,9 @@ msgstr  "Courbes à la frontière"
 msgid   "Data file"
 msgstr  "Fichier de données"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "Integrale (définie) en géometrie"
 
@@ -205,6 +211,10 @@ msgid   "Equations and inequalities"
 msgstr  "Équations et inéquations"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Trouvons %s l'aire %s entre deux courbes et dessinons-en le "
         "graphique."
@@ -231,11 +241,11 @@ msgstr  "Fonction"
 msgid   "Function calculator"
 msgstr  "Calculette de fonctions"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Applications géometriques de l'intégrale"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Graphiques de fonctions élémentaires"
 
 msgid   "Hessian at stationary point"
 msgstr  "Hessien au point stationnaire"
@@ -322,6 +332,9 @@ msgstr  "La résolution d'équations non-linéaires se base sur le <a href="
 msgid   "MAW-bisection"
 msgstr  "Peut-être vous faut-il réviser la théorie de la <a href=\"http://en."
         "wikipedia.org/wiki/Bisection_method\">méthode de bisection</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li>Entrez une fonction et cliquez Envoyer. Vous recevrez sa "
@@ -550,6 +563,9 @@ msgstr  "Dérivée ordinaire (fonction  à une variable)"
 msgid   "Ordinary differential equations"
 msgstr  "Équations différentielles ordinaires"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  ""
 
@@ -594,9 +610,6 @@ msgstr  ""
 msgid   "Singular points of autonomous systems"
 msgstr  "Points singuliers d'un système autonome"
 
-msgid   "Site map, support"
-msgstr  "Carte et aide"
-
 msgid   "Submit"
 msgstr  "Envoyer"
 
@@ -617,6 +630,10 @@ msgstr  "Tâche à effectuer"
 
 msgid   "Taylor polynomial"
 msgstr  "Polynôme de Taylor"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Type de dérivée"
@@ -668,6 +685,9 @@ msgstr  "trouver le jacobien au point stationnaire"
 
 msgid   "hide invisible parts"
 msgstr  "cachons les parties invisibles"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -754,9 +774,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "trouve d'abord automatiquement les points stationnaires (risque de "
         "ne pas les trouver tous)"
 
-msgid   "use high quality output in PDF"
-msgstr  "employons PDF de haute qualité (fichier plus grand)"
-
 msgid   "variation of constants"
 msgstr  "variation des constantes"
 
@@ -769,3 +786,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "écrit par <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> et <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Graphiques de fonctions élémentaires"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Carte et aide"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "employons PDF de haute qualité (fichier plus grand)"

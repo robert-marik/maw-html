@@ -8,9 +8,8 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
-        "Last-Translator: Jelena Stohanzlova<annastohanzlova@seznam.cz>\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
         "Language: \n"
@@ -59,6 +58,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Aкция"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Неопределенный интеграл"
@@ -125,6 +127,9 @@ msgstr  "Кривые, ограничивающие множество"
 msgid   "Data file"
 msgstr  "Файл данных"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "Определенный интеграл в геометрии"
 
@@ -190,6 +195,10 @@ msgid   "Equations and inequalities"
 msgstr  "Уравнения и неравенства"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Найти %s площадь %s между двумя кривыми и нарисовать график."
 
@@ -215,11 +224,11 @@ msgstr  "Функция"
 msgid   "Function calculator"
 msgstr  "Исследование функции"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Геометрические приложения определенного интеграла"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Графики элементарных функций"
 
 msgid   "Hessian at stationary point"
 msgstr  "Гессиан функции в критической точке"
@@ -307,6 +316,9 @@ msgstr  "С помощью калькулятора можно решать ур
         "wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_"
         "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методу бисекции</"
         "a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "Калькулятор находит производнyю функции одной переменной или частнyю "
@@ -409,6 +421,9 @@ msgstr  "Обыкновенная производная (функции одн�
 msgid   "Ordinary differential equations"
 msgstr  "Обыкновенные дифференциальные уравнения"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "Параметрические ограничения"
 
@@ -452,9 +467,6 @@ msgstr  "Просмотр образцов (витрина)"
 msgid   "Singular points of autonomous systems"
 msgstr  "Сингулярные точки автономных систем"
 
-msgid   "Site map, support"
-msgstr  "Карта сайта, поддержка"
-
 msgid   "Submit"
 msgstr  "Отправить"
 
@@ -475,6 +487,10 @@ msgstr  "Задачa для вычисления"
 
 msgid   "Taylor polynomial"
 msgstr  "Полином Тейлора"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Тип производных"
@@ -527,6 +543,9 @@ msgstr  "найти матрицу Якоби в стационарной точ
 
 msgid   "hide invisible parts"
 msgstr  "скрыть невидимые части"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -611,9 +630,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "использовать компьютер, чтобы найти стационарные точки (тем не "
         "менее, все стационарные точки могут быть и не найдены)"
 
-msgid   "use high quality output in PDF"
-msgstr  "использование высококачественного вывода в формате PDF"
-
 msgid   "variation of constants"
 msgstr  "вариация постоянных"
 
@@ -626,3 +642,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "Aвторы <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> и <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Графики элементарных функций"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Карта сайта, поддержка"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "использование высококачественного вывода в формате PDF"

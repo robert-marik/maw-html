@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2012-02-12 21:16+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -56,6 +56,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "求解"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "不定积分（反导数）"
@@ -122,6 +125,9 @@ msgstr  "图像边界"
 msgid   "Data file"
 msgstr  "数据"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "定积分的几何应用"
 
@@ -187,6 +193,10 @@ msgid   "Equations and inequalities"
 msgstr  "等式与不等式"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "求两条曲线之间的 %s 面积 %s 并绘制图像。"
 
@@ -212,11 +222,11 @@ msgstr  "函数"
 msgid   "Function calculator"
 msgstr  "函数计算器"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "定积分的几何应用"
-
-msgid   "Graphs of elementary functions"
-msgstr  "初等函数图像"
 
 msgid   "Hessian at stationary point"
 msgstr  "一个驻点处的海赛矩阵"
@@ -303,6 +313,9 @@ msgid   "MAW-bisection"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul> <li>相关理论"
         "请参阅 维基百科 <a href=\"http://zh.wikipedia.org/wiki/%E4%BA%8C"
         "%E5%88%86%E6%B3%95\">二分法</a> 。</li> </ul>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<span style=\"font-weight: bold;\">备注：</span><br><ul><li>输入一个"
@@ -465,6 +478,9 @@ msgstr  "普通求导（一元函数）"
 msgid   "Ordinary differential equations"
 msgstr  "常微分方程"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "参数界限"
 
@@ -507,9 +523,6 @@ msgstr  "示例"
 msgid   "Singular points of autonomous systems"
 msgstr  "自治系统的奇点"
 
-msgid   "Site map, support"
-msgstr  "网站地图与支持"
-
 msgid   "Submit"
 msgstr  "提交"
 
@@ -530,6 +543,10 @@ msgstr  "计算任务"
 
 msgid   "Taylor polynomial"
 msgstr  "泰勒多项式"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "求导类型"
@@ -579,6 +596,9 @@ msgstr  "求驻点处的雅可比矩阵"
 
 msgid   "hide invisible parts"
 msgstr  "隐藏不可见的部分"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -664,9 +684,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
         "all stationary points, however)"
 msgstr  "先让计算机求驻点（可能不会找到所有的驻点）"
 
-msgid   "use high quality output in PDF"
-msgstr  "输出高质量 PDF 文件"
-
 msgid   "variation of constants"
 msgstr  "常数变易法"
 
@@ -679,3 +696,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "由 <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
         "Mař&iacute;k</a> 和 <a href=\"http://user.mendelu.cz/tihlarik\" "
         "target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a> 创建"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "初等函数图像"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "网站地图与支持"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "输出高质量 PDF 文件"

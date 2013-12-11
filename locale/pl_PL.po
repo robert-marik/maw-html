@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2010-02-26 12:20+0100\n"
         "Last-Translator: Przemysław Dąbek <pdd1@o2.pl>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -60,6 +60,9 @@ msgstr  "opcja <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
 
 msgid   "Action"
 msgstr  "Działanie:"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Całka nieoznaczona"
@@ -128,6 +131,9 @@ msgstr  "Powierzchnia ograniczona krzywymi:"
 msgid   "Data file"
 msgstr  "Zbiór punktów"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "Graficzna interpretacja całki oznaczonej"
 
@@ -195,6 +201,10 @@ msgid   "Equations and inequalities"
 msgstr  "Równania i nierówności"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Znajdź %s pole %s pomiędzy krzywymi i narysuj wykres."
 
@@ -220,11 +230,11 @@ msgstr  "Funkcja"
 msgid   "Function calculator"
 msgstr  "Kalkulator funkcji"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Całka oznaczona"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Wykres funkcji"
 
 msgid   "Hessian at stationary point"
 msgstr  "Hesjan w punkcie stacjonarnym"
@@ -310,6 +320,9 @@ msgstr  "Nieliniowy kalkulator równań bazujący na <a href=\"http://pl."
 msgid   "MAW-bisection"
 msgstr  "Teoria: <a href=\"http://pl.wikipedia.org/wiki/Metoda_bisekcji"
         "\">Metoda bisekcji na Wikipedii</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li> Wprowadź funkcję i Wyślij. Rozwiązanie otrzymasz w postaci "
@@ -504,6 +517,9 @@ msgstr  "Pochodna funkcji jednej zmiennej"
 msgid   "Ordinary differential equations"
 msgstr  "Równania różniczkowe zwyczajne"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  ""
 
@@ -547,9 +563,6 @@ msgstr  ""
 msgid   "Singular points of autonomous systems"
 msgstr  "Punkty osobliwe autonomicznego układu równań"
 
-msgid   "Site map, support"
-msgstr  "Mapa strony, wsparcie"
-
 msgid   "Submit"
 msgstr  "Wyślij"
 
@@ -570,6 +583,10 @@ msgstr  "Zadanie do obliczenia"
 
 msgid   "Taylor polynomial"
 msgstr  "Wielomian Taylora"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Typ pochodnej"
@@ -617,6 +634,9 @@ msgstr  "znajdź macierz Jacobiego w punktach stacjonarnych"
 
 msgid   "hide invisible parts"
 msgstr  "ukryj niewidoczne części"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -704,9 +724,6 @@ msgstr  "użyj komputera w pierwszej kolejności do znalezienia punktów "
         "stacjonarnych (ta funkcja może nie znaleźć wszystkich punktów "
         "stacjonarnych)"
 
-msgid   "use high quality output in PDF"
-msgstr  "użyj wysokiej jakości dla pliku PDF"
-
 msgid   "variation of constants"
 msgstr  "uzmiennianie stałych"
 
@@ -719,3 +736,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "autorzy: <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Wykres funkcji"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Mapa strony, wsparcie"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "użyj wysokiej jakości dla pliku PDF"

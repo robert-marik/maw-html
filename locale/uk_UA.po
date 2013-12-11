@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-30 18:51+0200\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2012-03-30 19:02+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: Ukrainian\n"
@@ -24,6 +24,7 @@ msgstr  "Якобіан в полярних координатах додаєт�
         "написати <b> phi </ b> для полярної змінної <img src=\"phi.png\" alt="
         "\"phi\">."
 
+#, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
         "welcomed %s."
 msgstr  "%s Оффлайн версія %s також доступна і %s перекладачі запрошуються %s."
@@ -55,6 +56,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Aкція"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Невизначений інтеграл"
@@ -121,6 +125,9 @@ msgstr  "Криві, що обмежують множину"
 msgid   "Data file"
 msgstr  "Файл даних"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "Визначений інтеграл в геометрії"
 
@@ -184,9 +191,15 @@ msgstr  "Рівняння, розв'язане відносно у '"
 msgid   "Equations and inequalities"
 msgstr  "Рівняння і нерівності"
 
+#, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Знайти %s площу %s між двома кривими й побудувати графік."
 
+#, php-format
 msgid   "Find %s volume %s of solid of revolution and draw graph"
 msgstr  "Знайти %s об'єм %s тіла обертання і побудувати графік"
 
@@ -208,11 +221,11 @@ msgstr  "Функція"
 msgid   "Function calculator"
 msgstr  "Дослідження функції"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Геометричні застосування визначеного інтеграла"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Графіки елементарних функцій"
 
 msgid   "Hessian at stationary point"
 msgstr  "Гессіан функції в критичній точці"
@@ -299,6 +312,9 @@ msgstr  "За допомогою калькулятора можна розв'я
         "\"http://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_"
         "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методом бісекції</"
         "a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "Калькулятор знаходить похідну функції однієї змінної або частиннy "
@@ -401,6 +417,9 @@ msgstr  "Звичайна похідна (функції однієї змінн
 msgid   "Ordinary differential equations"
 msgstr  "Звичайні диференціальні рівняння"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "параметричні обмеження"
 
@@ -444,9 +463,6 @@ msgstr  "Перегляд зразків"
 msgid   "Singular points of autonomous systems"
 msgstr  "Сингулярні точки автономних систем"
 
-msgid   "Site map, support"
-msgstr  "Карта сайта, підтримка"
-
 msgid   "Submit"
 msgstr  "Відправити"
 
@@ -467,6 +483,10 @@ msgstr  "Задачa для обчислення"
 
 msgid   "Taylor polynomial"
 msgstr  "Поліном Тейлора"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Тип похідних"
@@ -490,6 +510,7 @@ msgstr  "Ви можете використовувати кнопки Пере�
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Ви повинні включити JavaScript, щоб побачити додаткову інформацію."
 
+#, php-format
 msgid   "Your input is being processed. Wait few seconds to see the output. "
         "Click %shere%s to reopen the form which has been submited."
 msgstr  "Ваше завдання обробляється. Зачекайте кілька секунд, щоб побачити "
@@ -516,6 +537,9 @@ msgstr  "знайти матрицю Якобі в стаціонарній то
 
 msgid   "hide invisible parts"
 msgstr  "сховати невидимі частини"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -600,9 +624,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "використати комп'ютер, щоб знайти стаціонарні точки (тим не менше, "
         "всі стаціонарні точки можуть бути і не знайдені)"
 
-msgid   "use high quality output in PDF"
-msgstr  "використання високоякісного виводу в форматі PDF"
-
 msgid   "variation of constants"
 msgstr  "варіація постійних"
 
@@ -615,3 +636,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "Aвтори <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> та <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Графіки елементарних функцій"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Карта сайта, підтримка"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "використання високоякісного виводу в форматі PDF"

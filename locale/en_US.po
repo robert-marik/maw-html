@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -52,6 +52,9 @@ msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 msgstr  ""
 
 msgid   "Action"
+msgstr  ""
+
+msgid   "Additional computation"
 msgstr  ""
 
 msgid   "Antiderivative"
@@ -112,6 +115,9 @@ msgid   "Curves on boundary"
 msgstr  ""
 
 msgid   "Data file"
+msgstr  ""
+
+msgid   "Definite integral and mean value"
 msgstr  ""
 
 msgid   "Definite integral in geometry"
@@ -179,6 +185,10 @@ msgid   "Equations and inequalities"
 msgstr  ""
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  ""
 
@@ -204,10 +214,10 @@ msgstr  ""
 msgid   "Function calculator"
 msgstr  ""
 
-msgid   "Geometrical applications of definite integral"
+msgid   "Function grapher"
 msgstr  ""
 
-msgid   "Graphs of elementary functions"
+msgid   "Geometrical applications of definite integral"
 msgstr  ""
 
 msgid   "Hessian at stationary point"
@@ -295,6 +305,9 @@ msgstr  "The nonlinear equation solver based on <a href=\"http://en.wikipedia."
 msgid   "MAW-bisection"
 msgstr  "For theory see <a href=\"http://en.wikipedia.org/wiki/"
         "Bisection_method\">Bisection method on Wikipedia</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li>Enter a function and click Submit. You get the computation "
@@ -467,6 +480,9 @@ msgstr  ""
 msgid   "Ordinary differential equations"
 msgstr  ""
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  ""
 
@@ -509,9 +525,6 @@ msgstr  ""
 msgid   "Singular points of autonomous systems"
 msgstr  ""
 
-msgid   "Site map, support"
-msgstr  "Support"
-
 msgid   "Submit"
 msgstr  ""
 
@@ -531,6 +544,10 @@ msgid   "Task for computation"
 msgstr  ""
 
 msgid   "Taylor polynomial"
+msgstr  ""
+
+#, php-format
+msgid   "The calculator evaluates %s."
 msgstr  ""
 
 msgid   "The type of the derivative"
@@ -578,6 +595,9 @@ msgid   "find Jacobi matrix at stationary point"
 msgstr  ""
 
 msgid   "hide invisible parts"
+msgstr  ""
+
+msgid   "html only"
 msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
@@ -658,9 +678,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
         "all stationary points, however)"
 msgstr  ""
 
-msgid   "use high quality output in PDF"
-msgstr  ""
-
 msgid   "variation of constants"
 msgstr  ""
 
@@ -671,3 +688,6 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr  ""
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Support"

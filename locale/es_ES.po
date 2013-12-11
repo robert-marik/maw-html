@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2012-05-14 20:36+0200\n"
         "Last-Translator: Mayckol J Morales C <mayckol@gmail.com>\n"
         "Language-Team: Spanish\n"
@@ -59,6 +59,9 @@ msgstr  "a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Acción"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Antiderivada"
@@ -128,6 +131,9 @@ msgstr  "Curvas en la frontera"
 
 msgid   "Data file"
 msgstr  "Archivo de datos"
+
+msgid   "Definite integral and mean value"
+msgstr  ""
 
 msgid   "Definite integral in geometry"
 msgstr  "Integral definida en geometría"
@@ -199,6 +205,10 @@ msgid   "Equations and inequalities"
 msgstr  "Ecuaciones y desigualdades"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Encontrar el %s área %s entre dos curvas y dibujar el gráfico."
 
@@ -225,11 +235,11 @@ msgstr  "Función"
 msgid   "Function calculator"
 msgstr  "Calculadora de funciones"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Aplicaciones geométricas de la integral definida"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Gráficas de funciones elementales"
 
 msgid   "Hessian at stationary point"
 msgstr  "Punto estacionario Hessiano"
@@ -318,6 +328,9 @@ msgid   "MAW-bisection"
 msgstr  "Para la teoría, revisar <a href=\"http://http://es.wikipedia.org/"
         "wiki/M%C3%A9todo_de_bisecci%C3%B3n\">Método de la Bisección En la "
         "Wikipedia</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li>Ingrese una función y oprmia Enviar. Obtendrá el cálculo de "
@@ -438,6 +451,9 @@ msgstr  "Derivada ordinaria (función de una variable)"
 msgid   "Ordinary differential equations"
 msgstr  "Ecuaciones diferenciales ordinarias"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "Parámetros de frontera"
 
@@ -481,9 +497,6 @@ msgstr  "Muestre"
 msgid   "Singular points of autonomous systems"
 msgstr  "Puntos singulares de sistemas autónomos "
 
-msgid   "Site map, support"
-msgstr  "Mapa del sitio, Ayuda"
-
 msgid   "Submit"
 msgstr  "Enviar"
 
@@ -504,6 +517,10 @@ msgstr  "Tarea para el cálculo"
 
 msgid   "Taylor polynomial"
 msgstr  "Polinomios de Taylor"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "El tipo de la derivada"
@@ -555,6 +572,9 @@ msgstr  "Encontrar la matriz jacobiana en un punto estacionario"
 
 msgid   "hide invisible parts"
 msgstr  "esconder partes invisibles"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -644,9 +664,6 @@ msgstr  "Usar primero la computadora para encontrar los puntos estacionarios "
         "(sin embargo esto puede fallar para encontrar todos los puntos "
         "estacionarios)"
 
-msgid   "use high quality output in PDF"
-msgstr  "usar alta calidad en la salida en PDF"
-
 msgid   "variation of constants"
 msgstr  "variación de parámetros"
 
@@ -659,3 +676,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "Escrito por <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Gráficas de funciones elementales"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Mapa del sitio, Ayuda"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "usar alta calidad en la salida en PDF"

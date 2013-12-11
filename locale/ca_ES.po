@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2010-04-18 22:14+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -59,6 +59,9 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Acció"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Integral indefinida (anti-derivada)"
@@ -130,6 +133,9 @@ msgstr  "Corbes a la frontera"
 msgid   "Data file"
 msgstr  "Arxiu de dades"
 
+msgid   "Definite integral and mean value"
+msgstr  ""
+
 msgid   "Definite integral in geometry"
 msgstr  "Integral definida en geometria"
 
@@ -198,6 +204,10 @@ msgid   "Equations and inequalities"
 msgstr  "Equacions i inequacions"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Troba %s l'àrea %s entre dues corbes i dibuixa'n la gràfica."
 
@@ -223,11 +233,11 @@ msgstr  "Funció"
 msgid   "Function calculator"
 msgstr  "Calculadora de funcions"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Aplicacions geomètriques de la integral"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Gràfiques de funcions elementals"
 
 msgid   "Hessian at stationary point"
 msgstr  "Hessià al punt estacionari"
@@ -313,6 +323,9 @@ msgstr  "La resolució d'equacions no-lineals es basa en el <a href=\"http://"
 msgid   "MAW-bisection"
 msgstr  "Potser us cal  revisar la teoria del <a href=\"http://en.wikipedia."
         "org/wiki/Bisection_method\">mètode de bisecció</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li>Entreu una funció i cliqueu Envia-ho. Obtindreu la derivada "
@@ -531,6 +544,9 @@ msgstr  "Derivada ordinària (funció d'una sola variable)"
 msgid   "Ordinary differential equations"
 msgstr  "Equacions diferencials ordinàries"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  ""
 
@@ -575,9 +591,6 @@ msgstr  ""
 msgid   "Singular points of autonomous systems"
 msgstr  "Punts singulars de sistemes autònoms"
 
-msgid   "Site map, support"
-msgstr  "Mapa i ajuda"
-
 msgid   "Submit"
 msgstr  "Envia-ho"
 
@@ -598,6 +611,10 @@ msgstr  "Tasca a calcular"
 
 msgid   "Taylor polynomial"
 msgstr  "Polinomi de Taylor"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Mena de derivada"
@@ -648,6 +665,9 @@ msgstr  "trobar el jacobià al punt estacionari"
 
 msgid   "hide invisible parts"
 msgstr  "amaga les parts invisibles"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -733,9 +753,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "primer busca automàticament els punts estacionairs (potser no els "
         "trobarem tots)"
 
-msgid   "use high quality output in PDF"
-msgstr  "fés servir PDF d'alta qualitat (arxiu més gran)"
-
 msgid   "variation of constants"
 msgstr  "variació de constants"
 
@@ -748,3 +765,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "escrit per <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> i <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Gràfiques de funcions elementals"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Mapa i ajuda"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "fés servir PDF d'alta qualitat (arxiu més gran)"

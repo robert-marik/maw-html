@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2010-08-31 13:56+0200\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -57,6 +57,9 @@ msgstr  "přepínač <a href=\"http://maxima.sourceforge.net/docs/manual/en/"
 
 msgid   "Action"
 msgstr  "Akce"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Neurčitý integrál"
@@ -124,6 +127,9 @@ msgstr  "Křivky ohraničující množinu"
 
 msgid   "Data file"
 msgstr  "Soubor bodů"
+
+msgid   "Definite integral and mean value"
+msgstr  ""
 
 msgid   "Definite integral in geometry"
 msgstr  "Využití určitého integrálu v geometrii"
@@ -193,6 +199,10 @@ msgid   "Equations and inequalities"
 msgstr  "Rovnice a nerovnice"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Vypočítat %s obsah %s množiny mezi dvěma křivkami"
 
@@ -218,11 +228,11 @@ msgstr  "Funkce"
 msgid   "Function calculator"
 msgstr  "Průběh funkce"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Geometrické aplikace určitého integrálu"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Grafy elementárních funkcí"
 
 msgid   "Hessian at stationary point"
 msgstr  "Hessián ve stacionárním bodě"
@@ -307,6 +317,9 @@ msgstr  "Hledání pevného bodu funkce metodou postupných iterací, viz <a hre
 
 msgid   "MAW-bisection"
 msgstr  "Půlení intervalu"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené "
@@ -575,6 +588,9 @@ msgstr  "Obyčejná derivace (funkce jedné proměnné)"
 msgid   "Ordinary differential equations"
 msgstr  "Obyčejné diferenciální rovnice"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "Meze pro parametr"
 
@@ -619,9 +635,6 @@ msgstr  "Výkladní skříň"
 msgid   "Singular points of autonomous systems"
 msgstr  "Singulární body autonomních systémů v rovině"
 
-msgid   "Site map, support"
-msgstr  "Podpora"
-
 msgid   "Submit"
 msgstr  "Odeslat"
 
@@ -642,6 +655,10 @@ msgstr  "Co počítat"
 
 msgid   "Taylor polynomial"
 msgstr  "Taylorův polynom"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Typ derivace"
@@ -692,6 +709,9 @@ msgstr  "hledat Jakobiho matici ve stacionárním bodě"
 
 msgid   "hide invisible parts"
 msgstr  "skrýt neviditelné části"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -782,9 +802,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "chci nejdřív zkusit hledat stacionární body počítačem (nemusí se "
         "však podařit najít všechny stacionární body)"
 
-msgid   "use high quality output in PDF"
-msgstr  "použít výstup do PDF (pro kvalitní tisk)"
-
 msgid   "variation of constants"
 msgstr  "variace konstant"
 
@@ -797,3 +814,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Grafy elementárních funkcí"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Podpora"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "použít výstup do PDF (pro kvalitní tisk)"

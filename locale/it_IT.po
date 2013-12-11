@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2012-03-01 00:59+0100\n"
+        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: ... <...@...>\n"
         "Language-Team: Italian\n"
@@ -60,6 +60,9 @@ msgstr  " \t<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 
 msgid   "Action"
 msgstr  "Azione"
+
+msgid   "Additional computation"
+msgstr  ""
 
 msgid   "Antiderivative"
 msgstr  "Antiderivata"
@@ -130,6 +133,9 @@ msgstr  "Curve sulla frontiera"
 
 msgid   "Data file"
 msgstr  "File di dati"
+
+msgid   "Definite integral and mean value"
+msgstr  ""
 
 msgid   "Definite integral in geometry"
 msgstr  "Integrale definito in geometria"
@@ -203,6 +209,10 @@ msgid   "Equations and inequalities"
 msgstr  "Equazioni e disequazioni"
 
 #, php-format
+msgid   "Evaluate also %s."
+msgstr  ""
+
+#, php-format
 msgid   "Find %s area %s between two curves and draw graph."
 msgstr  "Trovare %s l'area %s della regione compresa tra due curve e "
         "disegnare il grafico"
@@ -231,11 +241,11 @@ msgstr  "Funzione"
 msgid   "Function calculator"
 msgstr  "Calcolatore di funzioni"
 
+msgid   "Function grapher"
+msgstr  ""
+
 msgid   "Geometrical applications of definite integral"
 msgstr  "Applicazioni geometriche dell'integrale definito"
-
-msgid   "Graphs of elementary functions"
-msgstr  "Grafici di funzioni elementari"
 
 msgid   "Hessian at stationary point"
 msgstr  "Hessiano in un punto stazionario"
@@ -322,6 +332,9 @@ msgstr  "Il risolutore di equazioni non lineari basato sul  <a href=\"http://"
 msgid   "MAW-bisection"
 msgstr  "Per la teoria vedere <a href=\"http://en.wikipedia.org/wiki/"
         "Bisection_method\">il metodo di bisezione su Wikipedia</a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "<ul><li>Scrivere una funzione e cliccare Invia. Si otterrà il "
@@ -538,6 +551,9 @@ msgstr  "Derivata ordinaria (funzione di una variabile)"
 msgid   "Ordinary differential equations"
 msgstr  "Equazioni differenziali ordinarie"
 
+msgid   "Output"
+msgstr  ""
+
 msgid   "Parameter bounds"
 msgstr  "Limiti dei parametri"
 
@@ -582,9 +598,6 @@ msgstr  "Bacheca"
 msgid   "Singular points of autonomous systems"
 msgstr  "Punti singolari di sistemi autonomi"
 
-msgid   "Site map, support"
-msgstr  "Mappa del sito, supporto"
-
 msgid   "Submit"
 msgstr  "Invia"
 
@@ -607,6 +620,10 @@ msgstr  "Task per calcolo"
 
 msgid   "Taylor polynomial"
 msgstr  "Polinomio di Taylor"
+
+#, php-format
+msgid   "The calculator evaluates %s."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Il tipo di derivata"
@@ -660,6 +677,9 @@ msgstr  "Determinare la matrice Jacobiana in un punto stazionario"
 
 msgid   "hide invisible parts"
 msgstr  "Nascondere le parti non visibili"
+
+msgid   "html only"
+msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -749,9 +769,6 @@ msgid   "use computer to find stationary points first (this may fail to find "
 msgstr  "usare il computer per trovare il primo punto stazionario (il "
         "procedimento può fallire nella ricerca di tutti i punti stazionari)"
 
-msgid   "use high quality output in PDF"
-msgstr  "usare un output di alta qualità nel PDF"
-
 msgid   "variation of constants"
 msgstr  "Variazione delle costanti"
 
@@ -764,3 +781,12 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "scritto da <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+
+#~ msgid        "Graphs of elementary functions"
+#~ msgstr       "Grafici di funzioni elementari"
+
+#~ msgid        "Site map, support"
+#~ msgstr       "Mappa del sito, supporto"
+
+#~ msgid        "use high quality output in PDF"
+#~ msgstr       "usare un output di alta qualità nel PDF"
