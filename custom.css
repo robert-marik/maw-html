@@ -158,7 +158,7 @@ div#maw_calculator {min-width: 740px;}
 #facebox .popup{position:relative; overflow:auto;}
 
 .logickyBlok{padding:10px; border:solid 1px #AAA; margin-top:10px; margin-bottom:10px;}
-
+.vedlesebe .logickyBlok {display:inline-block; vertical-align:top; margin-left:10px;min-width:40%;}
 
 table, th, td { border: 1px solid black; } 
 form table, form th, form td { border: none; } 

@@ -1,7 +1,5 @@
 <span class="nadpis">
-<?php echo __("Definite integral and mean value");?>
- NOT YET AVAILABLE / ZATIM NEFUNGUJE
-</span>
+<?php echo __("Definite integral and mean value");?></span>
 
 
 
@@ -13,7 +11,7 @@
 <span>
 <?php echo __('Function'); ?>:
 
-</span> &nbsp; &nbsp;<span style="font-style: italic;"> y=</span> <input size="40" name="funkce" value="sin(x)/x"> 
+</span> &nbsp; &nbsp;<span style="font-style: italic;"> y=</span> <input size="40" name="funkce" value="sin(x)^2"> 
 		 &nbsp;&nbsp;&nbsp;
 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
@@ -27,11 +25,11 @@
   <span style="font-style: italic;">
     
 <?php echo __('lower limit'); ?>
-    &nbsp; =</span> <input size="12" maxlength="12" name="a" value="1">
+    &nbsp; =</span> <input size="12" maxlength="12" name="a" value="0">
   &nbsp;
   &nbsp; <span style="font-style: italic;">
     <?php echo __('upper limit'); ?>
- &nbsp; =</span> <input maxlength="12" size="12" name="b" value="2">
+ &nbsp; =</span> <input maxlength="12" size="12" name="b" value="pi">
 </fieldset>
 <?php echo $submitbutton;?>
 
