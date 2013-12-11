@@ -7,7 +7,7 @@ msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
         "POT-Creation-Date: 2013-12-11 23:42+0100\n"
-        "PO-Revision-Date: 2010-08-31 13:56+0200\n"
+        "PO-Revision-Date: 2013-12-11 23:55+0100\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
         "Language: \n"
@@ -59,7 +59,7 @@ msgid   "Action"
 msgstr  "Akce"
 
 msgid   "Additional computation"
-msgstr  ""
+msgstr  "Doplňující výpočty"
 
 msgid   "Antiderivative"
 msgstr  "Neurčitý integrál"
@@ -129,7 +129,7 @@ msgid   "Data file"
 msgstr  "Soubor bodů"
 
 msgid   "Definite integral and mean value"
-msgstr  ""
+msgstr  "Určitý integral a střední hodnota"
 
 msgid   "Definite integral in geometry"
 msgstr  "Využití určitého integrálu v geometrii"
@@ -200,7 +200,7 @@ msgstr  "Rovnice a nerovnice"
 
 #, php-format
 msgid   "Evaluate also %s."
-msgstr  ""
+msgstr  "Chci vypočítat i %s."
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -229,7 +229,7 @@ msgid   "Function calculator"
 msgstr  "Průběh funkce"
 
 msgid   "Function grapher"
-msgstr  ""
+msgstr  "Kreslení grafů funkcí"
 
 msgid   "Geometrical applications of definite integral"
 msgstr  "Geometrické aplikace určitého integrálu"
@@ -319,7 +319,7 @@ msgid   "MAW-bisection"
 msgstr  "Půlení intervalu"
 
 msgid   "MAW-definite"
-msgstr  ""
+msgstr  " "
 
 msgid   "MAW-der"
 msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/derivace-cz.pdf\">Řešené "
@@ -589,7 +589,7 @@ msgid   "Ordinary differential equations"
 msgstr  "Obyčejné diferenciální rovnice"
 
 msgid   "Output"
-msgstr  ""
+msgstr  "Výstup"
 
 msgid   "Parameter bounds"
 msgstr  "Meze pro parametr"
@@ -658,7 +658,7 @@ msgstr  "Taylorův polynom"
 
 #, php-format
 msgid   "The calculator evaluates %s."
-msgstr  ""
+msgstr  "Kalkulátor vypočte %s."
 
 msgid   "The type of the derivative"
 msgstr  "Typ derivace"
@@ -711,7 +711,7 @@ msgid   "hide invisible parts"
 msgstr  "skrýt neviditelné části"
 
 msgid   "html only"
-msgstr  ""
+msgstr  "pouze html"
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
