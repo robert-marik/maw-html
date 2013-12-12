@@ -622,24 +622,7 @@ $("#exampleform").submit(function(e)
                    $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
                    $(".outputdata").css("border-color","#5FCC06");
                   }                
-                $("#mawoutput").fadeIn(1000);
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-                /* 8.11.2013 Robert Marik: nastaveni stejne vysky pro class "blok" pokud jsou ve stejne vysce*/
-                /* bloky=$(".logickyBlok");
-                for (var i=0;i<bloky.length-1;i++)
-                   {
-                        ted = bloky.eq(i).position().top;
-                        dalsi = bloky.eq(i+1).position().top;
-                        
-                        if (Math.abs(ted-dalsi)<5)
-                                {        
-                                     max1=bloky.eq(i).height();
-                                     max2=bloky.eq(i+1).height();
-                                     max=Math.max(max1,max2,800);
-                                     bloky.eq(i).height(max);
-                                     bloky.eq(i+1).height(max);
-                                }
-                   }*/
+                MathJax.Hub.Queue(["Typeset",MathJax.Hub],function () {velikost();}, $("#mawoutput").fadeIn(1000));
                 var position = $("#mawoutput").position();
                 //scroll(0,position.top);
                 $("body").animate({scrollTop : position.top, duration: 1000});
@@ -669,6 +652,43 @@ $("#exampleform").submit(function(e)
    
    e.preventDefault(); //STOP default action
 });
+
+MathJax.Hub.Queue(function () {
+          velikost();
+});
+          
+
+function velikost ()
+{
+                /* 8.11.2013 Robert Marik: nastaveni stejne vysky pro class "blok" pokud jsou ve stejne vysce*/
+ bloky=$(".inlinediv .logickyBlok");
+    for (var i=0;i<bloky.length;i++)
+    {
+      //tento=bloky.eq(i).width();
+      //rodic=bloky.eq(i).parent().parent().width();
+      //if ((tento/rodic)<0.45)
+      //{bloky.eq(i).width(0.45*rodic);}
+      //else       
+      //{bloky.eq(i).width(0.95*rodic);}
+      //alert("Under construction: "+rodic);
+      bloky.eq(i).parent().css( { marginLeft : "auto", marginRight : "auto" } )
+    }
+    for (var i=0;i<bloky.length-1;i++)
+    {
+       ted = bloky.eq(i).position().top;
+       dalsi = bloky.eq(i+1).position().top;
+                      
+       if (Math.abs(ted-dalsi)<5)
+            {        
+               max1=bloky.eq(i).height();
+               max2=bloky.eq(i+1).height();
+               max=Math.max(max1,max2);
+               bloky.eq(i).height(max);
+               bloky.eq(i+1).height(max);
+            }
+   }
+   //alert("Under construction");
+}
 </script>
 
 <?php

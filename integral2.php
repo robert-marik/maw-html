@@ -73,13 +73,16 @@ value="<?php echo $function;?>">
 <legend class="podnadpis">
 <?php echo __('Additional computation'); ?> (<?php echo __("html only"); ?>)
 </legend>
+<style>
+.twocolumn img {margin-top:5px; margin-bottom:5px;}
+</style>
 <div class=twocolumn>
-<?php printf (__("The calculator evaluates %s."),"\$\\iint_{M}f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
-<input name="f1" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} \\mathrm{d}x\\mathrm{d}y\$"); ?><br>
-<input name="fx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} xf(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
-<input name="fy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} yf(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
-<input name="fxx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} x^2f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?><br>
-<input name="fyy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"\$\\iint_{M} y^2f(x,y)\\mathrm{d}x\\mathrm{d}y\$"); ?>
+<?php printf (__("The calculator evaluates %s."),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M}f(x,y)\\mathrm{d}x\\mathrm{d}y\" align=center>"); ?><br>
+<input name="f1" type="checkbox" > <?php printf (__('Evaluate also %s.'),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M} \\mathrm{d}x\\mathrm{d}y\" align=center>"); ?><br>
+<input name="fx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M} xf(x,y)\\mathrm{d}x\\mathrm{d}y\" align=center>"); ?><br>
+<input name="fy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M} yf(x,y)\\mathrm{d}x\\mathrm{d}y\" align=center>"); ?><br>
+<input name="fxx" type="checkbox" > <?php printf (__('Evaluate also %s.'),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M} x^2f(x,y)\\mathrm{d}x\\mathrm{d}y\" align=center>"); ?><br>
+<input name="fyy" type="checkbox" > <?php printf (__('Evaluate also %s.'),"<img src=\"/mathtex/mathtex.php?\\footnotesize\\iint_{M} y^2f(x,y)\\mathrm{d}x\\mathrm{d}y\" align=center>"); ?>
 </div>
 </fieldset>
 <input name="logarc" type="checkbox"  checked="checked"> 
