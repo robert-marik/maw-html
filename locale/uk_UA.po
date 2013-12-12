@@ -84,7 +84,7 @@ msgstr  "Границі для рисунка (скінченні десятко
 msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
         "of both curves by choosing \"intercepts\" in parameters for "
         "computation)</small>"
-msgstr  "Обмеження по осі <i> x </ i>: <small> (можете знайти точку перетину "
+msgstr  "Обмеження по осі <i> x </i>: <small> (можете знайти точку перетину "
         "заданих кривих за допомогою вибору \"intercepts\" в умовах "
         "обчислення) </ small>"
 
@@ -428,11 +428,11 @@ msgstr  "Параметри обчислень"
 
 msgid   "Partial derivative with respect to <i>x</i> (function in two "
         "variables)"
-msgstr  "Частинна похідна по <i> х </ i> (функція двох змінних)"
+msgstr  "Частинна похідна по <i> х </i> (функція двох змінних)"
 
 msgid   "Partial derivative with respect to <i>y</i> (function in two "
         "variables)"
-msgstr  "Частинна похідна по <i> y </ i> (функція двох змінних)"
+msgstr  "Частинна похідна по <i> y </i> (функція двох змінних)"
 
 msgid   "Precalculus"
 msgstr  "Функції"
