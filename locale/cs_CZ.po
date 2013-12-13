@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
+        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
         "PO-Revision-Date: 2013-12-11 23:55+0100\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -467,7 +467,7 @@ msgstr  "Zvolte druh integrálu který chcete vypočítat a zadejte do formulá�
         "integrovat. "
 
 msgid   "MAW-main"
-msgstr  "<span class=\"nadpis\">O této stránce</span>Stránka obsahuje "
+msgstr  "<span class=\"nadpis\">O tomto webu</span><br>Stránka obsahuje "
         "rozhraní pro matematické výpočty na webu. Výstupem těchto aplikací "
         "&nbsp;jsou řešené příklady některých typů."
 

@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
+        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -316,6 +316,9 @@ msgstr  "С помощью калькулятора можно решать ур
         "wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_"
         "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методу бисекции</"
         "a>"
+
+msgid   "MAW-definite"
+msgstr  ""
 
 msgid   "MAW-der"
 msgstr  "Калькулятор находит производнyю функции одной переменной или частнyю "

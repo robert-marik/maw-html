@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
+        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -604,9 +604,3 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
 msgstr  ""
-
-#~ msgid        "Graphs of elementary functions"
-#~ msgstr       "Graphen der elementaren Funktionen"
-
-#~ msgid        "Site map, support"
-#~ msgstr       "Unterstützung"

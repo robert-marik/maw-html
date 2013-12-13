@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-11 23:42+0100\n"
+        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
         "PO-Revision-Date: 2012-03-30 19:02+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: Ukrainian\n"
@@ -636,12 +636,3 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "Aвтори <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> та <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
-#~ msgid        "Graphs of elementary functions"
-#~ msgstr       "Графіки елементарних функцій"
-
-#~ msgid        "Site map, support"
-#~ msgstr       "Карта сайта, підтримка"
-
-#~ msgid        "use high quality output in PDF"
-#~ msgstr       "використання високоякісного виводу в форматі PDF"
