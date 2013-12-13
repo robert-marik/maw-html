@@ -596,6 +596,13 @@ if (navigator.userAgent.match(/msie/i) )
 
 
 <script>
+
+$(document).ready(function() {
+  $("#myButton").focus();
+  });
+  
+  
+
 $("#exampleform").submit(function(e)
 {
     $("#mawoutput").slideUp();
@@ -622,7 +629,8 @@ $("#exampleform").submit(function(e)
                    $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
                    $(".outputdata").css("border-color","#5FCC06");
                   }                
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub],function () {velikost();}, $("#mawoutput").fadeIn(1000));
+                MathJax.Hub.Queue(["Typeset",MathJax.Hub]); //,function () {velikost();},function () {velikost();}); 
+                $("#mawoutput").fadeIn(1000);
                 var position = $("#mawoutput").position();
                 //scroll(0,position.top);
                 $("body").animate({scrollTop : position.top, duration: 1000});

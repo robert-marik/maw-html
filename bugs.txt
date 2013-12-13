@@ -1,3 +1,16 @@
+Bugs to be fixed first:
+
+* missing links to integral assistant from double integrals and line
+ integrals
+
+* bad link to DOE solver from bernoulli ODE
+
+----------------------------------------
+
+
+
+
+
 Description: The calculator for function investigation cannot find
 stationary points for the function like y=x+acot(x). This is related to
 the fact that maxima 5.13 returns error for acot(0.0)
