@@ -467,17 +467,9 @@ msgstr  "Zvolte druh integrálu který chcete vypočítat a zadejte do formulá�
         "integrovat. "
 
 msgid   "MAW-main"
-msgstr  "<span class=\"nadpis\">O této stránce</span> <ul> <li>Stránka "
-        "obsahuje rozhraní pro matematické výpočty na webu. Výstupem těchto "
-        "aplikací &nbsp;jsou řešené příklady některých typů.</li> <li>Vyplňte "
-        "vždy políčka ve formuláři a stiskněte \"Odeslat\". PDF soubor s "
-        "výstupem obsahujícím řešení vašeho problému se vám buď otevře v "
-        "prohlížeči, nebo nabídne ke stažení (podle nastavení vašeho počítače "
-        "a prohlížeče). Výstup je přizpůsoben řešení relativně jednoduchých "
-        "příkladů, protože je zamýšlen jako <span class=\"red\">didaktická "
-        "pomůcka</span> a nikoliv jako <span class=\"red\">prostředí pro "
-        "náročné výpočty</span>. Pro provádění složitějších výpočtů využijte "
-        "software nainstalovaný na svém vlastním počítači. </li> </ul>"
+msgstr  "<span class=\"nadpis\">O této stránce</span>Stránka obsahuje "
+        "rozhraní pro matematické výpočty na webu. Výstupem těchto aplikací "
+        "&nbsp;jsou řešené příklady některých typů."
 
 msgid   "MAW-map"
 msgstr  "Diskusní fórum</span><ul><li><a href=\"http://forum.matweb.cz/"
@@ -814,12 +806,3 @@ msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
 msgstr  "autoři <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
         "\">Robert Mař&iacute;k</a> a <a href=\"http://user.mendelu.cz/"
         "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-
-#~ msgid        "Graphs of elementary functions"
-#~ msgstr       "Grafy elementárních funkcí"
-
-#~ msgid        "Site map, support"
-#~ msgstr       "Podpora"
-
-#~ msgid        "use high quality output in PDF"
-#~ msgstr       "použít výstup do PDF (pro kvalitní tisk)"
