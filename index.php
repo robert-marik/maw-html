@@ -174,6 +174,9 @@ if (file_exists('./custom.css'))
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+
 
 <link href="js/facebox.css" media="screen" rel="stylesheet" type="text/css" />
 <!---  <link href="css/example.css" media="screen" rel="stylesheet" type="text/css" /> -->
@@ -725,7 +728,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom") )) : ?>
+<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom","mnc","lagrange","trap") )) : ?>
 <script>
 $(".pdforhtml").css("display","inline-block");
 </script>

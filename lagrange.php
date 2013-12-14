@@ -1,7 +1,6 @@
 
 <span class="nadpis">
    <?php echo __("Lagrange polynomial");?>
-
 </span>
 <?php maw_before_form()?><form id="exampleform"
 <?php echo $onsubmit;?>

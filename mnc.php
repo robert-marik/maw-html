@@ -1,6 +1,5 @@
-
 <span class="nadpis">
-<?php echo __("Least squares method");?>
+<?php echo (__("Least squares method"));?>
 
 </span>
 <?php maw_before_form()?><form id="exampleform"
