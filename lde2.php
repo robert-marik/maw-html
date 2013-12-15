@@ -27,8 +27,8 @@ name="exampleform" id="exampleform">
 <?php echo __('Equation');?>:
 &nbsp;
   <span style="font-style: italic;">
-&nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" value="<?php echo $p; ?>">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" value="<?php echo $q; ?>">
-  <span style="font-style: italic;">y</span> = <input size="30" name="f" value="<?php echo $f; ?>">
+&nbsp;y'' +&nbsp;</span><input maxlength="3" size="3" name="p" id="in-p" title="" value="<?php echo $p; ?>">&nbsp;<span style="font-style: italic;">y' +</span> <input maxlength="3" size="3" name="q" id="in-q" title="" value="<?php echo $q; ?>">
+  <span style="font-style: italic;">y</span> = <input size="30" name="f" id="in-f" title="" value="<?php echo $f; ?>">
 &nbsp; &nbsp; &nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('f')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>"  onclick="previewb('f')" type="button" class="tlacitko">
@@ -51,9 +51,9 @@ name="exampleform" id="exampleform">
 <br><hr>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="IVP" type="checkbox" <?php if ($ivp!="") {echo 'checked="checked"';} ?> value="on">
 <?php echo __('solve also initial value problem');?>:
- <span style="display:inline-block"><i>x</i>=<input maxlength="10" size="10" name="x0" value="<?php echo $x0 ?>"></span>
- <span style="display:inline-block"><i>y</i>=<input maxlength="10" size="10" name="y0" value="<?php echo $y0 ?>"></span>
- <span style="display:inline-block"><i>y'</i>=<input maxlength="10" size="10" name="y10" value="<?php echo $y10 ?>"></span>
+ <span style="display:inline-block"><i>x</i>=<input maxlength="10" size="10" name="x0" id="in-x0" title="" value="<?php echo $x0 ?>"></span>
+ <span style="display:inline-block"><i>y</i>=<input maxlength="10" size="10" name="y0" id="in-y0" title="" value="<?php echo $y0 ?>"></span>
+ <span style="display:inline-block"><i>y'</i>=<input maxlength="10" size="10" name="y10" id="in-y10" title="" value="<?php echo $y10 ?>"></span>
 </fieldset>
 <?php echo $submitbutton;?>
 
@@ -64,3 +64,14 @@ name="exampleform" id="exampleform">
 echo __("MAW-lde2");
 
 ?>
+
+<script>
+window.onload = function() {
+$("#in-p").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y^{\\prime\\prime}+{\\color{red}p}\\,y^{\\prime}+q\\,y=f(x)">' });
+$("#in-q").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y^{\\prime\\prime}+p\\,y^{\\prime}+{\\color{red}q}\\,y=f(x)">' });
+$("#in-f").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y^{\\prime\\prime}+p\\,y^{\\prime}+q\\,y={\\color{red}f(x)}">' });
+$("#in-x0").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y({\\color{red}x_0})=y_0, \\quad y^{\\prime}({\\color{red}x_0})=y_1">' });
+$("#in-y0").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y(x_0)={\\color{red}y_0}, \\quad y^{\\prime}(x_0)=y_1">' });
+$("#in-y10").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?y(x_0)=y_0, \\quad y^{\\prime}(x_0)={\\color{red}y_1}">' });
+}
+</script>

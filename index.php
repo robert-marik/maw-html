@@ -136,6 +136,12 @@ function maw_after_form() {
 
 function history($adresar,$server)
 {
+  global $form;
+  if (file_exists("./$form-examples.php")) {
+    echo "<div id=examples><span id=examples-header>".__("Examples").": </span>";
+    include ("$form-examples.php");
+    echo "</div>";
+  }
   echo ("\n<div id=\"history\"><a rel=\"facebox\" href=\"$server/common/tail.php?dir=$adresar\">");
   echo __("History");
   echo ("</a></div>\n<div id=\"comments\">");
@@ -176,6 +182,8 @@ if (file_exists('./custom.css'))
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.3.custom.min.css" type="text/css" media="all" />
+
 
 
 <link href="js/facebox.css" media="screen" rel="stylesheet" type="text/css" />
@@ -591,7 +599,7 @@ div1.replaceWith(tdiv2);
 div2.replaceWith(tdiv1);
 
 if (navigator.userAgent.match(/msie/i) )
-{alert("Microsoft Internet Explorer gives poor resutls when using this site. This will be fixed in next months. Now you can try Firefox or Chrome instead. Thanks. \n\n\n Zdá se, že používáte Microsoft Inetrnet Explorer. Tento prohlížeč nepracuje správně s webem MAW. Než bude problém opraven, zkuste prosím Firefox nebo Chrome.");}
+{alert("Microsoft Internet Explorer gives poor resutls when using this site. This will be fixed in next months. Now you can try Firefox or Chrome instead. Thanks. \n\n\n Zdá se, že používáte Microsoft Internet Explorer. Tento prohlížeč nepracuje správně s webem MAW. Než bude problém opraven, zkuste prosím Firefox nebo Chrome.");}
 
 //alert ($.browser);
 
