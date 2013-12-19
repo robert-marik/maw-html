@@ -56,8 +56,10 @@ value="<?php echo $function;?>">
    </tr>
    </tbody>
    </table>
-<?php hint_preview(__(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."));?>
-<br><span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
+<?php 
+//hint_preview(__(" The Jacobian in polar coordinates is added automatically. You can write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi\">."));
+?>
+<span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
 </div>
 
 

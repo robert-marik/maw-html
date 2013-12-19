@@ -697,9 +697,9 @@ function velikost ()
        ted = bloky.eq(i).position().top;
        dalsi = bloky.eq(i+1).position().top;
                       
-       if (Math.abs(ted-dalsi)<5)
+       if ( (Math.abs(ted-dalsi)<5) && ($('img').closest(bloky.eq(i)).length ==0) && ($('img').closest(bloky.eq(i+1)).length ==0) )
             {        
-               max1=bloky.eq(i).height();
+               max1=bloky.eq(i).height();          
                max2=bloky.eq(i+1).height();
                max=Math.max(max1,max2);
                bloky.eq(i).height(max);
