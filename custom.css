@@ -181,3 +181,7 @@ th, td {padding:10px;}
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;
 } 
+
+.bold{font-weight:bold;}
+
+

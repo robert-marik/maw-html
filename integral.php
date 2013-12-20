@@ -16,13 +16,14 @@ italic;"><img src="int.gif" align="middle" alt="integral_sign"></span> <input si
 name="funkce"
 value="<?php
 $function=$_REQUEST["function"];
-if ($function==""){echo 'x^3*exp(x*2)';}
+$variable=$_REQUEST["variable"];
+if ($function==""){echo 'x^3*exp(x*2)'; $variable="x";}
 else {echo rawurldecode($function);}
 ?>">
 <span style="vertical-align:middle;display:inline-block; padding:3px;" class='vnitrni'>
-<input type="radio" name="prom" value="x" checked="checked">
+<input type="radio" name="prom" value="x" <?php if ($variable=="x") {echo "checked=\"checked\"";} ?> >
 dx<br>
-<input type="radio" name="prom" value="t">
+<input type="radio" name="prom" value="t" <?php if ($variable=="t") {echo "checked=\"checked\"";} ?> >
 dt
 </span>&nbsp;
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
