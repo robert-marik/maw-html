@@ -1,14 +1,5 @@
 <?php
 
-function examples($ids)
-{
-$idsArray=split(",",$ids);
-foreach ($idsArray as $value)
-{
-  echo "<a href=\"#\" id=\"e-$value\" class=\"example\" title=\"\">$value</a>, ";
-}
-}
-
 examples("1,2,3,4,5");
 
 function bind_examples ($id,$tex,$math,$checkbox)

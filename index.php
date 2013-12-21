@@ -160,6 +160,15 @@ function formmethod()
 echo 'method="post"';
 }
 
+function examples($ids)
+{
+$idsArray=split(",",$ids);
+foreach ($idsArray as $value)
+{
+  echo "<a href=\"#\" id=\"e-$value\" class=\"example\" title=\"\">".__("Example")." $value</a>, ";
+}
+}
+
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">

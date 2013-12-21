@@ -27,7 +27,7 @@ if (str_replace(" ","",$function)=="")
 </label>
 <?php polejazyka($lang); ?>
 &nbsp;&nbsp;<span style="font-style:
-italic;">y=</span> <input size="40" name="funkce"
+italic;">y=</span> <input size="40" name="funkce" id="in-funkce" 
 value="<?php echo ($function); ?>">
 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
@@ -40,12 +40,12 @@ class="tlacitko">
 <legend class="podnadpis">
 	<?php echo __('Axes'); ?>
 </legend>
-<span style="font-style: italic;">xmin</span> = <input size="6" maxlength="6" name="xmin" value="<?php echo $xmin; ?>"> &nbsp;
- <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" name="xmax" value="<?php echo $xmax; ?>"> 
+<span style="font-style: italic;">xmin</span> = <input size="6" maxlength="6" id="in-xmin" name="xmin" value="<?php echo $xmin; ?>"> &nbsp;
+ <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" id="in-xmax" name="xmax" value="<?php echo $xmax; ?>"> 
 
 <br>
-<span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
- <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
+<span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" id="in-ymin" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
+ <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" id="in-ymax" name="ymax" value="<?php echo $ymax; ?>">
 
 <span id="preview_function"><input value="<?php echo(__("Preview")); ?>" onclick="preview_function()" type="button" class="tlacitko"></span>
 </fieldset>
