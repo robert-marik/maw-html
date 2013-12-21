@@ -24,7 +24,7 @@ if ($function=="")
 </label>
   
 <br>
-<?php echo __("Function")?>: <input size="60" name="funkce" 
+<?php echo __("Function")?>: <input size="60" name="funkce" id="in-funkce"
 value="<?php echo $function;?>">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button" class="tlacitko">
@@ -32,20 +32,20 @@ value="<?php echo $function;?>">
 <?php hint_preview();?>
  
 <?php echo __("Interval from ")?> 
-<input size="6" name="a" value="<?php echo $a;?>">
+<input size="6" name="a" value="<?php echo $a;?>" id="in-a">
   &nbsp; <?php echo __("to")?>   &nbsp;
-<input size="6" name="b" value="<?php echo $b;?>">
+<input size="6" name="b" value="<?php echo $b;?>" id="in-b">
   &nbsp;<?php echo __("(integers or decimal numbers)")?> 
 <br>
 
 
     <?php echo __("Number of steps ");?> 
-<input size="4" name="n" value="<?php echo $n;?>">
+<input size="4" name="n" value="<?php echo $n;?>" id="in-n">
   <?php echo __("(integer between 2  and 40)");?>
   <br><br>
 
   <?php echo __("Initial approximation");?> 
-<input size="10" name="c" value="<?php echo $c;?>">
+<input size="10" name="c" value="<?php echo $c;?>" id="in-c">
   <?php echo __("(integer or decimal number)");?> 
 <br>
 <?php echo $submitbutton;?>
