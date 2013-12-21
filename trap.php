@@ -13,7 +13,7 @@
 <span>
 <?php echo __('Function'); ?>:
 
-</span> &nbsp; &nbsp;<span style="font-style: italic;"> y=</span> <input size="40" name="funkce" value="x^3+2"> 
+</span> &nbsp; &nbsp;<span style="font-style: italic;"> y=</span> <input size="40" name="funkce" id="in-funkce" value="x^3+2"> 
 		 &nbsp;&nbsp;&nbsp;
 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
@@ -27,14 +27,14 @@
   <span style="font-style: italic;">
     
 <?php echo __('lower limit'); ?>
-    &nbsp; =</span> <input size="12" maxlength="12" name="a" value="0">
+    &nbsp; =</span> <input size="12" maxlength="12" name="a" id="in-a" value="0">
   &nbsp;
   &nbsp; <span style="font-style: italic;">
     <?php echo __('upper limit'); ?>
- &nbsp; =</span> <input maxlength="12" size="12" name="b" value="2">
+ &nbsp; =</span> <input maxlength="12" size="12" name="b" id="in-b" value="2">
 <br><br>
     <?php echo __('intervals in partition');?>: 
-<input maxlength="6" size="6" name="n" value="4"> 
+<input maxlength="6" size="6" name="n" id="in-n" value="4"> 
 </fieldset>
 <?php echo $submitbutton;?>
 
