@@ -98,7 +98,7 @@ $group2=array("graf","df","df3d","lagrange","mnc");
 $group3=array("derivace","prubeh","taylor","minmax3d");
 $group4=array("integral","definite","integral2","geom","trap","lineintegral");
 $group5=array("ode","lde2","autsyst");
-$group6=array("banach","regula_falsi","bisection","ineq2d");
+$group6=array("banach","newton","regula_falsi","bisection","ineq2d");
 $group7=array("map");
 
 $submenu=1;
@@ -506,6 +506,7 @@ function printsubmenu($i)
   elseif ($i=="6")
   {
     echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
+    echo maw_submenu('newton',$lang,'newton',__('Newton-Raphson method'));
     echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
     echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
     echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
@@ -745,7 +746,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom","mnc","lagrange","trap") )) : ?>
+<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","newton","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom","mnc","lagrange","trap") )) : ?>
 <script>
 $(".pdforhtml").css("display","inline-block");
 </script>
