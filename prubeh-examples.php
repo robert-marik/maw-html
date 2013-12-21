@@ -28,7 +28,7 @@ window.onload = function() {
 bind_examples(1,'\\\\frac{x^3}{x-1}',"x^3/(x-1)",-5,5,-10,10);
 bind_examples(2,'\\\\frac{x}{3x^2+1}',"x/(3*x^2+1)",-5,5,-1,1);
 bind_examples(3,'\\\\frac{2x^3+1}{(x-1)^2}',"(2*x^3+1)/(x-1)^2",-5,10,-5,25);
-bind_examples(4,'x^2 e^{-x}',"x*2*exp(-x)",-1,8,0,1);
+bind_examples(4,'x^2 e^{-x}',"x*2*exp(-x)",-1,8,-1,1);
 bind_examples(5,'x \\\\ln^2(x)',"x*ln(x)^2",0,3,0,2);
 ?>
 }
