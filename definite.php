@@ -39,10 +39,3 @@
         echo __("MAW-definite");
 ?>
 
-<script>
-window.onload = function() {
-$("#in-funkce").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?\\int_{a}^{b} {\\color{red}f(x)}\\,\\mathrm{d}x">' });
-$("#in-a").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?\\int_{{\\color{red}a}}^{b} f(x)\\,\\mathrm{d}x">' });
-$("#in-b").tooltip({ content: '<img src="http://um.mendelu.cz/mathtex/mathtex.php?\\int_{a}^{{\\color{red}b}} f(x)\\,\\mathrm{d}x">' });
-}
-</script>
