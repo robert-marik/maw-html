@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
+        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,6 @@ msgstr  "Project-Id-Version: messages\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "Якобиан в полярных координатах добавляется автоматически. Вы можете "
-        "написать <b>phi</b> для полярной переменной <img src=\"phi.png\" alt="
-        "\"phi\">."
 
 #, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
@@ -167,8 +160,8 @@ msgstr  "Двойной интеграл"
 msgid   "Editor"
 msgstr  "Редактор"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Введите функцию и выберите переменные и порядок интегрирования"
+msgid   "Enter function, initial approximation and number of steps."
+msgstr  ""
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Введите функцию, интервал, содержащий неподвижную точку, и число "
@@ -197,6 +190,12 @@ msgstr  "Уравнения и неравенства"
 #, php-format
 msgid   "Evaluate also %s."
 msgstr  "Оцените также %s."
+
+msgid   "Example"
+msgstr  ""
+
+msgid   "Examples"
+msgstr  ""
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -256,6 +255,9 @@ msgstr  "Криволинейный интеграл первого рода"
 
 msgid   "Integral of a vector field"
 msgstr  "Криволинейный интеграл второго рода"
+
+msgid   "Interval for picture from "
+msgstr  ""
 
 msgid   "Interval from"
 msgstr  "Интервал от"
@@ -396,10 +398,6 @@ msgid   "MAW-regula_falsi"
 msgstr  "<b>Under construction.</b> Посмотрите на английском языке для "
         "некоторых соответствующих инструкций."
 
-msgid   "MAW-trap"
-msgstr  "<b>Under construction.</b> Посмотрите на английском языке для "
-        "некоторых соответствующих инструкций."
-
 msgid   "Mathematical Assistant on Web"
 msgstr  "Математические сервисы онлайн (MAW)"
 
@@ -411,6 +409,9 @@ msgstr  "Метод итераций"
 
 msgid   "More languages"
 msgstr  "Другие языки"
+
+msgid   "Newton-Raphson method"
+msgstr  ""
 
 msgid   "Number of steps "
 msgstr  "Число шагов"
@@ -452,8 +453,14 @@ msgid   "Read the comments below the form to find out, which inequalities can "
 msgstr  "Прочитайте комментарии ниже, чтобы узнать, какие неравенства могyт "
         "решаться."
 
+msgid   "Region for integration"
+msgstr  ""
+
 msgid   "Regula falsi"
 msgstr  "Метод фальшпозиции"
+
+msgid   "Reset"
+msgstr  ""
 
 msgid   "Second order LDE"
 msgstr  "ЛДУ второго порядка"

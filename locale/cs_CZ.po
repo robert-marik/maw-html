@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
+        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
         "PO-Revision-Date: 2013-12-11 23:55+0100\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -17,12 +17,6 @@ msgstr  "Project-Id-Version: cs_CZ\n"
         "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : "
         "2;\n"
         "X-Generator: KBabel 1.9.1\n"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  " Jakobián v polárních souřadnicích je přidán automaticky. Souřadnici "
-        "<img src=\"phi.png\" alt=\"phi\"> zapisujte jako <b>phi</b>."
 
 #, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
@@ -170,8 +164,8 @@ msgstr  "Dvojnásobný integrál"
 msgid   "Editor"
 msgstr  "Editor matematiky"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Zadejte funkci dvou proměnných a vyberte pořadí integrace"
+msgid   "Enter function, initial approximation and number of steps."
+msgstr  ""
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Zadejte funkci, interval obsahující pevný bod a počet kroků"
@@ -201,6 +195,12 @@ msgstr  "Rovnice a nerovnice"
 #, php-format
 msgid   "Evaluate also %s."
 msgstr  "Chci vypočítat i %s."
+
+msgid   "Example"
+msgstr  ""
+
+msgid   "Examples"
+msgstr  ""
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -260,6 +260,9 @@ msgstr  "Křivkový integrál prvního druhu"
 
 msgid   "Integral of a vector field"
 msgstr  "Křivkový integrál druhého druhu"
+
+msgid   "Interval for picture from "
+msgstr  ""
 
 msgid   "Interval from"
 msgstr  "Interval od"
@@ -551,14 +554,6 @@ msgstr  "<a href=\"http://user.mendelu.cz/marik/prez/prubeh-cz.pdf\">Řešené "
 msgid   "MAW-regula_falsi"
 msgstr  "Metoda regula falsi"
 
-msgid   "MAW-trap"
-msgstr  "<ul><li> Zadejte funkci kterou chcete integrovat, meze a počet dílků "
-        "(nejvýše 20). Budeme aproximovat integrál pomocí lichoběžníkového "
-        "pravidla a pro srovnání se jej pokusíme&nbsp;vypočítat i přesněji."
-        "&nbsp;</li> <li>Pokud je počet dílků menší než deset a funkce je "
-        "nezáporná na intervalu přes který se integruje, zobrazí se vám i "
-        "graf funkce s naznačenými lichoběžníky.</li></ul>"
-
 msgid   "Mathematical Assistant on Web"
 msgstr  "Matematické výpočty online (MAW)"
 
@@ -570,6 +565,9 @@ msgstr  "Metoda prosté iterace"
 
 msgid   "More languages"
 msgstr  "Další jazyky"
+
+msgid   "Newton-Raphson method"
+msgstr  ""
 
 msgid   "Number of steps "
 msgstr  "Počet kroků"
@@ -611,8 +609,14 @@ msgid   "Read the comments below the form to find out, which inequalities can "
 msgstr  "Přečtěte si v komentáři pod formulářem, jaké nerovnosti můžete "
         "zadávat. "
 
+msgid   "Region for integration"
+msgstr  ""
+
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
+
+msgid   "Reset"
+msgstr  ""
 
 msgid   "Second order LDE"
 msgstr  "Diferenciální rovnice druhého řádu"

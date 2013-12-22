@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
+        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
         "PO-Revision-Date: 2010-04-18 22:14+0100\n"
         "Last-Translator: Marti Ruiz-Altaba <marti.ruizaltaba@gmail.com>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -18,13 +18,6 @@ msgstr  "Project-Id-Version: messages\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "El jacobià s'afegeix automàticament en coordenades polars. Podeu "
-        "escriure <b>phi</b> per la variable angular <img src=\"phi.png\" alt="
-        "\"phi\">."
 
 #, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
@@ -171,9 +164,8 @@ msgstr  "Integral doble"
 msgid   "Editor"
 msgstr  ""
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Entreu la funció, trieu les variables d'integració, i trieu també en "
-        "quin ordre s'han d'integrar"
+msgid   "Enter function, initial approximation and number of steps."
+msgstr  ""
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Entreu la funció, l'interval contenent el punt fix, i el nombre "
@@ -205,6 +197,12 @@ msgstr  "Equacions i inequacions"
 
 #, php-format
 msgid   "Evaluate also %s."
+msgstr  ""
+
+msgid   "Example"
+msgstr  ""
+
+msgid   "Examples"
 msgstr  ""
 
 #, php-format
@@ -264,6 +262,9 @@ msgid   "Integral of a scalar field"
 msgstr  ""
 
 msgid   "Integral of a vector field"
+msgstr  ""
+
+msgid   "Interval for picture from "
 msgstr  ""
 
 msgid   "Interval from"
@@ -485,15 +486,6 @@ msgstr  "<span style=\"font-weight: bold;\">NB:</span><br> <ul><li>Si no "
 msgid   "MAW-regula_falsi"
 msgstr  ""
 
-msgid   "MAW-trap"
-msgstr  "<ul> <li>  Escriviu la funció que cal integrar, els límits "
-        "d'integració i el nombre de sots-intervals (fins a 20). Integrarem "
-        "amb l'aproximació dels trapezis, amb l'aproximació de Newton-Leibniz "
-        "i amb un tercer mètode numèric avançat, per poder comparar.</li>    "
-        "<li>Si el nombre de punts és inferior a 10 i si la funció no pren "
-        "valors negatius a l'interval, apareix també la gràfica de la funció "
-        "amb els trapezis. </li>       </ul>"
-
 msgid   "Mathematical Assistant on Web"
 msgstr  "L'Assistent Matemàtic al Web (MAW)"
 
@@ -504,6 +496,9 @@ msgid   "Method of iterations"
 msgstr  "Mètode d'iteracions"
 
 msgid   "More languages"
+msgstr  ""
+
+msgid   "Newton-Raphson method"
 msgstr  ""
 
 msgid   "Number of steps "
@@ -547,7 +542,13 @@ msgid   "Read the comments below the form to find out, which inequalities can "
 msgstr  "Els comentaris a la part de baix del formulari esclareixen quines "
         "inequacions poden ser resoltes."
 
+msgid   "Region for integration"
+msgstr  ""
+
 msgid   "Regula falsi"
+msgstr  ""
+
+msgid   "Reset"
 msgstr  ""
 
 msgid   "Second order LDE"

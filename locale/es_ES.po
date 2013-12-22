@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-13 20:11+0100\n"
+        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
         "PO-Revision-Date: 2012-05-14 20:36+0200\n"
         "Last-Translator: Mayckol J Morales C <mayckol@gmail.com>\n"
         "Language-Team: Spanish\n"
@@ -17,13 +17,6 @@ msgstr  "Project-Id-Version: messages\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
         "X-Generator: KBabel 1.9.1\n"
-
-msgid   " The Jacobian in polar coordinates is added automatically. You can "
-        "write <b>phi</b> for polar variable <img src=\"phi.png\" alt=\"phi"
-        "\">."
-msgstr  "El Jacobiano en coordenadas polares es añadido automáticamente. "
-        "Puede escribir <b>phi</b> para la variable polar <img src=\"phi.png"
-        "\" alt=\"phi\">."
 
 #, php-format
 msgid   "%sOffline version%s is also available and translators are %s "
@@ -174,8 +167,8 @@ msgstr  "Integral Doble"
 msgid   "Editor"
 msgstr  "Editor"
 
-msgid   "Enter function and choose variables and order for integration "
-msgstr  "Ingrese la función y escoja variables y orden para la integración."
+msgid   "Enter function, initial approximation and number of steps."
+msgstr  ""
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Ingrese la función, intervalo que contiene al punto fijo y el número "
@@ -206,6 +199,12 @@ msgstr  "Ecuaciones y desigualdades"
 
 #, php-format
 msgid   "Evaluate also %s."
+msgstr  ""
+
+msgid   "Example"
+msgstr  ""
+
+msgid   "Examples"
 msgstr  ""
 
 #, php-format
@@ -267,6 +266,9 @@ msgstr  "Integral de un campo escalar"
 
 msgid   "Integral of a vector field"
 msgstr  "Integral de un campo vectorial"
+
+msgid   "Interval for picture from "
+msgstr  ""
 
 msgid   "Interval from"
 msgstr  "Intervalo desde"
@@ -411,9 +413,6 @@ msgstr  "MAW-prub"
 msgid   "MAW-regula_falsi"
 msgstr  "MAW-regla_falsa"
 
-msgid   "MAW-trap"
-msgstr  "MAW-trap"
-
 msgid   "Mathematical Assistant on Web"
 msgstr  "Asistente Matemático en la Web"
 
@@ -425,6 +424,9 @@ msgstr  "Método de iteraciones"
 
 msgid   "More languages"
 msgstr  "Más lenguajes"
+
+msgid   "Newton-Raphson method"
+msgstr  ""
 
 msgid   "Number of steps "
 msgstr  "Número de pasos"
@@ -466,8 +468,14 @@ msgid   "Read the comments below the form to find out, which inequalities can "
 msgstr  "Lea los comentarios a continuación del formulario para encontrar "
         "cuales desigualdades se pueden resolver"
 
+msgid   "Region for integration"
+msgstr  ""
+
 msgid   "Regula falsi"
 msgstr  "Regla falsa"
+
+msgid   "Reset"
+msgstr  ""
 
 msgid   "Second order LDE"
 msgstr  "EDO de Segundo Orden"

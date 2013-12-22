@@ -41,5 +41,4 @@
 </form><?php maw_after_form(); ?>
 
  <?php history("trap",$server); 
-        echo __("MAW-trap");
 ?>
