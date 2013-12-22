@@ -124,14 +124,10 @@ $\leq$
 </form><?php maw_after_form(); ?>
 
 <?php history("integral2",$server); 
-
-
-
 ?>
 
 <br>
 
-<?php
 
 
 
