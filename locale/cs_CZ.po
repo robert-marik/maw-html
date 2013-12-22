@@ -165,7 +165,7 @@ msgid   "Editor"
 msgstr  "Editor matematiky"
 
 msgid   "Enter function, initial approximation and number of steps."
-msgstr  ""
+msgstr  "Zadejte funkci, počáteční odhad a počet kroků."
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Zadejte funkci, interval obsahující pevný bod a počet kroků"
@@ -197,10 +197,10 @@ msgid   "Evaluate also %s."
 msgstr  "Chci vypočítat i %s."
 
 msgid   "Example"
-msgstr  ""
+msgstr  "Ukázka"
 
 msgid   "Examples"
-msgstr  ""
+msgstr  "Ukázky"
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -262,7 +262,7 @@ msgid   "Integral of a vector field"
 msgstr  "Křivkový integrál druhého druhu"
 
 msgid   "Interval for picture from "
-msgstr  ""
+msgstr  "Interval pro obrázek od"
 
 msgid   "Interval from"
 msgstr  "Interval od"
@@ -324,7 +324,7 @@ msgid   "More languages"
 msgstr  "Další jazyky"
 
 msgid   "Newton-Raphson method"
-msgstr  ""
+msgstr  "Newtonova metoda"
 
 msgid   "Number of steps "
 msgstr  "Počet kroků"
@@ -367,13 +367,13 @@ msgstr  "Přečtěte si v komentáři pod formulářem, jaké nerovnosti můžet
         "zadávat. "
 
 msgid   "Region for integration"
-msgstr  ""
+msgstr  "Oblast pro integraci"
 
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
 
 msgid   "Reset"
-msgstr  ""
+msgstr  "Resetovat"
 
 msgid   "Second order LDE"
 msgstr  "Diferenciální rovnice druhého řádu"
