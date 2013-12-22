@@ -125,6 +125,6 @@ tmax=<input size="10" name="tmax" value="<?php $tmin=$_REQUEST["tmax"]; if ($tma
 
 <?php history("lineintegral",$server); 
 
-echo __("MAW-lineint");
+
 ?>
 

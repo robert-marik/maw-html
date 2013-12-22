@@ -55,6 +55,6 @@ class="tlacitko">
 
 
 <?php history("prubeh",$server); 
-echo __("MAW-prub");
+
 ?>
 

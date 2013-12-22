@@ -39,6 +39,6 @@ echo '[-20,20]x[-20,20] ';
 
 <?php history("domf",$server); 
 
-echo __("MAW-df3d");
+
 
 ?>

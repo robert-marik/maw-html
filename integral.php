@@ -65,7 +65,7 @@ dt
 <?php history("integral",$server); 
 
 
-echo __("MAW-int");
+
 ?>
 
 

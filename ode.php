@@ -68,6 +68,6 @@ class="tlacitko">
 
 <?php history("ode",$server);
 
-echo __("MAW-ode");
+
 
 ?>

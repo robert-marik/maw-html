@@ -53,7 +53,7 @@ value="<?php echo $function;?>">
 
 <?php history("banach",$server); 
 
-echo __("MAW-banach");
+
 ?>
 
 

@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
+        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -289,89 +289,7 @@ msgstr  ""
 msgid   "Lower bound"
 msgstr  ""
 
-msgid   "MAW-autsyst"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-banach"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-bisection"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-definite"
-msgstr  ""
-
-msgid   "MAW-der"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-df"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-df3d"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-geom"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-graf"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-ineq2d"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-int"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-int2"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-lagr"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-lde2"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-lineint"
-msgstr  ""
-
 msgid   "MAW-main"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-map"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-minmax3d"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-mnc"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-ode"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-prub"
-msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
-        "lesen."
-
-msgid   "MAW-regula_falsi"
 msgstr  "Die Anweisungen sind noch nicht übersetzt. Sie können in Englisch zu "
         "lesen."
 

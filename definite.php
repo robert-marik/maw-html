@@ -36,6 +36,6 @@
 </form><?php maw_after_form(); ?>
 
  <?php history("definite",$server); 
-        echo __("MAW-definite");
+
 ?>
 

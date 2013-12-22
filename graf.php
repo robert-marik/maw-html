@@ -57,5 +57,5 @@ class="tlacitko">
 </form><?php maw_after_form(); ?>
 
 <?php history("posun-grafu",$server);
-echo __("MAW-graf");
+
 ?>

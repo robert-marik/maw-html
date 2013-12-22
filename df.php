@@ -34,5 +34,5 @@ action="<?php echo($server);?>/domf/domf.php" name="exampleform" id="exampleform
 
 
 <?php
-echo __("MAW-df")
+
 ?>

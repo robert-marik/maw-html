@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
+        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
         "PO-Revision-Date: 2012-03-30 19:02+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: Ukrainian\n"
@@ -298,101 +298,11 @@ msgstr  "Логарифм"
 msgid   "Lower bound"
 msgstr  "Нижня границя"
 
-msgid   "MAW-autsyst"
-msgstr  "Калькулятор дозволяє класифікувати стаціонарні точки двомірної "
-        "автономної системи за допомогою матриці Якобі."
-
-msgid   "MAW-banach"
-msgstr  "Калькулятор дозволяє розв'язувати рівняння за допомогою<a href="
-        "\"http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC"
-        "%D0%B0_%D0%91%D0%B0%D0%BD%D0%B0%D1%85%D0%B0_%D0%BE_%D0%BD%D0%B5%D0%BF"
-        "%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B9_%D1%82%D0%BE"
-        "%D1%87%D0%BA%D0%B5\">теореми Банаха про нерухому точку</a>."
-
-msgid   "MAW-bisection"
-msgstr  "За допомогою калькулятора можна розв'язувати рівняння за <a href="
-        "\"http://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_"
-        "%D0%B1%D0%B8%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8\">методом бісекції</"
-        "a>"
-
-msgid   "MAW-definite"
-msgstr  ""
-
-msgid   "MAW-der"
-msgstr  "Калькулятор знаходить похідну функції однієї змінної або частиннy "
-        "похідну функції двох змінних. Розв'язання крок за кроком."
-
-msgid   "MAW-df"
-msgstr  "Калькулятор знаходить oбласть визначення функції однієї змінної."
-
-msgid   "MAW-df3d"
-msgstr  "Калькулятор знаходить oбласть визначення функції двох змінних."
-
-msgid   "MAW-geom"
-msgstr  "<b>Under construction.</b> Подивіться на англійській мові деякі "
-        "відповідні інструкції."
-
-msgid   "MAW-graf"
-msgstr  "Тут ви можете побудувати графік функції, яка може бути отримана з "
-        "однієї з основних елементарних функцій шляхом елементарних "
-        "перетворень її графіка. Ваша функція буде розбиратися автоматично, і "
-        "ви отримаєте графік цієї функції, включаючи анімацію послідовних "
-        "перетворень."
-
-msgid   "MAW-ineq2d"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою."
-
-msgid   "MAW-int"
-msgstr  "Введіть функцію для інтегрування. Ви зможете контролювати метод "
-        "розрахунку на наступних сторінках. Для повного автоматичного "
-        "обчислення краще використовувати <a href=\"http://www.wolframalpha."
-        "com/\">Wolfram Alpha</a>."
-
-msgid   "MAW-int2"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-lagr"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-lde2"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-lineint"
-msgstr  "Введіть функцію для інтегрування і рівняння для кривої."
-
 msgid   "MAW-main"
 msgstr  "<span class=\"nadpis\"> Про цю сторінку </ span> <br> Цей сайт "
         "використовує Маxima програмy для розв'язання типових задач з "
         "диференціального та інтегрального числення. Всі розв'язки крок за "
         "кроком."
-
-msgid   "MAW-map"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-minmax3d"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-mnc"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-ode"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
-
-msgid   "MAW-prub"
-msgstr  "Калькулятор досліджує крок за кроком функцію з першою і "
-        "другоїюпохідними. Графік і асимптоти також включені."
-
-msgid   "MAW-regula_falsi"
-msgstr  "<b>Under construction.</b> Подивіться відповідні інструкції "
-        "англійською мовою. "
 
 msgid   "Mathematical Assistant on Web"
 msgstr  "Математичні сервіси онлайн (MAW)"

@@ -54,6 +54,6 @@ x+y-8<0
 
 <?php history("ineq2d",$server); 
 
-echo __("MAW-ineq2d");
+
 
 ?>

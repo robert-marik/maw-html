@@ -18,7 +18,7 @@
 <?php history("lagrange",$server); 
 
 
-echo __("MAW-lagr");
+
 
 
 ?>

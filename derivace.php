@@ -52,7 +52,7 @@ value="<?php echo $function; ?>">
 
 <?php history("derivace",$server); 
 
-echo __("MAW-der")
+
 
 
 ?>

@@ -76,6 +76,6 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exa
 
 <?php history("minmax3d",$server); 
 
-echo __("MAW-minmax3d")
+
 
 ?>

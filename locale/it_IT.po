@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
+        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: ... <...@...>\n"
         "Language-Team: Italian\n"
@@ -43,14 +43,6 @@ msgstr  "(la funzione deve essere o una funzione elementare o una funzione "
         "che può essere ottenuta da una funzione elementare mediante una "
         "traslazione o cambiamento di scala del grafico)"
 
-#, fuzzy
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  " \t<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (deselezionarlo se "
-        "si ottengono frazioni composte (con una frazione al numeratore))"
-
 msgid   "Action"
 msgstr  "Azione"
 
@@ -77,14 +69,6 @@ msgstr  "Limiti per gli assi"
 
 msgid   "Bounds for the picture (decimal numbers)"
 msgstr  "Limiti della figura (in numeri decimali)"
-
-#, fuzzy
-msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
-        "of both curves by choosing \"intercepts\" in parameters for "
-        "computation)</small>"
-msgstr  "Limiti sull'asse <i>x</i>: <small>(puoi provare a trovare le "
-        "intercette di entrambe le curve scegliendo \"intercette\" nei "
-        "parametri per il calcolo)</small>"
 
 msgid   "Calculus"
 msgstr  "Analisi Matematica"
@@ -179,18 +163,6 @@ msgid   "Enter function, interval containing zero and number of steps."
 msgstr  "Inserire la funzione, un intervallo contenente lo zero e il numero "
         "di passi."
 
-#, fuzzy
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  "Inserisci i dati nella calcolatrice e clicca Submit. Puoi anche "
-        "cambiare il tipo di calcolatrice nella seconda riga del menu. <br>Le "
-        "calcolatrici sono divise in più gruppi, la descrizione è "
-        "deisponibile muovendo il mouse sul nome di ogni gruppo (la prima "
-        "riga del menu)."
-
 msgid   "Equation"
 msgstr  "Equazione"
 
@@ -234,10 +206,6 @@ msgstr  "Equazione completa"
 
 msgid   "Function"
 msgstr  "Funzione"
-
-#, fuzzy
-msgid   "Function calculator"
-msgstr  "Calcolatore di funzioni"
 
 msgid   "Function grapher"
 msgstr  ""
@@ -284,10 +252,6 @@ msgstr  "Intervallo da"
 msgid   "Introduction"
 msgstr  "Introduzione"
 
-#, fuzzy
-msgid   "Investigating functions"
-msgstr  "Studiare funzioni"
-
 msgid   "Known bugs"
 msgstr  "Bachi noti"
 
@@ -318,188 +282,12 @@ msgstr  "Logaritmo"
 msgid   "Lower bound"
 msgstr  "Limite inferiore"
 
-msgid   "MAW-autsyst"
-msgstr  "<ul> <li>Scrivere il secondo membro del sistema autonomo, scrivere "
-        "il punto stazionario a cui si è interessati e cliccare Invia</li> "
-        "<li>E' possibile usare il computer per trovare i punti stazionari o "
-        "la matrice Jacobiana e gli autovalori in uno dei punti stazionari. "
-        "Scegliere il pulsante radio corretto.</li> </ul> "
-
-msgid   "MAW-banach"
-msgstr  "Il risolutore di equazioni non lineari basato sul  <a href=\"http://"
-        "en.wikipedia.org/wiki/Banach_fixed_point_theorem\">teorema di punto "
-        "fisso di Banach</a>"
-
-msgid   "MAW-bisection"
-msgstr  "Per la teoria vedere <a href=\"http://en.wikipedia.org/wiki/"
-        "Bisection_method\">il metodo di bisezione su Wikipedia</a>"
-
-msgid   "MAW-definite"
-msgstr  ""
-
-msgid   "MAW-der"
-msgstr  "<ul><li>Scrivere una funzione e cliccare Invia. Si otterrà il "
-        "calcolo della derivata formattata in PDF. </li><li>Si può usare "
-        "questo form per derivare sia funzioni in una variabile che funzioni "
-        "di due variabili.</li></ul>"
-
-msgid   "MAW-df"
-msgstr  "MAW-df "
-
-msgid   "MAW-df3d"
-msgstr  "<ul> <li>Scrivere una funzione di due variabili nel campo, scegliere "
-        "i limiti per il garfico e cliccare Invia.</li> </ul>"
-
-msgid   "MAW-geom"
-msgstr  "<ul>   <li>Scrivere le funzioni che definiscono i limiti inferiore e "
-        "superiore per l'insieme.</li>  <li>Se l'estremo inferiore per "
-        "l'insieme è l'asse <span style=\"font-style: italic;\">x</span>, la "
-        "funzione <span style=\"font-style: italic;\">g</span> è 0.</li>  "
-        "<li>Si può usare il computer per provare a trovare le intersezioni "
-        "delle curve. Scegliere il bottone radio appropriato.<br> </li> </ul>"
-
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">Osservazioni:</"
-        "span><br><ul><li>Scrivere una funzione che può essere ottenuta da "
-        "una funzione elementare mediante una traslazione o cambiamento di "
-        "scala del grafico.</li><li>La funzione verrà esaminata "
-        "automaticamente e si otterrà il garfico di questa funzione, comprese "
-        "le animazoni delle successive deformazioni.</li></ul>"
-
-#, fuzzy
-msgid   "MAW-ineq2d"
-msgstr  "<br> <ul>   <li>Scrivi le tue disequazioni nel campo di testo. "
-        "Scrivi una disequazione per riga.</li> <li>Le disequazioni vengono "
-        "risolte numericamente sul dato intervallo (rettangolo per "
-        "disequazioni in due variabili). Se ottieni un grafico vuoto, allora "
-        "o non esistono soluzioni nell'intervallo dato (prova a cambiare i "
-        "limiti) o la soluzione contiene solo punti  isolati. Questi punti "
-        "isolati non possono essere trovati dai nostri calcoli numerici.</li> "
-        "<li> Usare solo disuguaglianze strette e le variabili <i>x</i> e "
-        "<i>y</i>.</li> <li>Le caselle e i limiti per l'asse <i>y</i> vengono "
-        "ignorate, se si usano disequazioni solo nella variabile <i>x</i>.</"
-        "li> <li>Le figure nel preview html sono quadrate. Se la differenza "
-        "tra i limiti della <i>y</i> è uguale alla differenza nei limiti "
-        "della <i>x</i>, quadrati e cerchi non saranno deformati. Le figure "
-        "nell'output PDF sono in rapporto 10:7 e per avere la stessa unità di "
-        "misura su entrambi gli assi si deve usare la seconda casella di "
-        "controllo. Questa scelta ridimensiona l'asse più corto. </li> </ul>"
-
-msgid   "MAW-int"
-msgstr  "<span class='red'>visita la nostra <a  href=\"integral_offline/"
-        "\">galleria di integrali</a>.</span> Contattaci per chiedere di "
-        "aggiungere il tuo integrale a questa galleria."
-
-msgid   "MAW-int2"
-msgstr  "MAW-int2"
-
-msgid   "MAW-lagr"
-msgstr  "<ul> <li>Scrivi file di dati, i punti sono separati da punto e "
-        "virgola, le componenti di ogni punto da virgole. </li> </ul>"
-
-#, fuzzy
-msgid   "MAW-lde2"
-msgstr  "<ul>   <li>Scrivi i coefficienti dell'equazione (numberi) e il "
-        "secondo membro e clicca Submit. se si vuole omettere uno dei "
-        "termini, scrivere 0 nel campo corrispondente.</li> \t<li> Il metodo "
-        "della variazione delle costanti funziona per secondi membri "
-        "arbitrari. Il metodo dei coefficienti indeterminati funziona per "
-        "secondi mebri della forma  <i>P(x)*exp(a*x)*sin(b*x)+Q(x)*exp(a*x)"
-        "*cos(b*x)</i>, dove <i>a</i> e <i>b</i> sono numeri reali e <i>P(x)</"
-        "i>, <i>Q(x)</i> polinomi di grado non maggiore a 4.</li>   <li>Se "
-        "ritieni che una calcolatrice dia risultati scorretti si prega di "
-        "andare una segnalazione.</li> </ul>"
-
-msgid   "MAW-lineint"
-msgstr  "MAW-lineint"
-
 msgid   "MAW-main"
 msgstr  "<span class=\"nadpis\">A proposito di questa pagina</span> "
         "<br>Questo sito contiene un'interfaccia per accedere al \"computer "
         "algebra system\" <a href=\"http://maxima.sourceforge.net/\">Maxima</"
         "a> e risolvere automaticamente una selezione di problemi tipici da "
         "corsi matematici, con i passi intermedi della soluzione."
-
-msgid   "MAW-map"
-msgstr  "Mappa del sito </span>  <ul> <li>Funzioni <ul> <li>Grafici traslati "
-        "e ridimensionati di funzioni elementari </li> <li>Dominio naturale "
-        "di funzioni in una variabile </li> <li>Dominio naturale di funzioni "
-        "in due variabili </li> <li>Polinomio di Lagrange </li> <li>Metodo "
-        "dei minimi quadrati </li> </ul> </li> <li>Calcolo <ul> <li> Derivata "
-        "e derivata parziale </li> <li> Studiare funzioni </li> <li> "
-        "Polinomio di Taylor  </li> <li>Massimi e minimi locali in due "
-        "variabili </li>  </ul> </li> <li>Calcoolo integrale <ul> "
-        "<li>Integrale indefinito </li><li> Integrale definito (area fra due  "
-        "curve e solidi di rivoluzione)  </li><li>Integrale doppio </li><li> "
-        "Regola dei trapezi (stima numerica di un integrale definito)</li> </"
-        "ul> </li> <li>Equazioni differenziali <ul> <li> Equazioni "
-        "differenziali del primo ordine (equazioni lineari, equazioni a "
-        "variabili separate e equazioni omogenee)</li><li>Equazioni "
-        "differenziali lineari del secondo ordine (variazione delle costanti "
-        "e soluzioni tentativo)</li><li> Sistemi autonomi</li> </ul> </li> "
-        "<li>Equazioni e disequazioni<ul> <li>Equazioni non lineari con il "
-        "metodo di bisezione e il metodo delle iterazioni</li> "
-        "<li>Disequazioni in una e due variabili</li> </ul> </il> </ul> <span "
-        "class=\"nadpis\">Support</span> <ul><li>Vuoi dare supporto allo "
-        "svilupp di \"Mathematical Assistant on Web\"? Vuoi mandarci del "
-        "denaro? Non farlo! Finanzia invece <a href=\"http://www.unicef.org/"
-        "\">UNICEF</a> o <a href=\"http://www.rednoses.eu/\">Red noses "
-        "clowndoctors</a>. </li> <li>Vuoi ancora aiutarci? Usa la nostra "
-        "applicazione e riporta gli eventuali problemi. O facci sapere che "
-        "stai usando la nostra applicazione senza alcun problema. Puoi anche "
-        "scaricare <a href=\"http://mathassistant.hg.sourceforge.net/hgweb/"
-        "mathassistant\">i sorgenti</a> e sviluppare nuove caratteristiche e "
-        "applicazioni simili. </li> </ul>"
-
-#, fuzzy
-msgid   "MAW-minmax3d"
-msgstr  "<br>In questa calcolatrice puoi studiare i punti stazionari di una "
-        "funzione di due variabili. Hai le seguenti opzioni.<ul><li>Puoi "
-        "trovare i punti stazionari usando un computer algebra system e poi "
-        "riscrivere con copia e incolla la risposta come input.</li><li>Puoi "
-        "provare una serie di punti stazionari per verificare l'esistenza e "
-        "il tipo di estremi locali. Usare il punto e virgola per separare i "
-        "punti stazionari e la virgola per separare le coordinate di un punto."
-        "</li><li>Se si sceglie l'opzione di studiare un solo punto, si "
-        "possono ottenere soluzioni più dettagliate.</li><li>noi usiamo un "
-        "semplice test se il punto che l'utente dà come input è un punto "
-        "stazionario o no.</li></ul>"
-
-#, fuzzy
-msgid   "MAW-mnc"
-msgstr  "<ul> <li> Scrivi file di dati, i punti sono separati da punto e "
-        "virgola, le componenti di ogni punto da virgole. </li> </ul>"
-
-#, fuzzy
-msgid   "MAW-ode"
-msgstr  "<ul><li>Questa calcolatrice è in grado di risolvere equazioni "
-        "differenziali ordinarie a variabili separate, omogenee, esatte, "
-        "lineari e di Bernoulli, inserendo i passaggi intermedi nella "
-        "soluzione.</li><li>Si deve inserire solo il secondo membro "
-        "dell'euqazione. Se si deve isolare <i>y'</i> da un'equazione che non "
-        "è in questa forma, si possono usare i radio button e il secondo "
-        "campo nel form.</li> <li>E' anche possibile scrivere un'equazione "
-        "diffrenziale ordinaria completa (compresi y' e =) nel secondo campo. "
-        "L'equazione verrà risolta rispetto a y' automaticaticamente, ma si "
-        "deve controlalre con attenzione che l'input non contenga errori "
-        "nella sintassi matematica.</li> <li>Il problema di trovare la "
-        "soluzione al computer è complicato. Se si ottiene una risposta non "
-        "corretta, mandare per favore una segnalazione via mail agli autori.</"
-        "li></ul>"
-
-msgid   "MAW-prub"
-msgstr  "<span style=\"font-weight: bold;\">Osservazioni:</span><br> "
-        "<ul><li>Se uno dei limiti del grafico non viene dato, viene stimato "
-        "automaticamente. Comunque, questa non è una buona idea per funzioni "
-        "non continue o ad accrescimento rapido, a causa dell'intervallo "
-        "troppo ampio sull'asse in questo caso.</li><li>Gli zeri della "
-        "funzione e delle sue derivate sono calcolati nell'insieme dei numeri "
-        "complessi e poi vengono eliminati gli zeri con parete immaginaria "
-        "non nulla. Comunque in questo modo si possono perdere anche degli "
-        "zeri reali. Perciò qualche zero può amncare nella risposta.</li></ul>"
-
-msgid   "MAW-regula_falsi"
-msgstr  "MAW-regula_falsi"
 
 msgid   "Mathematical Assistant on Web"
 msgstr  "Mathematical Assistant on Web"
@@ -571,10 +359,6 @@ msgstr  "Equazione differenziale lineare del secondo ordine"
 msgid   "Second order linear differential equations"
 msgstr  "Equazioni differenziali lineari del secondo ordine"
 
-#, fuzzy
-msgid   "Showcase"
-msgstr  "Bacheca"
-
 msgid   "Singular points of autonomous systems"
 msgstr  "Punti singolari di sistemi autonomi"
 
@@ -584,19 +368,11 @@ msgstr  "Invia"
 msgid   "Support from MAW forum"
 msgstr  "Supporto dal forum di MAW"
 
-#, fuzzy
-msgid   "Switch to a compact design"
-msgstr  "Passa a un disegno compatto"
-
 msgid   "Switch to a full design"
 msgstr  "Passa a figura intera"
 
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Sistema di disequazioni (in una o due variabili)"
-
-#, fuzzy
-msgid   "Task for computation"
-msgstr  "Task per calcolo"
 
 msgid   "Taylor polynomial"
 msgstr  "Polinomio di Taylor"
@@ -620,11 +396,6 @@ msgstr  "Limite superiore"
 msgid   "What to do"
 msgstr  "Che cosa fare"
 
-#, fuzzy
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  "Si possono usare i pulsanti Preview e Modifica per modificare il "
-        "secondo membro"
-
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Devi attivare i Javascript per vedere le informazioni nelle finestre "
         "popup"
@@ -644,10 +415,6 @@ msgstr  "Deriva automaticamente le costanti"
 
 msgid   "automatically use linearity of derivative"
 msgstr  "Usa automaticamente la linearità della derivata"
-
-#, fuzzy
-msgid   "draw domain on the set"
-msgstr  "disegna il dominio sull'insieme"
 
 msgid   "draw labels on axes, not on boundary"
 msgstr  "scrivi le etichette sugli assi, non sulla frontiera"
@@ -700,10 +467,6 @@ msgstr  "Logaritmo naturale"
 
 msgid   "preview solid of revolution"
 msgstr  "preview di un solido di rotazione"
-
-#, fuzzy
-msgid   "show colors, no mesh"
-msgstr  "mostra i colori, non le griglie"
 
 msgid   "show grid"
 msgstr  "Mostra la griglia"

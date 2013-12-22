@@ -135,7 +135,7 @@ type="radio">&nbsp;
 
 </form><?php maw_after_form(); ?>
 <?php history("geom",$server);
-						echo __("MAW-geom");
+
 ?>
 
 <script>

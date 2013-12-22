@@ -75,7 +75,7 @@ y' =</span> <input name="funkceg" value="<?php echo $fceg; ?>" title="" id="in-f
 </form><?php maw_after_form(); ?>
 <?php history("autsyst",$server);
 
-echo __("MAW-autsyst");
+
 
 ?>
 

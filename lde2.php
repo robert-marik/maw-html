@@ -61,7 +61,7 @@ name="exampleform" id="exampleform">
 
 <?php history("lde2",$server); 
 
-echo __("MAW-lde2");
+
 
 ?>
 

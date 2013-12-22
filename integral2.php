@@ -132,7 +132,7 @@ $\leq$
 <br>
 
 <?php
-echo __("MAW-int2");?>
+
 
 
 <script>

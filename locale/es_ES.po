@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 02:13+0100\n"
+        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
         "PO-Revision-Date: 2012-05-14 20:36+0200\n"
         "Last-Translator: Mayckol J Morales C <mayckol@gmail.com>\n"
         "Language-Team: Spanish\n"
@@ -312,106 +312,12 @@ msgstr  "Logaritmo"
 msgid   "Lower bound"
 msgstr  "Límite inferior"
 
-msgid   "MAW-autsyst"
-msgstr  "<ul> <li> Escriba el lado derecho del sistema autónomo, escriba el "
-        "punto estacionario en el que está interesado y presione Enviar </li> "
-        "<li> Puede usar cálculos numéricos para encontrar los puntos "
-        "estacionarios o la Matriz Jacobiana y valores propios en uno de los "
-        "puntos estacionarios. Elija la opción adecuada, por favor.</li> </ul>"
-
-msgid   "MAW-banach"
-msgstr  "El solucionador para ecuaciones no lineales basado en <a href="
-        "\"http://en.wikipedia.org/wiki/Banach_fixed_point_theorem\">Banach "
-        "fixed point theorem</a>. For an explanation of the method see <a "
-        "href=\"http://es.wikipedia.org/wiki/M%C3%A9todo_del_punto_fijo"
-        "\">aquí</a>."
-
-msgid   "MAW-bisection"
-msgstr  "Para la teoría, revisar <a href=\"http://http://es.wikipedia.org/"
-        "wiki/M%C3%A9todo_de_bisecci%C3%B3n\">Método de la Bisección En la "
-        "Wikipedia</a>"
-
-msgid   "MAW-definite"
-msgstr  ""
-
-msgid   "MAW-der"
-msgstr  "<ul><li>Ingrese una función y oprmia Enviar. Obtendrá el cálculo de "
-        "la derivada en formato PDF. </li><li>Puede usar esta página para "
-        "diferenciar tanto funciones de de una o dos variables.</li></ul>"
-
-msgid   "MAW-df"
-msgstr  "MAW-df"
-
-msgid   "MAW-df3d"
-msgstr  "<ul> <li> Escriba una función en dos variables, escoja los límites "
-        "de las gráficas y presione Enviar.</li> </ul>"
-
-msgid   "MAW-geom"
-msgstr  "<ul>   <li>Escriba las funciones que definen las fronteras superior "
-        "e inferior del conjunto</li>  <li>Si la frontera superior es el eje "
-        "<span style=\"font-style: italic;\">x</span>, la función  <span "
-        "style=\"font-style: italic;\">g</span> es 0.</li>  <li>Puede usarlo "
-        "para intentar encontrar las intersecciones de las curvas. Solo debe "
-        "seleccionar la opción adecuada.<br> </li> </ul>"
-
-msgid   "MAW-graf"
-msgstr  "<span style=\"font-weight: bold;\">Remarks:</"
-        "span><br><ul><li>Escriba una función que pueda ser obtenida como una "
-        "combinación de funciones elementales por corrimiento o escalamiento "
-        "de su gráfica.</li><li>La función será analizada automáticamente y "
-        "obtendrá las gráficas de estas funciones, incluyendo animaciones de "
-        "las deformaciones sucesivas </li></ul>"
-
-msgid   "MAW-ineq2d"
-msgstr  "MAW-ineq2d"
-
-msgid   "MAW-int"
-msgstr  "MAW-int"
-
-msgid   "MAW-int2"
-msgstr  "MAW-int2"
-
-msgid   "MAW-lagr"
-msgstr  "MAW-lagr"
-
-msgid   "MAW-lde2"
-msgstr  "MAW-lde2"
-
-msgid   "MAW-lineint"
-msgstr  "Choose between the integral of first kind (integral of scalar field) "
-        "and integral of second kind (integral of vector field)."
-
 msgid   "MAW-main"
 msgstr  "<span class=\"nadpis\">About this page</span> <br>Este sitio "
         "contiene interfaces para acceder al  sistema de álgebra "
         "computacional <a href=\"http://maxima.sourceforge.net/\">Maxima</a> "
         "y solucionar de forma automática típicos problemas selectos de "
         "cursos de matemáticas, incluyendo pasos intermedios en la solución."
-
-msgid   "MAW-map"
-msgstr  "Soporte</span> <ul><li>Desea aportar al desarrollo de Mathematical "
-        "Assistant on Web? Mire <a href=\"http://wood.mendelu.cz/math/maw-"
-        "html/donate.php?lang=en\">aquí</a> para sugerencias.</li> <li>Quiere "
-        "ayudarnos? Use nuestra aplicación y reporte los problemas (si tiene "
-        "alguno). O déjenos saber que la está usando sin problemas. También "
-        "puede descargar el <a href=\"http://mathassistant.hg.sourceforge.net/"
-        "hgweb/mathassistant\">código fuente</a> y desarrollar nuevas "
-        "características y aplicaciones similares. </li> </ul>"
-
-msgid   "MAW-minmax3d"
-msgstr  "MAW-minmax3d"
-
-msgid   "MAW-mnc"
-msgstr  "MAW-mnc"
-
-msgid   "MAW-ode"
-msgstr  "MAW-ode"
-
-msgid   "MAW-prub"
-msgstr  "MAW-prub"
-
-msgid   "MAW-regula_falsi"
-msgstr  "MAW-regla_falsa"
 
 msgid   "Mathematical Assistant on Web"
 msgstr  "Asistente Matemático en la Web"

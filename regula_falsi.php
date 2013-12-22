@@ -54,7 +54,7 @@ history("regula_falsi",$server);
 ?>
 
 <?php
-echo __('MAW-regula_falsi');
+
 ?>
 
 

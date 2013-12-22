@@ -17,7 +17,7 @@
 
 <?php history("mnc",$server); 
 
-echo __("MAW-mnc")
+
 
 ?>
 

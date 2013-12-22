@@ -55,7 +55,7 @@ value="<?php echo $function;?>">
 ?>
 
 <?php
-echo __('MAW-bisection');
+
 ?>
 
 
