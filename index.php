@@ -342,7 +342,7 @@ foreach ($lang_array as $i => $value)
   }
 }
 lang_links();
-echo ("&nbsp;<a href=\"http://user.mendelu.cz/marik/entrans/\">".__("More languages")."</a>");
+echo ("&nbsp;<a rel=\"facebox\" href=\"translators.html\">".__("More languages")."</a>");
 ?>
 </div>
 
