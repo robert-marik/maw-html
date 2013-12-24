@@ -10,7 +10,7 @@
 <?php  echo __("Function");?>
 </label>
 &nbsp;&nbsp;
-<span style="font-style: italic;">y=</span> <input size="40" name="funkce"
+<span style="font-style: italic;">y=</span> <input size="40" name="funkce" id="in-funkce" tooltip=""
 						    value="1-1/2*(x-1)^2"> 
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkce')" type="button"
 class="tlacitko">
@@ -23,15 +23,15 @@ class="tlacitko">
 <legend class="podnadpis">
 						    <?php echo __("Bounds for axes");?></legend>
 
-<span style="font-style: italic;">xmin</span> = <input size="6" maxlength="6" name="xmin" value="-5"> &nbsp;
- <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" name="xmax" value="5"> 
+<span style="font-style: italic;">xmin</span> = <input size="6" maxlength="6" name="xmin" id="in-xmin" value="-5"> &nbsp;
+ <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" name="xmax" id="in-xmax" value="5"> 
 
 <br>
-<span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="-10"> &nbsp;
- <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="10">
+<span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" id="in-ymin" value="-10"> &nbsp;
+ <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" id="in-ymax" value="10">
 
 <br>
-<input name="mrizka" type="checkbox" value="on">
+<input name="mrizka" type="checkbox" value="on" id="ch" >
 
 						    <?php echo __("show grid");?><br>
 
@@ -43,12 +43,12 @@ class="tlacitko">
 						    <?php echo __("Logarithm");?></legend>
 						    <?php echo __("If the input contains logarithm, use");?>
 						    <br>
-<input checked="checked" name="naturallog" value="1" type="radio"> 
+<input checked="checked" name="naturallog" id="in-naturallog1" value="1" type="radio"> 
 <?php echo __("natural log"); ?>
 <br>
-<input name="naturallog" value="0" type="radio"> 
+<input name="naturallog" id="in-naturallog0" value="0" type="radio"> 
 	<?php echo __("log with base"); ?> 
-<input name="logbase" value="3" size="3"  maxlength="3"> 
+<input name="logbase" id="in-logbase" value="3" size="3"  maxlength="3"> 
 
 
 
