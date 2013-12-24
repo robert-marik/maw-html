@@ -360,9 +360,9 @@ echo ("&nbsp;<a rel=\"facebox\" href=\"translators.html\">".__("More languages")
   if (__("http://sourceforge.net/apps/phpbb/mathassistant")!="http://sourceforge.net/apps/phpbb/mathassistant")
     { echo '<a href="'.__("http://sourceforge.net/apps/phpbb/mathassistant").'">'.__("Support from MAW forum").'</a><br>'; }
 ?>
-<a href="changes.txt"><?php  echo __("Changelog");?></a>
+<a rel="facebox" href="news<?php if ($lang=="cs") {echo "_cs";}?>.html"><?php  echo __("Changelog");?></a>
 <br>
-<a href="bugs.txt"><?php  echo __("Known bugs");?></a>
+<a rel="facebox" href="bugs.html"><?php  echo __("Known bugs");?></a>
 </div>
 
 <?php 
