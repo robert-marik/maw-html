@@ -184,4 +184,8 @@ column-count:2;
 
 .bold{font-weight:bold;}
 
-
+#exampleform{margin-bottom:10px;}
+#history{margin-top:10px;}
+#history a, #flags a, .support a {text-decoration:none;}
+#examples-header {color:#555; font-weight:bold; margin-top:10px; margin-bottom:10px;}
+.example{text-decoration:none;}

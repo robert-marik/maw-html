@@ -90,8 +90,10 @@ $\leq$
 
 </div>
 
-<h3><?php echo __('Axes (decimal numbers)'); ?></h3>
+<h3><?php echo __('Axes'); ?></h3>
 <div>
+<fieldset class="vnitrni"><legend>
+<?php echo __("Axes (decimal numbers)").": " ?></legend>
 <span style="font-style: italic;">xmin</span> = <input size="6" maxlength="6" name="xmin" value="<?php echo $xmin; ?>"> &nbsp;
  <span style="font-style: italic;">xmax</span> = <input maxlength="6" size="6" name="xmax" value="<?php echo $xmax; ?>"> 
 
@@ -99,6 +101,7 @@ $\leq$
 <span style="font-style: italic;">ymin =</span> <input maxlength="6" size="6" name="ymin" value="<?php echo $ymin; ?>"> &nbsp;
 <span style="font-style: italic;">ymax</span> = <input maxlength="6" size="6" name="ymax" value="<?php echo $ymax; ?>">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
+</fieldset>
 </div>
 
 <h3><?php echo __('Additional computation'); ?> (<?php echo __("html only"); ?>)</h3>
