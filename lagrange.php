@@ -8,7 +8,7 @@
 
 <?php polejazyka($lang); ?>
 <?php echo __('Data file'); ?>:
- <input size="70" name="body" value="1, 2 ; 2,3; 3,1 ">  
+ <input size="70" name="body" value="1, 2 ; 2,3; 3,1 " id="in-body">  
 
 <br>
 <?php echo $submitbutton;?>
