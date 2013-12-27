@@ -33,7 +33,7 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exa
 
 <?php echo __('Function'); ?>
 &nbsp;
-<span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" value="<?php echo $function?>" size="35">
+<span style="font-style: italic;">f(x,y) =</span> <input name="funkcef" id="in-funkcef" value="<?php echo $function?>" size="35">
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkcef')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>" title="<?php echo($previewmsg); ?>" onclick="previewb('funkcef')" type="button" class="tlacitko">
 
@@ -44,26 +44,26 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exa
   <?php echo __('Task for computation');?>
 
   </legend>
-  <input <?php echo $check0; ?> name="akce" value="0" type="radio"> 
+  <input <?php echo $check0; ?> name="akce" in="in-ch0" value="0" type="radio"> 
 
   <?php echo __('Hessian at stationary point'); ?>
 
 &nbsp;
 <span style="font-style: italic;">x</span>= 
-<input name="xs" size="6" value="<?php echo $pointx; ?>"> &nbsp;
+<input name="xs" id="in-xs" size="6" value="<?php echo $pointx; ?>"> &nbsp;
 &nbsp; <span style="font-style: italic;">y</span>=
-<input name="ys" size="6" value="<?php echo $pointy; ?>"><br>
+<input name="ys" id="in-ys" size="6" value="<?php echo $pointy; ?>"><br>
 
 &nbsp;<br>
 
-<input name="akce" value="2" type="radio" <?php echo $check2;?>> 
+<input name="akce" value="2" in="in-ch2" type="radio" <?php echo $check2;?>> 
 
 <?php echo __('Hessian at stationary points')?>
 
-[x1,y1] ; [x2,y2] ; .... &nbsp;<input value="<?php echo $points; ?>" size="30" name="stacbody"><br>
+[x1,y1] ; [x2,y2] ; .... &nbsp;<input value="<?php echo $points; ?>" size="30" name="stacbody" id="in-stacbody"><br>
 
   <br>
-  <input name="akce" value="1" type="radio" <?php echo $check1;?>> 
+  <input name="akce" value="1" in="in-ch1" type="radio" <?php echo $check1;?>> 
 
 	    <?php echo __('use computer to find stationary points first (this may fail to find all stationary points, however)');?>
 
