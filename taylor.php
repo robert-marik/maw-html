@@ -21,15 +21,15 @@ action="<?php echo($server);?>/taylor/taylor.php">
 <?php polejazyka($lang); ?>
 <?php echo __('Function'); ?>
 <span style="font-style: italic;"> f(x)=</span> <input size="40"
-name="funkce" value="<?php echo $function; ?>"> &nbsp; &nbsp; 
+name="funkce" id="in-funkce" value="<?php echo $function; ?>"> &nbsp; &nbsp; 
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor"> 
 
 <?php hint_preview(); ?>
 
 <?php echo __('Degree of Taylor polynomial'); ?>: 
-<input size="5" name="rad" value="<?php echo $degree; ?>"> <br>
+<input size="5" name="rad" id="in-rad" value="<?php echo $degree; ?>"> <br>
 <br>
-<?php echo __('Center of Taylor polynomial'); ?>: &nbsp; <input size="5" name="bod" value="<?php echo $center; ?>"> 
+<?php echo __('Center of Taylor polynomial'); ?>: &nbsp; <input size="5" name="bod" id="in-bod" value="<?php echo $center; ?>"> 
 
 <br>
 <?php echo $submitbutton;?>
