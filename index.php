@@ -4,7 +4,7 @@
 Mathematical Assistant on Web - web interface for mathematical
 coputations including step by step solutions
 Copyright 2007-2010 Robert Marik, Miroslava Tihlarikova           
-Copyright 2011-2012 Robert Marik
+Copyright 2011-2014 Robert Marik
 
 This file is part of Mathematical Assistant on Web.
 
@@ -110,6 +110,25 @@ if (in_array($form,$group6)) {$submenu=6;}
 if (in_array($form,$group7)) {$submenu=7;}
 if ($submenu==1) { $form="main";}
 
+
+if (($_COOKIE["device"]=="") || ($_COOKIE["device"]=="auto") )
+{
+include_once '../Mobile-Detect/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+}
+else
+{
+$deviceType = $_COOKIE["device"];
+}
+
+if (($deviceType != 'computer') && ($form=="main") )
+{
+  header('Location:menu.php?lang='.$reqlang);
+  die();
+}
+
+
 function hint_preview($a=""){
   if ($a!="")
     {
@@ -183,13 +202,23 @@ if (file_exists('./custom.css'))
 {
   echo ("<link rel=\"stylesheet\" type=\"text/css\" href=\"custom.css\" >");
 }
+
+
+if ($deviceType != 'computer')
+  {
+    if (file_exists('./mobile_custom.css'))
+      {
+	echo ("<link rel=\"stylesheet\" type=\"text/css\" href=\"mobile_custom.css\" >");
+      }
+  }
+
 ?>
 
   <title><?php echo __("Mathematical Assistant on Web");?></title>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.3.custom.min.css" type="text/css" media="all" />
 
@@ -208,11 +237,144 @@ if (file_exists('./custom.css'))
 
 $(document).bind('reveal.facebox', function() {
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+<?php if ($deviceType!="computer")  : ?>
+                           $("#maw_calculator").css("min-width","95%");
+                           $("#maw_calculator").css("margin-left","3px");
+<?php endif; ?>
 })
+
+
+<?php if ($deviceType!="computer")  : ?>
+
+
+jQuery(window).load( function () {
+jQuery(':text').each(function() {
+    jQuery(this).after('<span class="open"><img src="icons/keyboard.png"></span>');})
+
+jQuery(".open").bind("click",function(){
+    jQuery("#calc").show();
+    jQuery("#facebox_overlay").show();
+    cilovePole=jQuery(this).prevAll("input").first();
+    puvodni=cilovePole.val();
+    vyraz=puvodni+"?";
+    aktualizovat(vyraz);
+}
+                );
+
+jQuery(".tlacitko").bind("click",function(){
+   //vstup=$("#myTextInput");
+   //text=vstup.val();
+   //pos=$("#myTextInput").caret().start;
+   //pred=text.substring(0,pos);
+   //za=text.substring(pos);
+   //vstup=jQuery("#vystup").text();
+   vstup=vyraz;
+   pos=vstup.indexOf("?");
+   pred=vstup.substring(0,pos);
+   za=vstup.substring(pos+1);
+   pridat=""+jQuery(this).data("text");
+   if (pridat=="->")
+   {
+       text=pred+za.substring(0,1)+"?"+za.substring(1);
+   }
+   else if (pridat=="<-")
+   {
+       text=pred.substring(0,pred.length-1)+"?"+pred.substring(pred.length-1)+za;
+
+   }
+    else if (pridat=="BackSpace")
+    {
+       text=pred.substring(0,pred.length-1)+"?"+za;
+    }
+    else if (pridat=="Enter")
+    {
+        text=pred+za;
+    }
+    else if (pridat=="Close")
+    {
+        text=puvodni;
+    }    
+    else if (pridat=="Clear")
+    {
+        text="";
+    }    else
+    {
+    posledni=pred.substring(pred.length-1);
+    if ( posledni >= "0" && posledni <= "9" && ( (pridat.substring(0,1) < "0") || (pridat.substring(0,1)>"9") ) && (pridat!="*") && (pridat!="+") && (pridat!="-") && (pridat!="/") && (pridat!="^") && (pridat!="*") )
+    {
+        pridat="*"+pridat;
+    }
+    if (pridat.substring(pridat.length-2)=="()")
+    {pridat=pridat.substring(0,pridat.length-1)+"?)";}
+    else
+    {pridat=pridat+"?";}
+    text=pred+pridat+za;
+    }
+   //if (pridat.substring(pridat.length-2)=="()")
+   //{pos=pos-1;}
+   if (pridat=="Enter")
+   {
+    jQuery("#vystup").text("");
+    cilovePole.val(text);
+    jQuery("#calc").toggle();   
+   }
+    else if (pridat=="Close")
+    {
+      jQuery("#vystup").text("");
+      cilovePole.val(text);
+      vyraz=text;
+      jQuery("#calc").toggle();   
+      jQuery("#facebox_overlay").hide();
+    }
+    else
+    {
+    aktualizovat(text);
+    vyraz=text;
+    }
+});
+
+jQuery('#maw_calculator .tlacitko').prop('value','').css("border","none").css("background-color","transparent");
+jQuery('#maw_calculator .tlacitko').css("height","20px").css("width","20px").toggleClass("lupa");
+jQuery('#maw_calculator :submit').css("height","30px").css("width","30px").toggleClass("go");
+
+});
+
+
+function aktualizovat(text){
+  jQuery("#vystup").text("");
+  for ( var i = 0; i < text.length; i++ )
+  {
+      pismeno=text.charAt(i);
+      if (pismeno=="?") {pismeno="&bull;";}
+      jQuery("#vystup").append("<span id='letter"+i+"' data-poradi='"+i+"'>"+pismeno+"</span>");
+      jQuery("#letter"+i).bind("click", function () {nastavit(jQuery(this).data("poradi"));});
+   }
+};
+
+function nastavit(cislo)
+{
+   pos=vyraz.indexOf("?");   
+   novy=vyraz.replace("?","")
+   pred=novy.substring(0,cislo);
+   za=novy.substring(cislo);
+   vyraz=pred+"?"+za;
+   text=vyraz;
+   aktualizovat(text);      
+}
+
+<?php endif; ?>
 
 </script>
 
+<style>
+.lupa {background: url("icons/glass.png") no-repeat 0 0; background-size: auto 100%; width:30px; height:30px;}
+#calc .lupa{background: none; border: solid 1px; background-color:#AAA;}
+.go {background: url("icons/done.png") no-repeat 0 0; background-size: 100% 100%;}
+.open img{width:30px;}
+</style>
+
  <script type="text/x-mathjax-config">
+ 
      MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
           var TEX = MathJax.InputJax.TeX;
           var PREFILTER = TEX.prefilterMath;
@@ -314,6 +476,27 @@ function allow_preview(text)
 }
   </script>
 
+
+
+<style>
+  .tlacitko {padding:2px; border: solid 1pt; margin-top:10px; margin-bottom:10px; display:inline-block; min-width:2em; text-align:center; background-color:#DDD; min-height:8px;}
+.open {color:#080; padding-left:3px; padding-right:3px; font-size:160%;}
+#calc {background-color:#EEE; padding:10px;     position:fixed;
+    top:5px;
+    z-index:100; display:none;
+    box-shadow:              black 4px 6px 20px;
+    -webkit-box-shadow: black 4px 6px 20px;
+    -moz-box-shadow:     black 4px 6px 20px; 
+    width:95%;
+    height:90%;
+    }
+
+#calc .tlacitko {height:25px; vertical-align:top;}
+
+.editor {display:none;}
+#vystup {color:green; font-size:125%; background-color:#CCC; padding:5px;}
+</style>
+
 <?php
 echo $maw_header;
 ?>
@@ -326,6 +509,69 @@ echo $maw_header;
 echo __("You should turn JavaScript on to see popup informations.");
 ?>
 </b>  </noscript> 
+
+ <div id="calc">   
+<div style="text-align:right;">
+<span class="tlacitko" data-text="Close" style="margin-right:0px; margin-left:auto; border:none; background-color:transparent; color:red;">&#x2718;</span></div>
+        <span id="vystup"></span>
+
+    <br>
+    
+<span class="tlacitko" data-text="0">0</span>
+<span class="tlacitko" data-text="1">1</span>
+<span class="tlacitko" data-text="2">2</span>
+<span class="tlacitko" data-text="3">3</span>
+<span class="tlacitko" data-text="4">4</span>
+<span class="tlacitko" data-text="5">5</span>
+<span class="tlacitko" data-text="6">6</span>
+<span class="tlacitko" data-text="7">7</span>
+<span class="tlacitko" data-text="8">8</span>
+<span class="tlacitko" data-text="9">9</span>
+<span class="tlacitko" data-text=".">.</span>
+        
+        <br>
+
+<span class="tlacitko" data-text="+">+</span>
+<span class="tlacitko" data-text="-">-</span>
+<span class="tlacitko" data-text="*">*</span>
+<span class="tlacitko" data-text="/">/</span>
+<span class="tlacitko" data-text="^">^</span>
+<span class="tlacitko" data-text="()">()</span>
+<span class="tlacitko" data-text="=">=</span>
+            
+
+<span class="tlacitko" data-text="x">x</span>
+<span class="tlacitko" data-text="y">y</span>
+<span class="tlacitko" data-text="pi">$\pi$</span>
+<span class="tlacitko" data-text="e">e</span>
+
+            <br>
+<span class="tlacitko" data-text="sqrt()">$\sqrt{}$</span>
+<span class="tlacitko" data-text="sin()">sin</span>
+<span class="tlacitko" data-text="cos()">cos</span>
+<span class="tlacitko" data-text="tan()">tan</span>
+<span class="tlacitko" data-text="cot()">cot</span>
+<span class="tlacitko" data-text="ln()">ln</span>
+<span class="tlacitko" data-text="exp()">exp</span>
+<span class="tlacitko" data-text="asin()">asin</span>
+<span class="tlacitko" data-text="acos()">acos</span>
+<span class="tlacitko" data-text="atan()">atan</span>
+
+                <br>
+<span class="tlacitko" data-text="<-">&larr;</span>
+<span class="tlacitko" data-text="BackSpace">BckSp</span>
+<span class="tlacitko" data-text="->">&rarr;</span>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<span class="tlacitko" data-text="Clear">Clear</span>    
+
+<div style="text-align:right;">
+<span class="tlacitko" data-text="Enter" style="color:blue;">&#x2714;</span>    
+</div>
+
+    
+    </div>   
+
 
 <div id="main">
 <div id="head">
@@ -392,7 +638,7 @@ if (file_exists('./mawcustom_aftertitle.php'))
 <div id="odkaz_hlavicka">
 
 <div class="mainmenu">
-<div style="position:absolute;text-align:right;margin-right:10px; margin-left:150px;"><img src=xmas.png width=70></div>
+<!-- <div style="position:absolute;text-align:right;margin-right:10px; margin-left:150px;"><img src=xmas.png width=70></div> -->
 <?php 
 
 
@@ -588,6 +834,9 @@ else
 ?>
 </div>
 </div>
+<?php if ($deviceType!="computer")  : ?>
+<span class="menuicon"><a href="menu.php?lang=<?php echo $reqlang;?>"><img src="icons/home.png" alt="Home" width=30></a></span>
+<?php endif; ?>
 
 <div id="maw_calculator">
 
@@ -633,6 +882,7 @@ $("#exampleform").submit(function(e)
     $.ajax(
        {
        url : formURL,
+       cache: true,
        type: "POST",
        data : postData,
        success:function(data, textStatus, jqXHR)
@@ -671,6 +921,10 @@ $("#exampleform").submit(function(e)
                            $("#form").css("display","block");
                            $("#form").css("visibility","visible");
                            $("#maw_calculator").css("background-color","#5FCC06");
+<?php if ($deviceType!="computer")  : ?>
+                           $("#maw_calculator").css("min-width","95%");
+                           $("#maw_calculator").css("margin-left","3px");
+<?php endif; ?>
                     }, 1500);
                },
        error: function(jqXHR, textStatus, errorThrown)
@@ -746,7 +1000,7 @@ $('<div if=autosend>sent automatically</div>').prependTo('form')
 <?php endif; ?>	
 
 
-<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","newton","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom","mnc","lagrange","trap") )) : ?>
+<?php if (in_array($form, Array("derivace","bisection","regula_falsi","banach","newton","lineintegral","prubeh","integral2","taylor","ode","lde2","autsyst","minmax3d","geom","mnc","lagrange","trap") ))  : ?>
 <script>
 $(".pdforhtml").css("display","inline-block");
 </script>
@@ -759,3 +1013,13 @@ $(".pdfnohtmlyes").css("display","inline-block");
 $(".pdfyeshtmlno").css("display","inline-block");
 </script>
 <?php endif; ?>
+
+
+<?php if ($deviceType!="computer")  : ?>
+<script>
+$(".pdforhtml").css("display","none");
+$(".pdfyeshtmlno").css("display","none");
+$(".pdfnohtmlyes").css("display","none");
+</script>
+<?php endif; ?>
+

@@ -50,9 +50,6 @@ msgstr  "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
 msgid   "Action"
 msgstr  "Aкція"
 
-msgid   "Additional computation"
-msgstr  ""
-
 msgid   "Antiderivative"
 msgstr  "Невизначений інтеграл"
 
@@ -119,7 +116,7 @@ msgid   "Data file"
 msgstr  "Файл даних"
 
 msgid   "Definite integral and mean value"
-msgstr  ""
+msgstr  "Визначений інтеграл та середнє значення"
 
 msgid   "Definite integral in geometry"
 msgstr  "Визначений інтеграл в геометрії"
@@ -158,9 +155,6 @@ msgstr  "Подвійний інтеграл"
 msgid   "Editor"
 msgstr  "Редактор"
 
-msgid   "Enter function, initial approximation and number of steps."
-msgstr  ""
-
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Введіть функцію, інтервал, що містить нерухому точку, і число кроків."
 
@@ -183,16 +177,6 @@ msgstr  "Рівняння, розв'язане відносно у '"
 
 msgid   "Equations and inequalities"
 msgstr  "Рівняння і нерівності"
-
-#, php-format
-msgid   "Evaluate also %s."
-msgstr  ""
-
-msgid   "Example"
-msgstr  ""
-
-msgid   "Examples"
-msgstr  ""
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -219,9 +203,6 @@ msgstr  "Функція"
 
 msgid   "Function calculator"
 msgstr  "Дослідження функції"
-
-msgid   "Function grapher"
-msgstr  ""
 
 msgid   "Geometrical applications of definite integral"
 msgstr  "Геометричні застосування визначеного інтеграла"
@@ -252,9 +233,6 @@ msgstr  "криволінійний інтеграл першого роду"
 
 msgid   "Integral of a vector field"
 msgstr  "Криволінійний інтеграл другого роду"
-
-msgid   "Interval for picture from "
-msgstr  ""
 
 msgid   "Interval from"
 msgstr  "Інтервал від"
@@ -316,9 +294,6 @@ msgstr  "Метод ітерацій"
 msgid   "More languages"
 msgstr  "Інші мови"
 
-msgid   "Newton-Raphson method"
-msgstr  ""
-
 msgid   "Number of steps "
 msgstr  "Число кроків"
 
@@ -327,9 +302,6 @@ msgstr  "Звичайна похідна (функції однієї змінн
 
 msgid   "Ordinary differential equations"
 msgstr  "Звичайні диференціальні рівняння"
-
-msgid   "Output"
-msgstr  ""
 
 msgid   "Parameter bounds"
 msgstr  "параметричні обмеження"
@@ -360,13 +332,10 @@ msgstr  "Прочитайте коментарі нижче, щоб дізнат
         "бути розв'язані."
 
 msgid   "Region for integration"
-msgstr  ""
+msgstr  "Область інтегрування"
 
 msgid   "Regula falsi"
 msgstr  "Метод фальшпозиції"
-
-msgid   "Reset"
-msgstr  ""
 
 msgid   "Second order LDE"
 msgstr  "ЛДР другого порядку"
@@ -400,10 +369,6 @@ msgstr  "Задачa для обчислення"
 
 msgid   "Taylor polynomial"
 msgstr  "Поліном Тейлора"
-
-#, php-format
-msgid   "The calculator evaluates %s."
-msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Тип похідних"
@@ -454,9 +419,6 @@ msgstr  "знайти матрицю Якобі в стаціонарній то
 
 msgid   "hide invisible parts"
 msgstr  "сховати невидимі частини"
-
-msgid   "html only"
-msgstr  ""
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"

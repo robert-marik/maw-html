@@ -44,7 +44,7 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exa
   <?php echo __('Task for computation');?>
 
   </legend>
-  <input <?php echo $check0; ?> name="akce" in="in-ch0" value="0" type="radio"> 
+  <input <?php echo $check0; ?> name="akce" id="in-ch0" value="0" type="radio"> 
 
   <?php echo __('Hessian at stationary point'); ?>
 
@@ -56,14 +56,14 @@ action="<?php echo($server);?>/minmax3d/minmax3d.php" name="exampleform" id="exa
 
 &nbsp;<br>
 
-<input name="akce" value="2" in="in-ch2" type="radio" <?php echo $check2;?>> 
+<input name="akce" value="2" id="in-ch2" type="radio" <?php echo $check2;?>> 
 
 <?php echo __('Hessian at stationary points')?>
 
 [x1,y1] ; [x2,y2] ; .... &nbsp;<input value="<?php echo $points; ?>" size="30" name="stacbody" id="in-stacbody"><br>
 
   <br>
-  <input name="akce" value="1" in="in-ch1" type="radio" <?php echo $check1;?>> 
+  <input name="akce" value="1" id="in-ch1" type="radio" <?php echo $check1;?>> 
 
 	    <?php echo __('use computer to find stationary points first (this may fail to find all stationary points, however)');?>
 
