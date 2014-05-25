@@ -62,10 +62,10 @@ if ($function=="")
    <td><input size="25" name="funkce" id="funkce" 
 value="<?php echo $function;?>">
 <select name="vars" id="vars">
-<option value="dy dx">dy dx</option>
-<option value="dx dy">dx dy</option>
-<option value="r dr dphi">r dr dphi</option>
-<option value="r dphi dr">r dphi dr</option>
+<option value="dy dx" <?php if ($vars=="dy dx") {echo "selected='selected'";}?>>dy dx</option>
+<option value="dx dy" <?php if ($vars=="dx dy") {echo "selected='selected'";}?>>dx dy</option>
+<option value="r dr dphi" <?php if ($vars=="r dr dphi") {echo "selected='selected'";}?>>r dr dphi</option>
+<option value="r dphi dr" <?php if ($vars=="r dphi dr") {echo "selected='selected'";}?>>r dphi dr</option>
 </select>
 <input value="<?php echo(__("Editor")); ?>" onclick="edit('funkce')" type="button" class="tlacitko editor">
 <input value="<?php echo(__("Preview")); ?>"  title="<?php echo($previewmsg); ?>" onclick="previewb_int2('funkce')" type="button" class="tlacitko">
@@ -94,17 +94,24 @@ value="<?php echo $function;?>">
 <input size="6" name="a2" id="a2" value="<?php echo $a;?>">
 $\leq$
 <select name="outsidevar" id="outsidevar">
-<option value="x">x</option>
-<option value="y">y</option>
-<option value="r">r</option>
-<option value="phi">phi</option>
+<option value="x" <?php if ($vars=="dy dx") {echo "selected='selected'";}?>>x</option>
+<option value="y" <?php if ($vars=="dx dy") {echo "selected='selected'";}?>>y</option>
+<option value="r" <?php if ($vars=="r dphi dr") {echo "selected='selected'";}?>>r</option>
+<option value="phi" <?php if ($vars=="r dr dphi") {echo "selected='selected'";}?>>phi</option>
 </select>
 $\leq$
 <input size="6" name="b2" id="b2" value="<?php echo $b;?>">
 <?php printf("(%s)","bounds and variable for the outside integral");?>
 <br>
 <input size="6" name="c2" id="c2" value="<?php echo $c;?>">
-&nbsp;&nbsp;$\leq$ &nbsp;&nbsp;<span id="vnitrni">y</span> &nbsp;&nbsp;$\leq$ &nbsp;&nbsp;
+&nbsp;&nbsp;$\leq$ &nbsp;&nbsp;<span id="vnitrni">
+<?php 
+ if ($vars=="dx dy") {echo "x";}
+ if ($vars=="dy dx") {echo "y";}
+ if ($vars=="r dr dphi") {echo "r";}
+ if ($vars=="r dphi dr") {echo "phi";}
+?>
+</span> &nbsp;&nbsp;$\leq$ &nbsp;&nbsp;
 <input size="6" name="d2" id="d2" value="<?php echo $d;?>">
 <?php printf("(%s)","bounds and variable for the inside integral");?>
 <br><span id="preview_region"><input value="<?php echo(__("Preview region of integration")); ?>" onclick="preview_region()" type="button" class="tlacitko"></span>
