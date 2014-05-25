@@ -159,11 +159,14 @@ display : inline-block; }
   display : inline-block;
   width:150px;
   height:60px;
-  background-color:#26E815;
+  background-color:#5FCC06;
   vertical-align:top;
+  color: #222;
+  font-size: 125%;
+  text-align:center;
 }
 
-.submenu, .submenu_container {width:90%;}
+.submenu, .submenu_container {width:95%;}
 
 </style>
 
@@ -231,7 +234,7 @@ function () {
             $("#menu_current").text("<?php echo (__("The site will be shown as on the tablet."));?>");
         }
         if (ans == "computer") {
-            $("#menu_current").text("<?php echo (__("The page will be shown as on the computer."))?>");
+            $("#menu_current").text("<?php echo (__("The site will be shown as on the computer."))?>");
         }
         $("#menu_cookies").show();
         $("#setting_menu").show();

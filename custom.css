@@ -189,3 +189,5 @@ column-count:2;
 #history a, #flags a, .support a {text-decoration:none;}
 #examples-header {color:#555; font-weight:bold; margin-top:10px; margin-bottom:10px;}
 .example{text-decoration:none;}
+
+#tab_pc_switcher {padding:5px; border: solid 1px; margin-bottom:20px;}

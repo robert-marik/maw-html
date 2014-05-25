@@ -88,9 +88,9 @@ function fixit($text)
   return str_replace("'","\'",$text);
 }
 
-if (preg_match("/[^3_2a-z]/",$form))
+if ( (preg_match("/[^3_2a-z]/",$form))||($form=="") )
 {
-  header('Location:http://user.mendelu.cz/marik/maw');
+  header('Location:menu.php');
   die();
 }
 
@@ -261,7 +261,7 @@ jQuery(".open").bind("click",function(){
 }
                 );
 
-jQuery(".tlacitko").bind("click",function(){
+jQuery("#calc .tlacitko").bind("click",function(){
    //vstup=$("#myTextInput");
    //text=vstup.val();
    //pos=$("#myTextInput").caret().start;
@@ -479,7 +479,7 @@ function allow_preview(text)
 
 
 <style>
-  .tlacitko {padding:2px; border: solid 1pt; margin-top:10px; margin-bottom:10px; display:inline-block; min-width:2em; text-align:center; background-color:#DDD; min-height:8px;}
+#calc  .tlacitko {padding:3px; border: solid 1pt; margin-top:10px; margin-bottom:10px; margin-right:10px; display:inline-block; min-width:2em; text-align:center; background-color:#DDD; min-height:8px;}
 .open {color:#080; padding-left:3px; padding-right:3px; font-size:160%;}
 #calc {background-color:#EEE; padding:10px;     position:fixed;
     top:5px;
@@ -488,13 +488,15 @@ function allow_preview(text)
     -webkit-box-shadow: black 4px 6px 20px;
     -moz-box-shadow:     black 4px 6px 20px; 
     width:95%;
-    height:90%;
+    min-height:90%;
     }
+
+#enter .tlacitko, .tlacitko img , #prompt img{border:none; background-color: transparent; width: 40px; vertical-align:middle;}
 
 #calc .tlacitko {height:25px; vertical-align:top;}
 
 .editor {display:none;}
-#vystup {color:green; font-size:125%; background-color:#CCC; padding:5px;}
+#vystup {color:green; font-size:125%; background-color:#CCC; padding:5px; margin-bottom:10px; padding-bottom:5px; border: solid 1px;}
 </style>
 
 <?php
@@ -513,10 +515,10 @@ echo __("You should turn JavaScript on to see popup informations.");
  <div id="calc">   
 <div style="text-align:right;">
 <span class="tlacitko" data-text="Close" style="margin-right:0px; margin-left:auto; border:none; background-color:transparent; color:red;">&#x2718;</span></div>
-        <span id="vystup"></span>
+      <span id="prompt"><img src="icons/prompt.png"></span>  <span id="vystup"></span>
 
     <br>
-    
+<br>    
 <span class="tlacitko" data-text="0">0</span>
 <span class="tlacitko" data-text="1">1</span>
 <span class="tlacitko" data-text="2">2</span>
@@ -536,7 +538,13 @@ echo __("You should turn JavaScript on to see popup informations.");
 <span class="tlacitko" data-text="*">*</span>
 <span class="tlacitko" data-text="/">/</span>
 <span class="tlacitko" data-text="^">^</span>
-<span class="tlacitko" data-text="()">()</span>
+
+<br>
+
+
+<span class="tlacitko" data-text="()">( )</span>
+<span class="tlacitko" data-text='['>[</span>
+<span class="tlacitko" data-text=']'>]</span>
 <span class="tlacitko" data-text="=">=</span>
             
 
@@ -564,9 +572,10 @@ echo __("You should turn JavaScript on to see popup informations.");
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 <span class="tlacitko" data-text="Clear">Clear</span>    
-
-<div style="text-align:right;">
-<span class="tlacitko" data-text="Enter" style="color:blue;">&#x2714;</span>    
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<div id="enter" style="text-align:right; display:inline">
+<span class="tlacitko" data-text="Enter"><img src="icons/done.png" alt="OK"></span>    
 </div>
 
     
@@ -994,7 +1003,7 @@ $("#exampleform").submit();
                 }
 
 }
-$('<div if=autosend>sent automatically</div>').prependTo('form')
+$('<div id=autosend>sent automatically</div>').prependTo('form')
 </script>
 
 <?php endif; ?>	

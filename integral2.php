@@ -1,6 +1,28 @@
 <span class="nadpis"><?php echo __("Double integral");
 
-$function=$_REQUEST["function"];
+$function=$_REQUEST["funkce"];
+$a=$_REQUEST["a"];
+$b=$_REQUEST["b"];
+$c=$_REQUEST["c"];
+$d=$_REQUEST["d"];
+$xmin=$_REQUEST["xmin"];
+$xmax=$_REQUEST["xmax"];
+$ymin=$_REQUEST["ymin"];
+$ymax=$_REQUEST["ymax"];
+    
+$vars=$_REQUEST["vars"];
+if ($vars=="dx dy")
+{
+$insidevar="x";
+$outsidevar="y";
+}
+
+if ($vars=="dy dx")
+{
+$insidevar="y";
+$outsidevar="x";
+}
+
 if ($function=="")
   {
     $function=rawurldecode("(x^3+1)*y");
