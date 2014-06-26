@@ -111,16 +111,18 @@ if (in_array($form,$group7)) {$submenu=7;}
 if ($submenu==1) { $form="main";}
 
 
-if (($_COOKIE["device"]=="") || ($_COOKIE["device"]=="auto") )
-{
-include_once '../Mobile-Detect/Mobile_Detect.php';
-$detect = new Mobile_Detect;
-$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
-}
-else
-{
-$deviceType = $_COOKIE["device"];
-}
+//if (($_COOKIE["device"]=="") || ($_COOKIE["device"]=="auto") )
+//{
+//include_once '../Mobile-Detect/Mobile_Detect.php';
+//$detect = new Mobile_Detect;
+//$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+//}
+//else
+//{
+//$deviceType = $_COOKIE["device"];
+//}
+
+$deviceType="tablet";
 
 if (($deviceType != 'computer') && ($form=="main") )
 {

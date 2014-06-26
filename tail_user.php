@@ -37,7 +37,7 @@ computer generated answer.</div>';
 
 
 echo "<br><br>";
-echo "<center><img src='http://user.mendelu.cz/marik/akademie/OPVK.png' width=600></center>";
+echo "<a href='http://akademie.ldf.mendelu.cz'><img src='http://user.mendelu.cz/marik/akademie/OPVK.png' width=200></a>";
 
 ?>
 
@@ -51,33 +51,6 @@ Web. Please, do not spread this URL. Always use <a
 href="http://user.mendelu.cz/marik/maw">http://user.mendelu.cz/marik/maw</a>. Thanks.
 </center>
 
-<div id="tablet_or_pc">
-
-<script>
-function setCookie(c_name, value, exdays) {
-var exdate = new Date();
-exdate.setDate(exdate.getDate() + exdays);
-var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
-document.cookie = c_name + "=" + c_value;
-}
-</script>
-
-<?php if ($deviceType != 'computer'): ?>
-<span id="tab_pc_switcher">
-Full version
-<span>
-<script>
-$("#tab_pc_switcher").click(function(){setCookie("device","computer");window.location.href = 'index.php';})
-</script>
-<?php else: ?>
-<span id="tab_pc_switcher">
-Tablet version
-<span>
-<script>
-$("#tab_pc_switcher").click(function(){setCookie("device","tablet");window.location.href = 'menu.php';})
-</script>
-<?php endif; ?>
- </div>
     
        <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
    <!-- Histats.com  START  (aync)-->
@@ -106,6 +79,7 @@ $("#tab_pc_switcher").click(function(){setCookie("device","tablet");window.locat
   ga('send', 'pageview');
 
 </script>
+
 
 <div>
 <div>

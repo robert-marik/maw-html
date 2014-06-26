@@ -190,4 +190,7 @@ column-count:2;
 #examples-header {color:#555; font-weight:bold; margin-top:10px; margin-bottom:10px;}
 .example{text-decoration:none;}
 
-#tab_pc_switcher {padding:5px; border: solid 1px; margin-bottom:20px;}
+
+
+#tablet_or_pc {border: solid 1px gray; margin:20px; padding:10px; background-color:#5fcc06; text-align:center;  cursor: pointer; display:none;}
+//#tab_pc_switcher {padding:5px; border: solid 1px; margin-bottom:20px; width:100%;}

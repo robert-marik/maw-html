@@ -194,7 +194,7 @@ display : inline-block; }
     display:none;
 }
 #setting_div {
-    display:inline-block;
+    display:none;
 }
 #setting_menu {
     padding:10px;
