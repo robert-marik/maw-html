@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
+        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Robert Marik <marik@carya>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -84,6 +84,9 @@ msgstr  "Differentialrechnung"
 msgid   "Center of Taylor polynomial"
 msgstr  ""
 
+msgid   "Change the setting to"
+msgstr  ""
+
 msgid   "Changelog"
 msgstr  ""
 
@@ -101,6 +104,10 @@ msgstr  ""
 msgid   "Clicking this button you get how formconv renders your expression "
         "and how you can enter this expression in Maxima notation (you can "
         "use copy and paste to transfer to the form.)"
+msgstr  ""
+
+msgid   "Cookies are off. Your device will be detected automatically. Set "
+        "cookies on to choose your own preference."
 msgstr  ""
 
 msgid   "Curve"
@@ -353,9 +360,6 @@ msgstr  ""
 msgid   "Regula falsi"
 msgstr  "Regula-falsi-Verfahren"
 
-msgid   "Reset"
-msgstr  ""
-
 msgid   "Second order LDE"
 msgstr  "Differentialgleichungen zweiter Ordnung"
 
@@ -393,6 +397,15 @@ msgstr  "Taylorpolynom"
 msgid   "The calculator evaluates %s."
 msgstr  ""
 
+msgid   "The device type (tablet/pc) will be determined automatically."
+msgstr  ""
+
+msgid   "The site will be shown as on the computer."
+msgstr  ""
+
+msgid   "The site will be shown as on the tablet."
+msgstr  ""
+
 msgid   "The type of the derivative"
 msgstr  ""
 
@@ -426,6 +439,12 @@ msgid   "automatically differentiate constants"
 msgstr  ""
 
 msgid   "automatically use linearity of derivative"
+msgstr  ""
+
+msgid   "computer"
+msgstr  ""
+
+msgid   "detect automatically"
 msgstr  ""
 
 msgid   "draw domain on the set"
@@ -491,6 +510,9 @@ msgid   "solve also initial value problem"
 msgstr  ""
 
 msgid   "suppose x,y>0"
+msgstr  ""
+
+msgid   "tablet"
 msgstr  ""
 
 msgid   "to"

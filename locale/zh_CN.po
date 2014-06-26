@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: zh_CN\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
+        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
         "PO-Revision-Date: 2012-02-12 21:16+0000\n"
         "Last-Translator: Minning Xiang <sdxmn@163.com>\n"
         "Language-Team:  SupperDog <sdxmn@163.com>\n"
@@ -87,6 +87,9 @@ msgstr  "微分"
 msgid   "Center of Taylor polynomial"
 msgstr  "泰勒多项式的中心点"
 
+msgid   "Change the setting to"
+msgstr  ""
+
 msgid   "Changelog"
 msgstr  "更新日志"
 
@@ -109,6 +112,10 @@ msgid   "Clicking this button you get how formconv renders your expression "
 msgstr  "点击这个按钮即可显示你书写的表达式如何被 formconv 展现，以及你应当如"
         "何用 Maxima 符号输入表达式。（你可以使用复制、粘贴功能把表达式转移到"
         "这个表单中。）"
+
+msgid   "Cookies are off. Your device will be detected automatically. Set "
+        "cookies on to choose your own preference."
+msgstr  ""
 
 msgid   "Curve"
 msgstr  "曲线"
@@ -366,9 +373,6 @@ msgstr  ""
 msgid   "Regula falsi"
 msgstr  "试位法"
 
-msgid   "Reset"
-msgstr  ""
-
 msgid   "Second order LDE"
 msgstr  "二阶常微分方程"
 
@@ -404,6 +408,15 @@ msgstr  "泰勒多项式"
 
 #, php-format
 msgid   "The calculator evaluates %s."
+msgstr  ""
+
+msgid   "The device type (tablet/pc) will be determined automatically."
+msgstr  ""
+
+msgid   "The site will be shown as on the computer."
+msgstr  ""
+
+msgid   "The site will be shown as on the tablet."
 msgstr  ""
 
 msgid   "The type of the derivative"
@@ -442,6 +455,12 @@ msgstr  "自动微分常数"
 
 msgid   "automatically use linearity of derivative"
 msgstr  "自动线性求导"
+
+msgid   "computer"
+msgstr  ""
+
+msgid   "detect automatically"
+msgstr  ""
 
 msgid   "draw domain on the set"
 msgstr  "图像绘制坐标界限为"
@@ -509,6 +528,9 @@ msgstr  "同时求解初值问题"
 
 msgid   "suppose x,y>0"
 msgstr  "假定 x 和 y 均大于 0"
+
+msgid   "tablet"
+msgstr  ""
 
 msgid   "to"
 msgstr  " 到 "

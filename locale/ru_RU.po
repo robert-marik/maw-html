@@ -8,7 +8,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
+        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
         "Last-Translator: Iryna Tkachenko\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,6 +89,9 @@ msgstr  "Производныe"
 msgid   "Center of Taylor polynomial"
 msgstr  "Центр многочлена Тейлора"
 
+msgid   "Change the setting to"
+msgstr  ""
+
 msgid   "Changelog"
 msgstr  "Изменения"
 
@@ -110,6 +113,10 @@ msgid   "Clicking this button you get how formconv renders your expression "
         "use copy and paste to transfer to the form.)"
 msgstr  "Здесь вы можете проверить, как мы понимаем ваши математические "
         "выражения и как вы можете ввести это выражение в компьютер."
+
+msgid   "Cookies are off. Your device will be detected automatically. Set "
+        "cookies on to choose your own preference."
+msgstr  ""
 
 msgid   "Curve"
 msgstr  "Кривая"
@@ -369,9 +376,6 @@ msgstr  ""
 msgid   "Regula falsi"
 msgstr  "Метод фальшпозиции"
 
-msgid   "Reset"
-msgstr  ""
-
 msgid   "Second order LDE"
 msgstr  "ЛДУ второго порядка"
 
@@ -408,6 +412,15 @@ msgstr  "Полином Тейлора"
 #, php-format
 msgid   "The calculator evaluates %s."
 msgstr  "Калькулятор вычисляет %s."
+
+msgid   "The device type (tablet/pc) will be determined automatically."
+msgstr  ""
+
+msgid   "The site will be shown as on the computer."
+msgstr  ""
+
+msgid   "The site will be shown as on the tablet."
+msgstr  ""
 
 msgid   "The type of the derivative"
 msgstr  "Тип производных"
@@ -448,6 +461,12 @@ msgstr  "автоматически различать константы"
 
 msgid   "automatically use linearity of derivative"
 msgstr  "автоматически использовать линейность производной"
+
+msgid   "computer"
+msgstr  ""
+
+msgid   "detect automatically"
+msgstr  ""
 
 msgid   "draw domain on the set"
 msgstr  "нарисовать область определения на множестве"
@@ -513,6 +532,9 @@ msgstr  "решать также задачy Коши"
 
 msgid   "suppose x,y>0"
 msgstr  "пусть х, у> 0"
+
+msgid   "tablet"
+msgstr  ""
 
 msgid   "to"
 msgstr  "до"

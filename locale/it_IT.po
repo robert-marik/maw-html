@@ -1,4 +1,4 @@
-# translation of messages.po to 
+# translation of messages.po to
 # English translations for PACKAGE package.
 # Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
@@ -8,9 +8,9 @@
 msgid   ""
 msgstr  "Project-Id-Version: messages\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
+        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
         "PO-Revision-Date: 2009-08-27 09:32+0200\n"
-        "Last-Translator: ... <...@...>\n"
+        "Last-Translator: Grazia Messineo <grazia.messineo@unicatt.it>\n"
         "Language-Team: Italian\n"
         "Language: it\n"
         "MIME-Version: 1.0\n"
@@ -43,11 +43,16 @@ msgstr  "(la funzione deve essere o una funzione elementare o una funzione "
         "che può essere ottenuta da una funzione elementare mediante una "
         "traslazione o cambiamento di scala del grafico)"
 
+msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
+        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
+        "get composite fractions (with fraction in numerator))"
+msgstr  ""
+
 msgid   "Action"
 msgstr  "Azione"
 
 msgid   "Additional computation"
-msgstr  ""
+msgstr  "Calcoli ulteriori"
 
 msgid   "Antiderivative"
 msgstr  "Antiderivata"
@@ -70,11 +75,19 @@ msgstr  "Limiti per gli assi"
 msgid   "Bounds for the picture (decimal numbers)"
 msgstr  "Limiti della figura (in numeri decimali)"
 
+msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
+        "of both curves by choosing \"intercepts\" in parameters for "
+        "computation)</small>"
+msgstr  ""
+
 msgid   "Calculus"
 msgstr  "Analisi Matematica"
 
 msgid   "Center of Taylor polynomial"
 msgstr  "Centro del polinomio di Taylor"
+
+msgid   "Change the setting to"
+msgstr  ""
 
 msgid   "Changelog"
 msgstr  "Changelog"
@@ -102,6 +115,10 @@ msgstr  "Cliccando questo bottone, puoi vedere come formconv rende la tua "
         "espressione e come inserirla nella notazione di Maxima (puoi usare "
         "copia e incolla per trasferirla nel modulo)."
 
+msgid   "Cookies are off. Your device will be detected automatically. Set "
+        "cookies on to choose your own preference."
+msgstr  ""
+
 msgid   "Curve"
 msgstr  "Curva"
 
@@ -112,7 +129,7 @@ msgid   "Data file"
 msgstr  "File di dati"
 
 msgid   "Definite integral and mean value"
-msgstr  ""
+msgstr  "Integrale definito e valor medio"
 
 msgid   "Definite integral in geometry"
 msgstr  "Integrale definito in geometria"
@@ -153,7 +170,8 @@ msgid   "Editor"
 msgstr  "Editor"
 
 msgid   "Enter function, initial approximation and number of steps."
-msgstr  ""
+msgstr  "Inserire la funzione, l'approssimazione iniziale e il numero di "
+        "passi."
 
 msgid   "Enter function, interval containing  fixed point and number of steps."
 msgstr  "Inserire la funzione, un intervallo contenente un punto fisso e il "
@@ -162,6 +180,13 @@ msgstr  "Inserire la funzione, un intervallo contenente un punto fisso e il "
 msgid   "Enter function, interval containing zero and number of steps."
 msgstr  "Inserire la funzione, un intervallo contenente lo zero e il numero "
         "di passi."
+
+msgid   "Enter your data into the calculator and click Submit. You can also "
+        "change the type of the calculator in the second row of the menu. "
+        "<br>The calculators are divided into several groups, the description "
+        "is available if you move your mouse on the name of each group (the "
+        "first row of the menu)."
+msgstr  ""
 
 msgid   "Equation"
 msgstr  "Equazione"
@@ -174,13 +199,13 @@ msgstr  "Equazioni e disequazioni"
 
 #, php-format
 msgid   "Evaluate also %s."
-msgstr  ""
+msgstr  "Calcola anche %s."
 
 msgid   "Example"
-msgstr  ""
+msgstr  "Esempio"
 
 msgid   "Examples"
-msgstr  ""
+msgstr  "Esempi"
 
 #, php-format
 msgid   "Find %s area %s between two curves and draw graph."
@@ -207,8 +232,11 @@ msgstr  "Equazione completa"
 msgid   "Function"
 msgstr  "Funzione"
 
-msgid   "Function grapher"
+msgid   "Function calculator"
 msgstr  ""
+
+msgid   "Function grapher"
+msgstr  "Plot di funzioni"
 
 msgid   "Geometrical applications of definite integral"
 msgstr  "Applicazioni geometriche dell'integrale definito"
@@ -241,7 +269,7 @@ msgid   "Integral of a vector field"
 msgstr  "Integrale di un campo vettoriale"
 
 msgid   "Interval for picture from "
-msgstr  ""
+msgstr  "Intervallo per il grafico da"
 
 msgid   "Interval from"
 msgstr  "Intervallo da"
@@ -251,6 +279,9 @@ msgstr  "Intervallo da"
 
 msgid   "Introduction"
 msgstr  "Introduzione"
+
+msgid   "Investigating functions"
+msgstr  ""
 
 msgid   "Known bugs"
 msgstr  "Bachi noti"
@@ -302,7 +333,7 @@ msgid   "More languages"
 msgstr  "Più lingue"
 
 msgid   "Newton-Raphson method"
-msgstr  ""
+msgstr  "Metodo di Newton-Raphson"
 
 msgid   "Number of steps "
 msgstr  "Numero di passi"
@@ -314,7 +345,7 @@ msgid   "Ordinary differential equations"
 msgstr  "Equazioni differenziali ordinarie"
 
 msgid   "Output"
-msgstr  ""
+msgstr  "Output"
 
 msgid   "Parameter bounds"
 msgstr  "Limiti dei parametri"
@@ -345,19 +376,19 @@ msgstr  "leggere i commenti sotto il modulo per capire quali disuguaglianze "
         "possono essere risolte."
 
 msgid   "Region for integration"
-msgstr  ""
+msgstr  "Regione di integrazione"
 
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
-
-msgid   "Reset"
-msgstr  ""
 
 msgid   "Second order LDE"
 msgstr  "Equazione differenziale lineare del secondo ordine"
 
 msgid   "Second order linear differential equations"
 msgstr  "Equazioni differenziali lineari del secondo ordine"
+
+msgid   "Showcase"
+msgstr  ""
 
 msgid   "Singular points of autonomous systems"
 msgstr  "Punti singolari di sistemi autonomi"
@@ -368,17 +399,32 @@ msgstr  "Invia"
 msgid   "Support from MAW forum"
 msgstr  "Supporto dal forum di MAW"
 
+msgid   "Switch to a compact design"
+msgstr  ""
+
 msgid   "Switch to a full design"
 msgstr  "Passa a figura intera"
 
 msgid   "System of inequalities (in one or two variables)"
 msgstr  "Sistema di disequazioni (in una o due variabili)"
 
+msgid   "Task for computation"
+msgstr  ""
+
 msgid   "Taylor polynomial"
 msgstr  "Polinomio di Taylor"
 
 #, php-format
 msgid   "The calculator evaluates %s."
+msgstr  "La calcolatrice valuta %s."
+
+msgid   "The device type (tablet/pc) will be determined automatically."
+msgstr  ""
+
+msgid   "The site will be shown as on the computer."
+msgstr  ""
+
+msgid   "The site will be shown as on the tablet."
 msgstr  ""
 
 msgid   "The type of the derivative"
@@ -395,6 +441,9 @@ msgstr  "Limite superiore"
 
 msgid   "What to do"
 msgstr  "Che cosa fare"
+
+msgid   "You can use Preview and Edit buttons for entering the right hand side"
+msgstr  ""
 
 msgid   "You should turn JavaScript on to see popup informations."
 msgstr  "Devi attivare i Javascript per vedere le informazioni nelle finestre "
@@ -416,6 +465,15 @@ msgstr  "Deriva automaticamente le costanti"
 msgid   "automatically use linearity of derivative"
 msgstr  "Usa automaticamente la linearità della derivata"
 
+msgid   "computer"
+msgstr  ""
+
+msgid   "detect automatically"
+msgstr  ""
+
+msgid   "draw domain on the set"
+msgstr  ""
+
 msgid   "draw labels on axes, not on boundary"
 msgstr  "scrivi le etichette sugli assi, non sulla frontiera"
 
@@ -426,7 +484,7 @@ msgid   "hide invisible parts"
 msgstr  "Nascondere le parti non visibili"
 
 msgid   "html only"
-msgstr  ""
+msgstr  "solo html"
 
 msgid   "http://en.wikipedia.org/wiki/"
         "Line_integral#Line_integral_of_a_scalar_field"
@@ -468,6 +526,9 @@ msgstr  "Logaritmo naturale"
 msgid   "preview solid of revolution"
 msgstr  "preview di un solido di rotazione"
 
+msgid   "show colors, no mesh"
+msgstr  ""
+
 msgid   "show grid"
 msgstr  "Mostra la griglia"
 
@@ -476,6 +537,9 @@ msgstr  "risolvere anche il problema a valori iniziali"
 
 msgid   "suppose x,y>0"
 msgstr  "Supporre x,y>0"
+
+msgid   "tablet"
+msgstr  ""
 
 msgid   "to"
 msgstr  "a"

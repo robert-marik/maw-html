@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: cs_CZ\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2013-12-22 10:57+0100\n"
+        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
         "PO-Revision-Date: 2013-12-11 23:55+0100\n"
         "Last-Translator: Robert Marik <marik@mendelu.cz>\n"
         "Language-Team:  <cs@li.org>\n"
@@ -89,6 +89,9 @@ msgstr  "Diferenciální počet"
 msgid   "Center of Taylor polynomial"
 msgstr  "Střed Taylorova polynomu"
 
+msgid   "Change the setting to"
+msgstr  ""
+
 msgid   "Changelog"
 msgstr  "Poslední změny"
 
@@ -112,6 +115,10 @@ msgid   "Clicking this button you get how formconv renders your expression "
 msgstr  "Kliknutím na tlačítko Náhled zjistíte, jak je vaše matematická "
         "formule interpretována programem formconv a obdržíte radu, jak "
         "zapsat formuli v programu Maxima. "
+
+msgid   "Cookies are off. Your device will be detected automatically. Set "
+        "cookies on to choose your own preference."
+msgstr  ""
 
 msgid   "Curve"
 msgstr  "Křivka"
@@ -372,9 +379,6 @@ msgstr  "Oblast pro integraci"
 msgid   "Regula falsi"
 msgstr  "Regula falsi"
 
-msgid   "Reset"
-msgstr  "Resetovat"
-
 msgid   "Second order LDE"
 msgstr  "Diferenciální rovnice druhého řádu"
 
@@ -413,6 +417,15 @@ msgstr  "Taylorův polynom"
 msgid   "The calculator evaluates %s."
 msgstr  "Kalkulátor vypočte %s."
 
+msgid   "The device type (tablet/pc) will be determined automatically."
+msgstr  ""
+
+msgid   "The site will be shown as on the computer."
+msgstr  ""
+
+msgid   "The site will be shown as on the tablet."
+msgstr  ""
+
 msgid   "The type of the derivative"
 msgstr  "Typ derivace"
 
@@ -450,6 +463,12 @@ msgstr  "automaticky derivovat konstanty"
 
 msgid   "automatically use linearity of derivative"
 msgstr  "automaticky použít linearitu derivace"
+
+msgid   "computer"
+msgstr  ""
+
+msgid   "detect automatically"
+msgstr  ""
 
 msgid   "draw domain on the set"
 msgstr  "kreslit na čtverci"
@@ -517,6 +536,9 @@ msgstr  "hledáme řešení s počáteční podmínkou"
 
 msgid   "suppose x,y>0"
 msgstr  "řešit v prvním kvadrantu (s podmínkami nezápornosti)"
+
+msgid   "tablet"
+msgstr  ""
 
 msgid   "to"
 msgstr  "do"
