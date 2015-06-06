@@ -280,6 +280,15 @@ echo $maw_header;
 ?>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
 <div id="main">
@@ -311,6 +320,15 @@ echo ("&nbsp;<a rel=\"facebox\" href=\"translators.html\">".__("More languages")
 
 </div>
 
+<div class="support">
+<?php
+  if (__("http://sourceforge.net/apps/phpbb/mathassistant")!="http://sourceforge.net/apps/phpbb/mathassistant")
+      { echo '<a href="'.__("http://sourceforge.net/apps/phpbb/mathassistant").'">'.__("Support from MAW forum").'</a><br>'; }
+      ?>  
+</div>
+      
+      
+
 <?php 
 
 if (file_exists('./mawcustom_top.php')) 
@@ -324,7 +342,14 @@ echo "\n".'<div id="title">'."\n".'<div id="main-title">';
 echo __('Mathematical Assistant on Web');
 echo '</div></div></div>';
 
+?>
+<div class="fb-like" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
+<div style="margin-top:5px;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://um.mendelu.cz/maw" data-via="robert_marik" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<?php
 if (file_exists('./mawcustom_aftertitle.php')) 
 {
   echo ("\n<div id=\"mawcustom2\">");
@@ -461,5 +486,102 @@ echo '</div>';
 ?>
 
 </div>
+
+<style>
+.responsive-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;}
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.cetered-div{ max-width:500px !important; margin-left:auto; margin-right:auto; display:inline-div;}
+.border {border-width:1px; border-style: dashed; border-color: gray; padding:10px; background-color:#5fcc06;}
+.popisek {margin-left:auto; margin-right:auto; margin-bottom:10px; font-weight:bold;}
+
+
+#twitter-widget-0 {
+text-align: center;
+}
+.twtr-doc {
+text-align: left;
+margin: auto;
+}
+iframe[id^='twitter-widget-']{ width:100% !important;}
+
+
+.wrapper{padding-top:30px;}
+                                           
+#one {
+        float:left; 
+        margin-right:20px;
+        width:500px;
+    }
+
+#two { 
+          overflow:hidden;
+       }
+                              
+@media screen and (max-width: 600px) {
+     #one { 
+           float: none;
+           margin-right:0;
+           width:auto;
+           border:0;
+           border-bottom:2px solid #000;    
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .optimg {
+      display: none;
+  }
+}
+
+</style>
+
+<div class="wrapper">
+<div id="one" class="cetered-div border">
+<?php
+
+ include("youtube.php");
+ //$popisek='Division on meat grinder / dělení mlýnkem na maso';
+ //$adresa='HecEOd2494k';
+ echo "<div class='popisek'>$popisek</div>";
+ echo '<div class="responsive-container">';
+ echo '<iframe src="https://www.youtube.com/embed/';
+ echo $adresa;
+ echo '" frameborder="0" allowfullscreen></iframe>';
+ echo '</div>';
+if ($reqlang=="cs")
+{
+echo '<p style="text-align:right; margin:0pt; margin-top:5px;">Celý <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube kanál</a>';
+echo '<p style="text-align:right; margin:0pt;">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a></p>';
+}   
+else
+{
+echo '<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube chanel</a>.</p>';
+} 
+?>
+</div>
+
+
+
+<div id="two" class="centered-div border" style="margin-left:auto; margin-right:auto;">
+<div  style="max-width:100% !important; margin-left:auto; margin-right:auto;">
+ <a class="twitter-timeline"  href="https://twitter.com/robert_marik" data-widget-id="572037739382837248">Tweets by @robert_marik</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ </div>
+</div>                                       
+</div>     
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41290718-1', 'mendelu.cz');
+  ga('send', 'pageview');
+
+</script>
+
+
+
 </body>
 </html>

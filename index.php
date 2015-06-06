@@ -335,9 +335,9 @@ jQuery("#calc .tlacitko").bind("click",function(){
     }
 });
 
-jQuery('#maw_calculator .tlacitko').prop('value','').css("border","none").css("background-color","transparent");
-jQuery('#maw_calculator .tlacitko').css("height","20px").css("width","20px").toggleClass("lupa");
-jQuery('#maw_calculator :submit').css("height","30px").css("width","30px").toggleClass("go");
+//jQuery('#maw_calculator .tlacitko').prop('value','').css("border","none").css("background-color","transparent");
+//jQuery('#maw_calculator .tlacitko').css("height","20px").css("width","20px").toggleClass("lupa");
+//jQuery('#maw_calculator :submit').css("height","30px").css("width","30px").toggleClass("go");
 
 });
 
@@ -405,10 +405,17 @@ function nastavit(cislo)
   });
 </script>
 
+<!--
+
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+-->
+
+<script type="text/javascript"
+   src="http://um.mendelu.cz/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
   <script type="text/javascript">
 var thedata;
@@ -506,6 +513,15 @@ echo $maw_header;
 ?>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
 <noscript> <b style="color: rgb(255, 0, 0);">
@@ -635,7 +651,16 @@ echo "\n".'<div id="title">'."\n".'<div id="main-title">';
 echo __('Mathematical Assistant on Web');
 echo '</div></div></div>';
 
+?>
 
+<div class="fb-like" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<div style="margin-top:5px;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://um.mendelu.cz/maw" data-via="robert_marik" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<?php
 if (file_exists('./mawcustom_aftertitle.php')) 
 {
   echo ("\n<div id=\"mawcustom2\">");

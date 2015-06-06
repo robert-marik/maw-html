@@ -6,6 +6,84 @@
 
 <div id=mawoutput> </div>
 
+
+
+<style> 
+.responsive-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.cetered-div{ max-width:600px; margin-left:auto; margin-right:auto;  display:inline-div;}
+.border {border-width:1px; border-style: dashed; border-color: gray; padding:10px; background-color:#5fcc06;}
+.popisek {margin-left:auto; margin-right:auto; margin-bottom:10px; font-weight:bold;}
+
+.popisekp {margin-top:0px; margin-bottom:0px;}
+
+
+.wrapper{padding-top:10px;}
+                                           
+#one {
+        float:left; 
+        margin-right:20px;
+        width:500px;
+    }
+    
+#one .border {margin-bottom:30px; margin-left:3px;}
+
+#two { 
+          overflow:hidden;
+       }
+
+#two .imgdiv {width:60%; max-width:300px !important; margin-left:auto; margin-right:auto; msrgin-top:10px;}
+.imgdiv img {width:100% !important;}
+                              
+@media screen and (max-width: 600px) {
+     #one { 
+           float: none;
+           margin-right:0;
+           width:auto;
+           border:0;
+           border-bottom:2px solid gray;
+           border-top:2px solid gray;
+                          
+   }
+}
+
+
+
+</style>
+
+
+<div class="wrapper">
+<div id="one">
+
+
+<div class="cetered-div border">
+<?php
+
+include("youtube.php");
+$popisek="<p class='popisekp'>".str_replace("<br>","</p><p class='popisekp'>",$popisek)."</p>";
+echo "<div class='popisek'>$popisek</div>";
+echo '<div class="responsive-container">';
+echo '<iframe src="https://www.youtube.com/embed/';
+echo $adresa;
+echo '" frameborder="0" allowfullscreen></iframe>';
+echo '</div>';
+if ($reqlang=="cs")
+{
+echo '<p style="text-align:right; margin:0pt; margin-top:5px;">Celý <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube kanál</a>.</p>';
+echo '<p style="text-align:right; margin:0pt;">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a>.</p>';
+}
+else
+{
+echo '<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube chanel</a>.</p>';
+}
+
+?>
+</div>
+
+
+</div>
+<div id="two">
+
 <?php
 
 
@@ -36,13 +114,15 @@ computer generated answer.</div>';
 }
 
 
-echo "<br><br>";
-echo "<a href='http://akademie.ldf.mendelu.cz'><img src='http://user.mendelu.cz/marik/akademie/OPVK.png' width=200></a>";
+echo "<div class=imgdiv>";
+echo "<a href='http://akademie.ldf.mendelu.cz'><img src='http://user.mendelu.cz/marik/akademie/OPVK.png'></a>";
+echo "</div>";
 
 ?>
 
+</div>
 
-<br>
+
 <br>
 <br>
 <br>
