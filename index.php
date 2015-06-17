@@ -602,7 +602,7 @@ echo __("You should turn JavaScript on to see popup informations.");
 
 <div id="main">
 <div id="head">
-<div id="flags">
+<div id="flags" class="no-print">
 <div id="flags-left">
 <?php 
 function lang_links()
@@ -653,9 +653,9 @@ echo '</div></div></div>';
 
 ?>
 
-<div class="fb-like" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-like no-print" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
-<div style="margin-top:5px;">
+<div style="margin-top:5px;" class="no-print">
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://um.mendelu.cz/maw" data-via="robert_marik" data-count="none">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
@@ -871,10 +871,10 @@ else
 </div>
 </div>
 <?php if ($deviceType!="computer")  : ?>
-<span class="menuicon"><a href="menu.php?lang=<?php echo $reqlang;?>"><img src="icons/home.png" alt="Home" width=30></a></span>
+<span class="menuicon no-print"><a href="menu.php?lang=<?php echo $reqlang;?>"><img src="icons/home.png" alt="Home" width=30></a></span>
 <?php endif; ?>
 
-<div id="maw_calculator">
+<div id="maw_calculator" class="no-print">
 
 <?php
 include($form.".php");
@@ -927,13 +927,13 @@ $("#exampleform").submit(function(e)
                if (ct != "application/json") {//jQuery.facebox(data);
                 if (data.match(/MAWerror/i)) 
                   {
-                    $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up_red.png width=30></span>"+data+"</div>");
+                    $("#mawoutput").html("<div class=outputdata><span id=go-top class='no-print'><img src=arrow_up_red.png width=30></span>"+data+"</div>");
                     $(".outputdata").css("border-color","#F00");
                     //data = "<div style='margin-left:auto; margin-right:10px;'><img src=fail.png width=90></div>" + data;
                   } 
                   else 
                   {
-                   $("#mawoutput").html("<div class=outputdata><span id=go-top><img src=arrow_up.png width=30></span>"+data+"</div>");
+                   $("#mawoutput").html("<div class=outputdata><span id=go-top class=no-print><img src=arrow_up.png width=30></span>"+data+"</div>");
                    $(".outputdata").css("border-color","#5FCC06");
                   }                
                 MathJax.Hub.Queue(["Typeset",MathJax.Hub]); //,function () {velikost();},function () {velikost();}); 

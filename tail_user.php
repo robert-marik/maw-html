@@ -52,7 +52,7 @@
 </style>
 
 
-<div class="wrapper">
+<div class="wrapper no-print">
 <div id="one">
 
 

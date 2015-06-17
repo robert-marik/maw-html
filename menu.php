@@ -128,6 +128,7 @@ if (file_exists('./menu_custom.css'))
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+<script src="masonry.pkgd.min.js"></script>
 
 <style type="text/css">
 .tlacitko {padding:2px; border: solid 1pt; margin-top:10px; margin-bottom:10px; display:inline-block; min-width:2em; text-align:center; background-color:#DDD;}
@@ -212,6 +213,14 @@ display : inline-block; }
 #menu_close {
     text-align:right;
 }
+
+.polozka{margin-bottom:3px; display:inline-block; vertical-align:top;}
+
+.thmbnail{background-color:lightgray; width:150px !important; padding:5px;}
+.thmbnail imgdiv {margin: 0 auto; }
+.href {height:auto;}
+
+.double .polozka, .double .href, .double .thmbnail {width:320px !important;}
 </style>
 
 <script>
@@ -380,18 +389,6 @@ if (file_exists('./mawcustom_aftertitle.php'))
 <?php 
 
 
-function aktivni_konec($cislo)
-{
-  printsubmenu($cislo);
-  echo ("</li>");
-}
-
-function aktivni($cislo){
-    global $submenu;
-    echo ("\n".'<li');
-    if ($submenu==$cislo) echo ' class="maw_active">'; else echo ' class="maw_nonactive">';
-  }
-
 function nospaces ($a)
 {
    global $submenu_inside;
@@ -399,87 +396,51 @@ function nospaces ($a)
    else {return ($a);}
 }
 
-function maw_submenu ($a,$b,$c,$d)
+function maw_submenu ($a,$b,$c,$d,$double="normal")
 {
-return "\n".'<li><a href="index.php?lang='.$b.'&amp;form='.$c.'"><div class="href">'.nospaces($d).'</div></a></li>';
+  $picture="";
+  if (file_exists("$c.svg"))
+    {$picture="<div class='imgdiv'><img src='$c.svg'></div>";} else {$picture="";}
+  return "\n".'<div class="polozka '.$double.'"><a href="index.php?lang='.$b.'&amp;form='.$c.'"><div class="href">'.nospaces($d).'</div><div class="thmbnail">'.$picture.'</div></a></div>';
 }
 
-function printsubmenu($i)
-{
-  global $lang;
-  $proceed=false;
-  if (in_array($i,array("2","3","4","5","6")))
-    {
-      echo ("\n<div class=\"submenu_container\">\n<ul class=\"submenu\">");
-      $proceed=true;
-    }
-  if ($i=="2") {
-    echo maw_submenu('graf',$lang,'graf', __("Function grapher"));
-    echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
-    echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
-    echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
-    echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
-  }
-  elseif ($i=="3")
-  {
-    echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'));
-    echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'));
-    echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
-    echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
-  } 
-  elseif ($i=="4")
-  {
-    echo maw_submenu('integral',$lang,'integral',__('Antiderivative'));
-    echo maw_submenu('definite',$lang,'definite',__('Definite integral and mean value'));
-    echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
-    echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
-    echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
-    echo maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral'));
-  } 
-  elseif ($i=="5")
-  {
-    echo maw_submenu('ode',$lang,'ode',__('First order ODE'));
-    echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
-    echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
-  } 
-  elseif ($i=="6")
-  {
-    echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
-    echo maw_submenu('newton',$lang,'newton',__('Newton-Raphson method'));
-    echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
-    echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
-    echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
-  }
-  if ($proceed) {echo ("\n</ul>\n</div>\n");}
-}
 
-printf("\n<ul class=\"maw_mobile_menu\">");
-aktivni(2);
-echo __("Precalculus");
-aktivni_konec(2);
+printf("\n<div class=\"maw_mobile_menu\">");
 
-aktivni(3);
-echo __("Calculus");
-aktivni_konec(3);
 
-aktivni(4);
-echo __("Integral calculus");
-  aktivni_konec(4);
+echo maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double");
+echo maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double');
+echo maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'),'double');
+echo maw_submenu('graf',$lang,'graf', __("Function grapher"),'double');
+echo maw_submenu('ode',$lang,'ode',__('First order ODE'),'double');
+echo maw_submenu('integral2',$lang,'integral2',__('Double integral'));
+echo maw_submenu('definite',$lang,'definite',__('Definite integral and mean value'));
+echo maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral'));
+echo maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables'));
 
-aktivni(5);
-echo __("Differential equations");
-aktivni_konec(5);
+echo maw_submenu('df',$lang,'df', __("Domain of functions (one variable)"));
+echo maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)"));
+echo maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial'));
+echo maw_submenu('mnc',$lang,'mnc',__('Least squares method'));
 
-aktivni(6);
-echo __("Equations and inequalities");
-aktivni_konec(6);
+echo maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial'));
 
-echo("\n</ul>");
+echo maw_submenu('trap',$lang,'trap',__('Trapezoidal rule'));
+echo maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral'));
 
-if (!$submenu_inside)
-{
-  printsubmenu($submenu);
-}
+echo maw_submenu('lde2',$lang,'lde2',__('Second order LDE'));
+echo maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system'));
+
+echo maw_submenu('bisection',$lang,'bisection',__('Bisection'));
+echo maw_submenu('newton',$lang,'newton',__('Newton-Raphson method'));
+echo maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi'));
+echo maw_submenu('banach',$lang,'banach',__('Method of iterations'));
+echo maw_submenu('ineq2d',$lang,'ineq2d',__('System of inequalities (in one or two variables)'));
+
+
+
+echo("\n</div>");
+
 
 echo '</div>';
 
@@ -578,6 +539,15 @@ echo '<p style="text-align:right;">The rest of the <a href="https://www.youtube.
 
   ga('create', 'UA-41290718-1', 'mendelu.cz');
   ga('send', 'pageview');
+
+
+$(window).load(function() {
+$('.maw_mobile_menu').masonry({
+  // options
+  itemSelector: '.polozka',
+  columnWidth: 170
+});
+});
 
 </script>
 

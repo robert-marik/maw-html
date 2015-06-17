@@ -194,3 +194,13 @@ column-count:2;
 
 #tablet_or_pc {border: solid 1px gray; margin:20px; padding:10px; background-color:#5fcc06; text-align:center;  cursor: pointer; display:none;}
 //#tab_pc_switcher {padding:5px; border: solid 1px; margin-bottom:20px; width:100%;}
+
+
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
