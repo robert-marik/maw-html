@@ -130,11 +130,9 @@ if (file_exists('./menu_custom.css'))
 
 <title><?php echo __("Mathematical Assistant on Web");?></title>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-<script type="text/javascript" src="fancybox/video.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/fresco/fresco.css"/>
 
 <script src="masonry.pkgd.min.js"></script>
 
@@ -500,9 +498,11 @@ array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations'
  $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
  $youtubestring = $youtubestring.'<div class="responsive-container">';
  $imgadresa=preg_replace('/\?.*/', '', $adresa);;
-if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
-else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
- $youtubestring = $youtubestring."<a href='http://youtube.com/v/$adresa' title='' class='video'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
+if ($adresa==$imgadresa) {$adresa=$adresa."?fs=0&amp;autoplay=1";}
+else {$adresa=$adresa."&amp;fs=0&amp;autoplay=1";}
+ $youtubestring = $youtubestring."<a href='http://www.youtube.com/v/$adresa' title=''  
+ data-fresco-options='width: 853, height: 480, youtube: { autoplay: 0 }' 
+ class='fresco'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
  //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
  //$youtubestring = $youtubestring.$adresa;
  //$youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
