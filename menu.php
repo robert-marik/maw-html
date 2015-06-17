@@ -214,13 +214,63 @@ display : inline-block; }
     text-align:right;
 }
 
-.polozka{margin-bottom:3px; display:inline-block; vertical-align:top;}
+.polozka{margin-bottom:3px; display:inline-block; vertical-align:top;border:1px solid gray;}
 
-.thmbnail{background-color:lightgray; width:150px !important; padding:5px;}
+.thmbnail{background-color:#DDD; width:150px !important; padding:5px;}
 .thmbnail imgdiv {margin: 0 auto; }
 .href {height:auto;}
 
 .double .polozka, .double .href, .double .thmbnail {width:320px !important;}
+
+.triple .polozka {width:480px !important;}
+
+.polozka iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.responsive-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;}
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.cetered-div{ max-width:500px !important; margin-left:auto; margin-right:auto; display:inline-div;}
+.border {border-width:1px; border-style: dashed; border-color: gray; padding:10px; background-color:#5fcc06;}
+.popisek {margin-left:auto; margin-right:auto; margin-bottom:10px; font-weight:bold;}
+
+
+#twitter-widget-0 {
+text-align: center;
+}
+.twtr-doc {
+text-align: left;
+margin: auto;
+}
+iframe[id^='twitter-widget-']{ width:100% !important; height:300 px !important;}
+
+
+.wrapper{padding-top:30px;}
+                                           
+#one {
+        float:left; 
+        margin-right:20px;
+        width:480px;
+    }
+
+#two { 
+          overflow:hidden;
+       }
+                              
+@media screen and (max-width: 600px) {
+     #one { 
+           float: none;
+           margin-right:0;
+           width:auto;
+           border:0;
+           border-bottom:2px solid #000;    
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .optimg {
+      display: none;
+  }
+}
+
 </style>
 
 <script>
@@ -448,53 +498,6 @@ echo '</div>';
 
 </div>
 
-<style>
-.responsive-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;}
-.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.cetered-div{ max-width:500px !important; margin-left:auto; margin-right:auto; display:inline-div;}
-.border {border-width:1px; border-style: dashed; border-color: gray; padding:10px; background-color:#5fcc06;}
-.popisek {margin-left:auto; margin-right:auto; margin-bottom:10px; font-weight:bold;}
-
-
-#twitter-widget-0 {
-text-align: center;
-}
-.twtr-doc {
-text-align: left;
-margin: auto;
-}
-iframe[id^='twitter-widget-']{ width:100% !important;}
-
-
-.wrapper{padding-top:30px;}
-                                           
-#one {
-        float:left; 
-        margin-right:20px;
-        width:500px;
-    }
-
-#two { 
-          overflow:hidden;
-       }
-                              
-@media screen and (max-width: 600px) {
-     #one { 
-           float: none;
-           margin-right:0;
-           width:auto;
-           border:0;
-           border-bottom:2px solid #000;    
-   }
-}
-
-@media screen and (max-width: 700px) {
-   .optimg {
-      display: none;
-  }
-}
-
-</style>
 
 <div class="wrapper">
 <div id="one" class="cetered-div border">
