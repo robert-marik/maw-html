@@ -35,7 +35,7 @@
  if ($cislo==6)
  {
    $popisek='Top 3 different methods for square root on mechanical calculator - methods and calculator description, you should turn english subtitles on';
-   $popisekcz='Nejlepší 3 metody pro odmocňování na mechanické kalkučce - popis kalkulačky a metod';
+   $popisekcz='Nejlepší 3 metody pro odmocňování na mechanické kalkulačce - popis kalkulačky a metod';
    $adresa='5DK1W_CxH4g';
   }
 
