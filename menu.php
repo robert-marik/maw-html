@@ -131,8 +131,8 @@ if (file_exists('./menu_custom.css'))
 <title><?php echo __("Mathematical Assistant on Web");?></title>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="/js/fresco/fresco.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/fresco/fresco.css"/>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
 
 <script src="masonry.pkgd.min.js"></script>
 
