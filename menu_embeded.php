@@ -112,8 +112,7 @@ $group7=array("map");
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" >
-
-
+  
 <?php
 if (file_exists('./custom.css')) 
 {
@@ -130,11 +129,7 @@ if (file_exists('./menu_custom.css'))
 
 <title><?php echo __("Mathematical Assistant on Web");?></title>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-<script type="text/javascript" src="fancybox/video.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <script src="masonry.pkgd.min.js"></script>
 
@@ -233,10 +228,10 @@ display : inline-block; }
 .double .polozka, .double .href, .double .thmbnail {width:320px !important;}
 #one, .triple .polozka {width:320px !important;}
 
-.ytbimg { position: absolute; top: 0; left: 0; width: 100%; }
+.polozka iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.responsive-container { position: relative; padding-bottom: 65%; height: 0; overflow: hidden;}
-.responsive-container .ytbimg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.responsive-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;}
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .cetered-div{ max-width:500px !important; margin-left:auto; margin-right:auto; display:inline-div;}
 .border {border-width:1px; border-style: dashed; border-color: gray; padding:0px; background-color:#5fcc06;}
 .popisek {margin-left:auto; margin-right:auto; margin-bottom:1px; font-size:75%; font-weight:normal; padding:3px;}
@@ -499,13 +494,9 @@ array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations'
  //$adresa='HecEOd2494k';
  $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
  $youtubestring = $youtubestring.'<div class="responsive-container">';
- $imgadresa=preg_replace('/\?.*/', '', $adresa);;
-if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
-else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
- $youtubestring = $youtubestring."<a href='http://youtube.com/v/$adresa' title='' class='video'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
- //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
- //$youtubestring = $youtubestring.$adresa;
- //$youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
+ $youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
+ $youtubestring = $youtubestring.$adresa;
+ $youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
  $youtubestring = $youtubestring.'</div>';
  if ($reqlang=="cs")	
  {
