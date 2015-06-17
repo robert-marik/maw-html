@@ -648,7 +648,7 @@ if (file_exists('./mawcustom_top.php'))
 }
 
 echo "\n".'<div id="title">'."\n".'<div id="main-title">';
-echo __('Mathematical Assistant on Web');
+echo '<a href="menu.php">'.__('Mathematical Assistant on Web').'</a>';
 echo '</div></div></div>';
 
 ?>

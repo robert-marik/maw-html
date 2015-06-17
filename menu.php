@@ -240,7 +240,7 @@ text-align: center;
 text-align: left;
 margin: auto;
 }
-iframe[id^='twitter-widget-']{ width:100% !important; height:300 px !important;}
+iframe[id^='twitter-widget-']{ width:100% !important;}
 
 
 .wrapper{padding-top:30px;}
@@ -253,6 +253,7 @@ iframe[id^='twitter-widget-']{ width:100% !important; height:300 px !important;}
 
 #two { 
           overflow:hidden;
+          max-height:350px;
        }
                               
 @media screen and (max-width: 600px) {

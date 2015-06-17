@@ -107,3 +107,5 @@ input.preview_region {}
 #facebox img {vertical-align:center;}
 
 .pdforhtml, .pdfnohtmlyes, .pdfyeshtmlno {display:none; border:none;}
+
+#main-title a {color:black !important; text-decoration:none;}
