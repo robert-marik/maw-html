@@ -80,5 +80,8 @@ if (($reqlang=="cs") && (mt_rand(0,9)==0))
 } 
 
 
+//   $popisek='MacGyverův nožový planimetr: měření obsahu plochy (integrálu) domácí variantou Prytzova planimetru na fotkách zatmění Slunce, začíná v čase 1:09';
+//   $adresa='8lXxJ5eIvII?start=69';
+
 
 ?>
