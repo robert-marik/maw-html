@@ -130,11 +130,21 @@ if (file_exists('./menu_custom.css'))
 
 <title><?php echo __("Mathematical Assistant on Web");?></title>
 
-<link rel="stylesheet" href="js/colorbox/colorbox.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 
-<script type="text/javascript" src="js/colorbox/jquery.colorbox-min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+        <!-- Add Media helper (this is optional) -->
+        <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
 
 <script src="masonry.pkgd.min.js"></script>
 
@@ -500,9 +510,9 @@ array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations'
  $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
  $youtubestring = $youtubestring.'<div class="responsive-container">';
  $imgadresa=preg_replace('/\?.*/', '', $adresa);;
-if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
-else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
- $youtubestring = $youtubestring."<a href='http://youtube.com/embed/$adresa' class='youtube'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
+//if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
+//else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
+ $youtubestring = $youtubestring."<a href='http://www.youtube.com/watch?v=$adresa' title='' class='fancybox-media'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
  //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
  //$youtubestring = $youtubestring.$adresa;
  //$youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
@@ -522,6 +532,7 @@ else
 array_push($calcs, $youtubestring);
 
 shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; }
+
 
 ?>
 
@@ -555,10 +566,24 @@ $('.maw_mobile_menu').masonry({
 });
 });
 
-$(document).ready(function() {
-    $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-});
 
+$(document).ready(function() {
+                        $('.fancybox-media')
+                                .attr('rel', 'media-gallery')
+                                .fancybox({
+                                        openEffect : 'none',
+                                        closeEffect : 'none',
+                                        prevEffect : 'none',
+                                        nextEffect : 'none',
+
+                                        arrows : false,
+                                        helpers : {
+                                                media : {},
+                                                buttons : {}
+                                        }
+                                });
+
+});
 </script>
 
 
