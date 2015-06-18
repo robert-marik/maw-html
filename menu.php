@@ -2,6 +2,8 @@
 
 $sdeleni_cz="Úspěšný závěr školního roku a letního semestru všem uživatelům MAWu. Pěkné prázdniny a nashle v září.";
 $sdeleni_en="Nice summer 2015 to all MAW users. Have a nice holidays.";
+$sdeleni_czB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>19. června 1852 se narodil Franz Trinks, vynikající německý inženýr, konstruktér kalkulaček Brunsviga.</a> Stejný den o 229 let dříve se narodil Blaise Pascal, vználezce jednoho z prvních počítačích strojů, <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaliny</a>.</small>";
+$sdeleni_enB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>Franz Trinks, born June 19, 1852. He was an outstanding German engineer, leader of the developement of Brunsviga calculators.</a> Blais Pascal, inventor of the computing machine <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaline</a> was born on the same day, 229 years before Trinks.</small>";
 
 /*
 Mathematical Assistant on Web - web interface for mathematical
@@ -80,6 +82,17 @@ textdomain("messages");
 bind_textdomain_codeset  ( "messages" , "UTF-8" );
 function __($text){return gettext($text);}
 
+
+$newsfile="";
+if  (!(isset($_COOKIE["mawhtml"])))
+{
+$newsfile="news.html";
+if ($lang=="cs") {$newsfile="news_cs.html";}
+setcookie("mawhtml", time(), time()+3600*24);
+}
+
+
+
 $form=$_REQUEST["form"];
 $maw_before_form_custom_string="";
 
@@ -131,9 +144,6 @@ if (file_exists('./menu_custom.css'))
 <title><?php echo __("Mathematical Assistant on Web");?></title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-
 
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -283,6 +293,7 @@ display : inline-block; }
 .nopadding {background-color:#F5F5DC;}
 
 
+.miniimg {width:100%; }
 
 </style>
 
@@ -466,7 +477,9 @@ printf("\n<div class=\"maw_mobile_menu\">");
 $calcs = array();
 
 if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
+if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
 if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
 
 array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
 array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
@@ -573,6 +586,20 @@ $(document).ready(function() {
                                 });
 
 });
+
+
+
+<?php
+
+
+if ($newsfile!=""){
+echo "\$(document).ready(function() {\$.fancybox.open({ href : '$newsfile', type: 'iframe' });});";
+}
+
+
+?>
+
+
 </script>
 
 
