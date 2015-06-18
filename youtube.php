@@ -1,5 +1,5 @@
 <?php
- $cislo=rand(0,9); 
+ $cislo=mt_rand(0,9); 
 
  $popisek='Integration (measuring area) by spoon, turn English subtitles on';
  $popisekcz='Integrování (měření obsahu) žličkou';
@@ -35,18 +35,18 @@
  if ($cislo==6)
  {
    $popisek='Top 3 different methods for square root on mechanical calculator - methods and calculator description, you should turn english subtitles on';
-   $popisekcz='Nejlepší 3 metody pro odmocňování na mechanické kalkulačce - popis kalkulačky a metod';
+   $popisekcz='Nejlepší 3 metody pro odmocňování na mechanické kalkulačce - popis kalkulačky a metod. Vlastní výpočet je ve druhém díle tohoto videa.';
    $adresa='5DK1W_CxH4g';
   }
 
  if ($cislo==7)
  {
   $popisek='Top 3 different methods for square root of 1896 on mechanical calulator (second part with actual computation, the methods are introduced in the first part)';
-  $popisekcz='Nejlepší 3 metody pro odmocninu z 1896 na mechanické kalkulačce (druhý díl - výpočet, metody jsou představeny v prvním díle videa).'; 
+  $popisekcz='Nejlepší 3 metody pro odmocninu z 1896 na mechanické kalkulačce. Druhý díl - výpočet. Metody jsou představeny v prvním díle videa.'; 
   $adresa='bmV52Hp1byc';
  }
 
-$dalsicislo=rand(0,3);
+$dalsicislo=mt_rand(2,3);
 
  if (($cislo==8)||($dalsicislo==1))
  {
@@ -58,9 +58,9 @@ $dalsicislo=rand(0,3);
 
 if ($reqlang=="cs") {$popisek=$popisekcz;}
 
-if (($reqlang=="cs") && (rand(0,9)==0))
+if (($reqlang=="cs") && (mt_rand(0,9)==0))
 {
-  $cislo=rand(0,2);
+  $cislo=mt_rand(0,2);
   if ($cislo==0)
   {
    $popisek='Video o zrození mechanických kalkulaček (když computers nebyly stroje ale lidé)';
@@ -78,6 +78,7 @@ if (($reqlang=="cs") && (rand(0,9)==0))
   }
    
 } 
+
 
 
 ?>
