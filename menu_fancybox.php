@@ -504,13 +504,14 @@ array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations'
 
 
  $youtubestring='<div class="wrapper polozka double"><div id="one" class="cetered-div border">';
- include("youtube2.php");
+ include("youtube.php");
  //$popisek='Division on meat grinder / dělení mlýnkem na maso';
  //$adresa='HecEOd2494k';
  $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
  $youtubestring = $youtubestring.'<div class="responsive-container">';
  $imgadresa=preg_replace('/\?.*/', '', $adresa);;
- if ($adresa!=$imgadresa) {$adresa=str_replace("?","&",$adresa);}
+//if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
+//else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
  $youtubestring = $youtubestring."<a href='http://www.youtube.com/watch?v=$adresa' title='' class='fancybox-media'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
  //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
  //$youtubestring = $youtubestring.$adresa;

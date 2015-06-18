@@ -240,8 +240,10 @@ display : inline-block; }
 .thmbnail imgdiv {margin: 0 auto; }
 .href {height:auto;}
 
+
 .double .polozka, .double .href, .double .thmbnail {width:320px !important;}
-#one, .triple .polozka {width:320px !important;}
+
+#one, .triple .polozka {width:328px !important;}
 
 .ytbimg { position: absolute; top: 0; left: 0; width: 100%; }
 
@@ -271,6 +273,7 @@ display : inline-block; }
 }
 
 .mobilemenu, .maw_mobile_menu {padding:0px;}
+.mobilemenu {padding-top:6px;}
 
 .fb-like {margin-bottom:2px; margin-left:auto; margin-right:3px;}
 
@@ -349,14 +352,6 @@ echo $maw_header;
 ?>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
@@ -571,15 +566,9 @@ $(document).ready(function() {
                         $('.fancybox-media')
                                 .attr('rel', 'media-gallery')
                                 .fancybox({
-                                        openEffect : 'none',
-                                        closeEffect : 'none',
-                                        prevEffect : 'none',
-                                        nextEffect : 'none',
-
                                         arrows : false,
                                         helpers : {
                                                 media : {},
-                                                buttons : {}
                                         }
                                 });
 
