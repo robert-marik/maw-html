@@ -94,7 +94,7 @@
 					autoplay    : 1,
 					autohide    : 1,
 					fs          : 1,
-					rel         : 0,
+					rel         : 1,
 					hd          : 1,
 					wmode       : 'opaque',
 					enablejsapi : 1
