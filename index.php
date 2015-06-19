@@ -197,6 +197,12 @@ foreach ($idsArray as $value)
 <head>
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+  <link rel="stylesheet" href="css/normalize.min.css" />
+  <!-- Stylesheet required to power RRSSB. Copy this css file to your header -->
+  <link rel="stylesheet" href="css/rrssb.css" />
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="styl.css" >
   
 <?php
@@ -215,6 +221,8 @@ if ($deviceType != 'computer')
   }
 
 ?>
+
+
 
   <title><?php echo __("Mathematical Assistant on Web");?></title>
 
@@ -513,15 +521,6 @@ echo $maw_header;
 ?>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div> 
 
 <noscript> <b style="color: rgb(255, 0, 0);">
@@ -653,11 +652,9 @@ echo '</div></div></div>';
 
 ?>
 
-<div class="fb-like no-print" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
 <div style="margin-top:5px;" class="no-print">
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://um.mendelu.cz/maw" data-via="robert_marik" data-count="none">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
 </div>
 
 <?php
@@ -1010,6 +1007,8 @@ function velikost ()
 }
 </script>
 
+
+
 <?php
 include("tail.php"); 
 if (($_REQUEST["auto"]==1)&&($_REQUEST["output"]!="pdf")&&false):
@@ -1058,4 +1057,14 @@ $(".pdfyeshtmlno").css("display","none");
 $(".pdfnohtmlyes").css("display","none");
 </script>
 <?php endif; ?>
+
+
+
+<div style="clear:both;"></div>
+<div class="share-container">
+<?php require("social.php"); echo $social; ?>
+</div>
+<div style="clear:both;"></div>
+
+  <script src="js/rrssb.min.js"></script>
 

@@ -1,10 +1,5 @@
 <?php 
 
-$sdeleni_cz="Úspěšný závěr školního roku a letního semestru všem uživatelům MAWu. Pěkné prázdniny a nashle v září.";
-$sdeleni_en="Nice summer 2015 to all MAW users. Have a nice holidays.";
-$sdeleni_czB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>19. června 1852 se narodil Franz Trinks, vynikající německý inženýr, konstruktér kalkulaček Brunsviga.</a> Stejný den o 229 let dříve se narodil Blaise Pascal, vználezce jednoho z prvních počítačích strojů, <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaliny</a>.</small>";
-$sdeleni_enB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>Franz Trinks, born June 19, 1852. He was an outstanding German engineer, leader of the developement of Brunsviga calculators.</a> Blais Pascal, inventor of the computing machine <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaline</a> was born on the same day, 229 years before Trinks.</small>";
-
 /*
 Mathematical Assistant on Web - web interface for mathematical
 coputations including step by step solutions
@@ -98,6 +93,8 @@ $maw_before_form_custom_string="";
 
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
+require ('./social.php');
+
 function fixit($text)
 {
   return str_replace("'","\'",$text);
@@ -125,6 +122,32 @@ $group7=array("map");
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" >
+
+
+  <meta name="description" content="The site for online computation of calculus problems. Enter you assignment and enjoy a coputer generated solution which includes all the steps."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- fb meta -->
+  <meta property="og:title" content="Mathematical Assistan on Web" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://um.mendelu.cz/maw-html" />
+  <meta property="og:image" content="http://um.mendelu.cz/maw-html/integral.svg" />
+  <meta property="og:description" content="The site for online computation of calculus problems. Enter you assignment and enjoy a coputer generated solution which includes all the steps."/>
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@robert_marik">
+  <meta name="twitter:title" content="Mathematical Assistant on Web">
+  <meta name="twitter:description" content="The site for online computation of mathematical problems with main focus to calculus http://user.mendelu.cz/marik/maw @robert_marik">
+  <meta name="twitter:image" content="http://um.mendelu.cz/maw-html/integral.svg">
+
+
+  <link rel="stylesheet" href="css/normalize.min.css" />
+  <!-- Stylesheet required to power RRSSB. Copy this css file to your header -->
+  <link rel="stylesheet" href="css/rrssb.css" />
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
 
 
 <?php
@@ -159,6 +182,8 @@ if (file_exists('./menu_custom.css'))
 <script src="masonry.pkgd.min.js"></script>
 
 <style type="text/css">
+body{margin:5px;}
+
 .tlacitko {padding:2px; border: solid 1pt; margin-top:10px; margin-bottom:10px; display:inline-block; min-width:2em; text-align:center; background-color:#DDD;}
 .open {color:gray; padding-left:3px; padding-right:3px; }
 #calc {background-color:#EEE; padding:10px;     position:fixed;
@@ -286,7 +311,7 @@ display : inline-block; }
 
 
 .miniimg {width:100%; }
-
+.rrssb-buttons li {margin-bottom:3px;}
 </style>
 
 <script>
@@ -467,6 +492,7 @@ printf("\n<div class=\"maw_mobile_menu\">");
 
 
 $calcs = array();
+array_push($calcs, "<div class='polozka href nopadding double'><div class='sdeleni'><div style='width:150px;'>".$social."</div></div></div>");
 
 if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
 if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
@@ -542,8 +568,16 @@ shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; }
 
 
 </div>
+
+
 </div>
 </div>
+
+
+  <!-- Required Javascript files. Copy these to your document. -->
+
+ <script src="js/rrssb.js"></script>
+
 
 
 <script>

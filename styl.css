@@ -43,7 +43,7 @@ font-weight : bold; white-space: nowrap; }
 
 div#dvojint td   {text-align: center;}
 
-body {background-color: #E0FFFF; font-size:14px; font-family: Arial, ARIAL CE, Helvetica, sans-serif;}
+body {background-color: #E0FFFF; font-size:14px; font-family: Arial, ARIAL CE, Helvetica, sans-serif; margin:5px;}
 
 .nadpis{font-size:150%; }
 .podnadpis{font-size: 110%; }
