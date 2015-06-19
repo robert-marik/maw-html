@@ -556,15 +556,27 @@ shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; }
   ga('send', 'pageview');
 
 
-$(window).load(function() {
-//$(document).ready(function() {
+// load masonry
+$(document).ready(function() {
 $('.maw_mobile_menu').masonry({
   // options
-  itemSelector: '.polozka',
   transitionDuration: '1s',
   columnWidth: 170
 });
 });
+
+
+//destroy and load masonry again after all images have been loaded
+$(window).load(function() {
+$('.maw_mobile_menu').masonry('destroy');
+$('.maw_mobile_menu').masonry({
+  transitionDuration: '1s',
+  columnWidth: 170
+});
+});
+
+
+
 
 
 $(document).ready(function() {
