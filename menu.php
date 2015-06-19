@@ -117,29 +117,38 @@ $group7=array("map");
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<html itemscope itemtype="http://schema.org/Other">
 <head>
   <meta name="verify-v1" content="x3d1tCrhI9DFDDtCOx3kjZETBlj6CmnFT1YHhe3HBC8=" >
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <link rel="stylesheet" type="text/css" href="styl.css" >
 
 
-  <meta name="description" content="The site for online computation of calculus problems. Enter you assignment and enjoy a coputer generated solution which includes all the steps."/>
+  <meta name="author" content="Robert Mařík">
+  <meta property="title" content="Mathematical Assistant on Web" />
+  <meta name="description" content="The site for online computation of calculus problems. Enter your assignment and enjoy a computer generated solution which includes all the steps."/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="image_src" href="http://um.mendelu.cz/maw-html/mawmenu.jpg"/>
+ 
+ <!-- Přidejte do záhlaví následující tři značky. -->
+ <meta itemprop="name" content="Mathematical Assistant on Web">
+ <meta itemprop="description" content="The site for online computation of calculus problems. Enter your assignment and enjoy a computer generated solution which includes all the steps.">
+ <meta itemprop="image" content="http://um.mendelu.cz/maw-html/mawmenu.jpg">
+ 
   <!-- fb meta -->
-  <meta property="og:title" content="Mathematical Assistan on Web" />
+  <meta property="og:title" content="Mathematical Assistant on Web" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://um.mendelu.cz/maw-html" />
-  <meta property="og:image" content="http://um.mendelu.cz/maw-html/integral.svg" />
-  <meta property="og:description" content="The site for online computation of calculus problems. Enter you assignment and enjoy a coputer generated solution which includes all the steps."/>
+  <meta property="og:url" content="http://um.mendelu.cz/maw-html/menu.php" />
+  <meta property="og:image" content="http://um.mendelu.cz/maw-html/mawmenu.jpg" />
+  <meta property="og:description" content="The site for online computation of calculus problems. Enter your assignment and enjoy a computer generated solution which includes all the steps."/>
+  <meta property="fb:admins" content="1481546925447261">
 
   <!-- twitter meta -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@robert_marik">
   <meta name="twitter:title" content="Mathematical Assistant on Web">
   <meta name="twitter:description" content="The site for online computation of mathematical problems with main focus to calculus http://user.mendelu.cz/marik/maw @robert_marik">
-  <meta name="twitter:image" content="http://um.mendelu.cz/maw-html/integral.svg">
+  <meta name="twitter:image" content="http://um.mendelu.cz/maw-html/mawmenu.jpg">
 
 
   <link rel="stylesheet" href="css/normalize.min.css" />
@@ -283,6 +292,7 @@ display : inline-block; }
 .border {border-width:1px; border-style: dashed; border-color: gray; padding:0px; background-color:#5fcc06;}
 .popisek {margin-left:auto; margin-right:auto; margin-bottom:1px; font-size:75%; font-weight:normal; padding:3px;}
 
+
 #one p {padding-right:5px; padding-bottom:3px;}
 
                               
@@ -315,6 +325,18 @@ display : inline-block; }
 
 .miniimg {width:100%; }
 .rrssb-buttons li {margin-bottom:3px;}
+
+.social .polozka:hover, .social .sdeleni, .social .polozka, .social, .social:hover {background-color:transparent; border: none;}
+
+
+.social {padding:0px; width: 162px;}
+.social .sdeleni {padding:0px;}
+
+.rrssb-buttons li {margin:0px;}
+
+.rrssb-buttons li a {border-radius: 0px;}
+
+
 </style>
 
 <script>
@@ -441,8 +463,6 @@ echo __('Mathematical Assistant on Web');
 echo '</div></div></div>';
 
 ?>
-<div class="fb-like" data-href="http://user.mendelu.cz/marik/maw" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
 
 <?php
 if (file_exists('./mawcustom_aftertitle.php')) 
@@ -499,47 +519,6 @@ function opt_shuffle ($input)
 }
 
 
-printf("\n<div class=\"maw_mobile_menu\">");
-
-
-$calcs = array();
-array_push($calcs, "<div class='polozka href nopadding double'><div class='sdeleni'><div>".$social."</div></div></div>");
-
-array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
-array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
-array_push($calcs, maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'),'double'));
-array_push($calcs, maw_submenu('graf',$lang,'graf', __("Function grapher"),'double'));
-array_push($calcs, maw_submenu('ode',$lang,'ode',__('First order ODE'),'double'));
-array_push($calcs, maw_submenu('integral2',$lang,'integral2',__('Double integral')));
-array_push($calcs, maw_submenu('definite',$lang,'definite',__('Definite integral and mean value')));
-
-//$calcs = opt_shuffle ($calcs);  
-foreach ($calcs as $value) {    echo $value; } $calcs = array();
-
-if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
-if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
-
-array_push($calcs, maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral')));
-array_push($calcs, maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables')));
-array_push($calcs, maw_submenu('df',$lang,'df', __("Domain of functions (one variable)")));
-array_push($calcs, maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)")));
-array_push($calcs, maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial')));
-array_push($calcs, maw_submenu('mnc',$lang,'mnc',__('Least squares method')));
-
-$calcs = opt_shuffle ($calcs);  
-foreach ($calcs as $value) {    echo $value; } $calcs = array();
-
-array_push($calcs, maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial')));
-array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
-array_push($calcs, maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral')));
-array_push($calcs, maw_submenu('lde2',$lang,'lde2',__('Second order LDE')));
-array_push($calcs, maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system')));
-array_push($calcs, maw_submenu('bisection',$lang,'bisection',__('Bisection')));
-array_push($calcs, maw_submenu('newton',$lang,'newton',__('Newton-Raphson method')));
-array_push($calcs, maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi')));
-array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations')));
 
 
  $youtubestring='<div class="wrapper polozka double"><div id="one" class="cetered-div border">';
@@ -568,9 +547,55 @@ else
  $youtubestring = $youtubestring.'</div></div>';
 
 
-array_push($calcs, $youtubestring);
+printf("\n<div class=\"maw_mobile_menu\">");
+
+
+$calcs = array();
+array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div></div></div>");
+
+array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
+array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
+array_push($calcs, maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'),'double'));
+array_push($calcs, maw_submenu('graf',$lang,'graf', __("Function grapher"),'double'));
+array_push($calcs, maw_submenu('ode',$lang,'ode',__('First order ODE'),'double'));
+array_push($calcs, maw_submenu('integral2',$lang,'integral2',__('Double integral')));
+array_push($calcs, maw_submenu('definite',$lang,'definite',__('Definite integral and mean value')));
+
+//$calcs = opt_shuffle ($calcs);  
+foreach ($calcs as $value) {    echo $value; } $calcs = array();
+
+if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
+if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
+
+array_push($calcs, maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral')));
+array_push($calcs, maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables')));
+array_push($calcs, maw_submenu('df',$lang,'df', __("Domain of functions (one variable)")));
+array_push($calcs, maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)")));
+array_push($calcs, maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial')));
+array_push($calcs, maw_submenu('mnc',$lang,'mnc',__('Least squares method')));
 
 $calcs = opt_shuffle ($calcs);  
+foreach ($calcs as $value) {    echo $value; } $calcs = array();
+
+array_push($calcs, maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial')));
+array_push($calcs, maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral')));
+array_push($calcs, maw_submenu('lde2',$lang,'lde2',__('Second order LDE')));
+array_push($calcs, $youtubestring);
+array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
+
+foreach ($calcs as $value) {    echo $value; }
+
+array_push($calcs, maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system')));
+array_push($calcs, maw_submenu('bisection',$lang,'bisection',__('Bisection')));
+array_push($calcs, maw_submenu('newton',$lang,'newton',__('Newton-Raphson method')));
+array_push($calcs, maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi')));
+array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations')));
+
+
+
+//$calcs = opt_shuffle ($calcs);  
 foreach ($calcs as $value) {    echo $value; }
 
 

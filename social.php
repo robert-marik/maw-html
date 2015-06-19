@@ -23,7 +23,7 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
         <li class="rrssb-facebook">
           <!--  Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
                 https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
-          <a href="https://www.facebook.com/sharer/sharer.php?u=http://um.mendelu.cz/maw-html" class="popup">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=http://um.mendelu.cz/maw-html/menu.php" class="popup">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29">
                 <path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"
@@ -59,7 +59,7 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
         -->
         <li class="rrssb-twitter">
           <!-- Replace href with your Meta and URL information  -->
-          <a href="http://twitter.com/home?status=The%20site%20for%20online%20computation%20of%20mathematical%20problems%20with%20main%20focus%20to%20calculus%20http%3A%2F%2Fuser.mendelu.cz%2Fmarik%2Fmaw%20%40robert_marik"
+          <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fum.mendelu.cz%2Fmaw-html%2Fmenu.php"
           class="popup">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
@@ -95,7 +95,7 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
         </li> -->
         <li class="rrssb-googleplus">
           <!-- Replace href with your meta and URL information.  -->
-          <a href="https://plus.google.com/share?url=http://um.mendelu.cz/maw-html" class="popup">
+          <a href="https://plus.google.com/share?url=http://um.mendelu.cz/maw-html/menu.php" class="popup">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                 <path d="M14.703 15.854l-1.22-.948c-.37-.308-.88-.715-.88-1.46 0-.747.51-1.222.95-1.662 1.42-1.12 2.84-2.31 2.84-4.817 0-2.58-1.62-3.937-2.4-4.58h2.098l2.203-1.384h-6.67c-1.83 0-4.467.433-6.398 2.027C3.768 4.287 3.06 6.018 3.06 7.576c0 2.634 2.02 5.328 5.603 5.328.34 0 .71-.033 1.083-.068-.167.408-.336.748-.336 1.324 0 1.04.55 1.685 1.01 2.297-1.523.104-4.37.273-6.466 1.562-1.998 1.187-2.605 2.915-2.605 4.136 0 2.512 2.357 4.84 7.288 4.84 5.822 0 8.904-3.223 8.904-6.41.008-2.327-1.36-3.49-2.83-4.73h-.01zM10.27 11.95c-2.913 0-4.232-3.764-4.232-6.036 0-.884.168-1.797.744-2.51.543-.68 1.49-1.12 2.372-1.12 2.807 0 4.256 3.797 4.256 6.24 0 .613-.067 1.695-.845 2.48-.537.55-1.438.947-2.295.95v-.003zm.032 13.66c-3.62 0-5.957-1.733-5.957-4.143 0-2.408 2.165-3.223 2.91-3.492 1.422-.48 3.25-.545 3.556-.545.34 0 .52 0 .767.034 2.574 1.838 3.706 2.757 3.706 4.48-.002 2.072-1.736 3.664-4.982 3.648l.002.017zM23.254 11.89V8.52H21.57v3.37H18.2v1.714h3.367v3.4h1.684v-3.4h3.4V11.89"
@@ -115,9 +115,9 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
             <span class="rrssb-text">youtube</span>
           </a>
         </li> -->
+        <!--
         <li class="rrssb-pinterest">
-          <!-- Replace href with your meta and URL information.  -->
-          <a href="http://pinterest.com/pin/create/button/?url=http://um.mendelu.cz/maw-html">
+            <a href="http://pinterest.com/pin/create/button/?url=http://um.mendelu.cz/maw-html">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                 <path d="M14.02 1.57c-7.06 0-12.784 5.723-12.784 12.785S6.96 27.14 14.02 27.14c7.062 0 12.786-5.725 12.786-12.785 0-7.06-5.724-12.785-12.785-12.785zm1.24 17.085c-1.16-.09-1.648-.666-2.558-1.22-.5 2.627-1.113 5.146-2.925 6.46-.56-3.972.822-6.952 1.462-10.117-1.094-1.84.13-5.545 2.437-4.632 2.837 1.123-2.458 6.842 1.1 7.557 3.71.744 5.226-6.44 2.924-8.775-3.324-3.374-9.677-.077-8.896 4.754.19 1.178 1.408 1.538.49 3.168-2.13-.472-2.764-2.15-2.683-4.388.132-3.662 3.292-6.227 6.46-6.582 4.008-.448 7.772 1.474 8.29 5.24.58 4.254-1.815 8.864-6.1 8.532v.003z"
@@ -127,6 +127,7 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
             <span class="rrssb-text">pinterest</span>
           </a>
         </li>
+        -->
         <li class="rrssb-vk">
           <a href="http://vk.com/share.php?url=url=http://um.mendelu.cz/maw-html" class="popup">
             <span class="rrssb-icon">
