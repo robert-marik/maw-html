@@ -261,8 +261,11 @@ display : inline-block; }
 .polozka{margin-bottom:5px; display:inline-block; vertical-align:top;border:1px solid gray;}
 
 
-.thmbnail{background-color:#DDD; width:150px !important; padding:5px;}
-.thmbnail:hover {background-color:#F4F4F4;}
+.thmbnail{width:150px !important; padding:5px;}
+
+.polozka {background-color:#DDD;}
+.polozka:hover {background-color:#F4F4F4;}
+
 
 .thmbnail imgdiv {margin: 0 auto; }
 .href {height:auto;}
@@ -305,7 +308,7 @@ display : inline-block; }
 .fb-like {margin-bottom:2px; margin-left:auto; margin-right:3px;}
 
 
-.sdeleni {font-weight:500; background-color:#F5F5DC; border-top: 10px solid #5FCC06; padding:3px;}
+.sdeleni {font-weight:500; background-color:#F5F5DC; padding:3px;}
 
 .nopadding {background-color:#F5F5DC;}
 
@@ -487,17 +490,20 @@ function maw_submenu ($a,$b,$c,$d,$double="normal")
   return "\n".'<div class="polozka '.$double.'"><a href="index.php?lang='.$b.'&amp;form='.$c.'"><div class="href">'.nospaces($d).'</div><div class="thmbnail">'.$picture.'</div></a></div>';
 }
 
+function opt_shuffle ($input)
+{
+  if(mt_rand(0,3)!=0)
+  {return ($input);}
+  else
+  {shuffle($input); return ($input);}
+}
+
 
 printf("\n<div class=\"maw_mobile_menu\">");
 
 
 $calcs = array();
-array_push($calcs, "<div class='polozka href nopadding double'><div class='sdeleni'><div style='width:150px;'>".$social."</div></div></div>");
-
-if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
-if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
+array_push($calcs, "<div class='polozka href nopadding double'><div class='sdeleni'><div>".$social."</div></div></div>");
 
 array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
 array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
@@ -507,7 +513,13 @@ array_push($calcs, maw_submenu('ode',$lang,'ode',__('First order ODE'),'double')
 array_push($calcs, maw_submenu('integral2',$lang,'integral2',__('Double integral')));
 array_push($calcs, maw_submenu('definite',$lang,'definite',__('Definite integral and mean value')));
 
-shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; } $calcs = array();
+//$calcs = opt_shuffle ($calcs);  
+foreach ($calcs as $value) {    echo $value; } $calcs = array();
+
+if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
+if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
 
 array_push($calcs, maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral')));
 array_push($calcs, maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables')));
@@ -516,7 +528,8 @@ array_push($calcs, maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two
 array_push($calcs, maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial')));
 array_push($calcs, maw_submenu('mnc',$lang,'mnc',__('Least squares method')));
 
-shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; } $calcs = array();
+$calcs = opt_shuffle ($calcs);  
+foreach ($calcs as $value) {    echo $value; } $calcs = array();
 
 array_push($calcs, maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial')));
 array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
@@ -557,7 +570,8 @@ else
 
 array_push($calcs, $youtubestring);
 
-shuffle ($calcs);  foreach ($calcs as $value) {    echo $value; }
+$calcs = opt_shuffle ($calcs);  
+foreach ($calcs as $value) {    echo $value; }
 
 
 ?>
