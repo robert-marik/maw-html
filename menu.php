@@ -168,11 +168,6 @@ if (file_exists('./menu_custom.css'))
 .editor {display:none;}
 #vystup {color:green; font-size:125%; background-color:#CCC; padding:5px;}
 
-
-.mobilemenu ul {
-    list-style-type: none;
-}
-
 .mobilemenu, .submenu, .maw_mobile_menu {padding-left:10px;}
 
 .href {padding:5px; align:center;}
@@ -196,10 +191,6 @@ display : inline-block; }
 }
 
 .submenu, .submenu_container {width:95%;}
-
-</style>
-
-<style>
 
 #setting_title img, li img{
     width:40px;
@@ -242,11 +233,12 @@ display : inline-block; }
     text-align:right;
 }
 
-.polozka{margin-bottom:5px; display:inline-block; vertical-align:top;border:1px solid gray;
-}
+.polozka{margin-bottom:5px; display:inline-block; vertical-align:top;border:1px solid gray;}
 
 
 .thmbnail{background-color:#DDD; width:150px !important; padding:5px;}
+.thmbnail:hover {background-color:#F4F4F4;}
+
 .thmbnail imgdiv {margin: 0 auto; }
 .href {height:auto;}
 
