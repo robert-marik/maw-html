@@ -1,16 +1,21 @@
 <?php
 
-$sdeleni_cz="Úspěšný závěr školního roku a letního semestru všem uživatelům MAWu. Pěkné prázdniny a nashle v září.";
-$sdeleni_en="Nice summer 2015 to all MAW users. Have a nice holidays.";
-$sdeleni_czB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>19. června 1852 se narodil Franz Trinks, vynikající německý inženýr, konstruktér kalkulaček Brunsviga.</a> Stejný den o 229 let dříve se narodil Blaise Pascal, vználezce jednoho z prvních počítačích strojů, <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaliny</a>.</small>";
-$sdeleni_enB="<small><a href='https://www.youtube.com/watch?v=dlkTFEz8Lz0'  class='fancybox-media'><img class='miniimg' src='days/franz_trinks.jpg'>Franz Trinks, born June 19, 1852. He was an outstanding German engineer, leader of the developement of Brunsviga calculators.</a> Blais Pascal, inventor of the computing machine <a href='https://www.youtube.com/watch?v=3h71HAJWnVU' class='fancybox-media'>Pascaline</a> was born on the same day, 229 years before Trinks.</small>";
+$sdeleni_cz="";
+$sdeleni_czB="";
+$sdeleni_czC="";
+$sdeleni_en="";
+$sdeleni_enB="";
+$sdeleni_enC="";
+
+
+if (file_exists("public/mathevents/events.php")) {require_once("public/mathevents/events.php");}
 
 
 $social='  <!-- Buttons start here. Copy this ul to your document. -->
       <ul class="rrssb-buttons">
         <li class="rrssb-email">
           <!-- Replace subject with your message using URL Endocding: http://meyerweb.com/eric/tools/dencoder/ -->
-          <a href="mailto:?subject=Look%20at%20these%20online%20mathmatical%20computations&body=Hi%2C%0A%0Athe%20site%20http%3A%2F%2Fuser.mendelu.cz%2Fmarik%2Fmaw%20contains%20cool%20online%20calculators.%20You%20can%20do%20computations%20with%20functions%2C%20derivatives%2C%20integrals%2C%20solve%20equations%2C%20inequalities%20or%20differential%20equations%20using%20your%20own%20assignment.%20The%20solutions%20include%20detailed%20steps.%0A%0A">
+          <a href="mailto:?subject=Look%20at%20these%20online%20mathematical%20computations&body=Hi%2C%0A%0Athe%20site%20http%3A%2F%2Fuser.mendelu.cz%2Fmarik%2Fmaw%20contains%20cool%20online%20calculators.%20You%20can%20do%20computations%20with%20functions%2C%20derivatives%2C%20integrals%2C%20solve%20equations%2C%20inequalities%20or%20differential%20equations%20using%20your%20own%20assignment.%20The%20solutions%20include%20detailed%20steps.%0A%0A">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                 <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"
@@ -59,7 +64,7 @@ $social='  <!-- Buttons start here. Copy this ul to your document. -->
         -->
         <li class="rrssb-twitter">
           <!-- Replace href with your Meta and URL information  -->
-          <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fum.mendelu.cz%2Fmaw-html%2Fmenu.php"
+          <a href="https://twitter.com/intent/tweet?text=Want%20to%20delegate%20your%20math%20and%20calculus%20assignment%20to%20the%20computer%3F%20Try%20http%3A%2F%2Fuser.mendelu.cz%2Fmarik%2Fmaw%20%20by%20%40robert_marik"
           class="popup">
             <span class="rrssb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">

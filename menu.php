@@ -141,7 +141,6 @@ $group7=array("map");
   <meta property="og:url" content="http://um.mendelu.cz/maw-html/menu.php" />
   <meta property="og:image" content="http://um.mendelu.cz/maw-html/mawmenu.jpg" />
   <meta property="og:description" content="The site for online computation of calculus problems. Enter your assignment and enjoy a computer generated solution which includes all the steps."/>
-  <meta property="fb:admins" content="1481546925447261">
 
   <!-- twitter meta -->
   <meta name="twitter:card" content="summary_large_image">
@@ -155,7 +154,7 @@ $group7=array("map");
   <!-- Stylesheet required to power RRSSB. Copy this css file to your header -->
   <link rel="stylesheet" href="css/rrssb.css" />
 
-  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 
 
@@ -337,6 +336,19 @@ display : inline-block; }
 .rrssb-buttons li a {border-radius: 0px;}
 
 
+
+.banner img{
+   display:block;
+   position:absolute;
+   max-width:158px;
+}
+      
+.banner {margin-top:150px; height:165px;}      
+      
+.banner #imgmain{
+      display:block !important;
+}
+
 </style>
 
 <script>
@@ -474,7 +486,7 @@ if (file_exists('./mawcustom_aftertitle.php'))
 
 ?>
 
-<div id="setting_div"><span id="setting"><span id="setting_title"><img src="http://blog.ezofficeinventory.com/wp-content/uploads/2014/02/f02a62985cde.png"/></span>
+<!-- <div id="setting_div"><span id="setting"><span id="setting_title"><img src="http://blog.ezofficeinventory.com/wp-content/uploads/2014/02/f02a62985cde.png"/></span> -->
 
     <div id="setting_menu"> <span id="menu_nocookies">
     <?php echo (__("Cookies are off. Your device will be detected automatically. Set cookies on to choose your own preference.")); ?>
@@ -546,12 +558,25 @@ else
 } 
  $youtubestring = $youtubestring.'</div></div>';
 
+$animation='
+<div class="banner">
+<img id="imgmain" src="http://um.mendelu.cz/maw-html/images/init0.jpg"/>
+<img id="img4" class="animimg" src="http://um.mendelu.cz/maw-html/images/init4.jpg"/>
+</div>
+';
+
+
 
 printf("\n<div class=\"maw_mobile_menu\">");
 
 
 $calcs = array();
-array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div></div></div>");
+array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div><div>".$animation."</div></div></div>");
+//array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div></div></div>");
+
+
+//array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'><div>".$animation."</div></div></div>");
+
 
 array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
 array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
@@ -585,7 +610,10 @@ array_push($calcs, maw_submenu('lde2',$lang,'lde2',__('Second order LDE')));
 array_push($calcs, $youtubestring);
 array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
 
-foreach ($calcs as $value) {    echo $value; }
+foreach ($calcs as $value) {    echo $value; } $calcs = array();
+
+if (($reqlang == "cs")&&($sdeleni_czC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czC</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_enC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enC</div></div> ");}
 
 array_push($calcs, maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system')));
 array_push($calcs, maw_submenu('bisection',$lang,'bisection',__('Bisection')));
@@ -636,6 +664,21 @@ $('.maw_mobile_menu').masonry({
   transitionDuration: '1s',
   columnWidth: 170
 });
+});
+
+
+$(function () {
+    var $element = $('#img4');
+    function fadeInOut () {
+    $element.fadeIn(4000, function () {
+      $element.fadeOut(4000, function () {
+        $element.fadeIn(4000, function () {
+            setTimeout(fadeInOut, 2000);
+        });
+      });
+   });
+  }
+ fadeInOut();
 });
 
 
