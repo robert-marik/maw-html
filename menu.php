@@ -78,13 +78,13 @@ bind_textdomain_codeset  ( "messages" , "UTF-8" );
 function __($text){return gettext($text);}
 
 
-$newsfile="";
-if  (!(isset($_COOKIE["mawhtml"])))
-{
-$newsfile="news.html";
-if ($lang=="cs") {$newsfile="news_cs.html";}
-setcookie("mawhtml", time(), time()+3600*24);
-}
+//$newsfile="";
+//if  (!(isset($_COOKIE["mawhtml"])))
+//{
+//$newsfile="news.html";
+//if ($lang=="cs") {$newsfile="news_cs.html";}
+//setcookie("mawhtml", time(), time()+3600*24);
+//}
 
 
 
@@ -712,9 +712,9 @@ $(document).ready(function() {
 <?php
 
 
-if ($newsfile!=""){
-echo "\$(document).ready(function() {\$.fancybox.open({ href : '$newsfile', type: 'iframe' });});";
-}
+//if ($newsfile!=""){
+//echo "\$(document).ready(function() {\$.fancybox.open({ href : '$newsfile', type: 'iframe' });});";
+//}
 
 
 ?>
