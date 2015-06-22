@@ -353,6 +353,8 @@ display : inline-block; }
 .sdeleni a, .nohref a {color:black;} 
 .miniimg {margin-bottom:5px;}
 
+.sdeleni{font-size:85%;}
+
 </style>
 
 <script>
