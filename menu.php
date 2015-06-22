@@ -349,6 +349,10 @@ display : inline-block; }
       display:block !important;
 }
 
+.sad{background-color:lightgray;} 
+.sdeleni a, .nohref a {color:black;} 
+.miniimg {margin-bottom:5px;}
+
 </style>
 
 <script>
@@ -704,6 +708,11 @@ $(document).ready(function() {
                                                 media : {},
                                         }
                                 });
+
+ $('.sad').parent().css( "background-color", "lightgray" );
+ $('.sad').parent().parent().css( "background-color", "lightgray" );
+ $('.sad').parent().parent().parent().css( "background-color", "black" );
+   
 
 });
 
