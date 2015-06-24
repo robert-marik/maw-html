@@ -712,8 +712,7 @@ $(document).ready(function() {
                                 });
 
  $('.sad').parent().css( "background-color", "lightgray" );
- $('.sad').parent().parent().css( "background-color", "lightgray" );
- $('.sad').parent().parent().parent().css( "background-color", "black" );
+ $('.sad').parent().parent().css( "background-color", "black" );
    
 
 });
