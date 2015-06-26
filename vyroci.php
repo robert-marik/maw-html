@@ -78,22 +78,12 @@ bind_textdomain_codeset  ( "messages" , "UTF-8" );
 function __($text){return gettext($text);}
 
 
-//$newsfile="";
-//if  (!(isset($_COOKIE["mawhtml"])))
-//{
-//$newsfile="news.html";
-//if ($lang=="cs") {$newsfile="news_cs.html";}
-//setcookie("mawhtml", time(), time()+3600*24);
-//}
-
-
-
 $form=$_REQUEST["form"];
 $maw_before_form_custom_string="";
 
 if (file_exists('./mawconfightml.php')) {require ('./mawconfightml.php');}
 
-require ('./social.php');
+require ('./social_copy.php');
 
 function fixit($text)
 {
@@ -172,7 +162,7 @@ if (file_exists('./menu_custom.css'))
 
 ?>
 
-<title><?php echo __("Mathematical Assistant on Web");?></title>
+<title><?php echo __("MAW vyroci");?></title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
@@ -323,6 +313,9 @@ display : inline-block; }
 
 
 .miniimg {width:100%; }
+
+.playbtn {width:20px; position:absolute;margin-left:3px; color:white;}
+
 .rrssb-buttons li {margin-bottom:3px;}
 
 .social .polozka:hover, .social .sdeleni, .social .polozka, .social, .social:hover {background-color:transparent; border: none;}
@@ -349,16 +342,10 @@ display : inline-block; }
       display:block !important;
 }
 
-.sad{background-color:lightgray;} 
-.sdeleni a, .nohref a {color:black;} 
-.miniimg {margin-bottom:5px;}
-
-.sdeleni{font-size:85%;}
-
-.playbtn {width:20px; position:absolute;margin-left:3px; color:white;} 
-
-
+ 
+.maw_mobile_menu {padding-right:300px;}
 </style>
+
 
 <script>
 jQuery(".menu_close").bind("click",
@@ -431,40 +418,6 @@ echo $maw_header;
 
 <div id="main">
 <div id="head">
-<div id="flags">
-<div id="flags-left">
-<?php 
-function lang_links()
-{
-global $form,$lang_array;
-foreach ($lang_array as $i => $value)
-  {
-    echo '<a href="menu.php?lang='.$value.'&amp;form='.$form.'" ><img src="'.$value.'.png" alt="'.$value.'" style="border: 0px solid ;" ></a>';
-    if ($i<(count($lang_array)-1)) {echo ("&nbsp;");}
-  }
-}
-lang_links();
-echo ("&nbsp;<a rel=\"facebox\" href=\"translators.html\">".__("More languages")."</a>");
-?>
-</div>
-
-
-
-<div id="flags-right">
-<?php lang_links(); ?>
-</div>
-
-<?php echo($custom_between_flags); ?>
-
-</div>
-
-<div class="support">
-<?php
-  if (__("http://sourceforge.net/apps/phpbb/mathassistant")!="http://sourceforge.net/apps/phpbb/mathassistant")
-      { echo '<a href="'.__("http://sourceforge.net/apps/phpbb/mathassistant").'">'.__("Support from MAW forum").'</a><br>'; }
-      ?>  
-
-<div><a href="menu_old.php">Old menu (sorted by topic)</a></div></div>
 
 </div>
       
@@ -480,10 +433,32 @@ if (file_exists('./mawcustom_top.php'))
 }
 
 echo "\n".'<div id="title">'."\n".'<div id="main-title">';
-echo __('Mathematical Assistant on Web');
+echo "Matematická výročí pro MAW";
 echo '</div></div></div>';
 
 ?>
+
+<div style="font-size:120%;">V MAWu se budou automaticky zobrazovat výročí se vztahem k matematice, fyzice, vědě a technice. Cílem je mít 
+zajímavá výročí se zajímavými odkazy (nejlépe krátká videa na Youtube) a rovnoměrně rozložená během celého roku. 
+Zde je postupně budovaný soupis všech výročí. Pokud do něj chcete přispět, nebo pokud chcete přeložit 
+stávající výročí do angličtiny, formát je 
+<a href="https://github.com/robert-marik/mathevents/blob/master/data.yaml">volně přístupný</a> a stačí kontaktovat marik@mendelu.cz.
+
+<br>
+<a href="menu_vyroci.php">cz</a>, <a href="menu_vyroci_en.php">en</a>
+
+</div>
+
+
+<div style="float:right; width:300px;">
+
+<?php
+$homepage = file_get_contents('public/mathevents/events_all.html');
+echo $homepage;
+?>
+
+
+</div>
 
 <?php
 if (file_exists('./mawcustom_aftertitle.php')) 
@@ -540,108 +515,19 @@ function opt_shuffle ($input)
 }
 
 
-
-
- $youtubestring='<div class="wrapper polozka double"><div id="one" class="cetered-div border">';
- include("youtube.php");
- //$popisek='Division on meat grinder / dělení mlýnkem na maso';
- //$adresa='HecEOd2494k';
- $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
- $youtubestring = $youtubestring.'<div class="responsive-container">';
- $imgadresa=preg_replace('/\?.*/', '', $adresa);;
-//if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
-//else {$adresa=$adresa."&amp;fs=1&amp;autoplay=1";}
- $youtubestring = $youtubestring."<a href='http://www.youtube.com/watch?v=$adresa' title='' class='fancybox-media'><img class='ytbimg' src='http://img.youtube.com/vi/$imgadresa/0.jpg'></a>";
- //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
- //$youtubestring = $youtubestring.$adresa;
- //$youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
- $youtubestring = $youtubestring.'</div>';
- if ($reqlang=="cs")	
- {
- $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; margin-top:5px; font-size:75%;">Celý <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube kanál</a>';
- $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; font-size:75%;">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a></p>';
-}   
-else
-{
- $youtubestring = $youtubestring.'<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube chanel</a>.</p>';
-} 
- $youtubestring = $youtubestring.'</div></div>';
-
-$animation='
-<div class="banner">
-<img id="imgmain" src="http://um.mendelu.cz/maw-html/images/init0.jpg"/>
-<img id="img4" class="animimg" src="http://um.mendelu.cz/maw-html/images/init4.jpg"/>
-</div>
-';
-
-
-
 printf("\n<div class=\"maw_mobile_menu\">");
 
 
-$calcs = array();
-array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div><div>".$animation."</div></div></div>");
-//array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div></div></div>");
+foreach ($sdeleniCZ as $value) {    
+echo "<div class='polozka href nopadding'><div class='sdeleni'><small>$value</small></div></div> ";
+}
 
-
-//array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'><div>".$animation."</div></div></div>");
-
-
-array_push($calcs, maw_submenu('integral',$lang,'integral',__('Antiderivative'),"double"));
-array_push($calcs, maw_submenu('derivace',$lang,'derivace',__('Derivative and partial derivative'),'double'));
-array_push($calcs, maw_submenu("prubeh",$lang,'prubeh',__('Investigating functions'),'double'));
-array_push($calcs, maw_submenu('graf',$lang,'graf', __("Function grapher"),'double'));
-array_push($calcs, maw_submenu('ode',$lang,'ode',__('First order ODE'),'double'));
-array_push($calcs, maw_submenu('integral2',$lang,'integral2',__('Double integral')));
-array_push($calcs, maw_submenu('definite',$lang,'definite',__('Definite integral and mean value')));
-
-//$calcs = opt_shuffle ($calcs);  
-foreach ($calcs as $value) {    echo $value; } $calcs = array();
-
-if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
-if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
-
-array_push($calcs, maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral')));
-array_push($calcs, maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables')));
-array_push($calcs, maw_submenu('df',$lang,'df', __("Domain of functions (one variable)")));
-array_push($calcs, maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two variables)")));
-array_push($calcs, maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial')));
-array_push($calcs, maw_submenu('mnc',$lang,'mnc',__('Least squares method')));
-
-$calcs = opt_shuffle ($calcs);  
-foreach ($calcs as $value) {    echo $value; } $calcs = array();
-
-array_push($calcs, maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial')));
-array_push($calcs, maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral')));
-array_push($calcs, maw_submenu('lde2',$lang,'lde2',__('Second order LDE')));
-array_push($calcs, $youtubestring);
-array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
-
-foreach ($calcs as $value) {    echo $value; } $calcs = array();
-
-if (($reqlang == "cs")&&($sdeleni_czC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czC</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enC</div></div> ");}
-
-array_push($calcs, maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system')));
-array_push($calcs, maw_submenu('bisection',$lang,'bisection',__('Bisection')));
-array_push($calcs, maw_submenu('newton',$lang,'newton',__('Newton-Raphson method')));
-array_push($calcs, maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi')));
-array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations')));
-
-
-
-//$calcs = opt_shuffle ($calcs);  
-foreach ($calcs as $value) {    echo $value; }
+//foreach ($sdeleniEN as $value) {    
+//echo "<div class='polozka href nopadding'><div class='sdeleni'><small>$value</small></div></div> ";
+//}
 
 
 ?>
-
-
-
-
-
 
 </div>
 
@@ -713,32 +599,22 @@ $(document).ready(function() {
                                                 media : {},
                                         }
                                 });
-
+                                
  $('.sad').parent().css( "background-color", "lightgray" );
- $('.sad').parent().parent().css( "background-color", "black" );
-
+ $('.sad').parent().parent().css( "background-color", "lightgray" );
+ $('.sad').parent().parent().parent().css( "background-color", "black" );
  
-// $(".fancybox-media").prepend("<img class='playbtn' alt='Play' src='http://um.mendelu.cz/maw-html/public/mathevents/play.png'/>");
+ //$(".fancybox-media").prepend("<img class='playbtn' alt='Play' src='http://um.mendelu.cz/maw-html/public/mathevents/play.png'/>");
+                 
  $(".fancybox-media").each(function() {
-    odkaz=$(this).attr('href');   
-     if (odkaz.indexOf("youtube") >= 0)    
-      {$(this).prepend("<img class='playbtn' alt='Play' src='http://um.mendelu.cz/maw-html/public/mathevents/play.png'/>"); }    
-  }); 
-    
+    odkaz=$(this).attr('href');
+    if (odkaz.indexOf("youtube") >= 0)
+      {$(this).prepend("<img class='playbtn' alt='Play' src='http://um.mendelu.cz/maw-html/public/mathevents/play.png'/>"); }
+   });                 
+                                  
 
 });
 
-
-
-<?php
-
-
-//if ($newsfile!=""){
-//echo "\$(document).ready(function() {\$.fancybox.open({ href : '$newsfile', type: 'iframe' });});";
-//}
-
-
-?>
 
 
 </script>
