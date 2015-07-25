@@ -232,7 +232,10 @@ if ($deviceType != 'computer')
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.3.custom.min.css" type="text/css" media="all" />
 
-
+<style>
+  .blink {color:red; margin-right:0px; border-left: solid 5px red;}
+  
+</style>
 
 <link href="js/facebox.css" media="screen" rel="stylesheet" type="text/css" />
 <!---  <link href="css/example.css" media="screen" rel="stylesheet" type="text/css" /> -->
@@ -355,7 +358,7 @@ function aktualizovat(text){
   for ( var i = 0; i < text.length; i++ )
   {
       pismeno=text.charAt(i);
-      if (pismeno=="?") {pismeno="&bull;";}
+      if (pismeno=="?") {pismeno="<span class=blink></span>";}
       jQuery("#vystup").append("<span id='letter"+i+"' data-poradi='"+i+"'>"+pismeno+"</span>");
       jQuery("#letter"+i).bind("click", function () {nastavit(jQuery(this).data("poradi"));});
    }
