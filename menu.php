@@ -568,9 +568,10 @@ else
  $youtubestring = $youtubestring.'</div></div>';
 
 $animation='
-<div class="banner">
+<div class="banner"><a class="fancybox-media" href="http://youtu.be/f-VF7cuF7kQ">
 <img id="imgmain" src="http://um.mendelu.cz/maw-html/images/init0.jpg"/>
 <img id="img4" class="animimg" src="http://um.mendelu.cz/maw-html/images/init4.jpg"/>
+</a>
 </div>
 ';
 
