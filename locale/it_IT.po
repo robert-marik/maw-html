@@ -5,586 +5,607 @@
 # Robert Marik <marik@mendelu.cz>, 2008.
 # Robert Marik <marik@carya>, 2009.
 #
-msgid   ""
-msgstr  "Project-Id-Version: messages\n"
-        "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2014-06-26 14:39+0200\n"
-        "PO-Revision-Date: 2009-08-27 09:32+0200\n"
-        "Last-Translator: Grazia Messineo <grazia.messineo@unicatt.it>\n"
-        "Language-Team: Italian\n"
-        "Language: it\n"
-        "MIME-Version: 1.0\n"
-        "Content-Type: text/plain; charset=UTF-8\n"
-        "Content-Transfer-Encoding: 8bit\n"
-        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-        "X-Generator: KBabel 1.9.1\n"
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-26 14:39+0200\n"
+"PO-Revision-Date: 2009-08-27 09:32+0200\n"
+"Last-Translator: Grazia Messineo <grazia.messineo@unicatt.it>\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.9.1\n"
 
 #, php-format
-msgid   "%sOffline version%s is also available and translators are %s "
-        "welcomed %s."
-msgstr  "E' disponibile una versione offline e i traduttori sono benvenuti."
+msgid ""
+"%sOffline version%s is also available and translators are %s welcomed %s."
+msgstr "E' disponibile una versione offline e i traduttori sono benvenuti."
 
-msgid   "(integer between 2  and 40)"
-msgstr  "(numeri interi tra 2 e 40)"
+msgid "(integer between 2  and 40)"
+msgstr "(numeri interi tra 2 e 40)"
 
-msgid   "(integer between 2 and 40)"
-msgstr  "(numero naturale tra 2 e 40"
+msgid "(integer between 2 and 40)"
+msgstr "(numero naturale tra 2 e 40"
 
-msgid   "(integer or decimal number)"
-msgstr  "(numero intero o decimale)"
+msgid "(integer or decimal number)"
+msgstr "(numero intero o decimale)"
 
-msgid   "(integers or decimal numbers)"
-msgstr  "(numeri interi o decimali)"
+msgid "(integers or decimal numbers)"
+msgstr "(numeri interi o decimali)"
 
-msgid   "(the function must either a basic elementary function of a function "
-        "which can be obtained from on of basic elementary functions by "
-        "shifting and resizing graph)"
-msgstr  "(la funzione deve essere o una funzione elementare o una funzione "
-        "che può essere ottenuta da una funzione elementare mediante una "
-        "traslazione o cambiamento di scala del grafico)"
+msgid ""
+"(the function must either a basic elementary function of a function which "
+"can be obtained from on of basic elementary functions by shifting and "
+"resizing graph)"
+msgstr ""
+"(la funzione deve essere o una funzione elementare o una funzione che può "
+"essere ottenuta da una funzione elementare mediante una traslazione o "
+"cambiamento di scala del grafico)"
 
-msgid   "<a href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4."
-        "html#Item_003a-pfeformat\">pfeformat</a> switch (uncheck this if you "
-        "get composite fractions (with fraction in numerator))"
-msgstr  ""
+msgid ""
+"<a "
+"href=\"http://maxima.sourceforge.net/docs/manual/en/maxima_4.html#Item_003a-pfeformat\">pfeformat</a> "
+"switch (uncheck this if you get composite fractions (with fraction in "
+"numerator))"
+msgstr ""
 
-msgid   "Action"
-msgstr  "Azione"
+msgid "Action"
+msgstr "Azione"
 
-msgid   "Additional computation"
-msgstr  "Calcoli ulteriori"
+msgid "Additional computation"
+msgstr "Calcoli ulteriori"
 
-msgid   "Antiderivative"
-msgstr  "Antiderivata"
+msgid "Antiderivative"
+msgstr "Antiderivata"
 
-msgid   "Autonomous system"
-msgstr  "Sistema autonomo"
+msgid "Autonomous system"
+msgstr "Sistema autonomo"
 
-msgid   "Axes"
-msgstr  "Assi"
+msgid "Axes"
+msgstr "Assi"
 
-msgid   "Axes (decimal numbers)"
-msgstr  "Assi (numeri decimali)"
+msgid "Axes (decimal numbers)"
+msgstr "Assi (numeri decimali)"
 
-msgid   "Bisection"
-msgstr  "bisezione"
+msgid "Bisection"
+msgstr "bisezione"
 
-msgid   "Bounds for axes"
-msgstr  "Limiti per gli assi"
+msgid "Bounds for axes"
+msgstr "Limiti per gli assi"
 
-msgid   "Bounds for the picture (decimal numbers)"
-msgstr  "Limiti della figura (in numeri decimali)"
+msgid "Bounds for the picture (decimal numbers)"
+msgstr "Limiti della figura (in numeri decimali)"
 
-msgid   "Bounds on <i>x</i> axis: <small>(you can try to find the intercepts "
-        "of both curves by choosing \"intercepts\" in parameters for "
-        "computation)</small>"
-msgstr  ""
+msgid ""
+"Bounds on <i>x</i> axis: <small>(you can try to find the intercepts of both "
+"curves by choosing \"intercepts\" in parameters for computation)</small>"
+msgstr ""
 
-msgid   "Calculus"
-msgstr  "Analisi Matematica"
+msgid "Calculus"
+msgstr "Analisi Matematica"
 
-msgid   "Center of Taylor polynomial"
-msgstr  "Centro del polinomio di Taylor"
+msgid "Center of Taylor polynomial"
+msgstr "Centro del polinomio di Taylor"
 
-msgid   "Change the setting to"
-msgstr  ""
+msgid "Change the setting to"
+msgstr ""
 
-msgid   "Changelog"
-msgstr  "Changelog"
+msgid "Changelog"
+msgstr "Changelog"
 
-msgid   "Choose the field of your interest in the menu and then choose the "
-        "particular calculator depending on the problem you wish to solve."
-        "<br>These calculators are able to solve the problems including step "
-        "by step solution.<br>The calculators are divided into several "
-        "groups, the description is available if you move your mouse on the "
-        "name of each group (the first row of the menu)."
-msgstr  "Scegli il campo di interesse nel menu e quindi segli la calcolatrice "
-        "in dipendenza del problema da risolvere.<br>Queste calcolatrici sono "
-        "in gardo di risolvere i problemi compresi la soluzione passo-passo."
-        "<br>Le calcolatrici son divise in più gruppi, la descrizioe è "
-        "disponibile muovendo il mouse sul nome di ogni gruppo (la prima riga "
-        "del menu)."
+msgid ""
+"Choose the field of your interest in the menu and then choose the particular "
+"calculator depending on the problem you wish to solve.<br>These calculators "
+"are able to solve the problems including step by step solution.<br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
+"Scegli il campo di interesse nel menu e quindi segli la calcolatrice in "
+"dipendenza del problema da risolvere.<br>Queste calcolatrici sono in gardo "
+"di risolvere i problemi compresi la soluzione passo-passo.<br>Le "
+"calcolatrici son divise in più gruppi, la descrizioe è disponibile "
+"muovendo il mouse sul nome di ogni gruppo (la prima riga del menu)."
 
-msgid   "Click only once and wait few seconds for the answer!"
-msgstr  "Cliccare una volta sola e attendere qualche secondo per la risposta!"
+msgid "Click only once and wait few seconds for the answer!"
+msgstr "Cliccare una volta sola e attendere qualche secondo per la risposta!"
 
-msgid   "Clicking this button you get how formconv renders your expression "
-        "and how you can enter this expression in Maxima notation (you can "
-        "use copy and paste to transfer to the form.)"
-msgstr  "Cliccando questo bottone, puoi vedere come formconv rende la tua "
-        "espressione e come inserirla nella notazione di Maxima (puoi usare "
-        "copia e incolla per trasferirla nel modulo)."
+msgid ""
+"Clicking this button you get how formconv renders your expression and how "
+"you can enter this expression in Maxima notation (you can use copy and paste "
+"to transfer to the form.)"
+msgstr ""
+"Cliccando questo bottone, puoi vedere come formconv rende la tua espressione "
+"e come inserirla nella notazione di Maxima (puoi usare copia e incolla per "
+"trasferirla nel modulo)."
 
-msgid   "Cookies are off. Your device will be detected automatically. Set "
-        "cookies on to choose your own preference."
-msgstr  ""
+msgid ""
+"Cookies are off. Your device will be detected automatically. Set cookies on "
+"to choose your own preference."
+msgstr ""
 
-msgid   "Curve"
-msgstr  "Curva"
+msgid "Curve"
+msgstr "Curva"
 
-msgid   "Curves on boundary"
-msgstr  "Curve sulla frontiera"
+msgid "Curves on boundary"
+msgstr "Curve sulla frontiera"
 
-msgid   "Data file"
-msgstr  "File di dati"
+msgid "Data file"
+msgstr "File di dati"
 
-msgid   "Definite integral and mean value"
-msgstr  "Integrale definito e valor medio"
+msgid "Definite integral and mean value"
+msgstr "Integrale definito e valor medio"
 
-msgid   "Definite integral in geometry"
-msgstr  "Integrale definito in geometria"
+msgid "Definite integral in geometry"
+msgstr "Integrale definito in geometria"
 
-msgid   "Degree of Taylor polynomial"
-msgstr  "Grado del polinomio di Taylor"
+msgid "Degree of Taylor polynomial"
+msgstr "Grado del polinomio di Taylor"
 
-msgid   "Derivative and partial derivative"
-msgstr  "Derivata e derivata parziale"
+msgid "Derivative and partial derivative"
+msgstr "Derivata e derivata parziale"
 
-msgid   "Did we help you with your math problem? Did we save your time? If "
-        "so, consider to send some money to <a href=\"http://www.unicef.org/"
-        "\">UNICEF foundation.</a>"
-msgstr  "Ti abbiamo aiutato a risolvere il tuo problema matematico? Ti "
-        "abbiamo fatto risparmiare tempo? Se è così, prendi in considerazione "
-        "l'idea di fare una donazione a <a href=\"http://www.unicef.org/"
-        "\">Fondazione UNICEF</a>"
+msgid ""
+"Did we help you with your math problem? Did we save your time? If so, "
+"consider to send some money to <a href=\"http://www.unicef.org/\">UNICEF "
+"foundation.</a>"
+msgstr ""
+"Ti abbiamo aiutato a risolvere il tuo problema matematico? Ti abbiamo fatto "
+"risparmiare tempo? Se è così, prendi in considerazione l'idea di fare una "
+"donazione a <a href=\"http://www.unicef.org/\">Fondazione UNICEF</a>"
 
-msgid   "Differential equations"
-msgstr  "Equazioni differenziali"
+msgid "Differential equations"
+msgstr "Equazioni differenziali"
 
-msgid   "Domain of a function in one variable"
-msgstr  "Dominio di una funzione in una variabile"
+msgid "Domain of a function in one variable"
+msgstr "Dominio di una funzione in una variabile"
 
-msgid   "Domain of a function in two variables"
-msgstr  "Dominio di una funzione in due variabili"
+msgid "Domain of a function in two variables"
+msgstr "Dominio di una funzione in due variabili"
 
-msgid   "Domain of functions (one variable)"
-msgstr  "Dominio di funzioni (una variabile)"
+msgid "Domain of functions (one variable)"
+msgstr "Dominio di funzioni (una variabile)"
 
-msgid   "Domain of functions (two variables)"
-msgstr  "Dominio di funzioni (due variabili)"
+msgid "Domain of functions (two variables)"
+msgstr "Dominio di funzioni (due variabili)"
 
-msgid   "Double integral"
-msgstr  "Integrale doppio"
+msgid "Double integral"
+msgstr "Integrale doppio"
 
-msgid   "Editor"
-msgstr  "Editor"
+msgid "Editor"
+msgstr "Editor"
 
-msgid   "Enter function, initial approximation and number of steps."
-msgstr  "Inserire la funzione, l'approssimazione iniziale e il numero di "
-        "passi."
+msgid "Enter function, initial approximation and number of steps."
+msgstr "Inserire la funzione, l'approssimazione iniziale e il numero di passi."
 
-msgid   "Enter function, interval containing  fixed point and number of steps."
-msgstr  "Inserire la funzione, un intervallo contenente un punto fisso e il "
-        "numero di passi."
+msgid "Enter function, interval containing  fixed point and number of steps."
+msgstr ""
+"Inserire la funzione, un intervallo contenente un punto fisso e il numero di "
+"passi."
 
-msgid   "Enter function, interval containing zero and number of steps."
-msgstr  "Inserire la funzione, un intervallo contenente lo zero e il numero "
-        "di passi."
+msgid "Enter function, interval containing zero and number of steps."
+msgstr ""
+"Inserire la funzione, un intervallo contenente lo zero e il numero di passi."
 
-msgid   "Enter your data into the calculator and click Submit. You can also "
-        "change the type of the calculator in the second row of the menu. "
-        "<br>The calculators are divided into several groups, the description "
-        "is available if you move your mouse on the name of each group (the "
-        "first row of the menu)."
-msgstr  ""
+msgid ""
+"Enter your data into the calculator and click Submit. You can also change "
+"the type of the calculator in the second row of the menu. <br>The "
+"calculators are divided into several groups, the description is available if "
+"you move your mouse on the name of each group (the first row of the menu)."
+msgstr ""
 
-msgid   "Equation"
-msgstr  "Equazione"
+msgid "Equation"
+msgstr "Equazione"
 
-msgid   "Equation solved wrt y'"
-msgstr  "equazione in forma esplicita"
+msgid "Equation solved wrt y'"
+msgstr "equazione in forma esplicita"
 
-msgid   "Equations and inequalities"
-msgstr  "Equazioni e disequazioni"
-
-#, php-format
-msgid   "Evaluate also %s."
-msgstr  "Calcola anche %s."
-
-msgid   "Example"
-msgstr  "Esempio"
-
-msgid   "Examples"
-msgstr  "Esempi"
+msgid "Equations and inequalities"
+msgstr "Equazioni e disequazioni"
 
 #, php-format
-msgid   "Find %s area %s between two curves and draw graph."
-msgstr  "Trovare %s l'area %s della regione compresa tra due curve e "
-        "disegnare il grafico"
+msgid "Evaluate also %s."
+msgstr "Calcola anche %s."
+
+msgid "Example"
+msgstr "Esempio"
+
+msgid "Examples"
+msgstr "Esempi"
 
 #, php-format
-msgid   "Find %s volume %s of solid of revolution and draw graph"
-msgstr  "Trovare %s il volume %s di un solido di rotazione e disegnare il "
-        "grafico"
-
-msgid   "Find intercepts of curves"
-msgstr  "Trovare le intercette delle curve"
-
-msgid   "First order ODE"
-msgstr  "Equazione differenziale del primo ordine"
-
-msgid   "Formulation of the problem"
-msgstr  "Formulazione del problema"
-
-msgid   "Full equation"
-msgstr  "Equazione completa"
-
-msgid   "Function"
-msgstr  "Funzione"
-
-msgid   "Function calculator"
-msgstr  ""
-
-msgid   "Function grapher"
-msgstr  "Plot di funzioni"
-
-msgid   "Geometrical applications of definite integral"
-msgstr  "Applicazioni geometriche dell'integrale definito"
-
-msgid   "Hessian at stationary point"
-msgstr  "Hessiano in un punto stazionario"
-
-msgid   "Hessian at stationary points"
-msgstr  "Hessiano nei punti stazionari "
-
-msgid   "History"
-msgstr  "Storia"
-
-msgid   "If the input contains logarithm, use"
-msgstr  "Se l'input contiene logaritmi, usa"
-
-msgid   "Inequalities"
-msgstr  "Disequazioni"
-
-msgid   "Initial approximation"
-msgstr  "Approssimazione iniziale"
-
-msgid   "Integral calculus"
-msgstr  "Calcolo integrale"
-
-msgid   "Integral of a scalar field"
-msgstr  "Integrale di un campo scalare"
-
-msgid   "Integral of a vector field"
-msgstr  "Integrale di un campo vettoriale"
-
-msgid   "Interval for picture from "
-msgstr  "Intervallo per il grafico da"
-
-msgid   "Interval from"
-msgstr  "Intervallo da"
-
-msgid   "Interval from "
-msgstr  "Intervallo da"
-
-msgid   "Introduction"
-msgstr  "Introduzione"
-
-msgid   "Investigating functions"
-msgstr  ""
-
-msgid   "Known bugs"
-msgstr  "Bachi noti"
-
-msgid   "Lagrange polynomial"
-msgstr  "Polinomio di Lagrange"
-
-msgid   "Least squares method"
-msgstr  "Metodo dei minimi quadrati"
-
-msgid   "Leave the last field empty for integral in 2D plane."
-msgstr  "Lascia vuoto l'ultimo campo per gli integrali in R^2"
-
-msgid   "Limits for integration"
-msgstr  "Estremi di integrazione"
-
-msgid   "Line integral"
-msgstr  "Integrale di linea"
-
-msgid   "Local extrema in two variables"
-msgstr  "Estremi locali in due variabili"
-
-msgid   "Local maxima and minima in two variables"
-msgstr  "Massimi e minimi locali in due variabili"
-
-msgid   "Logarithm"
-msgstr  "Logaritmo"
-
-msgid   "Lower bound"
-msgstr  "Limite inferiore"
-
-msgid   "MAW-main"
-msgstr  "<span class=\"nadpis\">A proposito di questa pagina</span> "
-        "<br>Questo sito contiene un'interfaccia per accedere al \"computer "
-        "algebra system\" <a href=\"http://maxima.sourceforge.net/\">Maxima</"
-        "a> e risolvere automaticamente una selezione di problemi tipici da "
-        "corsi matematici, con i passi intermedi della soluzione."
-
-msgid   "Mathematical Assistant on Web"
-msgstr  "Mathematical Assistant on Web"
-
-msgid   "Method"
-msgstr  "Metodo"
-
-msgid   "Method of iterations"
-msgstr  "metodo di iterazione"
-
-msgid   "More languages"
-msgstr  "Più lingue"
-
-msgid   "Newton-Raphson method"
-msgstr  "Metodo di Newton-Raphson"
-
-msgid   "Number of steps "
-msgstr  "Numero di passi"
-
-msgid   "Ordinary derivative (function in one variable)"
-msgstr  "Derivata ordinaria (funzione di una variabile)"
-
-msgid   "Ordinary differential equations"
-msgstr  "Equazioni differenziali ordinarie"
-
-msgid   "Output"
-msgstr  "Output"
-
-msgid   "Parameter bounds"
-msgstr  "Limiti dei parametri"
-
-msgid   "Parameters"
-msgstr  "Parametri"
-
-msgid   "Partial derivative with respect to <i>x</i> (function in two "
-        "variables)"
-msgstr  "Derivata parziale rispetto a <i>x</i> (funzioni di due variabili)"
-
-msgid   "Partial derivative with respect to <i>y</i> (function in two "
-        "variables)"
-msgstr  "Derivata parziale rispetto a <i>y</i> (funzioni di due variabili)"
-
-msgid   "Precalculus"
-msgstr  "Nozioni preliminari di Analisi Matematica"
-
-msgid   "Preview"
-msgstr  "Preview"
-
-msgid   "Preview region of integration"
-msgstr  "Anteprima della regione di integrazione."
-
-msgid   "Read the comments below the form to find out, which inequalities can "
-        "be solved."
-msgstr  "leggere i commenti sotto il modulo per capire quali disuguaglianze "
-        "possono essere risolte."
-
-msgid   "Region for integration"
-msgstr  "Regione di integrazione"
-
-msgid   "Regula falsi"
-msgstr  "Regula falsi"
-
-msgid   "Second order LDE"
-msgstr  "Equazione differenziale lineare del secondo ordine"
-
-msgid   "Second order linear differential equations"
-msgstr  "Equazioni differenziali lineari del secondo ordine"
-
-msgid   "Showcase"
-msgstr  ""
-
-msgid   "Singular points of autonomous systems"
-msgstr  "Punti singolari di sistemi autonomi"
-
-msgid   "Submit"
-msgstr  "Invia"
-
-msgid   "Support from MAW forum"
-msgstr  "Supporto dal forum di MAW"
-
-msgid   "Switch to a compact design"
-msgstr  ""
-
-msgid   "Switch to a full design"
-msgstr  "Passa a figura intera"
-
-msgid   "System of inequalities (in one or two variables)"
-msgstr  "Sistema di disequazioni (in una o due variabili)"
-
-msgid   "Task for computation"
-msgstr  ""
-
-msgid   "Taylor polynomial"
-msgstr  "Polinomio di Taylor"
+msgid "Find %s area %s between two curves and draw graph."
+msgstr ""
+"Trovare %s l'area %s della regione compresa tra due curve e disegnare il "
+"grafico"
 
 #, php-format
-msgid   "The calculator evaluates %s."
-msgstr  "La calcolatrice valuta %s."
+msgid "Find %s volume %s of solid of revolution and draw graph"
+msgstr ""
+"Trovare %s il volume %s di un solido di rotazione e disegnare il grafico"
 
-msgid   "The device type (tablet/pc) will be determined automatically."
-msgstr  ""
+msgid "Find intercepts of curves"
+msgstr "Trovare le intercette delle curve"
 
-msgid   "The site will be shown as on the computer."
-msgstr  ""
+msgid "First order ODE"
+msgstr "Equazione differenziale del primo ordine"
 
-msgid   "The site will be shown as on the tablet."
-msgstr  ""
+msgid "Formulation of the problem"
+msgstr "Formulazione del problema"
 
-msgid   "The type of the derivative"
-msgstr  "Il tipo di derivata"
+msgid "Full equation"
+msgstr "Equazione completa"
 
-msgid   "Trapezoidal rule"
-msgstr  "Regola dei trapezi"
+msgid "Function"
+msgstr "Funzione"
 
-msgid   "Trapezoidal rule (approximation for definite integral)"
-msgstr  "Regola dei trapezi (approssimazione per gli integrali definiti)"
+msgid "Function calculator"
+msgstr ""
 
-msgid   "Upper bound"
-msgstr  "Limite superiore"
+msgid "Function grapher"
+msgstr "Plot di funzioni"
 
-msgid   "What to do"
-msgstr  "Che cosa fare"
+msgid "Geometrical applications of definite integral"
+msgstr "Applicazioni geometriche dell'integrale definito"
 
-msgid   "You can use Preview and Edit buttons for entering the right hand side"
-msgstr  ""
+msgid "Hessian at stationary point"
+msgstr "Hessiano in un punto stazionario"
 
-msgid   "You should turn JavaScript on to see popup informations."
-msgstr  "Devi attivare i Javascript per vedere le informazioni nelle finestre "
-        "popup"
+msgid "Hessian at stationary points"
+msgstr "Hessiano nei punti stazionari "
+
+msgid "History"
+msgstr "Storia"
+
+msgid "If the input contains logarithm, use"
+msgstr "Se l'input contiene logaritmi, usa"
+
+msgid "Inequalities"
+msgstr "Disequazioni"
+
+msgid "Initial approximation"
+msgstr "Approssimazione iniziale"
+
+msgid "Integral calculus"
+msgstr "Calcolo integrale"
+
+msgid "Integral of a scalar field"
+msgstr "Integrale di un campo scalare"
+
+msgid "Integral of a vector field"
+msgstr "Integrale di un campo vettoriale"
+
+msgid "Interval for picture from "
+msgstr "Intervallo per il grafico da"
+
+msgid "Interval from"
+msgstr "Intervallo da"
+
+msgid "Interval from "
+msgstr "Intervallo da"
+
+msgid "Introduction"
+msgstr "Introduzione"
+
+msgid "Investigating functions"
+msgstr ""
+
+msgid "Known bugs"
+msgstr "Bachi noti"
+
+msgid "Lagrange polynomial"
+msgstr "Polinomio di Lagrange"
+
+msgid "Least squares method"
+msgstr "Metodo dei minimi quadrati"
+
+msgid "Leave the last field empty for integral in 2D plane."
+msgstr "Lascia vuoto l'ultimo campo per gli integrali in R^2"
+
+msgid "Limits for integration"
+msgstr "Estremi di integrazione"
+
+msgid "Line integral"
+msgstr "Integrale di linea"
+
+msgid "Local extrema in two variables"
+msgstr "Estremi locali in due variabili"
+
+msgid "Local maxima and minima in two variables"
+msgstr "Massimi e minimi locali in due variabili"
+
+msgid "Logarithm"
+msgstr "Logaritmo"
+
+msgid "Lower bound"
+msgstr "Limite inferiore"
+
+msgid "MAW-main"
+msgstr ""
+"<span class=\"nadpis\">A proposito di questa pagina</span> <br>Questo sito "
+"contiene un'interfaccia per accedere al \"computer algebra system\" <a "
+"href=\"http://maxima.sourceforge.net/\">Maxima</a> e risolvere "
+"automaticamente una selezione di problemi tipici da corsi matematici, con i "
+"passi intermedi della soluzione."
+
+msgid "Mathematical Assistant on Web"
+msgstr "Mathematical Assistant on Web"
+
+msgid "Method"
+msgstr "Metodo"
+
+msgid "Method of iterations"
+msgstr "metodo di iterazione"
+
+msgid "More languages"
+msgstr "Più lingue"
+
+msgid "Newton-Raphson method"
+msgstr "Metodo di Newton-Raphson"
+
+msgid "Number of steps "
+msgstr "Numero di passi"
+
+msgid "Ordinary derivative (function in one variable)"
+msgstr "Derivata ordinaria (funzione di una variabile)"
+
+msgid "Ordinary differential equations"
+msgstr "Equazioni differenziali ordinarie"
+
+msgid "Output"
+msgstr "Output"
+
+msgid "Parameter bounds"
+msgstr "Limiti dei parametri"
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "Partial derivative with respect to <i>x</i> (function in two variables)"
+msgstr "Derivata parziale rispetto a <i>x</i> (funzioni di due variabili)"
+
+msgid "Partial derivative with respect to <i>y</i> (function in two variables)"
+msgstr "Derivata parziale rispetto a <i>y</i> (funzioni di due variabili)"
+
+msgid "Precalculus"
+msgstr "Nozioni preliminari di Analisi Matematica"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Preview region of integration"
+msgstr "Anteprima della regione di integrazione."
+
+msgid ""
+"Read the comments below the form to find out, which inequalities can be "
+"solved."
+msgstr ""
+"leggere i commenti sotto il modulo per capire quali disuguaglianze possono "
+"essere risolte."
+
+msgid "Region for integration"
+msgstr "Regione di integrazione"
+
+msgid "Regula falsi"
+msgstr "Regula falsi"
+
+msgid "Second order LDE"
+msgstr "Equazione differenziale lineare del secondo ordine"
+
+msgid "Second order linear differential equations"
+msgstr "Equazioni differenziali lineari del secondo ordine"
+
+msgid "Showcase"
+msgstr ""
+
+msgid "Singular points of autonomous systems"
+msgstr "Punti singolari di sistemi autonomi"
+
+msgid "Submit"
+msgstr "Invia"
+
+msgid "Support from MAW forum"
+msgstr "Supporto dal forum di MAW"
+
+msgid "Switch to a compact design"
+msgstr ""
+
+msgid "Switch to a full design"
+msgstr "Passa a figura intera"
+
+msgid "System of inequalities (in one or two variables)"
+msgstr "Sistema di disequazioni (in una o due variabili)"
+
+msgid "Task for computation"
+msgstr ""
+
+msgid "Taylor polynomial"
+msgstr "Polinomio di Taylor"
 
 #, php-format
-msgid   "Your input is being processed. Wait few seconds to see the output. "
-        "Click %shere%s to reopen the form which has been submited."
-msgstr  "Il tuo input viene processato. Aspetta qualche secondo per vedere "
-        "l'output. Clicca qui per riaprire il form che è stato inviato."
+msgid "The calculator evaluates %s."
+msgstr "La calcolatrice valuta %s."
 
-msgid   "and change bounds to get equal units on both axes"
-msgstr  "e cambiare i limiti per ottenere la stessa unità di misura su "
-        "entrambi gli assi."
+msgid "The device type (tablet/pc) will be determined automatically."
+msgstr ""
 
-msgid   "automatically differentiate constants"
-msgstr  "Deriva automaticamente le costanti"
+msgid "The site will be shown as on the computer."
+msgstr ""
 
-msgid   "automatically use linearity of derivative"
-msgstr  "Usa automaticamente la linearità della derivata"
+msgid "The site will be shown as on the tablet."
+msgstr ""
 
-msgid   "computer"
-msgstr  ""
+msgid "The type of the derivative"
+msgstr "Il tipo di derivata"
 
-msgid   "detect automatically"
-msgstr  ""
+msgid "Trapezoidal rule"
+msgstr "Regola dei trapezi"
 
-msgid   "draw domain on the set"
-msgstr  ""
+msgid "Trapezoidal rule (approximation for definite integral)"
+msgstr "Regola dei trapezi (approssimazione per gli integrali definiti)"
 
-msgid   "draw labels on axes, not on boundary"
-msgstr  "scrivi le etichette sugli assi, non sulla frontiera"
+msgid "Upper bound"
+msgstr "Limite superiore"
 
-msgid   "find Jacobi matrix at stationary point"
-msgstr  "Determinare la matrice Jacobiana in un punto stazionario"
+msgid "What to do"
+msgstr "Che cosa fare"
 
-msgid   "hide invisible parts"
-msgstr  "Nascondere le parti non visibili"
+msgid "You can use Preview and Edit buttons for entering the right hand side"
+msgstr ""
 
-msgid   "html only"
-msgstr  "solo html"
+msgid "You should turn JavaScript on to see popup informations."
+msgstr ""
+"Devi attivare i Javascript per vedere le informazioni nelle finestre popup"
 
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
-msgstr  "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_scalar_field"
+#, php-format
+msgid ""
+"Your input is being processed. Wait few seconds to see the output. Click "
+"%shere%s to reopen the form which has been submited."
+msgstr ""
+"Il tuo input viene processato. Aspetta qualche secondo per vedere l'output. "
+"Clicca qui per riaprire il form che è stato inviato."
 
-msgid   "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
-msgstr  "http://en.wikipedia.org/wiki/"
-        "Line_integral#Line_integral_of_a_vector_field"
+msgid "and change bounds to get equal units on both axes"
+msgstr ""
+"e cambiare i limiti per ottenere la stessa unità di misura su entrambi gli "
+"assi."
 
-msgid   "http://sourceforge.net/apps/phpbb/mathassistant"
-msgstr  "http://sourceforge.net/apps/phpbb/mathassistant"
+msgid "automatically differentiate constants"
+msgstr "Deriva automaticamente le costanti"
 
-msgid   "intervals in partition"
-msgstr  "intervalli della partizione"
+msgid "automatically use linearity of derivative"
+msgstr "Usa automaticamente la linearità della derivata"
 
-msgid   "limits for the picture with domain:"
-msgstr  "limiti per la figura con dominio:"
+msgid "computer"
+msgstr ""
 
-msgid   "line integral in 2D"
-msgstr  "integrali di linea in R^2"
+msgid "detect automatically"
+msgstr ""
 
-msgid   "line integral in 3D"
-msgstr  "Integrali di linea in R^3"
+msgid "draw domain on the set"
+msgstr ""
 
-msgid   "log with base"
-msgstr  "Logaritmo in base"
+msgid "draw labels on axes, not on boundary"
+msgstr "scrivi le etichette sugli assi, non sulla frontiera"
 
-msgid   "lower bound"
-msgstr  "limite inferiore"
+msgid "find Jacobi matrix at stationary point"
+msgstr "Determinare la matrice Jacobiana in un punto stazionario"
 
-msgid   "lower limit"
-msgstr  "Estremo inferiore"
+msgid "hide invisible parts"
+msgstr "Nascondere le parti non visibili"
 
-msgid   "natural log"
-msgstr  "Logaritmo naturale"
+msgid "html only"
+msgstr "solo html"
 
-msgid   "preview solid of revolution"
-msgstr  "preview di un solido di rotazione"
+msgid ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field"
+msgstr ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_scalar_field"
 
-msgid   "show colors, no mesh"
-msgstr  ""
+msgid ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field"
+msgstr ""
+"http://en.wikipedia.org/wiki/Line_integral#Line_integral_of_a_vector_field"
 
-msgid   "show grid"
-msgstr  "Mostra la griglia"
+msgid "http://sourceforge.net/apps/phpbb/mathassistant"
+msgstr "http://sourceforge.net/apps/phpbb/mathassistant"
 
-msgid   "solve also initial value problem"
-msgstr  "risolvere anche il problema a valori iniziali"
+msgid "intervals in partition"
+msgstr "intervalli della partizione"
 
-msgid   "suppose x,y>0"
-msgstr  "Supporre x,y>0"
+msgid "limits for the picture with domain:"
+msgstr "limiti per la figura con dominio:"
 
-msgid   "tablet"
-msgstr  ""
+msgid "line integral in 2D"
+msgstr "integrali di linea in R^2"
 
-msgid   "to"
-msgstr  "a"
+msgid "line integral in 3D"
+msgstr "Integrali di linea in R^3"
 
-msgid   "undetermined coefficients"
-msgstr  "coefficienti indeterminati"
+msgid "log with base"
+msgstr "Logaritmo in base"
 
-msgid   "upper bound"
-msgstr  "limite superiore"
+msgid "lower bound"
+msgstr "limite inferiore"
 
-msgid   "upper limit"
-msgstr  "Estremo superiore"
+msgid "lower limit"
+msgstr "Estremo inferiore"
 
-msgid   "use \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for "
-        "writing formulas on html page instead of  \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        "(the output is better but the rendering could be slower)\n"
-msgstr  "usare \n"
-        "<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per "
-        "scrivere formule su una pagina html invece di \n"
-        "<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
-        " (l'output è migliore ma la visualizzazione può essere lenta)\n"
+msgid "natural log"
+msgstr "Logaritmo naturale"
 
-msgid   "use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to "
-        "convert mathematical expressions (this allows to write  2x instead "
-        "of 2*x)"
-msgstr  "usare <a href=\"http://formconv.sourceforge.net/\">formconv</a> per "
-        "convertire le espressioni matematiche (questo permette di scrivere "
-        "2x anziché 2*x)"
+msgid "preview solid of revolution"
+msgstr "preview di un solido di rotazione"
 
-msgid   "use computer to find stationary points first (this may fail to find "
-        "all stationary points, however)"
-msgstr  "usare il computer per trovare il primo punto stazionario (il "
-        "procedimento può fallire nella ricerca di tutti i punti stazionari)"
+msgid "show colors, no mesh"
+msgstr ""
 
-msgid   "variation of constants"
-msgstr  "Variazione delle costanti"
+msgid "show grid"
+msgstr "Mostra la griglia"
 
-msgid   "write acsinh and atanh in terms of log"
-msgstr  "Scrivere acsinh e atanh usando i logaritmi"
+msgid "solve also initial value problem"
+msgstr "risolvere anche il problema a valori iniziali"
 
-msgid   "written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
-msgstr  "scritto da <a href=\"http://user.mendelu.cz/marik\" target=\"_blank"
-        "\">Robert Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/"
-        "tihlarik\" target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgid "suppose x,y>0"
+msgstr "Supporre x,y>0"
+
+msgid "tablet"
+msgstr ""
+
+msgid "to"
+msgstr "a"
+
+msgid "undetermined coefficients"
+msgstr "coefficienti indeterminati"
+
+msgid "upper bound"
+msgstr "limite superiore"
+
+msgid "upper limit"
+msgstr "Estremo superiore"
+
+msgid ""
+"use \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> for writing "
+"formulas on html page instead of  \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+"(the output is better but the rendering could be slower)\n"
+msgstr ""
+"usare \n"
+"<a href=\"http://www.math.union.edu/~dpvc/jsmath/\">jsMath</a> per scrivere "
+"formule su una pagina html invece di \n"
+"<a href=\"http://www.forkosh.com/mathtex.html\">mathTeX</a> \n"
+" (l'output è migliore ma la visualizzazione può essere lenta)\n"
+
+msgid ""
+"use <a href=\"http://formconv.sourceforge.net/\">formconv</a> to convert "
+"mathematical expressions (this allows to write  2x instead of 2*x)"
+msgstr ""
+"usare <a href=\"http://formconv.sourceforge.net/\">formconv</a> per "
+"convertire le espressioni matematiche (questo permette di scrivere 2x "
+"anziché 2*x)"
+
+msgid ""
+"use computer to find stationary points first (this may fail to find all "
+"stationary points, however)"
+msgstr ""
+"usare il computer per trovare il primo punto stazionario (il procedimento "
+"può fallire nella ricerca di tutti i punti stazionari)"
+
+msgid "variation of constants"
+msgstr "Variazione delle costanti"
+
+msgid "write acsinh and atanh in terms of log"
+msgstr "Scrivere acsinh e atanh usando i logaritmi"
+
+msgid ""
+"written by <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" "
+"target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
+msgstr ""
+"scritto da <a href=\"http://user.mendelu.cz/marik\" target=\"_blank\">Robert "
+"Mař&iacute;k</a> and <a href=\"http://user.mendelu.cz/tihlarik\" "
+"target=\"_blank\">Miroslava Tihlař&iacute;kov&aacute;</a>"
