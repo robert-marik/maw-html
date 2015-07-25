@@ -1,5 +1,5 @@
 <?php
- $cislo=mt_rand(0,9); 
+ $cislo=mt_rand(0,10); 
 
  $popisek='Integration (measuring area) by spoon, turn English subtitles on';
  $popisekcz='Integrování (měření obsahu) žličkou';
@@ -46,13 +46,22 @@
   $adresa='bmV52Hp1byc';
  }
 
-$dalsicislo=mt_rand(2,3);
-
- if (($cislo==8)||($dalsicislo==1))
+ if ($cislo==8)
  {
  $popisek='Does your Odhner calculator compute wihtout errors? Suggestions for quick check siutable when you obtain new mechanical calculator.';
  $popisekcz='Počítá vaše mechanická kalkulačka bez chyby? Kratičký orientační test co je vhodné provést s nově získanou kalkulačkou. (Ve videu si můžete zapnout české titulky.)';
  $adresa='ujJCGpFeB4Q';
+ }
+
+
+
+$dalsicislo=mt_rand(1,4);
+
+ if (($cislo==9)||($dalsicislo==1))
+ {
+  $popisek='Monroe calculator (model K, cca 1920) extracts square root using Monroe multiplication tables.';
+  $popisekcz='Kalkulator Monroe (model K, cca 1920) a výpočet odmocniny pomocí Monroeových multiplikačních tabulek.'; 
+  $adresa='ZZGKYMrpj0A';
  }
 
 
