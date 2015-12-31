@@ -1,5 +1,5 @@
 <?php
- $cislo=mt_rand(0,10); 
+ $cislo=mt_rand(0,15); 
 
  $popisek='Integration (measuring area) by spoon, turn English subtitles on';
  $popisekcz='Integrování (měření obsahu) žličkou';
@@ -53,16 +53,54 @@
  $adresa='ujJCGpFeB4Q';
  }
 
-
-
-$dalsicislo=mt_rand(1,4);
-
- if (($cislo==9)||($dalsicislo==1))
+if ($cislo==9)
  {
   $popisek='Monroe calculator (model K, cca 1920) extracts square root using Monroe multiplication tables.';
   $popisekcz='Kalkulator Monroe (model K, cca 1920) a výpočet odmocniny pomocí Monroeových multiplikačních tabulek.'; 
   $adresa='ZZGKYMrpj0A';
  }
+
+
+if ($cislo==10)
+ {
+  $popisek='Five rational approximations of Pi on (electro-)mechanical computers.';
+  $popisekcz='Pět aproximací Pi na (elektro-)mechanických kalulačkách.'; 
+  $adresa='IPu5GbOnI1A';
+ }
+
+if ($cislo==11)
+ {
+  $popisek='Cube root on (electro-)mechanical computer.';
+  $popisekcz='Třetí odmocnina na (elektro-)mechanické kalulačce.'; 
+  $adresa='igg1ZBRSlm8';
+ }
+
+if ($cislo==12)
+ {
+  $popisek='60 digits of quotient on Walther RKZ10 calulator ';
+  $popisekcz='Dělení na kalkulačce Walther s přesností na 60 cifer'; 
+  $adresa='gahwjIvsXXc';
+ }
+
+
+$dalsicislo=mt_rand(1,6);
+
+if (($cislo==13)||($dalsicislo<5))
+ {
+  $popisek='How vintage calculators show negative answer - big comparison of 12 calculators';
+  $popisekcz='Jak mechanické kalkulačky zobrazují záporná čísla - velké srovnání 12 modelů'; 
+  $adresa='iRwIEmyWRig';
+ }
+
+
+if (($cislo==14)||($dalsicislo<4))
+ {
+  $popisek='PF 2016: What is interesting on the number 2016?';
+  $popisekcz='PF 2016: Co je zajímavého na čísle 2016?'; 
+  $adresa='hT3BWiljISQ';
+ }
+
+
 
 
 if ($reqlang=="cs") {$popisek=$popisekcz;}

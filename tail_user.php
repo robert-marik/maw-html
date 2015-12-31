@@ -100,6 +100,9 @@ mé budoucí vzdělávání. Proto používám tuto aplikaci spíše ke kontrole
 výsledků získaných klasickým počítáním, nebo výjímečně v případech,
 kdy moje pokusy vypočítat příklad klasickou cestou selhaly.</div>';
 
+echo '<div style="color:#222; margin-left:10%; margin-right:20%;margin-top:10px;background-color:#FFF; padding:10px;"><div> 
+Pokud se Vám MAW líbí a pomáhá Vám, můžete poslat dárek, který bude použit k nákupu a záchraně nějaké mechanické nebo 
+elektromechanické kalkulačky a jejímu představení zde.';
 } else { 
 
 echo '<div
@@ -110,13 +113,26 @@ influence on your education. The optimal way how to use this
 application is to solve the problem and then check your result against
 computer generated answer.</div>';
 
+echo '<div style="color:#222; margin-left:10%; margin-right:20%;margin-top:10px;background-color:#FFF; padding:10px;"><div> 
+If you like MAW, you may donate the author. I will use your money to buy, rescue and introduce here a mechanical or electromechnical calculator
+Donations in the form of old calculators are also welcome.';
+
 }
 }
 
+echo '
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="background-color:#FFF; display:inline-div;">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>';
 
-echo "<div class=imgdiv>";
-echo "<a href='http://akademie.ldf.mendelu.cz'><img src='http://user.mendelu.cz/marik/akademie/OPVK.png'></a>";
-echo "</div>";
+
+#echo "<div class=imgdiv>";
+#echo "<a href='http://akademie.ldf.mendelu.cz'><img src='http://user.mendelu.cz/marik/akademie/OPVK.png'></a>";
+#echo "</div>";
 
 ?>
 
