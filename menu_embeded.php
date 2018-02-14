@@ -500,12 +500,12 @@ array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations'
  $youtubestring = $youtubestring.'</div>';
  if ($reqlang=="cs")	
  {
- $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; margin-top:5px; font-size:75%;">Celý <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube kanál</a>';
+ $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; margin-top:5px; font-size:75%;">Celý <a href="https://www.youtube.com/c/RobertMarik">Youtube kanál</a>';
  $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; font-size:75%;">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a></p>';
 }   
 else
 {
- $youtubestring = $youtubestring.'<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube chanel</a>.</p>';
+ $youtubestring = $youtubestring.'<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/c/RobertMarik">Youtube chanel</a>.</p>';
 } 
  $youtubestring = $youtubestring.'</div></div>';
 

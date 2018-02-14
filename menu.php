@@ -311,6 +311,10 @@ display : inline-block; }
   }
 }
 
+
+
+
+
 .mobilemenu, .maw_mobile_menu {padding:0px;}
 .mobilemenu {padding-top:6px;}
 
@@ -343,7 +347,9 @@ display : inline-block; }
    max-width:158px;
 }
       
-.banner {margin-top:150px; height:220px;}      
+.banner {margin-top:150px; 
+height:220px; 
+}      
       
 .banner #imgmain{
       display:block !important;
@@ -356,6 +362,22 @@ display : inline-block; }
 .sdeleni{font-size:85%;}
 
 .playbtn {width:20px; position:absolute;margin-left:3px; color:white;} 
+
+.YTB {width:100%; background-color:#5fcc06; border-top: solid #666 5px; padding-top:5px;}
+.YTBleft{width:30%; float:left; padding:10px;}
+.YTBright{margin-left:30%; width:300px;}
+.YTBnadpis {color:#222; font-weight:bold;}
+.YTBtext {color:#333;}
+
+.leva {width:165px; float:left;}
+.prava{margin-left:165px;}
+
+
+@media screen and (max-width: 600px) {
+ .leva {display:none;}
+ .prava{margin-left:5px;}
+}
+
 
 
 </style>
@@ -533,6 +555,7 @@ function maw_submenu ($a,$b,$c,$d,$double="normal")
 
 function opt_shuffle ($input)
 {
+  return($input);
   if(mt_rand(0,3)!=0)
   {return ($input);}
   else
@@ -542,11 +565,30 @@ function opt_shuffle ($input)
 
 
 
- $youtubestring='<div class="wrapper polozka double"><div id="one" class="cetered-div border">';
+ $youtubestring='<div class="YTB">';
  include("youtube.php");
  //$popisek='Division on meat grinder / dělení mlýnkem na maso';
  //$adresa='HecEOd2494k';
- $youtubestring = $youtubestring."<div class='popisek'>$popisek</div>";
+ $youtubestring = $youtubestring."<div class='YTBleft'><span class='YTBnadpis'>$popisek</span>";
+ if ($moje_video==1)
+ {
+  if ($reqlang=="cs")	
+ {
+ $youtubestring = $youtubestring.'<p class="YTBtext">Celý <a href="https://www.youtube.com/c/RobertMarik">Youtube kanál</a>';
+ $youtubestring = $youtubestring.'<p class="YTBtext">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a></p>';
+ $donatestring="Líbí se Vám tato stránka? Podpora ve formě staré počítačky, nebo návrhu nového designu tohoto webu je více než vítána. <br>Adresa pro komunikaci je marik(at)mendelu.cz.";
+ $donatestring="";
+}   
+else
+{
+ $youtubestring = $youtubestring.'<p class="YTBtext">The rest of the <a href="https://www.youtube.com/c/RobertMarik">Youtube chanel</a>.</p>';
+ $donatestring="Do you like Mathematical Assistant on Web? Donations in the form of old calculators or attractive and friendly design for MAW are highly appretiated. <br>The email address: marik(at)mendelu.cz";
+ $donatestring="";
+}
+} 
+
+ $youtubestring = $youtubestring."</div><div style='float:right; width:20%; padding:5px;'>$donatestring</div><div class='YTBright'>";
+ $youtubestrin=$youtubestring.'<div id="one">';
  $youtubestring = $youtubestring.'<div class="responsive-container">';
  $imgadresa=preg_replace('/\?.*/', '', $adresa);;
 //if ($adresa==$imgadresa) {$adresa=$adresa."?fs=1&amp;autoplay=1";}
@@ -555,16 +597,7 @@ function opt_shuffle ($input)
  //$youtubestring = $youtubestring.'<iframe src="https://www.youtube.com/embed/';
  //$youtubestring = $youtubestring.$adresa;
  //$youtubestring = $youtubestring.'" frameborder="0" allowfullscreen></iframe>';
- $youtubestring = $youtubestring.'</div>';
- if ($reqlang=="cs")	
- {
- $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; margin-top:5px; font-size:75%;">Celý <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube kanál</a>';
- $youtubestring = $youtubestring.'<p style="text-align:right; margin:0pt; font-size:75%;">Web <a href="http://user.mendelu.cz/marik/mechmat">Mechanická matematika</a></p>';
-}   
-else
-{
- $youtubestring = $youtubestring.'<p style="text-align:right;">The rest of the <a href="https://www.youtube.com/user/KAJAMARIK1974/videos">Youtube chanel</a>.</p>';
-} 
+ $youtubestring = $youtubestring.'</div></div>';
  $youtubestring = $youtubestring.'</div></div>';
 
 $animation='
@@ -574,22 +607,51 @@ $animation='
 ">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form><a class="fancybox-media" href="http://youtu.be/f-VF7cuF7kQ">
+</form>
+<div class="uzkyNe">
+<a class="fancybox-media" href="http://youtu.be/f-VF7cuF7kQ">
 <img id="imgmain" src="http://um.mendelu.cz/maw-html/images/init0.jpg"/>
 <img id="img4" class="animimg" src="http://um.mendelu.cz/maw-html/images/init4.jpg"/>
 </a>
+</div>
+</div>
+';
 
+$animation='
+<div class="banner">
+<div class="uzkyNe">
+<a class="fancybox-media" href="http://youtu.be/f-VF7cuF7kQ">
+<img id="imgmain" src="http://um.mendelu.cz/maw-html/images/init0.jpg"/>
+<img id="img4" class="animimg" src="http://um.mendelu.cz/maw-html/images/init4.jpg"/>
+</a>
+</div>
 </div>
 ';
 
 
 $donate='';
 
+
+echo "<div class='obalka'>";
+echo "<div class='leva'>";
+echo "$social $donate $animation";
+
+if (($reqlang == "cs")&&($sdeleni_cz!="")) {echo ("<div class='polozka href nopadding uzkyNe'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
+if (($reqlang != "cs")&&($sdeleni_en!="")) {echo ("<div class='polozka href nopadding uzkyNe'><div class='sdeleni'>$sdeleni_en</div></div> ");}
+
+
+
+if (($reqlang == "cs")&&($sdeleni_czB!="")) {echo "<div class='polozka href nopadding uzkyNe'><div class='sdeleni'>$sdeleni_czB</div></div>";}
+if (($reqlang != "cs")&&($sdeleni_enB!="")) {echo "<div class='polozka href nopadding uzkyNe'><div class='sdeleni'>$sdeleni_enB</div></div> ";}
+
+
+echo "</div>";
+echo "<div class='prava'>";
+
 printf("\n<div class=\"maw_mobile_menu\">");
 
 
 $calcs = array();
-array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div><div>".$donate.$animation."</div></div></div>");
 //array_push($calcs, "<div class='polozka href nopadding double social'><div class='sdeleni'><div>".$social."</div></div></div>");
 
 
@@ -607,11 +669,6 @@ array_push($calcs, maw_submenu('definite',$lang,'definite',__('Definite integral
 //$calcs = opt_shuffle ($calcs);  
 foreach ($calcs as $value) {    echo $value; } $calcs = array();
 
-if (($reqlang == "cs")&&($sdeleni_cz!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_cz</div></div> ");}
-if (($reqlang == "cs")&&($sdeleni_czB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czB</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_en!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_en</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enB!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enB</div></div> ");}
-
 array_push($calcs, maw_submenu('geom',$lang,'geom',__('Geometrical applications of definite integral')));
 array_push($calcs, maw_submenu("minmax3d",$lang,"minmax3d", __('Local maxima and minima in two variables')));
 array_push($calcs, maw_submenu('df',$lang,'df', __("Domain of functions (one variable)")));
@@ -619,30 +676,39 @@ array_push($calcs, maw_submenu('df3d',$lang,'df3d', __("Domain of functions (two
 array_push($calcs, maw_submenu('lagrange',$lang,'lagrange',__('Lagrange polynomial')));
 array_push($calcs, maw_submenu('mnc',$lang,'mnc',__('Least squares method')));
 
-$calcs = opt_shuffle ($calcs);  
+
+//$calcs = opt_shuffle ($calcs);  
 foreach ($calcs as $value) {    echo $value; } $calcs = array();
 
 array_push($calcs, maw_submenu("taylor",$lang,'taylor', __('Taylor polynomial')));
 array_push($calcs, maw_submenu('lineintegral',$lang,'lineintegral',__('Line integral')));
 array_push($calcs, maw_submenu('lde2',$lang,'lde2',__('Second order LDE')));
-array_push($calcs, $youtubestring);
 array_push($calcs, maw_submenu('trap',$lang,'trap',__('Trapezoidal rule')));
 
 foreach ($calcs as $value) {    echo $value; } $calcs = array();
 
-if (($reqlang == "cs")&&($sdeleni_czC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czC</div></div> ");}
-if (($reqlang != "cs")&&($sdeleni_enC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enC</div></div> ");}
 
 array_push($calcs, maw_submenu('autsyst',$lang,'autsyst',__('Autonomous system')));
 array_push($calcs, maw_submenu('bisection',$lang,'bisection',__('Bisection')));
 array_push($calcs, maw_submenu('newton',$lang,'newton',__('Newton-Raphson method')));
 array_push($calcs, maw_submenu('regula_falsi',$lang,'regula_falsi',__('Regula falsi')));
 array_push($calcs, maw_submenu('banach',$lang,'banach',__('Method of iterations')));
+array_push($calcs, maw_submenu('ineq2d',$lang,'ineq2d',__('Inequalities')));
+
+
+
+//if (($reqlang == "cs")&&($sdeleni_czC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_czC</div></div> ");}
+//if (($reqlang != "cs")&&($sdeleni_enC!="")) {array_push($calcs, "<div class='polozka href nopadding'><div class='sdeleni'>$sdeleni_enC</div></div> ");}
 
 
 
 //$calcs = opt_shuffle ($calcs);  
 foreach ($calcs as $value) {    echo $value; }
+
+echo "</div>";
+echo ($youtubestring);
+
+echo "</div>";
 
 
 ?>

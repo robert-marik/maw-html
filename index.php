@@ -171,7 +171,8 @@ function history($adresar,$server)
 function polejazyka($ret)
 {
 echo '<input type="hidden" name="lang" value="'.$ret.'">';
-echo '<input type="hidden" name="ip" value="'.$_SERVER['REMOTE_ADDR'].'">';
+//echo '<input type="hidden" name="ip" value="'.$_SERVER['REMOTE_ADDR'].'">';
+echo '<input type="hidden" name="ip" value="">';
 $ref=$_SERVER['HTTP_REFERER'];
 echo '<input type="hidden" name="referer" value="'.str_replace("&", "&amp;",$ref).'">';
 }
